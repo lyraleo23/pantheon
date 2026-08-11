@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lyraleo/pantheon/schema/trophy_list.schema.json",
+  "title": "Pantheon Trophy List",
+  "type": "object",
+  "required": ["game", "trophies"],
+  "additionalProperties": false,
+  "properties": {
+    "game": {
+      "type": "object",
+      "required": [
+        "title",
+        "slug",
+        "code",
+        "targetPlatform",
+        "mode",
+        "listVersion",
+        "rulesetVersion"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Directory name. Lowercase, hyphen separated."
+        },
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z0-9]{2,8}$",
+          "description": "Trophy ID prefix. Unique per game by convention, e.g. HK, PLGP, XC2."
+        },
+        "targetPlatform": {
+          "type": "string",
+          "description": "Platform the player owns, e.g. 'Nintendo Switch'."
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["genesis", "port"],
+          "description": "genesis = no native list anywhere. port = adapted from another platform."
+        },
+        "sourcePlatform": {
+          "type": "string",
+          "description": "Required when mode is 'port'. Platform the native list was taken from."
+        },
+        "nativeCount": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "How many achievements the native source list had, before filtering."
+        },
+        "developer": { "type": "string" },
+        "publisher": { "type": "string" },
+        "genre": { "type": "string" },
+        "releaseYear": { "type": "integer", "minimum": 1970, "maximum": 2100 },
+        "estimatedDifficulty": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "estimatedHours": { "type": "string" },
+        "listVersion": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+        "rulesetVersion": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "audited", "approved"],
+          "default": "draft"
+        },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "trophies": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "tier",
+          "type",
+          "verification",
+          "missable",
+          "secret",
+          "origin"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]{2,8}-\\d{3}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Thematic English name. Never a generic label."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The objective condition, in English."
+          },
+          "tier": {
+            "type": "string",
+            "enum": ["bronze", "silver", "gold", "platinum"]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "story",
+              "exploration",
+              "challenge",
+              "collection",
+              "sidequest",
+              "boss",
+              "mechanic",
+              "minigame",
+              "postgame",
+              "multiplayer"
+            ]
+          },
+          "verification": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Rule 1. Where in the game the player confirms this was completed."
+          },
+          "missable": { "type": "boolean" },
+          "secret": { "type": "boolean" },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "original",
+              "native-steam",
+              "native-playstation",
+              "native-xbox",
+              "native-other"
+            ]
+          },
+          "originId": {
+            "type": "string",
+            "description": "Original native achievement name. Required when origin is not 'original'."
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+
+    "dlc": {
+      "type": "array",
+      "description": "Rule 14. Separate lists that never affect the base Platinum.",
+      "items": {
+        "type": "object",
+        "required": ["name", "trophies"],
+        "properties": {
+          "name": { "type": "string" },
+          "trophies": { "type": "array" }
+        }
+      }
+    },
+
+    "excluded": {
+      "type": "array",
+      "description": "Rule 22 audit trail. Native entries deliberately dropped, and why.",
+      "items": {
+        "type": "object",
+        "required": ["originId", "reason"],
+        "additionalProperties": false,
+        "properties": {
+          "originId": { "type": "string" },
+          "reason": { "type": "string" },
+          "rule": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 23,
+            "description": "Which rule justified the exclusion."
+          }
+        }
+      }
+    }
+  }
+}

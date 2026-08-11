@@ -1,0 +1,44 @@
+{
+  "game": {
+    "title": "Game Title",
+    "slug": "game-title",
+    "code": "GT",
+    "targetPlatform": "Nintendo Switch",
+    "mode": "genesis",
+    "developer": "",
+    "publisher": "",
+    "genre": "",
+    "releaseYear": 2020,
+    "estimatedDifficulty": 5,
+    "estimatedHours": "30-40h",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "draft",
+    "notes": ""
+  },
+  "trophies": [
+    {
+      "id": "GT-001",
+      "name": "First Steps",
+      "description": "Complete the opening chapter.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "Chapter marked complete on the chapter select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "GT-002",
+      "name": "Thematic Platinum Name",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "excluded": []
+}
