@@ -113,6 +113,41 @@ function renderTrophies(data) {
     L.push("");
   }
 
+  if (Array.isArray(data.dlc) && data.dlc.length) {
+    L.push("## DLC (Rule 14 — separate from the base Platinum)");
+    L.push("");
+    for (const pack of data.dlc) {
+      const dCounts = pack.trophies.reduce((a, t) => ((a[t.tier] = (a[t.tier] || 0) + 1), a), {});
+      L.push(`### ${pack.name}`);
+      L.push("");
+      L.push(`| | |`);
+      L.push(`|---|---|`);
+      L.push(`| **Total** | ${pack.trophies.length} |`);
+      L.push(`| **Breakdown** | 🥉 ${dCounts.bronze || 0} · 🥈 ${dCounts.silver || 0} · 🥇 ${dCounts.gold || 0} |`);
+      L.push("");
+      L.push("| ID | Trophy | Tier | Type | Flags |");
+      L.push("|---|---|---|---|---|");
+      for (const t of pack.trophies) {
+        L.push(`| \`${t.id}\` | ${t.secret ? "🔒 *Hidden*" : t.name} | ${TIER_LABEL[t.tier]} | ${TYPE_LABEL[t.type]} | ${flags(t) || "—"} |`);
+      }
+      L.push("");
+      for (const t of pack.trophies) {
+        L.push(`#### \`${t.id}\` ${TIER_LABEL[t.tier].split(" ")[0]} ${t.name}`);
+        L.push("");
+        L.push(t.description);
+        L.push("");
+        L.push(`**Tier:** ${TIER_LABEL[t.tier]} · **Type:** ${TYPE_LABEL[t.type]}`);
+        L.push("");
+        L.push(`**How to verify:** ${t.verification}`);
+        if (flags(t)) { L.push(""); L.push(flags(t)); }
+        if (t.notes) { L.push(""); L.push(`> ${t.notes}`); }
+        L.push("");
+        L.push("---");
+        L.push("");
+      }
+    }
+  }
+
   if (Array.isArray(data.excluded) && data.excluded.length) {
     L.push("## Excluded from the Native List");
     L.push("");
@@ -163,6 +198,20 @@ function renderProgress(data) {
   L.push("");
   L.push("⬜ not earned · ✅ earned");
   L.push("");
+
+  if (Array.isArray(data.dlc) && data.dlc.length) {
+    for (const pack of data.dlc) {
+      L.push(`## DLC — ${pack.name}`);
+      L.push("");
+      L.push("| ✔ | ID | Trophy | Tier | Date | Notes |");
+      L.push("|---|---|---|---|---|---|");
+      for (const t of pack.trophies) {
+        L.push(`| ⬜ | \`${t.id}\` | ${t.name} | ${TIER_LABEL[t.tier]} | | |`);
+      }
+      L.push("");
+    }
+  }
+
   L.push("## Stats");
   L.push("");
   L.push(`- 🥉 Bronze: 0/${counts.bronze || 0}`);

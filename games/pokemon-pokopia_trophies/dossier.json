@@ -1,0 +1,150 @@
+{
+  "game": "Pokémon Pokopia",
+  "platform": "Nintendo Switch 2",
+  "mode": "genesis",
+  "releaseDate": "2026-03-05",
+  "researchDate": "2026-08-12",
+  "premise": "Player is a Ditto transformed into human form, arriving in a post-apocalyptic, emptied-out Kanto-inspired world. Goal is to rebuild the land and repopulate it with Pokémon by building habitats, homes, and communities. No combat/battling system exists in this game.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Nintendo consoles have no system-level achievement/trophy system. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — Switch 2 exclusive, no version on any other platform"
+  },
+  "campaignStructure": {
+    "regions": [
+      "Withered Wasteland (spelling varies across sources: 'Wasteland' vs 'Wastelands'; starting area)",
+      "Bleak Beach",
+      "Rocky Ridges",
+      "Sparkling Skylands (final of 4 main story regions)",
+      "Palette Town (postgame 5th area, freeform, unlocked after credits)"
+    ],
+    "trainerRank": {
+      "tiers": ["No Rank/Starter", "Great", "Ultra", "Master"],
+      "mechanism": "Rank rises automatically by completing story 'Important Requests' tied to meeting Legendary Pokémon — not an XP/grind system.",
+      "progression": [
+        { "rank": "Great", "trigger": "Complete 'Yawn Up A Storm' in Withered Wasteland → meet Kyogre", "unlocks": "Bleak Beach, Rocky Ridges" },
+        { "rank": "Ultra", "trigger": "Complete 'Brighten Things Up' (Bleak Beach → Raikou) AND 'Time to Party' (Rocky Ridges → Volcanion)", "unlocks": "Sparkling Skylands" },
+        { "rank": "Master", "trigger": "Complete 'Rebuild the Huge Building' in Sparkling Skylands → meet Mewtwo", "unlocks": "n/a — marks story near-completion" }
+      ],
+      "trackability": "NOT a persistent menu meter — only a one-time rank-up popup notification and testing area gates. This limits its usability as a verification method for trophies (Rule 1 concern)."
+    },
+    "bosses": {
+      "hasTraditionalBosses": false,
+      "note": "No combat system exists in this game. Confirmed by multiple independent reviews. The closest equivalent is 4 peaceful story-critical Legendary Pokémon encounters (Kyogre, Raikou, Volcanion, Mewtwo), each ending a region's main Important Request."
+    },
+    "ending": {
+      "trigger": "Completing 'Team Initiation Challenge' — the final Important Request: delivering collected badges/items to a lighthouse structure in Withered Wasteland, then supplying two party poppers, causing the structure to reveal itself as a rocket and launch.",
+      "sequence": "Space-themed credits sequence; rocket travels through space and meets another spacecraft.",
+      "postCredits": "No alternate/secret ending. No New Game Plus. Returns player to the island; nothing is locked out.",
+      "postgameUnlocks": ["Palette Town (5th freeform area)", "A secret room in NW Sparkling Skylands, unlocked by completing the Pokédex (per one source)", "Team Rocket Hideout (secret area beneath the ending's lighthouse)"],
+      "loreTwist": "Postgame reveals Team Rocket ('Team R') built the evacuation rockets that saved humanity — recontextualized as morally complex rather than pure villains. Single-sourced, medium confidence."
+    }
+  },
+  "sideContent": {
+    "importantRequests": "10 Important Requests form the main story spine across the 4 base regions, tracked via an in-game Requests menu.",
+    "generalRequests": {
+      "description": "Optional fetch/escort/delivery tasks from Pokémon residents (marked with speech-bubble icons), raising Comfort Level.",
+      "totalCount": "DISPUTED — Game8 says ~60 across 4 areas (no exact breakdown); a fan wiki (pokopia.center, low reliability) claims 74 total (10 Important + 32 Side + 18 Palette Town + 14 Postgame). Treat any specific number as unverified."
+    },
+    "collectibles": [
+      { "name": "Mysterious Slates", "count": 27, "detail": "A-Z + '!?' symbols, found via Rock Smash on glowing spots, placed on the Mysterious Mural. Confidence: high." },
+      { "name": "Fossils / Lost Relics (revival set)", "count": 22, "detail": "22 fossil pieces restore 9 prehistoric Pokémon. Confidence: medium. No confirmed in-game tracking screen." },
+      { "name": "Music CDs", "count": 43, "detail": "Played via DJ Rotom (holds 5 at a time). Confidence: medium. No confirmed in-game counter — avoid 'collect all 43' style trophy without a verification method." },
+      { "name": "Small/Large Lost Relics (appraisal items)", "count": "~83 (37 large + 46 small, single low-confidence source)", "detail": "Given to Professor Tangrowth for random reward. Not the same set as the 9-Pokémon-fossil collection above — naming is confusing across sources." },
+      { "name": "Furniture/item catalog", "count": "1244 items (fan catalog, low confidence, not confirmed as in-game trackable)" }
+    ],
+    "mewUnlock": "Placing all 27 Mysterious Slates on the Mysterious Mural reportedly unlocks Mew as a resident. One source separately claims Mew only appears in Palette Town — not reconciled, treat as plausibly sequential (mural unlocks eligibility, Mew resides in Palette Town).",
+    "secretAreas": [
+      { "name": "Team Rocket Hideout", "detail": "Hidden area beneath the ending lighthouse, accessible only after the final Important Request. Contains a Magnemite and a CD. High confidence." },
+      { "name": "Palette Town", "detail": "Postgame 5th region, freeform building, no professor guidance. High confidence it exists; exact unlock mechanics disputed." }
+    ],
+    "minigames": [
+      { "name": "Jump Rope", "detail": "Unlocked via Bulbasaur's habitat; timing-based. Solo or multiplayer. High confidence." },
+      { "name": "Hide-and-Sneak", "detail": "Multiplayer hide-and-seek via Zorua's Camouflage ability. Medium confidence." },
+      { "name": "Look That Way", "detail": "Prediction minigame, best-of-3, Comfort Level reward only. Medium confidence." },
+      { "name": "Quizzes", "detail": "Trivia from certain Pokémon; item rewards for correct answers. Medium confidence." }
+    ],
+    "postgameActivities": ["Complete the Pokédex (300+ species claimed)", "Build every habitat type", "Unlock remaining recipes", "Recover remaining fossils/relics", "Gather 'Human Records' lore collectibles (count unconfirmed)", "Fully decorate the island"]
+  },
+  "progressionSystems": {
+    "environmentLevel": {
+      "description": "Per-region development score (habitat variety, decoration, vegetation, housing, Pokémon comfort/population) for each of the 4 story regions.",
+      "maxValueConflict": "UNRESOLVED — some sources say max is 5 and Level 5 in all 4 regions is required for the ending; others say max is 10, with Level 5 sufficient for credits but Level 10 needed for '100% completion'/Palette Town max. Do not build a trophy naming a specific max number without resolving this.",
+      "pokemonCenterRebuild": "Rebuilding a region's Pokémon Center requires Environment Level 3, a 1,000 Life Coin kit, and 8 qualifying resident Pokémon. Rebuilding all 4 main-story Pokémon Centers is required to reach the credits. This is high confidence and a strong trophy candidate."
+    },
+    "comfortAndFriendship": "Two parallel per-Pokémon stats: Comfort Level (habitat satisfaction) and Friendship (personal bond). Behavioral signals confirmed (naming change, gifts, 'best friend' dialogue at max) but NOT confirmed as numeric menu values — verification for a trophy would have to rely on the behavioral milestone (e.g., a Pokémon calling the player by name), not a stat screen.",
+    "currency": "Life Coins — main currency, earned via PC 'Challenges', spent on furniture/recipes/kits.",
+    "crafting": "600+ recipes across six categories. No confirmed in-game 'recipes learned/total' counter.",
+    "habitats": "Pokémon spawn only at player-built habitats (not free-roaming). ~212-214 total habitat types claimed by fan trackers (unverified, low confidence).",
+    "pokedex": {
+      "trackable": true,
+      "confidence": "high — this is the most reliably confirmed in-game trackable stat.",
+      "totalSpeciesConflict": "300 vs ~304 depending on source and whether event/DLC Pokémon are included. Do not hardcode an exact number in a trophy description without further confirmation; prefer 'complete the Pokédex' framed against whatever the in-game UI reports as 100%."
+    },
+    "photoMode": "A photo gallery/storage screen exists (v2.0.0 patch raised its cap from 10 to 40 photos), confirming the feature is real and trackable to some degree."
+  },
+  "missables": [
+    { "item": "Character name", "detail": "Chosen once at start, cannot be changed later (appearance is changeable via mirrors). Not itself trophy-relevant but confirms permanence of some early choices.", "confidence": "medium" },
+    { "item": "Seasonal Pokémon/items", "detail": "Some content tied to real-time seasons (~30 in-game days each); missing the window means waiting up to a year. Specific item names are single-sourced and low confidence — avoid naming them directly in trophies.", "confidence": "low" },
+    { "item": "Real-time limited events / Mystery Gift codes", "detail": "Time-limited real-world-dated events (e.g., a March 2026 Hoppip/Skiploom/Jumpluff event, a Jump Rope promotional event) grant exclusive content only available while live. Mystery Gift codes reportedly do not return once expired; most seasonal events reportedly recur annually.", "confidence": "low — exclude from base trophy list; not suitable for a durable, always-achievable list per Rule 13's 'reasonably achievable in the future' spirit." }
+  ],
+  "rngSystems": {
+    "habitatSpawns": "Pokémon appear at built habitats, filtered by habitat type, time of day (real-world clock-based), and weather. Rarity tiers (Common/Uncommon/Rare) affect spawn speed, not existence — a normal playthrough will encounter all tiers if habitats are built and left running. Reasonable for trophy design under Rule 21.",
+    "weather": "Dynamic, but controllable via specific habitat structures (Rain Dance Site, Sunny Day Site) — reduces RNG dependency for weather-gated content.",
+    "shinyPokemon": "CONTESTED. Official Pokémon.com community forum consensus and most press say Pokopia has NO shiny Pokémon (the 'one of each species' befriending design removes the shiny-hunting loop). One single low-reliability fan guide claims a 1/500 rate. RESOLUTION: treat shinies as NOT part of this game — no shiny trophy will be designed.",
+    "relicAppraisal": "Random reward when giving relics to Professor Tangrowth — low-stakes, not suitable as a trophy trigger on its own."
+  },
+  "versionAndDlc": {
+    "platformExclusivity": "Switch 2 exclusive as of research date (Aug 12, 2026); no other hardware version exists.",
+    "patchHistory": "v1.0.1–v1.1.1 (Mar–Jun 2026): bug fixes, online activation, Expansion Pass purchase enablement. No evidence of removed content.",
+    "v2_0_0": "Free update, Aug 5, 2026. Added Dive/underwater building (requires Surf + Bleak Beach's 'Raise the environment level!' request), new items, cosmetics, QoL (bulk transfer, batch relic appraisal, raised photo cap 10→40, raised generator cap to 128). This is base-game content as of the research date and should be treated as part of the current base game.",
+    "expansionPass": {
+      "part1": "'Bubbly Basin' — released Aug 5, 2026 (already live as of Aug 12, 2026). Underwater settlement, new Dream Island, Popplio/Mudkip/Corphish lines + Manaphy. PAID DLC — out of scope for the base Platinum per Rule 14.",
+      "part2": "Slated 'late 2026' (unconfirmed date). Accessories/furniture, no new town. Not yet released.",
+      "part3": "Slated 2027. New town. Not yet released."
+    },
+    "scopeDecision": "Base trophy list targets the base game inclusive of the free v2.0.0 update (since it's now standard for all owners), EXCLUDING all paid Expansion Pass content (Parts 1–3), per Rule 14."
+  },
+  "dlc": {
+    "bubblyBasin": {
+      "fullName": "Pokémon Pokopia Expansion Pass — Part 1: Bubbly Basin",
+      "released": "2026-08-05",
+      "status": "live as of research date, in scope for a DLC trophy list per user request",
+      "area": "Bubbly Basin — new underwater town connected to Bleak Beach, unlocked via Surf + Dive + completing Bleak Beach's 'Raise the environment level!' request. High confidence.",
+      "newPokemon": {
+        "count": 50,
+        "trackedVia": "Basin Pokédex — separate numbered dex from the main game's, medium confidence on exact UI.",
+        "headliner": "Manaphy (Mythical) — confirmed no Legendary is added by this DLC. Phione also present but its Legendary/Mythical flag is unconfirmed.",
+        "confidence": "medium — species list reconstructed from secondary outlets (Vice, NintendoSoup), not a primary enumeration."
+      },
+      "habitatDexBasin": {
+        "count": 36,
+        "detail": "Numbered 001-036, Basin-specific habitats (e.g. 'Mermaid's Gym' for Starmie). Registers as discovered/built in a dedicated Habitat Dex menu. High confidence — best verification hook for DLC trophies.",
+        "confidence": "high"
+      },
+      "milestones": {
+        "environmentLevel3": "Gates two core requests: building the 'Ocean Temple' and rebuilding the Basin's Pokémon Center. Cited as the DLC's central completion milestones, akin to the base game's Team Initiation Challenge. Ocean Temple's exact build requirements are unconfirmed.",
+        "confidence": "medium"
+      },
+      "additionalDreamIsland": "A Starmie doll found in Bubbly Basin unlocks a new Dream Island, playable in multiplayer. Medium confidence.",
+      "excludedFromTrophyDesign": [
+        "Purchase-bonus Ditto print recipe + Pokémetal ingots (tied to purchase/code redemption, not gameplay achievement — not trophy-worthy)",
+        "Post-apocalyptic 'ruined Cerulean City / humanity fled to space' lore claim — single-sourced, contradicted by every other source, treated as unreliable and excluded",
+        "New Specialties (Scrub, Generate) — single low-confidence source, not used as a standalone trophy trigger",
+        "Ocean Temple exact requirements — unconfirmed, so referenced only via Environment Level 3 + the request name, not a fabricated build list"
+      ]
+    },
+    "part2": "Not yet released as of Aug 12, 2026 — no trophies possible.",
+    "part3": "Not yet released — no trophies possible."
+  },
+  "conflicts": [
+    "Environment Level max value: 5 vs 10 (unresolved — affects any trophy naming a specific completion level)",
+    "Pokédex total species: 300 vs ~304 (unresolved — avoid hardcoding a number)",
+    "General/side request total count: ~60 (Game8) vs 74 (pokopia.center, low reliability) (unresolved — avoid hardcoding a number)",
+    "Shiny Pokémon existence: resolved in favor of 'does not exist' (majority + official forum vs single low-reliability source)",
+    "Trainer Rank trackability: no persistent UI meter confirmed — only popup + gate-testing (affects verification language for any rank-based trophy)"
+  ],
+  "sources": "See dossier_scout_a.json, dossier_scout_b.json, dossier_scout_c.json for full per-claim source lists."
+}

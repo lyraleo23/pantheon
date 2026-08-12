@@ -73,12 +73,16 @@ function validate(data, label) {
   }
 
   // ---- per-trophy checks ---------------------------------------------
+  // Shared across the base list and every DLC list, since Rule 17's mandatory
+  // structure applies to every trophy regardless of which list it lives in.
+  // IDs and names are deduplicated globally (seenIds/seenNames span all lists)
+  // so a DLC trophy can never silently collide with a base one.
   const seenIds = new Set();
   const seenNames = new Set();
   const counts = { bronze: 0, silver: 0, gold: 0, platinum: 0 };
 
-  trophies.forEach((t, i) => {
-    const at = t.id || `index ${i}`;
+  function checkTrophy(t, i, contextLabel, idPattern) {
+    const at = `${contextLabel}${t.id || `index ${i}`}`;
 
     for (const field of ["id", "name", "description", "tier", "type", "verification", "origin"]) {
       if (!t[field] || String(t[field]).trim() === "") {
@@ -94,8 +98,8 @@ function validate(data, label) {
     }
 
     if (t.id) {
-      if (!new RegExp(`^${game.code}-\\d{3}$`).test(t.id)) {
-        err(`${at}: ID must match ${game.code}-NNN`);
+      if (!idPattern.test(t.id)) {
+        err(`${at}: ID must match ${idPattern.source}`);
       }
       if (seenIds.has(t.id)) err(`${at}: duplicate ID`);
       seenIds.add(t.id);
@@ -137,7 +141,10 @@ function validate(data, label) {
         warn(`${at}: cumulative-looking objective but verification does not name an in-game counter (Rules 1-2)`);
       }
     }
-  });
+  }
+
+  const baseIdPattern = new RegExp(`^${game.code}-\\d{3}$`);
+  trophies.forEach((t, i) => checkTrophy(t, i, "", baseIdPattern));
 
   // ---- IDs sequential ------------------------------------------------
   // Report the actual gaps and strays, not every index after the first
@@ -188,6 +195,58 @@ function validate(data, label) {
     }
   }
 
+  // Snapshot before DLC trophies (checked below, sharing the same `counts`
+  // accumulator for global tier bookkeeping) would otherwise inflate the
+  // base-list summary printed at the end of this function.
+  const baseCounts = { ...counts };
+
+  // ---- Rule 14: DLC lists ---------------------------------------------
+  const dlcSummaries = [];
+  if (data.dlc !== undefined) {
+    if (!Array.isArray(data.dlc)) {
+      err("`dlc` must be an array");
+    } else {
+      data.dlc.forEach((pack, pi) => {
+        const label = `dlc[${pi}]`;
+        if (!pack.name || String(pack.name).trim() === "") {
+          err(`${label}: "name" is required and must not be empty`);
+        }
+        if (!Array.isArray(pack.trophies) || pack.trophies.length === 0) {
+          err(`${label} (${pack.name || "unnamed"}): "trophies" must be a non-empty array`);
+          return;
+        }
+        // DLC trophies use a caller-chosen ID prefix (e.g. CODE-SUFFIX-NNN is
+        // not allowed by the single-hyphen schema pattern, so packs use their
+        // own short code such as CODEXX-NNN) — accept any schema-valid ID,
+        // just require internal consistency within the pack.
+        const dlcCode = pack.trophies[0]?.id?.split("-")[0];
+        const dlcIdPattern = dlcCode ? new RegExp(`^${dlcCode}-\\d{3}$`) : /^[A-Z0-9]{2,8}-\d{3}$/;
+        const beforeCounts = { ...counts };
+        pack.trophies.forEach((t, ti) => checkTrophy(t, ti, `${label} "${pack.name}" `, dlcIdPattern));
+        const dlcCounts = {
+          bronze: counts.bronze - beforeCounts.bronze,
+          silver: counts.silver - beforeCounts.silver,
+          gold: counts.gold - beforeCounts.gold,
+          platinum: counts.platinum - beforeCounts.platinum,
+        };
+
+        const dlcPlatinums = pack.trophies.filter((t) => t.tier === "platinum");
+        if (dlcPlatinums.length) {
+          err(`${label} (${pack.name}): DLC lists must not contain a platinum trophy — the base game's Platinum is the only Platinum (Rule 14)`);
+        }
+
+        const dlcTotal = pack.trophies.length;
+        if (dlcTotal < 5) {
+          warn(`${label} (${pack.name}): only ${dlcTotal} trophies — thin for a standalone DLC list, consider folding into base game notes instead`);
+        }
+
+        dlcSummaries.push(
+          `  dlc: "${pack.name}" | ${dlcTotal} trophies — ${dlcCounts.bronze}B / ${dlcCounts.silver}S / ${dlcCounts.gold}G`
+        );
+      });
+    }
+  }
+
   // ---- Rule 22/23: port mode sanity ----------------------------------
   if (game.mode === "port") {
     const native = trophies.filter((t) => t.origin !== "original").length;
@@ -210,9 +269,10 @@ function validate(data, label) {
   }
 
   // ---- report --------------------------------------------------------
-  const summary = `${total} trophies — ${counts.bronze}B / ${counts.silver}S / ${counts.gold}G / ${counts.platinum}P`;
+  const summary = `${total} trophies — ${baseCounts.bronze}B / ${baseCounts.silver}S / ${baseCounts.gold}G / ${baseCounts.platinum}P`;
   console.log(`\n${label}`);
   console.log(`  mode: ${game.mode}${game.sourcePlatform ? ` (from ${game.sourcePlatform})` : ""} | ${summary}`);
+  for (const s of dlcSummaries) console.log(s);
 }
 
 function run(file) {

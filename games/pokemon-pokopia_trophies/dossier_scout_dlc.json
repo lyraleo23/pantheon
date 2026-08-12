@@ -1,0 +1,179 @@
+{
+  "beat": "dlc",
+  "game": "Pokémon Pokopia",
+  "platform": "Nintendo Switch 2",
+  "dlcName": "Pokémon Pokopia Expansion Pass — Part 1: Bubbly Basin",
+  "releaseDate": "August 5, 2026 (confirmed live)",
+  "findings": [
+    {
+      "category": "area",
+      "name": "Bubbly Basin",
+      "detail": "New underwater settlement/town, described as 'submerged' and 'waterlogged,' ready to be rebuilt. Connects directly to the existing Bleak Beach area. Opens with a broken Pokémon Center and a Popplio needing help. Japanese name per Bulbapedia is 'ブクブクうみぞこの街' (Bubbling Undersea Town).",
+      "trackable": "Not a discrete checklist itself, but progress is measured via the Basin's own Environment Level, Basin Pokédex, and Habitat Dex (Basin).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["pokemon.com press release", "Nintendo.com (SG)", "Bulbapedia: Bubbly Basin", "GamePretty guide"]
+    },
+    {
+      "category": "access/unlock",
+      "name": "How Bubbly Basin is reached",
+      "detail": "Requires the Surf ability plus sufficient main-story progress; Professor Tangrove flags a new island at Bleak Beach. Per Bulbapedia, the area unlocks after completing the request 'Raise the environment level!' in Bleak Beach. One guide (GamePretty) states the underwater gate additionally requires Trainer Rank Master to scan/unlock, with 'no workaround at lower ranks' — this specific rank-gate claim is single-sourced.",
+      "trackable": "Request/quest log presumably shows 'Raise the environment level!' as a tracked request (unconfirmed in-game UI specifics).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Bubbly Basin", "GamePretty guide", "pokemon.com news"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Dive ability",
+      "detail": "New move that lets Ditto dip below the water's surface to reach Bubbly Basin. Sources conflict slightly on how it's obtained: official Nintendo/pokemon.com framing says Dive arrived via the free Ver. 2.0.0 update released the same day as the DLC; a third-party guide (GamePretty) states Manaphy specifically must be given five bunches of seaweed before it 'teaches' Dive, implying the DLC (via Manaphy) is required to actually learn it despite the free patch adding the underlying feature. Controls per that same guide: B = faster swimming, L = deeper diving, spin = quick sink.",
+      "trackable": "Not clearly stated whether learning Dive is flagged anywhere in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["pokemon.com news", "Nintendo.com (SG)", "GamePretty guide"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Additional Dream Island",
+      "detail": "Finding a Starmie doll while exploring Bubbly Basin unlocks travel to a new Dream Island full of resources for developing the Basin. This Dream Island can also be visited in multiplayer to swim/play underwater with friends.",
+      "trackable": "Unconfirmed whether a discrete flag/collectible marks discovery of the Starmie doll.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Search synopsis citing Serebii.net expansion pass coverage"]
+    },
+    {
+      "category": "collectible/pokedex",
+      "name": "Basin Pokédex — 50 new Pokémon",
+      "detail": "Bubbly Basin adds a separate Basin-specific Pokédex containing 50 Pokémon exclusive to the DLC (all require the paid Expansion Pass). Reasonably reconstructed full list (cross-checked across Vice and NintendoSoup, with minor list variance resolved in favor of the more complete/consistent Vice enumeration): Shellder, Cloyster, Horsea, Seadra, Kingdra, Staryu, Starmie, Totodile, Croconaw, Feraligatr, Chinchou, Lanturn, Corsola, Mudkip, Marshtomp, Swampert, Carvanha, Sharpedo, Barboach, Whiscash, Corphish, Crawdaunt, Luvdisc, Buizel, Floatzel, Finneon, Lumineon, Frillish, Jellicent, Alomomola, Stunfisk, Inkay, Malamar, Popplio, Brionne, Primarina, Mareanie, Toxapex, Wimpod, Golisopod, Bruxish, Dhelmise, Chewtle, Drednaw, Pincurchin, Wiglett, Wugtrio, Veluza, Phione, Manaphy. Manaphy is confirmed as the DLC's Mythical Pokémon; one source explicitly states 'the expansion doesn't add any Legendary Pokémon.' Phione is included alongside Manaphy but its Legendary/Mythical flag status in-game is not confirmed.",
+      "trackable": "Basin Pokédex — a Pokédex screen numbered separately from the main game's dex, per Bulbapedia's Habitat Dex (Basin) article which references a companion 'Pokédex (Basin)'.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Vice: All 50 New Pokémon in Bubbly Basin DLC", "NintendoSoup guide", "Bulbapedia: Habitat Dex (Basin)", "search synopsis (Serebii-sourced)"]
+    },
+    {
+      "category": "collectible/system",
+      "name": "Habitat Dex (Basin) — 36 habitats",
+      "detail": "36 distinct habitat entries (numbered 001–036) specific to Bubbly Basin, e.g. 'Basin tall grass,' 'Swaying flower bed,' 'Coral congregation,' 'Sandy digging spot,' 'Chimney rocks dig site,' 'Marine shop,' 'Bubbly bathtub,' 'Bubbly stage,' 'Mermaid's Gym.' Each habitat requires specific item placements to trigger; habitats both raise Pokémon comfort level and spawn Pokémon toward the Basin Pokédex. Hardest-cited example: Mermaid's Gym for Starmie, requiring gathered decorative Poké Balls.",
+      "trackable": "Habitat Dex (Basin) menu — registers new habitats as discovered/built, per Bulbapedia.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Habitat Dex (Basin)", "Serebii.net (via WebFetch synthesis)", "Insider Gaming: Bubbly Basin habitats", "search synopsis"]
+    },
+    {
+      "category": "mechanic",
+      "name": "New Specialties: Scrub and Generate",
+      "detail": "Two new Pokémon 'Specialty' job types debut with the DLC. 'Scrub' lets a Pokémon clean Pearls (a Basin-specific resource-processing task). 'Generate' provides light for darker underwater sections and is available on Chinchou, Lanturn, Stunfisk, and Pincurchin.",
+      "trackable": "Unconfirmed whether Specialties have their own completion tracker beyond assigning Pokémon to jobs.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["games.gg guide (single source)"]
+    },
+    {
+      "category": "milestone",
+      "name": "Environment Level 3 / core Basin requests",
+      "detail": "The Basin has its own Environment Level, raised by discovering new Pokémon and habitats (not just placing furniture). At Environment Level 3, two core requests become available: building the 'Ocean Temple' and 'rebuilding the Pokémon Center.' These are cited by multiple guides as the DLC's central completion milestones (akin to base game's Team Initiation Challenge), though exact requirements for the Ocean Temple build were not detailed in any source found.",
+      "trackable": "Environment Level indicator (presumably shown in the Basin's town/request UI, consistent with base game's environment-level system, but the specific UI element was not directly confirmed for the DLC).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search synopsis (Nintendo Life/Game8 walkthrough titles)", "Insider Gaming", "GamePretty guide"]
+    },
+    {
+      "category": "quest chain",
+      "name": "Corsola-driven main quest chain",
+      "detail": "Per one detailed guide: the main Basin quest chain runs through Corsola, first requiring the player to find Mudkip (a 'bubble-spitter' for plant growth) and then Carvanha (a 'chop specialist' for rind-cutting tasks). Carvanha's habitat itself requires crafting Netting from Vine Rope and Twine. A separate notable build is the Sharpedo habitat at 'Chimney Rocks,' requiring Excavation Tools, a Wheelbarrow, Chimney Rocks, and a Traffic Cone placed to match a diagram; completing it unlocks Sharpedo and enables later Submarine Kit builds.",
+      "trackable": "Unconfirmed how/whether this chain is tracked as a discrete quest list in-game.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Insider Gaming (single detailed source, not cross-verified)"]
+    },
+    {
+      "category": "collectibles",
+      "name": "New items, furniture, and building kits",
+      "detail": "Bulbapedia/pokemon.com-derived synthesis lists roughly 500+ new items (unverified precise count, treat as approximate): Building Kits (Submarine, Imperial house/cottage, Clock tower, Aqua cottage, Supermarket, Laboratory), marine-themed furniture (chests, closets, tables, chairs, sofas, beds), decor (corals, driftwood, seashell seating, bottled ships, pearls), plants (seabed flowers, watermelon plants, seaweed varieties), materials (blue rocks, cave stones, mossy soil, star-spotted rocks), and Basin-themed wallpapers/flooring. Also cited: 10 new location-themed Music CDs (numbered #100–109) and new food/consumable recipes (watermelon dishes, sea grape items, smoothies).",
+      "trackable": "Basin-specific 'Recipes' and 'Items' collection lists exist per Bulbapedia's category listing (Ancient Artifacts, Human Records, Highlight Reel, Recipes, Items — all Basin-specific), but exact counts/UI for these were not confirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["pokemon.com news (WebFetch synthesis)", "Bulbapedia: Bubbly Basin"]
+    },
+    {
+      "category": "collectibles",
+      "name": "Basin-specific Ancient Artifacts, Human Records, Highlight Reel",
+      "detail": "Bulbapedia lists these as Basin-specific collection categories, mirroring collection systems presumed to exist in the base game (which is out of this beat's scope). No specific counts found for the Basin versions of these lists.",
+      "trackable": "Presumed to be separate menu/collection screens per Basin area, consistent with base game structure, but counts unconfirmed.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["Bulbapedia: Bubbly Basin"]
+    },
+    {
+      "category": "purchase bonus (not gameplay-earned)",
+      "name": "Ditto print recipe + 30 Pokémetal ingots",
+      "detail": "Purchasing the Expansion Pass grants a recipe for dynamic Ditto print blocks/wallpaper, plus a serial code (emailed) for 30 rare Pokémetal ingots usable in crafting. Bonus requires purchase by August 31, 2027; the redemption code is valid through September 30, 2027. These are purchase bonuses, not in-game earned unlocks, so likely irrelevant for trophy design but noted to avoid confusion with achievable content.",
+      "trackable": "N/A — tied to purchase, not gameplay achievement.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["pokemon.com press release", "Nintendo Life"]
+    },
+    {
+      "category": "mechanic",
+      "name": "3D printer for missing habitat items",
+      "detail": "One source states the Pokémon Center's 3D printer can be used to create missing habitat items by taking pictures in friends' games or on cloud islands — potentially relevant to habitat-completion trophies if verified further.",
+      "trackable": "Unconfirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Insider Gaming (single source)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Basin Pokédex (separate numbered dex for the 50 Bubbly Basin Pokémon)", "where": "Pokédex menu, Basin-specific list per Bulbapedia's 'Habitat Dex (Basin)' article, which references a companion Pokédex (Basin)", "confidence": "medium" },
+    { "stat": "Habitat Dex (Basin) — 36 numbered habitat entries (001–036)", "where": "Dedicated Habitat Dex menu icon; registers habitats as discovered/built", "confidence": "high" },
+    { "stat": "Basin Environment Level", "where": "Presumed shown in town/request UI for Bubbly Basin, mirrors base-game environment-level mechanic; raised by discovering Pokémon/habitats, gates the Ocean Temple and Pokémon Center requests at Level 3", "confidence": "medium" },
+    { "stat": "Basin-specific Ancient Artifacts / Human Records / Highlight Reel / Recipes / Items collection lists", "where": "Presumed separate collection screens per area (per Bulbapedia category listing); exact counts and UI not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "This DLC (Bubbly Basin) released day-and-date with the free Ver. 2.0.0 update, and the two are sometimes conflated in coverage — the Dive move/mechanic is described by official sources as arriving in the free update, while at least one guide implies actually learning Dive is gated behind the DLC's Manaphy questline. This distinction between 'free update grants the mechanic' vs 'DLC content is required to use it' was not fully resolved.", "confidence": "medium" },
+    { "note": "Parts 2 and 3 of the Expansion Pass are confirmed to exist (Part 2 'Late 2026,' Part 3 '2027' per Wikipedia) but no content details for them were found — out of scope for this beat but relevant to note the pass is not complete with Part 1.", "confidence": "medium" }
+  ],
+  "unconfirmed": [
+    "A Bulbapedia WebFetch synthesis described Bubbly Basin as 'the post-apocalyptic remains of Cerulean City' after 'catastrophic weather events forced humanity into space.' This is a single, unusually dramatic lore claim that does not appear in any other source (all other sources describe Bubbly Basin simply as a new underwater town connected to Bleak Beach) and may be an artifact of the fetch/summarization process rather than confirmed game content. Treat as unverified and do not build trophies on this claim without independent confirmation.",
+    "Exact total item count (the '500+' figure) is an approximation from a synthesized summary, not a stated official number.",
+    "Whether the Basin Pokédex, Habitat Dex (Basin), and other Basin collections display a completion PERCENTAGE (vs. just a checklist) was not confirmed either way.",
+    "Requirements/steps for building the 'Ocean Temple' milestone were not found in any source.",
+    "The Trainer Rank Master gating requirement for the underwater gate is single-sourced (GamePretty) and not cross-verified.",
+    "Whether Feebas/Milotic (mentioned as a possible upcoming event addition) count toward the Basin Pokédex is explicitly stated as unconfirmed even by the source that mentioned it (games.gg); do not include them as confirmed Basin Pokémon.",
+    "Full, official Pokémon list has not been confirmed directly against Serebii's own Basin Pokédex numbering (the Serebii fetch did not enumerate species by name); the 50-entry list used here is reconstructed from secondary news outlets (Vice, NintendoSoup) whose lists partially disagreed before reconciliation."
+  ],
+  "sources": [
+    "https://www.pokemon.com/us/news/watch-new-video-of-the-pokemon-pokopia-expansion-pass-part-1-bubbly-basin",
+    "https://serebii.net/pokemonpokopia/expansionpass/bubblybasin.shtml",
+    "https://www.pokemon.com/us/news/pokemon-pokopia-expansion-pass-part-1-bubbly-basin-is-available-today",
+    "https://www.nintendo.com/sg/news/article/1ufIbY6tfNq4IRUjci8esD",
+    "https://press.pokemon.com/en/releases/Pokemon-Pokopia-Expansion-PassPart-1-Bubbly-Basin-Available-Now",
+    "https://www.pokemon.com/us/news/dive-into-pokemon-pokopia-expansion-pass-part-1-bubbly-basin",
+    "https://bulbapedia.bulbagarden.net/wiki/Bubbly_Basin",
+    "https://bulbapedia.bulbagarden.net/wiki/Habitat_Dex_(Basin)",
+    "https://pokopia.pokemon.com/en-us/expansion/",
+    "https://www.vice.com/en/article/pokemon-pokopia-bubbly-basin-dlc-new-pokemon/",
+    "https://nintendosoup.com/guide-heres-all-pokemon-featured-in-pokemon-pokopias-bubbly-basin-dlc/",
+    "https://games.gg/pokemon-pokopia/guides/pokemon-pokopia-all-new-pokemon-and-specialties/",
+    "https://gamepretty.com/pokemon-pokopia-bubbly-basin-dlc-guide-dive-area-gate-sharpedo-habitat-construction-key-quests-new-pokemon-and-ect/",
+    "https://insider-gaming.com/pokemon-pokopia-bubbly-basin-habitats/",
+    "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia",
+    "https://www.sportskeeda.com/pokemon/all-new-pokemon-bubbly-basin-pokemon-pokopia-dlc (fetch blocked, cited via search snippet only)",
+    "https://www.techtimes.com/articles/323085/20260805/pokemon-pokopia-bubbly-basin-drops-dive-goes-free-shared-storage-fixes-region-chaos.htm (fetch blocked, title/snippet only)",
+    "https://wccftech.com/pokemon-pokopia-bubbly-basin-dlc-hands-on/ (fetch blocked)",
+    "https://www.nintendolife.com/guides/pokemon-pokopia-how-to-start-bubbly-basin-dlc-requirements (fetch blocked)",
+    "https://www.nintendolife.com/guides/pokemon-pokopia-bubbly-basin-pokedex-habitats-new-pokemon (fetch blocked)",
+    "https://www.gamespot.com/articles/everything-new-in-pokemon-pokopia-bubbly-basin-dlc-and-free-update/ (fetch blocked)",
+    "https://www.videogameschronicle.com/guide/pokemon-pokopia-bubbly-basin-dlc-every-new-pokemon-in-bubbly-basin/ (fetch blocked)"
+  ],
+  "gaps": [
+    "Could not directly confirm the full Basin Pokémon list against a primary/official source (Serebii's page did not enumerate species by name in the fetch obtained); relied on secondary outlet reconstruction (Vice, cross-checked against NintendoSoup).",
+    "Could not confirm the requirements or steps for the 'Ocean Temple' build, one of the two stated core DLC milestones.",
+    "Could not confirm whether the game displays a Bubbly Basin-specific completion percentage anywhere, versus only per-category checklists (Pokédex, Habitat Dex).",
+    "Could not confirm exact counts for Basin-specific Ancient Artifacts, Human Records, or Highlight Reel collectibles.",
+    "Could not verify the 'Trainer Rank Master' gate claim or the Manaphy/5-seaweed Dive-teaching claim beyond a single source each.",
+    "Could not confirm any DLC-specific minigames beyond a passing mention of a 'bubble machine' feature with no further detail.",
+    "Could not verify whether any Bubbly Basin content is missable (e.g., time-limited event Pokémon like the mentioned Feebas/Milotic pool) — flagged but not confirmed as part of the base Basin Pokédex.",
+    "The apparent lore claim about Bubbly Basin being a post-apocalyptic ruined Cerulean City with humanity relocated to space could not be corroborated and is likely unreliable; recommend not using it for trophy flavor text without further confirmation."
+  ]
+}

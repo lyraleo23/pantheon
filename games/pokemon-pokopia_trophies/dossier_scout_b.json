@@ -1,0 +1,190 @@
+{
+  "beat": "sideContent",
+  "game": "Pokémon Pokopia",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Mysterious Slates",
+      "detail": "27 total slates (A-Z Unown symbols plus one '!?' slate). Found by breaking glowing spots in walls/floors with Rock Smash. Placed on the 'Mysterious Mural.' Slates continue to spawn as duplicates after the mural is completed, and can be traded/sold.",
+      "trackable": "Mural itself shows which symbol slots are filled; no explicit counter confirmed beyond the mural display.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/585569", "https://www.videogameschronicle.com/guide/pokemon-pokopia-mysterious-slate-mysterious-slate-locations/"]
+    },
+    {
+      "category": "reward",
+      "name": "Mew unlock via Mysterious Mural",
+      "detail": "Attaching all 27 Mysterious Slates to the correct positions on the Mysterious Mural unlocks Mew as a townsfolk/resident. A separate source (TechRadar) states Palette Town (postgame area) is 'the only place in the entire game where Mew appears' — these two claims were not reconciled; possibly the mural unlocks Mew's availability and it then appears/resides in Palette Town.",
+      "trackable": "Presumably reflected as Mew becoming befriendable/added to Pokédex once unlocked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/585569", "https://www.techradar.com/gaming/pokemon-pokopia-review"]
+    },
+    {
+      "category": "collectible",
+      "name": "Fossils / Lost Relics",
+      "detail": "22 total fossil pieces found in the world (same glowing-spot mechanic as slates/CDs), which combine/restore 9 prehistoric Pokémon.",
+      "trackable": "Not confirmed where a fossil-specific counter is displayed (possibly a Relics/Museum-style screen) — unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["web search aggregation citing pokopiadex.com fossils guide and thegameswiki.com 'Lost Relics and Fossils'"]
+    },
+    {
+      "category": "collectible",
+      "name": "Music CDs",
+      "detail": "43 collectible CDs total, played via DJ Rotom (which can hold only 5 at a time; extras go to inventory/storage). Found via glowing spots (Rock Smash) and specific quest/bookshelf interactions (e.g., Rotom's first quest, Team Rocket Hideout CD). Giving CDs to Tangrowth for appraisal is a trap — he keeps them without appraising (avoid feeding CDs to Tangrowth).",
+      "trackable": "No in-game CD counter confirmed; tracking currently relies on fan trackers/apps (e.g., 'Pokopedia' app) rather than a confirmed native UI element.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokopia-how-play-music-cds/", "web search aggregation (43 CDs figure corroborated by a third-party app description referencing 43 CDs and 22 fossils)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Furniture / Item catalog",
+      "detail": "A fan item database (pokopiaworld.org) indexes 1244 total items across categories: Blocks, Buildings, Food, Furniture, Key Items, Kits, Materials, Misc., Nature, Other, Outdoor, Utilities. Effect-tag breakdown given: Food 46, Road 55, Decoration 193, Relaxation 70, Toy 115 (these tags do not sum to 1244 and are not mutually exclusive/exhaustive). A separate fan guide claims '714 recipes' but this could not be verified (source returned an access error).",
+      "trackable": "Furniture items with Relaxation/Decoration flags can raise a Pokémon's Comfy Level when placed; unclear if there's an in-game master collection/checklist screen for all furniture — not confirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://pokopiaworld.org/items", "https://www.serebii.net/pokemonpokopia/furniture.shtml", "https://www.serebii.net/pokemonpokopia/crafting.shtml"]
+    },
+    {
+      "category": "collectible",
+      "name": "Held items, rugs, posters",
+      "detail": "Pokemon.com's own launch article lists 'fossils, music CDs, mysterious slates, rugs, posters, held items' among collectibles findable in the game, but gives no counts.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.pokemon.com/us/news/pokemon-pokopia-is-available-now-on-nintendo-switch-2"]
+    },
+    {
+      "category": "sideQuest",
+      "name": "Important Requests (main story spine)",
+      "detail": "10 Important Requests make up the main story, spread across the four base-game areas (Withered Wasteland(s), Bleak Beach, Rocky Ridges, Sparkling Skylands). Example sequence per one source: 'Rebuild the Pokemon Center', 'Yawn Up a Storm', 'Raise the Environment Level!' (x4, one per area), 'Brighten Things Up', 'Time to Party!', 'Rebuild the Huge Building', and the finale 'Do the... Team Initiation Challenge' (itself made of 9 fetch-quest sub-objectives). Completing it rolls credits and unlocks postgame/Palette Town.",
+      "trackable": "Tracked via the in-game 'Requests' menu (accessible from the main menu).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/pokemon-pokopia-request-list-all-missions-walkthrough/", "https://game8.co/games/Pokemon-Pokopia/archives/583451"]
+    },
+    {
+      "category": "sideQuest",
+      "name": "General/Side Requests from Pokémon residents",
+      "detail": "Pokémon with a persistent speech-bubble icon over their head offer optional 'General Requests' — simple fetch/escort/delivery tasks. These raise a Pokémon's Comfort/Comfy Level; some give no item reward at all. Total count is DISPUTED between sources: Game8 shows '60 requests' across the four areas without a precise breakdown; a separate fan wiki (pokopia.center) claims 74 total trackable quests broken down as 10 Important + 32 Side (8 Wasteland/10 Rocky Ridges/7 Bleak Beach/7 Skylands) + 18 Palette Town + 14 Postgame. These numbers do not agree and neither is an official source — treat all specific totals as unverified.",
+      "trackable": "In-game 'Requests'/Adventure Log menu; fan sources describe yellow markers for in-progress and checkmarks for completed, but this UI behavior is unconfirmed against an official source.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/583451", "https://pokopia.center/posts/pokopia-all-quests-master-list-2026/"]
+    },
+    {
+      "category": "secretArea",
+      "name": "Team Rocket Hideout",
+      "detail": "Hidden underground area beneath the lighthouse/'strange building' on the coast of Withered Wasteland(s). Accessible only after completing the final Important Request ('Do the... Team Initiation Challenge'), which leaves a hole to drop into. Contains a lone Magnemite to befriend and a collectible 'Rocket Hideout CD' (one of the 43 music CDs) in a storage room.",
+      "trackable": "n/a beyond general CD/Pokémon tracking",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/pokopia-how-find-team-rocket-secret-hideout/", "https://game8.co/games/Pokemon-Pokopia/archives/585158"]
+    },
+    {
+      "category": "postgame",
+      "name": "Palette Town (secret 5th area)",
+      "detail": "Postgame-only region unlocked after finishing all four main Important Request chains and watching the credits roll. Described as a tribute/blank-slate area you build freely without professor guidance. One fan source claims it holds 15 exclusive Pokémon, the game's final Pokémon Center, the 'Master PC' shop, and is the only place Mew appears (see conflict note above re: mural unlock).",
+      "trackable": "unconfirmed whether a distinct completion tracker exists for Palette Town",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.techradar.com/gaming/pokemon-pokopia-review", "https://pokopia.center/posts/pokopia-palette-town-guide-unlock-2026/"]
+    },
+    {
+      "category": "postgame",
+      "name": "Postgame activity list (Game8 Postgame Guide)",
+      "detail": "After the Team Initiation Challenge/credits: (1) complete the Pokédex — game8 states 'over 300 Pokémon in the game' as of launch, with more added via events/DLC; (2) build every habitat type to spawn Pokémon beyond story-tied encounters (PC gives hints for missing habitats); (3) unlock remaining recipes/items; (4) recover remaining ancient artifacts/fossils/relics for display; (5) gather 'Human Records' (lore collectibles referencing other Pokémon-franchise characters); (6) fully decorate the island/town.",
+      "trackable": "Pokédex shows completion state per source (see trackableStats). Habitat-building progress trackable via PC hints. No confirmed master 'postgame checklist' screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/585158"]
+    },
+    {
+      "category": "minigame",
+      "name": "Jump Rope (with Bulbasaur)",
+      "detail": "Rhythm/timing minigame unlocked by completing Bulbasaur's habitat; press a button (R) to jump over Bulbasaur's swinging vine, which varies speed. Playable solo or in multiplayer. Was also the subject of a limited-time real-world promotional event.",
+      "trackable": "unconfirmed (no score/leaderboard tracking confirmed)",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.pokemon.com/us/pokemon-news/jump-rope-with-bulbasaur-in-this-limited-time-pokemon-pokopia-event", "https://game8.co/games/Pokemon-Pokopia/archives/585181", "https://www.serebii.net/pokemonpokopia/jumprope.shtml"]
+    },
+    {
+      "category": "minigame",
+      "name": "Hide-and-Sneak",
+      "detail": "Multiplayer hide-and-seek variant: hiders use a Camouflage ability to disguise as objects and must reach a Pokémon Center; seekers try to find them. Unlocked via requests from Zorua.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokopia.wiki.fextralife.com/Minigames"]
+    },
+    {
+      "category": "minigame",
+      "name": "Look That Way",
+      "detail": "Prediction minigame: guess which direction (left/right) an opposing Pokémon will turn its head; best-of-3 format. No item reward, only Comfort Level increase.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokopia.wiki.fextralife.com/Minigames"]
+    },
+    {
+      "category": "minigame",
+      "name": "Quizzes",
+      "detail": "Certain Pokémon initiate trivia-style quizzes; correct answers give item rewards, incorrect answers still raise Comfort Level.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokopia.wiki.fextralife.com/Minigames"]
+    },
+    {
+      "category": "systemContext",
+      "name": "Environment Level (per-town rating)",
+      "detail": "Not itself a side-content item, but directly gates side/postgame access: each of the four base areas (Withered Wasteland(s), Bleak Beach, Rocky Ridges, Sparkling Skylands) has an Environment Level from the combined Comfy Level of resident Pokémon, max 10. Reaching Level 5 in all four areas is required to unlock the end-credits/Team Initiation Challenge and thus postgame/Palette Town access.",
+      "trackable": "Displayed at the top of the screen when interacting with any PC / Pokémon Center PC.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["web search aggregation citing serebii.net, nintendolife.com, and thegamer.com Environment Level guides"]
+    },
+    {
+      "category": "resourceContent",
+      "name": "Dream Islands",
+      "detail": "Procedurally generated farming/resource islands accessed via a spirit-type Pokémon (Drifloon), by showing it a 'doll' to determine the island type. Only one Dream Island can be spawned per day; choice of doll matters since it can't be redone same-day.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.techradar.com/gaming/pokemon-pokopia-review"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Requests menu (Important + General requests), showing pending/accepted tasks", "where": "Main menu > Requests", "confidence": "high" },
+    { "stat": "Environment Level per area (0-10)", "where": "Displayed at top of screen when interacting with any Pokémon Center / PC", "confidence": "high" },
+    { "stat": "Pokédex completion (registers only befriended Pokémon, not merely sighted ones; shows completion percentage)", "where": "In-game Pokédex screen", "confidence": "medium" },
+    { "stat": "Mysterious Mural slate placement (27 slots)", "where": "Mysterious Mural location itself", "confidence": "medium" },
+    { "stat": "Total item/recipe/furniture master counts (1244 items catalog; unconfirmed '714 recipes' claim)", "where": "unconfirmed whether the game itself displays a master collection count, vs. this being only a fan-site catalog", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Pokémon Pokopia is Nintendo Switch 2 exclusive; no other platform versions exist to compare against, so no cross-platform content differences apply.", "confidence": "high" },
+    { "note": "The March 10-25, 2026 Hoppip/Skiploom/Jumpluff launch event was time-limited and those Pokémon 'can't be encountered outside of this event' per Pokemon.com — any related collectibles/Pokédex entries from that specific event window are effectively missable/expired as of now (August 2026), though it's unconfirmed whether the event may recur.", "confidence": "medium" }
+  ],
+  "dlcNotes": [
+    { "note": "IMPORTANT CORRECTION to briefing: research shows the Expansion Pass actually has THREE parts, not two. Part 1 'Bubbly Basin' already released August 4-5, 2026 (sources give both dates; Nintendo Singapore news post says 'set to release on 5 August', Insider Gaming says August 4, 2026) — this is BEFORE today's date (Aug 12, 2026), meaning Part 1 is already live and technically part of 'current' Switch 2 content, not purely a future release. It adds a new town and the 'Dive' skill, plus a free Ver. 2.0.0 update for all players released the same day.", "confidence": "medium" },
+    { "note": "Part 2 of the Expansion Pass is slated for 'late 2026' (one source cites an eShop listing date of October 31, 2026, unconfirmed/not independently corroborated). Part 2 reportedly adds character/Pokémon accessories, additional Pokémon, and new furniture, but NOT a new town.", "confidence": "low" },
+    { "note": "Part 3 is slated for 2027 (no specific date; one source speculates Q1 2027 / possible Pokémon Day announcement) and will add another new town.", "confidence": "medium" },
+    { "note": "Per task scope, all Expansion Pass content (Parts 1-3) should be treated as out of scope for base-game trophy design. Since Part 1 is already released as of the current date, downstream designers should double check whether any base-game side content (e.g., Palette Town, Team Rocket Hideout, Dream Islands, minigames, CD/slate/fossil totals) was altered by the free Ver. 2.0.0 update bundled with Part 1's release; this was not verified in this research pass.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not get an authoritative, single total count for side/General Requests — Game8 shows ~60 across four areas without exact breakdown, while pokopia.center claims 74 total quests (10 Important + 32 Side + 18 Palette Town + 14 Postgame). These figures conflict and neither is from an official Pokémon/Nintendo source.",
+    "Could not confirm whether the game has any in-game UI element that shows an aggregate 'completion percentage' or 'Island Rating' number (as opposed to fan-made trackers/apps like 'Pokopedia' and 'PokoCheck', which are third-party and not proof of a native feature).",
+    "Could not verify the claimed '714 recipes' total (pokopiahabitats.com) — the source page returned an access error (403) on every fetch attempt.",
+    "Could not verify exact total furniture piece count as a single number (only the 1244-item all-categories catalog figure from a fan wiki, and unclear how many of those are furniture specifically vs. food/materials/etc.).",
+    "Could not confirm the mismatch/relationship between 'Mew unlocked via all 27 Mysterious Slates' (Game8) and 'Mew only appears in Palette Town' (TechRadar) — these may both be true in sequence, but this was not confirmed against a single source.",
+    "Could not confirm whether Fossils (22 pieces / 9 Pokémon) have a dedicated in-game tracking screen (e.g., a museum/relic display) — only that they exist and are collected via the same glowing-spot mechanic as CDs and Slates.",
+    "Could not confirm whether Music CDs (43 total) have any in-game counter/collection screen; DJ Rotom's 5-CD active-holding limit was the only UI detail found.",
+    "Could not access pokopia.center's master quest list, achievements/100%-checklist page, or Palette Town guide directly (429 rate-limit errors on some fetches); relied on WebSearch snippet summaries for some of that site's claims, which lowers confidence further — this site's suspiciously precise numeric breakdowns (e.g. exactly 74 quests split across many sub-categories) read as possibly speculative/AI-aggregated content rather than verified data, so all figures sourced solely from pokopia.center are marked low confidence.",
+    "Did not find confirmation of a fishing minigame or any minigames beyond the four listed (Jump Rope, Hide-and-Sneak, Look That Way, Quizzes) — there may be more that simply weren't surfaced by search.",
+    "Could not verify the exact list/count of 'Human Records' (lore collectibles mentioned in the Game8 postgame guide) or how many exist.",
+    "Did not confirm whether the March 2026 Hoppip/Skiploom/Jumpluff event or the Jump Rope real-world promotional event has recurred or is permanently unavailable now."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Pokopia",
+  "platform": "Nintendo Switch 2",
+  "progressionSystems": [
+    {
+      "system": "Trainer Rank",
+      "detail": "Four ranks: Starter (default/unranked start), Great Rank, Ultra Rank, Master Rank. Rank rises automatically by completing 'Important Requests' and story milestones (tied to meeting Legendary Pokémon), not by an XP/grind system. Great Rank unlocks Bleak Beach and Rocky Ridges; Ultra Rank unlocks Sparkling Skylands; Master Rank has no further area unlock and is obtained during Sparkling Skylands after examining the Master Ball, marking rough completion of the main story.",
+      "trackable": "No dedicated menu/meter. Rank-ups are announced via a game-paused notification (Pokédex tells you the new rank), usually after a Legendary cutscene. Otherwise the only way to 'check' rank is to test a locked green area gate to see if it opens.",
+      "confidence": "medium",
+      "sources": ["https://pokopia.wiki.fextralife.com/Trainer_Rank", "https://wikipokopia.com/trainer-ranks", "https://game8.co/games/Pokemon-Pokopia/archives/584824"]
+    },
+    {
+      "system": "Environment Level",
+      "detail": "A per-region development score reflecting habitat variety, decoration, vegetation, housing quality, Pokémon comfort, and population. There are 5 towns total: 4 story regions (Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands) plus one sandbox town, Palette Town, which reportedly does not have a story-gated Environment Level in the same way.",
+      "trackable": "Community sources state Environment Level is viewable/trackable per-region, though exact UI location not independently confirmed (NintendoLife guide page returned 403 and could not be verified directly).",
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/switch-2/559184-pokemon-pokopia/faqs/82556/environment-level-and-comfort-level", "https://pokopia.center/posts/pokopia-pokemon-center-rebuild-guide-2026/"]
+    },
+    {
+      "system": "Environment Level thresholds",
+      "detail": "Reaching Environment Level 5 in each region is stated by one source as required to reach the credits/ending; a separate claim states maxing every region to Environment Level 10 is required for '100% completion.' Rebuilding a region's Pokémon Center requires Environment Level 3, a 1,000 Life Coin Rebuilding Kit, and 8 qualifying Pokémon for that area; rebuilding all 4 main-story Pokémon Centers is required to reach the credits.",
+      "trackable": "low confirmation on exact max level number (5 vs 10 conflicting between sources) — needs verification.",
+      "confidence": "low",
+      "sources": ["https://thegameswiki.com/pokopia/wiki/100-percent-completion-checklist (429 error, unverified)", "search snippet only"]
+    },
+    {
+      "system": "Comfort Level (per-Pokémon)",
+      "detail": "Separate from Friendship. Measures how a specific Pokémon feels about its habitat/surroundings. Rises faster when the Pokémon likes you (friendship); in turn friendship rises faster when Comfort is high. Two systems are parallel/per-individual-Pokémon, not a single global stat.",
+      "trackable": "Unconfirmed whether displayed as a numeric value or only a qualitative indicator in the Pokémon's info screen.",
+      "confidence": "medium",
+      "sources": ["https://www.sportskeeda.com/pokemon/what-comfort-level-pokemon-pokopia", "https://www.nintendolife.com/guides/pokemon-pokopia-how-to-raise-comfort-levels"]
+    },
+    {
+      "system": "Friendship (per-Pokémon)",
+      "detail": "Raised by completing a Pokémon's requested task, giving favorite items, playing minigames ('Look This Way', quizzes), or spending time near them. Milestones: Pokémon starts seeking the player out and leaving gift materials mid-tier; at max friendship a Pokémon calls the player by their chosen name (instead of 'Ditto') and explicitly announces being your best friend.",
+      "trackable": "Behavioral/qualitative signals confirmed (naming change, gift-dropping, best-friend dialogue) but no confirmed numeric friendship meter shown in a menu.",
+      "confidence": "medium",
+      "sources": ["https://wikipokopia.com/guides/friendship", "https://www.dtgre.com/2026/03/pokemon-pokopia-friendship-guide-befriend-them-faster.html"]
+    },
+    {
+      "system": "Currency — Life Coins",
+      "detail": "Main currency, used at the Pokémon Center PC shop for furniture, recipes, seeds, and kits (e.g., recipe packs cost 500–5,000 Life Coins). Earned mainly via 'Challenges' completed at the PC.",
+      "trackable": "Life Coin total presumably shown in PC shop/wallet UI (not independently screenshotted/confirmed by scout).",
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/584813"]
+    },
+    {
+      "system": "Crafting",
+      "detail": "Over 600 crafting recipes across six categories, unlocked via story progression, exploration rewards, shop purchases, and Pokémon friendships. Materials gathered by cutting wood, breaking rocks, exploring, etc.",
+      "trackable": "Unconfirmed whether the game shows a 'recipes learned / total' counter.",
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-pokopia-complete-crafting-recipe-materials-list-guide/", "https://pokopia.center/posts/pokopia-crafting-recipes-complete-list-2026/"]
+    },
+    {
+      "system": "Habitats",
+      "detail": "Pokémon don't roam the overworld randomly — they appear at player-built 'habitats' (specific item arrangements). Each habitat can host one Pokémon at a time. Count of distinct habitats cited inconsistently across sources: one tracker site claims '214 Habitats', another claims '212+ habitats'.",
+      "trackable": "unconfirmed exact number; treat as approximate ('~212-214') pending official confirmation.",
+      "confidence": "low",
+      "sources": ["https://pokopiafinder.com/", "https://pokopia.dev/mechanics/spawn-system"]
+    },
+    {
+      "system": "Ancient Relics / Appraisal (Professor Tangrowth)",
+      "detail": "Small and Large Lost Relics can be given to Professor Tangrowth's 'Appraise' specialty for a random reward (Habitat recipe, item recipe, or usable item). Community count: 37 Large Relics and 46 Small Relics (83 total) — single-source figure, unverified officially. Gimmighoul trading also exists: trading an appraised relic, Rainbow Feather, or Silver Feather to Gimmighoul yields one random rare furniture item.",
+      "trackable": "Unconfirmed whether a relic-collection checklist/counter exists in-game.",
+      "confidence": "low",
+      "sources": ["https://rankedboost.com/pokopia/guides/lost-relics/", "https://game8.co/games/Pokemon-Pokopia/archives/585474"]
+    },
+    {
+      "system": "Multiplayer / Dream Islands / Cloud Islands",
+      "detail": "Supports Link Play multiplayer in Palette Town or on Cloud Islands. Dream Islands are accessed by befriending Drifloon, completing its habitat, and obtaining a doll; different dolls lead to different Dream Islands. Multiplayer session rules: all players must agree to travel to/leave a Dream Island together. Requires Nintendo Switch Online + internet.",
+      "trackable": "n/a for solo trophies unless a specific multiplayer trophy is desired; flagging as a system that could gate an online-required objective.",
+      "confidence": "medium",
+      "sources": ["https://en-americas-support.nintendo.com/app/answers/detail/a_id/71382/", "https://www.nintendolife.com/guides/pokemon-pokopia-multiplayer-guide-how-to-play-with-friends"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex (species discovered/befriended)", "where": "In-game Pokédex accessible via menu; multiple third-party trackers mirror it (PokoTraqr, Pokopia Companion) implying the base game has a Pokédex with caught/seen states.", "confidence": "high" },
+    { "stat": "Total obtainable species count", "where": "Community sources state 300 numbered entries in the base Pokédex, with a total of ~304 including event Pokémon; a separate Pokédex exists for Expansion Pass (Bubbly Basin) additions. Exact base-game number needs official confirmation before being used as a hard trophy target.", "confidence": "medium" },
+    { "stat": "Trainer Rank", "where": "No persistent menu meter; shown only via one-time rank-up notification popup and by testing area gates.", "confidence": "medium" },
+    { "stat": "Environment Level (per region)", "where": "Reportedly viewable per-region; exact UI location and max value (5 vs 10, sources conflict) not independently confirmed.", "confidence": "low" },
+    { "stat": "Life Coins (currency total)", "where": "Presumed shown in PC/shop UI; not independently confirmed by this scout.", "confidence": "low" },
+    { "stat": "Comfort Level / Friendship per Pokémon", "where": "Likely visible on individual Pokémon info screens, but scout could not confirm whether shown as a number, bar, or only qualitative behavior cues.", "confidence": "low" },
+    { "stat": "Crafting recipes known / total", "where": "Unconfirmed whether an in-game counter exists despite 600+ total recipes being documented by third parties.", "confidence": "low" },
+    { "stat": "Relic collection (Small/Large Lost Relics)", "where": "Unconfirmed whether an in-game checklist exists; only fan trackers (RankedBoost) maintain lists.", "confidence": "low" },
+    { "stat": "Photo count / photo mode gallery", "where": "Version 2.0.0 patch notes state photo display limit increased from 10 to 40, implying a photo gallery/storage screen exists.", "confidence": "medium" }
+  ],
+  "missables": [
+    {
+      "item": "Character name",
+      "detail": "Chosen once at the start and cannot be changed afterward (appearance/cosmetics ARE changeable via mirrors, but the name is permanent).",
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/584802"]
+    },
+    {
+      "item": "Starting island layout",
+      "detail": "All playthroughs begin on the same starting island/tutorial layout; cannot be altered or re-chosen.",
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/584802"]
+    },
+    {
+      "item": "Seasonal Pokémon / seasonal items",
+      "detail": "Community claim: some Pokémon and cosmetic items (e.g., 'Sprout Festival Petals' in spring, 'Sun-Crested Hat' in summer, 'Harvest Festival Charm' in autumn, 'Frost Sprite Pendant' in winter) appear only during a specific in-game season (~30 in-game days per season). Missing the window means waiting roughly a full year to retry on the same save. NOTE: exact item names come from a single fan-guide source (pokopia.center) that reads as possibly AI-generated/unverified boilerplate — treat these specific names with caution.",
+      "confidence": "low",
+      "sources": ["https://pokopia.center/posts/pokopia-missables-checklist-complete-list-2026/"]
+    },
+    {
+      "item": "Real-time limited events / Mystery Gift codes",
+      "detail": "Pokopia runs real-time-dated events (similar to Animal Crossing) offering exclusive Pokémon or items only obtainable while the event is live. Mystery Gift codes are one-time per save; most seasonal event content is stated to return the following year, but Mystery Gift codes reportedly do not return once expired.",
+      "confidence": "low",
+      "sources": ["https://www.nintendolife.com/guides/pokemon-pokopia-all-limited-time-events-and-exclusive-pokemon (fetch blocked, title/snippet only)", "https://pokopia.center/posts/pokopia-missables-checklist-complete-list-2026/"]
+    },
+    {
+      "item": "First-visit NPC dialogue rewards",
+      "detail": "Talking to certain NPCs for the first time in a specific window gives a one-time item; once the dialogue changes, the reward is permanently gone for that save.",
+      "confidence": "low",
+      "sources": ["https://pokopia.center/posts/pokopia-missables-checklist-complete-list-2026/"]
+    },
+    {
+      "item": "Pre-Legendary dialogue/cosmetic unlocks in Sparkling Skylands",
+      "detail": "Community claim that certain cosmetic dialogue rewards tied to each Legendary Pokémon encounter vanish permanently once that Legendary is caught/befriended.",
+      "confidence": "low",
+      "sources": ["https://pokopia.center/posts/pokopia-missables-checklist-complete-list-2026/"]
+    }
+  ],
+  "rngSystems": [
+    {
+      "system": "Habitat spawns / rarity tiers",
+      "detail": "Pokémon appear at built habitats rather than roaming freely. Each habitat has a filtered pool of possible Pokémon based on habitat type, time of day (Morning 5-10AM, Daytime 10AM-5PM, Evening 5-8PM, Night 8PM-5AM, or 'All day'), and weather. Rarity affects spawn speed: Common appears within minutes, Uncommon takes longer, Rare requires more patience/waiting.",
+      "confidence": "medium",
+      "sources": ["https://pokopia.dev/mechanics/spawn-system", "https://finalboss.io/pokemon-pokopia-how-to-use-habitats-and-rain"]
+    },
+    {
+      "system": "Weather",
+      "detail": "Weather changes dynamically in-game (unlike time of day, which follows the real-world clock) and affects which Pokémon can appear at habitats. Players can force certain weather via specific habitat structures (e.g., a Rain Dance Site habitat triggers rain; a Sunny Day Site forces sun).",
+      "confidence": "medium",
+      "sources": ["https://thegameswiki.com/pokopia/wiki/weather-system", "https://pokopiahabitats.com/guides/how-to-change-weather-pokemon-pokopia"]
+    },
+    {
+      "system": "Shiny Pokémon",
+      "detail": "CONFLICTING information. Most sources/community consensus (including a Pokémon.com official forum thread) state Pokopia does NOT have traditional shiny Pokémon, partly because its 'one Pokémon of each species befriended' design removes the repeat-encounter loop that shiny hunting relies on. One single fan guide claims a 1-in-500 (0.2%) shiny rate exists via wild encounters. This is a load-bearing discrepancy — do NOT build a shiny-hunting trophy without further official confirmation.",
+      "confidence": "low",
+      "sources": ["https://www.thegamer.com/shiny-pokemon-pokopia/", "https://community.pokemon.com/en-us/discussion/22937/are-shinys-in-pokopia", "https://pokopia.center/posts/pokopia-shiny-pokemon-hunting-guide-2026/"]
+    },
+    {
+      "system": "Lost Relic appraisal rewards",
+      "detail": "Giving a Small or Large Lost Relic to Professor Tangrowth's Appraise specialty yields a random reward (a habitat recipe, item recipe, or usable item) — outcome cannot be predicted/chosen.",
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/585474"]
+    },
+    {
+      "system": "Gimmighoul trading",
+      "detail": "Trading an appraised relic, a Rainbow Feather, or a Silver Feather to Gimmighoul returns one random rare furniture item.",
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Pokemon-Pokopia/archives/585474"]
+    }
+  ],
+  "versionDifferences": [
+    {
+      "note": "Switch 2 exclusive — no other hardware platform release exists to diff against as of August 2026.",
+      "confidence": "high"
+    },
+    {
+      "note": "Version 2.0.0 (released August 5, 2026, free update) added the Dive move (build underwater; requires knowing Surf and completing the 'Raise the environment level!' request at Bleak Beach), plus underwater Build specialty, new items (portal pod, safe), Dynamic Ditto print pattern, 5 new hair colors, bulk item transfer, item deletion from storage containers, motion-sickness camera settings, automatic re-habitation of rebuilt structures, batch relic appraisal (up to 10 at once), power generator placement cap raised to 128, and photo display limit raised from 10 to 40. This is a significant content/QoL update that post-dates original March 5, 2026 launch — any trophy list should account for whether it targets pre- or post-2.0.0 game state.",
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2026/08/pokemon-pokopia-updated-to-version-2-0-0-here-are-the-full-patch-notes", "https://mynintendonews.com/2026/08/05/pokemon-pokopia-updated-to-version-2-0-0-patch-notes/"]
+    },
+    {
+      "note": "Expansion Pass (paid DLC) Part 1, 'Bubbly Basin,' released August 5, 2026 alongside the 2.0.0 free update. Adds a fully underwater settlement area, an additional Dream Island, buoyant/floating-building blocks, new furniture, and (per pre-launch reveals) at minimum the Popplio, Mudkip, and Corphish evolution lines plus Manaphy as new attractable Pokémon. Full new-Pokémon roster for this DLC was not fully enumerated in available sources. This is paid, optional content — any trophies referencing it should be flagged as DLC-dependent, not base-game.",
+      "confidence": "medium",
+      "sources": ["https://www.pokemon.com/us/news/pokemon-pokopia-expansion-pass-part-1-bubbly-basin-is-available-today", "https://serebii.net/pokemonpokopia/expansionpass/bubblybasin.shtml"]
+    },
+    {
+      "note": "Expansion Pass is planned to release in three parts total (Part 1 'Bubbly Basin' out August 5, 2026); Parts 2 and 3 were not yet released as of this research (August 12, 2026) — confirm release status before finalizing any DLC-based trophies.",
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/sg/news/article/1ufIbY6tfNq4IRUjci8esD"]
+    },
+    {
+      "note": "Prior patch history (pre-2.0.0): v1.0.1 (Mar 4, 2026, activated online features), v1.0.2 (Mar 4, 2026, quest fixes + Spinarak type correction), v1.0.3 (Apr 9, 2026, search/navigation/construction/habitat fixes), v1.0.4 (Apr 23, 2026, enabled Pokémon Center relocation during special events), v1.1.0 (Jun 9, 2026, enabled Expansion Pass purchasing + Dynamic Ditto Print items), v1.1.1 (Jun 19, 2026, minor item-placement and photo-mode fixes). None of these appear to have removed content, only fixed bugs and added minor features — no evidence of cut content between versions.",
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/pokemonpokopia/patch.shtml"]
+    },
+    {
+      "note": "No region-specific (Japan vs. US/other) content or achievement differences were found in available sources. Game appears to be a simultaneous worldwide release with identical content.",
+      "confidence": "low"
+    }
+  ],
+  "sources": [
+    "https://pokopia.wiki.fextralife.com/Trainer_Rank",
+    "https://wikipokopia.com/trainer-ranks",
+    "https://game8.co/games/Pokemon-Pokopia/archives/584824",
+    "https://gamefaqs.gamespot.com/switch-2/559184-pokemon-pokopia/faqs/82556/environment-level-and-comfort-level",
+    "https://pokopia.center/posts/pokopia-pokemon-center-rebuild-guide-2026/",
+    "https://www.sportskeeda.com/pokemon/what-comfort-level-pokemon-pokopia",
+    "https://www.nintendolife.com/guides/pokemon-pokopia-how-to-raise-comfort-levels",
+    "https://wikipokopia.com/guides/friendship",
+    "https://www.dtgre.com/2026/03/pokemon-pokopia-friendship-guide-befriend-them-faster.html",
+    "https://game8.co/games/Pokemon-Pokopia/archives/584813",
+    "https://www.thegamer.com/pokemon-pokopia-complete-crafting-recipe-materials-list-guide/",
+    "https://pokopia.center/posts/pokopia-crafting-recipes-complete-list-2026/",
+    "https://pokopiafinder.com/",
+    "https://pokopia.dev/mechanics/spawn-system",
+    "https://pokopia.dev/mechanics/weather-system",
+    "https://thegameswiki.com/pokopia/wiki/weather-system",
+    "https://pokopiahabitats.com/guides/how-to-change-weather-pokemon-pokopia",
+    "https://rankedboost.com/pokopia/guides/lost-relics/",
+    "https://game8.co/games/Pokemon-Pokopia/archives/585474",
+    "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71382/",
+    "https://www.nintendolife.com/guides/pokemon-pokopia-multiplayer-guide-how-to-play-with-friends",
+    "https://game8.co/games/Pokemon-Pokopia/archives/584802",
+    "https://pokopia.center/posts/pokopia-missables-checklist-complete-list-2026/",
+    "https://www.thegamer.com/shiny-pokemon-pokopia/",
+    "https://community.pokemon.com/en-us/discussion/22937/are-shinys-in-pokopia",
+    "https://pokopia.center/posts/pokopia-shiny-pokemon-hunting-guide-2026/",
+    "https://www.serebii.net/pokemonpokopia/patch.shtml",
+    "https://www.nintendolife.com/news/2026/08/pokemon-pokopia-updated-to-version-2-0-0-here-are-the-full-patch-notes",
+    "https://mynintendonews.com/2026/08/05/pokemon-pokopia-updated-to-version-2-0-0-patch-notes/",
+    "https://www.pokemon.com/us/news/pokemon-pokopia-expansion-pass-part-1-bubbly-basin-is-available-today",
+    "https://serebii.net/pokemonpokopia/expansionpass/bubblybasin.shtml",
+    "https://www.nintendo.com/sg/news/article/1ufIbY6tfNq4IRUjci8esD",
+    "https://pokopia.pokemon.com/en-us/",
+    "https://gamerant.com/pokemon-pokopia-complete-pokedex-all-pokemon-locations/",
+    "https://www.vice.com/en/article/how-many-pokemon-are-in-pokopia-full-pokopia-pokedex-list/"
+  ],
+  "unconfirmed": [
+    "Exact base-game Pokédex total (300 vs 304, and whether 304 includes event/DLC Pokémon) — needs an official/primary-source count.",
+    "Whether Trainer Rank, Environment Level, Life Coins, Friendship, and Comfort Level are exposed as exact numeric values anywhere in the UI, or only as qualitative/behavioral indicators — this materially affects whether precise numeric trophies ('reach Environment Level 5') are player-verifiable in-game.",
+    "Exact max value for Environment Level (conflicting claims of 5 vs 10 as the 'max'/completion threshold).",
+    "Exact total number of habitats (conflicting counts of 212+ and 214 from unofficial trackers).",
+    "Whether shiny Pokémon exist at all — official community forum suggests no, one fan guide claims a 1/500 rate. This needs resolution before any shiny-related trophy is proposed.",
+    "Specific named list of seasonal/event missable items and Pokémon — only sourced from a single fan site (pokopia.center) whose content reads as possibly template-generated; specific item names (e.g., 'Star Charm', 'Founder's Locket') are unverified against a second source.",
+    "Whether the game has an in-game master 'completion percentage' stat visible anywhere (no direct evidence found; only fan-made '100% checklists' which are not official trackers).",
+    "Full new-Pokémon roster added by the Bubbly Basin Expansion Pass DLC.",
+    "Whether Expansion Pass Parts 2 and 3 released before this research date (Aug 12, 2026) — not found in available sources, should be treated as not yet released.",
+    "Whether an in-game recipe-counter ('X/600+ recipes learned') or relic-checklist exists as a genuine trackable stat vs. only community-maintained trackers."
+  ]
+}

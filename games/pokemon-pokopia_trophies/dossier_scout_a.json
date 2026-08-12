@@ -1,0 +1,101 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Pokopia",
+  "platform": "Nintendo Switch 2",
+  "campaignStructure": {
+    "premise": "Player is a Ditto that has taken human form and arrives in a post-apocalyptic, emptied-out Kanto-inspired world. Goal is to rebuild/restore the land and repopulate it with Pokémon by building habitats, homes, and communities. No traditional combat/battling — reviews note the game removes Pokémon fighting entirely.",
+    "regions": [
+      "Withered Wasteland (also referred to as 'Barren Badlands' in one source — name inconsistent across wikis; starting area)",
+      "Bleak Beach",
+      "Rocky Ridges",
+      "Sparkling Skylands (final of the four main story regions)",
+      "Palette Town (secret 5th area, unlocked only after the main story/credits — freeform building area, per thegameswiki)"
+    ],
+    "trainerRankSystem": {
+      "description": "Four-tier rank system (No Rank -> Great -> Ultra -> Master) that gates access to new regions. Rank increases automatically upon completing specific story 'Important Requests' tied to meeting Legendary Pokémon — not a grind/XP system.",
+      "ranks": [
+        {
+          "rank": "Great",
+          "trigger": "Complete the 'Yawn Up A Storm' Important Request in Withered Wasteland (raise humidity), leading to meeting Kyogre.",
+          "unlocks": "Bleak Beach and Rocky Ridges become accessible."
+        },
+        {
+          "rank": "Ultra",
+          "trigger": "Complete 'Brighten Things Up' in Bleak Beach (meet Raikou) AND 'Time to Party' in Rocky Ridges (meet Volcanion).",
+          "unlocks": "Sparkling Skylands becomes accessible."
+        },
+        {
+          "rank": "Master",
+          "trigger": "Complete 'Rebuild the Huge Building' in Sparkling Skylands, leading to meeting Mewtwo.",
+          "unlocks": "Highest rank; no further explorable areas gated by rank specifically, but marks approach to story completion."
+        }
+      ],
+      "confidence": "medium-high — corroborated independently by pokopia.wiki.fextralife.com and allthings.how with matching rank names and request names; a third source (wikipokopia.com) gave different wording for the same requests ('Yawn Up a Storm', 'Brighten Things Up', 'Time to Party!' — consistent) but called them 'rank names' rather than requests, and used different region name 'Withered Wastelands'/'Bleak Beach' spelling. Core structure (4 requests -> 4 legendaries -> 3 rank-ups -> 3 new regions) is consistent across 3 sources."
+    }
+  },
+  "bosses": {
+    "hasTraditionalBosses": false,
+    "note": "Pokopia has no combat/battle system per multiple reviews ('removes the fighting'). There are no boss fights. The closest equivalent is a set of four story-critical Legendary Pokémon encounters that occur as peaceful milestone events (not battles), each tied to completing a region's main Important Request and each triggering a Trainer Rank increase.",
+    "storyLegendaryEncounters": [
+      { "name": "Kyogre", "region": "Withered Wasteland", "trigger": "End of 'Yawn Up A Storm' request", "permanentlyRecruitable": "Reported as NOT permanently addable to a settlement (unconfirmed/low confidence)", "confidence": "medium" },
+      { "name": "Raikou", "region": "Bleak Beach", "trigger": "End of 'Brighten Things Up' request", "permanentlyRecruitable": "Can reportedly be invited later via a Pikachu doll on a 'Pokopia Dream Island'", "confidence": "low" },
+      { "name": "Volcanion", "region": "Rocky Ridges", "trigger": "End of 'Time to Party' request", "permanentlyRecruitable": "Reported recruitable via a specific firework/party sequence after the main questline", "confidence": "low" },
+      { "name": "Mewtwo", "region": "Sparkling Skylands", "trigger": "End of 'Rebuild the Huge Building' request (final story legendary)", "permanentlyRecruitable": "Reported findable on Dream Islands via a Dragonite Doll", "confidence": "low" }
+    ],
+    "postgamePalatteTownLegendaries": {
+      "note": "Additional Legendary/Mythical Pokémon (Kanto birds Articuno/Zapdos/Moltres, Mew, and others) are reportedly obtainable in the postgame/Palette Town area via building special structures (Freezing Chambers, Abandoned Power Plant, Altar of Flame) or collectible quests (Mew via 27 'Mysterious Slates' brought to 'The Mysterious Mural' in Withered Wasteland). One source (RankedBoost, page fetch failed/403, so from search snippet only) states there are 12 total legendary/mythical Pokémon in the game.",
+      "confidence": "low — largely single-source (RankedBoost search snippet, thegamer.com search snippet); could not directly fetch and verify RankedBoost's full list."
+    }
+  },
+  "storyMilestones": [
+    { "milestone": "Befriend Kanto starters / build first home in Withered Wasteland", "confidence": "low", "source": "game8.co (AI-summarized fetch, not independently corroborated)" },
+    { "milestone": "Rebuild each region's Pokémon Center (Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands)", "confidence": "medium", "note": "Corroborated by gfinityesports and thegamer.com as a hard requirement for reaching the credits, each said to take one in-game day." },
+    { "milestone": "Raise Environment Level in all four regions", "confidence": "medium", "note": "Environment Level is a per-biome restoration meter from Level 1 up to Level 10 (per wikipokopia.com). Sources disagree on what level is required for the ending: gfinityesports/thegamer.com say 'Level 5' is the requirement to roll credits; wikipokopia.com's own leveling guide says Level 10 is needed for the 'final chapter' and Palette Town's completion, with Level 9 as the threshold for Legendary encounters. This is unresolved — flagged as a gap." },
+    { "milestone": "Team Initiation Challenge (final Important Request)", "confidence": "medium-high", "note": "Corroborated by 3 independent sources (Game8, GFinity, and search-summarized Nintendo Life) as the final story quest gating the ending. Involves collecting badges/items (one source says 8 sets of materials/items) delivered to a lighthouse-like structure at 'Team Rocket Hideout' on the coast of Withered Wasteland, which is ultimately revealed to be a rocket." }
+  ],
+  "endings": {
+    "trigger": "Completing the 'Team Initiation Challenge' — turning in all required badges/items at the lighthouse structure in Withered Wasteland, then supplying 'two party poppers' which triggers the structure to reveal itself as a rocket and launch.",
+    "sequence": "A space-themed credits cinematic shows the rocket traveling through space, dodging obstacles, and meeting another spacecraft/space pod containing a Ditto plush; a person in a space suit (implied to be Ditto's original trainer) emerges to greet it.",
+    "postCredits": "No formal alternate/secret ending exists per gfinityesports ('there are no secret or alternative endings'). After credits, the game returns the player to the island; no New Game Plus.",
+    "postGameContent": {
+      "unlocksAfterCredits": [
+        "Palette Town — a 5th, mostly-blank freeform building area, reportedly reached via a Rock Smash-equivalent ability and bridge-building rather than a straightforward story gate (details inconsistent between sources — see gaps).",
+        "A secret room in the northwest island of Sparkling Skylands, unlockable by completing the Pokédex (per Game8).",
+        "Continued building, befriending, and remaining side requests — the ending does not lock out any content."
+      ],
+      "confidence": "medium — corroborated across Game8, gfinityesports, and thegamer.com search summaries for the broad strokes (no NG+, Palette Town as postgame reward, continued play after credits); specific unlock mechanics for Palette Town differ between sources."
+    },
+    "loreTwist": {
+      "note": "Postgame lore reveals Team Rocket (called 'Team R' in-game) built the evacuation rockets that saved humanity from a climate catastrophe, recontextualizing them as morally-complex 'anti-villains' rather than straightforward antagonists. Giovanni is named as a figure behind this.",
+      "confidence": "medium — single direct source (gfinityesports) but internally consistent with the rocket/lighthouse ending mechanic corroborated elsewhere."
+    }
+  },
+  "sources": [
+    "https://pokopia.wiki.fextralife.com/Trainer_Rank",
+    "https://allthings.how/pokemon-pokopia-trainer-rank-how-to-unlock-every-area-gate/",
+    "https://wikipokopia.com/trainer-ranks",
+    "https://wikipokopia.com/guides/environment-levels",
+    "https://game8.co/games/Pokemon-Pokopia/archives/583158",
+    "https://game8.co/games/Pokemon-Pokopia/archives/586867",
+    "https://www.gfinityesports.com/article/did-you-know-pokemon-pokopia-has-ending-credits-heres-how-to-unlock-them",
+    "https://www.gfinityesports.com/article/pokemon-pokopia-lore-reveals-the-shocking-truth-about-team-rocket",
+    "https://www.thegamer.com/pokemon-pokopia-how-long-to-beat-roll-credits-true-ending-regions/",
+    "https://www.nintendolife.com/guides/pokemon-pokopia-ending-guide-everything-you-need-to-do-to-roll-credits (title/summary only — direct fetch returned HTTP 403)",
+    "https://allthings.how/how-to-get-every-legendary-and-mythical-pokemon-in-pokemon-pokopia/ (search snippet only)",
+    "https://www.thegamer.com/pokemon-pokopia-befriend-kanto-legendary-birds-articuno-zapdos-moltres/ (search snippet only)",
+    "https://rankedboost.com/pokopia/guides/legendary/ (title/12-count claim from search snippet only — direct fetch returned HTTP 403)",
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pok%C3%A9dex_number_in_Pok%C3%A9mon_Pokopia",
+    "General review round-up (Nintendo Life, GBAtemp, Cubed3, Worthplaying, Pure Nintendo, Digitally Downloaded, MKAU, Qualbert, Phenixx Gaming) confirming genre, no-combat premise, Ditto protagonist, March 2026 Switch 2 exclusive release"
+  ],
+  "unconfirmed": [
+    "Exact spelling of the starting region: 'Withered Wasteland' vs 'Withered Wastelands' vs 'Barren Badlands' — sources disagree.",
+    "Exact rank-trigger request name variants: 'Time to Party' vs 'Time to Party!' vs 'Party Time!' — minor punctuation/wording differences across wikis, could not confirm which is the official in-game text.",
+    "Whether Environment Level 5 or Environment Level 10 is the actual requirement to trigger the ending — two source clusters directly contradict each other on this.",
+    "Exact requirement count/name for the Team Initiation Challenge (one source says '8 sets of materials and items', another describes 'badges' collected throughout the game) — could not confirm precise number or item names.",
+    "Full official list of all Legendary/Mythical Pokémon in the game — RankedBoost's claimed count of 12 could not be directly verified (page fetch blocked); only 4 story-tied legendaries (Kyogre, Raikou, Volcanion, Mewtwo) and a partial postgame list (Articuno, Zapdos, Moltres, Mew) were corroborated.",
+    "Whether the four story Legendary encounters are individually tracked/displayed anywhere in-game (e.g., a checklist or Pokédex flag) beyond general Pokédex registration — not confirmed.",
+    "Precise unlock method for Palette Town — sources gave different unlock chains (one via 'Rock Smash from Hitmonchan + bridge building', ending-guide sources imply it opens automatically after all 4 regions reach max Environment Level). Could not reconcile.",
+    "Whether there is any in-game 'story progress' percentage, chapter list, or checklist UI a player can view (distinct from Trainer Rank and per-region Environment Level) — not found in any source.",
+    "Could not directly access Nintendo Life's official ending guide, thegameswiki's ending-and-credits page, fextralife's legendary Pokémon page, RankedBoost, or GameFAQs environment level page (403/429 errors) — relied on search-engine AI summaries or secondary corroborating sources for some claims, which carries higher risk of paraphrase drift."
+  ]
+}
