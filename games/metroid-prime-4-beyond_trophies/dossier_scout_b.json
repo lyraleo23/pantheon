@@ -1,0 +1,212 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game, DLC",
+  "game": "Metroid Prime 4: Beyond",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Missile Expansions",
+      "detail": "Each grants +5 missile capacity. Aggregated secondary source claims 48 total across the game (max 250 missiles), but this figure comes from a search-engine summary, not a single confirmed primary count; per-area breakdowns exist (e.g. Volt Forge has 8) but I could not verify they sum cleanly to 48.",
+      "trackable": "Tracked via ammo counter in HUD/inventory and highlighted on map by Scout Bots once found; contributes to the item-completion percentage.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["thegamer.com missile expansion guide", "gamereactor.eu area guides"]
+    },
+    {
+      "category": "collectible",
+      "name": "Energy Tanks",
+      "detail": "Reported total of 14 Energy Tanks across Viewros, each increasing max energy. Figure comes from aggregated secondary sources, not a single primary confirmation.",
+      "trackable": "Shown in health/energy HUD and inventory screen; contributes to item-completion percentage.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["omegametroid.com energy tanks walkthrough", "gamereactor.eu area guides"]
+    },
+    {
+      "category": "collectible",
+      "name": "Elemental Shot Expansions",
+      "detail": "New collectible type for this game, expanding ammo for the Arm Cannon's elemental/special shot. Confirmed per-area counts found: Great Mines 6, Sol Valley 8, Flare Pool 9 (partial; other areas like Fury Green, Volt Forge, Chrono Tower not confirmed in search), so total across the whole game is unconfirmed but at least in the low-to-mid 20s and likely higher once all six areas are counted.",
+      "trackable": "Tracked in inventory and via Scout Bots highlighting missing Shot Expansions on the map; contributes to item-completion percentage.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["gamespot.com shot expansion locations guide", "gamereactor.eu area guides"]
+    },
+    {
+      "category": "collectible",
+      "name": "Psychic Power Bomb Expansions",
+      "detail": "Reported total of 5 Psychic Power Bomb Expansions in the game.",
+      "trackable": "Tracked in inventory; contributes to item-completion percentage; also highlighted by Scout Bots.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com psychic power bomb expansion guide", "gamespot.com psychic power bomb expansion locations guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Logbook / Scan Log entries",
+      "detail": "Scan-based lore/creature/tech collection via the Psychic Visor, organized into (at least) four categories: Biology, Machine, Lamorn Legacy, and Technology. Partial per-region scan counts found: Prologue 3, Fury Green 38, Volt Forge 16, Sol Valley 11, Flare Pool 21 (these five alone sum to 89); Great Mines and Chrono Tower counts not found, so the true total is unconfirmed but likely over 100. Not every scannable object counts — only items that open a Logbook entry count toward the percentage.",
+      "trackable": "Logbook menu shows overall scan completion as a percentage, broken down by category.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Wikitroid: List of Logbook entries in Metroid Prime 4: Beyond", "nintendolife.com scan logbook locations guide", "game8.co logbook completion guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Mech Parts",
+      "detail": "Six Mech Parts required to reach the game's final location. Mostly found in the Sol Valley open-world region (5 of 6) at locations called 'G.F. Debris'; one is in Flare Pool (Lava Lake Bridge) obtained after defeating the Behemoth mini-boss.",
+      "trackable": "Tracked in inventory/quest item list.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["gamespot.com mech part locations guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Scout Bots",
+      "detail": "One Scout Bot hidden in each of the game's six main areas (6 total). Scanning and shooting a Scout Bot with the Thunder Shot causes it to highlight all missing Missile, Shot, and Power Bomb Expansions plus Energy Tanks in that area on the map — a built-in 100%-completion aid.",
+      "trackable": "Once activated, missing collectibles appear as map markers; Scout Bots themselves likely tracked as found/not-found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["gamespot.com scout bot locations guide", "videogameschronicle.com scout bot locations guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Green Energy Crystals",
+      "detail": "Open-world currency-like collectible, found scattered across Sol Valley (including all six Shrines) and in Jungle Path (Fury Green). Deposited at the 'Altar of Legacy' in Fury Green for tiered rewards: 25% = Psychic Beam upgrade (faster fire, more damage), 50% = Control Beam charge ability, 75% = Green Energy Crystal Finder (adds crystals to radar), 100% = Memory Fruit (required to progress the main story) and the Legacy Suit (grants a protective barrier ability). Some sources indicate the tracker meter can be filled a second time (turning blue) after reaching 100%, suggesting more crystals exist beyond the amount needed for full rewards, though what (if anything) the second fill does is unconfirmed.",
+      "trackable": "Dedicated crystal counter/gauge visible in the pause/altar menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["nintendolife.com Green Energy Crystals guide", "game8.co green crystal farming guide", "gamerant.com green crystals PSA"]
+    },
+    {
+      "category": "completion tracking",
+      "name": "Item Completion % and Logbook Completion %",
+      "detail": "The game tracks two separate completion percentages: an item-collection percentage (Shot/Missile/Psychic Power Bomb Expansions, Energy Tanks, Mech Parts, Scout Bots) and a Logbook scan percentage, viewable in the Logbook menu. Both must reach 100% for full completion; the ending cutscene and Samus's helmet visibility in the finale change based on whether these are under or at 100%.",
+      "trackable": "Directly displayed in-game: item inventory screen and Logbook menu each show a completion percentage.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co 100% completion guide", "gamerant.com 100% logbook guide"]
+    },
+    {
+      "category": "post-game / secret",
+      "name": "Sylux post-credits cutscene",
+      "detail": "Achieving 100% item AND 100% logbook completion before/at the final point of no return unlocks a secret post-credits cutscene revealing backstory about Sylux, the game's main antagonist (a former Galactic Federation field captain whose squad was wiped out). At under 100%, the standard ending plays (with Samus's helmet on); at 100%, the same final scene plays without the helmet.",
+      "trackable": "Not a counter per se, but gated by the two completion percentages described above, both of which are shown in-game.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["game8.co 100% completion guide", "gamerant.com 100% logbook & missable scans"]
+    },
+    {
+      "category": "missable content",
+      "name": "Point of no return before final Sylux fight",
+      "detail": "A prompt appears before the final confrontation with Sylux at the top of Chrono Tower ('order the troopers to move forward'); confirming it locks players out of all other areas of Viewros for the rest of the playthrough. Any collectibles or logbook scans not obtained before this point are permanently missed for that save file. Guides recommend a manual save beforehand to preserve access for 100% completion.",
+      "trackable": "N/A (structural point of no return), but the game reportedly gives an explicit warning prompt.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["game8.co missables and points of no return guide"]
+    },
+    {
+      "category": "missable content",
+      "name": "Prologue scans (UTO Research Center)",
+      "detail": "All logbook scans available during the prologue (aboard/at the UTO Research Center, before the Aberax boss fight) are missable — once the Aberax fight ends, Samus is transported to Viewros and cannot return. This includes a unique 'Galactic Federation Trooper' scan (distinct from named soldiers met later) and Space Pirate scans, both obtainable only during this intro sequence.",
+      "trackable": "Logbook menu shows these as permanently blank if missed once the section is left.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["gamerant.com 100% logbook & missable scans"]
+    },
+    {
+      "category": "missable content",
+      "name": "Boss-specific secondary scans",
+      "detail": "Every boss has a missable primary scan; most (Carvex, Xelios, Keratos, Phenoros, Omega Griever) can later be re-scanned via hologram playback, EXCEPT certain secondary/sub-scans that only appear during the live fight — e.g. Carvex's vine/pollen-sac scan, which is not obtainable from the hologram in the Sanctuary of Guardians and must be scanned mid-combat. The Behemoth (a mini-boss in Flare Pool) cannot be re-encountered after defeat, making its scan permanently missable. A 'Swim Snatcher' creature scan in Flare Pool (Volcano Heart area) is obtained by scanning it while it steals a bait Energy Tank from a crate.",
+      "trackable": "Logbook menu.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["gamerant.com 100% logbook & missable scans", "omegametroid.com missable scans walkthrough"]
+    },
+    {
+      "category": "minigame / optional challenge",
+      "name": "Vi-O-La Test Circuits",
+      "detail": "Three 'test track' challenge sequences tied to the Vi-O-La motorcycle, required to obtain a Master Teleporter Key / Vi-O-La certification from the character Xelios and ultimately reward the Psychic Boots upgrade (double jump). Test Circuit 1: lap the circuit in under 50 seconds (unlocks Boost), second challenge unlocks Power Slide; a second test track has three more challenges (scan while driving, shoot while driving, multi-target shoot while driving); a third test track has three enemy-wave-destruction challenges. Note: these appear to be tied to mandatory story/ability progression (the Psychic Boots are needed to progress), not purely optional side content, though structured like minigames.",
+      "trackable": "Unclear whether the game tracks best lap times or challenge completion outside of the one-time unlock gate.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikitroid: Test Circuit 1", "game8.co Vi-O-La unlock guide"]
+    },
+    {
+      "category": "side content",
+      "name": "Vi-O-La motorcycle traversal features",
+      "detail": "Samus acquires the Vi-O-La motorcycle (invented by the extinct Lamorn race) for fast travel across Sol Valley. Abilities include a Boost (speed + enemy knockback / ore-breaking), a Power Slide (sends enemies/ore flying), and later a homing boomerang projectile that locks onto up to 5 enemies. Used to destroy ore deposits scattered across Sol Valley (possibly tied to Green Energy Crystal collection) and to access parts of the open world.",
+      "trackable": "The Samus & Vi-O-La amiibo unlocks an odometer feature tracking total distance traveled on the bike (this is the clearest in-game 'trackable stat' tied to the bike).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["wccftech.com Vi-O-La details", "gamerant.com Vi-O-La controls", "thegamer.com amiibo guide"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hard Mode",
+      "detail": "A harder difficulty mode that unlocks after completing the game once on Normal Mode. No New Game+ exists — starting a 'Mission Complete' save file resets progress to 0%, it is not a carry-over replay.",
+      "trackable": "Selectable from the difficulty/mode select menu after first clear.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikitroid: Hard Mode", "game8.co New Game Plus Q&A"]
+    },
+    {
+      "category": "post-game",
+      "name": "No New Game Plus",
+      "detail": "Confirmed there is no traditional NG+ carry-over mode. Replaying from a completed save restarts at 0% progress.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co Is There New Game Plus? Q&A"]
+    },
+    {
+      "category": "post-game / secret",
+      "name": "amiibo unlocks",
+      "detail": "Three dedicated amiibo exist for this game (Samus in Varia Suit, Samus & Vi-O-La riding the bike, and Sylux), plus compatibility with all Smash Bros.-line Metroid-series amiibo (8 others per one source). Samus amiibo: unlocks a once-per-day Energy Shield (absorbs up to 99 damage) and a bike-radio jukebox feature (3 tracks on scan, +2 more after beating the game, usable after completing Volt Forge). Samus & Vi-O-La amiibo: once-per-day Boost Recovery for the bike (Sol Valley only), lets player change bike color per tap, and unlocks a distance-traveled odometer. Sylux amiibo: after completing the story, unlocks full/extended versions of certain cinematics that only play in fragments during the normal campaign. Other Metroid-series amiibo: play a random Metroid sound effect in the menu, no daily limit. NOTE: an earlier low-confidence search result claimed a 'Fusion Mode' / Fusion Suit unlocked via a Metroid amiibo, but this appears to be conflating this game with Metroid: Samus Returns (2017) — no corroborating source confirms a Fusion Mode or Fusion Suit in Metroid Prime 4: Beyond specifically. Treat Fusion Mode/Fusion Suit as UNCONFIRMED for this game.",
+      "trackable": "N/A (external unlock mechanism), except the odometer noted above.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com amiibo unlock guide", "videogameschronicle.com amiibo reveal", "gamerant.com amiibo unlocks"]
+    },
+    {
+      "category": "DLC",
+      "name": "Nintendo Switch 2 Edition Upgrade Pack",
+      "detail": "Paid DLC (sold separately from the base Switch game) that upgrades the game to the 'Nintendo Switch 2 Edition.' Provides Quality Mode (4K/60fps docked, 1080p handheld) and Performance Mode (1080p/120fps docked, 720p handheld), both HDR-compatible, plus Joy-Con 2 mouse-aim controls. This is a technical/performance upgrade only — no new story content, levels, or collectibles are added by this DLC.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendo.com Switch 2 Edition Upgrade Pack product page", "Nintendo Support: What DLC is Available (Metroid Prime 4: Beyond)"]
+    },
+    {
+      "category": "DLC",
+      "name": "No story/content DLC found",
+      "detail": "As of research date (mid-August 2026), no paid or free story-expansion DLC (new areas, bosses, or campaigns) has been announced or released for Metroid Prime 4: Beyond. The only official DLC identified is the Switch 2 Edition Upgrade Pack (technical/performance only). No official statements about further post-launch content updates were found.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Nintendo Support DLC page", "GameFAQs forum thread 'Any hopes for a future update(s)?'"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Item collection completion percentage (Shot/Missile/Psychic Power Bomb Expansions, Energy Tanks, Mech Parts, Scout Bots)", "where": "Item/inventory menu", "confidence": "high" },
+    { "stat": "Logbook scan completion percentage, broken down by Biology / Machine / Lamorn Legacy / Technology categories", "where": "Logbook menu", "confidence": "high" },
+    { "stat": "Green Energy Crystal count/gauge (with tiered rewards at 25/50/75/100%, and possible second overflow gauge)", "where": "Altar of Legacy interface / pause menu", "confidence": "medium" },
+    { "stat": "Vi-O-La bike total distance traveled (odometer)", "where": "Unlocked via Samus & Vi-O-La amiibo scan; likely a bike stats/menu screen", "confidence": "low" },
+    { "stat": "Individual ammo counts (missiles, elemental shots, power bombs) and max energy", "where": "HUD and inventory/suit screen", "confidence": "high" }
+  ],
+  "versionNotes": [
+    { "note": "Both the base Nintendo Switch version and the Nintendo Switch 2 Edition (via paid Upgrade Pack) released simultaneously on December 4, 2025. No differences in collectibles, side content, or DLC availability between the two were found — the Switch 2 Edition Upgrade Pack only affects resolution/framerate/load times and adds Joy-Con 2 mouse aiming.", "confidence": "medium" },
+    { "note": "UK first-week sales data showed the Switch 2 version accounted for 83% of sales, suggesting most players experience the enhanced version, but this does not indicate a content difference.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Exact total Missile Expansion count (48) is only supported by an aggregated secondary-source claim, not a directly cited primary source with a verifiable per-area sum — needs confirmation.",
+    "Exact total Elemental Shot Expansion count across all six areas is unconfirmed; only partial per-area figures (Great Mines 6, Sol Valley 8, Flare Pool 9) were found, missing Fury Green, Volt Forge, and Chrono Tower.",
+    "Exact total Logbook/scan entry count across the whole game is unconfirmed; partial per-region figures found (Prologue 3, Fury Green 38, Volt Forge 16, Sol Valley 11, Flare Pool 21 = 89 confirmed) but Great Mines and Chrono Tower entries were not found, and it's unclear if this list is exhaustive or if a 'Sanctuary of Guardians' sub-area is counted separately.",
+    "Could not confirm whether the Elemental Shot Expansion, Missile Expansion, or Energy Tank running totals are displayed with an explicit 'X/Y' fraction in-game (e.g. '23/48 Missile Expansions') versus only a percentage — this affects whether a trophy referencing an exact number is safe to write.",
+    "Could not confirm the full list/count of all six main-area names with certainty; found Ice Belt, Fury Green, Volt Forge, Flare Pool, Great Mines, Chrono Tower plus Sol Valley as the connecting desert hub, and a possible seventh named location 'Sanctuary of Guardians' whose relationship to the six areas is unclear.",
+    "Could not confirm whether a 'Fusion Mode' or 'Fusion Suit' actually exists in Metroid Prime 4: Beyond — initial search results conflated this with Metroid: Samus Returns (2017); treat as unconfirmed/likely not present in this game.",
+    "Could not confirm whether Green Energy Crystals have an exact total count or exact fraction display, or what (if anything) filling the gauge a second time ('blue meter') actually rewards.",
+    "Could not confirm existence of any boss-rush, arena, or replay-challenge mode as post-game content.",
+    "Could not confirm whether the Vi-O-La Test Circuit challenges (lap times, wave-clear challenges) are tracked with a completable checklist/best-time record after their one-time unlock, or whether they can be replayed at all.",
+    "Could not confirm total number of distinct 'side quests' as a discrete formal system — Metroid Prime games traditionally don't have quest logs; side content in this game appears to be environmental (Green Crystals, Mech Parts, Scout Bots) rather than quest-based, but this should be cross-checked against the campaign scout's findings.",
+    "No information found on any accessibility/photo mode, gallery, or art/music collection as bonus content.",
+    "Could not verify if the item-completion and logbook-completion percentages are combined into one overall save-file percentage or remain two permanently separate numbers."
+  ]
+}

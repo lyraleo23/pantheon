@@ -1,0 +1,109 @@
+{
+  "game": "Metroid Prime 4: Beyond",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "mode": "genesis",
+  "developer": "Retro Studios",
+  "publisher": "Nintendo",
+  "releaseDate": "2025-12-04",
+  "researchDate": "2026-08-14",
+  "premise": "Samus Aran defends a Galactic Federation research facility from the rival bounty hunter Sylux and Space Pirates; a stray shot activates a mysterious Artifact that teleports her to the unknown planet Viewros, home to the extinct psychic Lamorn race. She must gather 5 Master Teleportation Keys across Viewros's regions to build a Master Teleporter home, while a wary rivalry with Sylux escalates into open conflict.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Nintendo consoles have no system-level achievement/trophy system on either Switch or Switch 2. Valid Pantheon candidate on both.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — Nintendo-exclusive, no version on any other platform, so no native list exists anywhere to port from."
+  },
+  "campaignStructure": {
+    "prologue": {
+      "location": "UTO Research Center on a planet spelled inconsistently across sources as 'Tanamaar' or 'Tamaar' — disambiguate before using in trophy text.",
+      "detail": "Samus defends the facility against Sylux and Space Pirates, fights the boss Aberax, then a stray shot activates an Artifact that teleports her (and reportedly Sylux) to planet Viewros.",
+      "confidence": "medium"
+    },
+    "mainGoal": "Collect 5 Master Teleportation Keys (one per major region) on Viewros to activate a Master Teleporter and return home. Not confirmed whether keys have a dedicated HUD counter.",
+    "regions": [
+      { "name": "Sol Valley", "role": "Central desert hub connecting all other regions; contains Chrono Tower at its center; also the setting for the Green Energy Crystal open-world collectible and most Mech Part locations." },
+      { "name": "Fury Green", "role": "Jungle biome, first major region explored. Early Psychic abilities acquired here (Psychic Visor, Psychic Glove, Missile Launcher, elemental shots). Boss: Carvex (Garden of Remembrance)." },
+      { "name": "Volt Forge", "role": "Three-tower complex. Samus obtains the Vi-O-La Suit and Psychic Boots. Bosses: Flight Drone MCU (mini-boss), Sylux (1st encounter), Xelios, Sylux (2nd encounter — exact placement/order vs. Xelios unconfirmed, flagged as a conflict below)." },
+      { "name": "Ice Belt", "role": "Northwest region. Companion Reger Tokabi introduced; Psychic Lasso and Psychic Boost Ball obtained. Boss: Keratos (Quarantine Chamber)." },
+      { "name": "Flare Pool", "role": "Volcanic/magma region. Federation allies Ezra Duke and Nora Armstrong reunite with Samus; Psychic Grapple obtained. Bosses: Hover Shuttle Transport (mini-boss), Behemoth (mini-boss, cannot be re-fought after defeat), Phenoros (Volcano Heart)." },
+      { "name": "Great Mines", "role": "Northeast mining-base region. Combat robot companion VUE-995 joins Samus. Super Missile and Psychic Power Bomb obtained. Boss: Omega Griever (Crystal Extraction)." },
+      { "name": "Chrono Tower", "role": "Final region, within Sol Valley. Legacy Suit obtained. Boss: Varmis (Sol Valley sand pit). Final confrontation with Sylux at 'the Pinnacle.'" }
+    ],
+    "bosses": [
+      { "name": "Aberax", "location": "Prologue, UTO Research Center Hangar", "confidence": "medium" },
+      { "name": "Carvex", "location": "Garden of Remembrance, Fury Green", "confidence": "medium" },
+      { "name": "Flight Drone MCU (mini-boss)", "location": "Tower 2 Generator, Volt Forge", "confidence": "low" },
+      { "name": "Sylux (1st encounter)", "location": "Tower 2 Generator, Volt Forge", "confidence": "medium" },
+      { "name": "Xelios", "location": "Tower 3, Volt Forge", "confidence": "medium" },
+      { "name": "Sylux (2nd encounter)", "location": "Tower 1 Power Core, Volt Forge — order relative to Xelios unconfirmed against a second source", "confidence": "low" },
+      { "name": "Keratos", "location": "Quarantine Chamber, Ice Belt", "confidence": "medium" },
+      { "name": "Hover Shuttle Transport (mini-boss)", "location": "Control Room Bridge, Flare Pool", "confidence": "low" },
+      { "name": "Behemoth (mini-boss)", "location": "Expansion Site, Flare Pool — cannot be re-fought after defeat, making its scan permanently missable", "confidence": "low" },
+      { "name": "Phenoros", "location": "Volcano Heart, Flare Pool", "confidence": "medium" },
+      { "name": "Omega Griever", "location": "Crystal Extraction, Great Mines", "confidence": "medium" },
+      { "name": "Varmis", "location": "Sol Valley sand pit, tied to rebuilding a Galactic Federation mech", "confidence": "medium" },
+      { "name": "Sylux (Final Boss)", "location": "'The Pinnacle,' Chrono Tower", "confidence": "medium" }
+    ],
+    "mechanics": {
+      "psychicPowers": "Series-new mechanic replacing/extending the classic Scan Visor progression: Psychic Visor, Psychic Glove, Psychic Boots, Psychic Lasso, Psychic Boost Ball, Psychic Grapple, Psychic Power Bomb — named upgrades acquired through the campaign.",
+      "vioLaMotorcycle": "Rideable hoverbike (invented by the extinct Lamorn) for Sol Valley hub traversal. Abilities: Boost, Power Slide, later a homing boomerang projectile (locks up to 5 enemies). Used to break ore deposits tied to Green Energy Crystal collection.",
+      "vioLaTestCircuits": "Three mandatory 'test track' challenge sequences tied to unlocking the Vi-O-La certification and the Psychic Boots (double jump) — story-gated, not optional side content, despite minigame-like structure. Unclear whether best times/challenge completion are tracked after the one-time unlock gate.",
+      "bulletTime": "A bullet-time-style mechanic was mentioned in pre-release press coverage; not confirmed post-release under a specific name. Low confidence — treat as unconfirmed detail, do not build a trophy around it."
+    },
+    "endings": {
+      "normal": "Samus escapes Viewros, leaving her 5 Galactic Federation companions behind, and is teleported to another planet (hinted to be the Prologue planet). High-medium confidence.",
+      "secret100Percent": "Gated behind reaching 100% Item Percentage AND 100% Logbook Scan Percentage before the final point of no return. Shows the same escape scene but with Samus's helmet removed, plus an additional scene revealing Sylux's backstory (a former Galactic Federation captain whose disobedience led to a disaster, explaining his hatred of Samus). Corroborated by multiple independent sources — high confidence this exists and is gated by the two completion percentages; the two source guides differ slightly on wording but agree on the gating condition."
+    },
+    "postGame": {
+      "hardMode": "Unlocks after completing the game once on Normal difficulty; corroborated by 3 sources including a Nintendo Life news piece — medium-high confidence.",
+      "newGamePlus": "Confirmed NOT to exist — replaying a completed 'Mission Complete' save restarts progress from 0%. Corroborated by 2 independent sources, medium confidence.",
+      "fusionMode": "UNCONFIRMED for this specific title. Initial search hits describing a 'Fusion Mode'/Fusion Suit appear to conflate this game with Metroid: Samus Returns (2017). Treat as not present — exclude from trophy design.",
+      "amiiboUnlocks": "Three dedicated amiibo (Samus, Samus & Vi-O-La, Sylux) plus compatibility with other Metroid-series amiibo unlock cosmetic/QoL extras: a once-per-day Energy Shield, bike jukebox tracks, bike color changes, a bike distance odometer, and extended/full cinematics. These require owning a specific physical toy, so per Rule 13's 'reasonably achievable' spirit they are EXCLUDED from trophy design — a trophy gated behind purchasing external merchandise is not something the base pipeline should require."
+    }
+  },
+  "collectibles": {
+    "missileExpansions": { "detail": "Each grants +5 missile capacity. Aggregated secondary sources disagree on the total: 46 vs. 48.", "confidence": "low", "conflict": true },
+    "energyTanks": { "detail": "Reported total of 14 across Viewros, each raising max energy. Single-tier secondary-source aggregation, not independently cross-verified.", "confidence": "medium-low" },
+    "elementalShotExpansions": { "detail": "New collectible type for this entry, expanding Arm Cannon elemental/special shot ammo. Confirmed partial per-area counts (Great Mines 6, Sol Valley 8, Flare Pool 9) with Fury Green, Volt Forge, and Chrono Tower missing — total unconfirmed, likely mid-20s or higher.", "confidence": "medium" },
+    "psychicPowerBombExpansions": { "detail": "Reported total of 5.", "confidence": "medium" },
+    "mechParts": { "detail": "6 total, required to reach the final location. 5 in Sol Valley ('G.F. Debris' sites), 1 in Flare Pool (obtained after defeating the Behemoth mini-boss).", "confidence": "medium" },
+    "scoutBots": { "detail": "6 total, one hidden per main area. Scanning and Thunder-Shotting a Scout Bot highlights all missing expansions and Energy Tanks in that area on the map — a built-in completion aid.", "confidence": "medium" },
+    "logbookScans": { "detail": "Scan-based lore/creature/tech collection via the Psychic Visor across 4 categories (Biology, Machine, Lamorn Legacy, Technology). Partial per-region counts found (Prologue 3, Fury Green 38, Volt Forge 16, Sol Valley 11, Flare Pool 21 = 89 confirmed) with Great Mines and Chrono Tower missing — true total unconfirmed, likely 100+.", "confidence": "medium" },
+    "greenEnergyCrystals": { "detail": "Open-world currency-like collectible in Sol Valley (incl. all 6 Shrines) and Fury Green's Jungle Path, deposited at the Altar of Legacy for tiered rewards: 25% = Psychic Beam upgrade, 50% = Control Beam charge ability, 75% = crystal radar finder, 100% = Memory Fruit (required to progress the main story) + Legacy Suit. A meter overflow past 100% (into a second 'blue' pass, up to 200%) is reported by some sources but its reward, if any, is unconfirmed. Exact total crystal count unconfirmed.", "confidence": "medium", "conflict": true },
+    "completionTrackers": {
+      "itemPercentage": "Displayed in the pause menu / Item menu. Counts Energy Tanks, Missile/Shot/Power Bomb Expansions, and Mech Parts — NOT a simple 1:1 count; major upgrades and Keys are weighted heavier than minor expansions (a major item can tick the percentage by a full point where several small expansions might together only add one). Not confirmed whether it also appears on a classic Prime-style 'Samus Data' file-select screen. Confidence: high that it exists and gates the secret ending; medium on exact display mechanics.",
+      "logbookScanPercentage": "Displayed in the Logbook menu, broken down by the 4 scan categories. Confidence: high that it exists and gates the secret ending.",
+      "fractionDisplay": "UNCONFIRMED whether the game shows exact 'X/Y' fractions for any collectible category, or only rounded percentages. This matters: if only percentages are shown, a trophy citing an exact collectible count (e.g. 'find all 48 Missile Expansions') cannot be verified in-game and would violate Rule 1/2."
+    }
+  },
+  "systems": {
+    "difficultyModes": "Casual (more HP, faster enemy deaths, ammo/energy refill on save), Normal (standard), Hard (tougher enemies, Save Stations only refill Energy not ammo — unlocks after a Normal clear). Selectable from the start (Casual/Normal) or post-clear (Hard); changeable mid-run via pause menu, though doing so may forfeit unspecified difficulty-based rewards. High confidence on the three-tier structure (3 independent sources incl. a Nintendo Life news piece).",
+    "multiplayer": "None. Confirmed strictly single-player by both Retro Studios and Nintendo (unlike the spinoff Federation Force). High confidence.",
+    "rng": "No evidence found of RNG-dependent content beyond generic enemy health/ammo drops common to the series; no confirmed loot tables or randomized systems specific to this title.",
+    "missables": "Genuinely missable content exists in this entry — a departure from most mainline Prime titles' full-backtracking design. Two hard points of no return: (1) leaving the Prologue/UTO Research Center after the Aberax fight permanently locks that area's unique scans (Space Pirate, Galactic Federation Trooper, Aberax itself); (2) triggering the endgame sequence at the top of Chrono Tower ('order the troopers to move forward') before the final Sylux fight permanently locks out all remaining Viewros areas and any uncollected Energy Tanks, Ammo Expansions, Scout Bots, or Mech Parts. Most boss scans (Carvex, Xelios, Keratos, Phenoros, Omega Griever) CAN be re-obtained later via a hologram Playback Device in the Sanctuary of the Guardians — a first for the series — but some secondary/sub-scans tied to live combat (e.g. Carvex's vine/pollen-sac scan) and the Behemoth mini-boss's scan (no re-fight possible) cannot. Two source guides disagree on the exact named list of ~10 missable scans — exact roster unconfirmed, so no trophy should cite a specific missable scan by name; a general 'complete everything before the point of no return' MISSABLE warning is the safe framing.",
+    "controls": "Gyro/motion aiming available on both Switch and Switch 2 (ZL + Joy-Con motion, lock-on shifts to a Prime Remastered-style gyro pointer). Joy-Con 2 Mouse Mode (place the right Joy-Con 2 flat for mouse-precision aiming) is SWITCH 2 EXCLUSIVE — impossible on original Switch hardware, which lacks the needed optical sensor. Any trophy referencing a specific control scheme would not be verifiable/achievable for all target-platform players and should be avoided."
+  },
+  "dlc": "Only a 'Nintendo Switch 2 Edition Upgrade Pack' exists — a paid, performance-only upgrade (Quality/Performance display modes, Joy-Con 2 mouse aiming). No new story content, levels, bosses, or collectibles. No story/content DLC found or announced as of the research date.",
+  "versionDifferences": {
+    "switch": "Dynamic 1080p/60fps docked, dynamic 720p/60fps handheld.",
+    "switch2": "Quality Mode: up to native 4K/60fps docked, native 1080p/60fps handheld. Performance Mode: native 1080p/120fps docked, upscaled 1080p (from 720p)/120fps handheld. Both HDR-capable, with substantially faster load times and higher-resolution textures/shadows than base Switch. Joy-Con 2 Mouse Mode aiming is Switch 2 exclusive (see systems.controls above).",
+    "contentParity": "No evidence of any story, boss, region, or collectible differences between the Switch and Switch 2 versions — the split is purely technical/performance plus the Switch 2-exclusive mouse control option. High confidence the two versions share identical trophy-relevant content."
+  },
+  "conflicts": [
+    { "topic": "Total Missile Expansion count", "claims": ["46", "48"], "resolution": "Unresolved, both from aggregated secondary sources. Do not cite an exact number in trophy text; use 'every Missile Expansion' with a menu-based verification instead." },
+    { "topic": "Sylux 2nd encounter placement/order", "claims": ["Tower 1 Power Core, Volt Forge, after Xelios (Game8 boss list)"], "resolution": "Single-sourced and internally suspicious (two Sylux fights placed within the same region back-to-back is plausible but unconfirmed against a second source). Avoid citing a specific order between Xelios and the 2nd Sylux fight in trophy text." },
+    { "topic": "Exact named list of missable Logbook scans", "claims": ["10 named entries per one guide (Space Pirate/GF Trooper/Aberax/Carvex Vine/Carvex Pollen Sac/Hover Shuttle Transport/Swim Snatcher/Behemoth/Lockjaw/Sylux)", "a partly different list from a second guide (includes Flight Drone MCU/Omega Griever/Varmis instead)"], "resolution": "Unresolved. No trophy should name a specific missable scan; use a general MISSABLE warning tied to the point-of-no-return structure instead." },
+    { "topic": "Whether collectible totals are shown as exact fractions (X/Y) or only percentages in-game", "claims": ["Unconfirmed either way"], "resolution": "Treat as unconfirmed. Trophies referencing 'every' item in a category should verify via the completion percentage reaching 100% (or the category showing no missing map markers via Scout Bots), never via a specific hardcoded number." },
+    { "topic": "Green Energy Crystal exact total and the meaning of the 100-200% overflow ('blue meter')", "claims": ["Unconfirmed total; overflow reward unconfirmed"], "resolution": "Do not cite an exact crystal count. A trophy for reaching the confirmed 100% reward tier (Legacy Suit + Memory Fruit) is safe; a trophy for the 200% overflow is not, since its existence/reward is unconfirmed." }
+  ],
+  "gaps": [
+    "Exact total counts for Missile Expansions, Energy Tanks, Elemental Shot Expansions, Psychic Power Bomb Expansions, and Green Energy Crystals are not reliably confirmed — no trophy should hardcode these numbers.",
+    "Unconfirmed whether the game shows collectible totals as exact fractions or only as percentages — affects what verification language is honest.",
+    "Exact named list of missable Logbook scans is contested between sources — no trophy should name a specific missable scan.",
+    "Could not confirm any optional superboss or postgame boss-rush/arena mode distinct from the mandatory 12-boss campaign list.",
+    "Could not confirm whether Hard Mode unlock is per-save or account-wide.",
+    "Fusion Mode/Fusion Suit is likely not present in this title (probable conflation with Metroid: Samus Returns) — excluded from design.",
+    "amiibo-gated content is excluded from trophy design since it requires owning specific physical merchandise, which isn't guaranteed achievable for every player."
+  ]
+}

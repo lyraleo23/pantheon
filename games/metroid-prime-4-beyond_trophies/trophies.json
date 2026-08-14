@@ -1,0 +1,326 @@
+{
+  "game": {
+    "title": "Metroid Prime 4: Beyond",
+    "slug": "metroid-prime-4-beyond",
+    "code": "MP4B",
+    "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+    "mode": "genesis",
+    "developer": "Retro Studios",
+    "publisher": "Nintendo",
+    "genre": "First-Person Action-Adventure",
+    "releaseYear": 2025,
+    "estimatedDifficulty": 5,
+    "estimatedHours": "20-30h (35h+ for full completion)",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — Nintendo-exclusive, no native achievement list exists on either Switch or Switch 2. Several disputed dossier facts were deliberately excluded or left unquantified to avoid Rule 1/2 violations: exact collectible totals (Missile Expansions 46 vs. 48, Energy Tank/Shot Expansion/Green Energy Crystal totals) are contested across sources and never cited — full-collection trophies (Fully Loaded, Living Archive, Full Bloom) verify against the game's own confirmed percentage/meter readouts instead. The exact named list of missable Logbook scans is contested between guides, so no trophy names a specific missable scan; missability is instead flagged generally on the trophies that require pre-endgame collection, matching the dossier's confirmed hard point-of-no-return before the final Sylux fight. 'Fusion Mode'/Fusion Suit was not confirmed to exist in this title (likely conflated with Metroid: Samus Returns) and is excluded entirely. At the user's request, amiibo-unlocked content and the Nintendo Switch 2-exclusive Joy-Con 2 Mouse Mode feature are collected into a separate `dlc`-style bonus list ('Switch 2 & amiibo Extras') rather than the base list, since they require owning specific physical merchandise or Switch 2 hardware — per Rule 14 this bonus list never affects the base game's Platinum, which remains earnable by any player on either platform with no additional purchases."
+  },
+  "trophies": [
+    {
+      "id": "MP4B-001",
+      "name": "First Contact",
+      "description": "Defeat Aberax during the Prologue at the UTO Research Center.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Aberax's defeat triggers the cutscene that teleports Samus to Viewros.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-002",
+      "name": "First Key",
+      "description": "Obtain your first Master Teleportation Key.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The Key appears in the quest-item inventory screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-003",
+      "name": "Guardian of the Garden",
+      "description": "Defeat Carvex at the Garden of Remembrance in Fury Green.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Carvex is defeated, and the path through Fury Green opens.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-004",
+      "name": "Rival Awakened",
+      "description": "Defeat Sylux in your first encounter, in Volt Forge.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The battle concludes with a cutscene and the path through Volt Forge continues.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-005",
+      "name": "Master of the Road",
+      "description": "Complete the Vi-O-La Test Circuits and earn your Vi-O-La certification.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Xelios grants the Vi-O-La certification and the Psychic Boots appear in the inventory screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-006",
+      "name": "Suit Up",
+      "description": "Collect your first expansion item — a Missile Expansion, Energy Tank, Elemental Shot Expansion, or Psychic Power Bomb Expansion.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The pickup confirmation plays and the item appears in the inventory/upgrades screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-007",
+      "name": "Signal Found",
+      "description": "Activate your first Scout Bot.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "The Scout Bot marks nearby missing collectibles on the area map immediately after activation.",
+      "missable": true,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-008",
+      "name": "Circuit Breaker",
+      "description": "Defeat Xelios in the depths of Volt Forge's Tower Three.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Xelios is defeated, and the path through Volt Forge continues.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-009",
+      "name": "Frozen Sentinel",
+      "description": "Defeat Keratos at the Quarantine Chamber in Ice Belt.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Keratos is defeated, and the path through Ice Belt opens.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-010",
+      "name": "Heart of the Volcano",
+      "description": "Defeat Phenoros at the Volcano Heart in Flare Pool.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Phenoros is defeated, and the path through Flare Pool opens.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-011",
+      "name": "Core Breach",
+      "description": "Defeat Omega Griever at Crystal Extraction in the Great Mines.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Omega Griever is defeated, and the path through the Great Mines opens.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-012",
+      "name": "Reclaim the Mech",
+      "description": "Defeat Varmis and reclaim the Galactic Federation mech in Sol Valley.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Varmis is defeated, and the mech-rebuilding story event concludes.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-013",
+      "name": "Fully Awakened",
+      "description": "Acquire every Psychic Power upgrade: Visor, Glove, Boots, Lasso, Boost Ball, Grapple, and Power Bomb.",
+      "tier": "silver",
+      "type": "mechanic",
+      "verification": "All Psychic Power upgrades appear unlocked in the abilities/inventory screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-014",
+      "name": "Scouted Out",
+      "description": "Activate all six Scout Bots, one in each main area of Viewros.",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "Every main area's Scout Bot has been activated, confirmed by the area map showing no remaining Scout Bot marker.",
+      "missable": true,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-015",
+      "name": "Full Bloom",
+      "description": "Fill the Green Energy Crystal meter to its first full pass at the Altar of Legacy, unlocking the Legacy Suit.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Green Energy Crystal meter shown in the Mission menu reads full, and the Legacy Suit appears in the inventory.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-016",
+      "name": "The Pinnacle",
+      "description": "Defeat Sylux in the final confrontation atop Chrono Tower.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "The ending cutscene plays and the credits roll.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-017",
+      "name": "Fully Loaded",
+      "description": "Reach full Item Percentage completion.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Item Percentage shown in the pause menu reads one hundred percent.",
+      "missable": true,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-018",
+      "name": "Living Archive",
+      "description": "Reach full Logbook Scan completion.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Logbook menu's overall scan percentage reads one hundred percent.",
+      "missable": true,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-019",
+      "name": "Hardened Hunter",
+      "description": "Complete the story with Hard difficulty selected.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The Hard difficulty setting is chosen from the difficulty menu and remains active through the ending credits.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-020",
+      "name": "Beyond the Mask",
+      "description": "Unlock the game's true ending by reaching full completion before your final confrontation.",
+      "tier": "gold",
+      "type": "story",
+      "verification": "An alternate version of the ending cutscene and a secret epilogue scene play after the credits.",
+      "missable": true,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-021",
+      "name": "First Reading",
+      "description": "Scan your first Logbook entry using the Psychic Visor.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The scanned entry is confirmed added to the Logbook menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MP4B-022",
+      "name": "Galactic Legend",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "Switch 2 & amiibo Extras",
+      "trophies": [
+        {
+          "id": "MP4BX-001",
+          "name": "Point and Click",
+          "description": "Aim using Joy-Con 2 Mouse Mode for the first time. Requires a Nintendo Switch 2.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The on-screen control-scheme indicator switches to the mouse-aim icon the moment the Joy-Con 2 is placed flat.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MP4BX-002",
+          "name": "Tap In",
+          "description": "Scan the Samus amiibo to unlock the once-per-day Energy Shield ability.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The Energy Shield option appears in the abilities menu after scanning the amiibo.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MP4BX-003",
+          "name": "Full Throttle",
+          "description": "Scan the Samus & Vi-O-La amiibo to unlock the bike's distance odometer.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "The odometer stat appears in the Vi-O-La bike menu after scanning the amiibo.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MP4BX-004",
+          "name": "Director's Cut",
+          "description": "Scan the Sylux amiibo after completing the story to unlock early access to extended versions of cinematics shown only in fragments during the normal campaign.",
+          "tier": "silver",
+          "type": "postgame",
+          "verification": "Previously fragmented cutscenes now play in their extended form after scanning the amiibo.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MP4BX-005",
+          "name": "Cameo Call",
+          "description": "Scan any other Metroid-series amiibo to trigger its bonus sound effect in the menu.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "A Metroid-themed sound effect plays immediately in the menu when the amiibo is scanned.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

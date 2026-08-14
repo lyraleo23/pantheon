@@ -1,0 +1,301 @@
+{
+  "beat": "campaign",
+  "game": "Metroid Prime 4: Beyond",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "story-structure",
+      "name": "Prologue: UTO Research Center",
+      "detail": "Samus is dispatched to defend a Galactic Federation facility on a planet referred to in some sources as 'Tanamaar' and in others as 'Tamaar' (spelling inconsistent across sources) against Sylux and Space Pirates. She fights the boss Aberax. A stray shot activates a mysterious Artifact, which teleports Samus (and reportedly Sylux) to the unknown planet Viewros.",
+      "trackable": "Story/cutscene progression, not a discrete counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536", "https://en.wikipedia.org/wiki/Metroid_Prime_4:_Beyond"]
+    },
+    {
+      "category": "story-structure",
+      "name": "Main goal: Master Teleportation Keys",
+      "detail": "On Viewros, Samus reunites with technician Myles MacKenzie and learns she must collect 5 Master Teleportation Keys (one per major region) to activate a Master Teleporter and return home.",
+      "trackable": "Not confirmed whether keys have a dedicated HUD/inventory counter; likely tracked via map/inventory screen (standard for Metroid Prime items) but not verified.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "region",
+      "name": "Sol Valley",
+      "detail": "Central desert hub region of planet Viewros that connects all major biomes. Contains Chrono Tower at its center.",
+      "trackable": "Region visited status likely shown on map.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://metroid.fandom.com/wiki/Metroid_Prime_4:_Beyond"]
+    },
+    {
+      "category": "region",
+      "name": "Fury Green",
+      "detail": "Jungle biome, west of Sol Valley. First major region explored; Samus acquires early Psychic abilities here (Psychic Visor, Psychic Glove, Missile Launcher, elemental shots: Fire, Ice, Thunder). Boss: Carvex, fought at the Garden of Remembrance.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "region",
+      "name": "Volt Forge",
+      "detail": "Southwest region, a three-tower complex. Samus obtains the Vi-O-La Suit and Psychic Boots here. Bosses: Flight Drone MCU (mini-boss, Tower 2 Generator), Sylux (1st encounter, Tower 2 Generator), Xelios (Tower 3), and a second Sylux encounter (Tower 1 Power Core).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536", "https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "region",
+      "name": "Ice Belt",
+      "detail": "Northwest region. Samus meets companion Reger Tokabi and gains the Psychic Lasso and Psychic Boost Ball. Boss: Keratos, fought at the Quarantine Chamber.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "region",
+      "name": "Flare Pool",
+      "detail": "Southeast (volcanic/magma) region. Samus is reunited with Federation allies Ezra Duke and Nora Armstrong, gains the Psychic Grapple. Bosses: Hover Shuttle Transport (mini-boss, Control Room Bridge), Behemoth (mini-boss, Expansion Site), and Phenoros (Volcano Heart).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536", "https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "region",
+      "name": "Great Mines",
+      "detail": "Northeast mining-base region. Combat robot companion VUE-995 joins Samus here. She obtains Super Missile and Psychic Power Bomb. Boss: Omega Griever, fought at Crystal Extraction.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "region",
+      "name": "Chrono Tower",
+      "detail": "Central/final region within Sol Valley. Samus acquires the Legacy Suit here. Final story boss encounters occur here: Varmis (Sol Valley sand pit, tied to rebuild of a Galactic Federation mech), and the final Sylux confrontation at 'the Pinnacle'.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536", "https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Aberax",
+      "detail": "Fought during the Prologue at the UTO Research Center Hangar, before Samus is transported to Viewros.",
+      "trackable": "Likely a logbook/bestiary scan entry (three logbook scans in the Prologue are noted as missable).",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Carvex",
+      "detail": "Guardian-type boss ('huge, planet-like creature with multiple targets') fought at the Garden of Remembrance in Fury Green.",
+      "trackable": "Presumed logbook entry upon scan/defeat.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Flight Drone MCU",
+      "detail": "Mini-boss fought at Tower 2 Generator, Volt Forge.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Sylux (1st encounter)",
+      "detail": "Recurring rival/antagonist boss; first mid-game fight at Tower 2 Generator, Volt Forge, occurring immediately after the Flight Drone encounter.",
+      "trackable": "Presumed logbook entry; Sylux is the game's main recurring antagonist with multiple fights.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Xelios",
+      "detail": "Armored machine boss encountered in the depths of Volt Forge's Tower 3.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Keratos",
+      "detail": "Boulder-like boss fought at the Quarantine Chamber in Ice Belt.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Hover Shuttle Transport",
+      "detail": "Mini-boss fought at the Control Room Bridge, Flare Pool.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Behemoth",
+      "detail": "Mini-boss fought at the Expansion Site, Flare Pool.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Phenoros",
+      "detail": "Boss fought at Volcano Heart, Flare Pool.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Omega Griever",
+      "detail": "Boss fought at Crystal Extraction, Great Mines.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Varmis",
+      "detail": "Boss encountered in a sand pit in the north of Sol Valley; fight triggers during the rebuild of a Galactic Federation mech.",
+      "trackable": "Presumed logbook entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Sylux (2nd encounter)",
+      "detail": "Second Sylux fight, at Tower 1 Power Core, Volt Forge (per Game8 boss list; note this places two Sylux fights inside Volt Forge — order/placement should be re-verified before building trophy text).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487"]
+    },
+    {
+      "category": "boss",
+      "name": "Sylux (Final Boss)",
+      "detail": "Final story boss fight, at 'the Pinnacle' in Chrono Tower.",
+      "trackable": "Story completion / credits trigger.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/568487", "https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "plot",
+      "name": "Antagonist and setting lore",
+      "detail": "The planet is Viewros, home to an extinct race called the Lamorn, who sought to preserve their legacy through psychic cultivation of a 'memory fruit.' Sylux is a rogue/rival bounty hunter (revealed in the secret ending to be a former Galactic Federation captain who disobeyed orders to obtain a Space Pirate weapon; the plan backfired and Samus destroyed the weapon, causing his hatred of her). The game is set between Metroid: Other M and Metroid Fusion.",
+      "trackable": "N/A (lore/story)",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Metroid_Prime_4:_Beyond"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Psychic powers / Psychic Visor",
+      "detail": "New entry-specific mechanic: psychic abilities (distinct from the classic Scan Visor lineage) let Samus operate specialized mechanisms, see hidden platforms, and perform guided shots. Includes Psychic Visor, Psychic Glove, Psychic Boots, Psychic Lasso, Psychic Boost Ball, Psychic Grapple, and Psychic Power Bomb as named upgrades acquired through the campaign.",
+      "trackable": "Ability unlocks likely shown in an upgrades/inventory menu (standard Prime-series convention), not independently confirmed for this title.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Metroid_Prime_4:_Beyond", "https://game8.co/games/Metroid-Prime-4-Beyond/archives/567536"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Vi-O-La motorcycle",
+      "detail": "A rideable motorcycle/hoverbike used as a hub-world traversal tool across Viewros. A related suit, the 'Vi-O-La Suit,' is obtained in Volt Forge.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Metroid_Prime_4:_Beyond"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Bullet-time mechanic",
+      "detail": "Retro Studios added a bullet-time style mechanic tied to Samus's abilities (reported in pre-release press coverage); exact trigger/name not confirmed via post-release guides in this search pass.",
+      "trackable": "Unknown.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.techradar.com/gaming/i-was-already-excited-for-metroid-prime-4-beyond-then-retro-studios-gave-samus-a-bullet-time-mechanic"]
+    },
+    {
+      "category": "ending",
+      "name": "Normal ending",
+      "detail": "Samus narrowly escapes Viewros, leaving 5 Galactic Troopers (companions) behind; using remaining energy from the Master Teleporter, she is transported to another planet, hinted to be Tanamaar/Tamaar.",
+      "trackable": "Story completion, not a counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/569679"]
+    },
+    {
+      "category": "ending",
+      "name": "Secret / 100% ending",
+      "detail": "Unlocked only by reaching 100% completion of both item collection AND logbook scans. Shows the same escape scene but with Samus's helmet removed (first time her face is shown in this game), plus an additional scene revealing Sylux's backstory as a former Galactic Federation captain who disobeyed orders, obtained a Space Pirate weapon, caused a disaster, and had the weapon destroyed by Samus -- explaining his hatred of her.",
+      "trackable": "Tied directly to the 100% item + 100% logbook completion trackers.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Metroid-Prime-4-Beyond/archives/569679", "https://www.nintendolife.com/guides/metroid-prime-4-beyond-secret-ending-and-how-to-get-it"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hard Mode",
+      "detail": "Hard Mode is present in the game, in keeping with Metroid Prime series tradition; per one wiki source it is unlocked after completing Normal Mode. Not independently confirmed via a primary/official Beyond-specific source in this search pass.",
+      "trackable": "Selectable from a difficulty/mode menu, presumably after clearing the campaign once.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://metroid.fandom.com/wiki/Hard_Mode"]
+    },
+    {
+      "category": "post-game",
+      "name": "Fusion Mode / Fusion Suit",
+      "detail": "Present in prior Metroid Prime games (e.g., Prime Remastered) as an amiibo-unlocked extra-hard mode with a cosmetic Fusion Suit. Not confirmed to exist in Metroid Prime 4: Beyond specifically -- search results only returned general/legacy series pages, no Beyond-specific confirmation.",
+      "trackable": "Unknown.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://metroid.fandom.com/wiki/Fusion_Mode", "https://metroid.fandom.com/wiki/Fusion_Suit"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Overall item/percentage completion", "where": "Pause menu shows overall playtime and completion percentage at any time; also viewable in a Gallery/menu screen.", "confidence": "medium" },
+    { "stat": "Logbook / scan entries", "where": "Logbook accessible via Psychic Visor scans (ZL); a 'View in Logbook' prompt confirms an entry counts toward the log.", "confidence": "high" },
+    { "stat": "Green Energy Crystal collection", "where": "Tracked in the pause menu with a meter; notably the meter can be filled twice (green then blue tier) per one guide -- exact meaning/count not fully clear.", "confidence": "low" },
+    { "stat": "Missile Expansions", "where": "Likely inventory/upgrades screen; sources disagree on exact total (46 vs 48), each reportedly granting +5 missiles.", "confidence": "low" },
+    { "stat": "Energy Tanks", "where": "Inventory/HUD; one source states 14 total.", "confidence": "low" },
+    { "stat": "Shot (elemental) Expansions, Psychic Power Bomb Expansions, Mech Parts, Scout Bots", "where": "Referenced as collectible categories required for 100% completion; exact totals and display location not confirmed.", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch 2 version reportedly adds mouse-control support via Joy-Con 2 controllers (input feature, not content difference).", "confidence": "medium" },
+    { "note": "No evidence found of campaign content differing between Switch and Switch 2 versions (story, bosses, regions appear identical); this is an assumption based on absence of contrary evidence, not a confirmed fact.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Exact total counts for Missile Expansions (sources conflict: 46 vs 48), Energy Tanks (one source says 14, unverified), Shot/Elemental Expansions, Psychic Power Bomb Expansions, Mech Parts, and Scout Bots were not confirmed with a reliable consolidated source.",
+    "Could not confirm the exact number of Master Teleportation Keys tracker display or whether it appears on a HUD/map icon.",
+    "Prologue planet name is inconsistently spelled across sources ('Tanamaar' vs 'Tamaar') -- needs disambiguation before use in trophy text.",
+    "Could not verify whether Sylux's '2nd encounter' at Tower 1 Power Core in Volt Forge is correctly ordered relative to Xelios and the 1st Sylux encounter -- the boss-order list from Game8 places two Sylux fights within the same region, which is plausible but unconfirmed against a second source.",
+    "Could not find a Beyond-specific, primary-source confirmation of New Game+ existing (only general Metroid-series wiki pages on Hard Mode/Fusion Mode were found, not confirmed for this title).",
+    "Could not confirm whether Fusion Mode / Fusion Suit unlock (via amiibo or otherwise) exists in this specific game.",
+    "Could not confirm exact number/name list of all logbook/scan entries or a definitive total scan count.",
+    "Could not confirm the 'bullet-time mechanic' name or how it is unlocked/used in the final released game (found only in pre-release press coverage).",
+    "Did not find confirmation of any optional 'superboss' or superboss-tier postgame encounter distinct from the mandatory 12-boss list.",
+    "Could not confirm whether region traversal/exploration percentage is tracked per-region (e.g., 'Fury Green: 80% explored') versus only a single global completion percentage."
+  ]
+}
