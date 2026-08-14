@@ -1,0 +1,110 @@
+{
+  "game": "Super Mario 3D World",
+  "platform": "Nintendo Wii U (2013 original release — explicitly excludes Bowser's Fury and all 2021 Switch-exclusive additions)",
+  "mode": "genesis",
+  "developer": "Nintendo EAD Tokyo",
+  "publisher": "Nintendo",
+  "releaseDate": "2013-11-22",
+  "researchDate": "2026-08-14",
+  "premise": "Mario, Luigi, Peach, and Toad fix a Clear Pipe near Peach's Castle, releasing the Green Sprixie Princess, who explains that Bowser has kidnapped her six sister Sprixie Princesses. Bowser captures her too and flees down the pipe into the Sprixie Kingdom; the group follows to rescue all seven princesses.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Wii U",
+    "nativeAchievements": false,
+    "note": "Wii U has no system-level achievement/trophy system. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no version of this exact game (Wii U, without Bowser's Fury) exists on any platform with native achievements. The 2021 Switch re-release also lacks native achievements, so even considering it as a 'different release' does not produce a portable native list."
+  },
+  "scopeCorrections": {
+    "note": "The initial scout brief contained two factual errors about this game, caught and corrected independently by 2-3 scouts each. Both are now reflected accurately below.",
+    "corrections": [
+      { "wrong": "Wii U original lacks Toad as a playable character", "correct": "Toad has been playable since the original 2013 Wii U release. It is Toadette who has never been playable in any version (Wii U or Switch) — datamining found only unused/cut Toadette assets.", "confidence": "high, corroborated by 3 independent scout findings across all 3 beats" },
+      { "wrong": "Assumed Koopalings might appear as bosses (standard for many Mario platformers)", "correct": "The Koopalings do NOT appear anywhere in this game on any platform. Bosses are original/returning characters instead: Boom Boom, Pom Pom, Hisstocrat, Boss Brolder, King Ka-thunk, Prince Bully, Motley Bossblob, plus three Bowser fights.", "confidence": "high" },
+      { "wrong": "Assumed the White Cat Bell/Invincibility Bell assist item might exist on Wii U", "correct": "The Invincibility Bell (White Cat Mario) is Switch-exclusive and amiibo-gated (Wii U has zero amiibo support). The Wii U original instead has an unrelated assist item, the Invincibility Leaf (White Tanooki Mario), granted via an Assist Block after losing several lives on a course (5/12/18/24 lives lost for 1-4 players respectively).", "confidence": "high" }
+    ]
+  },
+  "campaignStructure": {
+    "worldStructure": "12 worlds total: 8 main worlds (World 1 through World 6, World Castle, World Bowser) followed by 4 post-game bonus worlds unlocked in sequence after the credits (World Star, World Mushroom, World Flower, World Crown). Total course count is inconsistently reported as 116 vs. 117 across sources — likely a counting-methodology discrepancy over whether Toad Houses/Enemy Battles/Sprixie Houses count as full 'courses.' Do not cite an exact total course count in trophy text.",
+    "worlds": [
+      { "name": "World 1", "courses": 8, "notable": "Bowser's Highway Showdown (1st Bowser fight, castle course), Captain Toad Goes Forth" },
+      { "name": "World 2", "courses": 8, "notable": "Bowser's Bullet Bill Brigade (Boom Boom boss, tank course)" },
+      { "name": "World 3", "courses": 11, "notable": "The Bullet Bill Express (Pom Pom boss), A Banquet with Hisstocrat (Hisstocrat boss), Captain Toad Makes a Splash" },
+      { "name": "World 4", "courses": 10, "notable": "Lava Rock Lair (Boss Brolder boss)" },
+      { "name": "World 5", "courses": 13, "notable": "King Ka-thunk's Castle (King Ka-thunk boss), Captain Toad Plays Peek-a-Boo" },
+      { "name": "World 6", "courses": 12, "notable": "Prince Bully Blockade (Prince Bully boss), Bowser's Bob-omb Brigade (Boom Boom again, tank course), Motley Bossblob's Big Battle (world-ending boss)" },
+      { "name": "World Castle", "courses": 12, "notable": "Bowser's Lava Lake Keep (2nd Bowser fight, ~130 Green Stars to access), Captain Toad Gets Thwomped. Rescues the final captive Sprixie Princess." },
+      { "name": "World Bowser", "courses": 12, "notable": "Motley Bossblob's Encore, Hisstocrat Returns, The Great Tower of Bowser Land (final Meowser fight, ~170 Green Stars to access)" },
+      { "name": "World Star (post-game)", "courses": 9, "notable": "Super Galaxy — clearing it unlocks Rosalina as a playable character. Cosmic Cannon Cluster (needs ~210 Green Stars) unlocks World Mushroom." },
+      { "name": "World Mushroom (post-game)", "courses": 8, "notable": "Harder remixes of earlier levels. No Stamps located here. Broken Blue Bully Belt (~240 Green Stars) unlocks World Flower." },
+      { "name": "World Flower (post-game)", "courses": 12, "notable": "Further remixes. No Stamps located here. Boss Blitz unlocks World Crown." },
+      { "name": "World Crown (post-game finale)", "courses": 3, "notable": "Champion's Road (hardest standard course in the game — no checkpoints, no power-ups including the Invincibility Leaf, 500-second timer), Captain Toad's Fiery Finale, Mystery House Marathon. Unlock requires collecting every Green Star, every Stamp, and every gold flag through World Flower." }
+    ],
+    "bosses": [
+      { "name": "Bowser", "appearances": "Three fights: World 1 (Bowser's Highway Showdown), World Castle (Bowser's Lava Lake Keep, muscle car), World Bowser final (The Great Tower of Bowser Land — Bowser becomes 'Meowser' via Super Bell and clones himself with a Double Cherry)", "confidence": "high" },
+      { "name": "Boom Boom", "appearances": "World 2 (Bowser's Bullet Bill Brigade, tank course) and World 6 (Bowser's Bob-omb Brigade, tank course)", "confidence": "high" },
+      { "name": "Pom Pom", "appearances": "World 3 (The Bullet Bill Express)", "confidence": "high" },
+      { "name": "Hisstocrat", "appearances": "World 3 (A Banquet with Hisstocrat) and World Bowser (Hisstocrat Returns)", "confidence": "high" },
+      { "name": "Boss Brolder", "appearances": "World 4 (Lava Rock Lair)", "confidence": "high" },
+      { "name": "King Ka-thunk", "appearances": "World 5 (King Ka-thunk's Castle)", "confidence": "high" },
+      { "name": "Prince Bully", "appearances": "World 6 (Prince Bully Blockade) and World Castle (Prince Bully Blockade Is Back)", "confidence": "high" },
+      { "name": "Motley Bossblob", "appearances": "World 6 finale (Motley Bossblob's Big Battle) and World Bowser (Motley Bossblob's Encore)", "confidence": "high" }
+    ],
+    "playableCharacters": {
+      "starting": ["Mario", "Luigi", "Peach", "Toad"],
+      "unlockable": [{ "name": "Rosalina", "unlockedBy": "Clearing World Star-2 ('Super Galaxy') in the post-game", "confidence": "high, present in original 2013 Wii U release" }],
+      "excluded": "Toadette and a separate standalone 'Toad' solo mode are Switch/Bowser's Fury-only and do not exist on Wii U. Captain Toad is playable only within his own dedicated non-jumping puzzle courses, not as a general roster character.",
+      "confidence": "high"
+    },
+    "powerUps": "Super Mushroom, Fire Flower, Super Bell/Lucky Bell (Cat Suit — central mechanic), Boomerang Flower, Double Cherry (clones the player), Super Leaf (Tanooki Suit), Mega Mushroom, Super Star, Lucky Bell/Lucky Cat form (generates coins while falling, partial invincibility), plus assist/box items (Cannon Box, Propeller Box, Goomba Mask, Green Shell, Ice Skate, Light Box). All confirmed present in the Wii U original (not amiibo-gated).",
+    "story": {
+      "setup": "Mario, Luigi, Peach, and Toad discover a Clear Pipe near Peach's Castle; fixing it releases the Green Sprixie Princess, who explains Bowser kidnapped her six sisters. Bowser emerges, captures her too, and flees down the pipe; the group falls in after him.",
+      "midgame": "After 6 worlds, the group confronts Bowser in World Castle and rescues the final Sprixie Princess.",
+      "climax": "Bowser ambushes the group, captures all seven Sprixies in one bottle, and builds World Bowser using their combined power. Final fight atop The Great Tower of Bowser Land: Bowser becomes 'Meowser' (Super Bell) and clones himself (Double Cherry); defeating him ends the main story and rescues the Sprixies.",
+      "confidence": "medium — corroborated across multiple wiki sources but the precise cutscene beats rest on a single detailed source"
+    }
+  },
+  "collectibles": {
+    "greenStars": {
+      "count": "380 total across the entire game. Most standard courses have exactly 3; some special course types (Captain Toad's Adventures reportedly 5, Mystery Houses, boss courses) may deviate from the 3-per-course norm — not fully cross-verified.",
+      "trackable": "World map level icons show small star markers per collected Green Star (flagpole ornament turns into a star once all 3 are collected in that level); Map > Course List sub-menu shows exact per-level counts.",
+      "confidence": "high on the 380 total; medium on special-course exceptions"
+    },
+    "stamps": {
+      "count": "85 total, present in every world except World Mushroom and World Flower. Roughly 80 are direct per-course/Sprixie-House pickups; the remaining ~5 are awarded for completing every course with each of the 5 playable characters.",
+      "trackable": "World map level icons show a stamp indicator once collected; a dedicated Stamp collection/gallery screen exists.",
+      "miiverseNote": "Stamps' original stated purpose (decorating Miiverse forum posts) is permanently non-functional since Miiverse shut down on 2017-11-07. Stamps themselves remain collectible and still count toward the save-file star rating — only the posting feature is dead. No trophy should reference Miiverse posting.",
+      "confidence": "high on 85 total and world exclusions; medium on the exact character-completion stamp breakdown"
+    },
+    "goldFlags": "Touching the very top of a course's Goal Pole (rather than partway) earns a gold flag distinction, shown as an icon overlay on that course's world-map thumbnail. Works with any character. A specific '91 gold flags needed for World Crown' figure appears in only one source and is unconfirmed.",
+    "saveFileStars": {
+      "description": "The save-file/profile select screen shows a 0-5 star completion rating, NOT a numeric percentage: (1) beat the final level, (2) collect every Green Star, (3) collect every Stamp, (4) touch the top gold flag on every course, (5) clear every course with all 5 playable characters. All 5 stars additionally 'sparkle' visually only while the Invincibility Leaf assist item has not been used on that save file. CORRECTION (post-audit): this is NOT permanent — Super Mario Wiki's Completion page confirms the sparkle is restored by re-clearing any course where the Leaf was used, without using it again. (Unlike Super Mario 3D Land, where the equivalent loss genuinely is permanent — do not conflate the two games.)",
+      "trackable": "Directly visible on the save/profile select screen before even loading the save.",
+      "confidence": "medium — breakdown corroborated across 2 scouts independently but ultimately traces to community wiki synthesis rather than an official Nintendo source"
+    },
+    "captainToadLevels": "6 embedded Captain Toad puzzle courses (no jump ability): Goes Forth (World 1), Makes a Splash (World 3), Plays Peek-a-Boo (World 5), Gets Thwomped (World Castle), Takes a Spin (World Star), Fiery Finale (World Crown, final one). High confidence on names/placement.",
+    "secretExits": "At least 2 confirmed secret warp-pipe shortcuts (World 1-2 'Koopa Troopa Cave' requiring Cat Suit → skips to World 2; World 4-2 'Piranha Creeper Creek' → skips ahead a world). Could not confirm this is an exhaustive list — low confidence on the total count, so no trophy should claim to require 'all secret exits.'",
+    "mysteryHouses": "Bonus courses of rapid ~10-second Mystery Box mini-challenges. Confirmed to use a FIXED, memorizable challenge order on every replay (not RNG), including the 30-challenge World Crown finale 'Mystery House Marathon.'"
+  },
+  "systems": {
+    "difficultyModes": "No selectable difficulty. The closest thing to an assist mechanic is the Invincibility Leaf (see scopeCorrections) — using it turns off the save-file star 'sparkle' for that file, but per the Super Mario Wiki Completion page this is recoverable by re-clearing the affected course(s) without the Leaf, unlike Super Mario 3D Land's genuinely permanent equivalent (correction applied post-audit).",
+    "multiplayer": "Local-only, up to 4 players simultaneously (Wii U GamePad + up to 3 Wii Remotes/Pro Controllers), sharing a pooled life count, picking up/carrying/throwing each other. NO online multiplayer on Wii U (that's a 2021 Switch addition). Captain Toad courses are single-player only on Wii U.",
+    "rng": "Toad House reward boxes are the one confirmed RNG system (about 75% chance of 4 power-ups, 25% chance of a single Super Mushroom). Mystery Houses are NOT RNG — fixed challenge order.",
+    "missables": "Green Stars, Stamps, and Gold Flags are NOT permanently missable — every course remains accessible and replayable from the world map indefinitely. The save-file star sparkle is also NOT permanently missable: using the Invincibility Leaf turns it off, but re-clearing the affected course(s) without the Leaf restores it (correction applied post-audit — the dossier previously stated this incorrectly as permanent).",
+    "amiibo": "Wii U original has ZERO amiibo support of any kind. All amiibo functionality (including the Invincibility Bell) is a 2021 Switch-only addition.",
+    "gamePadFeatures": "The Wii U original uses GamePad-specific interactions in some levels: touchscreen taps/rubs and blowing into the built-in microphone to reveal hidden blocks or move platforms, GamePad tilt for a Free Camera Mode, and Off-TV Play. These are unique to Wii U hardware and have no equivalent on other platforms — noted for awareness, not for exclusion, since the target platform IS Wii U."
+  },
+  "dlc": "None. Producer Yoshiaki Koizumi stated pre-release (Nov 2013) that DLC was unlikely, and none was ever released for the Wii U version. All later additions (Bowser's Fury, amiibo support, online play, Toadette-adjacent leftover assets) arrived only in the 2021 Switch re-release, which is out of scope for this Wii U-targeted list.",
+  "versionDifferences": {
+    "switchOnlyAdditions": "Confirmed Switch/'+Bowser's Fury'-exclusive and absent from Wii U: the entire Bowser's Fury campaign, all amiibo support (including the Invincibility Bell), online multiplayer, 4-player co-op within Captain Toad's Adventures courses, a Snapshot/photo mode, faster character movement and world-map traversal speed with associated minor level tweaks, cutscene-skip ability, and (medium confidence, unconfirmed) possibly retaining Green Stars/Stamps within a level attempt after losing a life.",
+    "wiiUOnlyFeatures": "GamePad touch/microphone interactions, GamePad tilt Free Camera Mode, Off-TV Play, and Miiverse Stamp-posting/Ghost Mii integration (now non-functional post-2017 shutdown) are unique to the Wii U release and have no equivalent on the later Switch version.",
+    "confidence": "high on the core exclusion list; medium on a couple of granular mechanical details (see gaps)"
+  },
+  "gaps": [
+    "Exact total course count for the whole game is disputed (116 vs. 117) — no trophy should cite an exact total.",
+    "Exact Green Star/Stamp/gold-flag numeric thresholds to unlock World Bowser and each post-game world are not fully cross-verified (a commonly-cited 342/76/91 breakdown for World Crown rests on secondary sources only) — no trophy should cite exact threshold numbers.",
+    "Whether the game displays a single running 'X/380' Green Star total anywhere outside per-level tracking is unconfirmed — trophies should verify via the Course List/world-map per-level state or the save-file star rating, not an assumed aggregate counter.",
+    "Whether Captain Toad courses truly contain 5 Green Stars instead of the standard 3 is only single-sourced.",
+    "The complete secret-exit/warp-pipe list is unconfirmed beyond 2 known examples — avoid claiming an exhaustive 'find all secret exits' trophy.",
+    "Exact composition of the 5 character-completion-tied Stamps is unconfirmed.",
+    "Whether the game shows a player-facing 'lives lost' counter per course (which internally triggers the Invincibility Leaf Assist Block) is unconfirmed — do not build a trophy around a specific lives-lost number."
+  ]
+}

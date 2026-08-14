@@ -1,0 +1,197 @@
+{
+  "beat": "progression systems, trackable stats, missable content, RNG, difficulty/assist, version differences",
+  "game": "Super Mario 3D World",
+  "platform": "Nintendo Wii U (2013 original release, NOT the 2021 Switch 'Super Mario 3D World + Bowser's Fury' re-release)",
+  "findings": [
+    {
+      "category": "correction-to-brief",
+      "name": "Toad IS a playable character on Wii U",
+      "detail": "The assignment brief states the Wii U version is 'WITHOUT Toad as a playable character,' but this appears to be incorrect. Multiple sources (Mario Wiki, Wikipedia) confirm the original Wii U release has five playable characters from the start of the relevant unlock chain: Mario, Luigi, Peach, Toad, and unlockable Rosalina. Toad has always been playable in 3D World; he was not added in the Switch re-release. Captain Toad (a distinct character/moveset) is separately playable only in Captain Toad's Adventures stages. Flagging this for correction before trophy design proceeds.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Super_Mario_3D_World", "https://en.wikipedia.org/wiki/Super_Mario_3D_World"]
+    },
+    {
+      "category": "correction-to-brief",
+      "name": "White Cat Bell / Invincibility Bell is Switch-exclusive, not a Wii U feature",
+      "detail": "The 'Invincibility Bell' (White Cat Mario form) is obtained ONLY via amiibo scanning (Cat Mario amiibo always produces it; Cat Peach amiibo sometimes does) and was introduced in the 2021 Switch release. The Wii U original has NO amiibo support at all (confirmed by multiple sources) and does not contain this item. The Wii U original DOES have a separate, unrelated assist item called the Invincibility Leaf (turns the player into White Tanooki Mario) — see separate finding below. These are two different items; do not conflate them.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Invincibility_Bell", "https://www.mariowiki.com/Invincibility_Leaf", "https://www.bestbuy.com/site/questions/nintendo-amiibo-cat-mario-super-mario-series/6417255/question/a770b052-6b77-3546-ae2d-65a248941796"]
+    },
+    {
+      "category": "assist/difficulty",
+      "name": "Invincibility Leaf (Assist Block)",
+      "detail": "Wii U-original assist mechanic (present since launch, not Switch-added). An Assist Block containing the Invincibility Leaf appears on the level select/in-level after a threshold of lives lost on a single course: 5 lives lost in 1-player, 12 in 2-player, 18 in 3-player, 24 in 4-player. Using the leaf turns the player into White Tanooki Mario: permanent invincibility (no timer, unlike Starman) that only wears off upon touching the Goal Pole. Cannot be used on Champion's Road (World Crown's final course). If used, the level's score is not saved (restorable by clearing without it), and permanently flips a flag so the player's save-file completion stars will never 'sparkle' again, even if later requirements are met without using it again. This is the closest thing to a difficulty/assist toggle in the base game — there is no manual difficulty selector.",
+      "trackable": "Sparkle status of save-file stars is a permanent visual indicator on the save-select screen.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Invincibility_Leaf", "https://gamefaqs.gamespot.com/wii-u/718915-super-mario-3d-world"]
+    },
+    {
+      "category": "power-up",
+      "name": "Lucky Bell (Lucky Cat Mario)",
+      "detail": "Present in the original Wii U game (not Switch-exclusive, not amiibo-gated). Obtained as a normal item from hidden Blocks; first available around World Mushroom-2 ('Spiky Mount Beanpole') and other post-game/bonus areas. Transforms the player into a statue-like Lucky Cat form: generates coins while falling (more from greater height) and grants invincibility to most contact damage, but does NOT protect against lava, poison, Charvaargh, Fuzzy Hordes, or crushing hazards.",
+      "trackable": "Not separately tracked/counted anywhere; it's a consumable power-up, not a collectible.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Lucky_Bell"]
+    },
+    {
+      "category": "world-map-display",
+      "name": "Course List / world map completion indicators",
+      "detail": "Each level icon on the world map can show a Bowser-head/blank flag (not cleared) vs. cleared states. The Map menu has a 'Course List' screen that displays, per course: Green Stars collected (out of 3, with icon states), whether the Stamp has been collected, and the fastest clear time recorded for that course. Separately, the flagpole ornament atop a level's map icon turns into a small green star once all 3 Green Stars in that level have been collected. A gold flag appears on the level icon once the player has touched the very top of the in-level Goal Pole at least once (works with any character). A paw-print icon appears on a level once it has been cleared (Goal Pole touched) by all playable characters individually.",
+      "trackable": "Yes — Map > Course List screen, and icon overlays directly on the world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Completion", "https://gamefaqs.gamespot.com/wii-u/718915-super-mario-3d-world/answers/369447-gold-star-on-captain-toads-flagpole"]
+    },
+    {
+      "category": "save-file-completion",
+      "name": "5-star save file rating system",
+      "detail": "The save-file select screen displays up to 5 stars representing global completion. Per common breakdown: Star 1 = beat the final level (The Great Tower of Bowser Land / World Bowser finale); Star 2 = collect all Green Stars in Worlds 1-8; Star 3 = collect all Stamps (only present in Worlds 1-9; Worlds 10-11 [Flower, Crown] have none); Star 4 = get all Gold Flags (top-of-flagpole touches) across Worlds 1-11; Star 5 = touch the Goal Pole of every level with all 5 playable characters. All 5 stars will additionally 'sparkle'/shine only if the Invincibility Leaf assist item was never used on that save file.",
+      "trackable": "Yes — visible directly on the save file select screen as a 1-5 star icon display, with a distinct 'sparkling' visual state.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/wii-u/718915-super-mario-3d-world/answers/363318-star-on-save-file-for-getting-golden-flags", "https://screenrant.com/super-mario-3d-world-sparkling-star-save-file/", "https://cheatingdome.com/wiiu/supermario3dworld_savefilestars.htm"]
+    },
+    {
+      "category": "collectible",
+      "name": "Green Stars",
+      "detail": "380 total Green Stars across the entire game (main worlds + bonus/post-game worlds). Most standard courses contain exactly 3 Green Stars; special course types (Captain Toad's Adventures, Mystery Houses, boss courses, some bonus-world courses) can deviate from this pattern. A minimum Green Star count gates access to certain worlds/courses (exact thresholds not confirmed in this pass).",
+      "trackable": "Per-level count and totals tracked via world map icons and the Course List screen; likely also a running total shown somewhere in the pause/map menu (not independently confirmed).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.techbloat.com/super-mario-3d-world-stars-and-stamps-guide-how-to-get-all-380-green-stars-and-85-stamps.html", "https://www.mariowiki.com/Green_Star"]
+    },
+    {
+      "category": "collectible",
+      "name": "Stamps",
+      "detail": "85 total Stamps, generally one per course, though a handful are tied to special conditions (character-specific completion, post-game unlocks) rather than being a simple in-level pickup, and Worlds 10-11 (Flower, Crown) contain none. On Wii U, Stamps' original stated purpose was decorating Miiverse posts; Miiverse was shut down November 7, 2017, so that specific use no longer functions on Wii U hardware. Stamps still count toward the save-file star rating (Star 3) and are still tracked/displayed even post-Miiverse-shutdown.",
+      "trackable": "Yes — Course List screen shows per-level stamp collected status; contributes to save-file Star 3.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.techbloat.com/super-mario-3d-world-stars-and-stamps-guide-how-to-get-all-380-green-stars-and-85-stamps.html", "https://mario.fandom.com/wiki/Stamp"]
+    },
+    {
+      "category": "missability",
+      "name": "Green Stars, Stamps, and Gold Flags are NOT permanently missable",
+      "detail": "All standard courses remain permanently accessible and replayable from the world map after being unlocked (standard for this Mario sub-series). No source found indicating any Green Star, Stamp, or Gold Flag becomes permanently unobtainable. The only save-file-level 'missable' state identified is losing the sparkle effect on the completion stars once the Invincibility Leaf assist item is used (see separate finding) — completion itself is not blocked, only the cosmetic sparkle.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Completion", "https://www.mariowiki.com/Green_Star"]
+    },
+    {
+      "category": "RNG",
+      "name": "Toad House reward boxes",
+      "detail": "Toad Houses present two boxes (big/small); choosing one makes the other disappear. Reported odds: 75% chance the chosen box contains four power-ups, 25% chance it contains only a single Super Mushroom. This is the clearest confirmed RNG mechanic tied to item/reward acquisition in the base game.",
+      "trackable": "Not tracked as a discrete stat; rewards go straight to the item stock (visible on the world map as held power-up icon).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Toad_House"]
+    },
+    {
+      "category": "RNG",
+      "name": "Mystery Houses are NOT randomized",
+      "detail": "Mystery House courses (Mystery Box Melee/Throwdown/Marathon-type levels) present a rapid sequence of 10-second mystery-box challenges. Community sources note the order/sequence of challenges is fixed and identical on every replay of a given Mystery House, meaning these are memorizable rather than RNG-driven. The final one, World Crown's Mystery House Marathon, has 30 sequential 10-second challenges.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mystery_House_Marathon", "https://goombastomp.com/super-mario-3d-world-the-thrill-of-the-mystery-boxes/"]
+    },
+    {
+      "category": "time-based",
+      "name": "Flagpole Fireworks bonus",
+      "detail": "Classic Super Mario Bros.-style mechanic: touching the Goal Pole with the last digit of the in-level countdown timer showing 1, 3, or 6 triggers a fireworks display (1000 points per firework, matching the digit count). This does NOT trigger in Enemy Battle courses, Captain Toad's Adventures courses, or The Great Tower of Bowser Land (final Bowser course). This is a scoring/visual flourish, not separately tracked as a stat or achievement anywhere found.",
+      "trackable": "No dedicated counter found for fireworks triggered; only the per-course fastest-clear-time stat (Course List) is tracked, which is a related but separate time-based stat.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Fireworks"]
+    },
+    {
+      "category": "time-based",
+      "name": "No official Time Attack / speedrun mode",
+      "detail": "Found no evidence of a built-in, developer-sanctioned Time Attack or speedrun mode in Super Mario 3D World (Wii U). Speedrunning of this game is entirely community-organized via third-party platforms (e.g., speedrun.com), not an in-game feature. The only official time-tracking is the per-course 'fastest clear time' shown in the Course List map menu.",
+      "trackable": "Per-course fastest time only, via Course List menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.speedrun.com/sm3dw"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Local 4-player co-op (Wii U)",
+      "detail": "Supports up to 4 simultaneous local players controlling Mario, Luigi, Peach, Toad, and/or Rosalina (once unlocked), using the Wii U GamePad plus up to three Wii Remotes or Wii U Pro Controllers. Players share a pooled life count and can pick up/carry/throw each other. This is LOCAL ONLY on Wii U — there is no online multiplayer on this version. Online multiplayer was added in the 2021 Switch re-release. On Wii U, Captain Toad's Adventures puzzle courses are single-player only; multiplayer support for those specific courses was added in the Switch version.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Super_Mario_3D_World", "https://www.imore.com/differences-super-mario-3d-world-bowsers-fury-compared-original-wii-u-game", "https://nintendo.fandom.com/wiki/List_of_changes/differences_in_Super_Mario_3D_World_%2B_Bowser%27s_Fury"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Wii U GamePad-specific features have no equivalent on later platforms",
+      "detail": "The Wii U original uses GamePad-specific interactions in certain levels: touching/rubbing the touchscreen and blowing into the built-in microphone to reveal hidden blocks/items, move platforms, or blow away enemies/obstacles, plus GamePad tilt for a 'Free Camera Mode,' and Off-TV Play via the GamePad screen. These mechanics are unique to the Wii U hardware. (Per other sources, the Switch version redesigned the levels that used mic/touch mechanics since the Switch lacks a built-in mic in handheld/dock use in the same way, but that is Switch-side info and out of scope here — flagging only that these GamePad-native mechanics exist uniquely on Wii U.)",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendo.fandom.com/wiki/Super_Mario_3D_World", "https://cogconnected.com/review/super-mario-3d-world-wii-u-review-a-mario-3d-platform-game-on-the-wii-u-yes-please/"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Miiverse integration (defunct)",
+      "detail": "The Wii U original included Miiverse integration: Stamps collected in levels could be used to decorate Miiverse forum posts, and a 'Ghost Mii' feature showed silhouettes of other players' attempts on a course. Miiverse was shut down November 7, 2017. On current Wii U hardware, Stamps are still collected and tracked (they count toward save-file Star 3) but their original stated posting function no longer works, and Ghost Mii functionality no longer operates. This is Wii U-specific baggage; the Switch version replaced Miiverse-dependent Stamp usage with a Snapshot/photo mode instead (Switch-side change, flagged for exclusion from Wii U scope but noted here as context for why the Wii U feature is now partially non-functional).",
+      "trackable": "Stamps still tracked via Course List even though Miiverse posting no longer works.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://nintendo.fandom.com/wiki/Super_Mario_3D_World", "https://en.wikipedia.org/wiki/Super_Mario_3D_World"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Confirmed Switch-only additions (for exclusion)",
+      "detail": "Explicitly confirmed as Switch/'+ Bowser's Fury' exclusive and NOT present on Wii U: the Bowser's Fury expansion/campaign entirely; amiibo support of any kind (including the Invincibility Bell/White Cat Mario, obtainable only via amiibo); online multiplayer; 4-player co-op specifically within Captain Toad's Adventures courses; a dedicated Snapshot/photo mode; increased character movement/climb speed and faster world-map traversal speed (with associated minor level layout tweaks to accommodate); ability to skip cutscenes; retaining Green Stars/Stamps on the current attempt after losing a life (Wii U requires re-collecting them within that level attempt if a life is lost before reaching the goal — verify further, flagged medium confidence); full Pro-Controller-only playability without needing GamePad-specific inputs.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.imore.com/differences-super-mario-3d-world-bowsers-fury-compared-original-wii-u-game", "https://nintendo.fandom.com/wiki/List_of_changes/differences_in_Super_Mario_3D_World_%2B_Bowser%27s_Fury", "https://screenrant.com/super-mario-3d-world-bowsers-fury-gimmicks/"]
+    },
+    {
+      "category": "structure",
+      "name": "World / course count",
+      "detail": "12 worlds total: 8 main worlds (World 1 through World 8/Bowser) plus 4 bonus/post-game worlds (World Star, World Mushroom, World Flower, World Crown), unlocked after clearing World 8. Total course count is reported inconsistently across sources as either 116 or 117 depending on whether certain special course types (Enemy Battles, Toad Houses, Sprixie Houses, Mystery Houses, Captain Toad's Adventures) are counted as full 'courses.' World Crown's final course, Champion's Road, is widely cited as the game's hardest standard platforming course and is a strong candidate for a high-difficulty trophy.",
+      "trackable": "World map visually organizes all worlds/courses; Course List menu enumerates them.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Super_Mario_3D_World", "https://www.cbr.com/super-mario-3d-world-how-many-worlds/", "https://www.mariowiki.com/World_Crown"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Green Stars collected per level (out of 3) and overall total (out of 380)", "where": "World map level icon (flagpole turns into a star when all 3 collected) and Map > Course List screen", "confidence": "high" },
+    { "stat": "Stamp collected per level (out of 85 total)", "where": "Map > Course List screen", "confidence": "high" },
+    { "stat": "Gold Flag (top-of-flagpole touch) achieved per level", "where": "World map level icon shows gold flag once achieved", "confidence": "high" },
+    { "stat": "Cleared-by-all-characters status per level", "where": "Paw-print icon on world map level icon", "confidence": "medium" },
+    { "stat": "Fastest clear time per course", "where": "Map > Course List screen", "confidence": "high" },
+    { "stat": "Overall save-file completion rating (1-5 stars, with sparkle/no-sparkle state)", "where": "Save file select screen", "confidence": "medium" },
+    { "stat": "Lives lost per course (drives Assist Block/Invincibility Leaf appearance threshold)", "where": "Not confirmed as player-visible; appears to be tracked internally by the game to trigger the assist block, but no on-screen lives-lost counter per course was confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "CORRECTION NEEDED: Toad is a playable character in the original Wii U version, not a Switch-only addition. The assignment brief's premise on this point appears incorrect.", "confidence": "high" },
+    { "note": "CORRECTION NEEDED: The 'White Cat Bell' (Invincibility Bell) is Switch/amiibo-exclusive and does NOT exist on Wii U. The Wii U original's actual assist item is the unrelated Invincibility Leaf (White Tanooki Mario), obtained from an Assist Block after losing several lives on one course, not from any bell/amiibo.", "confidence": "high" },
+    { "note": "Wii U original has zero amiibo support of any kind; this was added entirely in the Switch re-release.", "confidence": "high" },
+    { "note": "Wii U original has no online multiplayer; local 4-player co-op only (GamePad + up to 3 Wii Remotes/Pro Controllers).", "confidence": "high" },
+    { "note": "Bowser's Fury is entirely absent from Wii U; it is a Switch-only added campaign/mode.", "confidence": "high" },
+    { "note": "Miiverse-dependent features (Stamp posting, Ghost Mii) are non-functional since Miiverse's Nov 7, 2017 shutdown, but Stamps themselves are still collectible/trackable on Wii U toward the save-file star rating.", "confidence": "high" },
+    { "note": "GamePad-specific touch/microphone interactions and Off-TV Play are unique to Wii U hardware and have no equivalent on Switch (where those specific level mechanics were redesigned) — noted for awareness only, not to be used as Switch content in this dossier.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact Green Star count thresholds required to unlock World Bowser or each bonus world (Star, Mushroom, Flower, Crown) — only that thresholds exist.",
+    "Could not fully resolve the exact total course count (116 vs 117 appears in different sources) — likely a counting-methodology discrepancy (whether Toad Houses/Enemy Battles/etc. count as 'courses'). Needs a source that explicitly lists every course by category.",
+    "Could not confirm whether the game displays a running total Green Star counter anywhere outside the per-level/Course List breakdown (e.g., a single 'X/380' figure on a summary screen) — only per-level tracking was confirmed.",
+    "Could not verify player-facing display of lives lost per course (used to trigger the Invincibility Leaf Assist Block) — unclear if this number is ever shown to the player or is purely internal.",
+    "Could not confirm precise unlock/exclusion mechanics for the few Stamps described as tied to 'character-specific completion' or post-game conditions rather than direct level pickups — exact list not found in this pass.",
+    "Could not independently confirm the claim (surfaced in one Switch-comparison source) that the Wii U original makes players re-collect Green Stars/Stamps within a single level attempt if a life is lost before reaching the goal, versus the Switch version's retention-on-death change — flagged medium confidence, worth a dedicated check before building a trophy around this.",
+    "Did not find a confirmed source describing whether Enemy Battle courses have any collectibles (Green Stars/Stamps) of their own, or whether they are purely combat challenges outside the Green Star/Stamp system entirely.",
+    "Did not deeply investigate the Captain Toad's Adventures puzzle-course structure (course count, whether they have Green Stars/Stamps) — this may be more appropriate for a campaign-beat scout, flagging as a boundary gap."
+  ]
+}

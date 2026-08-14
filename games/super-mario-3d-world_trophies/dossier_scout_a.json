@@ -1,0 +1,228 @@
+{
+  "beat": "campaign",
+  "game": "Super Mario 3D World",
+  "platform": "Wii U (2013 original release, WITHOUT Bowser's Fury)",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Overall world structure",
+      "detail": "Linear world-map platformer. Main campaign runs World 1 through World 6, then World Castle, then World Bowser (8 main worlds total). After the credits, four post-game bonus worlds unlock in sequence: World Star, World Mushroom, World Flower, and World Crown (which contains the final level Champion's Road).",
+      "trackable": "World map screen shows unlocked worlds and a 'Course List' sub-menu (accessed from the Map menu while on the world map) listing every unlocked course with best clear time, high score, and Green Star/Stamp/gold-flag indicators per course.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/Super_Mario_3D_World", "techbloat.com stars-and-stamps guide"]
+    },
+    {
+      "category": "structure",
+      "name": "World 1",
+      "detail": "8 courses: Super Bell Hill, Koopa Troopa Cave, Chargin' Chuck Blockade (enemy battle), Mount Beanpole, Plessie's Plunging Falls, Switch Scramble Circus, Bowser's Highway Showdown (Bowser boss, castle-type course, ~10 Green Stars to unlock), Captain Toad Goes Forth (Captain Toad stage). Also contains at least one Toad House.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_1_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World 2",
+      "detail": "8 courses: Conkdor Canyon, Puffprod Peaks, Shadow-Play Alley, Really Rolling Hills, Big Galoomba Blockade, Double Cherry Pass, Bowser's Bullet Bill Brigade (tank course, Boom Boom boss), Mystery House Melee.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_2_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World 3",
+      "detail": "11 courses: Snowball Park, Chain-Link Charge, Shifty Boo Mansion, Pretty Plaza Panic, Pipeline Lagoon, Mount Must Dash, Switchboard Falls, The Bullet Bill Express (Pom Pom boss), A Banquet with Hisstocrat (Hisstocrat boss arena), Captain Toad Makes a Splash, Sprixie House.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_3_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World 4",
+      "detail": "10 courses: Ant Trooper Hill, Piranha Creeper Creek, Beep Block Skyway, Big Bounce Byway, Spike's Lost City, Brolder Blockade, Fire Bros. Hideout #1, Lava Rock Lair (Boss Brolder boss), Mystery House Mad Dash, Sprixie House.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_4_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World 5",
+      "detail": "13 courses: Sunshine Seaside, Tricky Trapeze Theater, Backstreet Bustle, Chargin' Chuck Blockade Is Back, Sprawling Savanna, Bob-ombs Below, Cakewalk Flip, Searchlight Sneak, King Ka-thunk's Castle (King Ka-thunk boss), Fire Bros. Hideout #2, Coin Express, Captain Toad Plays Peek-a-Boo, Sprixie House.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_5_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World 6",
+      "detail": "12 courses: Clear Pipe Cruise, Spooky Seasick Wreck, Hands-On Hall, Deep Jungle Drift, Ty-Foo Flurries, Bullet Bill Base, Fuzzy Time Mine, Prince Bully Blockade (Prince Bully boss), Bowser's Bob-omb Brigade (tank course, Boom Boom boss again), Motley Bossblob's Big Battle (final boss of world), Fire Bros. Hideout #3, Mystery House Throwdown. Completing this world unlocks World Castle.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_6_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World Castle",
+      "detail": "12 courses: Fort Fire Bros., Switchblack Ruins, Red-Hot Run, Boiling Blue Bully Belt, Brolder Blockade Is Back, Prince Bully Blockade Is Back, Fire Bros. Hideout #4, Trick Trap Tower, Rammerhead Reef, Simmering Lava Lake, Bowser's Lava Lake Keep (2nd Bowser fight, in his Muscle Car; ~130 Green Stars to access), Captain Toad Gets Thwomped. Defeating Bowser here rescues the final captive (Red) Sprixie Princess, seemingly ending the main story.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_Castle"]
+    },
+    {
+      "category": "structure",
+      "name": "World Bowser",
+      "detail": "12 courses total. Standard: Spiky Spike Bridge, Plessie's Dune Downhill, Cookie Cogworks, The Bowser Express, Footlight Lane, Deepwater Dungeon, A Beam in the Dark, Grumblump Inferno. Boss levels: Motley Bossblob's Encore, Hisstocrat Returns. Final level: The Great Tower of Bowser Land (final Meowser fight; requires ~170 Green Stars to access). Also includes Mystery House Claw Climb.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_Bowser"]
+    },
+    {
+      "category": "structure",
+      "name": "World Star (post-game)",
+      "detail": "10 courses, unlocked via a rocket that appears in World 1 after the credits: Rainbow Run, Super Galaxy (clearing this unlocks Rosalina as a playable character), Rolling Ride Run, The Great Goal Pole, Super Block Land, Honeycomb Starway, Gargantuan Grotto, Peepa's Fog Bog, Cosmic Cannon Cluster (requires 210 Green Stars; clearing it unlocks World Mushroom), plus Captain Toad Takes a Spin and a Sprixie House.",
+      "trackable": "Course list on world map; Rosalina's unlock is also reflected by her becoming selectable on the character-select screen before entering a course.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["mariowiki.com/World_Star_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World Mushroom (post-game)",
+      "detail": "8 courses (harder remixes of earlier levels), unlocked after clearing Cosmic Cannon Cluster in World Star: Night Falls on Really Rolling Hills, Spiky Mount Beanpole, Deep-Black Jungle Drift, Trouble in Shadow-Play Alley, Back to Hands-On Hall, Gigantic Seasick Wreck, Broken Blue Bully Belt (requires 240 Green Stars; clearing unlocks World Flower), Mystery House Brawl. No Stamps are located in World Mushroom.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["mariowiki.com/World_Mushroom_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World Flower (post-game)",
+      "detail": "12 courses (further remixes), unlocked after clearing Broken Blue Bully Belt in World Mushroom: Switch Shock Circus, Floating Fuzzy Time Mine, Piranha Creeper Creek after Dark, Faster Fort Fire Bros., Sprawling Savanna Rabbit Run, Shiftier Boo Mansion, Pipeline Boom Lagoon, Blast Block Skyway, Towering Sunshine Seaside, Honeycomb Skyway, Spiky Spike Bridge Sneak, Boss Blitz (clearing unlocks World Crown). No Stamps are located in World Flower.",
+      "trackable": "Course list on world map.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["mariowiki.com/World_Flower_(Super_Mario_3D_World)"]
+    },
+    {
+      "category": "structure",
+      "name": "World Crown (post-game finale)",
+      "detail": "Contains 3 main courses plus a Sprixie House: Champion's Road (the game's final and hardest standard course — no checkpoints, no power-ups including the Invincibility Leaf, 500-second timer, 6 punishing sections), Captain Toad's Fiery Finale, and Mystery House Marathon (requires 30 Green Stars collected within it). Unlock requires collecting every Green Star, every Stamp, and every gold Goal Pole flag (i.e., reaching the top of the flagpole) in every course up through World Flower.",
+      "trackable": "Course list on world map tracks per-course Green Star/Stamp/flag completion; unlock of World Crown itself is a visible gate on the map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/World_Crown", "mariowiki.com/Champion's_Road"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Playable characters (Wii U original)",
+      "detail": "Five playable characters total: Mario, Luigi, Peach, and (Blue) Toad are available from the start and selectable at the start of any course. Rosalina is an UNLOCKABLE fifth character, gained after clearing World Star-2 (Super Galaxy) in the post-game — she is part of the original 2013 Wii U release, not a Switch-only addition. Captain Toad appears only in his own dedicated non-jumping puzzle stages (Captain Toad courses) and is not a general playable character. Toadette (pink) and the separate standalone playable 'Toad' character mode do not exist in this version — those are Switch/Bowser's Fury additions and should be excluded.",
+      "trackable": "Character select screen before entering a course; Rosalina's icon appears once unlocked.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["cbr.com/super-mario-3d-world-rosalina", "screenrant.com unlock-rosalina", "mariowiki.com"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Power-ups",
+      "detail": "Core power-ups confirmed present in the original Wii U game: Super Mushroom, Fire Flower, Super Bell / Lucky Bell (Cat Suit transformation — central mechanic), Boomerang Flower, Double Cherry (clones the player), Super Leaf (Tanooki Suit — tail attack and slow-fall glide, no true flight), Mega Mushroom, Super Star (invincibility), plus assist/box items: Cannon Box, Propeller Box, Goomba Mask, Green Shell, Ice Skate, Light Box. An 'Invincibility Leaf' (White Tanooki) assist item also exists in the base Wii U game for players who repeatedly fail a level, though this specific detail is less firmly sourced.",
+      "trackable": "Not centrally tracked/counted; power-ups are used per-level, not collected as a persistent tally.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariowiki.com/List_of_power-ups", "thegamer.com best-powerups", "ludo.guide power-ups"]
+    },
+    {
+      "category": "correction",
+      "name": "No Koopalings appear in this game",
+      "detail": "IMPORTANT CORRECTION to the assignment brief: the seven Koopalings (Larry, Morton, Wendy, Iggy, Roy, Lemmy, Ludwig) do NOT appear as bosses in Super Mario 3D World. This is one of the few modern 2D/3D Mario platformers where they are entirely absent. Instead, the game uses original/returning non-Koopaling bosses: Boom Boom (World 2, World 6, and World Flower-12), Pom Pom (World 3's The Bullet Bill Express), Hisstocrat (World 3 and World Bowser 'Hisstocrat Returns'), Boss Brolder (World 4's Lava Rock Lair, and 'Brolder Blockade' enemy battles), King Ka-thunk (World 5's King Ka-thunk's Castle), Prince Bully (World 6's Prince Bully Blockade, and World Castle's 'Prince Bully Blockade Is Back'), Motley Bossblob (World 6 finale and World Bowser's 'Motley Bossblob's Encore'), and Bowser himself (three story fights: World 1's Bowser's Highway Showdown, World Castle's Bowser's Lava Lake Keep, and the final Meowser fight in World Bowser's Great Tower of Bowser Land).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Search results on Koopalings in Super Mario Maker 2 confirming absence from '3D World style'", "mariowiki.com per-world boss pages"]
+    },
+    {
+      "category": "story",
+      "name": "Story opening and setup",
+      "detail": "Mario, Luigi, Peach, and Toad discover a Clear Pipe near Peach's Castle during a fireworks celebration; fixing it releases items and the Green Sprixie Princess, who explains Bowser has kidnapped her six sister Sprixie Princesses. Bowser emerges, captures the Green Sprixie Princess too, and flees down the pipe; the group falls in after him into the Sprixie Kingdom (game's setting).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["nintendoworldreport.com Sprixie Kingdom feature", "mariowiki.com/Sprixie_Princesses"]
+    },
+    {
+      "category": "story",
+      "name": "Mid-game and finale",
+      "detail": "After 6 worlds, the group confronts Bowser in World Castle (Bowser's Lava Lake Keep) and rescues the final (Red) Sprixie Princess. Bowser then ambushes the group, captures all seven Sprixie Princesses in one large bottle, and uses their combined power to build World Bowser, a theme-park final world. The group pursues him to The Great Tower of Bowser Land, where Bowser uses a Super Bell to become 'Meowser' and a Double Cherry to create clones of himself; the fight culminates atop a giant POW Block, and defeating Meowser sends him flying off in a firework burst. The group rescues the Sprixies and returns home via the Clear Pipe; the ending shows Bowser trapped in a large bottle.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["mariowiki.com/Bowser/Appearances/Super_Mario_3D_World"]
+    },
+    {
+      "category": "collectible",
+      "name": "Green Stars",
+      "detail": "380 total Green Stars across the entire game (main campaign + all bonus worlds). Every standard course contains exactly 3 Green Stars.",
+      "trackable": "Yes — tracked per-course on the world map's Course List (shows which of the 3 Green Stars per level are collected), and overall collection state gates World Crown/Champion's Road access.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["techbloat.com stars-and-stamps guide", "imore.com super-mario-3d-world guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Stamps",
+      "detail": "85 total Stamps hidden across the Sprixie Kingdom — found in every world except World Mushroom and World Flower. Most standard courses and all Sprixie Houses contain 1 Stamp each (roughly 80), with the remaining stamps awarded for completing every course with each of the 5 playable characters. Stamps can be used cosmetically on Miiverse posts (a Wii U-era social feature, since discontinued/non-functional).",
+      "trackable": "Yes — tracked per-course on the world map Course List, and via a dedicated Stamp collection/gallery screen accessible from the pause or pin menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["mariopartylegacy.com stamp-locations", "techbloat.com guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gold Goal Pole flags",
+      "detail": "Reaching the very top of the flagpole at a level's end (rather than partway) earns a 'gold flag' distinction for that course on the world map. Collecting gold flags on every course (with the specific number needed cited by one source as 91, though this figure is not independently confirmed) is one of the requirements to unlock World Crown/Champion's Road.",
+      "trackable": "Yes — a gold flag icon appears over completed course icons on the world map.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["mariowiki.com/World_Crown", "gamerguides.com World Bowser walkthrough"]
+    },
+    {
+      "category": "meta-progression",
+      "name": "Save file star rating (5-star completion system)",
+      "detail": "The game awards stars on the save-file/profile display representing completion milestones: 1 star for reaching the Goal Pole at The Great Tower of Bowser Land (i.e., beating the main story); additional stars for collecting every Green Star, collecting every Stamp, touching the top gold flag on every course, and clearing every course with all 5 playable characters — for a maximum of 5 stars shown on the save file.",
+      "trackable": "Yes — displayed directly on the file-select/save-file screen as a star count (visible before even loading the save).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Search synthesis of mariowiki.com Completion page and community guides"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Green Stars collected (out of 380), per-course and total", "where": "World map 'Course List' sub-menu (Map menu while on world map)", "confidence": "high" },
+    { "stat": "Stamps collected (out of 85), per-course and total", "where": "World map Course List, plus a dedicated Stamp gallery screen", "confidence": "high" },
+    { "stat": "Gold flagpole completions per course", "where": "Gold flag icon on course thumbnail on world map", "confidence": "medium" },
+    { "stat": "Per-course best clear time and high score", "where": "World map Course List sub-menu", "confidence": "medium" },
+    { "stat": "Overall save-file star rating (0–5 stars)", "where": "File/save select screen", "confidence": "medium" },
+    { "stat": "Which characters have cleared a given course", "where": "Implied by Course List per-character completion state feeding the 5th save-file star; exact UI presentation not directly confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Rosalina IS a playable character in the original 2013 Wii U release (unlocked post-game after clearing World Star-2 'Super Galaxy'). She is NOT a Switch-exclusive addition — do not treat her as out-of-scope. The task brief's character list (Mario/Luigi/Peach/Blue Toad) is the STARTING roster only; Rosalina is a legitimate 5th unlockable character in this exact Wii U version.", "confidence": "high" },
+    { "note": "Toadette and the standalone playable 'Toad' solo mode, online multiplayer, and the Bowser's Fury expansion are all confirmed Switch-only (2021) additions and are correctly excluded from this Wii U dossier.", "confidence": "high" },
+    { "note": "The Koopalings do not appear anywhere in Super Mario 3D World on any platform (Wii U or Switch) — this is not a version difference, it's a fact about the base game the assignment brief got wrong.", "confidence": "high" },
+    { "note": "Total Green Star (380) and Stamp (85) counts appear identical between the Wii U original and the Switch port's 3D World mode, per community 100% guides; not independently verified against an official Nintendo source.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not obtain an authoritative, single-source confirmation of the EXACT numeric thresholds (Green Stars / Stamps / gold flags) required to unlock World Crown — figures of 342 Green Stars, 76 Stamps, and 91 gold flags appeared in secondary/community sources but I could not cross-verify all three numbers against a second independent source simultaneously. Treat these numbers as medium/low confidence pending verification.",
+    "Could not confirm the exact total course count for the entire game as a single official figure; my per-world sums (approx. 86 main-game courses + 33 post-game courses ≈ 119) roughly but not exactly match a secondary source's claim of '116 total courses' — discrepancy likely due to inconsistent counting of Toad Houses, Sprixie Houses, and Mystery Houses as 'courses'. Needs a definitive source before using in a trophy that names an exact total.",
+    "Could not confirm precisely how per-character course completion (needed for the 5th save-file star) is surfaced in the UI — i.e., whether the game shows a checklist of which of the 5 characters have cleared each course, or only an aggregate flag.",
+    "Did not verify the exact enemy/course list for the two 'Fire Bros. Hideout' and 'Chargin' Chuck'/'Brolder'/'Prince Bully' recurring 'Blockade Is Back' style enemy-battle courses across all worlds — only captured the ones explicitly returned by per-world wiki pages.",
+    "Did not deeply verify Captain Toad stage count/names beyond the ones listed per world (one per most worlds); did not confirm whether Captain Toad stages count toward any trackable stat differently from standard courses.",
+    "Did not verify presence/absence of the 'Invincibility Leaf' assist item in the original Wii U release with a strong source — flagged as lower confidence.",
+    "Only lightly verified the story summary (single secondary source for the Nintendo World Report feature); the mid-game Bowser fight order (World Castle before World Bowser) is corroborated by multiple pages but the precise cutscene beats are from one source."
+  ]
+}

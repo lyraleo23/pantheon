@@ -1,0 +1,159 @@
+{
+  "beat": "side content / collectibles / secrets",
+  "game": "Super Mario 3D World",
+  "platform": "Nintendo Wii U (2013 original — excludes Bowser's Fury and all Switch-exclusive content)",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Green Stars",
+      "detail": "Main collectible. 3 Green Stars per standard course (some Captain Toad/Mystery House courses have 5). Total across the game is widely reported as 380.",
+      "trackable": "World Map: each level icon shows up to 3 small green star markers indicating which of that level's stars have been obtained. Also listed per-level in the pause-menu 'Course List' / Map menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.imore.com/super-mario-3d-world-bowsers-fury-guide-how-get-all-green-stars-and-flagpoles", "https://mariopartylegacy.com/guides/super-mario-3d-world/green-stars"]
+    },
+    {
+      "category": "collectible",
+      "name": "Stamps",
+      "detail": "85 Stamps total, hidden throughout the Sprixie Kingdom. Present in every world except World Mushroom and World Flower. Most standard courses and all Sprixie Houses have 1 Stamp each (accounting for 80); the remaining 5 stamps are awarded for completing every course in the game with each of the 5 playable characters (one stamp per character).",
+      "trackable": "World Map shows a stamp icon on a level's icon once its stamp is collected. A dedicated Stamp collection/wall menu exists showing all collected stamps.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/List_of_Super_Mario_3D_World_stamps", "https://www.mariowiki.com/Stamp", "https://www.imore.com/super-mario-3d-world-bowsers-fury-guide-how-get-all-green-stars-and-flagpoles"]
+    },
+    {
+      "category": "system",
+      "name": "Miiverse Stamp posting (Wii U-exclusive feature, now defunct)",
+      "detail": "On Wii U, collected Stamps could be used to decorate/customize Miiverse posts made from within the game (black-and-white stamp images of characters/items). Miiverse was discontinued on November 7, 2017. This feature cannot be verified or used today — any trophy referencing 'posting to Miiverse' is impossible to complete post-shutdown.",
+      "trackable": "N/A — service is gone.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Stamp", "https://super-mario-3d-world.fandom.com/wiki/Stamp"]
+    },
+    {
+      "category": "system",
+      "name": "Profile completion — 5-Star system",
+      "detail": "Each player profile/save file tracks up to 5 'stars' of completion, reportedly: (1) clear the game / reach the flagpole atop Bowser's final level, (2) collect every Green Star, (3) collect every Stamp, (4) touch the top of the Goal Pole on every level (gold flag), (5) touch the Goal Pole of every level with all 5 playable characters. There is NO numeric completion percentage shown — only these 5 discrete star icons on the save/profile select screen.",
+      "trackable": "Displayed as star icons on the profile/save select screen. Course List sub-menu on the World Map also shows per-level best times/scores plus green star and stamp indicators.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Completion"]
+    },
+    {
+      "category": "secret area",
+      "name": "World Star",
+      "detail": "Unlocked after clearing World Bowser (the main game's final level) by taking a rocket that appears back in World 1. Contains 9 courses. Clearing World Star-2 unlocks Rosalina as a playable character.",
+      "trackable": "Appears as new world on the World Map once unlocked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.denofgeek.com/games/super-mario-3d-world-every-unlockables-guide/", "https://www.digitaltrends.com/gaming/how-to-unlock-everything-in-super-mario-3d-world/"]
+    },
+    {
+      "category": "secret area",
+      "name": "World Crown",
+      "detail": "A final secret world/level unlocked only after collecting all Green Stars, all Stamps, and reaching the top of every level's flagpole in the main worlds and World Star (i.e., near-total completion). Contains the final Captain Toad level 'Captain Toad's Fiery Finale' and a Mystery House course.",
+      "trackable": "Appears on World Map once unlock conditions are met.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.denofgeek.com/games/super-mario-3d-world-every-unlockables-guide/"]
+    },
+    {
+      "category": "level/secret",
+      "name": "Secret Warp Pipes (2 total)",
+      "detail": "Two secret warp-pipe shortcuts confirmed: one in World 1-2 'Koopa Troopa Cave' (requires Cat Suit, skips remainder of World 1 directly to World 2 'Conkdor Canyon'), and one in World 4-2 'Piranha Creeper Creek' (skips ahead a world). Could not confirm a complete, sourced list beyond these two — some fan sources call this 'only two warp zones in the game,' but I was not able to independently verify there are exactly 2 and no more via an authoritative source.",
+      "trackable": "Not separately tracked/counted anywhere in-game beyond the world-skip itself becoming visible on the World Map.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.digitaltrends.com/gaming/super-mario-3d-world-all-secret-exits-warp-zones/ (search snippet only, page fetch failed)", "community/YouTube video listings"]
+    },
+    {
+      "category": "bonus level",
+      "name": "Captain Toad bonus levels (6 total)",
+      "detail": "Six embedded Captain Toad puzzle levels, one every other world, played as Captain Toad (no jump ability): 1) 'Captain Toad Goes Forth' (World 1), 2) 'Captain Toad Makes a Splash' (World 3), 3) 'Captain Toad Plays Peek-a-Boo' (World 5), 4) 'Captain Toad Gets Thwomped' (World Castle), 5) 'Captain Toad Takes a Spin' (World Star), 6) 'Captain Toad's Fiery Finale' (World Crown, final one, replacing the expected World Flower slot). Each contains 5 Green Stars (not the standard 3) per some sources — this specific per-level star count could not be triple-confirmed.",
+      "trackable": "Appear as distinct level icons on the World Map, same green-star/stamp tracking as normal levels.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Captain_Toad_Goes_Forth", "https://www.mariowiki.com/Captain_Toad's_Fiery_Finale", "https://mario.fandom.com/wiki/The_Adventures_of_Captain_Toad"]
+    },
+    {
+      "category": "bonus level type",
+      "name": "Mystery Houses",
+      "detail": "A series of bonus courses (multiple across the game, including one in World Crown: 'Mystery House Marathon') consisting of rapid-fire ~10-second Mystery Box mini-challenges (defeat all enemies, reach the star, etc.) to collect Green Stars.",
+      "trackable": "Appear as level icons on World Map; green stars tracked same as other levels.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mystery_House", "https://www.gamerguides.com/super-mario-3d-world/guide/walkthrough/world-crown/world-crown-mystery-mystery-house-marathon"]
+    },
+    {
+      "category": "feature",
+      "name": "Toad Houses",
+      "detail": "Bonus reward houses (not full levels/minigames) where the player picks between a 'big' or 'small' present; one contains four power-ups, the other a Super Mushroom. Not a minigame with lives at stake — more of a free item pickup between/within levels.",
+      "trackable": "Not tracked/counted as a collectible.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Toad_House"]
+    },
+    {
+      "category": "DLC",
+      "name": "No DLC ever released for Wii U version",
+      "detail": "Producer Yoshiaki Koizumi stated pre-release (Nov 2013) that DLC was unlikely, and none was ever released for Super Mario 3D World on Wii U. All additional content (Bowser's Fury, Toadette-adjacent leftover assets, amiibo support) arrived only in the 2021 Switch re-release, which is out of scope for this dossier.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2013/11/super_mario_3d_world_producer_says_dlc_is_unlikely_to_happen"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Local 4-player co-op/competitive, no online",
+      "detail": "Up to 4 players locally (Wii U GamePad + Wii Remotes/Pro Controllers), cooperating or racing to the flagpole. The Wii U version has NO online multiplayer (online co-op was added only in the 2021 Switch version). Playable roster in the base Wii U game: Mario, Luigi, Peach, Toad (all available from the start), plus Rosalina unlockable after clearing World Star-2.",
+      "trackable": "N/A (not a countable stat)",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.co-optimus.com/game/3009/nintendo-wii-u/super-mario-3d-world.html", "https://www.imore.com/can-you-play-super-mario-3d-world-bowsers-fury-local-co-op"]
+    },
+    {
+      "category": "correction to assignment scope",
+      "name": "Toad WAS playable in the original Wii U version",
+      "detail": "The task brief stated the Wii U original is 'WITHOUT Toad as a playable character' — this appears to be incorrect / likely confused with Toadette. Toad has been one of the 5 playable characters (Mario, Luigi, Peach, Toad, Rosalina) since the original 2013 Wii U release. It is Toadette who is NOT a playable character in either version — data-mining of the Switch release found cut Toadette assets/a single unused voice line suggesting she was planned but never made playable in any version, including Bowser's Fury. Please confirm with the requester whether this scope note should be corrected before building trophies around 'unlock/play as Toad.'",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://comicbook.com/gaming/news/super-mario-3d-world-toadette-nintendo-leak/", "https://bleedingcool.com/games/toadette-was-apparently-cut-from-super-mario-3d-world/", "https://www.co-optimus.com/game/3009/nintendo-wii-u/super-mario-3d-world.html"]
+    },
+    {
+      "category": "version note",
+      "name": "No amiibo support on Wii U",
+      "detail": "The original Wii U version of Super Mario 3D World does NOT support amiibo at all. Amiibo functionality (Cat Peach/Cat Mario shortcuts via specific amiibo, Toad rescue clues, etc.) was added new in the 2021 Switch + Bowser's Fury release.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["search result summary citing amiibo.fandom.com and general consensus; primary Nintendo source not directly fetched"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Green Stars collected (per level, out of 3, and cumulative)", "where": "World Map level icons (small star markers) and Course List sub-menu", "confidence": "high" },
+    { "stat": "Stamps collected (out of 85)", "where": "World Map level icons (stamp indicator) and dedicated Stamp collection/wall screen", "confidence": "medium" },
+    { "stat": "Profile completion — 5 discrete stars (not a percentage)", "where": "Profile/save file select screen", "confidence": "medium" },
+    { "stat": "Per-level best clear time and high score", "where": "Course List sub-menu within the World Map's Map menu", "confidence": "medium" },
+    { "stat": "Gold flag on Goal Pole per level (touched the very top)", "where": "World Map level icon changes to show a gold flag", "confidence": "medium" },
+    { "stat": "Number of lives (up to 1-110, shown as crowns beyond 99)", "where": "HUD during gameplay / pause menu", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Miiverse stamp-posting feature was Wii U-only and is now completely defunct since Miiverse's shutdown on November 7, 2017 — any trophy idea built around 'post a stamp to Miiverse' cannot be verified or completed today.", "confidence": "high" },
+    { "note": "No DLC was ever released for the Wii U version of Super Mario 3D World.", "confidence": "high" },
+    { "note": "Wii U version has no online multiplayer — local only, up to 4 players. Online co-op is Switch-exclusive.", "confidence": "high" },
+    { "note": "Wii U version has no amiibo support whatsoever — that was added in the Switch re-release.", "confidence": "high" },
+    { "note": "The task brief's claim that the Wii U original is 'without Toad as a playable character' appears to be a factual error — Toad is and always has been playable in the base game since 2013. Recommend confirming scope before excluding Toad-related content.", "confidence": "medium" },
+    { "note": "World Flower and World Crown are separate secret/post-game worlds; World Flower does not contain a Stamp per some sources, and the final Captain Toad course sits in World Crown rather than World Flower.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not fully verify the exact total number of secret exits/warp pipes in the game — only found 2 confirmed (World 1-2 Koopa Troopa Cave -> World 2, and World 4-2 Piranha Creeper Creek -> a later world) via search snippets; the primary source page (Digital Trends) failed to load content on fetch, so this list should be treated as incomplete, not exhaustive.",
+    "Could not confirm the exact per-level Green Star count for Captain Toad levels (5 stars vs. standard 3) with a fully independent second source.",
+    "Could not confirm whether World Flower has 0 or some stamps — one source says stamps appear in every world 'except World Mushroom and World Flower,' but this was not cross-verified against a second independent source.",
+    "Could not confirm total course/level count for the whole game (needed for a 'clear every level' style trackable, though this is likely campaign beat's territory).",
+    "Did not verify whether there is any in-game bestiary, enemy-defeat counter, or coin-total tracker beyond the per-level score system — no evidence found of a persistent 'total coins collected' meta-counter.",
+    "Could not confirm exact wording/order of the 5 profile completion stars from a second independent source beyond the mariowiki Completion page fetch.",
+    "Did not find a primary Nintendo source confirming amiibo absence on Wii U; relied on aggregated search-result consensus rather than a directly fetched authoritative page.",
+    "Did not investigate whether local multiplayer supports fewer than 4 players smoothly (e.g. 2-3 player specifics) beyond the general 'up to 4' figure."
+  ]
+}
