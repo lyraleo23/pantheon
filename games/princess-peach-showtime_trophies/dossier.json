@@ -1,0 +1,108 @@
+{
+  "game": "Princess Peach: Showtime!",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "developer": "Good-Feel",
+  "publisher": "Nintendo",
+  "releaseDate": "2024-03-22",
+  "researchDate": "2026-08-14",
+  "premise": "Peach enters Sparkle Theater, where she can step through magic curtains on stage posters to transform into a 'Peach-formation' and star in that play's story. The dark sorceress Madame Grape has invaded the theater with Darkle power; Peach must clear every floor's plays, defeat Grape's minion bosses, rescue the captive Sparklas (Theet stars), and confront Grape herself.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Nintendo Switch has no system-level achievement/trophy system. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — Switch exclusive, no version on any other platform, so no native list exists anywhere to port from."
+  },
+  "campaignStructure": {
+    "hub": "Sparkle Theater — 5 floors (1F-5F) plus a Basement (BF). Theater floor map shows locked/cleared status per play.",
+    "formations": [
+      { "name": "Swordfighter Peach", "acts": ["1F: The Castle of Thorns", "2F: The Ghostly Castle", "BF: The Dark Swordfighter & the Arena"] },
+      { "name": "Ninja Peach", "acts": ["1F: Ninjutsu: The Art of Rapids", "4F: Ninjutsu: The Art of Flames", "BF: The Dark Ninja & the Legion of Guards"] },
+      { "name": "Cowgirl Peach", "acts": ["1F: Cowgirl in the Wilderness", "3F: Cowgirl at Dusk", "BF: The Dark Locomotive & the Doomed Town"] },
+      { "name": "Patissiere Peach", "acts": ["1F: Welcome to the Festival of Sweets", "3F: Welcome to the Spooky Party", "BF: The Dark Baker & the Bewitching Sweets"] },
+      { "name": "Dashing Thief Peach", "acts": ["2F: The Perfect Infiltration", "4F: The Stolen Statue", "BF: The Dark Prison & the Dangerous Trap"] },
+      { "name": "Figure Skater Peach", "acts": ["2F: A Snow Flower on Ice", "5F: A Parade on Ice", "BF: The Dark Ice & the Shadowy Stage"] },
+      { "name": "Detective Peach", "acts": ["2F: The Case of the Missing Mural", "4F: The Case of the Rainy-Day Plot", "BF: The Dark Museum & the Purple Mystery"] },
+      { "name": "Mighty Peach", "acts": ["3F: Mighty Mission: Alien Invasion", "5F: Mighty Mission: The Rescue", "BF: Dark Space & the Great Meteor"] },
+      { "name": "Mermaid Peach", "acts": ["3F: Melody of the Sea", "5F: Blight of the Sea", "BF: The Dark Depths & the Swirling Currents"] },
+      { "name": "Kung Fu Peach", "acts": ["4F: A Kung Fu Tale", "5F: A Kung Fu Legend", "BF: The Dark School & the Twisted Fist"] }
+    ],
+    "formationCount": "10 selectable formations x 3 acts each = 30 main story levels. High confidence, corroborated across 3 independent scout sources.",
+    "confidence": "high",
+    "note": "Exact stage titles corroborated by 2 third-party wikis/guides, not cross-checked against an official Nintendo source — spot-check wording if used verbatim in trophy copy.",
+    "bosses": [
+      { "name": "Disco Wing", "location": "End of 1F", "confidence": "high" },
+      { "name": "Light Fang", "location": "End of 2F", "confidence": "high" },
+      { "name": "Purrjector Cat", "location": "End of 3F", "confidence": "high" },
+      { "name": "Spotlion", "location": "End of 4F (5F has no floor boss of its own)", "confidence": "high" },
+      { "name": "Madame Grape — final boss, stage \"It's Showtime, Grape!\"", "location": "Basement, after clearing all 10 Basement 'Dark' acts and rescuing all 10 Sparklas", "detail": "Two-phase fight: Phase 1 as Radiant Peach vs. Grape; Grape transforms into giant 'Grape the Great'; Phase 2 as Super Radiant Peach (power granted by the Theets) to finish her off.", "confidence": "high" }
+    ],
+    "actionRehearsals": {
+      "description": "5 bonus timed score-attack stages, separate from the 30 story levels and 5 bosses: Swordfighter, Dashing Thief, Cowgirl, Kung Fu, Mighty. Taking damage ends the attempt.",
+      "grading": "Bronze/Silver/Gold score-based medal per rehearsal. Gold rewards a unique exclusive dress (Starry, Heart, Geometric, Checkered, Scaly respectively) + 60 coins. Silver 30 coins, Bronze 10 coins.",
+      "trackable": "Score and medal rank shown on the rehearsal results/select screen.",
+      "confidence": "high for structure/existence; medium for exact score thresholds (some numbers, e.g. Cowgirl/Mighty gold cutoffs, were ambiguous across sources)"
+    },
+    "totalLevels": "40 total: 30 main story levels + 5 boss stages + 5 Action Rehearsal stages. Confidence: medium (cross-checked but not from an official source).",
+    "ending": "After defeating Madame Grape, Peach restores the theater with Radiant/Sparkle power, gets her crown back, and takes a final bow before an audience as credits roll. High confidence.",
+    "postGame": {
+      "bossRematches": "Boss portraits appear on each floor after the credits; each of the 5 bosses (including Grape) offers 3 optional challenges (e.g. no-damage clears), each worth 1 Sparkle Gem the first time completed — 15 gems total. Medium confidence.",
+      "hiddenTheets": "A post-game hide-and-seek activity (talk to a 'Ninja Sparkla' on 1F) to find hidden Theet characters in level replays, said to reward a Secret Dress on completion. EXACT COUNT IS CONTRADICTORY: one guide headlines '70 total' but its own stated per-level breakdown only sums to ~46, and a separate source suggests ~16. No confirmed in-game counter was found for this activity. Confidence: low. Do not build a 'collect all Theets' trophy on an unverified number — see checkpoint flag.",
+      "decorations": "15 purchasable Sparkle Theater decorations (3 per floor, 1F-5F, basement excluded), bought with leftover Sparkle Gems post-game. Single low-confidence source.",
+      "postGameOutfits": "Collecting all 235 Sparkle Gems unlocks a Special Dress + Special Ribbon for purchase. After beating the story, Radiant/Grape-themed dresses and ribbons also become purchasable (500 coins each). Medium confidence."
+    }
+  },
+  "collectibles": {
+    "sparkleGems": {
+      "count": "235 total: 220 from the 30 main story levels (each formation's 3 acts give 10 + 7 + 5 gems = 22 per formation x 10 formations = 220) + 15 from post-game boss-rematch challenges.",
+      "trackable": "Per-level gem count shown on the results screen and when re-selecting a level from the Theater Lobby. No confirmed single aggregate 'X/235' counter across the whole game.",
+      "confidence": "medium — the 10/7/5 per-act breakdown and 220 total are corroborated by 2 independent sources; the exact boss-unlock gem thresholds per floor are unverified/contradictory and should not be used in trophy text."
+    },
+    "ribbons": {
+      "count": "30 total — one per main story level, from a 'Ribboner' Theet NPC. 1st-act ribbon grants a new Peach dress, 2nd-act a new Stella ribbon design, 3rd/finale-act an upgraded dress + ribbon.",
+      "trackable": "Per-level ribbon status checkable by re-selecting the level from the Theater Lobby or via the pause menu inside a level. Missed Ribboner encounters can reportedly also be bought later from the Floor 1 Shopkeep.",
+      "confidence": "high — corroborated by 3 independent sources."
+    },
+    "albumPhotos": {
+      "count": "37 total: 30 unlocked in the main story (collect every gem in a level, then talk to the Pictioneer), 7 more added post-game (one per boss-rematch completion + a final Peach & Stella photo).",
+      "trackable": "Stored in the Collection menu (Photo Album).",
+      "confidence": "medium — 2 sources."
+    },
+    "outfits": {
+      "count": "Reported as 72 total (40 Peach dress designs + 32 Stella ribbon designs) by one source; a separate figure from the same guide describes an 84-item 'Collection' menu (13 ensembles, 53 songs, 18 movies) that does not clearly reconcile with the 72 figure.",
+      "trackable": "Collection menu from the Main Menu.",
+      "confidence": "low — single source, internally inconsistent. Do not hardcode an outfit total in trophy text."
+    },
+    "hiddenPoseSpotlights": {
+      "count": "76 across all levels (15/13/12/16/9/11 by floor 1F-BF), interactive props rewarding coins and occasionally gems.",
+      "trackable": "No confirmed in-game aggregate counter.",
+      "confidence": "medium — single source (Game8)."
+    },
+    "coins": {
+      "description": "Spendable currency from levels, enemies, balloons, rehearsals. Not a finite collectible.",
+      "trackable": "HUD and Lobby Shop.",
+      "confidence": "medium"
+    }
+  },
+  "systems": {
+    "difficultyModes": "None. Only accessibility aid is the 'Heart Charm' item (raises health from 5 to 8 hearts). No difficulty toggle affects any trophy-relevant requirement.",
+    "multiplayer": "Single-player only. A claimed 'shared Joy-Con' co-op-adjacent feature is unconfirmed and likely not a real distinct mode — excluded from consideration.",
+    "rng": "No randomized mechanics identified — deterministic, authored levels and rehearsal patterns.",
+    "missables": "No confirmed permanently missable content. All 30 story levels remain freely replayable via the Theater Lobby before and after story completion; gems/ribbons can be mopped up on repeat visits.",
+    "aggregateCompletion": "No source confirms a single in-game aggregate 'percent complete' stat anywhere (pause menu, save select, or main menu). Completion is only checkable per-category: per-level gem counts, ribbon status, Collection menu (outfits/photos), rehearsal medal ranks. IMPORTANT for trophy design — a 'reach 100% completion' trophy cannot cite a single stat; it must instead be built from fully maxing the checkable per-category screens (Rule 1/2 concern)."
+  },
+  "dlc": "None found. No paid or free post-launch content additions since the March 2024 launch.",
+  "versionDifferences": "Switch exclusive, single simultaneous worldwide release. No cross-platform concerns. Minor cosmetic-only regional differences (box art, font) found, no gameplay differences.",
+  "conflicts": [
+    { "topic": "Hidden Theets total count", "claims": ["70 (guide headline)", "~46 (same guide's own per-level math)", "~16 (separate source)"], "resolution": "Unresolved — treat as unverified. Recommend excluding a numeric 'collect all Theets' trophy; at most a light-touch 'find one' style trophy if used at all." },
+    { "topic": "Sparkle Gem thresholds to unlock each boss", "claims": ["Cumulative 10/15/20/25/30 gems per floor (100 total to finish story)", "Flat '70 gems per boss' (conflicting)"], "resolution": "Unresolved — do not reference specific gem-threshold numbers in trophy text." },
+    { "topic": "Outfit/collection totals", "claims": ["72 total (40 dresses + 32 ribbon designs)", "84-item Collection menu (13 ensembles/53 songs/18 movies) from the same source"], "resolution": "Unresolved, internally inconsistent single source. Avoid hardcoding a specific outfit count." }
+  ],
+  "gaps": [
+    "No confirmed aggregate 100%-completion stat exists anywhere in the game's UI — this rules out a single 'reach X% completion' trophy citing one number.",
+    "No confirmed in-game counter for Hidden Theets or Hidden Pose Spotlights beyond per-level/community tracking.",
+    "Exact score thresholds for Cowgirl and Mighty Action Rehearsal Gold rank are approximate/unclear.",
+    "Ribbon and outfit totals rest on guide sources not cross-checked against an official Nintendo reference."
+  ]
+}

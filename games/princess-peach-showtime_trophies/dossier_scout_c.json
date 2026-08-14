@@ -1,0 +1,168 @@
+{
+  "beat": "systems",
+  "game": "Princess Peach: Showtime!",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "grading_system",
+      "name": "Action Rehearsal Medal Tiers (Bronze/Silver/Gold)",
+      "detail": "5 Action Rehearsals exist (Swordfighter, Dashing Thief, Cowgirl, Kung Fu, Mighty), each a timed score-attack minigame unlocked after clearing that floor's boss. Each has Bronze/Silver/Gold score thresholds (e.g. Swordfighter/Kung Fu: Bronze 60+, Silver 100+, Gold 140+ points; Dashing Thief: Bronze 30+, Silver 70+, Gold 100+; Cowgirl/Mighty: lower thresholds, roughly Bronze 15-20+, Silver 30-40+, Gold 45-60+). Taking any damage ends the rehearsal. Gold rank on each rewards 60 coins plus an exclusive dress (e.g. Starry Dress, Checkered Dress, Heart Dress, Geometric Dress, Scaly Dress); Silver gives 30 coins; Bronze gives 10 coins.",
+      "trackable": "A 'Rehearsal High Score Leaderboard' is referenced by guides, implying the game stores and displays best score/rank per rehearsal, letting players see and replay to improve. Exact in-game screen name not independently confirmed beyond guide mentions.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448248", "https://gamerant.com/princess-peach-showtime-how-complete-swordfighter-rehearsal-gold-trophy-starry-dress-unlock-guide/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Sparkle Gems",
+      "detail": "235 Sparkle Gems total: 220 from the 30 main story levels (10 gems in a level's first playthrough-equivalent slot structured as roughly 10 in the first play of an ensemble's level, 7 in the second, 5 in the third, totaling 22 per ensemble x 10 ensembles = 220), plus 15 more from post-game boss rematch challenges (5 bosses x 3 challenges each, 1 gem per challenge, first-time only).",
+      "trackable": "Collected count is tracked per level (visible when re-entering/selecting a level from the Theater Lobby, and shown at level-end results). Whether a single running game-wide total is displayed anywhere beyond per-level breakdown was not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233", "https://game8.co/games/Princess-Peach-Showtime/archives/448088", "https://www.thegamer.com/every-sparkle-gem-princess-peach-showtime-each-ensemble-outfit-complete-guide/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Ribbons",
+      "detail": "30 total Ribbons, one per main level (obtained by rescuing 'Ribboner' Theets, completing Action Rehearsals with Gold, or in some cases purchasable from the Floor 1 Shopkeep if missed during play). Each unlocks a costume/color for Stella or an outfit pattern.",
+      "trackable": "Ribbon collection status per level can be checked by re-entering the level from the Theater Lobby or via the pause menu inside a level.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448167", "https://screenrant.com/princess-peach-showtime-ribboner-locations/", "https://www.thegamer.com/princess-peach-showtime-where-to-find-every-ribbon/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Outfits / Ensembles",
+      "detail": "72 Peach and Stella outfit patterns/colors total (per Game8's 100% completion breakdown), purchasable with coins at the Lobby Shop once unlocked, or awarded from Gold rehearsal ranks and bosses.",
+      "trackable": "Viewable under 'Collection' from the Main Menu, which lists all transformation ensembles/outfits.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    },
+    {
+      "category": "collectible",
+      "name": "Album Photos",
+      "detail": "37 Album Photos total in the base completion list (30 base + 7 additional post-game photos including a final photo with Peach and Stella), earned by collecting all Sparkle Gems in a level and completing post-game boss challenges.",
+      "trackable": "Viewable in the Collection menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233", "https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "post-game",
+      "name": "Boss Rematches (Curtain Call structure)",
+      "detail": "After clearing the story (all 30 levels, 5 floor bosses + final boss Madame Grape), players return to Sparkle Theater where boss portraits appear on each floor allowing rematches. Each rematch offers 3 optional challenges (commonly 'take no damage' or 'don't hit X part' style), each rewarding 1 Sparkle Gem the first time completed (5 bosses x 3 = 15 gems). Madame Grape can be rebattled in the basement with her own 3 challenges.",
+      "trackable": "Challenge completion presumably tracked per boss encounter screen; not confirmed whether a global checklist exists.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448778", "https://game8.co/games/Princess-Peach-Showtime/archives/448880", "https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hidden Theets (Hide-and-Seek / Ninja Sparkla students)",
+      "detail": "Post-game hide-and-seek content: reported as 70 hidden Theets across levels — described as 3 Theets hiding in each level on Floors 1-5 (30 levels) and 1 Theet in each Basement level. Framed as a Ninja Sparkla-themed challenge.",
+      "trackable": "Not confirmed whether the game shows a running count of Theets found per level or overall; guides imply per-level searches without a stated in-game counter.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "post-game",
+      "name": "Sparkle Decorations",
+      "detail": "15 Sparkle Decorations, purchasable post-game with Sparkle Gems from the Lobby Shop, used to decorate each of the 5 main floors of the Sparkle Theater (3 per floor; basement excluded).",
+      "trackable": "Presumably tracked via Lobby Shop purchase state.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No selectable difficulty modes",
+      "detail": "The game has no difficulty mode selection. It is designed as a low-difficulty, story-focused experience. The one accessibility/assist element is the 'Heart Charm', an equippable item (obtainable by repeatedly talking to a Theet on Floor 1 who is struggling) that raises Peach's health from 5 hearts to 8 hearts, making the game easier. Ribbon/gem requirements are not affected by any difficulty toggle since none exists.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/whatsnew/here-are-a-few-tips-before-you-take-the-stage/", "https://www.supercheats.com/princess-peach-showtime-cheats-tips"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "No co-op or multiplayer mode",
+      "detail": "Princess Peach: Showtime! is a single-player only game. There is no local or online co-op/multiplayer mode. Some sources mention a 'shared Joy-Con' style assistance concept, but this is not a genuine second-player mode — it is unclear if this is even a real in-game feature versus a misremembered/conflated claim from a low-quality source.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.ggrecon.com/guides/princess-peach-showtime-co-op-multiplayer/", "https://game8.co/games/Princess-Peach-Showtime/archives/448771"]
+    },
+    {
+      "category": "missable",
+      "name": "No known permanently missable content",
+      "detail": "All 30 main levels, and by extension their Sparkle Gems and Ribbons, remain freely replayable at any time via the Theater Lobby / floor select, both before and after story completion. Ribbons missed via the 'Ribboner' NPC can also be purchased later from the Floor 1 Shopkeep in some cases. No time-limited, demo-exclusive, or preorder-exclusive costume/content was found to be absent from or exclusive to the retail release; a free pre-launch demo existed but did not carry over exclusive unlockables into the full game as far as could be confirmed.",
+      "trackable": "Per-level completion (gems/ribbon obtained) can be checked by re-selecting the level from the lobby before entering.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://screenrant.com/princess-peach-showtime-ribboner-locations/", "https://www.thegamer.com/princess-peach-showtime-where-to-find-every-ribbon/"]
+    },
+    {
+      "category": "rng",
+      "name": "No significant RNG systems identified",
+      "detail": "No evidence found of randomized loot, enemy drops, shuffled puzzle solutions, or chance-based minigame outcomes. The game's levels, puzzles, and Action Rehearsal enemy patterns appear to be deterministic/fixed by design (side-scrolling stage-based platformer with authored puzzles).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["general search — no sources describing RNG mechanics found"]
+    },
+    {
+      "category": "version",
+      "name": "Single worldwide release, no major regional content differences found",
+      "detail": "Released simultaneously March 22, 2024 (some sources say March 15/21/22 depending on region) worldwide on Switch. No censorship or content-cut differences between Japanese and Western versions were found. Minor differences noted: box art facial expression changes between Japan and Western covers, and different fonts used for Korean/Chinese versions (cosmetic/localization only, not gameplay-affecting).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://nintendo.fandom.com/wiki/Princess_Peach:_Showtime!"]
+    },
+    {
+      "category": "version",
+      "name": "No confirmed post-launch patches with content changes",
+      "detail": "Could not find any documented Switch patch notes beyond the Day One / base version (v1.0.0, March 2024 release). No evidence of a free content update adding new levels/costumes, nor of paid DLC ever being released for this game.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.perfectly-nintendo.com/princess-peach-showtime-switch-all-the-updates/", "https://game8.co/articles/latest/princess-peach-showtime-dlc-and-preorder"]
+    },
+    {
+      "category": "collectible",
+      "name": "Coins",
+      "detail": "A collective currency tally accumulated from level exploration, defeating enemies, popping balloons, etc. Used to purchase outfits/decorations and to skip levels or respawn at checkpoints. No fixed total count exists since coins are a spendable currency, not a finite collectible.",
+      "trackable": "Coin total is shown in the Lobby Shop / relevant purchase menus.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448088"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Sparkle Gems collected per level", "where": "Level select screen in Theater Lobby (shows collection state before entering); also visible at level-end results", "confidence": "medium" },
+    { "stat": "Ribbon obtained per level", "where": "Level select screen in Theater Lobby / pause menu inside a level", "confidence": "medium" },
+    { "stat": "Action Rehearsal best score / medal rank", "where": "Rehearsal select / 'Rehearsal High Score Leaderboard' (per guide reference, not independently screenshot-verified)", "confidence": "low" },
+    { "stat": "Unlocked outfits/ensembles for Peach and Stella", "where": "Main Menu -> Collection", "confidence": "medium" },
+    { "stat": "Unlocked Album Photos and Music/Movies", "where": "Pause Menu -> Collection", "confidence": "medium" },
+    { "stat": "Coin total", "where": "Lobby Shop purchase screen", "confidence": "medium" },
+    { "stat": "Overall % completion (game-wide)", "where": "Not confirmed to exist anywhere; no source described a single aggregate completion percentage screen", "confidence": "low" },
+    { "stat": "Hidden Theets found (post-game hide-and-seek)", "where": "Not confirmed whether tracked in-game beyond manual counting by the player", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Single simultaneous worldwide Switch release (~March 2024); no confirmed platform-exclusive content since the game is Switch-exclusive with no other platform release.", "confidence": "medium" },
+    { "note": "No paid DLC exists for this game as of the last confirmed check.", "confidence": "medium" },
+    { "note": "No documented post-launch patch changed game content; could not rule out minor bugfix-only patches.", "confidence": "low" },
+    { "note": "A free pre-launch demo existed (announced ~March 2024) but no evidence it left exclusive/missable content out of the full retail game.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the game displays a single aggregate 100% completion percentage anywhere (pause menu, main menu, or save select). Guides discuss '100% completion' as a community-defined checklist, not a stated in-game stat.",
+    "Could not verify the exact in-game name/location of the Action Rehearsal high-score/rank display screen (e.g. whether it's literally called a 'leaderboard' in-game or just a best-score readout).",
+    "Could not confirm whether Hidden Theets (post-game hide-and-seek, ~70 total) have any in-game counter, or whether this is purely a community-tracked collectible with no game-side confirmation UI.",
+    "Could not confirm exact per-rehearsal score thresholds for Cowgirl and Mighty rehearsals beyond an approximate range (45/60 for gold) — the source gave two numbers without clearly separating which rehearsal each applies to.",
+    "Could not confirm whether Ribbons obtained solely via Ribboner (not purchasable) are truly recoverable in 100% of cases, or whether a small subset are shop-exclusive/rehearsal-exclusive with no lobby purchase fallback.",
+    "Could not confirm the claimed 'shared Joy-Con' co-op-adjacent feature is a real mechanic in the shipped game rather than a conflated/incorrect claim from a low-quality source; treat as unconfirmed and likely non-existent.",
+    "Could not find dedicated patch notes source (e.g. Nintendo's own version history page) to confirm whether any bugfix-only updates were released post-launch.",
+    "Did not find any RNG system in the game; absence of evidence is not proof of absence, but no source described randomized mechanics of any kind."
+  ]
+}

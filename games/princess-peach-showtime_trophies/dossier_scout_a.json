@@ -1,0 +1,227 @@
+{
+  "beat": "campaign",
+  "game": "Princess Peach: Showtime!",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Sparkle Theater",
+      "detail": "The game's hub is Sparkle Theater, a theater on a small island run by the Theets, with plays spread across five floors (1F-5F) plus a basement (BF). Peach enters magic curtains on stage posters to transform into a 'Peach-formation' and play through that story's act.",
+      "trackable": "Theater map/floor menu shows which stages on each floor are cleared and which are locked.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Sparkle_Theater", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "transformation",
+      "name": "Swordfighter Peach",
+      "detail": "Sword-fighting formation: parries, dodges, and slashes enemies. Appears on 1F (The Castle of Thorns), 2F (The Ghostly Castle), and a third 'dark' act on the basement floor (The Dark Swordfighter & the Arena).",
+      "trackable": "Stage clear status shown on floor map; costume shown in outfit/ensemble collection menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Ninja Peach",
+      "detail": "Stealth/wall-jump formation using kunai. Appears on 1F (Ninjutsu: The Art of Rapids), 4F (Ninjutsu: The Art of Flames), and a basement act (The Dark Ninja & the Legion of Guards).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Cowgirl Peach",
+      "detail": "Lasso-based formation for tossing enemies/items and riding a horse. Appears on 1F (Cowgirl in the Wilderness), 3F (Cowgirl at Dusk), and a basement act (The Dark Locomotive & the Doomed Town).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Patissiere Peach",
+      "detail": "Baking/decorating formation. Appears on 1F (Welcome to the Festival of Sweets), 3F (Welcome to the Spooky Party), and a basement act (The Dark Baker & the Bewitching Sweets).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Dashing Thief Peach",
+      "detail": "Stealth/parkour formation swinging across a cityscape and evading spotlights/guards. Appears on 2F (The Perfect Infiltration), 4F (The Stolen Statue), and a basement act (The Dark Prison & the Dangerous Trap).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Figure Skater Peach",
+      "detail": "Ice-skating formation using timed spins/jumps. Appears on 2F (A Snow Flower on Ice), 5F (A Parade on Ice), and a basement act (The Dark Ice & the Shadowy Stage).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Detective Peach",
+      "detail": "Mystery-solving formation, gathering clues/evidence. Appears on 2F (The Case of the Missing Mural), 4F (The Case of the Rainy-Day Plot), and a basement act (The Dark Museum & the Purple Mystery).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Mighty Peach",
+      "detail": "Superhero formation with super strength and flight, fighting an alien invasion. Appears on 3F (Mighty Mission: Alien Invasion), 5F (Mighty Mission: The Rescue), and a basement act (Dark Space & the Great Meteor).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Mermaid Peach",
+      "detail": "Underwater formation using magical voice/song to control schools of fish. Appears on 3F (Melody of the Sea), 5F (Blight of the Sea), and a basement act (The Dark Depths & the Swirling Currents).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Kung Fu Peach",
+      "detail": "Martial-arts formation. Appears on 4F (A Kung Fu Tale), 5F (A Kung Fu Legend), and a basement act (The Dark School & the Twisted Fist).",
+      "trackable": "Stage clear status on floor map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448040"]
+    },
+    {
+      "category": "transformation",
+      "name": "Radiant Peach / Super Radiant Peach",
+      "detail": "Special forms exclusive to the final boss encounter 'It's Showtime, Grape!'. Radiant Peach is used in phase one against Grape; after Grape reverts to a mask and grows into 'Grape the Great', the surrounding Theets grant Peach their energy so she becomes Super Radiant Peach for phase two.",
+      "trackable": "Not a selectable formation on the map; only appears scripted in the final boss fight.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!", "https://www.mariowiki.com/It's_Showtime,_Grape!"]
+    },
+    {
+      "category": "structure",
+      "name": "Total transformation count",
+      "detail": "10 core/selectable Peach-formations (Swordfighter, Ninja, Cowgirl, Patissiere, Dashing Thief, Figure Skater, Detective, Mighty, Mermaid, Kung Fu), each used across 3 acts/stages (an 'Act 1' and 'Act 2' spread across floors 1F-5F, plus an 'Act 3' basement/'Dark' stage), for 10 x 3 = 30 main story stages total. Radiant/Super Radiant Peach are additional final-boss-exclusive forms not counted among the 10.",
+      "trackable": "Costume/outfit collection screen groups outfits by formation; floor map shows per-floor completion.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/", "https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    },
+    {
+      "category": "structure",
+      "name": "Total level count (40)",
+      "detail": "Game contains 40 total playable levels: 30 regular story stages (3 acts x 10 formations), 5 boss stages (4 Darkle bosses + 1 final boss stage against Madame Grape), and 5 Rehearsal bonus stages (one per floor 1F-5F, for combat-oriented formations: Swordfighter, Dashing Thief, Cowgirl, Kung Fu, Mighty).",
+      "trackable": "Floor map in the theater lobby shows stage completion per floor; a completion/collection guide references these totals directly.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "boss",
+      "name": "Disco Wing",
+      "detail": "First Darkle boss, fought at the end of 1F after clearing that floor's four main stages.",
+      "trackable": "Marked cleared on the floor map; can be replayed post-game via a boss portrait for optional challenges.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "boss",
+      "name": "Light Fang",
+      "detail": "Second Darkle boss, fought at the end of 2F.",
+      "trackable": "Marked cleared on the floor map; replayable post-game via boss portrait.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "boss",
+      "name": "Purrjector Cat",
+      "detail": "Third Darkle boss, fought at the end of 3F.",
+      "trackable": "Marked cleared on the floor map; replayable post-game via boss portrait.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "boss",
+      "name": "Spotlion",
+      "detail": "Fourth Darkle boss, fought at the end of 4F. 5F has no Darkle boss of its own.",
+      "trackable": "Marked cleared on the floor map; replayable post-game via boss portrait.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!", "https://gamerant.com/princess-peach-showtime-complete-stage-list-all-floors-plays/"]
+    },
+    {
+      "category": "boss",
+      "name": "Madame Grape (final boss, stage 'It's Showtime, Grape!')",
+      "detail": "Final boss and main antagonist, a dark sorceress who invades the theater with her Sour Bunch minions and wields Darkle power. Fought in the basement after clearing all 10 basement 'Act 3' stages and rescuing all captive Sparklas. Two-phase fight: Phase 1 as Radiant Peach vs. Grape (protected by 'Dancer Dūke' enemies, dodging falling boxes/fire/trains); after Grape is seemingly defeated she reverts to a mask, then transforms into a giant form called 'Grape the Great,' destroying the theater. Phase 2: Peach becomes Super Radiant Peach (powered by the Theets) and defeats Grape the Great, disintegrating her.",
+      "trackable": "Marked cleared on the theater map after credits; replayable post-game via boss portrait with 3 optional challenges.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/It's_Showtime,_Grape!", "https://screenrant.com/princess-peach-showtime-madame-grape-final-boss/"]
+    },
+    {
+      "category": "story",
+      "name": "Ending / conclusion",
+      "detail": "After Madame Grape is disintegrated, Peach uses Sparkle/Radiant power to restore the damaged theater and areas of the island, receives her crown back, and the credits roll over the rebuilt Sparkle Theater with a final bow before an audience.",
+      "trackable": "Cutscene, not a counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/princess-peach-showtime-madame-grape-final-boss/", "https://www.mariowiki.com/It's_Showtime,_Grape!"]
+    },
+    {
+      "category": "post-game",
+      "name": "Post-game boss rematches",
+      "detail": "After the credits, returning to Sparkle Theater reveals boss portraits on each floor (including basement/Grape). Interacting with a portrait starts a rematch that includes three optional in-fight challenges (e.g. no-damage runs, avoiding certain attacks). Completing each challenge for the first time awards a Sparkle Gem, for 15 additional gems total (5 bosses x 3 challenges).",
+      "trackable": "Challenge completion is tracked per boss in the rematch menu; Sparkle Gem total is tracked on the collection/percentage screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/", "https://game8.co/games/Princess-Peach-Showtime/archives/448880", "https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hidden Theets / hidden ninja post-game hunt",
+      "detail": "After finishing the story, talking to a character in the lobby (described as 'the ninja guy') unlocks the ability to search every stage for 70 hidden Theets as a post-game collectible hunt.",
+      "trackable": "Likely tracked via a counter in a menu, but the exact UI location was not confirmed in sources found.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Sparkle Gems collected (235 total: 220 from the 30 main story stages at a per-stage rate of 10 for a formation's 1st stage, 7 for its 2nd, 5 for its 3rd/basement stage, plus 15 from post-game boss rematch challenges)", "where": "Per-level gem count shown on stage results screen and tallied in a collection/completion menu", "confidence": "medium" },
+    { "stat": "Ribbons (30 total, found by helping a character named Ribboner throughout levels)", "where": "Likely tracked in a collection menu; exact UI not confirmed", "confidence": "low" },
+    { "stat": "Outfits/costumes (72 total: 40 Peach dress designs + 32 Stella ribbon designs)", "where": "Outfit/wardrobe selection menu in the theater", "confidence": "medium" },
+    { "stat": "Album Photos (37 total, unlocked by collecting all gems in a level and talking to a character named Pictioneer)", "where": "Album/photo collection menu", "confidence": "low" },
+    { "stat": "Rehearsal stage trophies (gold trophy rank obtainable on each of the 5 Rehearsal stages)", "where": "Trophy rank shown on the Rehearsal stage results/select screen", "confidence": "medium" },
+    { "stat": "Hidden Theets (70, post-game only)", "where": "Unconfirmed UI location", "confidence": "low" },
+    { "stat": "Floor/stage clear status", "where": "Theater floor map shows locked/cleared state per stage", "confidence": "high" },
+    { "stat": "Lobby decorations purchased (15 total)", "where": "Lobby decoration/shop menu", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Princess Peach: Showtime! is a Nintendo Switch exclusive with no other platform release, so there are no cross-platform content differences to report. There is no native Switch achievement/trophy system; this dossier supports a fan-made 'Genesis Mode' trophy list.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not fully verify the exact per-level Sparkle Gem breakdown (10/7/5) beyond a single Game8 completion-guide summary; would benefit from a second independent source.",
+    "Could not confirm whether the game displays an explicit overall '100% completion percentage' anywhere in the UI, or whether completion is only inferable from separate collection menus (gems, outfits, photos, ribbons). Downstream trophy design should not assume a single completion percentage stat exists without further confirmation.",
+    "Could not confirm exact UI location/name for the 'hidden Theets' post-game counter (70 total) or the 'Ribbons' counter (30 total) — only that Game8 lists these as 100%-completion requirements.",
+    "Could not confirm whether any Sparkle Gems, ribbons, or photos are permanently missable (e.g., tied to a one-time cutscene choice) — available evidence suggests all 30 story stages and the boss stages remain replayable at will from the theater map, and gems can likely be mopped up on repeat plays, but this was not explicitly confirmed for every collectible type.",
+    "Did not independently verify the 'Dashing Thief Rehearsal' vs. other rehearsal naming beyond the 5 listed (Swordfighter, Dashing Thief, Cowgirl, Kung Fu, Mighty) — these are the 5 combat/action-oriented formations; confirmed via two independent sources but did not cross-check against a primary/official Nintendo source.",
+    "Could not verify from an official Nintendo source (only third-party wikis/guide sites); recommend spot-checking stage names against in-game text if exact wording matters for trophy copy.",
+    "Did not investigate whether there is any harder difficulty mode, time trial mode, or other systemic replay layer tied to the campaign (this may fall under a separate 'systems' beat)."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "beat": "collectibles, side content, secrets, minigames, post-game, DLC",
+  "game": "Princess Peach: Showtime!",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Sparkle Gems",
+      "detail": "Main collectible found in every play (level). Each of the 10 'ensembles' (Swordfighter, Patissiere, Ninja, Cowgirl, Detective, Mighty, Dashing Thief, Figure Skater, Mermaid, Kung Fu) has 3 acts: the 1st act contains 10 gems, the 2nd act contains 7 gems, the 3rd/finale act contains 5 gems (22 per ensemble, 220 total across the 30 main story levels). An additional 15 gems (3 per boss x 5 bosses) are obtainable post-game via boss rematch challenges, for a grand total of 235 Sparkle Gems.",
+      "trackable": "A per-level gem counter is shown during/after each play; collecting all gems in a play unlocks an album photo for that play (Pictioneer). No confirmed single aggregate 'X/235' counter was found outside of per-level tracking and the Lobby Shop purchase totals.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448088", "https://www.thegamer.com/every-sparkle-gem-princess-peach-showtime-each-ensemble-outfit-complete-guide/", "https://www.mariowiki.com/Sparkle_Gem"]
+    },
+    {
+      "category": "collectible",
+      "name": "Ribbons (Ribboner / Ribbon Man)",
+      "detail": "30 total Ribbons, one hidden 'Ribboner' character per level across the 30 main story levels (one per act of each of the 10 ensembles). 1st-act Ribboner grants a new Peach dress; 2nd-act grants a new Stella ribbon design; 3rd-act (finale, rescuing the Sparkla) grants an upgraded Peach dress and Stella ribbon.",
+      "trackable": "Unlocked outfits appear in the wardrobe/Lobby Shop selection screen; not confirmed whether a dedicated 'X/30 ribbons found' counter exists.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448088", "https://game8.co/games/Princess-Peach-Showtime/archives/448469", "https://www.thegamer.com/every-sparkle-gem-princess-peach-showtime-each-ensemble-outfit-complete-guide/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Album Photos (Pictioneer)",
+      "detail": "37 total photos. 30 are unlocked during the main story by finding all Sparkle Gems in a given play. 7 additional photos are added only in the post-game: photos for each of the 5 boss challenge completions and a final Peach+Stella photo unlocked after finishing the game.",
+      "trackable": "Stored and viewable in an in-game Photo Album menu, presumably showing filled vs. empty slots.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233", "https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "minigame/side-activity",
+      "name": "Action Rehearsals",
+      "detail": "5 timed challenge stages (Swordfighter, Dashing Thief, Cowgirl, Kung Fu, Mighty rehearsals), separate from the 30 main story levels and 5 boss fights (40 levels total: 30 regular + 5 boss + 5 rehearsal). Each rehearsal is scored and ranked Bronze/Silver/Gold. Gold rank awards a unique exclusive dress per rehearsal (Starry Dress, Heart Dress, Geometric Dress, Checkered Dress, Scaly Dress respectively) plus 60 coins (vs. 30 for Silver, 10 for Bronze).",
+      "trackable": "Game shows a score and trophy rank (Bronze/Silver/Gold) per rehearsal; a 'Rehearsal High Score Leaderboard' also exists for comparing scores.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448248", "https://gamerant.com/princess-peach-showtime-how-complete-swordfighter-rehearsal-gold-trophy-starry-dress-unlock-guide/"]
+    },
+    {
+      "category": "secret/hidden-area",
+      "name": "Hidden Pose Spotlights",
+      "detail": "Interactive prop/set-dressing locations scattered through levels where Peach can strike a pose (ZL/ZR) to trigger a hidden effect, sometimes opening a secret backstage room. One Game8 guide totals 76 Hidden Pose Spotlights across all levels (15 on 1F, 13 on 2F, 12 on 3F, 16 on 4F, 9 on 5F, 11 in the Basement/Dark stages), rewarding Coins and occasionally Sparkle Gems.",
+      "trackable": "Not confirmed to have an in-game aggregate counter; tracked externally via guides. Individual gem rewards do feed into the per-level gem counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448178", "https://game8.co/games/Princess-Peach-Showtime/archives/448469"]
+    },
+    {
+      "category": "post-game",
+      "name": "Boss Rematch Challenges",
+      "detail": "After completing the story, boss posters in the theater let players rematch all 5 bosses (Disco Wing on 1F, Light Fang on 2F, Purrjector Cat on 3F, Spotlion on 4F, Grape on BF/basement). Each boss offers 3 challenge variants (e.g., no-damage clears) worth 1 Sparkle Gem each (3 gems/boss, 15 total), plus unlocks a boss photo in the album per boss.",
+      "trackable": "Challenge completion likely shown per boss poster in the hub; not confirmed to have an aggregate 'X/15' tracker.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/", "https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hide and Seek Theets",
+      "detail": "Post-game side activity unlocked by talking to a 'Ninja Sparkla'/Ninja Sparkle on 1F: find hidden Theet characters during level replays. One Game8 guide headline states '70 Theets in total' (distribution given as 3 per regular stage across 12 stages + 1 per Basement/Dark stage across 10 stages), but that stated breakdown arithmetic (3x12 + 1x10 = 46) does not match the stated 70 total, and a separate secondary source described a much smaller total (~16, 3 per level on floors 1-5 + 1 per basement level). Completing the Theet hunt in all stages rewards a 'Secret Dress' from the Ninja Sparkla.",
+      "trackable": "Presumably tracked per-level once you talk to the Ninja Sparkla NPC; exact total is unverified.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448788", "https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/"]
+    },
+    {
+      "category": "post-game",
+      "name": "Sparkle Theater Decorations",
+      "detail": "A new vendor in the Lobby Shop sells decorative items (garlands, ribbons, vases, a golden Stella statue) for the theater lobbies, purchased with leftover Sparkle Gems post-game. One guide states 15 total decorations (3 per floor across 5 floors, excluding the basement).",
+      "trackable": "Likely visible as placed/unplaced decorations in the lobby itself; no confirmed checklist screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233", "https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/"]
+    },
+    {
+      "category": "post-game",
+      "name": "Special Dress / Special Ribbon and Radiant/Grape post-game outfits",
+      "detail": "Collecting all 235 Sparkle Gems unlocks a 'Special Dress' and 'Special Ribbon' for purchase at the Lobby Shop. Separately, after defeating Madame Grape (final boss) and completing the story, a Radiant Dress, Grape Dress, Radiant Ribbon, and Grape Ribbon become purchasable (500 coins each).",
+      "trackable": "Availability gated by gem total / story completion, shown in the Lobby Shop purchase menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Sparkle_Gem", "https://game8.co/games/Princess-Peach-Showtime/archives/448778"]
+    },
+    {
+      "category": "systems/hub",
+      "name": "Sparkla rescue (core story collectible)",
+      "detail": "Peach rescues 10 Sparklas (Theet stars), one for each of the 10 ensembles/play types, upon completing each play's 3rd/finale act. This is core story progression rather than a discrete optional collectible.",
+      "trackable": "Presumably reflected by unlocked plays/finale acts in the theater directory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Princess_Peach:_Showtime!"]
+    },
+    {
+      "category": "outfit-collection",
+      "name": "Peach Dress Designs / Stella Ribbon Designs",
+      "detail": "One completion guide cites 40 total Peach dress designs and 32 total Stella ribbon designs collectible across the game (story unlocks, rehearsal gold rewards, ribbon rewards, gem-total rewards, and post-game shop purchases combined).",
+      "trackable": "Wardrobe/dressing room selection screen shows owned outfits.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    },
+    {
+      "category": "collection-menu",
+      "name": "Music & Movies collection",
+      "detail": "One completion guide references a broader 'Collection' menu totaling 84 items: 13 ensembles, 53 songs, and 18 movies/cutscenes, unlocked through normal campaign progression.",
+      "trackable": "Likely a dedicated in-game Collection/gallery menu (music player + video gallery), though this was not independently corroborated.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448233"]
+    },
+    {
+      "category": "systems",
+      "name": "Coins",
+      "detail": "Currency earned in levels (enemies, balloons, object interactions) and via rehearsal ranks; used to buy outfits/decorations at the Lobby Shop or to instantly revive/skip after being knocked out. Coin tally reportedly caps at 9999.",
+      "trackable": "Coin total shown in HUD/Lobby Shop.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Princess-Peach-Showtime/archives/448088", "https://www.mariowiki.com/Princess_Peach:_Showtime!"]
+    },
+    {
+      "category": "gate/progression-requirement",
+      "name": "Sparkle Gem thresholds to unlock bosses",
+      "detail": "One completion guide states cumulative gem thresholds to unlock each floor's boss fight: 1F Disco Wing 10 gems, 2F Light Fang 15 gems, 3F Purrjector Cat 20 gems, 4F Spotlion 25 gems, BF Grape 30 gems (100 total needed to finish the story on minimum collection). A different summary claimed '70 gems' needed per boss, which conflicts with the above breakdown; treat the specific numbers as unverified.",
+      "trackable": "Gem count needed to trigger boss availability is shown/implied in the theater floor UI.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Sparkle_Gem", "https://www.thegamer.com/every-sparkle-gem-princess-peach-showtime-each-ensemble-outfit-complete-guide/"]
+    },
+    {
+      "category": "DLC",
+      "name": "No released DLC or major content updates found",
+      "detail": "No searches turned up any paid DLC, expansion, or free content update adding new levels/ensembles/costumes since the game's March 2024 launch. The game shipped as a complete, self-contained Switch-exclusive title.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/articles/latest/princess-peach-showtime-dlc-and-preorder", "https://www.nintendo.com/us/store/products/princess-peach-showtime-switch/"]
+    },
+    {
+      "category": "game-structure",
+      "name": "Level/floor structure",
+      "detail": "40 total levels: 30 main story levels (10 ensembles x 3 acts each), 5 boss fight levels (one per floor: 1F, 2F, 3F, 4F, BF/basement), and 5 Action Rehearsal levels. Regular levels are split across 5 main floors (1F-5F, roughly 4 'acts' worth of content per floor per one guide's spotlight breakdown) plus a Basement housing 10 'Dark' finale-style stages.",
+      "trackable": "Theater floor map/directory shows locked/unlocked/cleared status per play.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/princess-peach-showtime-what-after-beating-post-game-content-completion-guide/", "https://game8.co/games/Princess-Peach-Showtime/archives/448178"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-level Sparkle Gem count (e.g., x/10, x/7, x/5)", "where": "Shown during/after playing a level", "confidence": "high" },
+    { "stat": "Rehearsal score + Bronze/Silver/Gold trophy rank", "where": "Action Rehearsal results screen; also a high-score leaderboard", "confidence": "high" },
+    { "stat": "Photo Album fill status", "where": "In-game Photo Album/Pictioneer menu", "confidence": "medium" },
+    { "stat": "Coin total", "where": "HUD and Lobby Shop", "confidence": "high" },
+    { "stat": "Aggregate completion percentage across all collectibles", "where": "Not found in any source; likely does not exist", "confidence": "low" },
+    { "stat": "Ribbons found (x/30)", "where": "Unconfirmed whether a dedicated counter exists beyond wardrobe unlocks", "confidence": "low" },
+    { "stat": "Hidden Theets found per stage / overall", "where": "Unconfirmed whether an aggregate counter exists; tracked via Ninja Sparkla dialogue", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Princess Peach: Showtime! is a Nintendo Switch exclusive with no other platform releases, so no cross-platform version differences apply.", "confidence": "high" },
+    { "note": "No paid or free DLC has been found; the game appears to be a single, complete release with no post-launch content additions as of research (August 2026).", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm whether the game displays any single aggregate 'completion percentage' anywhere (save select screen, pause menu, or otherwise). All evidence suggests completion is tracked only per-category (per-level gems, per-rehearsal rank, album photos filled), not as one overall percentage.",
+    "Exact total count of Hidden Pose Spotlights (76) comes from a single Game8 guide and is not cross-verified by a second independent source.",
+    "Exact total count of Hidden Theets is contradictory across sources (headline '70 total' vs. an internal breakdown that only sums to ~46, vs. a separate secondary summary suggesting ~16). Needs manual verification, ideally by checking the game's Ninja Sparkla dialogue or a video walkthrough directly.",
+    "Could not confirm whether Ribbons, Hidden Theets, or Hidden Pose Spotlights have any dedicated in-game counter/checklist UI, versus only being tracked implicitly through unlocked wardrobe items.",
+    "Peach Dress Designs (40) and Stella Ribbon Designs (32) totals, and the 'Collection' menu figures (13 ensembles/53 songs/18 movies), come from a single Game8 100% guide and were not independently corroborated — treat as low confidence pending a second source.",
+    "Sparkle Gem thresholds required to unlock each boss (10/15/20/25/30 cumulative vs. a conflicting '70 per boss' claim) are unverified; exact minimum-gem requirement to finish the story is uncertain.",
+    "Could not verify the exact number of levels per floor (1F-5F) versus the Basement in a fully self-consistent way across sources; the 30 main levels = 10 ensembles x 3 acts breakdown is solid, but how those 30 map onto the 5 floors + basement varies between sources.",
+    "Did not find detail on a dedicated 'photo mode' as a general free-roam camera feature — the only photo-related mechanic confirmed is the automatic Photo Album (Pictioneer) unlocked by full gem collection per level.",
+    "Did not find confirmation of any dressing-room minigame or backstage character helper minigames beyond the core Action Rehearsals and wardrobe/outfit selection."
+  ]
+}
