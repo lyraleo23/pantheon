@@ -1,0 +1,282 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game, Adventure Mode, DLC content, and playable character roster",
+  "game": "Hyrule Warriors",
+  "platform": "Nintendo Switch (Definitive Edition), with base Wii U (2014), Wii U DLC, and 3DS Legends content labeled separately per instructions",
+  "findings": [
+    {
+      "category": "mode",
+      "name": "Adventure Mode - Adventure Map",
+      "detail": "The original Adventure Mode map, styled after the overworld of the 1986 Legend of Zelda. Available from the start in the BASE Wii U game (no DLC required).",
+      "trackable": "Grid-based map screen shows cleared/uncleared squares; not confirmed whether a numeric completion percentage is displayed for this map specifically.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.zeldadungeon.net/wiki/Adventure_Mode (search summary)"]
+    },
+    {
+      "category": "mode",
+      "name": "Adventure Mode - Master Quest Map",
+      "detail": "BASE-WII-U-DLC: added by the Master Quest Map Pack (released Oct 16, 2014). Based on the Second Quest Hyrule map from the original Legend of Zelda. Missions have special restrictive clauses (e.g. no healing, no guarding, no items). Also included: 'Cia's Tale' 5-episode story content, Epona weapon for Link, 16 alt-colored costumes, 7 new 8-bit-style weapons, and 20 additional Gold Skulltulas.",
+      "trackable": "Own grid/inventory separate from the Adventure Map; item cards earned on this map cannot be used on the original Adventure Map.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["search summary of Master Quest Pack coverage (Zelda Dungeon, DualShockers, Digitally Downloaded, N4G)"]
+    },
+    {
+      "category": "mode",
+      "name": "Adventure Mode - Twilight Map",
+      "detail": "WII-U-DLC: added by the Twilight Princess Pack (released Nov 27, 2014). Smaller map than the original Adventure Map; themed around Twilight Princess, adds new item cards based on Twilight Princess items. Also added: Twili Midna as a new playable character, Dominion Rod weapon for Zelda, Postman costume for Link, Ilia costume for Zelda.",
+      "trackable": "Own grid, separate item-card inventory from other maps.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["search summary of Twilight Princess Pack coverage"]
+    },
+    {
+      "category": "mode",
+      "name": "Adventure Mode - Termina Map",
+      "detail": "WII-U-DLC: added by the Majora's Mask Pack (released ~Jan/Feb 2015). Themed around Majora's Mask/Termina. Also added: Young Link and Tingle as new playable characters, Ocarina of Time costume for Impa, Ocarina of Time costume for Sheik, Skull Kid costume for Lana.",
+      "trackable": "Own grid, separate item-card inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summary of Majora's Mask Pack coverage (Nintendo Life, Gamerant, Cinemablend)"]
+    },
+    {
+      "category": "mode",
+      "name": "DLC pack count correction: FOUR Wii U DLC packs, not three",
+      "detail": "The assignment brief assumed 3 Wii U DLC packs, but research found a 4th: the 'Boss Pack' (released Feb/Mar 2015, ~€2.99, cheaper than the other three at ~€7.99 each). It added NO new Adventure Mode map and NO standard roster character. Instead it added two new Challenge Mode scenarios: 'Boss Challenge' (fight giant bosses to unlock costumes for Link, Zelda, Lana) and 'Ganon's Fury' (playable Beast Ganon and a playable giant Cucco, usable only within that mode; unlocks costumes for Ganondorf and Cia). A season pass covering all four packs was sold together and granted a Dark Link costume for Link immediately.",
+      "trackable": "Challenge Mode menu lists Boss Challenge / Ganon's Fury as separate scenarios once unlocked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://touriantourist.blogspot.com/2015/03/hyrule-warriors-ganon-pack-review.html", "https://gamefaqs.gamespot.com/wii-u/145067-hyrule-warriors-boss-pack", "search summaries"]
+    },
+    {
+      "category": "roster",
+      "name": "Base Wii U launch roster (13 characters, no DLC, no updates)",
+      "detail": "Link, Zelda, Impa, Sheik, Lana (game's sole original protagonist), Darunia, Ruto, Agitha, Midna, Fi, Ganondorf, Zant, and Ghirahim. Zant and Ghirahim were added to the playable roster in response to fan feedback and were NOT boss-only despite being antagonists in mainline Zelda games.",
+      "trackable": "Character select roster screen in Legend/Free/Adventure Mode.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.gematsu.com/2014/08/ganondorf-zant-ghirahim-playable-hyrule-warriors", "https://nintendoeverything.com/zant-ghirahim-confirmed-playable-for-hyrule-warriors/"]
+    },
+    {
+      "category": "roster",
+      "name": "Cia, Volga, Wizzro — added via FREE Wii U software update",
+      "detail": "These three villain characters (originally cutscene-only antagonists) became playable via a free post-launch software update (~October 2014), NOT via paid DLC. Important distinction: this content is free but was not present at launch.",
+      "trackable": "Character select roster screen once update installed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors search summary", "multiple search summaries"]
+    },
+    {
+      "category": "roster",
+      "name": "Twilight Princess Pack DLC character: Twili Midna",
+      "detail": "New distinct playable character (Midna's true/'twili' form) added by the Twilight Princess Pack DLC, alongside her human-form counterpart already in the base roster.",
+      "trackable": "Character select roster screen once DLC installed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://sportskeeda.com/esports/twili-midna-will-be-a-playable-character-in-the-latest-dlc-for-hyrule-warriors"]
+    },
+    {
+      "category": "roster",
+      "name": "Majora's Mask Pack DLC characters: Young Link and Tingle",
+      "detail": "Two new playable characters added by the Majora's Mask Pack DLC. Young Link can transform using power of a demon mask for stronger attacks; Tingle has his own unique moveset.",
+      "trackable": "Character select roster screen once DLC installed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Nintendo Life / Cinemablend / Gamerant search summaries"]
+    },
+    {
+      "category": "roster",
+      "name": "Master Quest Map Pack DLC — no new playable character",
+      "detail": "Unlike the other two content DLC packs, the Master Quest Map Pack added a weapon (Epona for Link), costumes, and the Master Quest Adventure Map, but did NOT add a new playable character.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summaries of Master Quest Pack content"]
+    },
+    {
+      "category": "roster",
+      "name": "Legends/Definitive-Edition-exclusive characters (10 total, NOT available on Wii U even with all DLC)",
+      "detail": "Linkle (original character introduced in Legends), Toon Link, Tetra, King Daphnes (King of Red Lions), Skull Kid, Medli, Toon Zelda, Marin, Ravio, and Yuga. Linkle, Tetra, and King Daphnes are tied to new Legend Mode story chapters exclusive to Legends. Others are unlocked via Legends/Definitive-exclusive Adventure Mode maps (Great Sea/Master Wind Waker Map, Koholint Island Map, Lorule Map).",
+      "trackable": "Character select roster screen; unlock conditions listed per RPG Site guide.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.rpgsite.net/feature/7191-hyrule-warriors-definitive-edition-character-unlock-guide-how-to-unlock-all-characters-including-skull-kid-tingle-medli-and-others", "https://en.wikipedia.org/wiki/Hyrule_Warriors_Legends"]
+    },
+    {
+      "category": "roster",
+      "name": "Full Definitive Edition roster count: 29 playable characters",
+      "detail": "Cross-checked total: 13 base Wii U + 3 free-update (Cia/Volga/Wizzro) + 1 Twilight Princess Pack (Twili Midna) + 2 Majora's Mask Pack (Young Link, Tingle) = 19 characters available on Wii U with all DLC/updates installed. Plus 10 Legends/Definitive-exclusive characters = 29 total. This matches an independently reported figure of '29 characters' for Definitive Edition. Note: one other source claimed '31 characters' — treat that figure with caution, possibly counting Ganon and/or the playable Cucco (which are Challenge-Mode-only, not standard roster).",
+      "trackable": "Full roster grid shown on the character select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Twinfinite guide (search summary)", "RPG Site guide", "cross-referenced character lists"]
+    },
+    {
+      "category": "roster",
+      "name": "Ganon (Beast Ganon) and giant Cucco — Challenge Mode only",
+      "detail": "Beast Ganon becomes playable exclusively within the 'Ganon's Fury' Challenge Mode scenario (from the Boss Pack DLC on Wii U, included by default in Definitive Edition). A giant Cucco is also playable in this same mode. Neither appears in Legend Mode, Free Mode, or Adventure Mode as a standard selectable character.",
+      "trackable": "Selectable only from within the Ganon's Fury Challenge Mode scenario.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["RPG Site guide", "touriantourist.blogspot.com Boss Pack review"]
+    },
+    {
+      "category": "system",
+      "name": "Weapon system — per-character multiple weapon types, star rating, and leveling",
+      "detail": "Each character can use multiple distinct weapon types (e.g., Link has Sword, Great Fairy's Sword, Hammer, Bow, Magic Rod, Fire/Ice/Light weapons depending on version). Individual weapons have a star rarity rating (higher stars = better base stats) and gain experience/levels through use in battle, separate from character level. Exact max weapon level not confirmed via search this session.",
+      "trackable": "Weapon inventory/select screen shows level and star rating per weapon.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summaries referencing weapon bags, star ratings"]
+    },
+    {
+      "category": "system",
+      "name": "Badge / skill system (Badge Market / Bazaar)",
+      "detail": "Separate from weapon leveling: Badges are crafted at a 'Badge Market' (called 'Bazaar' in some sources) using Materials dropped by enemies, to unlock passive skill upgrades across three skill-tree categories (reported as attack/defense/assist by one source). Crafting the top tiers of a tree requires rare material drops from specific enemy types.",
+      "trackable": "Badge Market menu shows which badges are owned/available per category; not confirmed whether an overall percentage is shown.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.zeldadungeon.net/wiki/Badge_Market (search summary)", "https://www.thecandidgamer.com/2018/05/30/game-glossary-nintendo-warriors/ (search summary)"]
+    },
+    {
+      "category": "system",
+      "name": "Materials — enemy drops used for badges/potions",
+      "detail": "Materials are dropped by defeated enemies (common and rare tiers) and consumed for badge crafting and potion-making at the Bazaar/Apothecary. Also obtainable from amiibo taps.",
+      "trackable": "Materials inventory list accessible from the Bazaar/crafting menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summaries"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gold Skulltulas",
+      "detail": "Collectible item present in stages across Legend Mode and Adventure Mode (reported as up to 2 per stage in some contexts). BASE Wii U game reportedly contains 100 Gold Skulltulas. Master Quest Map Pack DLC adds 20 more on top of the base 100. Total across ALL Wii U DLC reported as 60 additional (implying ~20 each from Master Quest, Twilight Princess, and Majora's Mask packs, though only Master Quest's +20 figure was explicitly confirmed), for a reported grand total of 160 Gold Skulltulas on Wii U with all DLC installed.",
+      "trackable": "Not fully confirmed where the running total is displayed — likely a Skulltula collection/records screen, but I could not verify this directly this session.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summary citing 'Hyrule Warriors contains a grand total of 160 Gold Skulltulas, 100 in the base game and 60 from DLC stages'", "Master Quest Pack coverage confirming +20 Skulltulas"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gold Skulltulas used for 'Rewards Map' unlock (Legends/Definitive exclusive)",
+      "detail": "LEGENDS/DEFINITIVE-EXCLUSIVE: The Rewards Map (a Legends-added Adventure Mode map) is unlocked stage-by-stage by completing pixel-art illustrations formed from collected Gold Skulltulas. Each illustration requires 20 Gold Skulltulas.",
+      "trackable": "Rewards Map screen shows illustration completion progress.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["GameFAQs Hyrule Warriors Legends Rewards Map FAQ (search summary)"]
+    },
+    {
+      "category": "system",
+      "name": "Apothecary and Gold Skulltula tier unlocks (Definitive Edition)",
+      "detail": "DEFINITIVE-EDITION: An 'Apothecary' feature (crafts potions/mixtures using materials and Rupees) has tiered unlocks based on cumulative Gold Skulltulas collected; full unlock (Level 5) requires 90 Gold Skulltulas collected across Legend and/or Adventure Mode. Note this 90-figure conflicts somewhat with the '160 total Skulltulas on Wii U' figure — the Apothecary threshold may be a cumulative unlock gate rather than the total possible count, and Definitive Edition's total Skulltula count (including Legends maps) was not independently confirmed this session.",
+      "trackable": "Apothecary menu displays current Gold Skulltula count and tier/level progress.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["search summary re: Apothecary Level 5 / 90 Gold Skulltulas", "https://www.chaptercheats.com/cheat/switch/404036/hyrule-warriors-definitive-edition/unlocks/62509"]
+    },
+    {
+      "category": "collectible",
+      "name": "Heart Containers / Pieces of Heart",
+      "detail": "Increase a character's max health. Obtained via treasure chests in stages, or as an 'A-Rank' victory reward in Adventure Mode battles, or by capturing specific keeps with specific characters. Some sources describe them as 4 Heart Pieces = 1 extra Heart Container (Zelda-series convention); this was not independently confirmed for this specific game and should be treated with caution.",
+      "trackable": "Per-character stats screen presumably shows current max health/heart count; exact per-map heart tracking not confirmed.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["search summary of orcz.com, Nintendo Life, supercheats.com Heart Piece guides"]
+    },
+    {
+      "category": "mode",
+      "name": "My Fairy mode",
+      "detail": "LEGENDS/DEFINITIVE-EXCLUSIVE (not on Wii U). Players collect Companion Fairies hidden in breakable jars within specific Adventure Mode keeps. Fairies can be fed (to level up to 50, or reset/'refresh' at level 99 to unlock more skills), dressed in outfits (to boost elemental damage), and taught skills (30+ skill pool). Legends limits players to 3 owned fairies at once; Definitive Edition raises this to 5. Fairies assist in combat with elemental spells when the magic gauge is full.",
+      "trackable": "My Fairy menu (Dining Room, Salon, School sub-menus) shows each fairy's level/stats; a full list of 20+ fairies exists across the game's maps though I could not confirm an in-game 'X/20 fairies found' counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/hyrule-warriors-my-fairy-complete-guide/", "https://zelda.fandom.com/wiki/My_Fairy (search summary)"]
+    },
+    {
+      "category": "mode",
+      "name": "Challenge Mode",
+      "detail": "A mode distinct from Legend/Adventure/Free Mode, offering battle scenarios with special win conditions/restrictions. On Wii U, its scope was expanded by a free 'version 1.6' update and further by the Boss Pack DLC (Boss Challenge, Ganon's Fury). Definitive Edition lists Challenge Mode as one of 5 main modes (Legend, Free, Challenge, Adventure, My Fairy).",
+      "trackable": "Challenge Mode menu lists individual challenge scenarios and completion/rank per scenario.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summaries (PowerUp review, GodIsAGeek review, touriantourist.blogspot.com)"]
+    },
+    {
+      "category": "mode",
+      "name": "Free Mode",
+      "detail": "Allows replaying any previously unlocked Legend Mode mission with any unlocked character, independent of the story's original character assignment.",
+      "trackable": "Mission select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["search summary, https://zelda.fandom.com/wiki/Free_Mode"]
+    },
+    {
+      "category": "amiibo",
+      "name": "Amiibo functionality — general",
+      "detail": "Supported across Wii U, 3DS (Legends), and Switch (Definitive Edition), functioning similarly on all three. Tapping an amiibo grants a reward; up to 5 amiibo taps allowed per day (per save file). Character-matched Zelda-series amiibo (Link, Toon Link, Zelda/Toon Zelda, Sheik, Ganondorf, Wolf Link for Midna/Twili Midna) grant a weapon rated 3 stars or higher for that character. Non-matching or non-Zelda amiibo grant a random reward: a 3-star-or-lower weapon, Rupees, or crafting materials. No confirmation found that amiibo unlock costumes.",
+      "trackable": "N/A (external hardware feature); rewards appear in weapon/material inventory after scanning.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.monamiibo.com/hyrule-warriors-switch-3ds-wii-u-amiibo-guide/", "https://amiibo.fandom.com/wiki/Hyrule_Warriors (search summary)"]
+    },
+    {
+      "category": "amiibo",
+      "name": "Amiibo version difference — Spinner weapon",
+      "detail": "WII-U-SPECIFIC: On the Wii U version, the Spinner weapon (from Twilight Princess) is unlocked ONLY by tapping any 'human-form' Link amiibo (not the Wolf Link amiibo). On the 3DS Legends and Switch Definitive Edition versions, the Spinner is obtainable through normal gameplay (an Adventure Map unlock) instead, removing the amiibo requirement.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.monamiibo.com/hyrule-warriors-switch-3ds-wii-u-amiibo-guide/"]
+    },
+    {
+      "category": "versionExclusive",
+      "name": "Definitive Edition-exclusive costumes: Breath of the Wild outfits",
+      "detail": "DEFINITIVE-EDITION-EXCLUSIVE: New costumes for Link and Zelda based on their Breath of the Wild (2017) appearances. Not present on Wii U or 3DS Legends versions, since BotW released after both of those.",
+      "trackable": "Costume select screen per character.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Definitive_Edition (search summary)"]
+    },
+    {
+      "category": "versionSummary",
+      "name": "Definitive Edition = full content aggregation",
+      "detail": "Hyrule Warriors: Definitive Edition (Switch, May 2018) bundles ALL Wii U base content, all Wii U DLC (Master Quest, Twilight Princess, Majora's Mask, Boss Pack), all Hyrule Warriors Legends (3DS) exclusive content (new maps, new characters, My Fairy mode, new Legend Mode chapters), PLUS its own exclusive BotW-inspired costumes. No confirmed cut content versus prior versions.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Definitive_Edition (search summary)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Adventure Mode grid completion (per map)", "where": "Adventure Mode map select screen shows cleared vs uncleared squares visually; exact numeric percentage display not confirmed this session.", "confidence": "low" },
+    { "stat": "Gold Skulltula count", "where": "Likely tracked in a records/collection screen or the Bazaar/Apothecary; exact UI location not directly confirmed via a primary/official source this session.", "confidence": "low" },
+    { "stat": "Character roster / unlocked characters", "where": "Character select screen on Legend Mode, Free Mode, and Adventure Mode menus.", "confidence": "high" },
+    { "stat": "Weapon level and star rating per weapon", "where": "Weapon select/inventory screen per character.", "confidence": "medium" },
+    { "stat": "My Fairy count/level (Legends/Definitive only)", "where": "My Fairy menu shows owned fairies (up to 3 on Legends, 5 on Definitive Edition) and their level/skills.", "confidence": "medium" },
+    { "stat": "Challenge Mode scenario completion", "where": "Challenge Mode menu lists scenarios with rank/completion per scenario.", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "BASE Wii U game at launch (Aug/Sep 2014) shipped with only ONE Adventure Mode map (the original Adventure Map) and 13 playable characters (Link, Zelda, Impa, Sheik, Lana, Darunia, Ruto, Agitha, Midna, Fi, Ganondorf, Zant, Ghirahim).", "confidence": "high" },
+    { "note": "A free software update (~Oct 2014) added Cia, Volga, and Wizzro as playable characters on Wii U, independent of any paid DLC.", "confidence": "high" },
+    { "note": "There were FOUR Wii U DLC packs, not three: Master Quest Map Pack, Twilight Princess Pack, Majora's Mask Pack, and Boss Pack. The Boss Pack added no new map/roster character, only Challenge Mode content (Boss Challenge, Ganon's Fury with Beast Ganon and giant Cucco as mode-exclusive playables).", "confidence": "medium" },
+    { "note": "Hyrule Warriors Legends (3DS, 2016) added new Adventure Mode maps (Great Sea Map, later remixed as Master Wind Waker Map; Koholint Island Map from Link's Awakening; Lorule Map from A Link Between Worlds; Grand Travels Map; Rewards Map unlocked via Gold Skulltula illustrations) and 10 new playable characters not available on Wii U in any form: Linkle, Toon Link, Tetra, King Daphnes, Skull Kid, Medli, Toon Zelda, Marin, Ravio, Yuga. It also introduced the My Fairy mode.", "confidence": "high" },
+    { "note": "Hyrule Warriors: Definitive Edition (Switch, 2018) is a full aggregation of Wii U base + all 4 Wii U DLC packs + all Hyrule Warriors Legends content, plus its own exclusive Breath-of-the-Wild-themed costumes for Link and Zelda not found in any earlier version.", "confidence": "high" },
+    { "note": "On Wii U specifically, the Spinner weapon required a Link amiibo to unlock; on 3DS Legends and Switch Definitive Edition, it is unlockable through normal Adventure Mode play instead.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact max weapon level (e.g. Level 1-4?) or the precise EXP/leveling curve for individual weapons in this specific game (distinct from the newer Age of Calamity's Fuse Level system, which I found detail on but which does NOT apply to this game).",
+    "Could not confirm exact names of the three Badge Market / Bazaar skill trees (one weak source suggested 'attack/defense/assist' but this is low confidence) nor the total number of badges available.",
+    "Could not confirm whether the base Wii U game (or any version) displays an explicit numeric 'Adventure Mode completion percentage' per map or overall — this is important because it determines whether percentage-based trophies are even possible. Sources describe the grid visually (cleared/uncleared squares) but I found no direct confirmation of a numeric percentage readout.",
+    "Could not confirm precisely where/how Gold Skulltula totals are displayed in-game (a dedicated collection screen vs. folded into the Bazaar/Apothecary menu vs. no persistent global counter at all).",
+    "Gold Skulltula per-DLC-pack breakdown is only partially confirmed: Master Quest Pack's +20 is confirmed by a decent source, but the Twilight Princess Pack and Majora's Mask Pack contributions to the 'total +60 from DLC' figure are inferred/assumed, not independently verified per-pack.",
+    "The Definitive Edition Apothecary's '90 Gold Skulltulas for full unlock' figure could not be reconciled with the '160 total Gold Skulltulas on Wii U with all DLC' figure, and I could not confirm the total Gold Skulltula count specific to Definitive Edition (which also includes Legends maps, potentially adding even more Skulltulas).",
+    "Could not confirm exact total costume count per character or across the whole roster for any version.",
+    "Could not confirm exact Rupee economy details — how Rupees are earned (stage completion? treasure chests? enemy drops?) and what they're spent on beyond vague mentions of Apothecary mixtures and Badge crafting.",
+    "Could not confirm whether there is an overall single 'game completion percentage' stat anywhere in any version (e.g. on a save-file select screen), separate from per-map Adventure Mode progress.",
+    "Could not confirm the exact release month/day for the Majora's Mask Pack (sources loosely say January or February 2015) or the exact date for the Boss Pack.",
+    "Could not verify whether the 'four amiibo functions' (weapon/rupee/material rewards) differ in reward tables between Wii U, 3DS Legends, and Switch Definitive Edition beyond the confirmed Spinner-weapon difference.",
+    "Could not confirm the full list of My Fairy fairies (element types, total count — one source implied '20+') with a reliable primary source, nor whether the game shows a 'fairies collected' counter.",
+    "Several fandom.com wiki pages (koei.fandom.com, zelda.fandom.com) returned HTTP 402/403 errors when fetched directly, limiting verification depth on Adventure Mode map details, Badge Market details, and character unlock conditions to search-result summaries rather than full source pages.",
+    "Ran out of WebSearch budget for this session before I could verify: exact rupee economy, exact costume totals, exact badge tree names/counts, and whether Zant/Ghirahim have any missable content tied to them."
+  ]
+}

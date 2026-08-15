@@ -1,0 +1,196 @@
+{
+  "beat": "systems",
+  "game": "Hyrule Warriors",
+  "platform": "Nintendo Switch (Definitive Edition), with Wii U original and DLC comparison",
+  "findings": [
+    {
+      "category": "difficulty",
+      "name": "Easy / Normal / Hard / Hero difficulty levels",
+      "detail": "Four difficulty settings exist: Easy, Normal, Hard, and Hero. Hero Difficulty unlocks only after clearing all Legend Mode Scenarios. On BASE Wii U (no DLC) this means the 18 base Scenarios; on Legends/Definitive Edition (all content included) this means all 32 Scenarios must be cleared. Difficulty applies to Legend Mode Scenarios; one source states difficulty does NOT apply to Adventure Mode battles.",
+      "trackable": "Difficulty is selected from a menu before starting a Legend Mode Scenario; no dedicated completion tracker found for 'cleared all scenarios on Hero difficulty' beyond the scenario select screen itself.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Difficulty (via search snippet)"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Difficulty affects enemy stats and Rupee rewards",
+      "detail": "Higher difficulty increases enemy health/damage dealt, but also increases Rupees earned upon completing a Scenario.",
+      "trackable": "Rupee totals shown on results screen and tracked cumulatively (see Medal List 'Millionaire' stat).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Wiki Difficulty page (search snippet, could not directly fetch page — fandom.com returned HTTP 402 on direct fetch)"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Difficulty-locked Gold Skulltula per Legend Mode Scenario",
+      "detail": "One source claims each Legend Mode Scenario contains a Gold Skulltula that can only be found while playing on Hard or Hero Difficulty. This is distinct from the more commonly cited '2 Skulltulas per stage' mechanic reported elsewhere and may reflect a different/older mechanic description — could not cross-verify with a second independent source.",
+      "trackable": "Skulltula collection tracked via Bazaar/gallery (see Gold Skulltula finding below).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Zelda Wiki Difficulty page (single search snippet, unverified)"]
+    },
+    {
+      "category": "progression",
+      "name": "Weapon star rating and skill slot system",
+      "detail": "Weapons drop with star ratings from 0 to 5 stars (higher = greater base attack power) and have skill slots into which 'Weapon Skills' (also called badges) are fused. Skills include combat buffs, elemental amplifiers, and item-drop-rate boosters (e.g., 'Materials+', 'Stars+', 'Slots+', which respectively raise material drop rate, raise odds of higher star weapons, and raise odds of more skill slots on dropped weapons).",
+      "trackable": "Weapon inventory/loadout screen shows each weapon's stars and equipped skills per character.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/wii-u/745183-hyrule-warriors/faqs/72769/weapon-farming", "https://moegamer.net/2018/07/27/hyrule-warriors-the-real-game-starts-here/", "https://koei.fandom.com/wiki/Weapon_Skills_(Hyrule_Warriors) (search snippet)"]
+    },
+    {
+      "category": "progression",
+      "name": "Character skill trees / badge system (three tiers per character)",
+      "detail": "Each character has three 'skill tree' progression tracks; upper tiers require rare material drops from specific enemy types, requiring players to deliberately seek out battles containing those enemies. Full mastery of a character means acquiring the highest tier of every weapon type they use, each with an optimal skill loadout.",
+      "trackable": "Skill/badge tree screen per character (exact in-game name of this screen not independently confirmed — referred to as 'skill tree' by secondary sources, not confirmed to be officially called 'Weapon Trees' in-game).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://moegamer.net/2018/07/27/hyrule-warriors-the-real-game-starts-here/"]
+    },
+    {
+      "category": "rng",
+      "name": "Percentage-based material/weapon drops, influenced by equipped skills",
+      "detail": "Material and weapon drops from defeated enemies are chance-based. Equipping weapons with 'Materials+', 'Stars+', and 'Slots+' skills increases the odds of desired drops. Common/lower-tier materials appear to drop reasonably often during normal play; however, top-tier skill/badge unlocks require rare drops from specific enemy types, which sources describe as requiring players to 'deliberately seek out' particular battles/enemies — i.e., some targeted farming is needed for full completion, beyond what happens incidentally during normal story progress.",
+      "trackable": "Material inventory is viewable in a materials/items menu (exact screen name unconfirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/wii-u/745183-hyrule-warriors/faqs/72769/weapon-farming", "https://moegamer.net/2018/07/27/hyrule-warriors-the-real-game-starts-here/", "https://gamefaqs.gamespot.com/boards/230454-hyrule-warriors-definitive-edition/76657835 (title referenced 'Materials+' drop rate question, exact percentage not retrievable — page returned 403)"]
+    },
+    {
+      "category": "missable",
+      "name": "Termina Map moon-reset timer (Majora's Mask Pack DLC / carried into Definitive Edition)",
+      "detail": "The Termina Map (added by the Wii U Majora's Mask Pack DLC, present in Definitive Edition) has a falling-Moon timer that resets the whole map after a countdown (starts at 3 the first time, then 72 on subsequent resets; decrements by 1 each time a battle square is finished or exited). Owl Statues, activated by winning a battle on their square, permanently protect that square and adjacent connected squares from being reset by the Moon. The in-game Song of Time item can be used to manually force an immediate reset/timer refresh. Progress/rewards already claimed are kept; only unclaimed squares reset — so this is a recurring risk/timer mechanic rather than permanently missable content, since the map can be replayed indefinitely.",
+      "trackable": "Timer/counter is shown on the Termina Map screen itself.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/wii-u/745183-hyrule-warriors/answers/411940-what-does-and-does-not-reset-on-the-termina-map (search snippet)", "https://zeldawiki.wiki/wiki/Termina_Map (search snippet, direct fetch blocked/403)"]
+    },
+    {
+      "category": "missable",
+      "name": "No permanently missable content found",
+      "detail": "Legend Mode Scenarios and all Adventure Mode maps (including DLC and Legends-exclusive maps) are confirmed replayable indefinitely via Free Mode / Adventure Mode re-entry. No time-limited, choice-locked, or permanently-losable content was found beyond the Termina Map's recurring (non-permanent) reset mechanic above.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://koei.fandom.com/wiki/Adventure_Mode_(Hyrule_Warriors) (search snippet)", "https://www.zeldadungeon.net/forum/threads/adventure-mode.68902/ (search snippet)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Wii U co-op: asymmetric GamePad + TV, not traditional split-screen",
+      "detail": "BASE Wii U game supports 2-player local co-op only, and NOT via traditional split-screen. One player plays on the TV using a Wii Remote+Nunchuk combo or Wii U Pro Controller; the second player plays entirely on the GamePad's built-in screen. Each player gets a full, separate view of the action rather than sharing a divided screen. Co-op unlocks after completing the first Scenario/chapter; a second player joins by pressing + (or Start on the Pro Controller) on the character-select screen. Reviewers noted the GamePad-side view had lower resolution and could suffer slowdown compared to the TV side.",
+      "trackable": "n/a (feature availability, not a trackable stat)",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors (search-derived fetch)", "https://gamefaqs.gamespot.com/wii-u/745183-hyrule-warriors/answers/379494-co-op-mode (search snippet)", "https://www.co-optimus.com/review/1413/page/2/hyrule-warriors-co-op-review.html (search snippet)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Switch Definitive Edition co-op: true split-screen, no online play",
+      "detail": "Switch Definitive Edition replaces the Wii U's asymmetric GamePad setup with genuine split-screen co-op on a single shared screen (works whether docked or, presumably, undocked — official Nintendo support instructions cover docked setup with detached Joy-Con or Pro Controllers; handheld/tabletop split-screen operation was not explicitly documented in the source checked). Supports 2 players using any combination of: one Joy-Con held sideways per player, both Joy-Con per player, or Pro Controller per player. Per official Nintendo support, multiplayer unlocks after completing the first Legend Mode battle, and is available in Legend Mode, Free Mode, and Challenge Mode — Adventure Mode co-op availability was NOT explicitly confirmed by the source. There is NO online multiplayer in Definitive Edition — local co-op only.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en-americas-support.nintendo.com/app/answers/detail/a_id/28902/~/how-to-set-up-a-multiplayer-game-(hyrule-warriors-definitive-edition)", "https://www.co-optimus.com/game/4922/nintendo-switch/hyrule-warriors-definitive-edition.html (search snippet)"]
+    },
+    {
+      "category": "version",
+      "name": "Resolution/frame rate: Wii U vs Switch Definitive Edition",
+      "detail": "BASE Wii U version: 720p resolution, targets 30fps. Switch Definitive Edition docked: targets 1080p, but per a Digital Foundry-based tech analysis, a 60fps target is 'rarely met' with 'many significant dips'; a separate secondary source characterized docked performance as roughly 40-50fps (these two characterizations conflict somewhat — treat exact fps figures as approximate). Switch Definitive Edition handheld: resolution is a downsample from the 1080p docked render (not a native 720p handheld render), and frame rate drops to an estimated sub-30fps, which one analysis flagged as a performance issue since it underperforms relative to typical Switch handheld optimization approaches.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendoeverything.com/hyrule-warriors-definitive-edition-tech-analysis-and-wii-u-new-3ds-comparison/"]
+    },
+    {
+      "category": "version",
+      "name": "Wii U GamePad-exclusive features have no Switch equivalent",
+      "detail": "The Wii U GamePad's second-screen functionality (used for the asymmetric co-op mode where one player plays entirely on the GamePad screen, and generally for off-TV play) has no direct equivalent on Switch, since Switch's split-screen co-op model replaces it entirely. Specific touchscreen-driven UI features on the Wii U GamePad (e.g., map/inventory touch controls) were referenced only vaguely in sources and could not be independently confirmed in detail.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.zeldadungeon.net/how-hyrule-warriors-will-use-the-wii-u-gamepad/ (title only, not fetched in full)"]
+    },
+    {
+      "category": "version",
+      "name": "Definitive Edition includes all Wii U DLC plus Legends-exclusive content",
+      "detail": "Switch Definitive Edition bundles all three Wii U paid DLC packs (Master Quest Map Pack, Twilight Princess Pack, Majora's Mask Pack) plus content originally exclusive to the 2016 3DS spin-off Hyrule Warriors Legends, including additional playable characters, additional Adventure Mode maps (e.g., a Wind Waker-themed map), the 'My Fairy' companion feature, and new costumes for Link and Zelda based on their Breath of the Wild appearances (Definitive-Edition-specific addition, not from Legends).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors (search-derived fetch)"]
+    },
+    {
+      "category": "trackable_stat_system",
+      "name": "Medal List — in-game achievement-like system (Gallery menu)",
+      "detail": "The game has a built-in 'Medal' system functioning as an in-game achievement list, separate from any platform trophy/achievement system (neither Wii U nor Switch has native OS-level achievements for this game). Medals are tiered Bronze/Silver/Gold and are viewed under Gallery > Medal List. CONFIRMED to exist in the BASE Wii U game (one source states 23 medals in base Wii U). Confirmed to exist in Legends and carried into Definitive Edition with an EXPANDED count (exact total uncertain — one source claimed '66 total' but its own per-tier subtotal labels (10/21/31) did not match the actual itemized name lists it provided (11/23/27 items), so treat the exact Definitive Edition total as unconfirmed). Some Definitive-Edition-exclusive medals are tied to Legends-exclusive features, e.g., 'Fairy Fountain', 'Fairy in a Bottle', 'Fairy Master', 'Mr. Fairy' (all related to the Legends-exclusive 'My Fairy' feature), and 'Amiibo Warriors' (amiibo-related, also Legends-exclusive in origin).",
+      "trackable": "Gallery menu > Medal List screen, shows all earned medals with bronze/silver/gold icons.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.chaptercheats.com/cheat/switch/404036/hyrule-warriors-definitive-edition/unlocks/62686", "https://www.supercheats.com/hyrule-warriors/walkthrough/medals (search snippet: 23 medals base Wii U)", "Zelda Wiki Medal List page referenced in search results (fandom.com/zeldawiki.wiki direct fetch blocked with 402/403 errors)"]
+    },
+    {
+      "category": "trackable_stat",
+      "name": "Example Medal criteria confirming lifetime cumulative stat tracking",
+      "detail": "Specific confirmed medal requirements demonstrate the game tracks cumulative lifetime statistics: 'Destructive Force' (defeat 1,000+ enemies in a single battle), 'A Hundred Years Ahead' (defeat 100+ enemies with a single Special Attack), 'Marathon Man' (dash a cumulative total of 42.195km+), 'Hyrule Warrior' (defeat a cumulative total of 100,000+ enemies across all play), 'Lawn Mower' (cut a cumulative total of 1,000+ clumps of grass), 'Millionaire' (acquire a cumulative total of 1,000,000+ Rupees), 'Weapons Master' (acquire a cumulative total of 1,000+ weapons). These confirm the game internally tracks running lifetime totals for KOs, distance traveled, grass cut, Rupees earned, and weapons acquired — strong evidence base for what stat-based trophies could reasonably reference, IF a corresponding in-game counter/display can be found for the player to check (the Medal List itself only shows medals earned, not raw running totals — whether raw numeric counters are displayed anywhere else, e.g., a stats page, is unconfirmed).",
+      "trackable": "Indirectly trackable via Medal List (binary earned/not-earned per threshold), but a raw numeric counter/stats page was not confirmed to exist separately.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.chaptercheats.com/cheat/switch/404036/hyrule-warriors-definitive-edition/unlocks/62686"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gold Skulltulas",
+      "detail": "Gold Skulltula counts by version: BASE Wii U (no DLC) = 100. Wii U with all 3 paid DLC packs = 160 total (100 base + 60 from DLC maps combined). Switch Definitive Edition = 260 total (includes further Legends-exclusive maps/content). Each stage/scenario that contains Skulltulas has exactly 2 obtainable (one easier, one harder). Used to unlock Bazaar potion-crafting upgrades and to complete 'illustrations' viewable in a gallery; completing an illustration unlocks a new scenario on a separate 'Rewards Map' in Adventure Mode.",
+      "trackable": "Bazaar/gallery screen shows illustration completion progress built from collected Skulltulas.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/switch/230454-hyrule-warriors-definitive-edition/faqs/73867 (title/summary via search, direct fetch returned 403)", "https://www.linkshideaway.com/hyrule-warriors/gold-skulltulas/ (search snippet)", "https://moegamer.net/2018/07/27/hyrule-warriors-the-real-game-starts-here/ (confirms illustration->Rewards Map mechanic)"]
+    },
+    {
+      "category": "scoring",
+      "name": "Adventure Mode square rank: C / B / A (bronze/silver/gold) — no S rank found",
+      "detail": "Completing a square/scenario in Adventure Mode awards a performance rank of C (bronze), B (silver), or A (gold), based on criteria that vary per square (commonly KO count thresholds, time limits, and/or a 'no damage taken' requirement — taking even one hit can fail an A-rank attempt on some squares). In Definitive Edition, score/rank requirements were reportedly rebalanced relative to the original release, tied to the Adventure Mode square's color coding. Multiple sources describe only three rank tiers (C/B/A); no evidence of an 'S' rank was found despite this being common in other Warriors-genre games (including later Hyrule Warriors titles like Age of Calamity).",
+      "trackable": "Rank shown on the post-battle results screen for each Adventure Mode square; the Adventure Map itself likely displays the best rank achieved per square via icon/color, though this specific display detail was not independently confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/boards/230454-hyrule-warriors-definitive-edition/76643330 (search snippet)", "https://gamefaqs.gamespot.com/boards/745183-hyrule-warriors/70386530 (search snippet: A-Rank Requirements)"]
+    },
+    {
+      "category": "adventure_mode",
+      "name": "Adventure Mode map count and structure across versions",
+      "detail": "BASE Wii U (no DLC): 1 map, the original Adventure Map (16x8 grid layout, up to 128 squares, styled after the original 1986 Zelda overworld). + Master Quest Map Pack DLC: adds a Master Quest Map (remixed version). + Twilight Princess Pack DLC: adds a Twilight-themed map. + Majora's Mask Pack DLC: adds the Termina Map (with the moon-reset mechanic described above). Switch Definitive Edition: a secondary source (moegamer review) states the game has 9 total Adventure-style maps across different Zelda settings, including additional Legends-exclusive maps (e.g. a Wind Waker-based map and further maps) — an exhaustive, verified list of all 9 map names could not be assembled from available sources.",
+      "trackable": "Adventure Mode map-select screen; individual map completion presumably visible via filled/unfilled squares on the grid.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://moegamer.net/2018/07/27/hyrule-warriors-the-real-game-starts-here/ ('nine maps' claim, single source)", "search snippets referencing Wind Waker Map, Twilight Map, Termina Map grid dimensions with some internal inconsistency between sources"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Medal List (bronze/silver/gold achievement-like unlocks tied to cumulative stats: total enemies KO'd, Rupees earned, weapons acquired, distance dashed, grass cut, etc.)", "where": "Gallery menu > Medal List", "confidence": "medium" },
+    { "stat": "Gold Skulltula collection / illustration completion", "where": "Bazaar / Gallery illustration screen", "confidence": "medium" },
+    { "stat": "Adventure Mode square rank (C/B/A)", "where": "Post-battle results screen per square; possibly reflected on the map grid itself", "confidence": "medium" },
+    { "stat": "Rupee total (cumulative)", "where": "Likely shown on a currency/shop screen and referenced by the 'Millionaire' medal threshold", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "BASE Wii U co-op is asymmetric (GamePad screen + TV, not split-screen); Switch Definitive Edition co-op is true split-screen on one shared display, with no GamePad-equivalent second-screen experience.", "confidence": "high" },
+    { "note": "Switch Definitive Edition has no online multiplayer — local co-op only, same as Wii U original.", "confidence": "high" },
+    { "note": "Wii U runs at 720p/~30fps target; Switch Definitive Edition targets 1080p/60fps docked (but frequently drops below 60fps) and a downsampled/sub-30fps handheld mode; exact fps figures vary between sources and should be treated as approximate.", "confidence": "medium" },
+    { "note": "Hero difficulty unlock requirement differs by version: clear all 18 base Scenarios on Wii U (no DLC) vs. all 32 Scenarios on Legends/Definitive Edition (base + DLC + Legends content).", "confidence": "medium" },
+    { "note": "Definitive Edition adds Legends-exclusive Medals tied to the 'My Fairy' feature and amiibo support, which do not exist in the Wii U original even with all DLC installed.", "confidence": "medium" },
+    { "note": "Gold Skulltula total count scales by version: 100 (Wii U base) -> 160 (Wii U + all DLC) -> 260 (Switch Definitive Edition).", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact, verified total Medal count for Switch Definitive Edition — one source's tier subtotals (10/21/31) did not match its own itemized lists (11/23/27), so the true total is uncertain. Needs a second independent source or direct in-game verification.",
+    "Could not confirm whether raw numeric lifetime counters (e.g., exact total enemies KO'd, exact total Rupees earned) are displayed anywhere in a dedicated stats screen, separate from the binary earned/unearned Medal List.",
+    "Could not confirm the official in-game name for the character skill-tree/badge progression screen (referred to inconsistently across sources as 'skill tree' or 'badges'; task brief's assumed term 'Weapon Trees' was not independently verified as the actual in-game terminology).",
+    "Could not obtain exact percentage drop-rate figures for material/weapon RNG, or for how much 'Materials+'/'Stars+'/'Slots+' skills increase odds numerically — only qualitative descriptions were found (gamefaqs and fandom pages returned 403/402 errors on direct fetch).",
+    "Could not confirm whether Adventure Mode supports 2-player co-op on Switch Definitive Edition — official Nintendo support documentation only explicitly listed Legend Mode, Free Mode, and Challenge Mode as supporting multiplayer.",
+    "Could not confirm whether Wii U GamePad touchscreen was used for any specific interactive function during solo play (map navigation, inventory management) beyond serving as a second-player display in co-op — only vague references found, could not fetch source in full.",
+    "Could not verify an exhaustive, confirmed list of all Adventure Mode map names present in the Switch Definitive Edition (moegamer source claims 9 total maps but does not enumerate them all in the retrieved excerpt).",
+    "Could not confirm total playable character roster counts per version (base Wii U vs. +DLC vs. Definitive Edition) — multiple wiki sources needed for this returned 402/403 errors on direct fetch; this may be better covered by the campaign/roster beat scout.",
+    "Could not independently verify whether difficulty truly has zero effect on Adventure Mode battles, or only that difficulty selection is unavailable there (single unverified snippet claim).",
+    "Could not verify the specific claim (single low-confidence source) that each Legend Mode Scenario contains a Gold Skulltula obtainable only on Hard/Hero difficulty — this may be conflated with or contradict the more commonly cited 'every Skulltula-bearing stage has exactly 2 obtainable' mechanic found elsewhere.",
+    "Web search tool budget was exhausted partway through research (shared session limit); remaining gaps above were pursued via WebFetch only, and several key wiki sources (Zelda Wiki/Fandom, most GameFAQs board threads) consistently returned HTTP 402/403 errors and could not be directly read in full, limiting verification depth on some points."
+  ]
+}

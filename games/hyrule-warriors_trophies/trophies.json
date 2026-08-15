@@ -1,0 +1,632 @@
+{
+  "game": {
+    "title": "Hyrule Warriors",
+    "slug": "hyrule-warriors",
+    "code": "HW",
+    "targetPlatform": "Nintendo Wii U (base list) / Nintendo Switch Definitive Edition (base list + all DLC packs pre-included)",
+    "mode": "genesis",
+    "developer": "Omega Force / Team Ninja",
+    "publisher": "Nintendo / Koei Tecmo",
+    "genre": "Hack-and-Slash / Musou",
+    "releaseYear": 2014,
+    "estimatedDifficulty": 5,
+    "estimatedHours": "25-35h base game (100h+ for full completion across all DLC and Definitive Edition content)",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — unified list covering both the Nintendo Wii U original (2014) and the Nintendo Switch 'Definitive Edition' (2018) at the user's explicit request, since neither platform has native achievements and this game never released anywhere that does. The BASE trophies list targets the Wii U game and is earnable with zero additional purchases on either platform (a Switch Definitive Edition owner already has everything the base list needs, since Definitive Edition includes the Wii U base game). Additional content layers on as five `dlc`-style bonus lists (Rule 14, never affecting the base Platinum): the four real, historical Wii U paid DLC packs (Master Quest Map Pack, Twilight Princess Pack, Majora's Mask Pack, Boss Pack — each independently purchasable on Wii U, each pre-included at no cost on Switch Definitive Edition), plus a fifth 'Definitive Edition Exclusives' pack for content that originated in the 3DS spin-off Hyrule Warriors Legends and was carried into Switch Definitive Edition — this content does not exist on Wii U in any form, even with all four DLC packs purchased. Cia, Volga, and Wizzro became playable via a FREE Wii U software update (not paid DLC) and are treated as base-list roster/content, since that patch is standard and long since part of any current copy of the game. Several disputed dossier facts were deliberately left unquantified to avoid Rule 1/2 violations: exact Legend Mode scenario titles beyond the two independently-confirmed ones ('The Armies of Ruin', 'A War of Spirit'), exact Gold Skulltula totals and the unreconciled Apothecary threshold, and exact Medal List totals per version are never cited — trophies instead verify against the actual in-game screens (Adventure Map grid, Gallery > Medal List, Bazaar illustration progress) that are confirmed to exist. No trophy in the base list requires amiibo, since Wii U's Spinner-weapon amiibo requirement does not exist on Switch and amiibo ownership cannot be assumed; the single amiibo-related trophy in the Definitive Edition Exclusives bonus pack is explicitly optional bonus content and does not gate the base Platinum."
+  },
+  "trophies": [
+    {
+      "id": "HW-001",
+      "name": "First Blood",
+      "description": "Complete \"The Armies of Ruin,\" the opening Legend Mode scenario, defeating King Dodongo.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The scenario is marked cleared on the Legend Mode scenario-select map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-002",
+      "name": "Eyes on the Prize",
+      "description": "Defeat Gohma in Legend Mode.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Gohma's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-003",
+      "name": "Petal to the Metal",
+      "description": "Defeat Manhandla in Legend Mode.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Manhandla's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-004",
+      "name": "Adventurer",
+      "description": "Clear your first square on the Adventure Map.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "The square is marked cleared on the Adventure Map grid.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-005",
+      "name": "Skulltula Hunter",
+      "description": "Collect your first Gold Skulltula.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Skulltula is added to your collection, shown on the Bazaar's illustration progress screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-006",
+      "name": "Medalist",
+      "description": "Earn your first Medal.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Medal appears earned in the Gallery's Medal List screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-007",
+      "name": "Star Power",
+      "description": "Obtain a five-star weapon for any character.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The weapon's star rating is shown as maximum on the weapon inventory screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-008",
+      "name": "Badge Crafted",
+      "description": "Craft your first Weapon Skill badge at the Bazaar.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The crafted badge appears equippable from the Bazaar's badge menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-009",
+      "name": "Two Heroes",
+      "description": "Clear a Legend Mode scenario together with a second player in local co-op.",
+      "tier": "bronze",
+      "type": "multiplayer",
+      "verification": "The scenario is marked cleared on the Legend Mode scenario-select map while a second controller was active for the playthrough.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-010",
+      "name": "Diamond in the Rough",
+      "description": "Defeat Ghirahim in Legend Mode.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Ghirahim's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-011",
+      "name": "Usurper Undone",
+      "description": "Defeat Zant in Legend Mode.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Zant's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-012",
+      "name": "Twilit Dragon Down",
+      "description": "Defeat Argorok in Legend Mode.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Argorok's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-013",
+      "name": "Dragon Knight, Grounded",
+      "description": "Defeat Volga as an enemy captain in Legend Mode, before he joins your side.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Volga's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-014",
+      "name": "Ghostly Menace",
+      "description": "Defeat Wizzro as an enemy in Legend Mode, before he joins your side.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Wizzro's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-015",
+      "name": "A War of Spirit",
+      "description": "Clear the scenario in which Cia manifests an army of Dark Link clones from Link's own shadow.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "The scenario is marked cleared on the Legend Mode scenario-select map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-016",
+      "name": "Gold Standard",
+      "description": "Earn an A Rank on any Adventure Mode square.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The square's results screen displays an A Rank.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-017",
+      "name": "Sorceress Undone",
+      "description": "Defeat Cia in Legend Mode.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Cia's defeat triggers the scenario's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-018",
+      "name": "Liberation of the Triforce",
+      "description": "Defeat Ganon in the Grand Finale, completing the base game's Legend Mode story.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "The ending cutscene plays and the credits roll.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-019",
+      "name": "Master Adventurer",
+      "description": "Clear every square on the Adventure Map.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Adventure Map grid shows every square cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-020",
+      "name": "Hero's Trial",
+      "description": "Clear every Legend Mode scenario in the base game, unlocking Hero difficulty.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Hero difficulty becomes selectable on the scenario setup screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-021",
+      "name": "Hyrule Warrior",
+      "description": "Earn the \"Hyrule Warrior\" Medal by defeating a cumulative total of 100,000 or more enemies.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The \"Hyrule Warrior\" Medal appears earned in the Gallery's Medal List screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-022",
+      "name": "Weapons Master",
+      "description": "Earn the \"Weapons Master\" Medal by acquiring a cumulative total of 1,000 or more weapons.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The \"Weapons Master\" Medal appears earned in the Gallery's Medal List screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HW-023",
+      "name": "Hyrule's Greatest Warrior",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "Master Quest Map Pack",
+      "trophies": [
+        {
+          "id": "HWMQ-001",
+          "name": "Prequel's Beginning",
+          "description": "Begin Cia's Tale, playing as Cia, Wizzro, or Volga in the villains' side of the story.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The first Cia's Tale scenario is marked cleared on the Legend Mode scenario-select map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMQ-002",
+          "name": "Cia's Rise",
+          "description": "Complete every scenario of Cia's Tale.",
+          "tier": "silver",
+          "type": "story",
+          "verification": "Every Cia's Tale scenario is marked cleared on the Legend Mode scenario-select map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMQ-003",
+          "name": "Second Quest",
+          "description": "Clear your first square on the Master Quest Map.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The square is marked cleared on the Master Quest Map grid.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMQ-004",
+          "name": "Steed of Legend",
+          "description": "Obtain Epona for Link.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "Epona appears in Link's weapon/item inventory.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMQ-005",
+          "name": "Master of the Second Quest",
+          "description": "Clear every square on the Master Quest Map.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Master Quest Map grid shows every square cleared.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Princess Pack",
+      "trophies": [
+        {
+          "id": "HWTP-001",
+          "name": "Twili Awakening",
+          "description": "Unlock Twili Midna as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Twili Midna appears as a selectable character on the character-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWTP-002",
+          "name": "Into the Twilight",
+          "description": "Clear your first square on the Twilight Map.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The square is marked cleared on the Twilight Map grid.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWTP-003",
+          "name": "Guardian of Light",
+          "description": "Earn an A Rank on any Twilight Map square.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "The square's results screen displays an A Rank.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWTP-004",
+          "name": "Dominion",
+          "description": "Obtain the Dominion Rod for Zelda.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The Dominion Rod appears in Zelda's weapon inventory.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWTP-005",
+          "name": "Twilight's Edge",
+          "description": "Clear every square on the Twilight Map.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Twilight Map grid shows every square cleared.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Majora's Mask Pack",
+      "trophies": [
+        {
+          "id": "HWMM-001",
+          "name": "The Fierce Deity's Kin",
+          "description": "Unlock Young Link as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Young Link appears as a selectable character on the character-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMM-002",
+          "name": "Chapter of Tingle",
+          "description": "Unlock Tingle as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Tingle appears as a selectable character on the character-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMM-003",
+          "name": "Into Termina",
+          "description": "Clear your first square on the Termina Map.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The square is marked cleared on the Termina Map grid.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMM-004",
+          "name": "Owl's Blessing",
+          "description": "Activate an Owl Statue on the Termina Map, protecting its square and connected neighbors from the falling Moon's reset.",
+          "tier": "silver",
+          "type": "mechanic",
+          "verification": "The Owl Statue's protective effect is confirmed on the Termina Map after winning a battle on its square.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWMM-005",
+          "name": "Termina's Guardian",
+          "description": "Clear every square on the Termina Map.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Termina Map grid shows every square cleared.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Boss Pack",
+      "trophies": [
+        {
+          "id": "HWBP-001",
+          "name": "Trial by Giants",
+          "description": "Clear a Boss Challenge scenario for the first time.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The Boss Challenge scenario is marked cleared in the Challenge Mode menu.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWBP-002",
+          "name": "Costume Change",
+          "description": "Unlock a costume for Link, Zelda, or Lana through Boss Challenge.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "The unlocked costume appears on that character's costume-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWBP-003",
+          "name": "Beast Unleashed",
+          "description": "Play as Beast Ganon in Ganon's Fury for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "Beast Ganon is confirmed as the controlled character during a Ganon's Fury battle.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWBP-004",
+          "name": "Fowl Play",
+          "description": "Play as the giant Cucco in Ganon's Fury for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The giant Cucco is confirmed as the controlled character during a Ganon's Fury battle.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWBP-005",
+          "name": "Ganon's Due",
+          "description": "Clear every scenario of Ganon's Fury, unlocking costumes for Ganondorf and Cia.",
+          "tier": "gold",
+          "type": "challenge",
+          "verification": "Every Ganon's Fury scenario is marked cleared in the Challenge Mode menu, and the costumes appear on Ganondorf's and Cia's costume-select screens.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Definitive Edition Exclusives",
+      "trophies": [
+        {
+          "id": "HWDE-001",
+          "name": "New Blood",
+          "description": "Unlock Linkle as a playable character by beginning Linkle's Tale. Requires the Nintendo Switch Definitive Edition.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Linkle appears as a selectable character on the character-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-002",
+          "name": "Cucco Crusader",
+          "description": "Complete every scenario of Linkle's Tale.",
+          "tier": "silver",
+          "type": "story",
+          "verification": "Every Linkle's Tale scenario is marked cleared on the Legend Mode scenario-select map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-003",
+          "name": "Sailing to War",
+          "description": "Unlock Tetra and King Daphnes by beginning the Wind Waker arc.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Tetra and King Daphnes appear as selectable characters on the character-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-004",
+          "name": "Watchers of the Triforce",
+          "description": "Complete the Wind Waker arc, defeating Helmaroc King and clearing Legend Mode's final scenario.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "The scenario \"Watchers of the Triforce\" is marked cleared on the Legend Mode scenario-select map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-005",
+          "name": "A Fairy's First Flight",
+          "description": "Find and befriend your first Companion Fairy in My Fairy mode.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The fairy appears in the My Fairy menu.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-006",
+          "name": "Fairy Godparent",
+          "description": "Level a Companion Fairy up to level 50 in My Fairy mode.",
+          "tier": "silver",
+          "type": "mechanic",
+          "verification": "The fairy's level is shown as 50 in the My Fairy menu.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-007",
+          "name": "New Horizons",
+          "description": "Clear your first square on any Definitive Edition-exclusive Adventure Mode map (Great Sea, Koholint Island, Lorule, or Grand Travels).",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The square is marked cleared on that map's grid.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-008",
+          "name": "Picture Perfect",
+          "description": "Complete a Gold Skulltula illustration to unlock a scenario on the Rewards Map.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The gallery shows a completed illustration, and the corresponding Rewards Map scenario becomes available.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-009",
+          "name": "Champion of Hyrule",
+          "description": "Clear all 32 Legend Mode scenarios in Definitive Edition, unlocking Hero difficulty.",
+          "tier": "gold",
+          "type": "challenge",
+          "verification": "Hero difficulty becomes selectable on the scenario setup screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWDE-010",
+          "name": "Amiibo Warrior",
+          "description": "Scan a compatible amiibo figure for the first time to receive its in-game reward. Requires owning a compatible amiibo.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The amiibo's reward appears in your weapon or material inventory immediately after scanning.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

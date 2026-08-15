@@ -1,0 +1,178 @@
+{
+  "game": "Hyrule Warriors",
+  "platform": "Nintendo Wii U (base + 4 DLC packs) / Nintendo Switch (Definitive Edition, bundles everything + exclusive content)",
+  "mode": "genesis",
+  "developer": "Omega Force / Team Ninja",
+  "publisher": "Nintendo / Koei Tecmo",
+  "releaseDate": "2014-09-26 (Wii U) / 2018-05-18 (Switch Definitive Edition)",
+  "researchDate": "2026-08-14",
+  "premise": "A Dynasty Warriors-style musou crossover with The Legend of Zelda. Ganondorf's spirit, splintered across time, manipulates the sorceress Cia into opening a Gate of Souls that pulls together eras and characters from Ocarina of Time, Twilight Princess, and Skyward Sword. Link, Impa, and Lana lead campaigns against Cia's forces (led by captains Volga and Wizzro) before confronting a resurrected Ganondorf.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Wii U (primary target for the base list) / Nintendo Switch (Definitive Edition)",
+    "nativeAchievements": false,
+    "note": "Neither Wii U nor Switch has a system-level achievement/trophy system. This game has never released on any platform that does (no PC/PlayStation/Xbox release exists). Valid Pantheon candidate on both.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "unifiedListDecision": {
+    "note": "At the user's explicit request, this is ONE trophy list rather than two separate ones. The Wii U base game (2014, no DLC) is the base trophies list, whose Platinum is earnable by any owner of either platform with zero additional purchases. Additional content layers on as four `dlc`-style packs (Rule 14) matching the real, historical Wii U paid DLC (Master Quest Map Pack, Twilight Princess Pack, Majora's Mask Pack, Boss Pack) — each independently purchasable on Wii U, and each already unlocked/included at no extra cost for a Switch Definitive Edition owner. A fifth `dlc`-style pack, 'Definitive Edition Exclusives', covers content that originated in the 3DS spin-off Hyrule Warriors Legends and was carried into the Switch Definitive Edition — this content does NOT exist on Wii U in any form, even with all 4 DLC packs purchased, so it is only achievable on Switch.",
+    "freeUpdateHandling": "Cia, Volga, and Wizzro became playable via a FREE Wii U software update (not paid DLC) shortly after launch. Since this patch is standard and long since baked into any current copy of the game, they are treated as part of the BASE roster/list rather than a separate paid-DLC pack — a strict reading of 'paid DLC only' would incorrectly exclude free content every current owner already has."
+  },
+  "campaignStructure": {
+    "baseGame": {
+      "legendModeScenarioCount": "18 story Scenarios across 7 arcs: Prologue (4), Ocarina of Time (2), Twilight Princess (2), Skyward Sword (2), Epilogue (3), Ganondorf (3), Grand Finale (2). Confidence: high (cross-verified across 3 independent sources).",
+      "scenarioOrderAndTitles": "LOW-MEDIUM confidence beyond two independently-verified scenarios: scenario 1 'The Armies of Ruin' (Hyrule Field, boss King Dodongo) and scenario 12 'A War of Spirit' (Epilogue arc, Temple of Souls, boss Dark Link — this one is high confidence, corroborated by 3 sources). The full ordered scenario-by-scenario title list rests on a single AI-paraphrased fan walkthrough and should not be treated as exact without spot-checking — trophy text should avoid citing exact scenario titles beyond these two confirmed ones unless independently re-verified.",
+      "mainAntagonistAndArc": "Ganondorf's splintered spirit manipulates Cia (Triforce guardian) into opening the Gate of Souls. Cia wages war using captains Volga and Wizzro; Link/Impa/Lana lead the resistance. Ganondorf is ultimately resurrected as the true final threat.",
+      "ending": "Lana summons heroes from Hyrule's history; the combined force defeats Ghirahim and Zant en route to Ganon's Tower. Link defeats Ganondorf, who transforms into beast-form Ganon; Zelda's Light Arrows allow the final defeat and re-sealing. Lana takes over Cia's former role as Triforce guardian; the Master Sword returns to its pedestal.",
+      "heroMode": "A harder difficulty toggle (not a separate story mode/NG+) that unlocks after clearing all base-game Legend Mode scenarios, then applies per-battle in Legend/Free/Adventure Mode.",
+      "confidence": "high on structure and ending; medium-low on exact scenario ordering/titles beyond the two confirmed ones"
+    },
+    "baseGameBosses": [
+      { "name": "King Dodongo", "location": "Scenario 1, 'The Armies of Ruin', Hyrule Field", "confidence": "high" },
+      { "name": "Volga (Dragon Knight)", "location": "Recurring enemy captain across multiple scenarios before becoming playable", "confidence": "medium" },
+      { "name": "Wizzro", "location": "Recurring boss enemy before becoming playable", "confidence": "medium" },
+      { "name": "Ghirahim (Demon Lord)", "location": "Skyward Sword arc, Sealed Grounds", "confidence": "medium" },
+      { "name": "Zant (Usurper King)", "location": "Twilight Princess arc, Palace of Twilight", "confidence": "medium" },
+      { "name": "Argorok (Twilit Dragon)", "location": "Twilight Princess arc, Palace of Twilight", "confidence": "medium" },
+      { "name": "Gohma", "location": "Ocarina of Time arc, Faron Woods", "confidence": "medium" },
+      { "name": "Manhandla", "location": "Valley of Seers", "confidence": "medium" },
+      { "name": "Dark Link", "location": "Scenario 12, 'A War of Spirit', Epilogue arc, Temple of Souls — Cia manifests multiple Dark Link clones from Link's shadow", "confidence": "high" },
+      { "name": "Cia", "location": "Ganondorf arc, main antagonist/sorceress", "confidence": "high" },
+      { "name": "Ganondorf / Ganon", "location": "Grand Finale arc, Ganon's Tower — fought first as Ganondorf, then as beast-form Ganon in the true final battle", "confidence": "high" }
+    ],
+    "baseGameRoster": {
+      "launchRoster13": ["Link", "Zelda", "Impa", "Sheik", "Lana (original protagonist)", "Darunia", "Ruto", "Agitha", "Midna", "Fi", "Ganondorf", "Zant", "Ghirahim"],
+      "freeUpdateAdditions3": ["Cia", "Volga", "Wizzro"],
+      "note": "Zant and Ghirahim are playable despite being antagonists in mainline Zelda games — added in response to fan feedback. Treated as base roster (16 total) per unifiedListDecision.freeUpdateHandling above.",
+      "confidence": "high"
+    }
+  },
+  "dlcPacks": [
+    {
+      "name": "Master Quest Map Pack",
+      "releaseDate": "2014-10-16 (Wii U)",
+      "content": {
+        "legendModeContent": "Cia's Tale — 5 new Legend Mode scenarios told from the villains' perspective (playable as Cia, Wizzro, and Volga), a prequel showing how Cia built her army before her fall.",
+        "adventureMode": "Master Quest Map — remixed Adventure Mode map based on the Second Quest Hyrule map from the original Legend of Zelda; missions have restrictive clauses (no healing, no guarding, no items, etc.).",
+        "characters": "No new standard playable character (Cia/Wizzro/Volga become playable via this pack's Cia's Tale specifically, tightly coupled to it).",
+        "other": "Epona (mountable weapon-type item for Link), 16 alt-colored costumes, 7 new 8-bit-style weapons, +20 Gold Skulltulas."
+      },
+      "confidence": "high on Cia's Tale/Master Quest Map existing and being this pack; medium on exact costume/weapon counts"
+    },
+    {
+      "name": "Twilight Princess Pack",
+      "releaseDate": "2014-11-27 (Wii U)",
+      "content": {
+        "legendModeContent": "None — Adventure Mode content only.",
+        "adventureMode": "Twilight Map — smaller Adventure Mode map themed around Twilight Princess, with new Twilight-Princess-themed item cards.",
+        "characters": "Twili Midna (distinct playable character from Midna's human-form counterpart already in the base roster).",
+        "other": "Dominion Rod weapon for Zelda, Postman costume for Link, Ilia costume for Zelda."
+      },
+      "confidence": "high on structure; medium on exact item names"
+    },
+    {
+      "name": "Majora's Mask Pack",
+      "releaseDate": "~2015-01/02 (Wii U, exact date unconfirmed)",
+      "content": {
+        "legendModeContent": "None — Adventure Mode content only.",
+        "adventureMode": "Termina Map — themed around Majora's Mask/Termina. Features a recurring falling-Moon countdown timer (starts at 3, then 72 on subsequent resets, decrementing per battle square finished/exited) that resets unclaimed squares on the map; Owl Statues (activated by winning a battle on their square) permanently protect that square and connected neighbors from the reset. The in-game Song of Time item can force an immediate manual reset. Already-claimed rewards are kept — this is a recurring risk mechanic, NOT permanently missable content, since the map remains replayable indefinitely.",
+        "characters": "Young Link and Tingle.",
+        "other": "Ocarina of Time costume for Impa, Ocarina of Time costume for Sheik, Skull Kid costume for Lana."
+      },
+      "confidence": "high on structure/moon mechanic; medium on exact release date and costume list"
+    },
+    {
+      "name": "Boss Pack",
+      "releaseDate": "~2015-02/03 (Wii U, exact date unconfirmed)",
+      "content": {
+        "legendModeContent": "None.",
+        "adventureMode": "None — no new Adventure Mode map.",
+        "characters": "No new standard-roster character. Adds Beast Ganon and a giant Cucco as characters playable ONLY within this pack's own Challenge Mode content (not selectable in Legend/Free/Adventure Mode).",
+        "other": "Two new Challenge Mode scenarios: 'Boss Challenge' (fight giant bosses to unlock costumes for Link, Zelda, and Lana) and 'Ganon's Fury' (play as Beast Ganon and the giant Cucco; unlocks costumes for Ganondorf and Cia). Cheapest of the four packs (~€2.99 vs ~€7.99 each for the other three)."
+      },
+      "confidence": "medium — corroborated by 2 independent sources but this pack is less-documented than the other three"
+    }
+  ],
+  "definitiveEditionExclusives": {
+    "note": "Content that originated in Hyrule Warriors Legends (3DS, 2016) and was carried into Switch Definitive Edition (2018). NOT available on Wii U in any form, even with all 4 DLC packs.",
+    "legendModeContent": {
+      "linklesTale": "5 scenarios following new character Linkle, a Cucco-farming girl who believes she's the reincarnated Hero. First scenario unlocks after clearing base scenario 'The Sorceress of the Woods' (Faron Woods, Prologue arc).",
+      "windWakerArc": "4 scenarios introducing the Wind Waker cast (Tetra, King Daphnes/King of Red Lions; Medli unlockable separately via Adventure Mode). Boss: Helmaroc King. Confirmed scenario titles: 'A New Disturbance' (1st) and 'Watchers of the Triforce' (4th, also the final scenario of the entire 32-scenario Legend Mode) — the 2nd and 3rd scenario titles are unconfirmed. Unlocks after completing the base 18 scenarios plus Cia's Tale and Linkle's Tale. Comes bundled with the Great Sea Adventure Mode map.",
+      "totalScenarioCount": "32 scenarios across 10 arcs total on Definitive Edition (18 base + 5 Cia's Tale + 5 Linkle's Tale + 4 Wind Waker = 32). High confidence, internally consistent across sources.",
+      "heroModeThreshold": "Hero Mode unlocks after clearing all 32 scenarios on Definitive Edition, vs. all 18 on Wii U base (with Cia's Tale from Master Quest Pack, Wii U's threshold would be 23)."
+    },
+    "exclusiveCharacters10": ["Linkle", "Toon Link", "Tetra", "King Daphnes (King of Red Lions)", "Skull Kid", "Medli", "Toon Zelda", "Marin", "Ravio", "Yuga"],
+    "myFairyMode": "Companion Fairies hidden in breakable jars within specific Adventure Mode keeps. Fed to level up (to 50, or reset at level 99 for more skills), dressed in outfits (elemental damage boost), taught skills (30+ skill pool). Legends caps owned fairies at 3; Definitive Edition raises this to 5. Assist in combat via elemental spells when the magic gauge is full. No confirmed in-game 'X/N fairies found' counter.",
+    "additionalAdventureMaps": "Beyond the Wii U's 4 maps (Adventure, Master Quest, Twilight, Termina), Legends/Definitive add further maps — confirmed names: Great Sea Map / Master Wind Waker Map, Koholint Island Map (Link's Awakening), Lorule Map (A Link Between Worlds), Grand Travels Map, and a Rewards Map unlocked by completing Gold-Skulltula-built pixel-art illustrations (20 Skulltulas per illustration). One source claims 9 total Adventure-style maps on Definitive Edition but does not enumerate all of them — treat the exact full map list as unconfirmed beyond the names given here.",
+    "botwCostumes": "Breath of the Wild-inspired costumes for Link and Zelda — exclusive to Definitive Edition specifically (postdates even the 3DS Legends release), not found in any earlier version.",
+    "expandedMedalList": "Definitive Edition's Medal List (see systems.medalList below) is expanded with Legends-exclusive medals tied to My Fairy ('Fairy Fountain', 'Fairy in a Bottle', 'Fairy Master', 'Mr. Fairy') and amiibo ('Amiibo Warriors').",
+    "coopDifference": "Switch Definitive Edition co-op is true split-screen on one shared display (any combination of single Joy-Con, dual Joy-Con, or Pro Controller per player), replacing Wii U's asymmetric GamePad+TV setup entirely. No online multiplayer on either version.",
+    "confidence": "high on Linkle's Tale/Wind Waker arc/exclusive characters/total scenario count; medium on My Fairy details, additional map list completeness, and BotW costume specifics"
+  },
+  "systems": {
+    "medalList": {
+      "description": "A built-in, in-game achievement-like system: tiered Bronze/Silver/Gold Medals viewable under Gallery > Medal List. Functions independently of any platform OS achievement system (which doesn't exist for this game on any platform). CONFIRMED to exist in the base Wii U game (~23 medals) and expanded in Legends/Definitive Edition (exact total unconfirmed — one source's tier subtotals didn't match its own itemized lists).",
+      "confirmedExampleMedals": [
+        "'Destructive Force' — defeat 1,000+ enemies in a single battle",
+        "'A Hundred Years Ahead' — defeat 100+ enemies with a single Special Attack",
+        "'Marathon Man' — dash a cumulative 42.195km+",
+        "'Hyrule Warrior' — defeat a cumulative 100,000+ enemies across all play",
+        "'Lawn Mower' — cut a cumulative 1,000+ clumps of grass",
+        "'Millionaire' — acquire a cumulative 1,000,000+ Rupees",
+        "'Weapons Master' — acquire a cumulative 1,000+ weapons"
+      ],
+      "trackable": "Gallery > Medal List shows all earned medals with bronze/silver/gold icons — binary earned/not-earned per medal. A separate raw numeric stats page (e.g., exact lifetime KO count) was NOT confirmed to exist; the Medal List itself is the only confirmed trackable surface for these cumulative stats.",
+      "confidence": "medium — existence and example medals are well-sourced; exact total counts per version are not"
+    },
+    "adventureMode": {
+      "baseMap": "The original Adventure Map, styled after the 1986 Legend of Zelda overworld (16x8 grid, up to 128 squares). Available from the start on base Wii U.",
+      "rank": "Each square/scenario awards a C (bronze), B (silver), or A (gold) rank based on criteria varying per square (KO thresholds, time limits, sometimes a no-damage requirement). No S rank found despite being common in later Warriors-genre titles — three tiers only (C/B/A).",
+      "completionDisplay": "Grid shows cleared/uncleared squares visually. NO confirmed numeric completion percentage display anywhere, for any single map or in aggregate — trophies should not assume a percentage stat exists."
+    },
+    "goldSkulltulas": {
+      "counts": "100 (Wii U base) → 160 (Wii U + all 3 content-adding DLC packs, i.e. +20 each from Master Quest/Twilight Princess/Majora's Mask — only Master Quest's +20 was independently confirmed, the other two are inferred) → 260 (Switch Definitive Edition, includes further Legends maps). Each Skulltula-bearing stage has exactly 2 obtainable (one easier, one harder).",
+      "use": "Feed into Bazaar/Apothecary potion-crafting unlocks and 'illustration' completion (viewable in a gallery); completing an illustration unlocks a Rewards Map scenario (Definitive Edition only).",
+      "conflict": "A separate 'Apothecary Level 5 requires 90 Gold Skulltulas' figure (Definitive Edition) could not be reconciled with the 160/260 total figures — likely a cumulative unlock gate rather than a total, but unresolved. Do not cite the 90 figure or an exact total in trophy text.",
+      "confidence": "medium"
+    },
+    "weaponsAndBadges": {
+      "weapons": "Each character can use multiple distinct weapon types. Individual weapons have a star rating (0-5, higher = better base stats) and skill slots for equippable 'Weapon Skills'/badges (e.g. 'Materials+', 'Stars+', 'Slots+' — respectively raise material drop rate, higher-star weapon odds, and more skill-slot odds on drops). Weapons also gain levels through use.",
+      "badges": "Crafted at a Bazaar/Badge Market using Materials dropped by enemies, across reportedly three skill-tree categories (exact official in-game names unconfirmed). Top-tier badges require rare drops from specific enemy types — deliberate targeted play, not purely incidental.",
+      "confidence": "medium — mechanic existence is well-sourced, exact terminology/max levels/tree names are not"
+    },
+    "difficultyModes": "Easy / Normal / Hard / Hero. Hero unlocks after clearing all Legend Mode scenarios for that version (18 on Wii U base, 23 with Master Quest Pack's Cia's Tale, 32 on Definitive Edition). Higher difficulty increases enemy stats but also Rupee rewards. One low-confidence source claims a difficulty-gated Skulltula variant tied to Hard/Hero — unconfirmed, do not use in trophy design.",
+    "rng": "Material and weapon drops from enemies are percentage-chance based, boostable via equipped 'Materials+/Stars+/Slots+' skills. Common materials drop reasonably often during normal play; top-tier badge unlocks require deliberately seeking out specific rare-drop enemies — some genuine farming is needed for full mastery, beyond what happens incidentally (relevant to Rule 21).",
+    "missables": "No permanently missable content confirmed anywhere across any version. All Legend Mode scenarios and all Adventure Mode maps (base, DLC, and Legends/Definitive-exclusive) remain replayable indefinitely via Free Mode / Adventure Mode re-entry. The Termina Map's Moon-reset timer (Majora's Mask Pack) is a recurring risk mechanic, not a permanent loss.",
+    "multiplayer": {
+      "wiiU": "2-player local co-op only, asymmetric: one player on TV (Wii Remote+Nunchuk or Pro Controller), the other entirely on the Wii U GamePad's screen — not split-screen. Unlocks after completing the first Legend Mode scenario.",
+      "switch": "True split-screen local co-op on one shared display (any combination of single/dual Joy-Con or Pro Controller per player). No online multiplayer on either platform. Confirmed available in Legend, Free, and Challenge Mode; Adventure Mode co-op availability on Switch is unconfirmed."
+    },
+    "versionDifferences": {
+      "resolutionFramerate": "Wii U: 720p, ~30fps target. Switch Definitive Edition docked: targets 1080p/60fps but reportedly drops significantly (sources conflict on exact average, ranging from 'many dips' to ~40-50fps average). Switch handheld: downsampled from the 1080p docked render (not a native handheld render), with framerate dropping to an estimated sub-30fps. Treat exact fps figures as approximate.",
+      "gamePadFeatures": "Wii U GamePad second-screen functionality (asymmetric co-op, off-TV play) has no Switch equivalent — Switch's split-screen model replaces it entirely.",
+      "amiiboSpinnerQuirk": "On Wii U specifically, the Spinner weapon (Twilight Princess) unlocks ONLY via tapping a human-form Link amiibo (not Wolf Link amiibo). On 3DS Legends and Switch Definitive Edition, the Spinner is obtainable through normal Adventure Mode play instead — no amiibo required. IMPORTANT for trophy design: do not require amiibo for any base-list trophy, since the Switch version doesn't need it and amiibo ownership can't be assumed."
+    },
+    "amiibo": {
+      "general": "Supported on Wii U, 3DS Legends, and Switch Definitive Edition. Up to 5 amiibo taps per day per save file. Character-matched Zelda-series amiibo grant a weapon rated 3+ stars for that character; non-matching amiibo grant a random reward (weapon ≤3 stars, Rupees, or materials).",
+      "designNote": "Since amiibo functionality requires owning specific physical figures and (on Wii U) can gate the Spinner weapon, no BASE list trophy should require amiibo. Definitive Edition's 'Amiibo Warriors' medal is Legends/Definitive-exclusive and could be considered for the bonus pack only, with an explicit amiibo-required caveat, mirroring the precedent set for Metroid Prime 4: Beyond's amiibo bonus content."
+    }
+  },
+  "conflicts": [
+    { "topic": "Total number of Wii U DLC packs", "claims": ["3 packs (initial brief assumption)", "4 packs — Master Quest, Twilight Princess, Majora's Mask, AND a Boss Pack"], "resolution": "4 packs confirmed by 2 independent sources. The Boss Pack is real but less-documented than the other three." },
+    { "topic": "Whether Cia's Tale is Legends-exclusive or Wii U DLC", "claims": ["Assumed Legends-exclusive in initial brief", "Actually originated as Wii U Master Quest Map Pack paid DLC, later folded free into Legends/Definitive Edition"], "resolution": "Confirmed Wii U DLC origin by high-confidence sourcing. Cia's Tale is NOT part of the Definitive-Edition-exclusive bonus pack — it belongs conceptually with the Master Quest Map Pack DLC." },
+    { "topic": "Full Definitive Edition character roster count", "claims": ["29 (cross-checked sum: 13 base + 3 free update + 3 DLC + 10 Legends-exclusive)", "31 (one uncorroborated source, possibly miscounting Challenge-Mode-only characters like Beast Ganon/giant Cucco as standard roster)"], "resolution": "29 is better-supported by an internally consistent sum; do not cite either exact number in trophy text — verify via the character-select screen instead." },
+    { "topic": "Gold Skulltula per-DLC-pack breakdown and the Apothecary's 90-Skulltula threshold", "claims": ["100 base → +20 per pack (Master Quest confirmed, other two inferred) → 160 with all Wii U DLC → 260 Definitive Edition", "Apothecary Level 5 requires 90 Skulltulas (Definitive Edition)"], "resolution": "Unresolved — the 90-figure doesn't cleanly reconcile with the total figures. Do not cite exact Skulltula totals or thresholds in trophy text; verify via the Bazaar/gallery illustration-completion display instead." },
+    { "topic": "Definitive Edition total Medal List count", "claims": ["A source states '66 total' but its own tier subtotals (10/21/31) don't match its own itemized name lists (11/23/27 items)"], "resolution": "Unresolved — treat the exact Definitive Edition Medal total as unknown. The BASE Wii U figure of ~23 medals is better sourced but still single-sourced; avoid citing an exact medal count." }
+  ],
+  "gaps": [
+    "Exact Legend Mode scenario titles/order for the base 18 scenarios (beyond 'The Armies of Ruin' and 'A War of Spirit') rest on a single unverified fan walkthrough — avoid citing specific scenario titles in trophy text beyond those two.",
+    "Exact total Medal List count for any version is unconfirmed — trophies referencing Medals should describe the achievement, not cite a total count.",
+    "Exact Gold Skulltula totals and the Apothecary threshold don't reconcile — avoid citing exact numbers.",
+    "No confirmed numeric Adventure Mode completion percentage display anywhere — 'clear every square' trophies should verify via the visual grid, not a percentage.",
+    "Official in-game name for the skill-tree/badge screen and exact skill tree category names are unconfirmed.",
+    "Whether Adventure Mode itself supports difficulty selection or 2-player co-op on Switch is unconfirmed.",
+    "Exact release dates for Majora's Mask Pack and Boss Pack are approximate only.",
+    "The full list of Definitive-Edition-exclusive Adventure Mode maps beyond the 5 named ones is unconfirmed (one source claims 9 total maps without enumerating all).",
+    "Whether Fi or Twinrova ever appear as fought Legend Mode bosses (vs. ally-only or absent) is unconfirmed — do not build a trophy around defeating either as a boss."
+  ]
+}

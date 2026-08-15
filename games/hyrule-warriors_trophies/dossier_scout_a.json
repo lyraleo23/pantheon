@@ -1,0 +1,254 @@
+{
+  "beat": "campaign",
+  "game": "Hyrule Warriors",
+  "platform": "Nintendo Switch (Definitive Edition) — with base Wii U (2014) and Wii U DLC content clearly labeled per finding",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Legend Mode — base Wii U scenario count",
+      "detail": "BASE Wii U game (2014, no DLC): Legend Mode consists of 18 story Scenarios (battles), organized into 7 episodes/arcs: Prologue (4 scenarios), Ocarina of Time (2), Twilight Princess (2), Skyward Sword (2), Epilogue (3), Ganondorf (3), Grand Finale (2). 4+2+2+2+3+3+2 = 18.",
+      "trackable": "Scenario select map shows cleared/uncleared status and a letter rank (C/B/A) earned per scenario, based on KOs, damage taken, and time.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/Legend_Mode", "https://www.zeldadungeon.net/wiki/Hyrule_Warriors_Legend_Mode_Scenarios", "https://gamefaqs.gamespot.com/switch/230454-hyrule-warriors-definitive-edition/answers/555492-how-many-battles-are-in-legend-mode"]
+    },
+    {
+      "category": "structure",
+      "name": "Legend Mode scenario-to-map list (base game, in story order)",
+      "detail": "LOW-MEDIUM confidence, sourced from a single fan walkthrough (paraphrased via AI fetch, not independently cross-verified line by line): 1. Hyrule Field — 'The Armies of Ruin' (boss: Volga/King Dodongo); 2. Eldin Caves; 3. Faron Woods — boss Gohma; 4. Valley of Seers — boss Manhandla; 5. Death Mountain; 6. Lake Hylia — boss King Dodongo; 7. Twilight Field; 8. Palace of Twilight — bosses Zant, Argorok; 9. Skyloft — boss Volga; 10. Sealed Grounds — boss Ghirahim; 11. Temple of the Sacred Sword — boss Wizzro; 12. Temple of Souls — 'A War of Spirit' (boss: Dark Link, confirmed independently as 2nd scenario of Epilogue arc, high confidence on this one specifically); 13. Valley of Seers — bosses Volga, Cia; 14. Gerudo Desert — boss Ganondorf; 15. Valley of Seers; 16. Hyrule Field — 'Battle of the Triforce'; 17. Gerudo Desert; 18. Ganon's Tower — 'Liberation of the Triforce' (final boss: Ganon). Individual scenario titles/order beyond 'The Armies of Ruin' and 'A War of Spirit' should be re-verified before building exact trophy text.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html (AI-summarized fetch)"]
+    },
+    {
+      "category": "boss",
+      "name": "King Dodongo",
+      "detail": "BASE Wii U game. First Legend Mode boss, fought in scenario 'The Armies of Ruin' on Hyrule Field.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.zeldadungeon.net/hyrule-warriors-walkthrough/hyrule-field/", "https://www.youtube.com/watch?v=YB8rVWtbJTo"]
+    },
+    {
+      "category": "boss",
+      "name": "Volga (Dragon Knight)",
+      "detail": "BASE Wii U game. Appears as an enemy captain/boss across multiple Legend Mode scenarios (introduced early, recurs through the story) before becoming a playable DLC-unlockable character via Cia's Tale (Master Quest Pack).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html", "https://en.wikipedia.org/wiki/Hyrule_Warriors"]
+    },
+    {
+      "category": "boss",
+      "name": "Wizzro",
+      "detail": "BASE Wii U game. Boss enemy in Legend Mode; later playable via Cia's Tale (Master Quest Pack DLC).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors"]
+    },
+    {
+      "category": "boss",
+      "name": "Ghirahim (Demon Lord)",
+      "detail": "BASE Wii U game. Boss encountered in the Skyward Sword episode of Legend Mode (Sealed Grounds).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Zant (Usurper King)",
+      "detail": "BASE Wii U game. Boss in the Twilight Princess episode of Legend Mode, at Palace of Twilight.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Argorok (Twilit Dragon)",
+      "detail": "BASE Wii U game. Giant boss in the Twilight Princess episode, Palace of Twilight.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Gohma",
+      "detail": "BASE Wii U game. Giant boss in Faron Woods scenario, Ocarina of Time episode.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Manhandla",
+      "detail": "BASE Wii U game. Giant boss fought at Valley of Seers.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Dark Link",
+      "detail": "BASE Wii U game. Appears as the central mini-boss/enemy of the scenario 'A War of Spirit', the 2nd scenario of the Epilogue arc, set at Temple of Souls. Cia magically manifests Link's shadow as multiple Dark Link clones that must be defeated; Impa, Lana, Darunia, Midna, and Fi are present as allied support.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/A_War_of_Spirit", "https://www.zeldadungeon.net/wiki/A_War_of_Spirit", "https://www.supercheats.com/hyrule-warriors/walkthrough/08-a-war-of-spirit"]
+    },
+    {
+      "category": "boss",
+      "name": "Cia",
+      "detail": "BASE Wii U game. Main antagonist/sorceress; fought as a boss in the late Legend Mode (Ganondorf episode), before Ganondorf's return.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Ganondorf / Ganon",
+      "detail": "BASE Wii U game. Final antagonist of the Grand Finale episode; fought first as Ganondorf, then transforms into beast form Ganon for the true final battle at Ganon's Tower, defeated with Zelda's Light Arrows.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://www.dtgre.com/2014/09/hyrule-warriors-walkthrough.html"]
+    },
+    {
+      "category": "boss",
+      "name": "Helmaroc King",
+      "detail": "LEGENDS/DEFINITIVE-EDITION EXCLUSIVE. Giant boss appearing in the Wind Waker arc's Legend Mode scenarios 'A New Disturbance' and 'The Search for Cia'. Not present on Wii U in any form (base or DLC).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["community search summary, single-source — recommend re-verification"]
+    },
+    {
+      "category": "boss",
+      "name": "Fi / Twinrova as Legend Mode bosses",
+      "detail": "Could not confirm whether Fi or Twinrova appear as fought bosses anywhere in Legend Mode (Fi appears as a support/ally character in 'A War of Spirit'). They may only appear in Adventure Mode content, or not as Legend Mode encounters at all in this game.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["unable to confirm via search"]
+    },
+    {
+      "category": "story",
+      "name": "Base game main antagonist and arc",
+      "detail": "BASE Wii U game. Ganondorf's spirit, splintered into fragments across time after an earlier defeat, manipulates the sorceress Cia (guardian of the Triforce's balance) by corrupting her infatuation with the 'Hero' archetype. Cia opens the Gate of Souls, pulling in eras/characters from Ocarina of Time, Twilight Princess, and Skyward Sword, and wages war using captains Volga and Wizzro. Link, Impa, and Lana each lead campaigns against Cia's forces. Ganondorf is ultimately resurrected as the true final threat.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors", "https://zelda.fandom.com/wiki/Hyrule_Warriors"]
+    },
+    {
+      "category": "story",
+      "name": "Base game ending",
+      "detail": "BASE Wii U game. Lana summons heroes from Hyrule's history; the combined force defeats Ghirahim and Zant en route to Ganon's Tower. Link defeats Ganondorf, who transforms into beast-form Ganon using the Triforce; Zelda's Light Arrows allow the final defeat and re-sealing of Ganon. The summoned past heroes return to their own eras, Lana takes over guarding the Triforce (Cia's former role), and Link and Zelda return the Master Sword to its pedestal.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors"]
+    },
+    {
+      "category": "unlock",
+      "name": "Adventure Mode unlock",
+      "detail": "BASE Wii U game. The Adventure Mode map unlocks after completing the very first Legend Mode scenario ('The Armies of Ruin'), i.e., Adventure Mode does not require full Legend Mode completion to begin, only Legend Mode's opening battle.",
+      "trackable": "Mode selection screen shows Adventure Mode as unlocked/locked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["community search summary — recommend re-verification against a primary walkthrough"]
+    },
+    {
+      "category": "mode",
+      "name": "Hero Mode (New Game Plus-style difficulty)",
+      "detail": "BASE Wii U game. Hero Mode is unlocked after completing all 18 original Legend Mode scenarios. It is a harder difficulty option that can then be toggled on individual scenarios (Legend Mode scenarios replayed via Free Mode, and/or Adventure Mode battles), featuring tougher enemies and improved item drops. This is not a separate full story replay but a difficulty modifier applied per-battle.",
+      "trackable": "Difficulty toggle appears on scenario select screen once unlocked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["community search summary of GameFAQs/Cheat Code Central — recommend re-verification"]
+    },
+    {
+      "category": "dlc-story",
+      "name": "Cia's Tale — Master Quest Map Pack (Wii U DLC #1, released October 2014)",
+      "detail": "WII U DLC — Master Quest Map Pack. Adds 5 new Legend Mode scenarios collectively titled 'Cia's Tale', playable as/alongside Cia, Wizzro, and Volga (who also become playable characters via this pack). The scenarios serve as a prequel/villain-perspective story showing how Cia built her army before her fall, leading into the events of the main 18-scenario story. This pack ALSO adds the 'Master Quest' remixed Adventure Mode map, Epona as a mountable weapon-type item, and costumes. Cia's Tale is DLC-only on Wii U (not part of base game), but is included in the base game of Hyrule Warriors Legends (3DS) and Hyrule Warriors: Definitive Edition (Switch) without needing separate purchase.",
+      "trackable": "Appears as its own arc on the Legend Mode scenario-select map once unlocked (DLC purchase on Wii U; automatically present on Legends/Definitive Edition).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/Cia's_Tale (via search summary)", "https://gamerant.com/hyrule-warriors-twilight-princess-majoras-mask-dlc/", "https://www.zeldadungeon.net/new-details-on-hyrule-warriors-master-quest-dlc/"]
+    },
+    {
+      "category": "dlc-story",
+      "name": "Twilight Princess Pack — no Legend Mode content (Wii U DLC #2, released November 2014)",
+      "detail": "WII U DLC — Twilight Princess Pack. Adds a new playable character (Twili Midna), a weapon, a Twilight-themed Adventure Mode map, and 2 costumes. Does NOT add any Legend Mode story scenarios — Adventure Mode content only.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/hyrule-warriors-twilight-princess-majoras-mask-dlc/", "https://thekoalition.com/2014/hyrule-warriors-majoras-mask-twilight-princess-characters-dlc-announced"]
+    },
+    {
+      "category": "dlc-story",
+      "name": "Majora's Mask Pack — no Legend Mode content (Wii U DLC #3, released early 2015)",
+      "detail": "WII U DLC — Majora's Mask Pack. Adds 2 new playable characters (including Young Link), a Termina-themed Adventure Mode map, and 3 costumes. Does NOT add any Legend Mode story scenarios — Adventure Mode content only.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/hyrule-warriors-twilight-princess-majoras-mask-dlc/", "https://www.nintendolife.com/news/2015/01/hyrule_warriorsnmajoras_mask_pack_dlc_and_update_details_emerge"]
+    },
+    {
+      "category": "legends-exclusive-story",
+      "name": "Linkle's Tale",
+      "detail": "LEGENDS/DEFINITIVE-EDITION EXCLUSIVE (introduced in Hyrule Warriors Legends on 3DS, 2016; carried into Switch Definitive Edition; NOT available on Wii U in any form, even with all 3 DLC packs). A 5-scenario side story arc following new character Linkle, a Cucco-farming Hylian girl who believes she is the reincarnated Hero. Scenarios unlock progressively, the first becoming available after clearing the base-game scenario 'The Sorceress of the Woods' (Faron Woods, Prologue arc).",
+      "trackable": "Its own arc/branch on the Legend Mode scenario-select map in Legends/Definitive Edition.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/Linkle's_Tale (via search summary)"]
+    },
+    {
+      "category": "legends-exclusive-story",
+      "name": "Wind Waker arc",
+      "detail": "LEGENDS/DEFINITIVE-EDITION EXCLUSIVE (introduced in Hyrule Warriors Legends 3DS, carried into Switch Definitive Edition; NOT on Wii U). A 4-scenario arc introducing Wind Waker cast (Tetra, King Daphnes/King of Red Lions; Medli also unlockable by clearing an Adventure Mode battle rather than via DLC). Framed as an alternate sea-based Hyrule that briefly intertwines with the main story. Unlocks after completing the original 18 scenarios plus Cia's Tale and Linkle's Tale. Final scenario is 'Watchers of the Triforce', which is also the final scenario of Legend Mode overall in Legends/Definitive Edition. Comes bundled with the Great Sea Adventure Mode map.",
+      "trackable": "Its own arc/branch on the Legend Mode scenario-select map in Legends/Definitive Edition.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["community search summary — recommend re-verification of exact scenario titles beyond 'A New Disturbance' and 'Watchers of the Triforce'"]
+    },
+    {
+      "category": "structure",
+      "name": "Legends/Definitive Edition total Legend Mode scenario count",
+      "detail": "LEGENDS/DEFINITIVE EDITION: total of 32 Legend Mode scenarios across 10 arcs = the 7 base arcs (18 scenarios: Prologue, Ocarina of Time, Twilight Princess, Skyward Sword, Epilogue, Ganondorf, Grand Finale) + Cia's Tale (5) + Linkle's Tale (5) + Wind Waker arc (4). Math is internally consistent (18+5+5+4=32) across independently found sub-counts.",
+      "trackable": "Legend Mode scenario-select map with 10 arc branches.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamefaqs.gamespot.com/switch/230454-hyrule-warriors-definitive-edition/answers/555492-how-many-battles-are-in-legend-mode", "https://zelda.fandom.com/wiki/Legend_Mode"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-scenario clear status (cleared/uncleared)", "where": "Legend Mode scenario-select map", "confidence": "high" },
+    { "stat": "Per-scenario letter rank (C/B/A), based on enemies KO'd, damage taken, and completion time", "where": "Displayed on scenario-select map and results screen after each battle; higher ranks required to unlock certain rewards/branching paths", "confidence": "high" },
+    { "stat": "Hero Mode unlock flag", "where": "Difficulty option toggle appears on scenario/battle setup screen once all 18 base scenarios are cleared", "confidence": "medium" },
+    { "stat": "Number of arcs/scenarios completed within Legend Mode overall", "where": "Not confirmed whether there is a single aggregate 'Legend Mode % complete' figure anywhere (e.g. main menu); only the per-scenario map view was confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Base Wii U Legend Mode (no DLC) = 18 scenarios / 7 arcs only.", "confidence": "high" },
+    { "note": "Wii U + all 3 DLC packs = 23 Legend Mode scenarios (18 base + 5 Cia's Tale from Master Quest Map Pack). Twilight Princess Pack and Majora's Mask Pack add zero Legend Mode scenarios — Adventure Mode content only.", "confidence": "medium" },
+    { "note": "Hyrule Warriors Legends (3DS, 2016) and Hyrule Warriors: Definitive Edition (Switch, 2018) ship all of the above as base content (no purchase needed) PLUS two Legends-exclusive additions never available on Wii U in any form: Linkle's Tale (5 scenarios) and the Wind Waker arc (4 scenarios). Total = 32 scenarios / 10 arcs.", "confidence": "high" },
+    { "note": "Cia's Tale is NOT a Legends-exclusive feature as might be assumed from its 'prequel/retelling' framing — it originated as paid Wii U DLC (Master Quest Map Pack) and was later folded into Legends/Definitive Edition as free base content. This is a common point of confusion worth flagging explicitly.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not independently verify the exact scenario titles and boss list for all 18 base-game scenarios from a single authoritative source — the ordered list in findings is from one AI-paraphrased fan walkthrough and should be re-verified (e.g. against a raw GameFAQs text FAQ) before writing exact trophy copy. Only 'The Armies of Ruin' (scenario 1) and 'A War of Spirit' (scenario 12, Epilogue arc) were independently corroborated by multiple sources.",
+    "Could not confirm the exact 2nd and 3rd scenario titles of the Legends-exclusive Wind Waker arc (only 'A New Disturbance' as scenario 1 and 'Watchers of the Triforce' as scenario 4 were found).",
+    "Could not confirm whether Fi or Twinrova appear as bosses/fought enemies anywhere in Legend Mode in this game (Fi appears only as a non-boss ally in 'A War of Spirit'); they may be Adventure Mode-only, or absent from Hyrule Warriors entirely and confused with a later game.",
+    "Could not confirm precise release dates for Twilight Princess Pack and Majora's Mask Pack beyond approximate month/year (November 2014 and roughly January/February 2015 respectively) — worth pinning down precisely if DLC release order matters for trophy sequencing.",
+    "Could not confirm whether Legend Mode contains any genuinely missable content (e.g., a one-time-only cutscene choice or reward). Given the Warriors-series structure, all scenarios remain replayable in Free Mode after clearing, so true missability seems unlikely, but this was not explicitly confirmed by a source.",
+    "Could not confirm whether there is any single aggregate 'Legend Mode completion percentage' UI element, versus only per-scenario/per-arc rank tracking. This affects whether a '100% Legend Mode' style trophy could be text-matched to an in-game display.",
+    "Could not confirm exact contents/scope of a possible free 'Villains' costume DLC pack mentioned incidentally in one source — unclear if this exists as a distinct pack or was conflated with Master Quest Pack promotional content; not treated as a confirmed fact.",
+    "Zelda Fandom wiki (zelda.fandom.com) and Zelda Dungeon wiki pages repeatedly returned HTTP 402/403 errors when fetched directly, so several claims rely on WebSearch's own summarization of those pages' content rather than direct verification of the source text — flagged at reduced confidence where this applies."
+  ]
+}
