@@ -1,0 +1,171 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game, and paid DLC",
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "platform": "Nintendo Switch / Nintendo Switch 2 (Genesis Mode build)",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Shrines",
+      "detail": "120 Shrines of Trials in the base game, plus 16 additional shrines added by The Champions' Ballad DLC (Pack 2), for 136 total on a fully-DLC'd save. The 16 DLC shrines are combat/puzzle shrines scattered across regions (e.g. Etsu Korima Shrine, Rohta Chigah Shrine, Ruvo Korbah Shrine, Yowaka Ita Shrine in Central Hyrule/Great Plateau; Shira Gomar Shrine in Hyrule Ridge; Kamia Omuna, Rinu Honika, Sharo Lun in Eldin Canyon; Keive Tala, Takama Shiri in Gerudo Desert; Kihiro Moh in Gerudo Highlands; at least one in Lanayru Wetlands; more in Necluda) — they award region-specific Divine Beast Emblems instead of Spirit Orbs when tied to the DLC questline.",
+      "trackable": "No confirmed persistent on-screen counter of the form 'X/120'. Progress is inferred visually: shrine icons on the Sheikah Slate map change appearance (undiscovered/dark, orange = discovered but not completed, blue = completed). Spirit Orbs earned from shrines stack in the Key Items inventory as a visible count, but this count is consumed/reset whenever orbs are traded at a Goddess Statue, so it is not a lifetime completion tracker.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Ancient_Shrine (via r.jina.ai proxy)", "training knowledge (120 base shrines is extremely well-established)"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Spirit Orbs",
+      "detail": "Each completed shrine grants 1 Spirit Orb (DLC shrines that are tied to the Champions' Ballad quest give Emblems instead). 4 Spirit Orbs can be exchanged at any Goddess Statue for either a Heart Container or a Stamina Vessel, player's choice.",
+      "trackable": "Current Spirit Orb count shown as a stack in the Key Items section of the inventory; resets to 0 when spent.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild", "https://zeldawiki.wiki/wiki/Ancient_Shrine"]
+    },
+    {
+      "category": "collectible",
+      "name": "Korok Seeds",
+      "detail": "900 Korok Seeds total in the base game. Given to Hestu (found first near Korok Forest, later relocates) to expand Weapon, Bow, and Shield inventory slots. Only 441 seeds are actually needed to max out all three inventory categories; the remaining seeds up to 900 have no further slot-expansion use. Collecting all 900 rewards a cosmetic/completion item referred to as 'Hestu's Gift.'",
+      "trackable": "No in-game numeric counter of total seeds found; Hestu's dialogue changes at certain seed-turn-in milestones, and NPCs comment when all inventory slots are maxed. Players must rely on external checklists/wikis to track progress toward 900.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Korok_Seed (via r.jina.ai proxy)", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "quest system",
+      "name": "Shrine Quests",
+      "detail": "42 Shrine Quests total (base game). These are quests specifically tied to unlocking or reaching an otherwise-inaccessible/hidden shrine (e.g., solving an environmental puzzle to make a shrine appear). They are a distinct category from regular Side Quests.",
+      "trackable": "Tracked in the Adventure Log under a dedicated 'Shrine Quests' section, separate from other quest types.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Shrine_Quest (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "quest system",
+      "name": "Side Quests",
+      "detail": "90 Side Quests total across all content: 76 in the base game, 7 added by The Master Trials DLC (Pack 1), 1 added by the free version 1.3.3 update (NOT part of paid DLC), and 6 added by The Champions' Ballad DLC (Pack 2). Distinct from Shrine Quests and from the 17 Main Quests.",
+      "trackable": "Tracked in the Adventure Log, denoted by a speech-bubble/ellipsis icon, separate from Shrine Quests and Main Quests.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Side_Quest (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "side content",
+      "name": "Great Fairy Fountains",
+      "detail": "4 Great Fairy Fountains in the base game: Cotera's (woods above Kakariko Village), Kaysa's (south of Tabantha Tower), Mija's (woods south of Tarrey Town), and Tera's (Gerudo Desert, near a Leviathan skeleton in Dragon's Exile). Each must be 'unlocked' by paying an escalating Rupee fee (100/500/1,000/10,000 depending on how many fountains already found) before the Great Fairy emerges and offers armor upgrade services. Malanya Spring is a fifth similar location but houses the Horse God, not a Great Fairy, and does not offer armor upgrades.",
+      "trackable": "No dedicated completion counter found; fountains are marked on the map once discovered.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Great_Fairy_Fountain (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "side content",
+      "name": "Hyrule Compendium",
+      "detail": "385 total Hyrule Compendium entries in the base game (categories include Creatures ~83, Monsters ~86, Materials ~43, plus Equipment and Treasure categories). With The Champions' Ballad DLC installed, the total rises to 394 entries. Entries are registered by photographing creatures/monsters/materials/equipment with the Camera Rune on the Sheikah Slate. Completing the full Compendium rewards the 'Classified Envelope' from Symin at the Hateno Ancient Tech Lab. A related side quest ('Sunshroom Sensing') lets players buy missing pictures from Symin for 100 Rupees each once unlocked.",
+      "trackable": "Compendium menu exists and displays registered entries; could not confirm whether it explicitly shows a numeric completion percentage or 'X/385' counter in the UI (see gaps).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Hyrule_Compendium_Items_in_Breath_of_the_Wild (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "side content",
+      "name": "Horse taming and registration",
+      "detail": "Wild horses are tamed by mounting and calming them, then registered at any Stable for 20 Rupees, which grants them a saddle/bridle and lets Link summon/board them from any stable in Hyrule. Horses have an Affection stat (0-100) affecting obedience/bucking, raised by soothing or feeding apples/carrots. Notable named/special horses: Epona (via amiibo), the all-white 'White Horse' (max stamina), the Giant Horse (max strength, no stamina), and the Lord of the Mountain (rare mythical mount, unlimited stamina).",
+      "trackable": "Could not confirm whether stables display a registry/logbook listing all horses the player has registered (see gaps).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Horse (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "item/location",
+      "name": "Master Sword",
+      "detail": "Rests in a pedestal in the Korok Forest (beyond the Lost Woods). Link needs a minimum of 13 Hearts to pull it from the pedestal; below that, attempting to draw it deals damage instead. The Master Sword is entirely optional — it is not required to defeat Calamity Ganon.",
+      "trackable": "Possession shown in weapon inventory; no separate 'obtained' flag confirmed elsewhere.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Master_Sword (via r.jina.ai proxy)", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "boss/superboss",
+      "name": "Lynel variants (base game, no DLC required)",
+      "detail": "Lynel color-tier variants found in the open world, increasing in difficulty: (red-maned) Lynel, Blue-Maned Lynel, White-Maned Lynel, and Silver Lynel (toughest non-Master-Mode variant, appears as world level/story progress increases). Golden Lynel is a Master Mode DLC-exclusive top tier. Approximately 22 Lynels are placed throughout Hyrule in the base open world (additional Lynels appear in Master Mode and within the Trial of the Sword DLC gauntlet).",
+      "trackable": "No confirmed dedicated Lynel-kill counter; general enemy encounters are not tallied anywhere visible.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Lynel (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "post-game",
+      "name": "No true New Game Plus in base game",
+      "detail": "The base game has no New-Game-Plus/second-quest mode. After defeating Calamity Ganon and viewing the ending, common knowledge (not independently re-verified this session) is that the game autosaves just before the final battle and returns the player to open-world free roam rather than locking the save — the credits function as a preview rather than a hard stop. The closest thing to a harder 'post-game' experience is Master Mode, which is paid DLC (Pack 1) and runs on its own separate save file, not a true NG+ of an existing save.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training knowledge, not independently confirmed via search this session"]
+    },
+    {
+      "category": "DLC Pack 1",
+      "name": "The Master Trials (Expansion Pass Pack 1)",
+      "detail": "Released June 30, 2017. Confirmed contents: (1) Master Mode — a separate, harder difficulty accessible from the title screen on its own save file: enemies/bosses are up-ranked by one tier with better detection, enemies slowly regenerate health in combat, a new top enemy tier ('Golden' monsters) appears above Silver, Lynels appear in more locations including the Great Plateau, Sky Octoroks carry floating platforms with chests/enemies (often high-tier Royal Guard weapons), and only one autosave slot is available (vs. multiple in Normal Mode); a Triforce icon marks the mode on-screen. (2) Hero's Path Mode — records/displays the last 200 hours of Link's movement as a green line on the Sheikah Slate map; can be paused/scrubbed/hidden. (3) Trial of the Sword — a multi-floor combat gauntlet accessed by placing the (energy-charged) Master Sword back in its Korok Forest pedestal; sources disagree slightly on exact floor counts (see versionNotes). Completing it permanently upgrades the Master Sword to 60 Attack / 188 Durability with a much longer glowing 'true form' duration. (4) 7 new Side Quests total, including 'EX Trial of the Sword,' 'EX Strange Mask Rumors' (rewards the Korok Mask), 'EX Teleportation Rumors' (rewards the Travel Medallion, found in a chest beneath Lomei Labyrinth Island), and 4 treasure-hunt quests (triggered via rumor mills at certain stables) rewarding Majora's Mask, Tingle's Outfit, Midna's Helmet, and the Phantom armor set. IMPORTANT CORRECTION to a common assumption: these 4 armor pieces do NOT require scanning the corresponding amiibo — they are obtained purely by owning the DLC and completing the treasure-hunt quests. (Amiibo-based armor unlocks are a separate, free base-game feature called the 'Amiibo Rune,' unrelated to paid DLC.)",
+      "trackable": "Master Mode completion/state shown via Triforce icon; Hero's Path shown on map; DLC side quests tracked in Adventure Log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/The_Master_Trials (via r.jina.ai proxy)", "https://zeldawiki.wiki/wiki/Master_Mode (via r.jina.ai proxy)", "https://zeldawiki.wiki/wiki/Travel_Medallion (via r.jina.ai proxy)", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "DLC Pack 1 detail",
+      "name": "Trial of the Sword — floor structure",
+      "detail": "One source (Zelda Wiki, via proxy) states 54 total floors split into Beginning Trials (13 floors), Middle Trials (17 floors), and Final Trials (24 floors), of which 45 are combat floors and 9 are rest-stop floors (cooking/chest rooms) — matching the commonly cited '45 floors of combat.' A different source (Wikipedia) instead describes three trials of 12, 16, and 23 rooms (51 total). These two figures do not match exactly; the general 3-tier structure (increasingly long combat gauntlets with checkpoints) is corroborated by both, but the precise floor count needs a tie-breaking source before being used for a trophy description.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/Trial_of_the_Sword (via r.jina.ai proxy)", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "DLC Pack 2",
+      "name": "The Champions' Ballad (Expansion Pass Pack 2)",
+      "detail": "Released December 2017. Unlocks after freeing all four Divine Beasts and speaking with the four tribal leaders; Zelda then telepathically directs Link to return to the Shrine of Resurrection on the Great Plateau and insert the Sheikah Slate into a pedestal. Monk Maz Koshia gives Link the 'One-Hit Obliterator' weapon and tasks him with clearing 4 Monster Strongholds (enemy encampments); clearing each causes a new Ancient Shrine to appear. Once all four are cleared, the Obliterator splits into 4 orbs that scatter across Hyrule, causing Monuments to rise; at each Monument, Kass appears and sings a verse of the 'Unfinished Song,' guiding Link to collect region-specific Divine Beast Emblems (tied to Vah Medoh/Ruta/Rudania/Naboris regions). Emblems are used to enter 'Illusory Realm' encounters where Link fights Phantom Ganon-type bosses. 16 new Ancient Shrines are added in total across the DLC's content (see 'Shrines' finding above). After completing the champion-region content, Link undertakes the 'Final Trial' beneath the Shrine of Resurrection: activating 4 terminals to unlock doors, culminating in a boss fight against Monk Maz Koshia on a floating sky platform (the DLC's superboss/final encounter). Completion rewards: a recovered Memory showing the Champions' inauguration by King Rhoam at Hyrule Castle; the Master Cycle Zero (a motorcycle-like mount, summonable almost anywhere using material 'fuel'); and per-champion EX Recovered Memories plus permanent cooldown-reduction upgrades to each Champion's ability (Revali's Gale+, Mipha's Grace+, Daruk's Protection+, Urbosa's Fury+). Could NOT confirm a 'Champion's Tunic upgrade' as described in the task brief — the confirmed reward set is the ability cooldown upgrades, not a tunic change; this specific claim should be treated as unconfirmed/likely incorrect pending further check. 6 new Side Quests are added by this pack (separate from the 1 free-update side quest added in v1.3.3, which is NOT part of this paid DLC).",
+      "trackable": "Progress tracked via Adventure Log (quests) and the DLC shrine icons on the map; Master Cycle Zero ownership shown once summonable from inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldawiki.wiki/wiki/The_Champions%27_Ballad (via r.jina.ai proxy)", "https://en.wikipedia.org/wiki/Sidon_(The_Legend_of_Zelda)", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "gap/uncertain",
+      "name": "Exact per-champion trial dungeon names",
+      "detail": "Could not retrieve a clean, itemized list of individual quest/trial names tied specifically to Teba, Riju, Yunobo, and Sidon within the Champions' Ballad (e.g., exact EX quest titles for each). The overall macro-structure (Monster Strongholds -> Emblems -> Illusory Realm bosses -> Final Trial vs. Maz Koshia) is confirmed, but granular per-champion quest naming is not.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Spirit Orb count", "where": "Key Items section of inventory; resets when spent at a Goddess Statue", "confidence": "high" },
+    { "stat": "Shrine completion state (per-shrine)", "where": "Color/icon state of each shrine marker on the Sheikah Slate map (undiscovered / discovered-incomplete / completed-blue); no aggregate numeric counter confirmed", "confidence": "medium" },
+    { "stat": "Shrine Quests", "where": "Adventure Log, dedicated section, separate from other quest types (42 total)", "confidence": "medium" },
+    { "stat": "Side Quests", "where": "Adventure Log, denoted by speech-bubble icon, separate from Shrine Quests and Main Quests", "confidence": "medium" },
+    { "stat": "Hyrule Compendium entries", "where": "Compendium menu on Sheikah Slate; registers photographed creatures/monsters/materials/equipment. Could not confirm whether a numeric 'X/385' or percentage is displayed in the UI itself vs. just filled/unfilled entry slots", "confidence": "low" },
+    { "stat": "Korok Seed total collected", "where": "No confirmed in-game numeric counter; only inferred via Hestu dialogue milestones and inventory slot maximums", "confidence": "low" },
+    { "stat": "Master Mode active state", "where": "Triforce icon shown in bottom-left of screen during Master Mode play; separate save file from Normal Mode", "confidence": "high" },
+    { "stat": "Hero's Path recorded movement", "where": "Green line overlay on Sheikah Slate map, DLC Pack 1 feature, spans last 200 hours of play", "confidence": "high" }
+  ],
+  "versionNotes": [
+    { "note": "Champions' Ballad DLC raises the Hyrule Compendium total from 385 entries to 394 entries.", "confidence": "medium" },
+    { "note": "Shrine total is platform-independent between Wii U and Switch, but is DLC-dependent: 120 shrines without any DLC, 136 with The Champions' Ballad installed.", "confidence": "medium" },
+    { "note": "One Side Quest was added via the free version 1.3.3 update, distinct from both paid DLC packs — should not be counted as DLC content for trophy purposes.", "confidence": "medium" },
+    { "note": "Silver Lynels do not require any DLC — they appear in the base game as world state/story progress increases. Golden Lynels are Master Mode (DLC Pack 1) exclusive.", "confidence": "medium" },
+    { "note": "The 4 armor sets popularly associated with amiibo (Majora's Mask, Midna's Helmet, Phantom armor set, Korok Mask) are obtained via The Master Trials (Pack 1) treasure-hunt quests and do NOT require scanning amiibo, contradicting a common assumption; amiibo-based unlocks are a separate free base-game system (Amiibo Rune).", "confidence": "medium" },
+    { "note": "No Wii U-specific differences are relevant since the target platform is Switch/Switch 2; the Phantom armor set is noted by some sources as originally tied to the Wii U's amiibo functionality but is obtainable on Switch via the Pack 1 DLC quest without amiibo.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the Hyrule Compendium menu displays an explicit completion percentage or 'X/385' counter, or only shows filled vs. empty entry slots visually.",
+    "Could not confirm whether Stables display a registry/logbook listing all horses the player has registered.",
+    "Could not resolve the discrepancy between two sources on Trial of the Sword's exact floor count (54 total / 13-17-24 split vs. 51 total / 12-16-23 split).",
+    "Could not obtain exact individual quest/trial names for the four champion-descendant storylines (Teba, Riju, Yunobo, Sidon) within The Champions' Ballad — only the overall macro-structure is confirmed.",
+    "Could not verify the claim of a 'Champion's Tunic upgrade' as a Champions' Ballad reward — the confirmed rewards are ability cooldown-reduction upgrades (Revali's Gale+, Mipha's Grace+, Daruk's Protection+, Urbosa's Fury+) and the Master Cycle Zero; a tunic-specific reward was not found in any source checked.",
+    "Could not independently verify (this session) what happens immediately after the Calamity Ganon ending — whether the game autosaves before the fight and allows continued free-roam. This is widely believed to be true from general knowledge but was not re-confirmed via search this session.",
+    "Could not verify an exact total for 'named' or superboss-tier optional encounters beyond Lynels (e.g., whether a specific unique/named Hinox or Guardian variant is considered the toughest non-DLC optional fight).",
+    "This research session's web-search tool (WebSearch) was unavailable for the entire session (budget exhausted before this scout could use it) and most major wikis (Fandom/zelda.fandom.com, IGN, GameFAQs, Zelda Dungeon, Polygon, Eurogamer, NintendoLife) returned 403/402/blocked errors to direct WebFetch. Findings above rely on zeldawiki.wiki (fetched via an r.jina.ai reader proxy) and Wikipedia, which are decent but not fully exhaustive sources — a second-pass verification against IGN/Zelda Dungeon/official Nintendo pages is recommended before finalizing trophy text, especially for exact counts.",
+    "Could not confirm the exact price of The Master Trials or The Champions' Ballad DLC packs individually (only the bundled Expansion Pass pricing is commonly cited from memory, not verified this session)."
+  ]
+}

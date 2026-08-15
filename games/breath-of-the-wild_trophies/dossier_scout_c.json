@@ -1,0 +1,196 @@
+{
+  "beat": "progression systems, trackable stats, missables, RNG, version differences",
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "progression-system",
+      "name": "Spirit Orbs -> Heart Container / Stamina Vessel",
+      "detail": "Completing a shrine's trial (or certain shrine quests) awards one Spirit Orb. Spirit Orbs are turned in 4-at-a-time at a Goddess Statue (found in the Temple of Time ruins and in every stable/major settlement) in exchange for either one additional Heart Container or one additional Stamina Vessel, player's choice each time. There are 120 shrines in the base game, so 120 Spirit Orbs = 30 total upgrades obtainable, splittable between hearts and stamina however the player wants.",
+      "trackable": "Current heart count and stamina wheel segments are always visible on the HUD/status screen. Un-spent Spirit Orb count is shown in the inventory pouch.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["training knowledge, widely documented core mechanic"]
+    },
+    {
+      "category": "progression-system",
+      "name": "Max hearts / max stamina obtainable in base game",
+      "detail": "Starting health is 3 hearts. If all 120 base-game Spirit Orbs were spent on hearts only, that would be 33 hearts; if split, fewer. I could not verify this session whether the game enforces a hard visual/mechanical cap below that theoretical max (community lore says there is a UI cap around 30 hearts, but I have not confirmed this with a source this session).",
+      "trackable": "Status screen / HUD.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "menu-system",
+      "name": "Hyrule Compendium",
+      "detail": "An in-game photo/data album accessed via the Sheikah Slate. Populated by using the Camera rune (or a scoped/zoomed shot) to photograph creatures, monsters, materials, equipment, and treasure. Organized into categories (Creatures, Monsters, Materials, Equipment, Treasure). I recall the base-game total is commonly cited as 164 entries, with additional entries added by the paid DLC (Trial of the Sword / Champion's Ballad related gear and creatures), but I could not confirm the exact base or DLC-inclusive total via a source this session.",
+      "trackable": "Compendium menu shows filled vs. blank (silhouette/question-mark) slots per category, which functions as a visual completion tracker. I could NOT confirm whether the game displays an explicit aggregate completion percentage or numeric count (e.g. 'X/164') anywhere, or whether completion is only inferable by counting filled grid slots visually.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection; Wikipedia confirmed the Compendium exists as 'an in-game photo album that can be used to locate valuable items' but gave no entry count or percentage-display detail"]
+    },
+    {
+      "category": "menu-system",
+      "name": "Shrine discovery/completion tracking",
+      "detail": "120 shrines total in the base game, shown as icons on the Sheikah Slate map (distinct icon states for undiscovered/unlit, found-but-not-completed, and completed/lit). I could not confirm this session whether there is an explicit numeric shrine counter (e.g. 'you have completed X of 120 shrines') anywhere in the vanilla menus, or whether progress is only inferable by visually scanning map icons.",
+      "trackable": "Map icon states are visible at any time; no confirmed numeric aggregate counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection, unverified via source this session"]
+    },
+    {
+      "category": "collectible",
+      "name": "Korok Seeds",
+      "detail": "900 Korok Seeds exist in the base game, found by solving small environmental puzzles. Seeds are turned in to Hestu to expand weapon/bow/shield inventory slots. Once all 900 have been given to Hestu, he gives a special reaction/reward (a 'Korok Mask' item, per long-standing community knowledge, unverified this session).",
+      "trackable": "Current unspent Korok Seed count is shown in the inventory pouch as a stackable item, which is a de facto running counter, but it decreases as seeds are spent at Hestu, so there is no persistent 'X of 900 found' display once seeds are turned in.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "weapon-system",
+      "name": "Weapon/bow/shield durability",
+      "detail": "Nearly all weapons, bows, and shields degrade with use and break permanently when durability reaches zero (shattering, with no repair mechanic in the base game).",
+      "trackable": "Each weapon shows a durability bar in the inventory/quick-select wheel; flashes red/rumbles when close to breaking.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (fetched): 'weapons and shields degrade through use, eventually shattering'"]
+    },
+    {
+      "category": "weapon-system",
+      "name": "Master Sword - unbreakable exception",
+      "detail": "The Master Sword is the only weapon in the base game that cannot be permanently destroyed. Instead of breaking, it 'runs out of energy' after extended combat use and becomes unusable for a cooldown period (commonly cited as roughly 10 minutes) before it can be drawn again. The Master Sword must first be obtained by meeting the strength requirement (a minimum number of hearts, commonly cited as 13) and pulling it from its pedestal in the Korok Forest.",
+      "trackable": "A distinct 'recharging' icon/state is shown when the Master Sword is depleted.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (fetched): 'The Master Sword is identified as the only unbreakable weapon, but it can run out of energy after extended use, requiring a 10-minute recharge.'"]
+    },
+    {
+      "category": "cooking-system",
+      "name": "Cooking and Dubious Food",
+      "detail": "Combining ingredients at a cooking pot produces meals or elixirs that restore hearts/stamina and can grant temporary buffs (speed, stealth, cold/heat/electric resistance, attack/defense up, etc.) depending on which ingredients are combined. Combining incompatible or otherwise invalid ingredient combinations produces 'Dubious Food,' a low-value item that restores only a small amount of hearts and provides no bonus effects.",
+      "trackable": "Not tracked via a dedicated menu counter that I could confirm; cooked items go into the general inventory/food list.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection (well-established, widely known mechanic); not independently re-verified via source this session"]
+    },
+    {
+      "category": "cooking-system",
+      "name": "Elixirs",
+      "detail": "Made by combining a monster part with a critter (bugs, lizards, frogs, etc.) at a cooking pot; the critter type determines the elixir's status effect, while the monster part determines potency/duration.",
+      "trackable": "Same as cooked meals - inventory list, no dedicated counter confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No difficulty options in the base game",
+      "detail": "The base (non-DLC) game has no selectable difficulty setting. 'Master Mode' - which doubles enemy strength, elevates enemy levels by one rank, gives enemies regenerating health shields, and adds floating platforms with bonus items - is exclusive to 'The Master Trials' portion of the paid Expansion Pass DLC, and is chosen as a separate save file, not a toggle on the base game.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (fetched): 'higher difficulty level, Master Mode, ... adds faster rank leveling and raises the ranks of enemies by 1'"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Single-player only",
+      "detail": "Breath of the Wild has no online or local multiplayer/co-op mode of any kind in the base game on any platform.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (fetched): game listed as 'Single-player'"]
+    },
+    {
+      "category": "missable-content",
+      "name": "No confirmed permanently-missable content",
+      "detail": "BotW is designed as an open, non-linear world where the four Divine Beasts and nearly all shrines/side quests remain accessible at any time. The Calamity Ganon final battle can be triggered at any point in the game, but doing so and completing it returns the player to an autosave from just before the final fight (rather than locking the save into a post-game state), which is the game's deliberate mechanism for avoiding a hard 'point of no return.' I did not find (and could not re-confirm this session via a fresh source) any genuinely time-limited or story-gated content that becomes permanently unobtainable in the base game.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection; well-established community knowledge, not independently re-verified via source this session"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Eventide Island treasure hunt",
+      "detail": "On Eventide Island (a DLC-free, base-game shrine-quest island where all gear is confiscated on arrival), a stranded merchant NPC asks the player to find his lost treasure chests scattered around the island, giving him a running count of chests found. I recall the chest locations are fixed (not randomized) and the merchant gives audio/proximity-style hints rather than exact map markers, but I could not confirm the exact chest count (commonly cited as 6) via a source this session.",
+      "trackable": "The merchant NPC verbally reports how many chests have been found out of the total when spoken to.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Amiibo rewards",
+      "detail": "Scanning a compatible amiibo (BotW-line Zelda amiibo, other Zelda-series amiibo, and many non-Zelda amiibo) once per real-world day spawns a treasure chest or drop pile nearby containing a randomized set of materials/weapons/rupees drawn from a pool tied to that specific amiibo. Certain amiibo (e.g., Wolf Link) provide unique non-random functionality instead of loot (a temporary AI companion). I could not confirm exact per-amiibo drop tables or drop-rate percentages this session.",
+      "trackable": "Not tracked via a menu counter; loot simply appears in the world/inventory.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Enemy/material drops",
+      "detail": "Most enemy part drops (horns, fangs, guts, tails, etc.) are consistent per enemy type/tier on kill, though exact drop rates for rarer items (e.g., certain weapon drops from higher-level enemy camps, or specific rare materials) are commonly believed to have RNG weighting. I could not verify specific drop-rate percentages this session.",
+      "trackable": "Not applicable - drops go directly to inventory.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training recollection, unverified this session"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Nintendo Switch 2 Edition",
+      "detail": "Nintendo released a Nintendo Switch 2 Edition of Breath of the Wild (reported release date June 5, 2025, alongside Switch 2 launch). It reportedly includes improved resolution, higher framerate, and HDR support versus the original Switch version, plus integration with the Nintendo Switch Online smartphone app via a feature called 'Zelda Notes,' which is described as providing real-time voiced navigation/hints for collectibles and secrets. I confirmed via Nintendo's own US store listing that there are three distinct purchase options for the game (Nintendo Switch, Nintendo Switch 2, and an 'Upgrade Pack'), and that the Switch 2 version has a marginally larger file size (14.5 GB vs. 14.4 GB for the Switch version) implying it is a distinct build, not just backward compatibility. I could NOT confirm this session whether the Switch 2 Edition/Upgrade Pack is free or paid, nor the exact price, nor the exact resolution/framerate numbers, nor whether Switch 2 exclusive control features (GameChat, Joy-Con 2 mouse aim) apply to this specific game.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia (fetched, main BotW article): 'Released June 5, 2025, features include improved resolution, higher framerate, HDR support, and integration with the mobile Nintendo Switch Online App' and 'Zelda Notes' feature description", "Nintendo.com US store product page (fetched): confirms separate Switch/Switch 2/Upgrade Pack listings and slightly different file sizes"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Switch (original/base) backward compatibility on Switch 2",
+      "detail": "Nintendo's own compatibility notice for the original Switch digital listing states 'Supported - Game behavior is consistent with Nintendo Switch' when run on Switch 2 hardware without the Switch 2 Edition/Upgrade Pack, implying no automatic enhancement unless the separate Switch 2 Edition/Upgrade Pack is obtained.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Nintendo.com US store product page (fetched)"]
+    },
+    {
+      "category": "dlc-adjacent",
+      "name": "No known free content additions outside the paid Expansion Pass",
+      "detail": "I did not find evidence of free post-launch content additions to the base game beyond the paid Expansion Pass DLC (The Master Trials: Trial of the Sword, Hero's Path Mode, Travel Medallion, extra armor sets, Master Mode; and The Champion's Ballad: additional main quest, new armor, new Divine Beast-adjacent content). Amiibo functionality (armor unlocks, Wolf Link companion, treasure drops) works without the Expansion Pass but requires owning separately-sold physical amiibo figures, so it is not purely 'free' content, though it doesn't require the paid DLC.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training recollection, unverified this session"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Heart Containers / Stamina Vessels (current totals)", "where": "HUD and Status/Inventory screen, always visible", "confidence": "high" },
+    { "stat": "Hyrule Compendium entries filled (per category grid)", "where": "Sheikah Slate > Compendium menu; filled vs. blank slots visible per category", "confidence": "medium" },
+    { "stat": "Shrine discovery/completion state (per shrine)", "where": "Sheikah Slate map, via icon color/fill state per shrine marker", "confidence": "medium" },
+    { "stat": "Current unspent Korok Seed count", "where": "Inventory/pouch item list (does not persist as a lifetime-found counter once spent)", "confidence": "medium" },
+    { "stat": "Weapon/bow/shield durability", "where": "Inventory and quick-select HUD wheel, per-item durability bar", "confidence": "high" },
+    { "stat": "Eventide Island treasure chests found (out of total)", "where": "Reported verbally by the stranded merchant NPC on request", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Nintendo Switch 2 Edition (released ~June 5, 2025) adds improved resolution, higher framerate, and HDR support versus the original Switch version, plus a 'Zelda Notes' companion-app integration for real-time hints/navigation via the Nintendo Switch Online smartphone app.", "confidence": "medium" },
+    { "note": "Whether the Switch 2 Edition/Upgrade Pack is free or paid, and its exact price, could not be confirmed this session.", "confidence": "low" },
+    { "note": "Whether the Switch 2 version has any exclusive gameplay-affecting feature comparable to Metroid Prime 4's Joy-Con 2 mouse-aim (e.g., GameChat support, mouse controls) could not be confirmed this session - no source found describing such a feature for BotW specifically.", "confidence": "low" },
+    { "note": "Master Mode difficulty is exclusive to the paid 'Master Trials' Expansion Pass DLC and is not available in the base game on either Switch or Switch 2.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm the exact total number of Hyrule Compendium entries in the base game, nor the DLC-inclusive total, nor whether the compendium menu displays an explicit numeric/percentage completion indicator versus only a visual grid of filled/blank slots.",
+    "Could not confirm whether the game displays any numeric aggregate shrine counter (e.g., 'X/120 shrines completed') anywhere in the vanilla menus, versus only individual map icon states.",
+    "Could not confirm the exact maximum heart count / stamina wheel segments obtainable, or whether there is a hard UI cap below the theoretical 33-heart maximum.",
+    "Could not confirm exact Eventide Island treasure chest count (commonly recalled as 6, unverified) or the precise mechanic (fixed locations vs. any randomization) of the merchant's hint system.",
+    "Could not confirm exact amiibo-specific drop tables, drop rates, or the full list of BotW-compatible amiibo and their unique effects.",
+    "Could not confirm whether the Switch 2 Edition/Upgrade Pack is free or paid, nor its exact price.",
+    "Could not confirm exact resolution/framerate targets (e.g., 4K/60fps docked) for the Switch 2 Edition versus the original Switch version's ~900p/30fps docked target.",
+    "Could not confirm whether the Switch 2 version includes any Switch-2-hardware-exclusive control feature (mouse aim, GameChat, etc.) analogous to Metroid Prime 4: Beyond.",
+    "Could not independently re-verify (via a fresh source this session) that literally nothing in the base game is permanently missable; this rests on strong but unconfirmed-this-session community/training knowledge.",
+    "Could not confirm exact Korok Seed reward details (e.g., 'Korok Mask') given by Hestu after all 900 seeds are collected.",
+    "Web search tool budget was exhausted early in this task; most findings after that point rely on WebFetch against specific URLs (many of which returned 403/404/paywall errors) plus flagged training recollection."
+  ]
+}

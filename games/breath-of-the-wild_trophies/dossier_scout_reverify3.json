@@ -1,0 +1,80 @@
+{
+  "beat": "reverify-switch2-and-misc",
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "findings": [
+    {
+      "question": "Is the Nintendo Switch 2 Edition free or paid, and what is the exact price?",
+      "answer": "It is sold three ways: (1) a standalone full digital game 'Nintendo Switch 2 Edition' for $69.99 USD; (2) a paid 'Upgrade Pack' for existing Switch-version owners priced at $9.99 USD; (3) free (included at no additional cost) for anyone with an active Nintendo Switch Online + Expansion Pack membership. Released June 5, 2025, alongside Switch 2 hardware.",
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-upgrade-pack-switch-2/ (official Nintendo store, upgrade pack listed at $9.99)",
+        "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-switch-2/ (official Nintendo store, standalone edition $69.99, NSO+EP no-additional-cost language)",
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild (confirms release June 5, 2025 and the three-tier availability model)"
+      ]
+    },
+    {
+      "question": "Exact resolution/framerate targets for the Switch 2 Edition (docked and handheld), compared to the original Switch version",
+      "answer": "Switch 2 Edition: docked mode targets a native ~1440p (marketed as 'up to 4K' via upscaling) at a stable 60fps, with Digital Foundry noting drops to as low as 810p during intensive effects (e.g., heavy Ultrahand-style physics use); handheld mode is dynamic, roughly 648p–1080p, also at a stable 60fps. Original Switch version: docked targeted 900p at 30fps (with well-documented frame-rate drops in demanding areas like Korok Forest and Kakariko Village); handheld ran at a lower, sub-720p dynamic resolution, also 30fps-targeted. The headline upgrade on Switch 2 is doubling the framerate target from 30fps to 60fps in both modes, not just a resolution bump.",
+      "confidence": "medium",
+      "sources": [
+        "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/ (summarizing a Digital Foundry technical analysis; gives docked 1440p/810p-worst-case and handheld 648p-1080p figures, both stable 60fps)",
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition (review states docked 'up to 4K' at 'rock-solid 60fps', handheld '1080p', and describes original Switch framerate as faltering in demanding areas)"
+      ]
+    },
+    {
+      "question": "Does the Switch 2 version have any exclusive gameplay-affecting feature beyond performance and Zelda Notes companion-app integration?",
+      "answer": "No gameplay-affecting feature comparable to Joy-Con 2 mouse controls or GameChat integration was found. Multiple reviews explicitly state that 'from a gameplay perspective little has changed' beyond performance. The only notable non-performance addition confirmed across sources is a second manual save-data slot (letting players start a fresh save without overwriting their original). Everything else exclusive to this edition is confined to the companion smartphone app 'Zelda Notes' (voice-narrated navigation for shrines/Koroks, ~135 Voice Memories narrated by Zelda's VA, daily in-game bonuses, photo decoration, QR code item transfers) — these are app-side conveniences, not in-game systems changes. One review's comment section referenced a possible 'item box' with a 100-item limit, but this was unconfirmed community commentary, not verified in the reviews themselves.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.vooks.net/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-review/ (via search snippet: lists Zelda Notes features, second save slot; states little changed gameplay-wise)",
+        "https://mynintendonews.com/2025/06/13/review-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition/ (confirms second save slot as the only gameplay-related addition; no mention of GameChat or mouse controls)",
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition (same conclusion; criticizes that meaningful additions are confined to the companion app)",
+        "https://zeldawiki.wiki/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild_%E2%80%93_Nintendo_Switch_2_Edition (confirms 'additional save file' as the only listed gameplay addition; page's 'Changes and Additions' section noted as incomplete)"
+      ]
+    },
+    {
+      "question": "Divine Beasts freed counter — is there any numeric 'X/4' indicator in the UI?",
+      "answer": "No numeric 'X/4' Divine Beast counter could be confirmed anywhere in the game's UI (Sheikah Slate menus, Adventure Log/quest log, or elsewhere). Checks of the Zelda Wiki pages for Divine Beast, Adventure Log, and Sheikah Slate returned no mention of any such aggregate counter. The closest thing the game shows is each Divine Beast's individual quest ('Divine Beast Vah Ruta', 'Divine Beast Vah Rudania', 'Divine Beast Vah Medoh', 'Divine Beast Vah Naboris') marked as completed separately in the quest log — there is no single number summarizing how many of the four have been freed. This is a negative finding based on absence of any source mentioning such a feature, not a definitive confirmation of non-existence.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Divine_Beast (via r.jina.ai proxy fetch — no counter/HUD element described)",
+        "https://zeldawiki.wiki/wiki/Adventure_Log (via r.jina.ai proxy fetch — no Divine Beast progress counter described)",
+        "https://zeldawiki.wiki/wiki/Sheikah_Slate (via r.jina.ai proxy fetch — no Divine Beast counter described)"
+      ]
+    },
+    {
+      "question": "Does the post-credits scene (after Dark Beast Ganon) require all 12 Captured Memories, all 18 total memories, or something else?",
+      "answer": "Requires completing the 'Captured Memories' side quest specifically — i.e., all 12 photo-based Captured Memories (found via the Sheikah Slate photo album, with the final/unclear location revealed by Impa once the other 11 are found). It does NOT require the other 6 story memories that unlock automatically through main-quest progression (nor the 5 additional EX Memories added by the Champions' Ballad DLC, which are unrelated). Completing this 12-memory quest and then defeating Calamity Ganon/Dark Beast Ganon unlocks an additional post-credits scene. Community sources (e.g. GosuNoob comments) show some confusion referring to a '13th memory,' but this appears to refer to the final Impa-hinted location, which is still part of the same 12-memory Captured Memories quest, not a distinct 13th memory.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Memory (via r.jina.ai proxy: 'Completing the Captured Memories Main Quest will also unlock a post-credits scene after defeating Calamity Ganon'; confirms 12 Captured Memories vs. 18 total main memories, plus 5 EX Memories from DLC = 23 combined)",
+        "https://www.gosunoob.com/zelda-breath-of-wild/how-to-get-alternate-endings-zelda-botw/ (states requirement as freeing all Divine Beasts, finishing main story, and 'every memory'; comment section debates whether this means 12 or 13 memories specifically, not 18)"
+      ]
+    },
+    {
+      "question": "Calamity Ganon's HP values — 8,000 default, halved to ~4,000 if all Divine Beasts freed?",
+      "answer": "Confirmed: Calamity Ganon has a base 8,000 HP. Each Divine Beast freed before the final fight reduces his HP by 1/8 (1,000 HP) each, so freeing all four Divine Beasts cuts his total HP in half to 4,000 HP. Partial completion scales linearly between these values (e.g., 2 beasts freed = 6,000 HP).",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Calamity_Ganon (via r.jina.ai proxy fetch: 'Even though he has 8,000 HP, if all Divine Beasts are freed, then his health is cut by half' and 'Ganon will lose 1/8th of his health for every Divine Beast freed')"
+      ]
+    }
+  ],
+  "trackableStats": [],
+  "versionNotes": [
+    {
+      "note": "Switch 2 Edition adds a second manual save-data slot not present (or not needed in the same way) on original Switch, allowing a fresh playthrough without overwriting the original save.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch 2 Edition framerate target is 60fps in both docked and handheld modes, versus the original Switch's 30fps target in both modes — this is the single biggest gameplay-feel change, though it is a performance change, not a new mechanic.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Could not find a primary Digital Foundry / Eurogamer article directly (site blocked all fetch attempts); resolution/framerate figures rest on two secondary sources (Nintendo Everything's summary of the DF analysis, and a Nintendo Life review) that agree in substance but differ slightly in how they phrase docked resolution ('1440p native, 810p worst-case' vs. 'up to 4K'). Recommend treating exact resolution numbers as approximate for trophy-copy purposes.",
+      "Could not definitively rule out a Divine Beasts 'X/4' counter existing somewhere in-game (e.g., a specific menu screen not covered by the wiki pages checked) — this is an absence-of-evidence finding, not a confirmed absence. If a trophy design depends on this counter existing, verify directly in-game before finalizing.",
+    "Could not confirm whether the 'Second save file' feature on Switch 2 Edition has any trophy-relevant implication (e.g., whether trophies must be earned on one particular save slot).",
+    "Community commentary (GosuNoob) references some ambiguity between '12' and '13' memories for the true-ending quest; while the Zelda Wiki source resolves this as the same 12-memory 'Captured Memories' quest, a second independent source explicitly stating '12' (not 13) for the ending trigger specifically would strengthen confidence from medium to high."
+  ]
+}

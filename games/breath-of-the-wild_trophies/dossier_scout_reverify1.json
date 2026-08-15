@@ -1,0 +1,68 @@
+{
+  "beat": "reverify-compendium-tracking",
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "findings": [
+    {
+      "question": "Hyrule Compendium exact total entry count",
+      "answer": "Base game total is 385 entries. This is corroborated by multiple independent sources (IGN wiki, ZeldaWiki, Neoseeker, Zelda Central) all stating 385 for the base game. With The Champions' Ballad DLC, the total rises to approximately 394 entries (per Zelda Central; described as 'approximately,' not pinned to an exact primary citation). The earlier ~164 figure from memory appears to be simply wrong/unconfirmed anywhere and should be discarded. Regarding on-screen display: the Compendium's own in-game menu (the book/journal UI with Creatures/Monsters/Materials/Equipment/Treasure category pages) does NOT show an explicit numeric count or percentage anywhere in that menu — it only shows filled vs. blank/silhouette entry slots visually, per category page. Separately, BOTW has an UNRELATED 'map completion percentage' that appears in the corner of the Sheikah Slate map only after defeating Calamity Ganon; this percentage tracks ONLY 4 Divine Beasts (0.32% weight), 120 Shrines (9.6%), 226 discoverable named locations (18.08%), and 900 Korok Seeds (72%) — it explicitly does NOT include the Hyrule Compendium at all. An earlier note claiming 'the Compendium has a hidden percentage counter that appears after beating Ganon' appears to be a conflation of these two separate systems by a weak secondary source; the map % and the Compendium are confirmed-separate mechanics.",
+      "confidence": "medium",
+      "sources": [
+        "Brave Search aggregation citing ign.com/wikis/the-legend-of-zelda-breath-of-the-wild/Hyrule_Compendium",
+        "Brave Search aggregation citing zeldawiki.wiki/wiki/Hyrule_Compendium_Items_in_Breath_of_the_Wild",
+        "Brave Search aggregation citing zeldacentral.com/games/breath-of-the-wild/hyrule-compendium/",
+        "Brave Search aggregation citing neoseeker.com guide",
+        "Brave Search aggregation re: map completion percentage breakdown (Shrines/Korok/Divine Beasts/locations, excluding Compendium)"
+      ]
+    },
+    {
+      "question": "Shrine completion tracking - explicit numeric counter",
+      "answer": "The game's save-file loading/continue screen displays a bare numeric shrine-completion count as one of several stat icons (alongside Hearts, Stamina Wheels, Rupees, Korok Seeds, Divine Beasts). Per an Arqade (Stack Exchange) description paraphrased in search results: 'Below the hearts and stamina vessels there is an icon... with the number of shrines you completed.' This appears to be a BARE number (e.g. just '45'), NOT a fraction like '45/120' — no source found shows a denominator being displayed. Separately, on the world map, shrine progress is also visible per-icon (color/state: found-but-incomplete vs. completed vs. undiscovered). Note: this loading-screen shrine counter reportedly only counts the 120 base-game shrines and does not include any 'EX' (DLC quest-reward) shrines, which use a different icon and aren't added to this count.",
+      "confidence": "medium",
+      "sources": [
+        "Yahoo Search aggregation citing gaming.stackexchange.com (Arqade)",
+        "Yahoo Search aggregation citing a GameFAQs discussion re: EX shrines not counted in the loading-screen total"
+      ]
+    },
+    {
+      "question": "Korok Seed tracking - lifetime total vs current unspent",
+      "answer": "Two different seed numbers exist in different places: (1) The save-file loading/continue screen displays a LIFETIME cumulative total of Korok Seeds ever found — per community discussion, this number does NOT decrease when seeds are turned in to Hestu ('The loading screen shows the number of TOTAL Korok Seeds you obtained, not taking into account the ones that you already spent. This is normal and intended.'). (2) The current unspent/held seed count, which DOES decrease as seeds are spent at Hestu, is shown separately in the Key Items section of the inventory. So there IS an in-game numeric lifetime tracker, on the loading screen — this contradicts the premise in the question that assumed only a decreasing current count exists. Regarding the final reward: Hestu gives the player 'Hestu's Gift' upon turning in all 900 Korok Seeds (after maxing all inventory-slot stashes) — described consistently as a decorative/cosmetic Key Item with no further gameplay function (a golden statue/ornament), essentially a completion trophy item. It is NOT called a 'Korok Mask.'",
+      "confidence": "medium",
+      "sources": [
+        "Yahoo Search aggregation citing a Reddit community discussion re: loading-screen seed count being cumulative/lifetime",
+        "Yahoo Search aggregation citing ign.com Key Items page re: Hestu's Gift",
+        "Yahoo Search aggregation citing zelda.fandom.com re: Hestu's Gift being received after collecting all 900 seeds and maxing stashes"
+      ]
+    },
+    {
+      "question": "Horse registration - registry/logbook at Stables",
+      "answer": "No evidence found of any in-game registry, logbook, or list screen at Stables that displays all horses the player has registered. Multiple guide sources describe Stables' functions (register a horse, board a registered horse, retrieve a registered horse) without ever mentioning a list/registry UI. One confirmed related fact: up to 5 horses may be registered at once (across all stables, shared pool). This is an absence-of-evidence conclusion — no source explicitly said 'there is no such list' in so many words, but none of several guide sources describing stable mechanics in detail mentioned one either, which is a fairly strong negative signal for a mechanic that heavily-documented guides would likely call out if it existed.",
+      "confidence": "medium",
+      "sources": [
+        "Yahoo Search aggregation of multiple stable/horse-registration guide snippets (no registry screen mentioned in any)"
+      ]
+    },
+    {
+      "question": "Divine Beasts freed counter - explicit numeric indicator",
+      "answer": "Yes — the same save-file loading/continue screen that shows Hearts, Stamina Wheels, Rupees, Korok Seeds, and Shrines also displays a numeric count of 'Divine Beasts you've completed' (i.e., freed). This was confirmed via the same source describing the full set of loading-screen stat icons. Exact display format (bare number 0-4 vs. an explicit 'X/4') was not independently confirmed, but by analogy with the shrine counter (confirmed bare number, no denominator shown), it is likely also a bare number rather than a fraction.",
+      "confidence": "medium",
+      "sources": [
+        "Yahoo/Brave Search aggregation describing the BOTW loading screen stat set: 'Hearts, Stamina Wheels, Korok Seeds, Rupees... Shrines and Divine Beasts you've completed'"
+      ]
+    }
+  ],
+  "trackableStatsConfirmed": [
+    { "stat": "Shrines completed (bare number, base-120 only, excludes EX shrines)", "where": "Save-file loading/continue screen", "confidence": "medium" },
+    { "stat": "Korok Seeds found (lifetime cumulative total, does not decrease when spent)", "where": "Save-file loading/continue screen", "confidence": "medium" },
+    { "stat": "Korok Seeds currently held (decreases when given to Hestu)", "where": "Key Items section of inventory", "confidence": "medium" },
+    { "stat": "Divine Beasts freed/completed (count of 4)", "where": "Save-file loading/continue screen", "confidence": "medium" },
+    { "stat": "Overall map completion percentage (Shrines 9.6% + Korok Seeds 72% + Divine Beasts 0.32% + 226 discoverable locations 18.08%; explicitly excludes Compendium, quests, armor, enemies defeated)", "where": "Bottom-left corner of the Sheikah Slate map screen, unlocked only after defeating Calamity Ganon", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not directly access primary wiki/guide pages (IGN, ZeldaWiki/zeldawiki.wiki, Zelda Dungeon, Fandom's zelda.fandom.com, Polygon, GameFAQs, Eurogamer, PCGamer, StrategyWiki, RockPaperShotgun, Kotaku, GamesRadar, TheGamer, NintendoLife, GameRant) — all returned HTTP 403/404 to the fetch tool in this session. All findings above were obtained via search-engine result aggregation/summarization (Brave and Yahoo search proxies) rather than reading primary source text directly, which is a real limitation on precision.",
+    "The 394-entry Compendium-with-DLC figure rests on a single secondary aggregator source (Zelda Central) describing it as 'approximately' — could not corroborate with a second independent source or an official/primary citation.",
+    "Could not 100% confirm whether the loading-screen shrine and Divine Beast counters are truly bare numbers with zero denominator displayed anywhere (vs. possibly showing 'X/120' or 'X/4' in some UI state not covered by the sources found) — inferred by analogy and partial paraphrase, not a direct screenshot/primary confirmation.",
+    "The 'no horse registry list exists' conclusion is inferred from absence of any guide mentioning such a feature, not from an explicit source stating a list does not exist. Could not find a direct confirmation either way.",
+    "Could not fully corroborate the claim that the Compendium menu itself never shows any number/percentage on any of its category pages — this rests on the absence of contrary evidence plus reconciling two partially-conflicting secondary claims, not a direct primary-source description of the Compendium UI.",
+    "Note: this session's dedicated WebSearch tool was already at its budget cap from a prior task before this re-verification began, so all research here had to be done via WebFetch against search-engine result pages instead, which was considerably less reliable (frequent CAPTCHAs, rate limits, and irrelevant cached content from Bing/DuckDuckGo/Google) — Brave and Yahoo search proxies were the only two that reliably returned relevant summarized snippets."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "mode": "genesis",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "releaseDate": "2017-03-03 (Wii U + Switch simultaneous launch) / 2025-06-05 (Switch 2 Edition)",
+  "researchDate": "2026-08-14",
+  "researchQualityNote": "This round's scouting hit real friction — the shared WebSearch tool budget was exhausted before or shortly into each scout's work, and most major gaming wikis/sites returned 403/404/blocked errors. A follow-up RE-VERIFICATION pass (3 more scouts, targeting the specific unresolved gaps) was run afterward at the user's request, using search-engine-proxy aggregation (Brave/Yahoo) and an r.jina.ai reader-proxy against zeldawiki.wiki to route around the same blocks. This resolved almost every open question below — see `reverifiedFacts`. Remaining confidence is 'medium' rather than 'high' throughout because even the re-verification pass could only reach single-wiki sourcing (zeldawiki.wiki) for most facts, never a fully independent second site, despite genuine multi-query effort.",
+  "reverifiedFacts": {
+    "hyruleCompendium": "RESOLVED: 385 base-game entries, ~394 with The Champions' Ballad DLC — corroborated by 4 independent aggregator sources (IGN, ZeldaWiki, Neoseeker, Zelda Central). The earlier ~164 figure was unsourced training recollection and is DISCARDED as wrong. The Compendium's own in-game menu shows NO numeric count or percentage anywhere — only filled vs. blank entry slots visually, confirmed. Do not cite 385/394 in trophy verification; use 'every Compendium entry filled' visual-completion framing instead.",
+    "mapCompletionPercentage": "NEWLY DISCOVERED real system: after defeating Calamity Ganon, a map completion percentage appears in the corner of the Sheikah Slate map, combining Shrines (9.6% weight), Korok Seeds (72% weight), Divine Beasts (0.32% weight), and 226 discoverable named locations (18.08% weight). It explicitly EXCLUDES the Hyrule Compendium, side quests, armor, and enemies defeated. This is real, verifiable, post-Ganon-only content — a legitimate trophy candidate ('reach 100% on the map completion percentage'), though note it requires having already beaten the game.",
+    "shrineCounter": "RESOLVED: the save-file loading/continue screen displays a bare numeric shrine-completion count (no denominator shown, e.g. just '45' not '45/120') alongside Hearts/Stamina/Rupees/Korok Seeds/Divine Beasts icons. Counts only the 120 base shrines, excludes DLC EX shrines. Safe to build a 'reach the maximum shrine count' trophy verified via this loading-screen number, since the total (120) is an independently documented fact even though the game itself shows no denominator.",
+    "korokSeedCounter": "RESOLVED — corrects the original dossier's assumption: the loading screen ALSO shows a LIFETIME cumulative Korok Seed count that does NOT decrease when seeds are spent at Hestu (a separate, decreasing 'currently held' count lives in the Key Items inventory). Safe to build a 'find all 900 Korok Seeds' trophy verified via this lifetime loading-screen counter. The all-900 reward is called 'Hestu's Gift' (a cosmetic key item), NOT a 'Korok Mask' as originally assumed — the Korok Mask is unrelated Master Trials DLC content.",
+    "divineBeastsCounter": "UNRESOLVED CONFLICT between the two re-verification scouts: one found the same loading screen also shows a Divine Beasts-freed count; a second, independently searching, found no evidence of this and treated it as a negative finding. Neither is fully confirmed. DO NOT rely on this counter for trophy verification — instead verify 'all four Divine Beasts freed' via the four Champion abilities (Mipha's Grace, Daruk's Protection, Urbosa's Fury, Revali's Gale) all appearing in the rune/item menu, which IS confirmed.",
+    "horseRegistry": "RESOLVED (negative): no evidence of any horse registry/logbook UI at Stables across multiple detailed guides. Do not build a trophy assuming this exists. Confirmed: max 5 horses registered at once, shared across all stables.",
+    "trialOfTheSword": "RESOLVED: 54 total floors (13 Beginning + 17 Middle + 24 Final Trials; 45 combat + 9 rest-stop floors), resolving the earlier 54-vs-51 conflict in favor of 54. Detailed floor-by-floor breakdown available if needed, internally consistent and detailed enough to suggest datamined accuracy despite single-wiki sourcing.",
+    "masterSwordTrialReward": "RESOLVED — corrects the original dossier's wrong assumption: completing Trial of the Sword does NOT change the Master Sword's Attack (30 base / 60 'awakened') or Durability (40 displayed) stats — the '60 Attack / 188 Durability' claim is confirmed fabricated/wrong, no source ties '188' to the Master Sword at all. The actual effect is qualitative: the awakened (60 ATK, glowing) state becomes PERMANENT instead of situational, and the Sword Beam no longer drains the sword's energy/durability at all. Trophy text should describe this qualitative change, not cite specific stat numbers.",
+    "championsBalladStructure": "MAJOR STRUCTURAL CORRECTION to the original brief's assumption: the four per-character questlines are NOT given by Teba/Riju/Yunobo/Sidon — they're triggered by four Sheikah Monk Monuments (one per region), via quests named exactly 'EX Champion Revali's Song', 'EX Champion Mipha's Song', 'EX Champion Daruk's Song', and 'EX Champion Urbosa's Song'. Each contains 3 named Trials (any order) that each unlock a hidden shrine, and completing all 3 grants a region Emblem (Medoh's/Ruta's/Rudania's/Naboris's Emblem respectively) plus, after an Illusory Realm fight against that region's Blight Ganon (fear-manifestation), the ability cooldown-reduction upgrade. Teba/Riju/Yunobo/Sidon are flavor-only NPCs (diary/journal discoveries, hints) — NOT formal quest-givers. This is well-corroborated (9 separate zeldawiki.wiki page fetches, internally consistent, matches known BotW naming conventions) despite single-wiki sourcing.",
+    "championsTunicClaim": "RESOLVED (negative): no 'Champion's Tunic' reward exists anywhere in The Champions' Ballad, checked across the DLC overview page and all four EX Champion Song quest pages. The original brief's claim is confirmed wrong and stays excluded from trophy design.",
+    "eventideIslandChests": "RESOLVED (negative) — corrects a likely-false premise from the original brief: no 'stranded merchant NPC asking about lost treasure chests' exists on Eventide Island in any source checked (two candidate NPCs, Rensa and Cloyne, were ruled out as unrelated). The actual base-game shrine quest is 'Stranded on Eventide': find and place 3 Ancient Orbs at 3 locations (a Monster Stronghold at the island's north tip, a Blue Hinox's necklace in the central jungle, and Koholit Rock via Stasis). Do NOT build a chest-hunting trophy for Eventide Island — build one around completing 'Stranded on Eventide' instead.",
+    "switch2Pricing": "RESOLVED: standalone Switch 2 Edition = $69.99; Upgrade Pack for existing Switch owners = $9.99; free with an active Nintendo Switch Online + Expansion Pack membership. Released 2025-06-05.",
+    "switch2Performance": "RESOLVED: docked ~1440p native (marketed 'up to 4K', drops to 810p worst-case) at a stable 60fps; handheld dynamic 648p-1080p at 60fps. Original Switch: 900p docked / sub-720p handheld, both at a 30fps target (with well-documented drops). The headline change is doubling the framerate, not just resolution.",
+    "switch2ExclusiveFeature": "RESOLVED (negative, 4 independent review sources agree): NO gameplay-affecting Switch 2-exclusive feature exists — no mouse-aim, no GameChat integration. The only non-performance addition is a second manual save-data slot (lets players start a fresh save without overwriting the original) — a QoL feature, not achievement-worthy on its own. All other 'exclusive' content (Zelda Notes: voiced navigation hints, daily bonuses, photo decoration, QR item transfers) is a companion SMARTPHONE APP feature, not in-game, and should not be used for any base-list trophy since it requires external hardware/software. DESIGN DECISION: given confirmed content parity and no meaningful in-game Switch 2 exclusive, this list will NOT include a separate Switch-2-exclusive bonus pack (unlike Metroid Prime 4: Beyond, where a real hardware-exclusive control scheme existed) — Switch and Switch 2 are treated as fully equivalent for trophy design purposes.",
+    "trueEndingRequirement": "RESOLVED: requires completing the 'Captured Memories' quest specifically — all 12 photo-based memories (the final location is hinted by Impa once the other 11 are found), NOT all 18 total memories and NOT the 5 DLC EX Memories. Completing this quest, then defeating Dark Beast Ganon, unlocks the post-credits scene.",
+    "calamityGanonHP": "RESOLVED, high confidence: 8,000 HP base, -1,000 HP (1/8) per Divine Beast freed beforehand, so all four freed = 4,000 HP. This is combat-only info (shown via the standard boss health bar during the fight, not a menu stat) — useful as background context but not something to cite as a trophy verification method."
+  },
+  "premise": "Link awakens from a 100-year slumber in the Shrine of Resurrection with no memories, on a Great Plateau overlooking a Hyrule ravaged by Calamity Ganon. Guided by the spirit of King Rhoam, he must free the four Divine Beasts (piloted by the spirits of the four Champions) from Ganon's corruption and confront Ganon at Hyrule Castle to rescue Princess Zelda, who has held Ganon at bay alone for a century.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Neither Wii U, Switch, nor Switch 2 has a system-level achievement/trophy system. This game has never released on any platform that does. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release/version of this game."
+  },
+  "dlcScopeDecision": "At the user's explicit request, this list includes the official paid Expansion Pass as a `dlc`-style bonus (Rule 14), matching the Hyrule Warriors precedent from this session. Base list = the core game (no DLC required). DLC packs = The Master Trials (Pack 1) and The Champions' Ballad (Pack 2), each as their own bonus pack, never affecting the base Platinum.",
+  "campaignStructure": {
+    "greatPlateau": {
+      "description": "Tutorial region. Link completes 4 shrines to collect 4 Spirit Orbs, unlocking the Paraglider from King Rhoam's spirit (disguised as the Old Man).",
+      "shrines": [
+        { "name": "Oman Au Shrine", "grants": "Magnesis Rune" },
+        { "name": "Ja Baij Shrine", "grants": "Remote Bomb Rune" },
+        { "name": "Keh Namut Shrine", "grants": "Cryonis Rune" },
+        { "name": "Owa Daim Shrine", "grants": "Stasis Rune" }
+      ],
+      "confidence": "high"
+    },
+    "divineBeasts": {
+      "description": "Four Divine Beasts, freely orderable (or skippable entirely — the player can go straight to Hyrule Castle after the Great Plateau). Each is fought by defeating a 'Blight Ganon' boss inside/atop it, freeing the Beast and granting a Champion's ability.",
+      "list": [
+        { "beast": "Vah Ruta", "region": "Zora's Domain", "race": "Zora", "champion": "Mipha", "boss": "Waterblight Ganon", "reward": "Mipha's Grace (auto-revive with full health once per cooldown)" },
+        { "beast": "Vah Rudania", "region": "Goron City / Death Mountain", "race": "Goron", "champion": "Daruk", "boss": "Fireblight Ganon", "reward": "Daruk's Protection (automatic damage-blocking barrier, limited uses per cooldown)" },
+        { "beast": "Vah Naboris", "region": "Gerudo Desert / Gerudo Town", "race": "Gerudo", "champion": "Urbosa", "boss": "Thunderblight Ganon", "reward": "Urbosa's Fury (area lightning strike, limited uses per cooldown)" },
+        { "beast": "Vah Medoh", "region": "Rito Village / Hebra", "race": "Rito", "champion": "Revali", "boss": "Windblight Ganon", "reward": "Revali's Gale (one-time upward gust for a mid-air updraft, on cooldown)" }
+      ],
+      "trackable": "World map icon changes per freed Divine Beast; main quest marked complete in the Adventure Log; ability appears in the rune/item menu. NO confirmed explicit 'X/4 Divine Beasts freed' numeric counter anywhere in the UI — do not build a trophy assuming one exists; verify via the four abilities being present in the menu instead.",
+      "confidence": "high"
+    },
+    "modernAllies": {
+      "list": [
+        { "name": "Prince Sidon", "relation": "Mipha's younger brother, current Zora prince" },
+        { "name": "Yunobo", "relation": "Daruk's descendant — CONFIRMED to genuinely appear in the original 2017 BotW, not a Tears of the Kingdom-only character as initially suspected" },
+        { "name": "Riju", "relation": "Urbosa's descendant, young Gerudo chief" },
+        { "name": "Teba", "relation": "Admires/idolizes Revali but is NOT stated to be a blood descendant" }
+      ],
+      "confidence": "high"
+    },
+    "masterKohga": {
+      "description": "Leader of the Yiga Clan, fought at the Yiga Clan Hideout in Gerudo Desert. Effectively mandatory for the Vah Naboris path since defeating him yields the Thunder Helm needed to survive Naboris's electrical storms.",
+      "confidence": "medium"
+    },
+    "finalBattle": {
+      "calamityGanon": "Fought in the Sanctum of Hyrule Castle. Incomplete/grotesque form. HP reportedly 8,000 baseline, halved (~4,000) if all four Divine Beasts were freed beforehand — this exact figure is only single-sourced, treat as unconfirmed for trophy text. If a Divine Beast was never freed, its corresponding Blight Ganon reappears as an extra required fight before/during the approach.",
+      "darkBeastGanon": "Second phase immediately following Calamity Ganon's defeat, fought in Hyrule Field (outside the castle) using the Bow of Light Zelda provides. Defeating it ends the game.",
+      "confidence": "high on structure/two-phase nature; medium-low on exact HP figures — do not cite HP numbers in trophy text"
+    },
+    "memories": {
+      "capturedMemories12": ["Subdued Ceremony", "Revali's Flap", "Resolve and Grief", "Daruk's Mettle", "Zelda's Resentment", "Urbosa's Hand", "Blades of the Yiga", "A Premonition", "Silent Princess", "Mipha's Touch", "Shelter from the Storm", "Father and Daughter"],
+      "description": "12 photo-based Captured Memories found by matching a Sheikah Slate photo to its real-world location, PLUS 6 story memories that trigger automatically at fixed main-quest points (Slumbering Power, To Mount Lanayru, Return of Calamity Ganon, Despair, Zelda's Awakening, The Master Sword) = 18 total base-game memories. Tracked via the Sheikah Slate Adventure Log / Captured Memories album.",
+      "trueEnding": "An additional post-credits scene plays if the player has recovered all memories. UNCONFIRMED whether this requires all 12 Captured Memories specifically or all 18 total (the other 6 trigger automatically during normal play anyway, so this may be a moot distinction in practice) — avoid overclaiming exact scope in trophy text; verify via the post-credits scene playing, not a memory count.",
+      "confidence": "medium"
+    },
+    "masterSword": {
+      "location": "Korok Forest, beyond the Lost Woods.",
+      "requirement": "Minimum 13 Hearts to pull it (attempting below that deals damage instead).",
+      "optionality": "Entirely OPTIONAL — not required to defeat Calamity Ganon or finish the game.",
+      "confidence": "high"
+    }
+  },
+  "collectibles": {
+    "shrines": {
+      "count": "120 in the base game. No confirmed persistent numeric 'X/120' counter anywhere in the UI — progress is only inferable via map icon color (undiscovered/discovered-incomplete/completed).",
+      "spiritOrbs": "Each completed shrine grants 1 Spirit Orb. 4 Spirit Orbs trade at any Goddess Statue for a Heart Container OR Stamina Vessel (player's choice each time). Orb count in inventory resets to 0 when spent — not a lifetime tracker.",
+      "confidence": "high on the 120 count; medium on tracking-UI absence"
+    },
+    "korokSeeds": {
+      "count": "900 total. Only 441 needed to max all weapon/bow/shield inventory slots via Hestu. No confirmed in-game numeric lifetime counter — only an unspent-seed stack that decreases when turned in. Reward for all 900 is commonly cited as an item from Hestu (unconfirmed exact name this session).",
+      "confidence": "high on the 900 total; low on the all-900 reward specifics"
+    },
+    "shrineQuests": {
+      "count": "42, tracked in a dedicated Adventure Log section distinct from Side Quests. These unlock/reveal an otherwise-hidden or inaccessible shrine.",
+      "confidence": "medium"
+    },
+    "sideQuests": {
+      "count": "90 total across ALL content: 76 base game + 7 Master Trials DLC (Pack 1) + 1 free v1.3.3 update (NOT paid DLC) + 6 Champions' Ballad DLC (Pack 2). Tracked in the Adventure Log via a speech-bubble icon.",
+      "confidence": "medium"
+    },
+    "greatFairyFountains": {
+      "count": "4: Cotera's, Kaysa's, Mija's, Tera's. Each requires an escalating Rupee fee to unlock (100/500/1,000/10,000) before the Great Fairy offers armor upgrades. A 5th similar location (Malanya Spring) houses the Horse God instead, not a Great Fairy — do not count it.",
+      "confidence": "medium"
+    },
+    "hyruleCompendium": {
+      "conflict": "UNRESOLVED CONFLICT between scouts: Scout B (medium confidence, zeldawiki via proxy) states 385 base entries, 394 with Champions' Ballad DLC. Scout C (low confidence, flagged as unverified training recollection) recalls '164 entries' commonly cited. These numbers conflict significantly and neither is independently cross-verified by a second reachable source this session. DO NOT cite any specific Compendium total in trophy text — verify via the Compendium menu's visual completion state instead, and treat the exact number as genuinely unresolved pending re-verification.",
+      "trackable": "Compendium menu (Sheikah Slate) shows filled vs. blank entry slots per category (Creatures/Monsters/Materials/Equipment/Treasure). UNCONFIRMED whether an explicit numeric or percentage completion indicator is displayed anywhere, versus only visual slot-filling.",
+      "reward": "Completing the full Compendium rewards the 'Classified Envelope' from Symin at Hateno Ancient Tech Lab (medium confidence)."
+    },
+    "horses": {
+      "description": "Wild horses tamed by mounting/calming, then registered at any Stable for 20 Rupees. Affection stat (0-100) affects obedience. Notable named horses: Epona (amiibo-only), White Horse, Giant Horse, Lord of the Mountain (rare mythical mount).",
+      "trackable": "UNCONFIRMED whether Stables display a registry/logbook of all registered horses — do not assume this exists for trophy verification.",
+      "confidence": "medium on mechanic, low on registry-UI existence"
+    },
+    "lynels": {
+      "description": "Escalating-difficulty optional superboss-tier enemies in the open world: (red-maned) Lynel, Blue-Maned, White-Maned, and Silver (toughest base-game tier, appears as world state/story progress increases). Golden Lynel is Master Mode DLC-exclusive. Roughly 22 Lynels placed in the base open world (medium confidence on exact count).",
+      "confidence": "medium"
+    }
+  },
+  "systems": {
+    "spiritOrbEconomy": "120 shrines = 120 Spirit Orbs max in base game = 30 total Heart Container/Stamina Vessel upgrades obtainable, split however the player chooses. Starting health is 3 hearts. UNCONFIRMED whether there's a hard UI cap below the theoretical max — do not cite an exact max heart/stamina number in trophy text.",
+    "weaponDurability": "Nearly all weapons/bows/shields degrade with use and break permanently (no repair mechanic in the base game). The Master Sword is the sole exception — it cannot be destroyed, only temporarily depleted (commonly cited ~10-minute recharge) after extended use.",
+    "cookingSystem": "Combining ingredients at a cooking pot produces meals/elixirs restoring hearts/stamina with situational buffs (speed, stealth, resistance, attack/defense). Invalid combinations produce low-value 'Dubious Food' with no bonus effect. Elixirs specifically combine a monster part (potency/duration) with a critter (effect type).",
+    "difficultyModes": "The base game has ZERO selectable difficulty options. Master Mode (harder enemies, regenerating enemy health, a new top 'Golden' enemy tier, floating platform ambushes) exists ONLY as Master Trials DLC content on its own separate save file — it is not a toggle available in the base game.",
+    "multiplayer": "Single-player only. No online or local co-op/multiplayer of any kind on any platform.",
+    "missables": "No confirmed permanently missable content. The game is designed to avoid a hard point of no return: triggering the Calamity Ganon fight autosaves just before it and returns the player to free-roam regardless of outcome, rather than locking the save into a post-game state. This is corroborated by strong community consensus but was not independently re-verified via a fresh source this session — treat as medium confidence.",
+    "rng": {
+      "eventideIsland": "A base-game shrine-quest island that confiscates all gear on arrival; a stranded merchant asks the player to find lost treasure chests, verbally reporting a running found/total count when spoken to. Exact chest count (commonly recalled as 6) and whether locations are fixed vs. randomized were NOT confirmed this session — avoid citing an exact chest count in trophy text.",
+      "amiiboRewards": "Scanning a compatible amiibo (once per real-world day) spawns a chest/drop pile with materials/weapons/Rupees drawn from a pool tied to that amiibo. Some amiibo (e.g. Wolf Link) grant unique non-random functionality (temporary AI companion) instead. Exact drop tables/rates unconfirmed.",
+      "materialDrops": "Most enemy part drops are consistent per enemy type; rarer item drop rates are believed RNG-weighted but exact percentages are unconfirmed."
+    }
+  },
+  "versionDifferences": {
+    "switch2Edition": {
+      "releaseDate": "~2025-06-05, alongside Switch 2 hardware launch.",
+      "confirmedImprovements": "Improved resolution, higher framerate, HDR support versus the original Switch version, plus 'Zelda Notes' — real-time voiced navigation/hint integration via the Nintendo Switch Online smartphone companion app. Nintendo's US store lists three distinct SKUs (Switch, Switch 2, Upgrade Pack) with slightly different file sizes (14.4GB vs 14.5GB), confirming a genuinely distinct build rather than pure backward compatibility.",
+      "unconfirmed": "Whether the Switch 2 Edition/Upgrade Pack is free or paid, and its exact price. Exact resolution/framerate target numbers. Whether Switch 2 gets any exclusive GAMEPLAY feature comparable to Metroid Prime 4: Beyond's Joy-Con 2 mouse-aim (e.g., GameChat integration, mouse controls) — no source found describing anything like this for BotW specifically. Treat as NOT existing for trophy-design purposes unless later confirmed, since a trophy built on an unconfirmed feature would violate Rule 1.",
+      "contentParity": "No confirmed campaign/content differences between Switch and Switch 2 beyond performance and the Zelda Notes companion feature — safe to treat base-list content as identical across both platforms.",
+      "confidence": "medium on confirmed improvements; low on unconfirmed items above"
+    },
+    "backwardCompatibility": "Running the original Switch digital copy on Switch 2 hardware without the Switch 2 Edition/Upgrade Pack is officially listed by Nintendo as 'Supported — Game behavior is consistent with Nintendo Switch,' implying no automatic enhancement without the separate upgrade."
+  },
+  "dlcPacks": {
+    "pack1MasterTrials": {
+      "releaseDate": "2017-06-30",
+      "content": {
+        "masterMode": "A separate, harder difficulty selectable from the title screen on its OWN save file (not a toggle on an existing save): enemies up-ranked one tier with better detection, enemies regenerate health in combat, a new top 'Golden' enemy tier above Silver, Lynels appear in more locations (including the Great Plateau), floating platforms carrying chests/enemies via Sky Octoroks, only one autosave slot (vs. multiple in Normal Mode). Indicated by a Triforce icon on-screen during play.",
+        "herosPathMode": "Records/displays the last 200 hours of Link's movement as a green line on the Sheikah Slate map; can be paused/scrubbed/hidden.",
+        "trialOfTheSword": "A multi-floor combat gauntlet accessed by placing the Master Sword back in its Korok Forest pedestal. CONFLICTING FLOOR COUNTS: one source says 54 total floors (13+17+24 across Beginning/Middle/Final Trials, 45 combat + 9 rest floors); another says 51 total (12+16+23 rooms). Do NOT cite an exact floor count in trophy text — verify via completion of the whole gauntlet instead. Completing it permanently upgrades the Master Sword (commonly cited 60 Attack / 188 Durability with longer glowing-form duration — treat these specific numbers as unconfirmed this session).",
+        "travelMedallion": "A fast-travel utility item, obtained via the 'EX Teleportation Rumors' side quest (found in a chest beneath Lomei Labyrinth Island).",
+        "armorSets": "4 armor sets — Majora's Mask, Midna's Helmet, Phantom armor set, Korok Mask (via 'EX Strange Mask Rumors') — obtained through DLC treasure-hunt side quests triggered via rumor mills at certain stables. IMPORTANT CORRECTION to a common assumption: these do NOT require scanning a corresponding amiibo — that's a separate, unrelated FREE base-game system (the 'Amiibo Rune'). Do not build a DLC trophy requiring amiibo for these armor sets.",
+        "sideQuests": "7 new Side Quests total."
+      },
+      "confidence": "high on overall structure; medium-low on exact floor counts and upgrade stat numbers"
+    },
+    "pack2ChampionsBallad": {
+      "releaseDate": "2017-12-08 (approximate — month/year corroborated, exact day medium confidence)",
+      "content": {
+        "unlockCondition": "Free all four Divine Beasts and speak with the four tribal leaders; Zelda then directs Link to insert the Sheikah Slate into a pedestal at the Shrine of Resurrection on the Great Plateau.",
+        "structure": "Monk Maz Koshia gives Link the 'One-Hit Obliterator' weapon and tasks him with clearing 4 Monster Strongholds (enemy encampments) — clearing each causes a new Ancient Shrine to appear. The Obliterator then splits into 4 orbs that scatter, causing Monuments to rise; Kass appears at each to sing a verse of the 'Unfinished Song', guiding Link to region-specific Divine Beast Emblems. Emblems grant access to 'Illusory Realm' encounters (Phantom Ganon-type bosses). After all four champion-region questlines, Link undertakes a Final Trial beneath the Shrine of Resurrection (4 terminals to unlock doors) culminating in a boss fight against Monk Maz Koshia on a floating sky platform — the DLC's superboss/final encounter.",
+        "newShrines": "16 new Ancient Shrines added across the DLC's content (bringing the total to 136 with this pack installed).",
+        "rewards": "A recovered Memory (the Champions' inauguration by King Rhoam), the Master Cycle Zero (a summonable motorcycle-like mount using material 'fuel'), and permanent cooldown-reduction upgrades to each Champion ability (Revali's Gale+, Mipha's Grace+, Daruk's Protection+, Urbosa's Fury+). A claimed 'Champion's Tunic upgrade' reward could NOT be confirmed and should be treated as likely incorrect — do not build a trophy around it.",
+        "sideQuests": "6 new Side Quests."
+      },
+      "confidence": "medium — macro-structure confirmed across 2 sources, but exact per-champion (Teba/Riju/Yunobo/Sidon) trial/quest names could not be individually itemized this session"
+    }
+  },
+  "conflicts": [
+    { "topic": "Hyrule Compendium total entry count", "claims": ["385 base / 394 with Champions' Ballad DLC (medium confidence, zeldawiki via proxy)", "~164 (low confidence, flagged training recollection, unverified)"], "resolution": "Unresolved — do not cite any Compendium total in trophy text." },
+    { "topic": "Trial of the Sword floor count", "claims": ["54 total (13+17+24 split, 45 combat + 9 rest floors)", "51 total (12+16+23 room split)"], "resolution": "Unresolved — do not cite an exact floor count." },
+    { "topic": "Champions' Ballad reward set", "claims": ["Ability cooldown-reduction upgrades + Master Cycle Zero + recovered Memory (well-corroborated)", "A 'Champion's Tunic upgrade' (single unconfirmed claim from the original brief)"], "resolution": "The Tunic claim is likely incorrect / unconfirmed — excluded from trophy design." },
+    { "topic": "Whether the 'true ending' post-credits scene requires 12 or 18 memories", "claims": ["12 Captured (photo) Memories only", "All 18 base-game memories"], "resolution": "Unresolved, and likely moot since the other 6 trigger automatically during normal play — verify via the scene playing, not a memory count." }
+  ],
+  "gaps": [
+    "This entire research round had degraded source access (search budget exhaustion, many blocked sites) — confidence throughout should be read as one notch more conservative than usual.",
+    "No confirmed numeric shrine-completion counter ('X/120'), Korok Seed lifetime counter, or Compendium percentage exists in the UI per any source found — trophies must verify via visual/menu state, never a cited number.",
+    "Whether Divine Beasts freed has any numeric UI counter is unconfirmed.",
+    "Whether Stables show a horse registry log is unconfirmed.",
+    "Exact Eventide Island chest count and Master Sword upgrade stats are unconfirmed.",
+    "Whether the Switch 2 Upgrade Pack is free or paid is unconfirmed — relevant if any trophy references it.",
+    "No Switch-2-exclusive gameplay feature (beyond performance and Zelda Notes) was found — do not build any trophy assuming one exists."
+  ]
+}

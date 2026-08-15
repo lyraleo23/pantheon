@@ -1,0 +1,145 @@
+{
+  "beat": "campaign",
+  "game": "The Legend of Zelda: Breath of the Wild",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Great Plateau (tutorial region)",
+      "detail": "Link awakens in the Shrine of Resurrection and must complete four shrines to earn Spirit Orbs before he can leave the plateau. Shrines and runes granted: Oman Au Shrine -> Magnesis Rune; Ja Baij Shrine -> Remote Bomb Rune; Keh Namut Shrine -> Cryonis Rune; Owa Daim Shrine -> Stasis Rune. After collecting all 4 Spirit Orbs, the Old Man at the Temple of Time reveals himself as the spirit of King Rhoam (the deceased king of Hyrule, Zelda's father) and gives Link the Paraglider, allowing him to leave the Great Plateau.",
+      "trackable": "Shrine completion and Spirit Orb count are visible on the Sheikah Slate map/shrine list.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Oman_Au_Shrine (via r.jina.ai proxy)", "https://zeldawiki.wiki/wiki/Ja_Baij_Shrine", "https://zeldawiki.wiki/wiki/Keh_Namut_Shrine", "https://zeldawiki.wiki/wiki/Owa_Daim_Shrine", "https://zeldawiki.wiki/wiki/King_Rhoam", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "structure",
+      "name": "Four Divine Beasts (non-linear, any order)",
+      "detail": "After the Great Plateau, the main quest opens Hyrule for free exploration. Link can pursue the four Divine Beasts in any order, or skip them entirely and go straight to Hyrule Castle. Divine Beast -> region/race -> original Champion pilot: Vah Ruta (Zora's Domain / Zora people, Champion Mipha); Vah Rudania (Goron City / Death Mountain, Goron people, Champion Daruk); Vah Naboris (Gerudo Desert / Gerudo Town, Gerudo people, Champion Urbosa); Vah Medoh (Rito Village / Hebra region, Rito people, Champion Revali).",
+      "trackable": "World map icons for each Divine Beast change appearance once freed; NPC dialogue and main quest list reflect completion. No explicit on-screen '/4 freed' counter was confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild", "https://zeldawiki.wiki/wiki/Vah_Naboris (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "boss",
+      "name": "Waterblight Ganon",
+      "detail": "Boss fought inside Divine Beast Vah Ruta. Associated Champion: Mipha (Zora). Defeating it frees Vah Ruta and grants Link 'Mipha's Grace' (auto-revives Link with full health/hearts once per cooldown, like a fairy).",
+      "trackable": "Ability appears in the item/rune menu once obtained; also marked complete in the main quest log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Divine_Beast_Vah_Ruta (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "boss",
+      "name": "Fireblight Ganon",
+      "detail": "Boss fought inside Divine Beast Vah Rudania. Associated Champion: Daruk (Goron). Defeating it frees Vah Rudania and grants Link 'Daruk's Protection' (an automatic damage-blocking barrier, limited uses on cooldown).",
+      "trackable": "Ability appears in item/rune menu; quest marked complete in main quest log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Fireblight_Ganon (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "boss",
+      "name": "Thunderblight Ganon",
+      "detail": "Boss fought inside Divine Beast Vah Naboris. Associated Champion: Urbosa (Gerudo). Defeating it frees Vah Naboris and grants Link 'Urbosa's Fury' (a lightning strike attack that hits all nearby enemies, limited uses on cooldown).",
+      "trackable": "Ability appears in item/rune menu; quest marked complete in main quest log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Thunderblight_Ganon (via r.jina.ai proxy)"]
+    },
+    {
+      "category": "boss",
+      "name": "Windblight Ganon",
+      "detail": "Boss fought atop Divine Beast Vah Medoh. Associated Champion: Revali (Rito). Defeating it frees Vah Medoh and grants Link 'Revali's Gale' (a one-time upward gust that grants a mid-air updraft, on a cooldown).",
+      "trackable": "Ability appears in item/rune menu; quest marked complete in main quest log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zeldawiki.wiki/wiki/Windblight_Ganon (via r.jina.ai proxy)", "https://zeldawiki.wiki/wiki/Dark_Beast_Ganon"]
+    },
+    {
+      "category": "npc",
+      "name": "Champion modern-day allies",
+      "detail": "Prince Sidon (Mipha's younger brother, current prince of the Zora, Zora's Domain) — direct sibling of Mipha. Yunobo (a young, initially cowardly Goron; direct descendant of Daruk who can use 'Daruk's Protection'; assists Link during the Vah Rudania quest by shielding himself in a Goron cannon launch) — confirmed to appear in the ORIGINAL Breath of the Wild, not introduced in Tears of the Kingdom (he returns in TotK as head of 'YunoboCo'). Riju (young Chief of the Gerudo, became chief around age 12 after her mother's death; descendant of Urbosa) — leads the Vah Naboris quest. Teba (a skilled Rito warrior, husband of Saki, father of Tulin; admires and idolizes Revali but is NOT stated to be his descendant/relative) — assists Link directly during the Vah Medoh assault by drawing enemy fire while Link destroys the Beast's cannons.",
+      "trackable": "Not directly trackable via a counter; tied to main/side quest completion in the Adventure Log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://r.jina.ai/https://zeldawiki.wiki/wiki/Yunobo", "https://r.jina.ai/https://zeldawiki.wiki/wiki/Riju", "https://r.jina.ai/https://zeldawiki.wiki/wiki/Teba", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "boss",
+      "name": "Master Kohga",
+      "detail": "Leader of the Yiga Clan. Fought at the Yiga Clan Hideout in Gerudo Desert as part of retrieving the Thunder Helm, which is required to survive the electrical storms in/around Divine Beast Vah Naboris — making this fight effectively mandatory for the Vah Naboris main quest path (not a purely optional superboss). Uses magnetism/levitation attacks across a multi-phase fight; drops the Thunder Helm on defeat.",
+      "trackable": "Tied to main quest completion (Divine Beast Vah Naboris) in the Adventure Log; Thunder Helm appears in the armor inventory once obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://r.jina.ai/https://zeldawiki.wiki/wiki/Master_Kohga"]
+    },
+    {
+      "category": "boss",
+      "name": "Calamity Ganon (Hyrule Castle, Sanctum)",
+      "detail": "Mandatory final-area boss fought in the Sanctum of Hyrule Castle. Appears as an incomplete, grotesque form (Ganondorf/Malice/Guardian parts). Has 8,000 HP by default; if all four Divine Beasts are freed before this fight, his HP is reportedly halved (to ~4,000). If the corresponding Blight Ganon of an un-freed Divine Beast was never defeated, that Blight Ganon (Waterblight/Fireblight/Thunderblight/Windblight) reappears as an additional required mini-fight in the center of Hyrule Castle before/during the approach to Calamity Ganon.",
+      "trackable": "No explicit HP-percentage tracker confirmed beyond the standard boss health bar during the fight.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://r.jina.ai/https://zeldawiki.wiki/wiki/Calamity_Ganon", "https://r.jina.ai/https://zeldawiki.wiki/wiki/Fireblight_Ganon", "https://r.jina.ai/https://zeldawiki.wiki/wiki/Windblight_Ganon"]
+    },
+    {
+      "category": "boss",
+      "name": "Dark Beast Ganon (Hyrule Field)",
+      "detail": "Second and final phase, immediately following Calamity Ganon's defeat. Takes place in Hyrule Field (outside/around Hyrule Castle), not inside the castle. Princess Zelda gives Link the Bow of Light for this fight; Zelda also uses her power to restrain the Malice covering Ganon's body, exposing glowing weak-point sigils (shoulders, ribs, thighs, then stomach) that Link must shoot. After enough hits, a giant eye (Ganon's core) is exposed on his back/nape; Link uses updrafts (e.g., Revali's Gale) to reach it and fires the Bow of Light for the finishing blow, after which Zelda breaks free and the fight ends.",
+      "trackable": "Standard boss health bar during the fight; no separate percentage tracker confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://r.jina.ai/https://zeldawiki.wiki/wiki/Dark_Beast_Ganon"]
+    },
+    {
+      "category": "memory",
+      "name": "Captured Memories (12) + additional story memories (6) = 18 total in base game",
+      "detail": "12 'Captured Memories' are found by matching photographs shown on the Sheikah Slate to real-world locations in Hyrule: Subdued Ceremony, Revali's Flap, Resolve and Grief, Daruk's Mettle, Zelda's Resentment, Urbosa's Hand, Blades of the Yiga, A Premonition, Silent Princess, Mipha's Touch, Shelter from the Storm, Father and Daughter. An additional 6 memories trigger automatically at fixed points in the main story (not photo-based, cannot be sequence-broken the same way): Slumbering Power, To Mount Lanayru, Return of Calamity Ganon, Despair, Zelda's Awakening, The Master Sword. Base game total = 18. (Note: The Champions' Ballad paid DLC adds 5 more 'EX' memories for a franchise-cited total of 23 across all content — EX memories are DLC and out of scope for this dossier.)",
+      "trackable": "Recovered memories can be rewatched via the Sheikah Slate's Adventure Log/Captured Memories album, which also shows which photo-memories are still unfound.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://r.jina.ai/https://zeldawiki.wiki/wiki/Memory"]
+    },
+    {
+      "category": "ending",
+      "name": "Standard ending vs. extended/post-credits ending",
+      "detail": "Defeating Dark Beast Ganon always triggers the standard ending: peace is restored to Hyrule; the spirits of King Rhoam and the four Champions are shown passing on. If the player has recovered all memories before/by the time of finishing (framed in-game as an optional quest), an additional post-credits scene plays showing Zelda and Link beginning to rebuild Hyrule together, with Zelda reflecting on her diminished powers. Sources describe this as tied to recovering 'all memories' — it was not independently confirmed whether this strictly means all 12 Captured (photo) Memories only, since the other 6 story memories trigger automatically during any normal playthrough.",
+      "trackable": "Memory completion is visible in the Adventure Log/Captured Memories album (see memory finding above).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    },
+    {
+      "category": "structure",
+      "name": "Master Sword prerequisite for the ending / mandatory content",
+      "detail": "Wikipedia's plot summary states Link obtains the Master Sword (from its pedestal in the Korok Forest) before entering Hyrule Castle for the final confrontation, implying it is treated as part of the critical path in the story summary. However, from mechanical/community knowledge, the Master Sword is NOT strictly required to beat the game (Hyrule Castle and Ganon can be challenged without it) — this is a common speedrun/low% strategy. This apparent conflict between the narrative framing and mechanical reality was not fully resolved by sources found in this pass.",
+      "trackable": "Master Sword appears in weapon inventory once pulled; a specific main quest ('The Hero's Sword' or similar) is presumably marked in the Adventure Log.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Main/Side quest completion (including each Divine Beast quest, Vah Naboris/Thunder Helm quest, etc.)", "where": "Sheikah Slate Adventure Log", "confidence": "medium" },
+    { "stat": "Recovered Memories (12 Captured + 6 story)", "where": "Sheikah Slate Adventure Log / Captured Memories photo album", "confidence": "high" },
+    { "stat": "Champion abilities obtained (Mipha's Grace, Daruk's Protection, Urbosa's Fury, Revali's Gale)", "where": "Item/Rune menu on the Sheikah Slate; visible as equipped icons in the HUD", "confidence": "medium" },
+    { "stat": "Divine Beasts freed (0-4)", "where": "World map icon state change per Beast; no confirmed single numeric counter", "confidence": "low" },
+    { "stat": "Spirit Orbs collected on the Great Plateau (4 required for Paraglider)", "where": "Sheikah Slate / shrine completion list", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "No platform-level achievement/trophy system exists on Wii U or Switch; this is a Genesis Mode community list, not an official trophy list.", "confidence": "high" },
+    { "note": "Could not confirm any base-game campaign-structure differences between Wii U, Switch, and Switch 2 (NSO/updated re-release) versions beyond performance improvements — no content additions/removals to the base campaign were found for Switch 2.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm the exact total number of Main Quests (as distinct from Side Quests) tracked in the Adventure Log for the base game.",
+    "Could not confirm precisely whether the 'recover all memories' true-ending condition requires only the 12 Captured (photo) Memories or all 18 base-game memories (the other 6 trigger automatically during normal main-quest progression, so this may be a moot distinction in practice).",
+    "Could not independently verify Calamity Ganon's exact HP values (8,000 / halved to ~4,000) from a second source; only one wiki source (via proxy) was reachable.",
+    "Could not confirm whether the game displays any explicit 'Divine Beasts freed: X/4' numeric counter anywhere in the UI, versus only reflecting state via map icons and dialogue.",
+    "Could not verify whether the Master Sword is narratively 'required' by any in-game gate before Hyrule Castle, versus only a story-summary convenience — mechanically it is skippable in a normal playthrough per community knowledge, but this was not source-confirmed today.",
+    "Did not deeply investigate optional recurring strong enemies (e.g., Lynels, Guardians) as a 'superboss' category since they are enemy types rather than named unique bosses tied to the campaign — flagging in case downstream wants this covered as a systems/side-content topic instead.",
+    "Most fandom.com and several major games-media domains (IGN, Polygon, Eurogamer, GameSpot/GameFAQs, RockPaperShotgun, ZeldaDungeon, TheGamer, GamesRadar, ScreenRant, VG247) were unreachable via the fetch tool in this session (403/404/blocked), limiting cross-verification to zeldawiki.wiki (via a read-only proxy) and Wikipedia. Facts sourced from only one of these should be treated as medium confidence at best even where marked otherwise reasoned.",
+    "WebSearch tool was unavailable for this entire task (session search budget exhausted before this beat began), so no direct search-engine cross-referencing was possible — all findings rely on the two reachable sources plus trained recollection."
+  ]
+}
