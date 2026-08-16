@@ -1,0 +1,196 @@
+{
+  "beat": "progression-systems-stats-missables-rng-version-diffs",
+  "game": "The Legend of Zelda: Skyward Sword",
+  "platform": "Nintendo Switch (Skyward Sword HD, 2021)",
+  "findings": [
+    {
+      "category": "sword-upgrade",
+      "name": "Goddess Sword -> Goddess Longsword",
+      "detail": "Requires the Goddess Sword plus Farore's Flame. Performed at the Ancient Cistern's spring (in Faron Woods area) after obtaining Farore's Flame. Doubles sword damage; blade becomes visually longer.",
+      "trackable": "Sword appearance changes and is visible on the Gear/equipment screen; no numeric tracking beyond visual identity of which sword is equipped.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/sword-upgrade-guide-zelda-skyward-sword-hd/", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "sword-upgrade",
+      "name": "Goddess Longsword -> Goddess White Sword",
+      "detail": "Requires the Goddess Longsword plus Nayru's Flame. Upgraded near/around the Sandship area (Lanayru). Greatly improves dowsing ability.",
+      "trackable": "Visible on Gear screen as equipped sword.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/sword-upgrade-guide-zelda-skyward-sword-hd/", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "sword-upgrade",
+      "name": "Goddess White Sword -> Master Sword",
+      "detail": "Requires the Goddess White Sword plus Din's Flame, forged near/at the Fire Sanctuary area (Eldin). Damage roughly quadruple the base Goddess Sword.",
+      "trackable": "Visible on Gear screen as equipped sword.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/sword-upgrade-guide-zelda-skyward-sword-hd/", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "sword-upgrade",
+      "name": "Master Sword -> True Master Sword",
+      "detail": "Requires the Master Sword plus Hylia's Blessing, granted at the Temple of Hylia / Gate of Time by Zelda late in the story. Charges Skyward Strikes faster, greater range, and is the only sword form able to damage the final boss Demise.",
+      "trackable": "Visible on Gear screen as equipped sword.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/sword-upgrade-guide-zelda-skyward-sword-hd/"]
+    },
+    {
+      "category": "shield-upgrade",
+      "name": "Wooden Shield line: Wooden -> Banded -> Braced",
+      "detail": "Upgraded at the Scrap Shop (Gondo, Skyloft Bazaar) using Rupees + treasure materials, e.g. Banded Shield needs 30 Rupees, 2 Amber Relics, 1 Monster Claw, 1 Jelly Blob; Braced Shield needs 50 Rupees, 3 Amber Relics, 2 Monster Claws, 2 Tumbleweeds, 1 Ornamental Skull. Wooden shields burn but resist electricity.",
+      "trackable": "Equipped shield and its durability meter are shown on HUD/Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldacentral.com/games/skyward-sword/item-equipment-upgrades/", "https://zelda.fandom.com/wiki/Scrap_Shop"]
+    },
+    {
+      "category": "shield-upgrade",
+      "name": "Iron Shield line: Iron -> Reinforced -> Fortified",
+      "detail": "Upgraded at the Scrap Shop with Rupees + materials (e.g. Eldin Cores, Monster Claws, Ornamental Skulls, Tumbleweeds, Blue Bird Feather). More durable baseline than wooden shields.",
+      "trackable": "Equipped shield/durability shown on HUD/Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "shield-upgrade",
+      "name": "Sacred Shield line: Sacred -> Divine -> Goddess Shield",
+      "detail": "Sacred Shields have a shorter durability meter but resist heavy damage and slowly self-repair over time. Divine and Goddess Shield are upgrades made at the Scrap Shop with Rupees + materials.",
+      "trackable": "Equipped shield/durability shown on HUD/Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/", "https://zelda.fandom.com/wiki/Wooden_Shield"]
+    },
+    {
+      "category": "item-reward",
+      "name": "Hylian Shield",
+      "detail": "Obtained as a reward for completing the Thunder Dragon's Lightning Round (boss rush) at Lanayru Gorge, available after the Song of the Hero segment. It is indestructible/unbreakable — never needs repair or replacement, unlike other shields.",
+      "trackable": "Visible as equipped/owned shield on Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/zelda-skyward-sword-hylian-shield-how-to-get/"]
+    },
+    {
+      "category": "item-upgrade",
+      "name": "Slingshot -> Scattershot",
+      "detail": "Upgraded at the Skyloft Bazaar (Scrap Shop) for 50 Rupees plus materials (e.g. 3 Jelly Blobs, 2 Dusk Relics, 2 Amber Relics).",
+      "trackable": "Item name change reflected in item wheel/Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "item-upgrade",
+      "name": "Beetle, Bow, Bomb Bag, Quiver, Seed Satchel, Wallet upgrades",
+      "detail": "All of these items have multiple upgrade tiers purchased at the Scrap Shop and/or Beedle's Airshop using Rupees and treasure materials (exact material lists not fully confirmed per-tier in this pass). Bomb Bag capacity, Quiver arrow capacity, Seed Satchel seed capacity, and Wallet Rupee capacity all increase with upgrades.",
+      "trackable": "Capacity numbers are shown directly in the relevant item's HUD counter (e.g., arrow count, bomb count, Rupee count in wallet).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-weapons-items-tools-upgrades-guide/"]
+    },
+    {
+      "category": "item-upgrade",
+      "name": "Adventure Pouch capacity",
+      "detail": "Starts holding 4 items (Medals, Shields, Empty Bottles, Quivers, Bomb Bags, Seed Satchels share pouch slots). Three upgrades purchasable from Beedle's Airshop for 300/600/1200 Rupees; a further/final pouch upgrade is inside a Goddess Chest at Pumpkin Landing, unlocked via a Goddess Cube outside Skyview Temple.",
+      "trackable": "Pouch slot count and fill state shown directly on the Adventure Pouch/Gear screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda-archive.fandom.com/wiki/Adventure_Pouch"]
+    },
+    {
+      "category": "potion-system",
+      "name": "Potion types: Life Potion, Guardian Potion, Stamina Potion, Revitalizing Potion",
+      "detail": "Base potions bought from shops (e.g., Life Potion 20 Rupees restores up to 8 hearts; Guardian Potion 200 Rupees halves incoming damage for a duration; Stamina Potion 50 Rupees slows stamina drain; Revitalizing Potion restores 4 hearts and fully repairs equipped shield). Each has an upgraded '+' or '++' version made by visiting Bertie at the Potion Shop and infusing the base potion with specific caught bugs, granting stronger/longer effects (e.g., Guardian Potion+ grants ~3 minutes of invincibility, Stamina Potion+ grants infinite stamina for 3 minutes, Revitalizing Potion++ restores 8 hearts + full shield and can be used twice).",
+      "trackable": "Potion inventory (owned potions and their tier) shown in item/Gear screen; not a cumulative count of potions brewed over the playthrough.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/guides/zelda-skyward-sword-hd-potion-recipe-list", "https://www.thegamer.com/skyward-sword-potion-making-guide/"]
+    },
+    {
+      "category": "sidequest-counter",
+      "name": "Gratitude Crystals",
+      "detail": "Total of 80 Gratitude Crystals in the game: roughly 65 from completing sidequests, ~15 found in the environment (Skyloft and Sky at night). Given to Batreaux, who has 8 reward tiers (wallet upgrades, a Piece of Heart, a Cursed Medal, 900 Rupees at 80/80). After the Sandship dungeon, Fi enables dowsing for individual crystals.",
+      "trackable": "Not confirmed to show a running numeric total anywhere except when directly speaking to Batreaux, who states how many you currently have relative to his reward thresholds — no persistent on-screen counter elsewhere confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Gratitude_Crystal", "https://www.thonky.com/zelda-skyward-sword/gratitude-crystal-locations"]
+    },
+    {
+      "category": "trial-system",
+      "name": "Silent Realm Sacred Tears",
+      "detail": "Each of the 4 Silent Realm trials (Faron/Farore's, Eldin/Din's, Lanayru/Nayru's, and the final Goddess's Silent Realm) requires collecting 15 Sacred Tears scattered in the trial area, stored in the Spirit Vessel, while evading Guardians (and later Watchers).",
+      "trackable": "An on-screen tear counter (Spirit Vessel fill state) is shown during the trial itself; this resets each time and is not a persistent save-file statistic.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337664", "https://zelda.fandom.com/wiki/Silent_Realm"]
+    },
+    {
+      "category": "heart-progression",
+      "name": "Heart Pieces / Heart Containers",
+      "detail": "24 Pieces of Heart exist in the game (4 pieces = 1 Heart Container each, so 6 additional Heart Containers from pieces). 6 more Heart Containers come from defeating the bosses of the game's first 6 dungeons. Exact starting hearts and final max heart count were reported inconsistently across sources and could not be verified precisely in this pass.",
+      "trackable": "Current/max hearts always shown on the HUD health meter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.imore.com/skyward-sword-hd-heart-pieces", "https://game8.co/games/Zelda-Skyward-Sword/archives/334003"]
+    },
+    {
+      "category": "storage-system",
+      "name": "Item Check (Peatrice) storage",
+      "detail": "A separate storage facility in the Skyloft Bazaar, run by Peatrice, holding up to 60 items that don't fit in the Adventure Pouch (used for extra Medals etc.). Repeated visits (7-8+) unlock the 'Item Check Crush' sidequest with Peatrice, rewarding 5 Gratitude Crystals regardless of which of two dialogue outcomes the player chooses.",
+      "trackable": "Storage slot usage shown directly in the Item Check menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Item_Check", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-item-check-crush-side-quest/"]
+    },
+    {
+      "category": "hero-mode",
+      "name": "Hero Mode",
+      "detail": "Unlocked only after beating the game once, then selectable as a new save file from the Quest Logs/file-select screen (same NG+-style gate as the original Wii release — not available from the very first playthrough on Switch). In Hero Mode: enemies deal double damage, hearts no longer drop from enemies/grass/pots (unless a Heart Medal is equipped), and Treasure/Bugs (but not Hearts, equipment, or Medals) carry over from the completed file. Demise becomes fightable in the Thunder Dragon's Lightning Round (boss rush) in Lanayru Gorge, and the Lightning Round is extended to 12 consecutive battles including the endgame Horde, final Ghirahim fight, and Demise duel.",
+      "trackable": "Hero Mode status is shown on the file-select/Quest Logs screen as a distinct save type.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://samurai-gamers.com/the-legend-of-zelda-skyward-sword-hd/how-to-unlock-hero-mode/", "https://www.thegamer.com/skyward-sword-hd-hero-mode-changes/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Equipped sword tier (Goddess Sword through True Master Sword)", "where": "Gear/equipment screen and visually on Link's model", "confidence": "high" },
+    { "stat": "Equipped shield type and shield durability meter", "where": "HUD (durability gauge) and Gear screen", "confidence": "high" },
+    { "stat": "Rupee count / wallet capacity", "where": "HUD counter and pause menu", "confidence": "high" },
+    { "stat": "Arrow, bomb, and seed counts (per current capacity)", "where": "HUD item counter when item equipped", "confidence": "high" },
+    { "stat": "Sacred Tears collected during a Silent Realm trial (out of 15)", "where": "On-screen Spirit Vessel fill indicator during the trial only", "confidence": "high" },
+    { "stat": "Item Check storage slots used (out of 60)", "where": "Item Check menu (Peatrice's counter, Skyloft Bazaar)", "confidence": "medium" },
+    { "stat": "Gratitude Crystal count relative to Batreaux's reward thresholds", "where": "Stated verbally/on-screen only when talking to Batreaux; no persistent HUD/menu counter confirmed elsewhere", "confidence": "low" },
+    { "stat": "Overall game completion percentage", "where": "Not found — no evidence Skyward Sword (Wii or HD) displays a numeric 100% completion tracker anywhere in-game, unlike some other Zelda titles", "confidence": "low" },
+    { "stat": "Treasure/material item quantities owned (e.g., Amber Relic x3)", "where": "Believed to be shown with a numeric count in the pause menu's Treasure/Materials sub-screen, based on general series convention and the author's own recollection, but could not be confirmed via an accessible source in this research pass", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch HD adds a full button-only control scheme as an alternative to the original Wii MotionPlus motion controls (sword swings can be done with right-stick flicks, aiming with right stick); Wii original has no button-only option and requires Wii MotionPlus for combat and most item aiming.", "confidence": "high" },
+    { "note": "Switch HD frees the right analog stick for full camera control during button-control play; the Wii original does not have manual camera control (largely fixed/auto camera).", "confidence": "medium" },
+    { "note": "Switch HD adds a Zelda & Loftwing amiibo (sold separately) that lets the player fast-travel from the ground to the sky from virtually anywhere, including from inside dungeons, and back again by re-scanning; this fast-travel option does not exist on Wii. The original 2011 Skyward Sword Link amiibo (from a later Wii U-era wave) is NOT compatible with Skyward Sword HD.", "confidence": "high" },
+    { "note": "Switch HD's item selection uses a radial 'item wheel' called up by holding ZR, navigated with the right stick (button-control scheme); the Wii original uses a Wii Remote pointer to select items from a radial menu held up with a button.", "confidence": "medium" },
+    { "note": "Switch HD allows saving at Bird Statues into what several sources describe as multiple save slots/an autosave-inclusive file-select screen ('Quest Logs' renamed/reorganized with an extra autosave slot); exact slot count and naming differences from Wii could not be fully confirmed.", "confidence": "low" },
+    { "note": "Switch HD adds a text/dialogue fast-forward (press B to instantly reveal full dialogue box) and skippable cutscenes; the Wii original does not have these options.", "confidence": "high" },
+    { "note": "Switch HD makes Fi's advice/tutorial interjections optional rather than forced as in the Wii original.", "confidence": "medium" },
+    { "note": "Switch HD only shows a pickup notification the first time an item type is collected, rather than every time, reducing repetitive interruptions present on Wii.", "confidence": "medium" },
+    { "note": "Switch HD loads roughly twice as fast as the Wii original in most cases (area transitions, before cutscenes), per direct load-time comparison video coverage.", "confidence": "medium" },
+    { "note": "Hero Mode unlock method is unchanged between versions: it requires completing the game once on either platform before it can be selected as a new file; it is not available from the very start on Switch.", "confidence": "medium" },
+    { "note": "No evidence found of any campaign content, dungeon, boss, or sidequest being cut from Switch HD relative to Wii, nor of exclusive new campaign content beyond QoL/control/amiibo features listed above.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the pause menu's Treasure/Materials sub-screen displays exact numeric counts of each material owned (e.g., 'Amber Relic x3') — this is important because it would determine whether a 'collect X of material Y' trophy is player-trackable. Marked low confidence based on recollection only.",
+    "Could not find a confirmed overall completion percentage or master checklist screen anywhere in Skyward Sword (Wii or HD) — this likely rules out any 'game shows X% complete' trophy design, but I could not fully rule it out either.",
+    "Could not verify exact material costs for every item upgrade tier (Bow, Beetle, Bomb Bag, Quiver, Seed Satchel, Wallet, Divine/Goddess Shield) — only partial data found for Wooden/Iron shield lines and Slingshot.",
+    "Could not verify whether Gratitude Crystal count is shown anywhere other than Batreaux's own dialogue (e.g., no confirmed HUD icon or menu counter).",
+    "Could not determine the exact number of save slots on the Switch HD file-select ('Quest Logs') screen or confirm the specific autosave-slot claim beyond a single secondary source.",
+    "Could not confirm precise starting heart count and maximum total heart count (sources conflated Heart Pieces, boss Heart Containers, and 'Life Medal' effects inconsistently) — recommend the campaign/systems checkpoint verify this independently before building any heart-related trophy.",
+    "Could not confirm the RNG odds (percentage chance) for any rare treasure/material drop (e.g., Goddess Plume substitution rate for Dusk/Amber Relics, or rare bug spawn rates) — only qualitative 'rare' descriptions were found, no numeric drop rates. This means no trophy should reference a rare-drop count without in-game corroboration that it's trackable.",
+    "Could not find a second, independent source confirming the specific 'love letter to Karane vs. the voice in the restroom' sidequest as fully missable/exclusive-branching versus simply flavor-text differing; flagged as likely missable content but only lightly sourced.",
+    "Did not deeply investigate every other potentially missable item/sidequest beyond the few noted (Heart Container vs. Potion choice pickups, Thunder Dragon minigame losses, Isle of the Goddess rupee chest, Cawlin's Letter branch) — a broader missables sweep may surface more; this was constrained by search budget.",
+    "Could not confirm whether Switch HD changed anything about the Thrill Digger minigame, Bamboo Cutting minigame, or other RNG-adjacent minigames relative to Wii."
+  ]
+}

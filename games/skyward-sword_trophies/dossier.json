@@ -1,0 +1,137 @@
+{
+  "game": "The Legend of Zelda: Skyward Sword",
+  "platform": "Nintendo Switch (Skyward Sword HD, 2021) — base content sourced from the original Wii release (2011)",
+  "mode": "genesis",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "releaseDate": "2011-11-18/20/23 (Wii, region-dependent) / 2021-07-16 (Switch, Skyward Sword HD)",
+  "researchDate": "2026-08-16",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Neither Wii nor Switch has a system-level achievement/trophy system. This game has never released on any platform that does.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "scopeDecision": "RESOLVED at user checkpoint: no separate DLC/bonus section. Switch-exclusive content (button controls, free camera, item wheel, faster loading, skippable cutscenes, and the amiibo-gated Zelda & Loftwing fast travel) is QoL-only with no new areas/items/quests/bosses, and the user chose to drop it entirely rather than build a bonus section around it. This is a single-list Genesis Mode build representing the base game (Wii-original content, playable identically on Switch), with no `dlc` block in trophies.json.",
+  "premise": "Link, a student at the Knight Academy in the sky city of Skyloft, descends to the long-forgotten surface below the clouds to rescue his friend Zelda, discovering he is the reincarnation of a goddess-chosen hero destined to stop the demon king Demise.",
+  "campaignStructure": {
+    "dungeons": [
+      { "order": 1, "name": "Skyview Temple", "region": "Faron Woods", "boss": "Ghirahim (1st encounter)", "reward": "Ruby Tablet", "confidence": "high" },
+      { "order": 2, "name": "Earth Temple", "region": "Eldin Volcano", "boss": "Scaldera", "confidence": "high" },
+      { "order": 3, "name": "Lanayru Mining Facility", "region": "Lanayru Desert", "boss": "Moldarach", "confidence": "high" },
+      { "order": 4, "name": "Ancient Cistern", "region": "Lake Floria (Faron)", "boss": "Koloktos", "reward": "Farore's Flame -> Goddess Sword becomes Goddess Longsword", "confidence": "high" },
+      { "order": 5, "name": "Sandship", "region": "Lanayru Sand Sea", "boss": "Tentalus", "reward": "Nayru's Flame -> Goddess Longsword becomes Goddess White Sword", "confidence": "high" },
+      { "order": 6, "name": "Fire Sanctuary", "region": "Eldin Volcano summit", "boss": "Ghirahim (2nd encounter)", "reward": "Din's Flame -> Goddess White Sword becomes Master Sword", "confidence": "high" },
+      { "order": 7, "name": "Sky Keep", "region": "beneath the Statue of the Goddess, Skyloft", "boss": "none — puzzle dungeon with 8 rearrangeable rooms recycled from prior dungeons; goal is 3 hidden Triforce pieces", "confidence": "high" }
+    ],
+    "recurringSuperboss": {
+      "name": "The Imprisoned",
+      "detail": "Fought 3 times across the story, always at the Sealed Grounds (Faron Woods) — end of Act 1, end of Act 2, start of Act 3's Faron segment. Loftwing dive-bomb + Skyward Strike encounter.",
+      "confidence": "medium"
+    },
+    "worldBoss": { "name": "Levias (freed from the Bilocyte parasite)", "detail": "Mandatory fight above Lanayru/Thunderhead; grants Levias's portion of the Song of the Hero.", "confidence": "medium" },
+    "finalBosses": [
+      { "name": "Demon Lord Ghirahim (3rd/true form)", "detail": "Fought at the Sealed Temple just before Demise's resurrection.", "confidence": "medium" },
+      { "name": "Demise", "detail": "Final boss, two-phase sword duel, defeated with the True Master Sword. Sets up the series' timeline-splitting curse.", "confidence": "high" }
+    ],
+    "silentRealms": [
+      { "name": "Farore's Silent Realm", "region": "Faron Woods", "reward": "Water Dragon's Scale" },
+      { "name": "Nayru's Silent Realm", "region": "Lanayru Desert", "reward": "Clawshots" },
+      { "name": "Din's Silent Realm", "region": "Eldin Volcano", "reward": "Fireshield Earrings" },
+      { "name": "The Goddess's Silent Realm", "region": "Skyloft", "reward": "Stone of Trials -> opens Sky Keep", "note": "Accessed by playing the completed Song of the Hero." }
+    ],
+    "silentRealmMechanic": "Each trial: collect 15 Sacred Tears in spirit form (weaponless) while evading Guardians; an on-screen Spirit Vessel counter tracks tears DURING the trial only and resets on failure/re-entry — not a persistent save-file statistic. Confidence: high on the 15-tear mechanic generally; not independently confirmed per-trial that all four are exactly 15.",
+    "songOfTheHero": "5th and final Goddess's Harp song, in 4 parts taught by the three Dragons (Faron/Water, Eldin/Fire, Lanayru/Thunder) plus Levias. All 4 required to access The Goddess's Silent Realm. No confirmed on-screen 'X of 4' counter — tracked only via story/NPC state.",
+    "swordUpgradePath": [
+      "Goddess Sword (starting)",
+      "Goddess Longsword — via Farore's Flame (after Ancient Cistern)",
+      "Goddess White Sword — via Nayru's Flame (after Sandship)",
+      "Master Sword — via Din's Flame (after Fire Sanctuary)",
+      "True Master Sword — via Hylia's Blessing (Temple of Hylia/Gate of Time); only form that can damage Demise"
+    ],
+    "ending": "Single canonical ending; dialogue choices are cosmetic and do not branch the story. Key beats: Zelda revealed as Hylia's reincarnation, Ghirahim revealed as the spirit of the sword that once sealed Demise, Fi asks to be sealed in the Master Sword after the final battle, Impa's time-displaced farewell, Groose choosing to stay on the surface.",
+    "confidence": "high on structure; medium on exact story-beat framing (single-source cutscene summaries, not independently cross-checked)"
+  },
+  "sideContent": {
+    "gratitudeCrystals": { "total": 80, "detail": "~15 found in the world (mostly at night in Skyloft/Sky), ~65 from side quests. Given to Batreaux in tiers (5/10/15/30/50/70/80) for rewards up to a Piece of Heart at 80.", "trackable": "Collection Screen holds current crystals; NO confirmed running total toward 80 shown anywhere except verbally from Batreaux relative to his next threshold.", "confidence": "medium" },
+    "goddessCubes": { "total": 27, "detail": "9 each in Faron Woods, Eldin Volcano, Lanayru Desert. A Skyward Strike on a cube opens a Goddess Chest in the sky.", "trackable": "No explicit 27-count tracker confirmed; unlocked chests appear as sky map markers.", "confidence": "high" },
+    "heartPieces": { "total": 24, "plusHeartContainers": 6, "detail": "24 Heart Pieces (4=1 heart) + 6 Heart Containers from the six main dungeon bosses = 18 base hearts; 20 with both Life Medals equipped.", "trackable": "HUD Life Gauge fills visually — functions as the tracker.", "confidence": "high" },
+    "bugs": { "total": 12, "names": ["Blessed Butterfly", "Deku Hornet", "Eldin Roller", "Faron Grasshopper", "Gerudo Dragonfly", "Lanayru Ant", "Sand Cicada", "Skyloft Mantis", "Sky Stag Beetle", "Starry Firefly", "Volcanic Ladybug", "Woodland Rhino Beetle"], "trackable": "Collection Screen (pause/item menu subscreen).", "confidence": "high" },
+    "treasureMaterials": { "detail": "Multiple material types (Amber Relic, Ancient Flowers, Monster Claws, Goddess Plume, etc.) used for item/shield/potion upgrades. Amber Relic: 20 needed to fully upgrade every item. Ancient Flowers: 7 needed.", "trackable": "Collection Screen shows held materials; exact numeric on-screen counts per item NOT independently confirmed — flagged gap.", "confidence": "low-medium" },
+    "questLogGap": { "finding": "Skyward Sword has NO in-game quest log or Adventure Log of any kind. Side quest state exists only in NPC dialogue.", "impact": "Load-bearing for Rule 1: a 'complete all side quests' trophy has no in-game way for the player to confirm total progress.", "confidence": "medium" },
+    "sideQuestCount": { "finding": "Roughly a dozen named side quests found (Finding Kukiel, Peatrice's Crush/Item Check Crush, Fledge's Workout, Owlan's Plant Collection, Beedle's Missing Beetle, Fixing Fun Fun Island, and others), but exact canonical count and naming are INCONSISTENT across sources (one guide says 12).", "confidence": "low" },
+    "minigames": [
+      { "name": "Thrill Digger", "detail": "Minesweeper-style dig game (Mogma Mr. Tubert, Eldin Volcano); Beginner/Intermediate/Expert boards; rewards include Goddess Plume, Golden Skull, Gold Rupee." },
+      { "name": "Bug Heaven / Bug Island", "detail": "Timed bug-catching challenge (Strich); faster times = better rewards, ties into Beedle's Missing Beetle side quest." },
+      { "name": "Dodoh's High Dive", "detail": "Skydiving score attack; max score of 500 rewards a Piece of Heart." },
+      { "name": "Clean Cut Challenge", "detail": "Bamboo-cutting minigame; tiered rewards by cut count." },
+      { "name": "Thunder Dragon's Lightning Round", "detail": "Boss Rush at Lanayru Gorge, unlocked after the Lanayru Song of the Hero segment. Rematch any prior boss or replay any completed Silent Realm. Normal mode = 9 battles, Hero Mode = 12 (adds Horde, final Ghirahim, Demise). 4 consecutive wins = Piece of Heart; 8 consecutive wins = Hylian Shield (indestructible)." }
+    ],
+    "heroMode": { "detail": "New-Game+-style mode, unlocked by beating the game once, played on a new save file. Double enemy damage, no heart drops unless Heart Medal equipped, faster stamina/oxygen drain. Treasure and Bugs carry over; hearts/equipment/medals reset. Boss Rush extends to 12 battles including a Demise refight.", "confidence": "high", "unlockUnchangedOnSwitch": "Both scouts agree Hero Mode still requires beating the game once first on Switch — not available from a fresh save (one scout flagged low-confidence speculation that slot flexibility might differ; not corroborated)." },
+    "dlc": { "finding": "No paid DLC or expansion pack was ever released for Skyward Sword on any platform (Wii or Switch).", "confidence": "medium" },
+    "switchExclusive": { "name": "Zelda & Loftwing amiibo fast travel", "detail": "Tapping the physical Zelda & Loftwing amiibo (sold alongside Skyward Sword HD) lets Link instantly fast-travel Surface<->Sky from anywhere, including inside dungeons. Purely a convenience feature gated behind owning a specific amiibo figure — no new content.", "confidence": "high" }
+  },
+  "systems": {
+    "shieldUpgrades": [
+      "Wooden -> Banded -> Braced (burns, resists electricity)",
+      "Iron -> Reinforced -> Fortified (higher base durability)",
+      "Sacred -> Divine -> Goddess (self-repairing over time)"
+    ],
+    "shieldUpgradeLocation": "Scrap Shop (Gondo, Skyloft Bazaar) using Rupees + treasure materials.",
+    "hylianShield": "Reward for 8 consecutive Thunder Dragon's Lightning Round wins; indestructible, never needs repair.",
+    "itemUpgrades": "Slingshot->Scattershot, plus capacity upgrades for Beetle, Bow, Bomb Bag, Quiver, Seed Satchel, Wallet, Adventure Pouch — all via Scrap Shop/Beedle's Airshop with Rupees + materials.",
+    "potionSystem": "Life, Guardian, Stamina, Revitalizing potions, each with '+'/'++' tiers made by infusing base potions with specific bugs at Bertie's Potion Shop.",
+    "itemCheckStorage": "Peatrice's Item Check holds up to 60 overflow items; repeated visits unlock the Peatrice's Crush side quest.",
+    "noCompletionPercentage": "No overall in-game completion-percentage tracker was found anywhere in the game (Wii or Switch) — unlike some later Zelda titles.",
+    "materialCountsUnconfirmed": "Whether the pause menu shows exact numeric counts per material type (e.g., 'Amber Relic x3') could NOT be confirmed by either scout — flagged low confidence, recollection only. This matters for any 'collect N of material X' trophy."
+  },
+  "versionDifferences": {
+    "confirmed": [
+      "Switch HD adds a full button-only control scheme (right-stick sword swings/aiming) alongside motion controls; Wii requires Wii MotionPlus for combat/aiming.",
+      "Switch HD gives free manual camera control during button play; Wii's camera is largely fixed/automatic.",
+      "Switch HD uses a radial item wheel via ZR + right stick; Wii uses Wii Remote pointer selection.",
+      "Switch HD allows cutscene skipping from the very first playthrough; Wii only unlocks this after beating the game once.",
+      "Switch HD adds dialogue fast-forward and skippable cutscenes generally.",
+      "Switch HD makes Fi's tutorial interjections optional rather than forced.",
+      "Switch HD only shows item-pickup notifications the first time (Wii shows them every time).",
+      "Switch HD loads roughly 2x faster than Wii.",
+      "Switch HD adds Zelda & Loftwing amiibo fast travel (Surface<->Sky from anywhere, including inside dungeons) — requires a specific physical amiibo, does not exist on Wii.",
+      "Switch HD removes the Wii's Sheikah Stone hint-video feature (moot — Sheikah Stones don't exist as a mechanic in HD)."
+    ],
+    "noCampaignChangesFound": "No boss, dungeon, or Silent Realm content was found added, removed, or altered between Wii and Switch HD. All differences located are controls, UI/QoL, and the amiibo feature — not campaign structure. Treated as a gap (absence of evidence), not a confirmed absence of any change, but nothing turned up in either scout's research.",
+    "heroModeUnlockUnchanged": "Both scouts agree Hero Mode's beat-the-game-once gate is unchanged on Switch."
+  },
+  "conflicts": [
+    {
+      "topic": "Hero Mode Switch unlock flexibility",
+      "scoutA": "Speculates (low confidence) HD may make save-slot selection more flexible for starting Hero Mode.",
+      "scoutC": "Found no evidence of this; unlock method appears identical to Wii (medium confidence).",
+      "resolution": "Treat as unchanged — beat the game once, then select Hero Mode as a new file, on both platforms."
+    },
+    {
+      "topic": "Total number of named side quests",
+      "finding": "Sources disagree on exact count/naming (~11-12 quests found, naming varies e.g. 'Item Check Crush' vs 'Peatrice's Crush' for the same quest).",
+      "resolution": "Needs pinning down before writing individual side-quest trophies, or should be handled as a smaller representative set per Rule 20 rather than an exhaustive 'all side quests' trophy given there's no in-game tracker anyway."
+    }
+  ],
+  "openQuestionsForCheckpoint": [
+    "Switch-exclusive content is essentially QoL-only (controls, camera, item wheel, load times, skip options) plus one amiibo-gated convenience feature (fast travel). There is no new area, item, quest, or boss exclusive to Switch. Is a separate 'DLC' bonus trophy section still wanted for this, or should the amiibo fast-travel be folded into the base list as a single optional trophy (or omitted, since it requires purchasing separate physical hardware — similar to the precedent set on the Breath of the Wild list, which excluded a Switch 2-exclusive bonus pack for lack of real content)?",
+    "Several 'collect all X' candidate trophies (all 80 Gratitude Crystals, all 27 Goddess Cubes, specific material totals) have NO confirmed in-game running-total counter outside of Batreaux's dialogue thresholds and visual chest markers. These are still probably valid (the reward tiers/thresholds ARE the effective tracker — e.g., Batreaux states progress toward each tier, and 80/80 has a distinct final reward), but flagging so you can veto any that feel too close to Rule 2 territory.",
+    "No in-game quest log exists at all. A 'complete every side quest' trophy is designable only as a curated Silver/Gold objective built around named, verifiable quests (each has its own distinct reward/dialogue confirming completion) rather than a single tracked percentage — planning to design it that way unless you'd rather side quests get lighter individual coverage instead."
+  ],
+  "missables": [
+    { "name": "Heart Container vs. Potion pickup choice points", "confidence": "low" },
+    { "name": "Thunder Dragon's Lightning Round loss resets streak (not permanently missable, but a run can be lost)", "confidence": "medium" },
+    { "name": "Isle of the Goddess rupee chest (reportedly disappears once Sky Keep appears in the sky)", "confidence": "low" },
+    { "name": "Cawlin's Letter branching side content", "confidence": "low" }
+  ],
+  "gaps": [
+    "No confirmed in-game dungeon-completion tracker, Song of the Hero part counter, or Triforce-piece counter beyond visual/story state.",
+    "No confirmed numeric per-material inventory counts in the pause menu.",
+    "No confirmed overall completion-percentage system anywhere in the game.",
+    "Exact side-quest canonical list/count unresolved across sources.",
+    "RNG drop rates for rare materials/bugs are undocumented numerically (only qualitative 'rare' language) — avoid RNG trophies referencing specific rare drops.",
+    "HD-specific changes to individual boss fights, minigames beyond the amiibo/control-scheme layer not fully ruled out, though no evidence of any was found."
+  ]
+}

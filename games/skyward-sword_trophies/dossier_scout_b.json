@@ -1,0 +1,246 @@
+{
+  "beat": "side content",
+  "game": "The Legend of Zelda: Skyward Sword",
+  "platform": "Nintendo Switch (Skyward Sword HD, 2021)",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Gratitude Crystals",
+      "detail": "80 total. 15 found individually (many appear only at night in Skyloft and a few other sky/surface spots), the other 65 awarded for completing side quests. Turned in to the monster Batreaux, hidden beneath Skyloft, in batches (5, 10, 15, 30, 50, 70, 80) for escalating rewards including Adventure Pouch upgrades, wallet upgrades, and a Piece of Heart at 80.",
+      "trackable": "Crystals are held in the Adventure Pouch and viewable on the Collection Screen (a subscreen listing Bugs, Treasures, and quest items including Gratitude Crystals). Not confirmed whether a running numeric total toward 80 is displayed anywhere outside of what you're currently carrying.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-gratitude-crystals-guide/", "https://www.zeldadungeon.net/wiki/Skyward_Sword_Gratitude_Crystals", "https://zelda.fandom.com/wiki/Collection_Screen"]
+    },
+    {
+      "category": "collectible",
+      "name": "Goddess Cubes",
+      "detail": "27 total (9 each in Faron Woods, Eldin Volcano, Lanayru Desert). Striking a cube with a Skyward Strike opens a corresponding Goddess Chest that appears in the sky, containing treasure, rupees, or a Heart Piece.",
+      "trackable": "Activated Goddess Chests appear as markers on the in-game map/sky once unlocked; no explicit '27/27' counter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-goddess-cube-chest-locations/", "https://www.zeldadungeon.net/wiki/Skyward_Sword_Goddess_Cubes"]
+    },
+    {
+      "category": "collectible",
+      "name": "Heart Pieces",
+      "detail": "24 Heart Pieces total (4 = 1 heart), plus 6 Heart Containers awarded for defeating the six main dungeon bosses. Base health with all pieces/containers collected is 18 hearts; reaching 20 requires equipping both Life Medals in the Adventure Pouch (a gameplay bonus, not additional hearts).",
+      "trackable": "Life Gauge (heart display) visually fills in on the HUD as pieces are collected; no separate numeric counter needed since the heart containers themselves show progress.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/guides/zelda-skyward-sword-hd-heart-piece-guide-every-heart-piece-location", "https://game8.co/games/Zelda-Skyward-Sword/archives/334003"]
+    },
+    {
+      "category": "collectible",
+      "name": "Bugs (Bug Net critters)",
+      "detail": "12 catchable bug types: Blessed Butterfly, Deku Hornet, Eldin Roller, Faron Grasshopper, Gerudo Dragonfly, Lanayru Ant, Sand Cicada, Skyloft Mantis, Sky Stag Beetle, Starry Firefly, Volcanic Ladybug, Woodland Rhino Beetle. Bug Net bought from Beedle for 50 Rupees after acquiring the Slingshot. Bugs used to augment potions (Bertie, Potion Shop) or sold to Strich in the Knight Academy at night.",
+      "trackable": "Held bugs are viewable/countable on the Collection Screen subscreen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/skyward-sword-bug-locations/", "https://zelda-archive.fandom.com/wiki/Bug_(Skyward_Sword)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Treasure types (materials)",
+      "detail": "Multiple treasure types used for item/potion upgrades, e.g. Amber Relic (most common, appears in every area; 20 needed to upgrade every item), Ancient Flowers (7 needed; found only in Lanayru Desert/Sand Sea when a Timeshift Stone is active, also needed to repair Scrapper), plus others (Monster Claws, Bird Feathers/Goddess Plume, Evil Crystal, Tumbleweed, Golden Skull, Blue Bird Feather, etc.). Full canonical list/count of all treasure types not independently verified this session.",
+      "trackable": "Confirmed via a 'Collection Screen' that displays Bugs, Treasures, and sidequest items with quantities held.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/skyward-sword-treasure-location-guide/", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-find-ancient-flowers/", "https://zelda.fandom.com/wiki/Collection_Screen"]
+    },
+    {
+      "category": "systems/UI",
+      "name": "Collection Screen",
+      "detail": "A dedicated subscreen tracks Bugs, Treasures, and sidequest-related key items (named examples: Cawlin's Letter, Horned Colossus Beetle, the Rattle) as well as Gratitude Crystals held. This appears to be the game's closest equivalent to a collectible tracker.",
+      "trackable": "This IS the tracker — accessible from the pause/item menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Collection_Screen", "https://zeldawiki.wiki/wiki/Collection_Screen"]
+    },
+    {
+      "category": "systems gap",
+      "name": "No side-quest log / Adventure Log",
+      "detail": "Multiple sources (including a dedicated blog post/critique) note Skyward Sword has no in-game quest log or 'Adventure Log' comparable to later Zelda titles (e.g. Breath of the Wild). Players must remember which NPC wants what; the game does not display an active quest checklist or overall side-quest completion count.",
+      "trackable": "Not tracked/displayed — this is a load-bearing negative fact for trophy design: a 'complete all side quests' trophy cannot rely on an in-game percentage or checklist to confirm progress for the player.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.kenchron.com/blog/skywardquestlog", "https://zelda.fandom.com/wiki/Adventure_Log"]
+    },
+    {
+      "category": "side quest",
+      "name": "Finding Kukiel (Missing Child/Sister)",
+      "detail": "Kukiel goes missing; her mother Bertie (or sister accounts vary by source) is worried. Leads to a hidden area beneath Skyloft and introduces Batreaux. Considered a key/gating side quest — several other Skyloft side quests (Peatrice's Crush, Mallara's dust cleaning) only become available after this quest is completed.",
+      "trackable": "No log; tracked only via NPC dialogue state.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/wiki/Finding_Kukiel", "https://zeldacentral.com/games/skyward-sword/side-quests/"]
+    },
+    {
+      "category": "side quest",
+      "name": "Peatrice's Crush (\"Item Check Crush\")",
+      "detail": "Peatrice at the Item Check counter in the Bazaar develops feelings for Link after repeated conversation. Player can reciprocate or reject; either path leads to a nighttime meeting and Gratitude Crystal reward (from Peatrice if reciprocated, from her brother Peater if rejected). Available after Finding Kukiel.",
+      "trackable": "No log; NPC dialogue only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/gratitude-crystals/sidequests/peatrices-crush", "https://samurai-gamers.com/the-legend-of-zelda-skyward-sword-hd/item-check-crush-side-quest/"]
+    },
+    {
+      "category": "side quest",
+      "name": "Fledge's Workout",
+      "detail": "Fledge in the Knight Academy asks for Stamina Potions over multiple nights to build endurance. Reward reported as 5 Gratitude Crystals; also connects to the Pumpkin Pull-style content at Lumpy Pumpkin per some sources.",
+      "trackable": "No log.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/skyward-sword-fledge-workout-guide/ (via search)", "https://zeldacentral.com/games/skyward-sword/side-quests/"]
+    },
+    {
+      "category": "side quest",
+      "name": "Instructor Owlan's Plant Collection",
+      "detail": "Owlan wants an exotic plant from the surface for study. Player dowses for a Kikwi-adjacent NPC (Machi) in Faron Woods, has Scrapper deliver a specimen. Rewards Gratitude Crystals.",
+      "trackable": "No log.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zeldacentral.com/games/skyward-sword/side-quests/"]
+    },
+    {
+      "category": "side quest",
+      "name": "Beedle's Missing Beetle",
+      "detail": "Ties into the Bug Heaven/Bug Island minigame — completing Bug Heaven's timed challenge under a set time returns Beedle's lost Horned Colossus Beetle as a reward.",
+      "trackable": "No log.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://www.linkshideaway.com/skyward-sword/beedles-beetle/", "https://game8.co/games/Zelda-Skyward-Sword/archives/335453"]
+    },
+    {
+      "category": "side quest count",
+      "name": "Total named side quests",
+      "detail": "One completion guide (Game8) states 12 total side quests count toward its '100% completion' checklist. Other listings (Zelda Central) enumerate roughly a dozen named quests (Finding Kukiel, Missing Sister, Haunted Restroom, Fledge's Workout, Missing Baby Rattle, Cleaning Pipit's House, Peatrice's Crush, Missing Crystal Ball, Plow Needed/Kina's Plow, Fixing Fun Fun Island, Beedle's Missing Beetle, Owlan's Plant Collection). Exact canonical count and naming vary between sources — treat with caution.",
+      "trackable": "Not tracked in-game (see 'No side-quest log' finding).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/335157", "https://zeldacentral.com/games/skyward-sword/side-quests/"]
+    },
+    {
+      "category": "minigame",
+      "name": "Thrill Digger",
+      "detail": "Minesweeper-style dig minigame run by the Mogma Mr. Tubert at a cave near a Bokoblin camp in Eldin Volcano. Three difficulties: Beginner (5x4 grid, 4 bombs, free/cheap), Intermediate (6x5 grid, 4 bombs + 4 Rupoors, costs 50 Rupees), Expert (8x5 grid, 8 bombs/Rupoors, costs 70 Rupees). Clearing a board without hitting a bomb can yield a Goddess Plume, Blue Bird Feather, Golden Skull, or rare Gold Rupee.",
+      "trackable": "No completion counter found; outcome is rupee/item rewards only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/Thrill_Digger", "https://game8.co/games/Zelda-Skyward-Sword/archives/335443"]
+    },
+    {
+      "category": "minigame",
+      "name": "Bug Heaven (Bug Island / Bug Rock)",
+      "detail": "Timed bug-catching challenge run by Strich. Bug Beginner level (20 Rupees entry): under 5 min = 30 Rupees, under 3 min = 50 Rupees. Bug Wrangler level (50 Rupees entry): under 2 min nets a package of 5 rare bugs. Related to the 'Beedle's Missing Beetle' side quest.",
+      "trackable": "Timer shown during minigame; no lifetime completion counter found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/335453", "https://gamefaqs.gamespot.com/wii/960633-the-legend-of-zelda-skyward-sword/answers/321924-what-are-the-prizes-for-each-challenge-offered-at-bug-island"]
+    },
+    {
+      "category": "minigame",
+      "name": "Dodoh's High Dive (Fun Fun Island)",
+      "detail": "Unlocked via the 'Fixing Fun Fun Island' side quest (retrieve Dodoh's wheel from Lanayru Desert using Scrapper). Skydiving/point-scoring minigame; achieving the max score of 500 rewards a Piece of Heart.",
+      "trackable": "Score displayed during the minigame itself; best-score persistence not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/wiki/Dodoh's_High_Dive", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-fixing-fun-fun-island-side-quest/"]
+    },
+    {
+      "category": "minigame",
+      "name": "Clean Cut Challenge (Bamboo Island)",
+      "detail": "Bamboo-cutting minigame with tiered rewards by cut count: 15-19 cuts = up to 30 Rupees; 20-27 cuts = Evil Crystal or Monster Horn; 28+ cuts = Blue Bird Feather, Goddess Plume, or Golden Skull.",
+      "trackable": "Cut count shown live during the minigame; no lifetime tracker found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/335429", "https://zelda.fandom.com/wiki/Clean_Cut"]
+    },
+    {
+      "category": "minigame",
+      "name": "Thunder Dragon's Lightning Round (Boss Rush)",
+      "detail": "Unlocked after completing the Lanayru portion of the Song of the Hero quest. Offers two challenge modes: refight any previously-defeated boss, or replay any previously-completed Silent Realm trial. In normal mode the run is 9 battles; in Hero Mode it extends to 12 (adds the endgame Horde fight, final Ghirahim battle, and Demise). Stopping after 4 consecutive wins yields a Piece of Heart; stopping after 8 consecutive wins yields the Hylian Shield (fire/electric-resistant, indestructible).",
+      "trackable": "Consecutive win streak shown during the challenge.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.zeldadungeon.net/wiki/Thunder_Dragon's_Lightning_Round", "https://www.nintendolife.com/guides/zelda-skyward-sword-hd-thunder-dragons-lightning-round-prizes-and-silent-realm-challenge-times", "https://game8.co/games/Zelda-Skyward-Sword/archives/334024"]
+    },
+    {
+      "category": "secret/optional area",
+      "name": "Sky Keep",
+      "detail": "The seventh and final dungeon, structurally different: instead of a climactic boss fight, it requires finding three Triforce pieces (Courage, Power, Wisdom) hidden within rotating/rearranging room configurations. It is the only main Zelda dungeon without a boss. It IS required for main story progression (not optional), despite its puzzle-box/secret-area feel.",
+      "trackable": "Triforce pieces obtained shown via cutscene/inventory; not a discrete counter beyond the 3 pieces themselves.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/zelda-skyward-sword-hd-sky-keep-dungeon-walkthrough/", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-sky-keep-dungeon-guide-walkthrough/"]
+    },
+    {
+      "category": "secret/optional area",
+      "name": "Pirate Stronghold",
+      "detail": "Mini-dungeon in the Lanayru Sand Sea, headquarters of Scervo's pirate gang who stole Skipper's Sandship. Optional-feeling but required to progress toward the Sandship dungeon (unlocks dowsing for the invisible Sandship). Part of main progression toward Nayru's Flame, not a skippable side area.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/wiki/Pirate_Stronghold", "https://zelda.fandom.com/wiki/Pirate_Stronghold"]
+    },
+    {
+      "category": "secret/optional area",
+      "name": "Thunderhead",
+      "detail": "A hidden sky region separate from the main Sky/Skyloft area, home to Levias (Sky Spirit) and reached only after certain story triggers. Involved in the Song of the Hero questline (final piece of the song learned here from Levias and the three Sacred Dragons). Functions as a secondary, easy-to-miss-on-first-visit sky area rather than a pure side-content optional zone — it's required for the Song of the Hero, which is main-quest-mandatory.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Thunderhead", "https://www.thonky.com/zelda-skyward-sword/thunder-dragon-song"]
+    },
+    {
+      "category": "post-game",
+      "name": "Hero Mode",
+      "detail": "Unlocked by clearing the game once; requires starting a brand-new save file. Functions as New Game+: enemies deal double damage, no hearts drop from enemies/grass/pots unless the Heart Medal is equipped, fall damage doubled, Stamina/Oxygen gauges deplete faster. Nearly everything resets (hearts, equipment, medals) EXCEPT Treasure and Bugs, which carry over. Boss Rush (Thunder Dragon's Lightning Round) extends from 9 to 12 consecutive battles, adding the Horde battle, final Ghirahim fight, and Demise. No unique reward is given for clearing Hero Mode itself beyond the harder-difficulty completion.",
+      "trackable": "Save file is labeled/flagged as Hero Mode; separate save slot from normal mode.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://twinfinite.net/guides/legend-of-zelda-skyward-sword-hd-new-game-plus/", "https://www.thegamer.com/skyward-sword-hd-hero-mode-changes/", "https://game8.co/games/Zelda-Skyward-Sword/archives/333984"]
+    },
+    {
+      "category": "DLC",
+      "name": "No paid DLC/expansion for Skyward Sword",
+      "detail": "No expansion pass or paid DLC was ever released for the original Wii version or Skyward Sword HD. The only 'DLC' associated with the Skyward Sword name was a Best Buy pre-order costume pack for a different game (Hyrule Warriors) featuring Skyward Sword-themed outfits — not DLC for Skyward Sword itself. Physical amiibo (Zelda & Loftwing) function as the closest thing to paid bonus content but only unlock a QoL feature (fast travel), not new levels/story.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/skyward-sword-dlc-confirmed-for-best-buy-pre-order/", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword"]
+    },
+    {
+      "category": "Switch-exclusive (HD)",
+      "name": "Zelda & Loftwing amiibo fast travel",
+      "detail": "Switch-exclusive feature: tapping the Zelda & Loftwing amiibo (released alongside Skyward Sword HD, July 2021) lets Link instantly fast-travel between the Surface and the Sky/Skyloft from anywhere, including from inside dungeons/buildings, bypassing the need to find the nearest Bird Statue. This is a purely optional convenience feature gated behind owning a specific physical amiibo figure; it does not exist on Wii.",
+      "trackable": "N/A — a UI convenience, not a collectible/counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://screenrant.com/skyward-sword-hd-zelda-loftwing-amiibo-game-use/", "https://www.nintendolife.com/guides/zelda-skyward-sword-hd-amiibo-how-to-use-the-loftwing-and-zelda-amiibo", "https://www.gamespot.com/articles/locking-zelda-skyward-swords-fast-travel-behind-an-amiibo-is-a-bummer/1100-6491800/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Bugs and Treasures held", "where": "Collection Screen (subscreen accessible from pause/item menu), showing quantities of caught bugs and gathered treasure types", "confidence": "medium" },
+    { "stat": "Gratitude Crystals currently held", "where": "Adventure Pouch / Collection Screen; unclear if a running lifetime total toward 80 is shown anywhere, or only current unspent count", "confidence": "low" },
+    { "stat": "Heart Pieces/Containers", "where": "Life Gauge on HUD fills visually; not a numeric counter but functionally shows collection progress", "confidence": "high" },
+    { "stat": "Side quest completion", "where": "NOT tracked anywhere in-game — no quest log or Adventure Log exists in Skyward Sword", "confidence": "medium" },
+    { "stat": "Goddess Cube activation", "where": "Activated Goddess Chests appear on the map once unlocked; no explicit 27-count tracker confirmed", "confidence": "low" },
+    { "stat": "Thrill Digger / minigame scores", "where": "Shown live during each minigame session; no evidence of a persistent best-score or completion record across sessions", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Zelda & Loftwing amiibo fast-travel is Switch/HD-exclusive (2021); did not exist on Wii.", "confidence": "high" },
+    { "note": "No other Switch-exclusive side quests, items, or areas were confirmed during this research pass — HD changes found were primarily control scheme (button controls added alongside motion), UI/QoL, and the amiibo fast-travel feature, not new side content.", "confidence": "low" },
+    { "note": "No paid DLC or expansion exists for either the Wii original or the Switch HD remaster.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact canonical total number of named side quests — sources gave inconsistent lists (e.g. 12 per one completion guide) and inconsistent naming (e.g. 'Item Check Crush' vs 'Peatrice's Crush' for what appears to be the same quest). A designer should verify the definitive side-quest list against a primary walkthrough before building a 'complete all side quests' trophy.",
+    "Could not confirm whether the game displays any numeric progress counter for Gratitude Crystals toward the 80 total, or for Goddess Cubes toward 27, outside of what's currently held/visible on the map. This affects whether 'collect all X' trophies can rely on in-game feedback or need external tracking.",
+    "Could not verify the complete list of all treasure/material types and their exact total counts (only Amber Relic=20 needed and Ancient Flowers=7 needed for upgrades were confirmed with numbers).",
+    "Could not verify whether Bug Heaven / Thrill Digger / other minigames retain a persistent 'best score' or completion record across play sessions, or whether success is purely one-off (relevant to whether a minigame mastery trophy is even detectable by the player).",
+    "Did not find confirmation of a 'Spendthrift/Cheapskate insurance' Beedle shop mechanic recalled from general Zelda knowledge — could not verify this exists in Skyward Sword specifically; may not be a real mechanic in this game (possibly confused with another Zelda title). Do not use.",
+    "Did not deeply verify potion ingredient/infusion system details (which bugs/materials augment which potions) beyond partial examples — this may matter if a trophy wants 'max out a potion type.'",
+    "Did not confirm whether Skyward Sword HD removed, added, or altered any specific side quest, minigame, or collectible relative to the Wii original beyond the amiibo fast-travel addition and general control-scheme changes. Treat the base (Wii-equivalent) side content list as unchanged unless told otherwise.",
+    "Silent Realm trials (Farore's, Nayru's, Din's, the Goddess's) are core to main-quest progression, not optional side content — flagged here only for context since they involve secret-area-adjacent geography; recommend confirming with the campaign scout that these are covered there, not assumed as 'side content.'"
+  ]
+}

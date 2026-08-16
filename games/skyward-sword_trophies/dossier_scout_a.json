@@ -1,0 +1,310 @@
+{
+  "beat": "campaign",
+  "game": "The Legend of Zelda: Skyward Sword",
+  "platform": "Nintendo Switch (Skyward Sword HD, 2021)",
+  "findings": [
+    {
+      "category": "dungeon",
+      "name": "Skyview Temple",
+      "detail": "1st dungeon, located in Faron Woods. Dungeon item: Beetle.",
+      "trackable": "Story progression only; no in-game dungeon checklist confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674", "https://www.zeldadungeon.net/wiki/Skyward_Sword_Dungeons"]
+    },
+    {
+      "category": "boss",
+      "name": "Ghirahim (1st encounter)",
+      "detail": "Boss of Skyview Temple. Defeating him yields the Ruby Tablet.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674", "https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/boss-walkthrough/bosses/demon-lord-ghirahim-skyview-temple"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Earth Temple",
+      "detail": "2nd dungeon, located in Eldin Volcano. Dungeon item: Bomb Bag.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "boss",
+      "name": "Scaldera",
+      "detail": "Boss of Earth Temple, a giant lava creature.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Lanayru Mining Facility",
+      "detail": "3rd dungeon, located in Lanayru Desert. Makes heavy use of Timeshift Stones.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "boss",
+      "name": "Moldarach",
+      "detail": "Boss of Lanayru Mining Facility, referred to as the 'Thousand-Year Arachnid', a giant scorpion.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.zeldadungeon.net/wiki/Moldarach", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-lanayru-mining-facility-dungeon-guide-walkthrough/"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Ancient Cistern",
+      "detail": "4th dungeon, located in Lake Floria (Faron region). Reached after Farore's Silent Realm reward (Water Dragon's Scale).",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/dungeon-4-the-ancient-cistern/boss-koloktos"]
+    },
+    {
+      "category": "boss",
+      "name": "Koloktos",
+      "detail": "Boss of Ancient Cistern, a large statue wielding six arms/swords in two phases. Defeating him grants access to Farore's Flame, upgrading the Goddess Sword to the Goddess Longsword.",
+      "trackable": "Sword upgrade is reflected on the equipped weapon icon/name.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/dungeon-4-the-ancient-cistern/boss-koloktos"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Sandship",
+      "detail": "5th dungeon, located in Lanayru Sand Sea.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "boss",
+      "name": "Tentalus",
+      "detail": "Boss of Sandship, a giant kraken/sea-monster. Defeating him grants access to Nayru's Flame, upgrading the Goddess Longsword to the Goddess White Sword.",
+      "trackable": "Sword upgrade reflected on equipped weapon icon/name.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Fire Sanctuary",
+      "detail": "6th dungeon, located at the summit of Eldin Volcano. Dungeon item: Mogma Mitts.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337674"]
+    },
+    {
+      "category": "boss",
+      "name": "Ghirahim (2nd encounter)",
+      "detail": "Boss of Fire Sanctuary. Defeating him grants access to Din's Flame, upgrading the Goddess White Sword to the Master Sword.",
+      "trackable": "Sword upgrade reflected on equipped weapon icon/name.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/boss-walkthrough/bosses/demon-lord-ghirahim-fire-sanctuary"]
+    },
+    {
+      "category": "dungeon",
+      "name": "Sky Keep",
+      "detail": "7th and final dungeon, beneath the Statue of the Goddess in Skyloft. Unique among series dungeons for having no dungeon item and no traditional boss fight; contains 8 rearrangeable rooms recycled from prior dungeons that must be solved to reach the Triforce. Accessed after learning the full Song of the Hero, completing The Goddess's Silent Realm, and obtaining the Stone of Trials.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://zelda.fandom.com/wiki/Sky_Keep", "https://gamerant.com/the-legend-of-zelda-skyward-sword-hd-sky-keep-dungeon-guide-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "The Imprisoned",
+      "detail": "Recurring giant superboss fought three separate times, all at the Sealed Grounds in Faron Woods: once at the end of Act 1, once at the end of Act 2, and once at the start of the Act 3 Faron Woods segment. Each fight is a Loftwing dive-bomb + Skyward Strike encounter to knock it back into its pit.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/boss-walkthrough/bosses/the-imprisoned", "https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/song-of-the-hero/sealed-grounds-the-imprisoned"]
+    },
+    {
+      "category": "boss",
+      "name": "Levias (with Bilocyte parasite)",
+      "detail": "Mandatory world-boss encounter with the Spirit of the Sky above Lanayru Sand Sea/Sky region. Link must free Levias from the Bilocyte parasite (Loftwing aerial phase, then a direct fight against Bilocyte). Required to obtain Levias's portion of the Song of the Hero.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/levias/boss-levias-bilocyte"]
+    },
+    {
+      "category": "boss",
+      "name": "Demon Lord Ghirahim (3rd/final encounter, true form)",
+      "detail": "Final Ghirahim fight, in the Sealed Temple/Hylia's Realm area at the end of the game, immediately before Demise's resurrection. Ghirahim reveals his true form (visually resembling Fi, being the spirit of the sword that once sealed Demise).",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/the-endgame/boss-demon-lord-ghirahim", "https://www.thegamer.com/skyward-sword-ghirahim-guide/"]
+    },
+    {
+      "category": "boss",
+      "name": "Demise",
+      "detail": "Final boss of the game, fought after Ghirahim's defeat and Zelda's life-energy is drained to resurrect him. Two-phase sword duel; second phase adds storm weather and Demise using Skyward Strikes. Defeated using the Master Sword; his final act is cursing Link's and Zelda's descendants (setting up the series' recurring hatred/reincarnation cycle).",
+      "trackable": "Story progression only (single, non-repeatable main-quest fight per save).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/the-endgame/final-boss-demise", "https://zelda.fandom.com/wiki/Demise"]
+    },
+    {
+      "category": "trial",
+      "name": "Farore's Silent Realm",
+      "detail": "Silent Realm trial in Faron Woods, entered via Trial Gate. Reward: Water Dragon's Scale, needed to breathe/dive at Lake Floria toward the Ancient Cistern.",
+      "trackable": "Not explicitly counted on a UI screen (unconfirmed); story progression gates further areas.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337643", "https://www.zeldadungeon.net/wiki/Silent_Realm"]
+    },
+    {
+      "category": "trial",
+      "name": "Nayru's Silent Realm",
+      "detail": "Silent Realm trial in Lanayru Desert. Reward: Clawshots.",
+      "trackable": "Unconfirmed on-screen counter; story progression gate.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337647"]
+    },
+    {
+      "category": "trial",
+      "name": "Din's Silent Realm",
+      "detail": "Silent Realm trial in Eldin Volcano. Reward: Fireshield Earrings.",
+      "trackable": "Unconfirmed on-screen counter; story progression gate.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337664"]
+    },
+    {
+      "category": "trial",
+      "name": "The Goddess's Silent Realm",
+      "detail": "Fourth and final Silent Realm trial, in Skyloft, accessed by playing the completed Song of the Hero at the Plaza. Reward: Stone of Trials, which opens Sky Keep.",
+      "trackable": "Story progression gate; Sky Keep entrance appears once complete.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.zeldadungeon.net/wiki/Stone_of_Trials", "https://www.zeldadungeon.net/wiki/Song_of_the_Hero"]
+    },
+    {
+      "category": "system",
+      "name": "Silent Realm core mechanic",
+      "detail": "In each of the 4 Silent Realms, Link is weaponless in spirit form and must collect 15 Sacred Tears scattered around a mirrored/darkened version of the overworld area while evading Guardians; collecting a tear grants ~90 seconds of Guardian-immunity. Getting caught resets progress within that attempt.",
+      "trackable": "In-trial tear counter is displayed on screen during the trial (e.g., '3/15').",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Zelda-Skyward-Sword/archives/337664", "https://www.zeldadungeon.net/wiki/Silent_Realm"]
+    },
+    {
+      "category": "system",
+      "name": "Song of the Hero",
+      "detail": "5th and final song for the Goddess's Harp, split into four parts taught by the three Dragons (Faron the Water Dragon, Eldin the Fire Dragon, Lanayru the Thunder Dragon) plus Levias, the Spirit of the Sky. All four parts are required before The Goddess's Silent Realm becomes accessible. Parts can be collected in any order, though community guides warn of a game-breaking glitch if Lanayru's part is obtained and turned in to Golo the Goron before the Faron and Eldin parts are collected.",
+      "trackable": "Progress reflected via story/NPC dialogue; no confirmed on-screen 'X of 4 parts' counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/wiki/Song_of_the_Hero", "https://www.gamerguides.com/the-legend-of-zelda-skyward-sword-hd/guide/walkthrough/song-of-the-hero/lanayru-gorge-bird-statue"]
+    },
+    {
+      "category": "system",
+      "name": "Triforce quest",
+      "detail": "After clearing Sky Keep, Link obtains the Triforce (all three pieces together, not collected as separate individually-tracked items in one sitting inside Sky Keep) and is taken to the Goddess Statue altar, where he wishes for the power to destroy Demise.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.zeldadungeon.net/wiki/Song_of_the_Hero", "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Zelda's identity as Hylia's reincarnation",
+      "detail": "Mid/late-game reveal that Zelda is the mortal reincarnation of the goddess Hylia, central to the reason she was sent to the surface/past.",
+      "trackable": "Cutscene-only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://collider.com/skyward-sword-ending-explained/"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Ghirahim's true nature revealed",
+      "detail": "Ghirahim is revealed to be the spirit/personification of the sword originally used to seal Demise, mirroring Fi. Shown in his true form just before the final battle sequence.",
+      "trackable": "Cutscene-only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/skyward-sword-ghirahim-guide/"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Fi's Farewell / Master Sword sealed",
+      "detail": "After Demise's defeat, Fi tells Link her purpose is complete and asks to be sealed within the Master Sword to sleep forever; Link seals the sword at the Goddess Statue pedestal.",
+      "trackable": "Cutscene-only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.jvgs.net/ssblog/380/the-last-boss-ending/", "https://www.youtube.com/watch?v=09TJnCdFPUo"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Impa's farewell / bracelet twist",
+      "detail": "Impa, revealed to be an aged time-displaced guardian of Zelda, parts ways with the group to remain in the past; Zelda gives her a bracelet. In the epilogue, an old woman in the present is revealed (via the same bracelet) to have been Impa, who then vanishes.",
+      "trackable": "Cutscene-only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.youtube.com/watch?v=LslpFa_iSAI", "https://www.jvgs.net/ssblog/380/the-last-boss-ending/"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Groose's arc resolution",
+      "detail": "Groose, introduced as Link's antagonistic rival, becomes an ally over the course of the story (helping build the Groosenator siege weapon, assisting during Zelda's sleep in the past) and ultimately chooses to remain on the surface with Link and Zelda at the end.",
+      "trackable": "Cutscene-only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.jvgs.net/ssblog/380/the-last-boss-ending/"]
+    },
+    {
+      "category": "ending",
+      "name": "Single ending",
+      "detail": "Skyward Sword has one canonical ending; dialogue choices during conversations do not branch the story or the outcome. Demise's curse line closes the game, tying into the wider Zelda timeline mythos.",
+      "trackable": "N/A.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://zelda.fandom.com/wiki/Demise", "https://collider.com/skyward-sword-ending-explained/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Sacred Tears collected within an active Silent Realm attempt", "where": "On-screen counter during the trial itself (resets each new attempt at that Realm)", "confidence": "medium" },
+    { "stat": "Currently equipped sword tier (Goddess Sword -> Goddess Longsword -> Goddess White Sword -> Master Sword)", "where": "Item/equipment pause menu icon and name", "confidence": "medium" },
+    { "stat": "Hero Mode unlock state", "where": "File Select screen shows Hero Mode as an available new-save option only after the main game has been completed once on that profile", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    {
+      "note": "Skyward Sword HD (Switch) allows cutscenes to be skipped in all playthroughs from the start; in the original Wii version, cutscene skipping was only unlocked after completing the game once (in Hero Mode).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Skyward Sword HD removed the Sheikah Stone hint-video feature entirely (it existed on Wii to give hints, and unlocked all hints automatically once you'd beaten the game and revisited it in Hero Mode). Since HD does not have Sheikah Stones, this specific Wii-only behavior does not carry over.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Hero Mode in Skyward Sword HD still requires completing the base campaign once before it becomes selectable for a new save file (matches Wii behavior); HD reportedly makes the save-slot selection more flexible when starting the Hero Mode file, but does not appear to unlock Hero Mode from a completely fresh, never-beaten profile.",
+      "confidence": "low"
+    },
+    {
+      "note": "No boss, dungeon, or Silent Realm content was found to be added, removed, or altered in the HD remaster's main campaign relative to the Wii original — differences found relate to controls (button-based sword controls added), UI/HUD, and quality-of-life features, not campaign structure itself. This is a gap, not a confirmed absence — see gaps list.",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "Could not confirm whether the game displays any explicit dungeon-completion tracker/checklist (e.g., '7/7 temples cleared') anywhere in the UI. Progression appears to be tracked only implicitly through story/world state.",
+    "Could not confirm whether the Song of the Hero's 4 parts are shown as a discrete 'X of 4' counter anywhere in the pause menu or item screen.",
+    "Could not verify whether all 4 Silent Realms use exactly 15 Sacred Tears each, or whether this number varies by trial (sources consistently describe 15 for the general mechanic but I did not find a per-trial breakdown confirming all four are identical).",
+    "Could not confirm exact wording/UI location (if any) for a quest-item collection screen showing the three Ancient Tablet fragments (Emerald, Ruby, Amber) or the three Sacred Flames as a visual checklist.",
+    "Could not find HD-specific documentation confirming or denying any changes to individual boss fights (Ghirahim, Scaldera, Moldarach, Koloktos, Tentalus, The Imprisoned, Levias, Demise) between Wii and Switch versions — treat campaign boss mechanics as unchanged unless the designer finds contrary evidence.",
+    "Did not verify the precise name/existence of an 'Adventure Log' or similar recap/objective-reminder feature that some HD marketing referenced; could not confirm its exact function or whether it double as any kind of progress tracker.",
+    "Could not confirm whether the final Demise fight or Ghirahim's final-form fight can be repeated/re-fought after game completion (e.g., via Boss Rush-style content) on Switch — this may matter for a 'defeat all bosses' style trophy design.",
+    "Could not independently confirm the exact epilogue scene order/content beyond the secondary source cited (Fi's Farewell -> Impa's Farewell -> return to Sealed Temple -> decision to stay on the Surface); recommend a dedicated ending-transcript check before writing final cutscene-based trophy text."
+  ]
+}
