@@ -41,6 +41,13 @@ export const SettingsIcon = (props: IconProps) => (
   </Icon>
 )
 
+export const ChecklistIcon = (props: IconProps) => (
+  <Icon {...props}>
+    <path d="m3 6 2 2 3-3M3 14l2 2 3-3" />
+    <path d="M12 7h9M12 15h9" />
+  </Icon>
+)
+
 export const CheckIcon = (props: IconProps) => (
   <Icon strokeWidth="3" {...props}>
     <path d="m5 12.5 4.5 4.5L19 7" />

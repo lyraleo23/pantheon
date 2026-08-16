@@ -1,8 +1,9 @@
 import { useRef, useState } from 'react'
 import { loadCatalog } from '../data/catalog'
 import { useAsync } from '../hooks/useAsync'
-import { clearAll, replaceState, useProgress, type ProgressState } from '../store/progress'
-import { downloadBackup, parseBackup, summarise } from '../store/backup'
+import { clearAll, replaceState, useProgress } from '../store/progress'
+import { replacePrefs, setDefaultStatus, STATUS_OPTIONS, usePrefs } from '../store/prefs'
+import { downloadBackup, parseBackup, summarise, type ParsedBackup } from '../store/backup'
 import { catalogProgress } from '../lib/stats'
 import { EMPTY_GAME } from '../store/progress'
 import { formatDate } from '../lib/format'
@@ -11,9 +12,10 @@ import { Modal } from '../components/Modal'
 export function SettingsPage() {
   const { data } = useAsync(() => loadCatalog(), [])
   const state = useProgress()
+  const prefs = usePrefs()
   const fileInput = useRef<HTMLInputElement>(null)
 
-  const [pending, setPending] = useState<ProgressState | null>(null)
+  const [pending, setPending] = useState<ParsedBackup | null>(null)
   const [confirmClear, setConfirmClear] = useState(false)
   const [message, setMessage] = useState<{ kind: 'ok' | 'error'; text: string } | null>(null)
 
@@ -28,8 +30,9 @@ export function SettingsPage() {
 
   function applyImport() {
     if (!pending) return
-    const { games, trophies } = summarise(pending)
-    replaceState(pending)
+    const { games, trophies } = summarise(pending.progress)
+    replaceState(pending.progress)
+    replacePrefs(pending.prefs)
     setPending(null)
     setMessage({ kind: 'ok', text: `Backup restaurado: ${games} jogos, ${trophies} troféus.` })
   }
@@ -56,6 +59,26 @@ export function SettingsPage() {
           <p className="hint" style={{ marginBottom: 0 }}>
             O progresso fica guardado neste aparelho. Para levar para outro, exporte aqui e importe lá.
           </p>
+        </section>
+
+        <h2 className="section-title">Exibição</h2>
+        <section className="card">
+          <p className="hint" style={{ marginTop: 0 }}>
+            Com qual filtro a lista de um jogo abre.
+          </p>
+          <div className="chip-grid">
+            {STATUS_OPTIONS.map(({ value, label }) => (
+              <button
+                key={value}
+                type="button"
+                className={prefs.defaultStatus === value ? 'chip-option is-active' : 'chip-option'}
+                onClick={() => setDefaultStatus(value)}
+                aria-pressed={prefs.defaultStatus === value}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
         </section>
 
         <h2 className="section-title">Backup</h2>
@@ -126,7 +149,8 @@ export function SettingsPage() {
           onConfirm={applyImport}
         >
           <p style={{ marginTop: 0 }}>
-            O backup tem {summarise(pending).trophies} troféus em {summarise(pending).games} jogos.
+            O backup tem {summarise(pending.progress).trophies} troféus em{' '}
+            {summarise(pending.progress).games} jogos.
           </p>
           <p className="hint" style={{ marginBottom: 0 }}>
             Isso descarta o que está neste aparelho hoje ({mine.trophies} troféus em {mine.games}{' '}

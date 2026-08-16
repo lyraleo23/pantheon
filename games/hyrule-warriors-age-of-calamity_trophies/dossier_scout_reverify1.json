@@ -1,0 +1,61 @@
+{
+  "beat": "reverify-completion-tracking",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "findings": [
+    {
+      "question": "Korok Seed total — 175 (knowll.com/Zelda Wiki) vs 134 (Game8) conflict",
+      "answer": "Both figures are independently attested and are NOT simply contradictory — they appear to count different things, and the conflict can be explained rather than dismissed. ZeldaWiki (zeldawiki.wiki, the wiki.gg-hosted Zelda wiki, generally a well-maintained reference) gives a granular breakdown totaling 175: 122 Korok Seeds hidden within the 20 story Scenarios, 12 Korok Seeds hidden within 11 specific Challenges, and 41 Korok Seeds obtained purely as rewards (26 as First-Clear Rewards for specific Challenges, 15 as a lump-sum reward for completing the quest 'Helping with Heights'). Game8's 100%-completion checklist states flatly 'A total of 134 Korok Seeds are needed to collect as part of the game's 100 percent completion rate' with no breakdown shown. Note that 122 (Scenario seeds) + 12 (Challenge seeds) = 134 exactly — matching Game8's figure precisely. This strongly suggests Game8's 134 is the count of seeds that must be actively found/picked up as discrete field collectibles, deliberately excluding the 41 seeds that are auto-granted in bulk as rewards for finishing other checklist items (Challenges, the 'Helping with Heights' quest) — i.e., avoiding a form of double-accounting against other 100% categories. Recommendation: treat 175 as the true total number of Korok Seed items obtainable in the game (useful for a 'find every Korok Seed' style trophy framed narrowly), and 134 as the number of individually-hidden/field-findable seeds used in some completion-checklist methodologies (Game8's). Neither figure could be fully cross-confirmed by a third independent source within this pass, so overall confidence on which number a trophy designer should use is medium, but the internal-conflict itself is now explained rather than an open contradiction.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Korok_Seed (fetched via r.jina.ai reader proxy, section on Age of Calamity)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493 (quote: 'A total of 134 Korok Seeds are needed to collect as part of the game's 100 percent completion rate.')"
+      ]
+    },
+    {
+      "question": "Does 'The Hope of All Hyrule' quest exist, appear on the map screen, and display overall completion percentage?",
+      "answer": "The quest exists and is confirmed by two independent sources. Per ZeldaWiki, it is the final quest of the main quest system, located in Central Hyrule on the map, unlocked after completing the 'Akkala Tower' scenario, and requires finishing all eight regional questlines (The Hope of Akkala, Central Hyrule, Eldin, Faron, Gerudo, Hebra, Lanayru, and Necluda — base game only, excluding Expansion Pass content). Completing it rewards Link's Hyrule Warrior's Cap/Tunic/Trousers costume set. Separately, Game8's 100%-completion guide states directly: 'To check your current completion rate, find the quest, The Hope of All Hyrule, on the map screen' — indicating that selecting/viewing this quest entry on the map/quest screen is the game's designated way to check overall completion progress toward 100%. It is not fully clear from either source whether the quest itself displays a literal numeric percentage (e.g., '87%') or whether it is simply the fixed map marker players are told to check the surrounding quest-log UI at. Treat the existence of the quest and its role as a completion-progress checkpoint as confirmed; the exact visual/numeric format of what it displays is unconfirmed.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/The_Hope_of_All_Hyrule (fetched via r.jina.ai reader proxy)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493"
+      ]
+    },
+    {
+      "question": "100% completion criteria full breakdown (Costumes, Korok Seeds, Cooking Recipes, Secret Characters, Quests) — base vs DLC",
+      "answer": "Per Game8's 100% Completion guide (archives/314493), base game 100% requires: 50 Cooking Recipes, 69 Costumes, 134 Korok Seeds (see conflict note above), 4 Secret Characters, and 375 quests (note: the same Game8 page internally states '376 quests' in one section and '375' in a checklist table elsewhere — an apparent inconsistency on Game8's own page that could not be resolved). With the Expansion Pass DLC included, totals rise to 72 Costumes (+3), 5 Secret Characters (+1, the 'Battle-Tested Guardian'), and 435 Quests (+59); the Korok Seed and Cooking Recipe figures were not stated to change with DLC on this page. The guide frames these five categories (Recipes, Costumes, Korok Seeds, Secret Characters, Quests) as the complete set for 100%, and explicitly states Treasure Chests are NOT part of the 100% completion criteria.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493"
+      ]
+    },
+    {
+      "question": "Are the 50 Terrako Components tracked with a visible in-game counter (e.g. '12/50')?",
+      "answer": "Could not confirm a visible numeric counter (like '12/50') exists in-game for Terrako Components. Both ZeldaWiki and Game8 confirm 50 Terrako Components are required to complete the quest 'Terrako's Return' (unlocked after finishing the final scenario 'The Future of Hyrule'), which repairs Terrako, unlocks him as a playable character (joining at level 57 with a Blessed Screw weapon), and grants a special alternate/secret ending cutscene showing Terrako meeting various characters across Hyrule (in a loading-screen-like art style). Components are earned in varying amounts (2-5 typical) from numerous individual quests/challenges. Neither source described or screenshotted an explicit running counter UI element; it's plausible components are only visible via the player's item/key-items inventory listing a quantity, but this was not explicitly confirmed either way.",
+      "confidence": "low",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Terrako (fetched via r.jina.ai reader proxy)",
+        "https://zeldawiki.wiki/wiki/Terrako%27s_Return (fetched via r.jina.ai reader proxy)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/311644"
+      ]
+    },
+    {
+      "question": "Total Treasure Chests in the game — confirmed count?",
+      "answer": "Could not confirm a total count. Game8 has a dedicated guide page ('Treasure Chest Locations: Where to Find All Story Mode Chests', archives/314512) with an interactive location map, but the page text does not state an overall numeric total. The ZeldaWiki page for 'Treasure Chest (Age of Calamity)' exists as a title/stub but currently has no written content ('There is currently no text in this page'), so no total could be sourced from it either. Game8's 100% guide explicitly excludes Treasure Chests from the 100% completion criteria (see finding 3), meaning even if a total exists, the game likely does not track/require it for the 100% completion percentage — though it's still possible chests are tracked in some other UI (e.g., a per-stage chest count on results screens), which was not confirmed.",
+      "confidence": "low",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314512",
+        "https://zeldawiki.wiki/wiki/Treasure_Chest_(Age_of_Calamity) (fetched via r.jina.ai reader proxy — page exists but is empty/unwritten)"
+      ]
+    }
+  ],
+  "gaps": [
+    "Could not fully resolve the Korok Seed conflict with a third independent source; 175 vs 134 is explained as likely counting different subsets (total obtainable items vs. actively-found field collectibles) but this is an inference, not a source that states the reconciliation explicitly.",
+    "Could not confirm the exact visual format of what 'The Hope of All Hyrule' quest displays — whether it shows a literal completion percentage number, a checklist, or is simply a map waypoint players are directed to for checking overall quest-log progress via surrounding UI.",
+    "Game8's own 100% completion page contains an internal inconsistency (states both '375' and '376' total quests in different sections) that could not be resolved with available sources — flag this before using either quest-count figure in a trophy.",
+    "Could not confirm whether Korok Seed count or Cooking Recipe count changes with the Expansion Pass DLC (Game8 only stated DLC deltas for Costumes, Secret Characters, and Quests).",
+    "Could not confirm whether Terrako Components have any visible running counter in-game (e.g., in an items/key-items menu) — only confirmed the 50-component requirement and its rewards.",
+    "Could not find any source stating a total Treasure Chest count for the game; zeldawiki.wiki's dedicated page for this topic exists but is unwritten/empty, and Game8's location guide does not total the count in its text.",
+    "Was unable to directly access the original knowll.com '100% completion guide' page referenced in the prior research round (returned 404); the 175 figure was instead corroborated via zeldawiki.wiki's Korok Seed page, which independently gives the same 122+12+41=175 breakdown, lending it credibility despite knowll.com itself being unreachable this pass.",
+    "WebSearch tool was unavailable for this entire session (budget exhausted before this task began); all research had to be done via WebFetch on direct URLs and a reader-proxy (r.jina.ai) workaround for sites returning 403s (zeldawiki.wiki, zelda.fandom.com). This limited the ability to do broad exploratory queries and third-source triangulation."
+  ]
+}

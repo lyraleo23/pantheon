@@ -1,0 +1,73 @@
+{
+  "beat": "reverify-mission-replay",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "findings": [
+    {
+      "question": "Can individual Legend Mode story scenarios be replayed after first clearing them?",
+      "answer": "Yes. The game has a dedicated 'Select Scenario' menu (accessed from the Legend Mode map) that lets the player choose and replay any Scenario they have already unlocked/cleared, with any unlocked warrior. This is distinct from a linear story-only progression path.",
+      "confidence": "high",
+      "sources": [
+        "https://zelda.fandom.com/wiki/Select_Scenario",
+        "https://zelda.fandom.com/wiki/Scenario"
+      ]
+    },
+    {
+      "question": "If a player misses a Korok Seed, treasure chest, or other collectible in a scenario, can it be obtained later by replaying that scenario?",
+      "answer": "Yes. Game8's guide (in its section on unlocking the Korok Seed Tracker) states players 'will also be able to go back to previous Story Battles and Challenges to check for any Korok Seeds you've missed.' IGN's Korok location guide corroborates this, noting that when replaying a mission, spots where a Korok was already collected simply display as 'Korok already rescued' (i.e., the game remembers per-scenario collection state across replays, and un-collected Koroks remain available to grab). IGN's Essential Tips guide also notes a 'battle details screen' shows the number of Koroks found in each level, supporting that collection progress is tracked per-scenario and persists.",
+      "confidence": "high",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309383",
+        "https://www.ign.com/wikis/hyrule-warriors-age-of-calamity/Challenge_Korok_Locations",
+        "https://www.ign.com (Essential Tips and Tricks guide, via cached snippet)"
+      ]
+    },
+    {
+      "question": "Important caveat: does quitting a mission mid-way (rather than fully clearing/completing it) save any collected items?",
+      "answer": "No. A Reddit user testing this reported that if you quit an already-beaten mission before finishing the replay, 'You have to complete it again, quitting likely won't save any data to the file.' So to bank a missed collectible found on a replay, the player must finish that replay run through to the results screen, not just grab the item and quit.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.reddit.com/r/HyruleWarriors/comments/jxigge/age_of_calamity_if_you_quit_an_already_beaten/"
+      ]
+    },
+    {
+      "question": "Do replayed missions with variants (e.g., a scenario that also has a 'Divine Beast' portion) offer a choice of which part to replay?",
+      "answer": "For scenarios that include multiple distinct segments, GameFAQs notes the replay prompt asks the player to choose between options such as 'Regular Mission, Divine Beast, or Full Mission,' implying partial-segment replay is possible for some scenarios rather than always requiring a full replay.",
+      "confidence": "medium",
+      "sources": [
+        "https://gamefaqs.gamespot.com/switch/299971-hyrule-warriors-age-of-calamity/answers/584020"
+      ]
+    },
+    {
+      "question": "(Secondary) Does the post-battle results screen show a rank/grade?",
+      "answer": "Partially confirmed. Multiple community sources (GameFAQs Q&A threads) discuss 'A-rank' requirements with specific KO thresholds (roughly 1000-1600+ KOs depending on tile/scenario difficulty), which strongly implies a letter-grade ranking system (A/B/C, etc.) exists and is tied to per-mission performance. However, I could not directly confirm via a primary source exactly where/how the letter grade is displayed on the results screen itself (e.g., whether it's shown immediately post-battle vs. only inferred from unlock requirements).",
+      "confidence": "medium",
+      "sources": [
+        "GameFAQs Q&A discussions on A-rank KO thresholds (found via search snippet, exact URL not directly fetched)"
+      ]
+    },
+    {
+      "question": "(Secondary) Does the post-battle results screen show a KO counter?",
+      "answer": "Yes, KOs are tracked and displayed; a Reddit thread on max stats notes the 'KO counter normally stops at 99,999' in normal (non-hacked) play, confirming KOs are counted and shown to the player during/after battle.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.reddit.com/r/AgeofCalamity/comments/jxuyf7/max_level_rupees_ko_counter_item_count_in_hyrule/"
+      ]
+    },
+    {
+      "question": "(Secondary) Does the game have a cumulative lifetime-stats/Medal Gallery screen?",
+      "answer": "Yes. The game has a 'Medal List' accessible through the in-game Gallery menu, described by Zelda Wiki as showing 'every Medal, collected or not' — this functions as a trackable completion/collection screen for Medals (an in-game achievement-like system). This is a strong candidate for trophy-mapping since it explicitly displays collected vs. uncollected status.",
+      "confidence": "medium",
+      "sources": [
+        "https://zelda.fandom.com/wiki/Medal_List",
+        "https://ign.com/wikis/hyrule-warriors/Medal_List"
+      ]
+    }
+  ],
+  "gaps": [
+    "Could not directly fetch primary-source confirmation (IGN, Zelda Wiki, Zelda Dungeon, GameFAQs) due to 403 Forbidden / 402 errors on direct WebFetch of those domains; findings rely on search-engine snippet summaries (via Brave Search fetched through WebFetch) that quote/paraphrase those sources rather than the raw pages themselves. Treat sourcing as one level removed from the original page.",
+    "Could not confirm the exact visual/UI location or format of the rank/grade (e.g., is it a letter grade, star rating, or percentage) on the immediate post-battle results screen — only that rank thresholds tied to KO counts exist and are documented by the community.",
+    "Could not confirm whether the Medal List / Gallery tracks anything beyond Medals themselves (e.g., whether it also serves as a general completion-percentage tracker for the whole game).",
+    "Did not re-confirm the total count of Legend Mode scenarios (~20, per assignment) independently in this pass since it was out of scope for this narrow re-verification; prior passes should be checked for that figure.",
+    "WebSearch tool budget was fully exhausted at the start of this session (0/200 remaining), so this pass relied entirely on WebFetch against search-engine result pages (Brave Search, DuckDuckGo) rather than the native search tool; this is a less reliable method and results should be spot-checked if possible in a future pass with restored search budget."
+  ]
+}

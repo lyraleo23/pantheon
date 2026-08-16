@@ -2,6 +2,7 @@ import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { AppShell } from './components/AppShell'
 import { GamesPage } from './pages/GamesPage'
 import { GamePage } from './pages/GamePage'
+import { PendingPage } from './pages/PendingPage'
 import { SettingsPage } from './pages/SettingsPage'
 
 /**
@@ -15,6 +16,7 @@ export function App() {
         <Route element={<AppShell />}>
           <Route path="/" element={<GamesPage />} />
           <Route path="/jogo/:slug" element={<GamePage />} />
+          <Route path="/pendentes" element={<PendingPage />} />
           <Route path="/ajustes" element={<SettingsPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />

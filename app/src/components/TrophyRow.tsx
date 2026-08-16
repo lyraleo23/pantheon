@@ -14,16 +14,28 @@ interface Props {
   derived?: boolean
   /** "Revelar secretos" ligado no jogo inteiro. */
   reveal: boolean
+  /** De onde o troféu veio, quando a linha aparece fora da página do jogo. */
+  subtitle?: string
   onToggle: () => void
 }
 
-export function TrophyRow({ trophy, earnedAt, derived, reveal, onToggle }: Props) {
-  const [open, setOpen] = useState(false)
+export function TrophyRow({ trophy, earnedAt, derived, reveal, subtitle, onToggle }: Props) {
+  // `null` = segue o padrão; o toque no corpo é que grava uma escolha manual.
+  const [override, setOverride] = useState<boolean | null>(null)
   const [revealedHere, setRevealedHere] = useState(false)
 
   // Troféu obtido não tem mais spoiler para proteger.
   const hidden = trophy.secret && !reveal && !revealedHere && earnedAt === undefined
   const earned = earnedAt !== undefined
+
+  // O que falta fica legível de cara; o que já foi conquistado se cala.
+  const open = override ?? !earned
+
+  function handleToggle() {
+    // Zerar o override devolve a linha ao padrão: marcar fecha, desmarcar reabre.
+    setOverride(null)
+    onToggle()
+  }
 
   return (
     <div
@@ -34,7 +46,7 @@ export function TrophyRow({ trophy, earnedAt, derived, reveal, onToggle }: Props
         <button
           type="button"
           className="trophy__toggle"
-          onClick={onToggle}
+          onClick={handleToggle}
           disabled={derived}
           aria-pressed={earned}
           aria-label={
@@ -50,12 +62,15 @@ export function TrophyRow({ trophy, earnedAt, derived, reveal, onToggle }: Props
         <button
           type="button"
           className="trophy__body"
-          onClick={() => setOpen((value) => !value)}
+          onClick={() => setOverride(!open)}
           aria-expanded={open}
         >
           <span aria-hidden="true">{TIER_ICON[trophy.tier]}</span>
-          <span className={hidden ? 'trophy__name is-hidden' : 'trophy__name'}>
-            {hidden ? 'Troféu oculto' : trophy.name}
+          <span className="trophy__label">
+            <span className={hidden ? 'trophy__name is-hidden' : 'trophy__name'}>
+              {hidden ? 'Troféu oculto' : trophy.name}
+            </span>
+            {subtitle && <span className="trophy__sub">{subtitle}</span>}
           </span>
           <span className="trophy__flags">
             {trophy.missable && <span title="Perdível">⚠️</span>}

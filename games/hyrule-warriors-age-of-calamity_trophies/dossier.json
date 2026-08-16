@@ -1,0 +1,123 @@
+{
+  "game": "Hyrule Warriors: Age of Calamity",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "developer": "Omega Force / Koei Tecmo",
+  "publisher": "Nintendo",
+  "releaseDate": "2020-11-20",
+  "researchDate": "2026-08-15",
+  "premise": "A musou prequel to Breath of the Wild, set during the 100 years before the Great Calamity. A small time-traveling Guardian, Terrako, escapes a destroyed future and arrives in the past carrying a warning, altering history: King Rhoam sends Link, Impa, and the four Champions (Mipha, Daruk, Revali, Urbosa) to prepare Hyrule against Calamity Ganon, while the dark prophet Astor manipulates the Yiga Clan to hasten Ganon's revival.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Switch has no system-level achievement/trophy system. This game is Switch-exclusive with no other platform release. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "dlcScopeDecision": "At the user's explicit request, this list includes the official paid Expansion Pass as `dlc`-style bonus lists (Rule 14), matching the approach used for Hyrule Warriors and Breath of the Wild earlier this session. Base list = the core game (no DLC required). DLC = two waves, Pulse of the Ancients (Wave 1) and Guardian of Remembrance (Wave 2), each as their own bonus pack.",
+  "researchQualityNote": "This round hit the same tool-access friction as every other game researched this session — WebSearch budget exhausted before/during each scout's work, most major wikis/sites blocked. A follow-up re-verification pass (3 more scouts) was run before the checkpoint. It resolved most gaps to medium confidence, but — unlike prior games this session — several facts here remain genuinely unresolved even after re-verification (exact Challenge total, DLC quest/challenge wave breakdown, whether a results-screen rank/KO-counter exists, whether missed collectibles are retroactively recoverable on replay). Nearly all re-verified facts rest on a single source domain (Game8.co) plus zeldawiki.wiki, since WebSearch was unavailable for independent cross-domain checking in every pass. Treat this dossier's confidence ratings as one notch more conservative than usual, consistent with (but slightly worse than) the BotW/TotK precedent from this session.",
+  "campaignStructure": {
+    "legendModeStructure": "20 Scenarios across 7 Chapters in the base game (confirmed by 2 independent zeldawiki.wiki pages with matching totals; per-chapter breakdown ~2/5/2/3/4/2/3 is lower confidence, single-sourced). An 'Epilogue' is mentioned in some sources but it's unresolved whether it's a distinct 8th segment or folded into Chapter 7 — do not cite an exact epilogue-inclusive total. Chapters, per one source: Ch.1 Terrako's arrival; Ch.2 recruiting the four Champions (player-orderable); Ch.3 obtaining the Master Sword; Ch.4 activating Sheikah Towers; Ch.5 Calamity's arrival, rescuing the Champions (paired segments, player-orderable); Ch.6 defense of Akkala Citadel/Fort Hateno, defeating the four Blight Ganons; Ch.7 final assault on Hyrule Castle vs. Calamity Ganon.",
+    "terrako": "A small Guardian from a destroyed future timeline, carrying a Malice fragment. Reactivated by Link/Impa, reveals the coming Calamity, prompting King Rhoam to send the future Champions to find the Master Sword. Later summons Sidon, Yunobo, Teba, and Riju from the original unaltered timeline as story-only guest helpers during the Blight ambush (not confirmed playable at that point). Self-destructs in the final battle to break Calamity Ganon's shield. High confidence.",
+    "bosses": [
+      { "name": "Waterblight Ganon / Fireblight Ganon / Thunderblight Ganon / Windblight Ganon", "detail": "Malice-corrupted entities ambushing the four Champions; fought individually during their story segments and again during the Akkala Citadel/Fort Hateno defense chapter.", "confidence": "medium" },
+      { "name": "Astor", "detail": "Original antagonist created for this game (not from BotW) — a 'dark prophet' who communes with Harbinger Ganon and manipulates the Yiga Clan. Fought at the final Hyrule Castle assault; consumed by Harbinger Ganon in the climax.", "confidence": "high" },
+      { "name": "Harbinger Ganon / Calamity Ganon", "detail": "A fragment/manifestation of Ganon's essence from the destroyed future; consumes Astor and becomes the full Calamity Ganon for the final multi-stage battle. Terrako's self-destruction breaks his shield; Link defeats him and Zelda permanently seals him with her awakened sealing magic.", "confidence": "high" },
+      { "name": "Master Kohga", "detail": "Yiga Clan leader, recurring boss including a preemptive strike on the Yiga hideout after Link obtains the Master Sword. Confirmed BASE GAME content (corrects an initial assumption he might be DLC).", "confidence": "high" }
+    ],
+    "ending": "One canonical main ending: Ganon defeated and sealed, visiting future heroes return to their timeline. A secondary secret Epilogue scene follows (Purah and Robbie repair Terrako, who reactivates and reunites with Zelda). No branching endings — the time-travel twist resolves as a single fixed outcome.",
+    "confidence": "high on plot/bosses; medium on exact chapter/scenario structure"
+  },
+  "roster": {
+    "base18": {
+      "list": ["Link", "Zelda", "Impa", "Mipha", "Daruk", "Revali", "Urbosa", "King Rhoam", "Sidon", "Yunobo", "Teba", "Riju", "Master Kohga", "Terrako", "Hestu", "Great Fairies (shared unit: Cotera/Tera/Kaysa/Mija/Malanya)", "Monk Maz Koshia", "Calamity Ganon"],
+      "storyUnlocks14": ["Link", "Zelda", "Impa", "Mipha", "Daruk", "Revali", "Urbosa", "King Rhoam", "Sidon", "Yunobo", "Teba", "Riju", "Master Kohga", "Terrako"],
+      "sideQuestUnlocks4": ["Hestu (side quest near the Korok Forest chapter)", "Great Fairies (side quest 'Offering Help on the Road' + 4 Fairy Fountain challenges, shared unit)", "Calamity Ganon (post-game challenge chain, ~150 Challenges)", "Monk Maz Koshia (unlock method UNCONFIRMED — his playability itself rests on a single uncorroborated source; treat with caution, do not build a trophy specifically naming him without further caution)"],
+      "confidence": "medium — 17 of 18 names corroborated by 2+ independent sources; Monk Maz Koshia's playability is the weak link"
+    },
+    "dlcAdditions3": {
+      "list": ["Battle-Tested Guardian (Wave 1)", "Sooga (Wave 2)", "Purah & Robbie — combined single unit (Wave 2)"],
+      "confidence": "high"
+    },
+    "corrections": [
+      { "wrong": "Assumed Sooga might be base-game", "correct": "Confirmed DLC-exclusive (Wave 2)" },
+      { "wrong": "Assumed Master Kohga might be DLC", "correct": "Confirmed base-game content" },
+      { "wrong": "Assumed Ganondorf and/or Astor might be playable characters", "correct": "Neither is playable. Astor is boss-only. 'Ganondorf' as a named playable character does not exist in this game — the closest thing is Calamity Ganon (unlockable, boss-form)." }
+    ]
+  },
+  "collectibles": {
+    "korokSeeds": {
+      "conflict": "Two figures exist and are RECONCILED (not a true contradiction): 175 total obtainable Korok Seed items (122 in the 20 Scenarios + 12 across 11 Challenges + 41 as bulk quest/challenge rewards), per zeldawiki.wiki's granular breakdown. Game8's '134 needed for 100%' almost certainly equals 122+12=134 exactly, i.e. it counts only the actively-found field seeds and excludes the 41 bulk-reward seeds to avoid double-counting against other 100% categories (since those 41 are earned automatically alongside Challenge/quest completions already counted elsewhere). RECOMMENDATION: a 'find every Korok Seed' trophy should not cite either exact number — verify via whatever in-game screen shows seed count instead, since no dedicated counter UI was confirmed to exist (see systems.trackableStats below).",
+      "confidence": "medium"
+    },
+    "hopeOfAllHyrule": {
+      "description": "A quest, found on the map screen in Central Hyrule, unlocked after the 'Akkala Tower' scenario. Confirmed as the game's designated way to check overall completion progress — requires finishing all 8 regional questlines (The Hope of Akkala, Central Hyrule, Eldin, Faron, Gerudo, Hebra, Lanayru, Necluda; base game only). Reward: Link's 'Hyrule Warrior's' costume set.",
+      "displayFormat": "UNCONFIRMED whether it shows a literal numeric percentage vs. being a fixed map waypoint/checklist — do not cite an exact percentage-display claim in trophy verification, but the quest's existence and completion state are safe to reference.",
+      "confidence": "medium"
+    },
+    "hundredPercentCriteria": {
+      "base": "50 Cooking Recipes, 69 Costumes, 134 (or 175, see korokSeeds conflict) Korok Seeds, 4 Secret Characters, 376 Quests (source has an internal 375-vs-376 inconsistency, unresolved).",
+      "withDLC": "72 Costumes (+3), 5 Secret Characters (+1, Battle-Tested Guardian), 435 Quests (+59, though a second source suggests the true DLC quest delta might be as high as 112 when broken out by wave — internally CONTRADICTORY, unresolved).",
+      "excluded": "Treasure Chests are explicitly NOT part of the 100% completion criteria per the source guide.",
+      "confidence": "medium, with the noted internal inconsistencies flagged as unresolved"
+    },
+    "terrakoComponents": {
+      "count": 50,
+      "description": "Earned in varying small amounts (2-5 typical) from many individual quests/challenges. Collecting all 50 completes the quest 'Terrako's Return' (unlocked after the final base-game scenario), unlocking Terrako as a playable character (joins at level 57) and a secret/alternate ending cutscene.",
+      "trackable": "UNCONFIRMED whether a visible running counter exists — plausibly only visible via inventory quantity.",
+      "confidence": "medium on the 50-count and rewards; low on tracking UI"
+    },
+    "treasureChests": { "count": "UNCONFIRMED — no source states a total. Explicitly excluded from 100% criteria.", "confidence": "low" },
+    "costumes": { "count": "69 base + 3 DLC = 72 total", "confidence": "medium" },
+    "noAdventureMode": "IMPORTANT CORRECTION to initial assumption: unlike the original Hyrule Warriors, this game has NO grid-based Adventure Mode. All side content (challenges, quests, materials) is folded into a single BotW-style explorable world map with per-region completion indicators. Confidence: medium."
+  },
+  "systems": {
+    "difficultyModes": "Easy, Normal, Hard, Very Hard available from the start; a 5th, Apocalyptic, added by Wave 1 DLC. Freely changeable anytime via Options menu. Higher difficulty increases enemy damage and slows Weak-Point Gauge depletion but does NOT change reward amounts. Confidence: high.",
+    "multiplayer": "Local 2-player same-screen horizontal split-screen only (NOT the original Wii U Hyrule Warriors' asymmetric TV/GamePad setup). No online multiplayer. Reported to cause frame-rate drops. Confidence: high.",
+    "characterLeveling": "Max character level 100 (lower than the original Hyrule Warriors' 255 cap). A 'Military Training Camp' service lets players spend Rupees to boost weaker characters to match the strongest. Confidence: high.",
+    "weapons": "Weapons carry removable 'seals' granting skills; can be fused to transfer skills. Weapons do NOT break/degrade (no durability, unlike BotW). Exact total weapon count is low confidence/contested (144 base +9 Wave 1 per one source, conflicting with other partial figures).",
+    "noNewGamePlus": "Confirmed absent. Post-game consists of: higher difficulties, Blood Moon Battlefields, 150+ Challenges, leveling to 100, and 100%-completion collectibles. Confidence: high.",
+    "bloodMoonBattlefields": "Unlock after the final Legend Mode battle. Randomly appear on Story Battle/Challenge nodes with tougher enemies and better rewards. A specific Blood Moon respawns on a new node at least 3 times before despawning if ignored — so a single instance CAN be permanently lost, but the mechanic itself keeps generating new opportunities indefinitely as the player clears content. Not a one-shot missable at the system level. Confidence: medium.",
+    "missionReplay": "RESOLVED (high confidence, third re-verification pass): Legend Mode scenarios ARE replayable via a dedicated 'Select Scenario' menu on the map, with any unlocked warrior. Missed Korok Seeds ARE retroactively collectible — per-scenario collection state persists across replays (already-collected Koroks show as 'already rescued'; a battle-details screen shows Koroks found per level). IMPORTANT CAVEAT (medium confidence): quitting a replay mid-mission does NOT save progress — the player must complete the full replay run through to the results screen to bank a newly-found collectible. Some multi-segment scenarios offer a choice of 'Regular Mission / Divine Beast / Full Mission' when replaying (medium confidence). PRACTICAL IMPLICATION: a 'find every Korok Seed' trophy is now safe to design as a lifetime pursuit (not a risky per-scenario one-shot), since nothing is permanently lost by moving on.",
+    "medalGallerySystem": "RESOLVED (medium confidence, reverses the earlier negative lean): a 'Medal List' DOES exist, accessible through an in-game Gallery menu, showing 'every Medal, collected or not' per Zelda Wiki — i.e. an explicit collected/uncollected checklist UI, similar in concept to the original Hyrule Warriors' Medal List covered earlier this session. Unconfirmed whether it tracks raw cumulative numeric stats (total KOs etc.) the way the original game's did, or only binary medal-earned states — treat specific medal names/thresholds as unconfirmed, but the screen's existence and collected/uncollected display are safe to use for trophy verification.",
+    "resultsScreenContents": "PARTIALLY RESOLVED: a KO counter is confirmed tracked and shown (caps at 99,999 in normal play). An A-rank/grade system tied to KO thresholds is confirmed to exist (community-documented unlock requirements reference specific KO thresholds for A-rank), but the exact on-screen display format/location is unconfirmed. Safe to build a trophy around achieving a top rank on a mission, verified via 'the results screen shows the top rank,' without citing a specific KO threshold number.",
+    "amiibo": "Supported broadly (most/all amiibo give a reward: weapons, materials, or rarely companion effects). Up to 5 amiibo scans per day, each individual amiibo once per day. Not confirmed to be tracked/logged anywhere beyond the immediate reward pop-up.",
+    "botwCrossoverBonus": "Players with existing BotW save data on the same system receive a bonus 'Training Sword' weapon with a Pot Lid shield (Perfect Guard mechanic) for Link. This requires owning a separate game — do not build a base-list trophy around this."
+  },
+  "questsAndChallenges": {
+    "quests": { "base": 376, "withDLC": 435, "note": "376 vs 375 internal inconsistency on the source guide itself, unresolved. The +59 DLC figure is also contradicted by a second source suggesting per-wave DLC quests might sum to 112 (Wave 1 ~59 + Wave 2 ~53) rather than 59 total — genuinely unresolved, do not cite an exact DLC quest count in trophy text." },
+    "challenges": { "total": "UNCONFIRMED — only 96 challenges (levels 1-50) could be verified; higher-level brackets, EX Vicious Monster Battles, and Divine Beast Battles sections were unreachable across two research passes. The true total (base or with DLC) remains unknown. Do NOT cite an exact challenge total in trophy text." }
+  },
+  "dlcPacks": {
+    "wave1PulseOfTheAncients": {
+      "releaseDate": "2021-06-18",
+      "content": "New playable character: Battle-Tested Guardian. New weapon types (Flail variants for Link, Master Cycle variants for Zelda). New 'Apocalyptic' difficulty. New Royal Ancient Lab hub with EX Challenges and quests (38 quests confirmed in the Royal Ancient Lab questline specifically). New enemy types (Meteo/Thunder Wizzrobes, Blizzrobes, Giant Chuchus). Does NOT add new Legend Mode story chapters — challenge/quest content only.",
+      "confidence": "medium-high on content list; low on exact quest/challenge counts (internally contested)"
+    },
+    "purchaseBonus": {
+      "detail": "A day-one Expansion Pass purchase bonus (reported release ~2021-05-28, before Wave 1): 'Prototype Ancient Short Sword' weapon + 'Prototype Ancient Gear' costume set for Link. Not story content.",
+      "confidence": "medium"
+    },
+    "wave2GuardianOfRemembrance": {
+      "releaseDate": "2021-10-29",
+      "content": "Two new playable character slots: Sooga, and Purah & Robbie (combined unit). Adds 8 new EX Legend Mode scenarios (confirmed by an independent dedicated wiki page): 'EX To Zelda's Side', 'EX Battle of Goponga Village', 'EX Battle for Kakariko Village', 'EX Searching Hyrule Forest', 'EX Liberate the Ancient Lab', 'EX The Princess and the King', 'EX The Yiga Clan's Retreat', 'EX Guardian of Remembrance'. Per Wikipedia, these are 'set during the events of the main game' — an interquel, not a strict post-story epilogue (though the final EX scenario shares the wave's name and may carry epilogue-like narrative weight). New enemy 'Malice Moblin' and boss 'Mutated Ganon'.",
+      "confidence": "high on the scenario name list and count; medium on the 'during the main story' framing (single-sourced)"
+    }
+  },
+  "versionDifferences": {
+    "singleRelease": "Switch-exclusive, single release (Nov 20, 2020). No Definitive Edition or bundled all-DLC re-release exists (unlike the original Hyrule Warriors). Final patch appears to be v1.3.0 (Oct 2021).",
+    "switch2": "No evidence of a Switch 2 enhanced edition/patch (unlike Breath of the Wild and Tears of the Kingdom). The only Switch 2-related Zelda Warriors title is the unrelated sequel 'Hyrule Warriors: Age of Imprisonment' (2025). Age of Calamity most likely runs only via Switch 2 backward compatibility. Confidence: low (absence of evidence, not an official confirmation) — but consistent across 2 independent research passes.",
+    "confidence": "medium-high on single-release status; low-medium on Switch 2 absence"
+  },
+  "gaps": [
+    "Korok Seed total (134 vs 175) is reconciled by inference (different counting methodologies) but not by an explicit source stating the reconciliation — avoid citing either number in trophy text.",
+    "Exact total Challenge count (base or with DLC) remains unknown after 2 research passes — do not cite a number.",
+    "DLC quest count breakdown by wave is internally contradictory (59 total vs. 112 combined) — do not cite exact DLC quest deltas.",
+    "Whether Legend Mode story scenarios are replayable, and whether missed collectibles are retroactively obtainable, is unresolved — treat any 'find every Korok Seed in Legend Mode' style trophy as at-risk unless it's framed as a general lifetime pursuit, not a per-scenario one-shot.",
+    "Whether a post-battle results screen shows rank/grade or KO/combo counters is unresolved — do not build a trophy assuming an S-rank system exists.",
+    "Whether a lifetime cumulative-stats/Medal-Gallery system exists is unresolved, leaning negative — do not build a trophy assuming one exists.",
+    "Monk Maz Koshia's playability and unlock method rest on a single uncorroborated source — treat with extra caution.",
+    "'The Hope of All Hyrule' quest's exact on-screen display format (literal percentage vs. checklist/waypoint) is unconfirmed.",
+    "Whether Korok Seeds/Terrako Components have any dedicated in-game counter UI beyond inventory quantity is unconfirmed."
+  ]
+}

@@ -4,14 +4,13 @@ import { loadGame } from '../data/catalog'
 import type { Tier, Trophy } from '../data/types'
 import { useAsync } from '../hooks/useAsync'
 import { setRevealSecrets, toggleTrophy, useGameProgress } from '../store/progress'
+import { getPrefs, STATUS_OPTIONS, type StatusFilter } from '../store/prefs'
 import { listStats, packProgress, platinumEarnedAt, platinumUnlocked } from '../lib/stats'
 import { TIERS, TIER_ICON, TIER_LABEL } from '../lib/labels'
 import { normalize } from '../lib/format'
 import { ProgressBar } from '../components/ProgressBar'
 import { TrophyRow } from '../components/TrophyRow'
 import { ChevronLeftIcon } from '../components/icons'
-
-type StatusFilter = 'all' | 'pending' | 'earned'
 
 interface Filters {
   query: string
@@ -20,23 +19,18 @@ interface Filters {
   missable: boolean
 }
 
-const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
-  { value: 'all', label: 'Todos' },
-  { value: 'pending', label: 'Pendentes' },
-  { value: 'earned', label: 'Obtidos' },
-]
-
 export function GamePage() {
   const { slug = '' } = useParams()
   const { data, error, loading } = useAsync(() => loadGame(slug), [slug])
   const progress = useGameProgress(slug)
 
-  const [filters, setFilters] = useState<Filters>({
+  // Trocar de jogo remonta a página, então a preferência vale a cada entrada.
+  const [filters, setFilters] = useState<Filters>(() => ({
     query: '',
-    status: 'all',
+    status: getPrefs().defaultStatus,
     tier: 'all',
     missable: false,
-  })
+  }))
 
   const patch = (change: Partial<Filters>) => setFilters((current) => ({ ...current, ...change }))
 

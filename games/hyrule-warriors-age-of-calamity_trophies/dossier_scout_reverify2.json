@@ -1,0 +1,62 @@
+{
+  "beat": "reverify-roster-campaign",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "findings": [
+    {
+      "question": "Full base-game playable character roster (18 characters) and story vs. side-quest split",
+      "answer": "Total count of 18 base-game playable characters, split 14 (main story) / 4 (side quests), is confirmed verbatim by English Wikipedia: 'The game features 18 playable characters; 14 are obtained via progression in the main story, while four can be unlocked by completing various side quests.' Cross-referencing Wikipedia's Plot section (which names exactly 14 characters tied to main-story beats) against the previously reported 18-name list resolves the split cleanly: the 14 main-story characters are Link, Zelda, Impa, Mipha, Daruk, Revali, Urbosa, King Rhoam, Sidon, Yunobo, Teba, Riju, Master Kohga, and Terrako (all explicitly named in Wikipedia's Plot narrative as joining the story). The remaining 4 — Hestu, the Great Fairies, Monk Maz Koshia, and Calamity Ganon — are the side-quest/post-game unlocks. This was independently spot-checked via Zelda Wiki (zeldawiki.wiki) character pages: Hestu's page confirms he is playable, becoming available in/around the 'Freeing Korok Forest' scenario after a Malice swamp blocks Korok Forest; the Great Fairies' page confirms they are playable as a single shared unit (Cotera, Tera, Kaysa, Mija, plus Malanya), unlocked via the side quest 'Offering Help on the Road' followed by four 'Fairy Fountain' challenges; Calamity Ganon's page confirms he is unlockable via a late challenge chain culminating in a 'Versus Calamity Ganon' challenge (post-game/challenge-based, not main story). Monk Maz Koshia's playability could NOT be independently confirmed (see gaps) — his Zelda Wiki page only confirms he appears/has art in the game, with no text on whether he is playable or how he unlocks. The full 18-name list as originally reported (Link, Zelda, Impa, Mipha, Daruk, Revali, Urbosa, King Rhoam, Hestu, Great Fairies, Monk Maz Koshia, Sidon, Yunobo, Teba, Riju, Master Kohga, Terrako, Calamity Ganon) is very likely correct given this cross-check, but Monk Maz Koshia's specific inclusion rests on the original (uncorroborated) source plus general franchise recollection rather than a confirmed independent citation.",
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity",
+        "https://zeldawiki.wiki/wiki/Hestu",
+        "https://zeldawiki.wiki/wiki/Great_Fairy",
+        "https://zeldawiki.wiki/wiki/Calamity_Ganon"
+      ]
+    },
+    {
+      "question": "Which 14 characters unlock via main story vs which 4 via side quests/post-game",
+      "answer": "14 main-story unlocks (per Wikipedia Plot section, cross-checked against the roster): Link, Zelda, Impa, Mipha, Daruk, Revali, Urbosa, King Rhoam, Sidon, Yunobo, Teba, Riju, Master Kohga, Terrako. 4 side-quest/post-game unlocks: Hestu (side quest around the Korok Forest chapter), the Great Fairies (side quest 'Offering Help on the Road' + Fairy Fountain challenges, playable as one shared unit), Calamity Ganon (post-game challenge chain), and Monk Maz Koshia (unconfirmed unlock method — see gaps). Note: Purah, Robbie, and Sooga are NOT part of this base-18 count — they are Wave 2 DLC-exclusive additions per Wikipedia's Downloadable Content section, separate from the base roster.",
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity",
+        "https://zeldawiki.wiki/wiki/Hestu",
+        "https://zeldawiki.wiki/wiki/Great_Fairy",
+        "https://zeldawiki.wiki/wiki/Calamity_Ganon"
+      ]
+    },
+    {
+      "question": "Legend Mode chapter/scenario structure (7 chapters, 20 scenarios)",
+      "answer": "Confirmed: Legend Mode consists of 20 Scenarios spread across 7 Chapters in the base game. A Zelda Wiki (zeldawiki.wiki) page dedicated to explaining the 'Scenario' mechanic states verbatim that 'there are a total of 20 Scenarios spread across seven Chapters' in the base game, with a per-chapter breakdown of roughly 2, 5, 2, 3, 4, 2, and 3 scenarios across chapters 1-7 (this per-chapter breakdown is lower confidence as it came through a summarizing proxy fetch and was not double-checked scenario-by-scenario). A separate Zelda Wiki main game article corroborates the chapter count, describing the story as organized into '7 main chapters plus an Epilogue' with named subsections including 'The Champions Assembled,' 'Water and Fire,' 'Air and Lightning,' and 'Heroes from the Future' — it's unclear from what was retrieved whether this 'Epilogue' is counted as part of Chapter 7 or is a distinct 8th segment, which is a minor structural ambiguity not fully resolved. The same source states the Guardian of Remembrance DLC adds 8 more scenarios (in an 'EX' category), bringing total playable scenarios (base + DLC) to 28.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Scenario",
+        "https://zeldawiki.wiki/wiki/Hyrule_Warriors:_Age_of_Calamity"
+      ]
+    },
+    {
+      "question": "Wave 2 DLC 'Guardian of Remembrance' — the 8 EX scenario names",
+      "answer": "Confirmed with an independent source. Zelda Wiki's dedicated 'Guardian_of_Remembrance' page lists exactly 8 EX scenarios, matching the previously reported list verbatim: 1) EX To Zelda's Side, 2) EX Battle of Goponga Village, 3) EX Battle for Kakariko Village, 4) EX Searching Hyrule Forest, 5) EX Liberate the Ancient Lab, 6) EX The Princess and the King, 7) EX The Yiga Clan's Retreat, 8) EX Guardian of Remembrance. Note: this is the same wiki family (zeldawiki.wiki) as likely underlies the original single-sourced report, so while the name list and count of 8 are now confirmed against a live, dedicated wiki page (a meaningfully stronger check than before), it is not a fully separate/independent publisher.",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Guardian_of_Remembrance"
+      ]
+    },
+    {
+      "question": "Are Wave 2's EX missions set during the main story (interquel) or after as a true epilogue?",
+      "answer": "Confirmed via direct Wikipedia quote: the Downloadable Content section states Wave 2 'adds new story stages set during the events of the main game,' i.e. the EX scenarios are interstitial/interquel content interwoven with the main timeline rather than a post-ending epilogue. This directly matches the framing described in the task. However, this framing could only be confirmed via a single source (Wikipedia) — Zelda Wiki's own 'Guardian_of_Remembrance' DLC page, checked directly, contains no text describing the EX scenarios' placement relative to the main story, so no second independent source could be located to corroborate the 'during the main story' framing specifically.",
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity"
+      ]
+    }
+  ],
+  "gaps": [
+    "Could not independently confirm Monk Maz Koshia is a playable character in Age of Calamity, nor his unlock method — his Zelda Wiki page confirms only that he appears/has art in the game, not that he is a playable Warrior. This is the weakest link in the 18-character roster claim.",
+    "Could not obtain a scenario-by-scenario verified breakdown of the per-chapter scenario counts (2/5/2/3/4/2/3 across 7 chapters summing to 20) from a second source; this came through only one summarizing proxy fetch of a single wiki page.",
+    "Could not resolve whether the 'Epilogue' mentioned on Zelda Wiki's main Age of Calamity page is a distinct 8th story segment outside the '7 Chapters / 20 Scenarios' count, or whether it is folded into Chapter 7.",
+    "Could not find a second, fully independent (non-zeldawiki-family) source for the exact 8 EX scenario names in Guardian of Remembrance — both this pass and the prior pass ultimately drew on the same wiki ecosystem (zeldawiki.wiki / possibly fandom mirror).",
+    "Could not find any second source (beyond Wikipedia) explicitly confirming the Wave 2 EX scenarios are 'set during the events of the main game' rather than post-game; Zelda Wiki's own DLC page did not address this framing at all.",
+    "Session's WebSearch tool was exhausted (200/200 budget used) before this task began, forcing all verification onto WebFetch (direct and via r.jina.ai proxy) against a narrow set of reachable domains (Wikipedia, zeldawiki.wiki). Several other candidate sources (IGN, Zelda Dungeon, GameFAQs, Nintendo Life, PushSquare, zelda.fandom.com, Bing/DuckDuckGo search) returned 403/404/402/CAPTCHA errors and could not be used, which limited source diversity for cross-verification.",
+    "Could not directly verify Sidon's, Yunobo's, Teba's, or Riju's unlock method (main story vs. side quest) from an explicit 'how to unlock' statement — their inclusion in the main-story 14 is inferred from Wikipedia's Plot section narrating that Terrako summons them to join the Champions during the story, not from a gameplay/unlock-screen citation."
+  ]
+}

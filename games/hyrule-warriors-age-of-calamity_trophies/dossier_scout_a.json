@@ -1,0 +1,190 @@
+{
+  "beat": "campaign",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Legend Mode overall structure",
+      "detail": "BASE game. Legend Mode is the story campaign, told from the perspective of Link, Zelda, Impa, and the four Champions across the 100 years before Breath of the Wild, altered by the arrival of a time-traveling Guardian, Terrako. One source (Zelda Fandom wiki, accessed via proxy) breaks it into 7 numbered chapters plus an Epilogue: Ch.1 Terrako's arrival/awakening at Hyrule Field and the road to the Ancient Lab; Ch.2 recruiting the four Divine Beast pilots (Mipha, Daruk, Revali, Urbosa segments playable in player-chosen order); Ch.3 obtaining the Master Sword in the Korok Forest; Ch.4 activating Sheikah Towers across Hyrule; Ch.5 Calamity's arrival and rescue of the Champions (paired 'Water and Fire' / 'Air and Lightning' segments, order chosen by player); Ch.6 defense of Akkala Citadel/Fort Hateno and defeating the four Blight Ganons; Ch.7 final assault on Hyrule Castle vs. Calamity Ganon; Epilogue covers Terrako's repair.",
+      "trackable": "Unconfirmed whether the game displays a numeric chapter-complete percentage; likely a chapter-select screen with per-mission clear data, but not verified this session.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Fandom wiki via r.jina.ai proxy (single source, AI-summarized, not independently cross-checked for exact chapter count/order)"]
+    },
+    {
+      "category": "story",
+      "name": "Terrako, Guardian of Time",
+      "detail": "BASE game. Terrako is a small Guardian who, in a future where the Great Calamity destroyed Hyrule, escapes through a Gate of Time carrying a fragment of Ganon's Malice, arriving in the past. It is reactivated by Link and Impa at Hyrule Castle, revealing the coming destruction and prompting King Rhoam to send Divine Beast pilots to find the Master Sword and become Champions. Terrako later opens further time portals to summon Sidon, Yunobo, Teba, and Riju 'from the original (unaltered) timeline' to help the Champions survive the Blight Ganon ambush. In the final battle, Calamity Ganon corrupts/absorbs Terrako's power; Terrako reactivates and self-destructs to break Ganon's shield, sacrificing itself so Link and Zelda can finish him. A flashback reveals Terrako was originally a toy/companion built for the young Princess Zelda. In the Epilogue, Purah and Robbie repair Terrako, and it reactivates upon 'seeing' Zelda again, reuniting with her.",
+      "trackable": "Story-only; not a counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity)", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "story",
+      "name": "Sidon, Yunobo, Teba, and Riju cameo",
+      "detail": "BASE game. These four characters (the BotW-era allies/successors of the Champions, from the original, unaltered timeline where the Champions died) are summoned by Terrako through a time portal to assist during the Blight Ganon ambush sequence, buying Link time to fight them off. They are NOT confirmed as playable characters — appear to be story-only guest appearances. After the battle they must return to their own future/timeline.",
+      "trackable": "Story-only, no tracker identified.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "boss",
+      "name": "Fireblight Ganon, Waterblight Ganon, Thunderblight Ganon, Windblight Ganon (the four Blight Ganons)",
+      "detail": "BASE game. Malice-corrupted entities that ambush and possess/attack the four Divine Beast pilots (paralleling BotW's Blights). Fought individually during the Champions' storylines and again in the Chapter covering the defense of Akkala Citadel/Fort Hateno.",
+      "trackable": "Unconfirmed whether a boss/bestiary log exists tracking these.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "boss",
+      "name": "Astor",
+      "detail": "BASE game. An original 'dark prophet' antagonist created for this game (not from BotW). Gains knowledge of the future by communing with Harbinger Ganon and manipulates the Yiga Clan to hasten Calamity Ganon's revival. Fought as a boss in the final gatehouse assault on Hyrule Castle; in the ending he is consumed/absorbed by Harbinger Ganon, who then manifests fully as Calamity Ganon.",
+      "trackable": "Unconfirmed tracker.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "boss",
+      "name": "Harbinger Ganon",
+      "detail": "BASE game. A corrupted/malformed fragment or manifestation of Ganon's essence originating from the destroyed future timeline; communicates with and empowers Astor. In the climax it consumes Astor and transforms into the full Calamity Ganon for the final battle.",
+      "trackable": "Unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "boss",
+      "name": "Master Kohga",
+      "detail": "BASE game. Leader of the Yiga Clan; recurring antagonist/boss fought multiple times, including during a preemptive strike on the Yiga hideout in the Gerudo Desert after Link obtains the Master Sword.",
+      "trackable": "Unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "boss",
+      "name": "Calamity Ganon (final boss)",
+      "detail": "BASE game. Formed when Harbinger Ganon consumes Astor at Hyrule Castle. Fought in a multi-stage final battle; the party cannot damage him effectively until Terrako self-destructs to break his shield, after which Link defeats him and Zelda permanently seals him away with her awakened sealing magic.",
+      "trackable": "Story-only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "roster",
+      "name": "Base game playable character count",
+      "detail": "BASE game. Wikipedia states the base game (no DLC) has 18 playable characters total: 14 unlocked via main story progression, and 4 unlocked by completing various side quests. Exact identities of all 18 (particularly the 4 side-quest unlocks) could not be fully confirmed this session.",
+      "trackable": "Likely a character-select roster screen; unconfirmed whether it shows an explicit unlock counter (e.g. 'x/18').",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity)"]
+    },
+    {
+      "category": "roster",
+      "name": "Confirmed base-game playable characters (partial list)",
+      "detail": "BASE game. Confirmed playable in the base game: Link, Princess Zelda, Impa (young), Mipha, Daruk, Revali, Urbosa, and King Rhoam. King Rhoam is confirmed playable and unlockable later in the story, able to switch to an 'old man' guise mid-battle for a different moveset (this references his disguised BotW appearance). This is 8 of the 18 total; the remaining 10 names (including which 4 come from side quests) were not confirmed this session.",
+      "trackable": "Character roster/select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Fandom wiki via r.jina.ai proxy", "nintendo.com official product page (confirms Link, Zelda, four Champions, young Impa as headline roster)"]
+    },
+    {
+      "category": "roster",
+      "name": "Sooga is DLC, not base game",
+      "detail": "DLC — Guardian of Remembrance (Wave 2, Oct 29, 2021). Sooga (a Yiga Clan lieutenant/rival to Master Kohga who appears as a story antagonist in the base game) becomes a playable character only through the second DLC wave, per Wikipedia. This should NOT be treated as a base-game unlockable character.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia (DLC section, corroborated across two separate fetches of the same article)"]
+    },
+    {
+      "category": "endings",
+      "name": "Main ending / secret Epilogue ending",
+      "detail": "BASE game. There is one canonical main-story ending: after Link defeats Calamity Ganon (aided by Terrako's sacrifice) and Zelda permanently seals him, peace is restored and the visiting future heroes return to their own time. A secondary 'secret'/bonus Epilogue scene follows immediately after credits/final chapter, in which Purah and Robbie repair Terrako and it reactivates and reunites with Zelda. No evidence found of multiple branching endings or a distinct 'true' ending choice — the time-travel twist is resolved as a single fixed narrative outcome, not a player-selectable divergence.",
+      "trackable": "Unconfirmed whether reaching the secret Epilogue requires a specific action (e.g., waiting after credits, or it is simply the next story chapter).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "dlc",
+      "name": "Expansion Pass structure and dates",
+      "detail": "The paid Expansion Pass ($19.99 USD) contained two content waves plus an early bonus item: (1) a Purchase Bonus released May 28, 2021 (a new weapon/costume for Link, not story content); (2) Wave 1 'Pulse of the Ancients' released June 18, 2021; (3) Wave 2 'Guardian of Remembrance' released October 29, 2021.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendo.com official product/store page", "Wikipedia"]
+    },
+    {
+      "category": "dlc",
+      "name": "Wave 1 'Pulse of the Ancients' content (no new Legend Mode chapters)",
+      "detail": "DLC Wave 1 (June 18, 2021). Adds the 'Battle-Tested Guardian' as a new playable character/unit, new weapon types for existing characters (Flail for Link, Master Cycle for Zelda), a new 'Apocalyptic' difficulty level, and the 'Royal Ancient Lab' hub with dozens of new EX Challenge battles (one source counted 34 total challenges) plus roughly 24 side quests in that hub and 'EX Vicious Monster' battles at various map locations, including a unique replayable 'EX Alert: Forgotten Temple' battle. Per available sources, this wave does NOT add new Legend Mode story chapters — its additions are challenge/Adventure-Mode-style content.",
+      "trackable": "Likely tracked via the Royal Ancient Lab quest/challenge list, not confirmed with exact totals.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Fandom wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "dlc",
+      "name": "Wave 2 'Guardian of Remembrance' — new Legend Mode EX chapters",
+      "detail": "DLC Wave 2 (Oct 29, 2021). Adds two new playable characters/units: Sooga, and Purah & Robbie (the two function together as a single playable unit). Also adds a new 'EX Storyline' of Legend Mode missions set during/around the events of the main game, unlocked after completing the Hyrule Castle (final) chapter. One source lists 8 named EX missions in order: 'EX To Zelda's Side', 'EX Battle of Goponga Village', 'EX Battle for Kakariko Village', 'EX Searching Hyrule Forest', 'EX Liberate the Ancient Lab', 'EX The Princess and the King', 'EX The Yiga Clan's Retreat', and 'EX Guardian of Remembrance'. Also adds 10 new Challenges (e.g. 'EX Sooga's Training', 'EX Purah & Robbie's Training', 'EX Facing Mutated Ganon') and several new story cutscenes plus 3 new music tracks.",
+      "trackable": "Likely tracked via an EX mission list in the Legend Mode chapter-select menu; exact display not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Zelda Fandom wiki via r.jina.ai proxy — single source, mission name list not independently cross-checked"]
+    },
+    {
+      "category": "system",
+      "name": "Max character level",
+      "detail": "BASE game. Maximum character level is 100 (per Wikipedia's Gameplay section).",
+      "trackable": "Character stats/level screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia"]
+    },
+    {
+      "category": "system",
+      "name": "Amiibo compatibility",
+      "detail": "BASE game. Supports Nintendo Amiibo figures, particularly figures themed around the Champions, for in-game bonuses. Exact bonuses (material drops, weapon unlocks) not confirmed this session.",
+      "trackable": "Unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia", "nintendo.com official product page"]
+    },
+    {
+      "category": "system",
+      "name": "BotW save-data crossover bonus",
+      "detail": "BASE game. Players with existing Breath of the Wild save data on the same system receive a bonus 'Training Sword' weapon for Link, which includes a Pot Lid shield able to trigger a Perfect Guard mechanic.",
+      "trackable": "Weapon inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["nintendo.com official product page"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Character level (up to 100)", "where": "Character stats/upgrade screen", "confidence": "high" },
+    { "stat": "Playable character roster / unlock count (out of 18 base, more with DLC)", "where": "Character select screen — exact display of an unlock counter not confirmed", "confidence": "low" },
+    { "stat": "Legend Mode chapter/mission completion (base 7 chapters + Epilogue, plus DLC EX missions)", "where": "Presumed chapter-select menu; exact UI (ranks, clear marks, percentage) not confirmed this session", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Nintendo Switch is the only platform this game released on; there is no cross-platform comparison to make.", "confidence": "high" },
+    { "note": "Sooga and the Purah & Robbie unit are DLC-exclusive (Wave 2, 'Guardian of Remembrance'), not part of the base game roster — important distinction for any trophy referencing 'recruit all playable characters' scoped to base game only.", "confidence": "high" },
+    { "note": "Wave 1 DLC ('Pulse of the Ancients') appears to add no new Legend Mode story chapters, only challenge/Adventure-style content and a new difficulty — a 'complete all Legend Mode chapters' trophy likely should not require Wave 1 ownership, only Wave 2 if EX story missions are included.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact identities of all 18 base-game playable characters — only 8 are confirmed (Link, Zelda, Impa, Mipha, Daruk, Revali, Urbosa, King Rhoam). The remaining ~10, and specifically which 4 are unlocked via side quests (vs. the 14 via story), are unconfirmed.",
+    "Could not confirm the exact number and names of Legend Mode chapters/missions with a second independent source — the 7-chapter + Epilogue breakdown comes from a single AI-summarized fetch of one wiki page and was not cross-verified.",
+    "Could not confirm whether Legend Mode displays any completion percentage, chapter rank (S/A/B/C), or overall save-file completion stat anywhere in the UI — this directly affects whether 'complete all chapters' or 'clear every chapter with S-rank' style trophies are trackable.",
+    "Could not confirm exact unlock triggers/order for each of the 4 side-quest-locked base characters.",
+    "Could not verify the 8 named EX Legend Mode missions from Wave 2 against a second source — names could contain inaccuracies.",
+    "Could not determine if the game has a bestiary/compendium tracking named bosses or enemy types defeated (relevant to boss-fight trackable stats).",
+    "Could not access IGN, GameFAQs, ZeldaDungeon, StrategyWiki, Push Square, Eurogamer, Reddit, or Nintendo Life this session — most major gaming wikis and guide sites returned 403/404 errors or were blocked for this tool session, significantly limiting cross-verification. Findings rely heavily on Wikipedia and one Zelda Fandom wiki page accessed via a third-party text-extraction proxy (r.jina.ai), which is a single-source dependency for several facts marked 'medium' confidence.",
+    "Could not confirm whether Astor or Harbinger Ganon are ever playable characters (e.g., via amiibo or late-game unlock), a common pattern in Warriors games for major villains.",
+    "Could not verify the exact side-quest/recruitment method for Master Kohga if he becomes playable in base game (unconfirmed either way — he may remain boss-only)."
+  ]
+}

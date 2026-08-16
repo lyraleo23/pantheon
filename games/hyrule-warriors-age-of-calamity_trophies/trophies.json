@@ -1,0 +1,463 @@
+{
+  "game": {
+    "title": "Hyrule Warriors: Age of Calamity",
+    "slug": "hyrule-warriors-age-of-calamity",
+    "code": "HWAOC",
+    "targetPlatform": "Nintendo Switch",
+    "mode": "genesis",
+    "developer": "Omega Force / Koei Tecmo",
+    "publisher": "Nintendo",
+    "genre": "Hack-and-Slash / Musou",
+    "releaseYear": 2020,
+    "estimatedDifficulty": 5,
+    "estimatedHours": "25-35h main story (80h+ for full completion)",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — Switch-exclusive, no native achievement list exists anywhere. At the user's explicit request, the official paid Expansion Pass is included as two `dlc`-style bonus lists (Rule 14: Pulse of the Ancients, Guardian of Remembrance), never affecting the base Platinum, matching the pattern used for Hyrule Warriors and Breath of the Wild earlier this session. This research round required a proactive re-verification pass (3 scouts) plus one additional narrow follow-up pass (specifically on mission-replay mechanics) after the initial pass and first re-verification both hit search-tool budget exhaustion — more research friction than any other game this session. Two corrections to the original research brief were caught: this game has NO grid-based Adventure Mode (all side content lives on a single Breath-of-the-Wild-style world map instead), and Master Kohga is base-game content while Sooga is the DLC-exclusive character (the initial assumption had this backwards). The narrow follow-up pass confirmed Legend Mode scenarios are replayable via a 'Select Scenario' menu and that missed Korok Seeds remain retroactively collectible (persistent per-scenario state) — so the Korok Seed trophy is safely designed as a lifetime pursuit rather than a risky one-shot. It also surfaced a Medal List gallery (Gallery menu, shows collected/uncollected Medals) that the first re-verification pass had incorrectly concluded probably didn't exist. Several facts remain genuinely unresolved even after two re-verification rounds and are deliberately NOT cited in any trophy: the exact Korok Seed total (134 vs. 175, likely different counting methodologies, not a true conflict, but neither confirmed as the 'right' number to use), the exact Challenge total, the DLC quest-count breakdown by wave (internally contradictory across sources), and Monk Maz Koshia's playability (rests on a single uncorroborated source, so no trophy names him). No difficulty-mode trophy references the DLC-exclusive Apocalyptic difficulty — the base list's difficulty trophy uses Very Hard, the hardest difficulty available without the Expansion Pass."
+  },
+  "trophies": [
+    {
+      "id": "HWAOC-001",
+      "name": "A Guardian from the Future",
+      "description": "Reactivate Terrako at Hyrule Castle, beginning the story.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The opening scenario is marked cleared on the map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-002",
+      "name": "Champion of the Zora",
+      "description": "Complete Mipha's story chapter, defeating Waterblight Ganon.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Waterblight Ganon's defeat triggers the chapter's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-003",
+      "name": "Champion of the Gorons",
+      "description": "Complete Daruk's story chapter, defeating Fireblight Ganon.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Fireblight Ganon's defeat triggers the chapter's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-004",
+      "name": "Champion of the Rito",
+      "description": "Complete Revali's story chapter, defeating Windblight Ganon.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Windblight Ganon's defeat triggers the chapter's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-005",
+      "name": "Champion of the Gerudo",
+      "description": "Complete Urbosa's story chapter, defeating Thunderblight Ganon.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Thunderblight Ganon's defeat triggers the chapter's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-006",
+      "name": "The Master Sword",
+      "description": "Obtain the Master Sword in the Korok Forest.",
+      "tier": "silver",
+      "type": "story",
+      "verification": "The Master Sword appears in the weapon inventory.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-007",
+      "name": "Towers Awakened",
+      "description": "Activate the Sheikah Towers across Hyrule.",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "Every region of the map is revealed.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-008",
+      "name": "Yiga Reckoning",
+      "description": "Defeat Master Kohga at the Yiga Clan hideout.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Master Kohga's defeat triggers the mission's clear cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-009",
+      "name": "The Dark Prophet",
+      "description": "Defeat Astor during the assault on Hyrule Castle.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Astor's defeat triggers the next story cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-010",
+      "name": "Calamity's End",
+      "description": "Defeat the final threat to Hyrule, completing the main story.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "The ending cutscene plays and the credits roll.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-011",
+      "name": "Reunion",
+      "description": "Complete the story's final scenario to view the epilogue scene that follows.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The epilogue scene plays after the credits.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-012",
+      "name": "First Seed",
+      "description": "Find your first Korok Seed.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The seed is added to the inventory.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-013",
+      "name": "Every Seed Found",
+      "description": "Find every Korok Seed in the game.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "Every scenario's results screen shows all of that scenario's Korok Seeds collected.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-014",
+      "name": "First Reward",
+      "description": "Unlock your first costume.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The costume appears in the Allies Menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-015",
+      "name": "Wardrobe Complete",
+      "description": "Unlock every costume in the base game.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Allies Menu shows every costume slot filled, with none locked.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-016",
+      "name": "First Recipe",
+      "description": "Cook your first recipe.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The recipe appears in the cooking menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-017",
+      "name": "Master Chef",
+      "description": "Unlock every cooking recipe in the base game.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The cooking menu shows every recipe unlocked, with none locked.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-018",
+      "name": "The Hope of All Hyrule",
+      "description": "Complete the \"Hope of All Hyrule\" quest by finishing every regional questline.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The quest is marked complete on the map, and its reward costume is received.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-019",
+      "name": "Terrako's Return",
+      "description": "Collect every Terrako Component and complete the \"Terrako's Return\" quest.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "Terrako becomes playable and the quest's ending scene plays.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-020",
+      "name": "A Fitting Reward",
+      "description": "Unlock Hestu as a playable character.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "Hestu appears as a selectable character on the roster screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-021",
+      "name": "Fairy Godmothers",
+      "description": "Unlock the Great Fairies as a playable character.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "The Great Fairies appear as a selectable character on the roster screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-022",
+      "name": "Embrace the Malice",
+      "description": "Unlock Calamity Ganon as a playable character by completing enough Challenges.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Calamity Ganon appears as a selectable character on the roster screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-023",
+      "name": "Two Warriors",
+      "description": "Clear a mission in local 2-player co-op.",
+      "tier": "bronze",
+      "type": "multiplayer",
+      "verification": "The mission is cleared while a second controller actively controls a separate character in split-screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-024",
+      "name": "Top Marks",
+      "description": "Achieve the highest available rank on any mission.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The results screen displays the top rank for that mission.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-025",
+      "name": "Seal the Deal",
+      "description": "Fuse two weapons to transfer a seal for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The seal appears attached to the receiving weapon in the weapon menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-026",
+      "name": "Medal Winner",
+      "description": "Earn your first Medal.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Medal appears collected in the Gallery's Medal List.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-027",
+      "name": "Blood Moon Rising",
+      "description": "Clear a Blood Moon Battlefield encounter.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The Blood Moon's enhanced rewards are received after clearing the battle.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-028",
+      "name": "True Hero",
+      "description": "Clear a Legend Mode scenario on Very Hard difficulty.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The scenario is cleared with Very Hard selected as the active difficulty in the Options menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "HWAOC-029",
+      "name": "Guardian of Hyrule",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "Pulse of the Ancients",
+      "trophies": [
+        {
+          "id": "HWAOCPA-001",
+          "name": "Battle-Tested",
+          "description": "Unlock the Battle-Tested Guardian as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The Battle-Tested Guardian appears as a selectable character on the roster screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCPA-002",
+          "name": "Flail Away",
+          "description": "Equip one of Link's new Flail weapons for the first time.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The Flail weapon appears equipped in Link's weapon wheel.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCPA-003",
+          "name": "Ride of the Ancients",
+          "description": "Equip one of Zelda's new Master Cycle weapons for the first time.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "The Master Cycle weapon appears equipped in Zelda's weapon wheel.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCPA-004",
+          "name": "Into the Unknown",
+          "description": "Clear your first mission at the Royal Ancient Lab.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The mission is marked cleared in the Royal Ancient Lab's mission list.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCPA-005",
+          "name": "Beyond Very Hard",
+          "description": "Clear a mission on Apocalyptic difficulty.",
+          "tier": "gold",
+          "type": "challenge",
+          "verification": "The mission is cleared with Apocalyptic selected as the active difficulty in the Options menu.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Guardian of Remembrance",
+      "trophies": [
+        {
+          "id": "HWAOCGR-001",
+          "name": "To Zelda's Side",
+          "description": "Begin the Guardian of Remembrance storyline with \"EX To Zelda's Side.\"",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The scenario is marked cleared on the map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCGR-002",
+          "name": "Sooga's Return",
+          "description": "Unlock Sooga as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Sooga appears as a selectable character on the roster screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCGR-003",
+          "name": "Two Minds, One Guardian",
+          "description": "Unlock Purah & Robbie as a playable character.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "Purah & Robbie appear as a selectable character on the roster screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCGR-004",
+          "name": "Mutated Menace",
+          "description": "Defeat Mutated Ganon.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Mutated Ganon's defeat triggers the scenario's clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "HWAOCGR-005",
+          "name": "Guardian of Remembrance",
+          "description": "Complete the \"EX Guardian of Remembrance\" scenario, concluding the Expansion Pass storyline.",
+          "tier": "gold",
+          "type": "story",
+          "verification": "The scenario is marked cleared on the map.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}
