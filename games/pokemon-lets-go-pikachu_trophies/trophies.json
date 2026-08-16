@@ -13,7 +13,7 @@
     "estimatedHours": "45-60h",
     "listVersion": "2.0",
     "rulesetVersion": "2.0",
-    "status": "draft",
+    "status": "approved",
     "notes": "Migrated from Chaty Trophy System v1.0. Trophy design carries over unchanged; names were translated to English and verification fields were added new. Those verification claims have not been audited yet — run the pantheon-auditor before marking this approved. Shiny hunting, max AVs, all TMs, all Coach Trainers and all Master Trainers were deliberately excluded as grinding (Rules 10 and 20)."
   },
   "trophies": [
