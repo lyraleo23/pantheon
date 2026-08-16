@@ -1,0 +1,172 @@
+{
+  "beat": "systems",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "system",
+      "name": "No Medal List / Gallery stats system",
+      "detail": "The original Hyrule Warriors (Wii U/3DS/Definitive Edition) had a Gallery > Medal List tracking cumulative stats (total enemies KO'd, Rupees earned, etc.) with unlockable medals. Age of Calamity does not appear to carry this system forward. An exhaustive Game8 guide index for the game (covering Story, Characters, Challenges, Quests, Weapons, Costumes, Services, Enemies, Tips/FAQ sections) contains no 'Gallery', 'Medal', or cumulative-stats page, and dedicated checks of the enemy list and combat-tips guides found no mention of a bestiary, KO counter, or achievement/medal screen.",
+      "trackable": "Not found — no in-game screen for cumulative lifetime stats (total KOs, total Rupees, etc.) could be confirmed to exist.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity", "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309390", "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314764"]
+    },
+    {
+      "category": "progression",
+      "name": "The Hope of All Hyrule (completion-tracking quest)",
+      "detail": "A special quest named 'The Hope of All Hyrule,' found on the map screen, displays the player's overall completion rate/percentage toward 100%. This is the closest thing the game has to a completion-percentage tracker.",
+      "trackable": "Viewable via the quest 'The Hope of All Hyrule' on the map screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493"]
+    },
+    {
+      "category": "system",
+      "name": "100% completion criteria",
+      "detail": "Per Game8's completion guide, 100% is composed of: 50 Cooking Recipes, 69 base Costumes (+3 DLC = 72), 134 Korok Seeds, 4 Secret Characters (Great Fairies, Monk Maz Koshia, Terrako, Calamity Ganon) + 1 DLC character (Battle-Tested Guardian; note Sooga/Purah&Robbie also exist as later DLC additions), and 375 base Quests (+59 DLC = 434 total). Reward for 100% is the 'Hyrule Warrior's Outfit' (a Link costume referencing the original Hyrule Warriors).",
+      "trackable": "Aggregated into the completion percentage on 'The Hope of All Hyrule' quest.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Difficulty modes: Easy, Normal, Hard, Very Hard, Apocalyptic",
+      "detail": "Four standard difficulties (Easy, Normal, Hard, Very Hard) are available from the start. A fifth, 'Apocalyptic,' was added with the Wave 1 Expansion Pass DLC ('Pulse of the Ancients'), requiring DLC ownership. Difficulty can be changed at any time (not locked in) via the map screen: press + to open the System Menu, then Options, then select difficulty. Higher difficulties increase enemy damage and slow Weak-Point Gauge depletion, but do NOT change Rupee/item reward amounts — those stay constant regardless of difficulty.",
+      "trackable": "Current difficulty shown/selectable in the Options menu; no separate 'difficulty cleared' tracker found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306592"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Local 2-player split-screen co-op only (no online multiplayer)",
+      "detail": "Supports local co-op for exactly 2 players; the screen splits horizontally so each player controls a separate character independently. No online multiplayer/co-op exists. To activate: select Two-Player mode by pressing the left stick on the map screen before starting a battle, then connect a second controller (L+R together, or SL+SR for a single Joy-Con). Both players can collect treasure chests and Korok Seeds without interfering with each other, and Weak-Point Smash animations for one player do not block the other's actions. This is NOT the asymmetric TV/GamePad co-op used by the original Wii U Hyrule Warriors — it is same-screen split-screen. Split-screen mode is reported to cause noticeable frame-rate drops on Switch (per GamesRadar review).",
+      "trackable": "Not applicable.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306288", "https://www.gamesradar.com/hyrule-warriors-age-of-calamity-review/"]
+    },
+    {
+      "category": "progression",
+      "name": "Character level cap: 100",
+      "detail": "Each playable character levels up individually via EXP earned in battle, up to a max of Level 100 (lower than the original Hyrule Warriors' 255 cap). Leveling raises Hearts (max HP) and Attack Power. A 'Military Training Camp' service lets players spend Rupees to instantly boost weaker characters up to match the level of the strongest character.",
+      "trackable": "Character level and EXP bar are shown on the character select/status screens (standard Warriors-series UI); not independently confirmed via a source screenshot but strongly implied by the leveling guide.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306270"]
+    },
+    {
+      "category": "rng",
+      "name": "Weapon/material drops from enemies",
+      "detail": "Weapons (with randomized seals/attributes) drop from defeating enemies during battles, with stronger enemies (Moblins, Lynels, Guardians) yielding more/better drops. Players can receive roughly 1-7 weapons per mission depending on the mission and difficulty. The specific character used in battle receives the most weapon drops for that character's weapon type. Materials (used for cooking, upgrades, and services) also drop from enemies and are found in the field; a dedicated 'List of Materials' exists as a reference but no in-game drop-rate percentages were found.",
+      "trackable": "Weapons/materials obtained are shown in a post-mission results/rewards list and stored in inventory; no drop-rate percentage displayed in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/312232"]
+    },
+    {
+      "category": "system",
+      "name": "Weapon fusion / seal system",
+      "detail": "Weapons carry removable 'seals' that grant skills/bonuses. Players can fuse weapons together to transfer skills, and can remove seals from weapons (a dedicated 'How to Remove Weapon Seals' guide exists). Weapons themselves do not break/degrade (unlike Breath of the Wild) — Wikipedia confirms weapons are invulnerable and do not have durability.",
+      "trackable": "Weapon level, skills, and seals viewable on the weapon/inventory screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/307049", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity"]
+    },
+    {
+      "category": "system",
+      "name": "No New Game Plus",
+      "detail": "Age of Calamity does not have a New Game Plus mode. Post-game/endgame content instead includes: replaying at higher difficulty (up to Very Hard, or Apocalyptic with DLC), Blood Moon Battlefields, 150+ Challenges, leveling all characters to 100, upgrading weapons to Level 50 (with DLC), and collecting all Korok Seeds/chests for 100% completion — estimated at roughly 20 extra hours of post-game content.",
+      "trackable": "Not applicable (mode does not exist).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/313882"]
+    },
+    {
+      "category": "system",
+      "name": "Blood Moon Battlefields — repeatable, not missable",
+      "detail": "Unlocked after completing Chapter 7 ('The Future of Hyrule'), Blood Moons randomly appear on story battles/challenges after clearing a battle or challenge, offering tougher enemies for more EXP and better weapon/seal rewards. If not engaged, a Blood Moon will respawn on a new battle up to roughly 3 times before despawning, so there are multiple chances to catch one — not a one-shot missable event, though a specific Blood Moon instance can expire if ignored repeatedly.",
+      "trackable": "Indicated visually on the map screen when active on a specific battle.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/311455"]
+    },
+    {
+      "category": "missable",
+      "name": "Story battles/missions appear replayable, but exact 'Free Mode' naming unconfirmed",
+      "detail": "Individual story missions (Chapters 1-7 plus EX Chapter, 28 total main missions + 8 EX missions) have individual walkthrough pages implying they remain accessible/replayable from the map after completion, similar to prior Warriors games. However, no source explicitly confirmed the existence of a mode named 'Free Mode' (the term used in the original Hyrule Warriors) as distinct from Legend/Story Mode, nor whether Korok Seeds/treasure chests missed on a first clear can be retroactively collected by replaying that specific mission.",
+      "trackable": "Unconfirmed — likely a mission select list on the map screen, but not directly verified.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306162"]
+    },
+    {
+      "category": "character",
+      "name": "21 playable characters, none permanently missable",
+      "detail": "21 total playable characters (including DLC). Main story characters (Link, Impa, Zelda, the four Champions) join automatically through Chapters 1-2 and cannot be missed. Optional/secret characters (Hestu, Sidon, Yunobo, Riju, Teba, Great Fairies, Monk Maz Koshia, Master Kohga, King Rhoam, Terrako, Calamity Ganon) unlock via completable side quests/challenges that remain available — no evidence any character unlock is time-limited or permanently missable. DLC characters (Battle-Tested Guardian, Sooga, Purah & Robbie) unlock via DLC mission completion.",
+      "trackable": "Character roster screen shows locked/unlocked characters.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306163"]
+    },
+    {
+      "category": "versionNote",
+      "name": "Single release, no Definitive Edition, patched to v1.3.0",
+      "detail": "Unlike the original Hyrule Warriors (which received Wii U -> 3DS -> Switch Definitive Edition re-releases consolidating all DLC), Age of Calamity has had only one release: Nintendo Switch, November 20, 2020. It received a two-wave Expansion Pass ('Pulse of the Ancients,' June 18, 2021; 'Guardian of Remembrance,' October 29, 2021, adding an EX Chapter + Purah, Robbie, Sooga). Patch history tops out at version 1.3.0 (Oct 26, 2021), which appears to be the final update — no further patches, no Definitive Edition, and no bundled all-in-one re-release have been found.",
+      "trackable": "Not applicable.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/311456", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity"]
+    },
+    {
+      "category": "versionNote",
+      "name": "No Switch 2 enhanced edition/patch found",
+      "detail": "No evidence of a Switch 2-specific enhanced edition or patch for Age of Calamity was found (unlike Breath of the Wild and Tears of the Kingdom, which did get Switch 2 upgrade packs). The Wikipedia article and game guides make no mention of Switch 2 support; the only Switch 2-related entry found is the unrelated sequel 'Hyrule Warriors: Age of Imprisonment' (2025), a separate game. Age of Calamity most likely only runs via Switch 2 backward compatibility with no dedicated patch, but this absence-of-evidence is not a confirmed statement from Nintendo.",
+      "trackable": "Not applicable.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity", "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/311456"]
+    },
+    {
+      "category": "system",
+      "name": "amiibo support",
+      "detail": "The game supports amiibo for in-game rewards (a dedicated Game8 guide 'amiibo Support and Rewards' exists), though exact reward details were not verified in this pass.",
+      "trackable": "Unconfirmed whether amiibo scans are tracked/logged anywhere in-game.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309416"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Overall completion percentage", "where": "Displayed via the special quest 'The Hope of All Hyrule' on the map screen", "confidence": "medium" },
+    { "stat": "Character level (per character, up to 100) and EXP", "where": "Character status/select screen", "confidence": "medium" },
+    { "stat": "Quest completion (375 base + 59 DLC = 434 total)", "where": "Quest log accessible from the map/Camp screen", "confidence": "medium" },
+    { "stat": "Korok Seeds collected (134 total)", "where": "Likely tracked in an item/materials inventory count, not independently confirmed on-screen", "confidence": "low" },
+    { "stat": "Costumes unlocked (69 base + DLC)", "where": "Costume/wardrobe selection screen", "confidence": "low" },
+    { "stat": "Cooking recipes unlocked (50 total)", "where": "Cooking menu recipe list", "confidence": "low" },
+    { "stat": "Current selected difficulty", "where": "Options menu (System Menu, accessed via + on map screen)", "confidence": "high" },
+    { "stat": "Cumulative lifetime stats (total enemies KO'd, total Rupees earned, playtime) equivalent to original Hyrule Warriors' Medal List", "where": "Not confirmed to exist anywhere in-game", "confidence": "low" },
+    { "stat": "Per-battle results (Rupees/materials/weapons earned)", "where": "Post-mission results screen", "confidence": "medium" },
+    { "stat": "Per-battle rank/grade or KO count/combo stats", "where": "Not confirmed to exist on the results screen", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch exclusive; single release (November 20, 2020) with no other platform ports.", "confidence": "high" },
+    { "note": "No Definitive Edition or all-DLC-bundled re-release exists, unlike the original Hyrule Warriors.", "confidence": "medium" },
+    { "note": "Two-wave Expansion Pass DLC: 'Pulse of the Ancients' (June 18, 2021) adds Battle-Tested Guardian character + new weapon types + Apocalyptic difficulty + new challenges; 'Guardian of Remembrance' (October 29, 2021) adds an EX Chapter (8 missions) + Purah, Robbie, and Sooga as playable characters + new weapon types (Dual Swords, Sheikah Arms).", "confidence": "medium" },
+    { "note": "Final patch appears to be version 1.3.0 (October 26, 2021); no confirmed Switch 2-specific patch or enhanced edition found — the game likely relies solely on Switch 2 backward compatibility.", "confidence": "low" },
+    { "note": "Local co-op is same-screen horizontal split-screen for 2 players (not the asymmetric TV/GamePad co-op of the original Wii U Hyrule Warriors); no online multiplayer.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm whether the game has ANY cumulative lifetime-stats screen (total enemies KO'd, total Rupees earned across the whole save, total playtime) — the closest equivalent, the original Hyrule Warriors' Medal List/Gallery, does not appear to exist in Age of Calamity based on an exhaustive guide index search, but this is an absence-of-evidence conclusion, not a direct official confirmation.",
+    "Could not confirm whether individual battle results screens show a rank/grade (S/A/B/C) or KO count/combo count, which is standard in most Warriors-series games — no source explicitly described the post-battle results screen contents.",
+    "Could not confirm the exact term used in-game for mission replay (whether it's literally called 'Free Mode', or missions are simply replayable directly from the map/chapter select) or whether Korok Seeds/chests missed in a chapter can be retroactively collected on a replay.",
+    "Could not verify how many total Treasure Chests exist (only Korok Seed count of 134 was found).",
+    "Could not confirm number of save slots.",
+    "Could not confirm exact drop-rate mechanics/percentages for weapon or material RNG drops.",
+    "Could not fully verify amiibo reward specifics.",
+    "Could not directly confirm (via official Nintendo source) the absence of a Switch 2 enhanced patch — this is inferred from absence of any mention in available guides/Wikipedia as of research date, and should be re-verified against a current Nintendo eShop/official listing before finalizing.",
+    "Web search tool quota was exhausted for this session partway through research; remaining research relied on WebFetch to specific pages (primarily Game8.co and Wikipedia), so some claims that a dedicated web search might have surfaced (e.g., official patch notes, Nintendo's own press materials) were not independently cross-checked."
+  ]
+}

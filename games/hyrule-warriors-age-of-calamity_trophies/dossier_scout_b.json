@@ -1,0 +1,205 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game, and DLC",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "correction-to-brief",
+      "name": "No traditional grid-based 'Adventure Mode' exists",
+      "detail": "Unlike the original Hyrule Warriors (2014) and its Definitive Edition, Age of Calamity does NOT have a separate scratch-card/grid-based Adventure Mode map. Instead, all non-story side content (character challenges, Coliseum battles, quests, materials) is integrated directly into a single explorable world map modeled on Breath of the Wild's Hyrule, organized into regions/zones with icons for battles, mini-quests, cooking pots, and a blacksmith. This was a deliberate design change confirmed pre-release and in post-release community discussion.",
+      "trackable": "The world map displays per-region completion rates via icons (per Zelda Universe preview coverage), but no confirmed single unified 'Adventure Mode' completion tracker exists because the mode itself does not exist.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldauniverse.net (via proxy)", "GameFAQs board discussion (via proxy)", "en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Calamity"]
+    },
+    {
+      "category": "correction-to-brief",
+      "name": "Master Kohga is a BASE GAME character, not DLC",
+      "detail": "Zelda Wiki's Age-of-Calamity character roster page lists Master Kohga and King Rhoam among base-game playable warriors, not DLC additions.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki/wiki/Characters_in_Age_of_Calamity (via proxy)"]
+    },
+    {
+      "category": "correction-to-brief",
+      "name": "No evidence Ganondorf or Astor are characters in this game",
+      "detail": "Across all rosters found (Wikipedia, Zelda Wiki base + DLC character lists), neither a playable humanoid 'Ganondorf' nor 'Astor' appears in Age of Calamity. Astor was DLC in the original Hyrule Warriors (2014)/Definitive Edition, a different game. The closest analog in AoC is 'Calamity Ganon' (the monstrous final boss form), which IS confirmed playable/unlockable in the base game post-game via completing a large number of Challenges (~150).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki/wiki/Characters_in_Age_of_Calamity (via proxy)", "en.wikipedia.org (raw wikitext)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Korok Seeds",
+      "detail": "Age of Calamity includes Korok Seeds as a collectible, reused from Breath of the Wild but with a different, non-optional function: they are required to unlock character upgrades (implied via a Hestu-run inventory/upgrade system). Total: 175 Korok Seeds — 122 hidden within the 20 story Scenarios, 12 hidden across 11 specific Challenges, and 41 obtained as quest/challenge-clear rewards (26 from Challenge first-clears, 15 from the 'Helping with Heights' quest). Two independent sources (a completion-guide aggregator and Zelda Wiki) agree on the total of 175 and the same breakdown.",
+      "trackable": "Not confirmed whether there is an explicit in-game seed counter/checklist; sources describe collection method but not a dedicated tracking UI. Likely tracked implicitly via inventory count, unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["knowll.com 100% completion guide (via proxy)", "zeldawiki.wiki/wiki/Korok (via proxy)"]
+    },
+    {
+      "category": "secret/post-game",
+      "name": "Terrako Components / Terrako's Return (secret playable character + secret ending)",
+      "detail": "50 Terrako Components are scattered as quest/challenge rewards across Hyrule, obtainable after completing the main story's final scenario. Collecting all 50 and completing the quest 'Terrako's Return' unlocks Terrako (the small Guardian companion) as a playable character AND triggers a secret/alternate ending cutscene showing Terrako traveling Hyrule and meeting other characters.",
+      "trackable": "Implied to be tracked as quest-reward items in inventory; a dedicated 'Terrako Components: X/50' counter is not explicitly confirmed but plausible given the quest-reward framing.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["IGN wiki title 'How To Get the Secret Ending and Unlock Terrako' (title/snippet only, page fetch blocked)", "duckduckgo aggregation of Game8/community guides (via proxy)"]
+    },
+    {
+      "category": "post-game",
+      "name": "Calamity Ganon unlockable as playable character",
+      "detail": "Calamity Ganon (the final boss) becomes playable after completing approximately 150 Challenges (out of a reported 161 total challenges in the game). Recommended character level 61+ for the toughest content.",
+      "trackable": "Challenge completion is tracked via a Challenges menu/list (list of named challenges, e.g. 'Coliseum: Expert').",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co New Game Plus/Endgame guide (via proxy)", "zeldawiki.wiki/wiki/Characters_in_Age_of_Calamity (lists Calamity Ganon as base-game playable, via proxy)"]
+    },
+    {
+      "category": "post-game",
+      "name": "100% completion reward — 'Hyrule Warrior' outfit",
+      "detail": "Completing all Challenges and all Quests grants a unique 'Hyrule Warrior' costume as a 100%-completion reward.",
+      "trackable": "n/a (reward itself; implies underlying Quest/Challenge completion is trackable via their respective menus)",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["game8.co New Game Plus/Endgame guide (via proxy, single source)"]
+    },
+    {
+      "category": "post-game",
+      "name": "Blood Moon Battlefields",
+      "detail": "After completing the main story, 'Blood Moon' variants of story battles randomly appear, letting players replay them at higher recommended level with tougher enemies and better rewards. No New Game Plus mode exists in the game.",
+      "trackable": "Unclear; likely random encounters on the world map rather than a checklist.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["game8.co New Game Plus/Endgame guide (via proxy, single source)"]
+    },
+    {
+      "category": "side content / minigame-like mode",
+      "name": "Coliseum challenge battles",
+      "detail": "A recurring isolated arena-battle side mode distinct from story missions. Confirmed named tiers include 'Coliseum: Beginner' (level 30, defeat a Stone Talus and a Hinox in 6 minutes, unlocked after the Akkala Tower mission), 'Coliseum: Intermediate' (level 40, defeat 5 Stalmoblins and a Stalnox in 5 minutes), and 'Coliseum: Expert' (level 40+/unlocked via 'King's Escort' challenge, defeat a Black Hinox and a Silver Lynel in 6 minutes). Wave 2 DLC ('Guardian of Remembrance') reportedly adds further Coliseum and 'Lanayru Road' stage content.",
+      "trackable": "Listed as named entries in the Challenges menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki Coliseum: Beginner/Intermediate/Expert pages (via proxy, aggregated snippets)"]
+    },
+    {
+      "category": "costumes",
+      "name": "Costume/attire system",
+      "detail": "Costumes (called 'Attire') are unlocked via story missions, Challenges, and side Quests, then equipped/mixed via an 'Allies Menu.' A Game8 guide breakdown for Link alone lists roughly 20 tunics, 28 headgear pieces, and 18 greaves (~66 pieces for Link), plus separate outfits for Zelda and Champion-garb variants for Mipha, Daruk, Revali, and Urbosa. Equipped costumes are highlighted blue in the menu, implying an unlock-checklist-style UI.",
+      "trackable": "Allies Menu shows unlocked/equipped costumes per character; functions as a visual checklist.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co Costumes List guide (via proxy)"]
+    },
+    {
+      "category": "DLC content",
+      "name": "Purchase Bonus (Expansion Pass) — Prototype Ancient set",
+      "detail": "Base wave/day-one reward for owning the Expansion Pass: 'Prototype Ancient Short Sword' (weapon for Link) and 'Prototype Ancient Gear' (a costume/armor set for Link consisting of Cuirass, Helm, and Greaves). Sources differ on exact release date framing: one Wikipedia mirror states 'made available on May 28, 2021'; this predates the Wave 1 release date of June 18, 2021.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["en.wikipedia.org (raw wikitext)", "zeldawiki.wiki/wiki/Hyrule_Warriors:_Age_of_Calamity_Expansion_Pass (via proxy)"]
+    },
+    {
+      "category": "DLC content",
+      "name": "Expansion Pass Wave 1 — 'Pulse of the Ancients' (released June 18, 2021)",
+      "detail": "Adds: (1) new playable character 'Battle-Tested Guardian'; (2) new weapon types — three Flail variants for Link (Guardian Flail, Fortified Flail, Ancient Bladed Flail) and three Master Cycle variants for Zelda (Master Cycle, Master Cycle Hunter, Master Cycle Sentinel); (3) new 'Apocalyptic' difficulty level; (4) new enemy types (Meteo Wizzrobes, Thunder Wizzrobes, Blizzrobes, Giant Chuchus, and other 'Vicious' enemies); (5) new EX Vicious Monster Battles across locations (Great Hyrule Forest, Hyrule Field, Crenel Peak, Akkala Citadel), including a persistent battle 'EX Alert: Forgotten Temple'; (6) new location: Royal Ancient Lab, with associated challenges; (7) 24 new standard quests plus 35 new Ancient Tech Lab quests (~59 total new quests per one source); (8) 15 new challenges; (9) 10 new materials; (10) 4 new music tracks; (11) 9 new weapons (per a separate source, Zelda Dungeon, citing 144 base weapons + 9 Wave-1 weapons — note this conflicts numerically with the '6 named weapon variants' listed above; likely additional unnamed/lower-tier weapon entries make up the difference).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki/wiki/Pulse_of_the_Ancients (via proxy)", "zeldawiki.wiki/wiki/Hyrule_Warriors:_Age_of_Calamity_Expansion_Pass (via proxy)", "zeldadungeon.net (title/snippet only)"]
+    },
+    {
+      "category": "DLC content",
+      "name": "Expansion Pass Wave 2 — 'Guardian of Remembrance' (released October 29, 2021)",
+      "detail": "Adds: (1) two new playable character slots — 'Sooga' and 'Purah & Robbie' (the latter functions as a single combined unit); (2) 8 new scenarios, all EX-prefixed: 'EX To Zelda's Side,' 'EX Battle of Goponga Village,' 'EX Battle for Kakariko Village,' 'EX Searching Hyrule Forest,' 'EX Liberate the Ancient Lab,' 'EX The Princess and the King,' 'EX The Yiga Clan's Retreat,' and 'EX Guardian of Remembrance'; (3) new enemy 'Malice Moblin' and new boss 'Mutated Ganon'; (4) 4 new EX Vicious Monster Battles; (5) 14 new weapons; (6) 10 new challenges; (7) 53 new quests; (8) 11 new movies/cutscenes and 9 new narrations; (9) 3 new music tracks; (10) new battle skills for existing characters. IMPORTANT CAVEAT: Wikipedia's summary describes this content as 'new story stages set during the events of the main game' (i.e., an interquel/side-story, NOT a strict post-story epilogue as the brief assumed), though the final scenario titled 'EX Guardian of Remembrance' may carry epilogue-like weight given it shares the wave's name — this nuance is unconfirmed.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki/wiki/Guardian_of_Remembrance (via proxy)", "zeldawiki.wiki/wiki/Hyrule_Warriors:_Age_of_Calamity_Expansion_Pass (via proxy)", "en.wikipedia.org (raw wikitext)"]
+    },
+    {
+      "category": "roster",
+      "name": "Base game playable roster (18 characters)",
+      "detail": "Per Zelda Wiki's Age-of-Calamity character list: Link, Impa, Zelda, Mipha, Daruk, Revali, Urbosa, Hestu, Great Fairies, Monk Maz Koshia, Sidon, Yunobo, Teba, Riju, Master Kohga, King Rhoam, Terrako, and Calamity Ganon = 18 total. This matches Wikipedia's separately-sourced claim of '18 playable characters total: 14 obtained via main-story progression, 4 unlockable via side quests/post-game' (Terrako, Calamity Ganon, and likely 2 others fall into the side-quest/post-game-unlock category — not fully itemized in sources found).",
+      "trackable": "A Warrior/character select screen presumably shows locked vs. unlocked characters.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki/wiki/Characters_in_Age_of_Calamity (via proxy)", "en.wikipedia.org (raw wikitext, 402/blocked direct but consistent across 3 independent fetches)"]
+    },
+    {
+      "category": "roster",
+      "name": "DLC-added playable roster (+3 character slots)",
+      "detail": "Battle-Tested Guardian (Wave 1, Pulse of the Ancients); Sooga and Purah & Robbie [combined unit] (Wave 2, Guardian of Remembrance). Total roster after both DLC waves: 21 character slots (18 base + 3 DLC).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki (via proxy, cross-referenced across 3 fetches)", "en.wikipedia.org (raw wikitext)"]
+    },
+    {
+      "category": "weapons/materials",
+      "name": "Weapon count and leveling",
+      "detail": "One source (Zelda Dungeon, snippet-only) states 144 total weapons in the base game plus 9 added by Pulse of the Ancients DLC. Weapons are leveled via a fusion/combination mechanic (fusing duplicate/lower weapons into a target weapon using experience thresholds). Weapon max level is contested across sources: one claims base-game cap of level 50, removed/altered post-patch 1.2 for non-DLC owners; another claims DLC-inclusive max base attack values reach ~84 for most characters. This entire area should be treated as LOW confidence pending a stronger primary source.",
+      "trackable": "Weapon inventory/list per character presumably shown in an equipment menu.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["duckduckgo aggregation citing Zelda Dungeon and Reddit discussions (via proxy, unverified directly)"]
+    },
+    {
+      "category": "amiibo",
+      "name": "Amiibo functionality",
+      "detail": "All amiibo figures (Zelda-themed or not) are compatible. Scanning triggers a reward: weapons, materials/ingredients, or (per some community reports, disputed) character-summon/training-companion effects. Rewards are described by an official-style guide as largely RANDOM and not amiibo-exclusive (unlike Breath of the Wild's amiibo system), though community comments claim some bias (e.g., Guardian amiibo more often drop ancient parts, Link amiibo more often drop Link-usable items). Players can scan up to 5 amiibo per day, with each individual amiibo limited to once per day. Amiibo function is accessed via a start-screen menu option. Reported compatible/'featured' amiibo count varies by source: ~24 to 28 figures with dedicated notes, though truly ANY amiibo works for a generic reward.",
+      "trackable": "Not confirmed whether amiibo usage/rewards are tracked/logged anywhere in-game beyond the immediate pop-up reward.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co amiibo guide (via proxy)", "duckduckgo aggregation of Screen Rant / Nintendo Life / Smiibo / Amiipedia guides (via proxy, titles/snippets only)"]
+    },
+    {
+      "category": "story structure",
+      "name": "Legend Mode structure — 7 Chapters, 20 Scenarios/entries",
+      "detail": "The main story (Legend Mode) is divided into 7 Chapters comprising 20 total Scenarios/entries (Chapter 7 unlocks only after Chapters 1–6 are cleared). This 20-scenario count is corroborated independently by the Korok Seed breakdown ('122 hidden within the 20 Scenarios').",
+      "trackable": "Chapter/Scenario select screen likely shows completion status.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["knowll.com 100% completion guide (via proxy)", "zeldawiki.wiki/wiki/Korok (via proxy, corroborating '20 Scenarios')"]
+    },
+    {
+      "category": "side content counts",
+      "name": "Total Challenges and Quests (base game, figure ambiguous re: DLC inclusion)",
+      "detail": "A single completion-guide source (Knowll) states 161 total Challenges and 365 total Quests. It is UNCLEAR whether these totals include the DLC additions (Wave 1 added 15 challenges/59 quests; Wave 2 added 10 challenges/53 quests — DLC would add ~25 challenges and ~112 quests combined). If the 161/365 figures are DLC-inclusive, base-game-only totals would be roughly 136 challenges and 253 quests; if base-only, DLC-inclusive totals would be roughly 186 challenges and 477 quests. This arithmetic is NOT confirmed by any source — flagged as a significant gap.",
+      "trackable": "Quests are organized in a Quest list/log per Game8 and IGN guide references ('Learn about character exclusive quests... how many side quests are there in total'); Challenges are organized in a Challenges menu.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["knowll.com 100% completion guide (via proxy, single source, uncorroborated)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Quest completion (Quest list/log, per-character and general quests)", "where": "In-game Quest menu, referenced by Game8 and IGN quest guides", "confidence": "medium" },
+    { "stat": "Challenge completion (named Challenges incl. Coliseum tiers, EX Vicious Monster Battles)", "where": "In-game Challenges menu", "confidence": "medium" },
+    { "stat": "Costume/Attire unlock status per character", "where": "Allies Menu — equipped items highlighted blue, implying a checklist-style display", "confidence": "medium" },
+    { "stat": "Regional world-map completion", "where": "World map shows per-region completion via icons (per Zelda Universe preview coverage)", "confidence": "low" },
+    { "stat": "Character level (max 100) and weapon level", "where": "Character/weapon menus", "confidence": "low" },
+    { "stat": "Korok Seed count", "where": "Not confirmed — likely inventory count only, no dedicated tracker UI confirmed", "confidence": "low" },
+    { "stat": "Terrako Components (0/50)", "where": "Not confirmed — presumed inventory-based quest-item tracking", "confidence": "low" },
+    { "stat": "Amiibo daily-use tracking", "where": "Not confirmed whether logged anywhere beyond the immediate reward pop-up", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Hyrule Warriors: Age of Calamity is a Nintendo Switch exclusive with no other platform versions; therefore no cross-platform content differences exist. All version differences discussed in this dossier are BASE GAME vs. DLC-WAVE differences on the single Switch release, not platform differences.", "confidence": "high" },
+    { "note": "A post-launch patch (implied around version 1.2) reportedly altered or removed a weapon-level-limit-raising mechanic for players who do NOT own the Expansion Pass DLC — this detail is UNVERIFIED beyond a single Reddit-sourced aggregation and should be treated with caution.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not directly access Zelda Fandom (zelda.fandom.com / hyrulewarriors.fandom.com) or IGN (ign.com) — both consistently returned 402/403/blocked errors even through proxy fetching. These are normally the two strongest sources for a complete, itemized character/costume/weapon list and were unavailable this session.",
+    "WebSearch tool budget was exhausted for this session before this task began; all research had to be done via WebFetch (including a jina.ai reader proxy workaround for blocked sites), which is less reliable and could not be cross-verified with as many independent sources as normal.",
+    "Could not confirm whether the game displays an overall/unified completion percentage anywhere (e.g., a save-file summary screen). Only regional world-map completion indicators were found, and even that is single-sourced.",
+    "Could not confirm exact total weapon count with confidence, nor reconcile the '9 new weapons' (Zelda Dungeon) vs. '6 named weapon variants' (Zelda Wiki) discrepancy for Wave 1.",
+    "Could not confirm whether the reported 161 Challenges / 365 Quests totals include or exclude the Expansion Pass DLC content — this materially affects any trophy built around 'complete all quests/challenges.'",
+    "Could not confirm exact unlock conditions/order for all 18 base-game characters (which 14 are main-story-progression unlocks vs. which 4 are side-quest unlocks, and which specific side quests).",
+    "Could not confirm whether Korok Seeds or Terrako Components have a dedicated in-game counter UI (e.g., 'X/175' or 'X/50' display) as opposed to being silently added to inventory — this is critical for whether a 'collect all' trophy is even track-able by the player.",
+    "Could not verify the Purchase Bonus release date discrepancy (Wikipedia states May 28, 2021, which is BEFORE Wave 1's June 18, 2021 — plausible as a pre-Wave-1 bonus, but not cross-confirmed by a second source).",
+    "Could not confirm precise regional names/count for the Breath-of-the-Wild-style world map used in place of Adventure Mode (source mentioned '8 regions' in one Korok-seed-adjacent context, but this was not independently verified as an authoritative region count).",
+    "Did not find any evidence of dedicated 'minigames' beyond the Coliseum challenge-battle side mode and Blood Moon replay battles — no cooking minigame, no puzzle minigame, etc. were confirmed, though the world map does reference 'cooking pots' as a Bazaar-style service; unclear if this constitutes a minigame or a simple menu transaction.",
+    "Could not verify whether Master Kohga, King Rhoam, Terrako, and Calamity Ganon (the 4 side-quest/post-game unlocks per Wikipedia's 14+4 split) are exactly the correct 4, since the Zelda Wiki roster list did not itemize which characters fall into which unlock category."
+  ]
+}

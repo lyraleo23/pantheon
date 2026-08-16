@@ -1,0 +1,78 @@
+{
+  "beat": "reverify-quests-systems",
+  "game": "Hyrule Warriors: Age of Calamity",
+  "toolingNote": "WebSearch tool's session budget was already exhausted (200/200 used) before this task began, so zero WebSearch queries were possible. All findings below come from WebFetch against specific/discovered URLs. Major reference sites (IGN, Zelda Fandom, ZeldaDungeon, GameFAQs, Reddit, NintendoLife, TheGamer, DuckDuckGo) returned 403/404/402/unreachable errors and could not be accessed. Nearly all confirmed data comes from a single source domain (Game8.co), reached by extracting real hyperlinks off its hub page rather than search. This materially limits independent-source cross-checking for a task that explicitly asked for independent sources per question.",
+  "findings": [
+    {
+      "question": "1. Total Challenges and Quests — DLC inclusion ambiguity",
+      "answer": "QUESTS (higher confidence): Base game = 376 quests. With both DLC waves (Expansion Pass) = 435 quests total (376 + 59 DLC quests, mostly the Royal Ancient Lab questline). This is stated identically on two separate Game8 pages (the master quest list and the 100%-completion guide), which is reassuring, though it's still the same source domain. Note this differs slightly from the earlier-reported '375 base' figure (376 vs 375, likely a minor discrepancy/update between guide revisions, not a different game state). CHALLENGES (unresolved): Could not confirm an exact total. Game8's challenge list page is organized by recommended level (1-10 through 91-100, plus EX Vicious Monster Battles and Divine Beast Battles sections). I was only able to extract counts for levels 1-50: 16+10+26+16+28 = 96 challenges confirmed in that range alone. Levels 51-100, EX Vicious Monster Battles, and Divine Beast Battles sections could not be retrieved (page truncated by the fetch tool on every attempt), so the true total is almost certainly well above 96, and plausibly above the previously reported 161 figure once all brackets are summed — but I cannot state an exact number. DLC breakdown is internally CONTRADICTORY across two Game8 pages: the quest-list page attributes '59 new quests' to 'the DLC Expansion Pass' as a single combined figure, while a separate DLC-summary page (fetched via WebFetch's AI summarization, not raw text) states Wave 1 (Pulse of the Ancients) alone added '59 total quests + 22 challenges' and Wave 2 (Guardian of Remembrance) added '53 new quests + 10 challenges + 4 Vicious Monster battles' — which would imply 112 combined DLC quests, not 59, conflicting with the 376+59=435 total confirmed on two other pages. I could not reconcile this discrepancy and could not confirm which figure is correct with additional independent verification.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306199 (List of All Quests and Rewards — 376 base, 435 with DLC)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493 (100 Percent Rewards and Guide — confirms 376 base / 435 with DLC)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306198 (List of Challenges — partial count only, 96 confirmed across levels 1-50)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309599 (DLC content summary — contradicts the 59-total-DLC-quests figure)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/339635 (Royal Ancient Lab Quests — confirms 38 quests in that specific DLC questline)"
+      ]
+    },
+    {
+      "question": "2. Mission replay system — can Legend Mode chapters/scenarios be replayed, and can missed collectibles be retroactively collected?",
+      "answer": "PARTIALLY CONFIRMED. Challenges are explicitly confirmed to be repeatable/replayable — Game8's Rupee Farming and EXP Farming guides both describe repeatedly re-running specific Challenges (e.g. 'Molduga Sighting', 'Hunting for Gemstones') as core farming strategies, which is only possible if challenges can be replayed after clearing them. For Legend Mode STORY missions specifically, one WebFetch summary of Game8's hub page described a feature as 'Mission Replay: Allows replaying completed story missions' and a separate 'Results Screen' feature, but this came from an AI-generated summary of the hub page rather than a direct quote I could verify against raw text, so I treat it as lower-confidence corroboration rather than proof. I could NOT find any source — Game8 or otherwise — that directly addresses whether replaying a cleared Legend Mode scenario lets you retroactively pick up Korok Seeds or treasure chests you missed on the first clear, or whether those become permanently missed once the scenario is cleared. This is a genuinely open question after real search effort.",
+      "confidence": "low",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity (hub page AI-summarized description mentioning 'Mission Replay')",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306274 (Rupee Farming Guide — confirms Challenges are repeatable)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/306270 (EXP Farming Guide — confirms Challenges are repeatable, does not address story mission replay)"
+      ]
+    },
+    {
+      "question": "3. Does AoC have any cumulative lifetime-stats screen (total KOs, total Rupees, playtime, or a Gallery/Medal-List equivalent)?",
+      "answer": "NO EVIDENCE FOUND of such a screen, and one piece of indirect evidence suggesting it does NOT exist: Game8's dedicated 100%-completion guide explicitly instructs players to check completion progress via a specific quest node called 'The Hope of All Hyrule' on the map screen — not via any stats/gallery/medal screen. If a lifetime-stats or medal gallery existed, a 100%-completion guide would be the most likely place to reference it, and it does not. I could not access Zelda Fandom, ZeldaDungeon, IGN, or Reddit to independently corroborate an absence, so I cannot call this fully definitive, but no source I could reach — official or fan — described such a feature.",
+      "confidence": "low",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493 (100 Percent Rewards and Guide — progress tracked via a specific quest, not a stats screen)"
+      ]
+    },
+    {
+      "question": "4. Post-battle results screen contents — rank/grade, KO count, combo counter?",
+      "answer": "UNRESOLVED / weak negative evidence only. Game8's 'Combat Tips and Techniques' guide, when asked directly, contained no mention of a KO counter, combo counter, or rank/grade results screen — but this is an absence-of-mention in a combat-mechanics guide, not a guide specifically about the results screen, so it is weak evidence at best. I was unable to locate any Game8, wiki, or review source that directly describes what the post-mission results screen shows. I have a training-knowledge recollection (unverifiable via search) that AoC's post-mission screen shows completion time and material/rupee/weapon-EXP rewards, but I could not confirm or deny a letter-grade rank or KO/combo counter — treat this as unconfirmed.",
+      "confidence": "low",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309218 (Combat Tips and Techniques — no mention found, inconclusive)"
+      ]
+    },
+    {
+      "question": "5. Blood Moon Battlefields — missability",
+      "answer": "CONFIRMED as effectively non-permanently-missable at the mechanic level, but a SPECIFIC individual Blood Moon opportunity does eventually expire. Per Game8's Blood Moon guide: Blood Moon battles unlock after clearing the final Legend Mode story battle, then spawn randomly on a Story Battle or Challenge node as you clear other Story Battles/Challenges. If you don't engage a given Blood Moon, 'the game will respawn a Blood Moon on a new Story Battle so long as you clear either a Story Battle or Challenge' — and a given Blood Moon Battlefield will 'respawn at least thrice before despawning.' So: any single specific Blood Moon occurrence can permanently disappear after ~3 respawn cycles if ignored, but the Blood Moon mechanic itself keeps generating new opportunities indefinitely as you keep clearing content — it is not a one-shot permanently-missable event at the system level, though a specific occurrence can be lost.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/311455 (Blood Moon Rewards and How to Unlock)"
+      ]
+    },
+    {
+      "question": "6. Costume/Attire total count",
+      "answer": "72 total costumes in the base game (69 base-game costumes + 3 DLC costumes = 72). This figure comes from Game8's 100%-completion guide, listed alongside other completion-tracker totals (quests, secret characters) that independently matched figures confirmed elsewhere, which gives it reasonable internal consistency, though it is still a single source domain.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/314493 (100 Percent Rewards and Guide — '69 (+3 DLC Costumes)')",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Calamity/archives/309581 (List of Costumes — no total stated on this page itself)"
+      ]
+    }
+  ],
+  "trackableStatsObserved": [
+    {
+      "stat": "Overall completion percentage",
+      "where": "Tracked via a specific quest node called 'The Hope of All Hyrule' on the Legend Mode map screen, per Game8's 100% guide.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Exact total Challenge count could not be confirmed. Only 96 challenges (levels 1-50) were verifiable; the page's level 51-100, EX Vicious Monster Battles, and Divine Beast Battles sections repeatedly failed to load via WebFetch (content truncation), so the true base+DLC total remains unknown, though it is almost certainly higher than 96 and plausibly different from the previously reported 161.",
+    "DLC quest/challenge breakdown by wave is internally contradictory between two Game8 pages (59-total-DLC-quests vs. Wave1=59+Wave2=53=112-total-DLC-quests) and could not be reconciled with available tools.",
+    "Whether Korok Seeds/treasure chests missed during a Legend Mode scenario's first clear can be retroactively collected by replaying that scenario — no source addressed this directly.",
+    "Whether Legend Mode has a distinct 'Free Mode'/mission-select UI versus simply re-selecting a cleared node on the story map — not confirmed either way.",
+    "Whether the post-battle results screen displays a letter-grade rank, KO counter, or combo counter — no direct source found either confirming or denying.",
+    "Whether any lifetime cumulative stats screen or Gallery/Medal-List equivalent (like the original Hyrule Warriors) exists — no source confirmed its existence; one indirect signal (100% guide routing players to a single quest-based percentage tracker instead) suggests it likely does NOT exist, but this is not definitive.",
+    "Could not independently corroborate ANY of the above across multiple source domains as the task requested, because WebSearch was unavailable for the entire task (budget exhausted before start) and most major wikis/guide sites (IGN, Zelda Fandom, ZeldaDungeon, GameFAQs, Reddit, NintendoLife, TheGamer, Bing, DuckDuckGo) returned errors when fetched directly. Nearly everything here rests on Game8.co alone. Recommend a follow-up pass once WebSearch budget resets, or with a browsing tool that can reach Fandom/ZeldaDungeon/IGN."
+  ]
+}
