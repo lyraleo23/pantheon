@@ -1,0 +1,194 @@
+{
+  "beat": "progression systems, trackable stats, missable content, RNG, version differences",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "system",
+      "name": "Fuse",
+      "detail": "Fuse allows the player to combine materials, equipment, and other objects with a shield or weapon (e.g., fusing a rocket to a shield allows flight). Confirmed to exist and function this way.",
+      "trackable": "Not confirmed whether a fuse-count or 'materials fused' statistic is displayed anywhere in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "system",
+      "name": "Fuse effect on weapon durability",
+      "detail": "Could not confirm via search this session the exact mechanical interaction between fusing a material and a weapon's durability count (e.g., whether fusing adds bonus uses, whether the fused material has its own separate 'health', or whether durability is purely governed by the base weapon). This is a commonly discussed BotW/TotK mechanic from player knowledge but I have no verified source from this session.",
+      "trackable": "unknown",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "system",
+      "name": "Ultrahand",
+      "detail": "Ultrahand lets the player pick up, move, and attach objects together, used with Zonai Devices to build vehicles and other constructs.",
+      "trackable": "unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "system",
+      "name": "Autobuild",
+      "detail": "Autobuild instantly recreates a device previously crafted with Ultrahand, automatically using nearby devices/objects if available, or generating replacement parts at the cost of a material called Zonaite if the originals aren't present. (Autobuild is unlocked as a late-game ability tied to main-quest progress, per general player knowledge, but that unlock condition is not confirmed via search this session.)",
+      "trackable": "The game maintains a list/library of saved Autobuild schematics accessible from the Autobuild menu, but I could not confirm an exact schematic-slot cap or whether the game displays a 'schematics saved' counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "system",
+      "name": "Zonai Charge / battery system",
+      "detail": "Could not confirm mechanical details via search this session. From unconfirmed recollection: Zonai Devices activated via Ultrahand/Autobuild consume a 'Zonai Charge' resource (battery), Link has a charge meter that can reportedly be expanded, and depleting it disables device activation. None of this was verified against a source this session.",
+      "trackable": "unknown — could not confirm if/where a battery capacity or charge stat is displayed in a menu.",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "stat",
+      "name": "Continue/file-select screen counters",
+      "detail": "Could NOT confirm what statistics (if any) TotK's save-file loading/continue screen displays. Unable to verify whether it mirrors BotW's reported shrine-count/Korok-count display style.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "stat",
+      "name": "Map completion percentage",
+      "detail": "Could NOT confirm whether TotK has an equivalent to BotW's post-game completion percentage system. Not found in any source reachable this session.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "difficulty",
+      "name": "No confirmed base-game difficulty toggle",
+      "detail": "Could not find a source this session confirming or denying a built-in hard mode / difficulty setting. From general recollection (unverified), TotK has no difficulty selector and, unlike Breath of the Wild's paid DLC Master Mode, Tears of the Kingdom has released with no paid story/gameplay DLC as of this research pass — but this absence-of-DLC claim is also unverified this session.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "multiplayer",
+      "name": "Single-player only",
+      "detail": "Wikipedia's infobox lists the game's Mode as 'Single-player.'",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "missable content",
+      "name": "No confirmed missable content",
+      "detail": "Could not confirm any specific missable content (story-locked events, time-limited quests, or permanently-lost Geoglyph/memory content) via search this session. TotK follows BotW's general open-world design philosophy where most content remains available throughout, but I was not able to verify this holds for every system (e.g., specific side quest chains, one-time NPC events).",
+      "trackable": "n/a",
+      "missable": "unconfirmed",
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "rng",
+      "name": "Material drops, treasure chests, Depths mining Zonai device drops",
+      "detail": "Could not confirm drop-rate details, chest-content randomization rules, or Zonai device/crystal drop rates from Depths ore deposits via any source reachable this session.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "version",
+      "name": "Nintendo Switch 2 Edition exists",
+      "detail": "Nintendo's official US store product page for Tears of the Kingdom lists three purchasable options: 'Nintendo Switch 2 Edition,' 'Nintendo Switch,' and 'Upgrade Pack,' confirming Nintendo released a Switch 2 upgrade path analogous to the one for Breath of the Wild. A digital price of $69.99 appeared on the page but could not be definitively attributed to a specific one of the three listed options (versus the Upgrade Pack, which was not separately confirmed).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/"]
+    },
+    {
+      "category": "version",
+      "name": "Switch 2 Edition technical improvements",
+      "detail": "Wikipedia states: 'The enhanced Nintendo Switch 2 edition features improved resolution, framerate, HDR support, and additional functionality with the Nintendo Switch App.' Released June 5, 2025 (alongside the Switch 2 console launch window).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "version",
+      "name": "No confirmed Switch-2-exclusive gameplay feature",
+      "detail": "No source reached this session described any Switch-2-exclusive gameplay mechanic, quest, item, or content (as opposed to purely technical/performance improvements and app connectivity). This is consistent with the prior research finding for Breath of the Wild's Switch 2 Edition, but I could not independently re-confirm the absence for TotK beyond the one Wikipedia summary, which only lists technical/app improvements and names nothing gameplay-exclusive.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "version",
+      "name": "Base Switch version runs on Switch 2 unmodified",
+      "detail": "Nintendo's official compatibility note on the store page states: 'Nintendo Switch 2 Compatibility Information: Supported – Game behavior is consistent with Nintendo Switch,' i.e., the original Switch cartridge/digital version is backward-compatible and behaves the same on Switch 2 hardware (separate from the enhanced Switch 2 Edition/Upgrade Pack SKU).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Continue/file-select screen counters (shrine count, Korok seed count, or similar)",
+      "where": "unconfirmed",
+      "confidence": "low"
+    },
+    {
+      "stat": "Map/world completion percentage",
+      "where": "unconfirmed — not verified to exist in TotK",
+      "confidence": "low"
+    },
+    {
+      "stat": "Autobuild schematic library",
+      "where": "Autobuild menu (accessed via Ultrahand); exact slot cap/counter not confirmed",
+      "confidence": "low"
+    },
+    {
+      "stat": "Zonai Charge / battery capacity",
+      "where": "unconfirmed — possibly a HUD meter during device activation, not verified this session",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Nintendo released a Nintendo Switch 2 Edition and a separate Upgrade Pack SKU for Tears of the Kingdom, confirmed via Nintendo's official US store listing (three purchase options: Switch 2 Edition, Nintendo Switch, Upgrade Pack).",
+      "confidence": "high"
+    },
+    {
+      "note": "Switch 2 Edition (released June 5, 2025) improves resolution, framerate, and adds HDR support plus expanded Nintendo Switch App connectivity, per Wikipedia. Exact resolution/fps numbers (e.g., docked/handheld targets) and Upgrade Pack price were not confirmed this session.",
+      "confidence": "medium"
+    },
+    {
+      "note": "No gameplay-exclusive content (new quests, items, areas) was found attributed to the Switch 2 Edition in the sources reached — improvements appear to be purely technical/performance and app-connectivity related, similar to the prior finding for Breath of the Wild's Switch 2 Edition. Not exhaustively verified.",
+      "confidence": "medium"
+    },
+    {
+      "note": "The original Nintendo Switch version is confirmed backward-compatible on Switch 2 hardware with unchanged game behavior, distinct from the enhanced Edition.",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Could not confirm what stats (if any) appear on TotK's save-file/continue screen — this needs direct in-game verification or a source describing the file-select UI.",
+    "Could not confirm whether TotK has a map/world completion percentage system at all, let alone what it weights or where it's displayed.",
+    "Could not confirm the mechanical interaction between Fuse and weapon durability (does fusing add extra uses, is fused-material durability tracked separately, etc.).",
+    "Could not confirm exact Zonai Charge/battery mechanics: starting capacity, how/whether it's upgraded, and where capacity is displayed to the player.",
+    "Could not confirm an Autobuild schematic slot limit or whether a schematic counter is shown anywhere.",
+    "Could not confirm or deny any difficulty toggle/hard-mode option in the base game, nor definitively confirm the absence of paid DLC (Master Mode equivalent).",
+    "Could not identify any specific missable content (quest chains, one-time events, Geoglyph/memory content) — plausible none exists given BotW's precedent, but not verified for TotK specifically.",
+    "Could not confirm RNG rules for material drops, treasure chest contents, or Zonai device drop rates from Depths mining.",
+    "Could not confirm the exact price of the Switch 2 Edition Upgrade Pack, nor the standalone Switch 2 Edition price (a $69.99 digital price appeared on Nintendo's store page but could not be reliably attributed to a specific SKU).",
+    "Session's WebSearch tool budget was exhausted before this task began (0 of 200 calls available), and the majority of gaming wikis/guides (Zelda Wiki/Fandom, Zelda Dungeon, IGN, Polygon, Eurogamer, GameFAQs, Reddit, PCGamer, GameRant, RPS, NintendoLife) returned 403/402/404 errors via WebFetch, severely limiting verification this session. A follow-up pass with a fresh search budget or a different fetch path (e.g., an MCP browsing tool) is strongly recommended before finalizing trophies for this beat, especially for the stats-screen, completion-percentage, and Zonai Charge findings, since those directly determine whether entire trophy categories are viable."
+  ]
+}

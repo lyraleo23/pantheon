@@ -1,0 +1,176 @@
+{
+  "beat": "campaign",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "story-structure",
+      "name": "Three-layer world structure",
+      "detail": "The campaign spans three vertically stacked layers: the Sky Islands (including the Great Sky Island prologue area), the Hyrule surface, and the Depths (a dark mirror of the surface map, reached by chasms and requiring Brightbloom Seeds/light sources to see).",
+      "trackable": "Not directly counted, but surface map completion and Depths map completion (via Lightroots) are tracked separately on the Purah Pad map percentage.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "story-milestone",
+      "name": "Prologue: Beneath Hyrule Castle / Great Sky Island",
+      "detail": "Link and Zelda explore a cavern beneath Hyrule Castle and find murals depicting the founding of Hyrule and the 'Imprisoning War.' They discover a restrained mummified corpse (Ganondorf) that awakens and attacks; Link's right arm is critically wounded and the Master Sword is shattered. Hyrule Castle rises into the sky; Zelda falls into the Depths and vanishes as Link tries to catch her. Link is saved and given a new Zonai arm by Rauru, an ancient Zonai spirit/king, on the Great Sky Island, where the core Zonai-arm powers (Ultrahand, Fuse, Ascend, Recall) are taught during the tutorial.",
+      "trackable": "Story progression, not separately counted.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom", "https://en.wikipedia.org/wiki/Ganon"]
+    },
+    {
+      "category": "quest",
+      "name": "Regional Phenomena (Rito / Wind Temple)",
+      "detail": "Region: Hebra Mountains (Rito Village area). Ally/future Sage: Tulin, son of Teba. Dungeon: Wind Temple, located in the sky above Hebra. Boss: Colgera, a large ice creature immune to conventional weapons; fought in two phases using bow shots at exposed weak points and paragliding through tornadoes in phase two.",
+      "trackable": "Tracked as a main quest ('Regional Phenomena' / 'The Rito' questline) in the Adventure Log/quest list on the Purah Pad.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://attackofthefanboy.com/guides/how-to-defeat-the-wind-temple-boss-colgera-in-zelda-tears-of-the-kingdom/",
+        "https://attackofthefanboy.com/guides/how-to-rematch-bosses-in-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "quest",
+      "name": "Regional Phenomena (Zora / Water Temple)",
+      "detail": "Region: Zora's Domain, Lanayru Province. Ally/future Sage: Sidon (Zora prince, later king). Quest text confirms 'Sidon will help Link access the Water Temple and end the deluge of sludge polluting Zora's Domain.' Boss (by elimination + rematch list, not independently confirmed by name in the region-specific source): Mucktorok, a sludge/mud-themed creature.",
+      "trackable": "Tracked as a main quest in the Adventure Log/quest list.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://attackofthefanboy.com/news/sidon-sucks-in-zelda-tears-of-the-kingdom-and-thats-a-shame/",
+        "https://attackofthefanboy.com/guides/how-to-rematch-bosses-in-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "quest",
+      "name": "Regional Phenomena (Goron / Fire Temple)",
+      "detail": "Region: Death Mountain, Eldin. Ally/future Sage: Yunobo (later president of 'YunoboCo'). Dungeon: Fire Temple ('Those resolving Regional Phenomena at Death Mountain will find their way to the Fire Temple'). Boss: Marbled Gohma, 'a massive beast of rock,' fought in two phases where Yunobo's charge ability is used to break its legs and destroy explosive rocks. A separate earlier story boss, Moragia (a three-headed boss encountered during the 'Yunobo of Goron City' quest, before the Fire Temple proper), is fought at Death Mountain by shooting Yunobo like a cannonball from a Zonai flying machine to destroy its three heads.",
+      "trackable": "Tracked as a main quest in the Adventure Log/quest list.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://attackofthefanboy.com/guides/how-to-defeat-the-fire-temple-boss-marbled-gohma-in-zelda-tears-of-the-kingdom/",
+        "https://attackofthefanboy.com/guides/how-to-beat-moragia-in-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "quest",
+      "name": "Regional Phenomena (Gerudo / Lightning Temple)",
+      "detail": "Region: Gerudo Desert. Ally/future Sage: Riju, Gerudo chief. Dungeon: Lightning Temple. Boss (by elimination from the confirmed rematch-boss list of the four regional bosses: Marbled Gohma=Fire, Mucktorok=Water(implied), Colgera=Wind, leaving): Queen Gibdo, a mummy/desert-themed creature. This region-to-boss pairing was not independently verified with a direct quote naming Queen Gibdo alongside 'Lightning Temple' or 'Riju' in the same source; it rests on elimination logic plus general series knowledge.",
+      "trackable": "Tracked as a main quest in the Adventure Log/quest list.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://attackofthefanboy.com/guides/how-to-rematch-bosses-in-zelda-tears-of-the-kingdom-totk/"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Sage abilities (companion powers)",
+      "detail": "After completing each Regional Phenomena questline, Link gains that character's Sage power, summonable in combat/exploration. Confirmed sage ability names from source text: 'Tulin, Sage of the Wind' (enhances travel/paragliding, wind gust attack) and 'Yunobo, Sage of Fire' (crowd-control charge attack). Sidon's and Riju's specific named abilities (widely known in the community as a water-jet/rage attack for Sidon and a lightning-bow attack for Riju) were not independently confirmed via search this session. A fifth sage, Mineru (an ancient Zonai sage whose spirit is placed into a mechanical construct body built by Link), also grants an ability distinct from the four regional sages.",
+      "trackable": "Sage abilities are equipped/managed via a dedicated menu; ability power level is upgraded using 'Sage's Will' items at Goddess Statues.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://attackofthefanboy.com/guides/what-does-sages-will-do-in-zelda-tears-of-the-kingdom/"]
+    },
+    {
+      "category": "collectible-mechanic",
+      "name": "Sage's Will",
+      "detail": "20 Sage's Will items exist total, found via hidden locations, sky islands, and as drops from defeating Gleeok enemies. Every 4 Sage's Wills used at a Goddess Statue grants one ability upgrade ('Solemn Vow') for a chosen sage power, for a total of 5 possible upgrades (matching the 5 sages: Tulin, Sidon, Riju, Yunobo, Mineru). Each upgrade multiplies the ability's attack power by roughly 1.3x.",
+      "trackable": "Sage's Will count is trackable via inventory; confirmed by a dedicated 'All Sage's Will Locations' guide implying the game itself tracks the collected count (exact in-game UI element not independently confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://attackofthefanboy.com/guides/what-does-sages-will-do-in-zelda-tears-of-the-kingdom/",
+        "https://attackofthefanboy.com/guides/all-sages-will-locations-in-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "collectible-mechanic",
+      "name": "Dragon's Tears / Geoglyphs memories",
+      "detail": "There are 12 Dragon's Tear memory locations, each tied to a Geoglyph (large ground drawing) visible from the sky, revealing a chronological flashback about Zelda's journey to the past, Rauru, Sonia, and Ganondorf's resurrection/draconification. Exact memory titles confirmed: 'Where Am I?', 'An Unfamiliar World', 'Mineru's Counsel', 'The Gerudo Assault', 'A Show of Fealty', 'Zelda and Sonia', 'Sonia Is Caught by Treachery', 'Birth of the Dragon King', 'The Sages' Vow', 'A King's Duty', 'A Master Sword in Time', 'Tears of the Dragon'. The final memory ('Tears of the Dragon') only becomes available after the other 11 have been found.",
+      "trackable": "Stored permanently and rewatchable in the Adventure Log's memories section once found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://attackofthefanboy.com/guides/dragons-tears-memories-and-geoglyphs-in-zelda-tears-of-the-kingdom-explained/",
+        "https://attackofthefanboy.com/guides/what-is-the-best-dragon-tear-memory-order-for-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "story-twist",
+      "name": "Phantom Ganon / illusion of Zelda",
+      "detail": "The Zelda Link has been searching for is revealed to be an illusion created by Phantom Ganon, a servant of the Demon King Ganondorf. Phantom Ganon appears as a discrete, rematchable boss fight (listed alongside the four regional temple bosses in the Depths boss-rematch pool), implying it is also a mandatory story boss fought once during the main campaign. Exact story placement/trigger point not independently confirmed this session.",
+      "trackable": "Not separately tracked beyond quest/story progression; rematchable in the Depths after Blood Moons per the boss-rematch guide.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+        "https://attackofthefanboy.com/guides/how-to-rematch-bosses-in-zelda-tears-of-the-kingdom-totk/"
+      ]
+    },
+    {
+      "category": "boss",
+      "name": "Ganondorf / Demon Dragon (final boss sequence)",
+      "detail": "The climactic story battle occurs beneath and above Hyrule Castle. Ganondorf, revived after millennia sealed by King Rauru, is fought first in humanoid form in the chasm beneath Hyrule Castle (following a gauntlet against an army of monsters, per one source). Near defeat, he swallows/uses his Secret Stone to transform into a dragon (the 'Demon Dragon'), pulling Link into the sky for an aerial final phase. Link, aided by the Light Dragon (Zelda, who earlier transformed into a dragon to repair the Master Sword using sacred power), shatters the Demon Dragon's secret stone to defeat it. Ganondorf's in-game epithet is 'the Demon King.'",
+      "trackable": "Story progression only; no separate boss-defeat counter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ganon",
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+        "https://en.wikipedia.org/wiki/List_of_The_Legend_of_Zelda_characters"
+      ]
+    },
+    {
+      "category": "story-milestone",
+      "name": "Ending / post-credits",
+      "detail": "After the final battle, Link and Zelda are restored (implicitly with help from the spirits of Rauru and Sonia). Some time later, on the Great Sky Island, Mineru bids farewell to Zelda and Link before her spirit fades away, closing the game.",
+      "trackable": "Story progression only.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"]
+    },
+    {
+      "category": "optional-content",
+      "name": "Gleeok enemies",
+      "detail": "Gleeok (multi-headed dragon-type enemies, per community/series convention appearing in elemental variants such as Frost/Flame/Thunder and a stronger multi-element 'King Gleeok') exist as optional, non-mandatory fights in Tears of the Kingdom; confirmed this session only as a source of Sage's Will drops, not independently verified by variant name.",
+      "trackable": "Not confirmed to have a dedicated tracker; possibly logged in the Hyrule Compendium (bestiary), which is a general game-wide creature-logging system, but this wasn't independently confirmed for Gleeok this session.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://attackofthefanboy.com/guides/what-does-sages-will-do-in-zelda-tears-of-the-kingdom/"]
+    },
+    {
+      "category": "post-game",
+      "name": "No confirmed New Game Plus / Master Mode",
+      "detail": "Unlike Breath of the Wild (which later received a Master Mode via paid DLC), no evidence was found this session of an equivalent Master Mode or New-Game-Plus mode for Tears of the Kingdom. This is an absence claim based on lack of search results, not a definitive official statement.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["search session (no results found)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Main quest / Regional Phenomena progress", "where": "Adventure Log / quest list on the Purah Pad", "confidence": "high" },
+    { "stat": "Dragon's Tear memories collected (12 total)", "where": "Adventure Log memories section, rewatchable once found", "confidence": "high" },
+    { "stat": "Sage's Will items collected (20 total)", "where": "Inventory / used at Goddess Statues for sage ability upgrades; exact in-game UI counter not independently confirmed", "confidence": "medium" },
+    { "stat": "Overall map/exploration completion percentage (surface, sky, Depths)", "where": "Purah Pad map screen — presence and exact mechanics not independently confirmed this session, reported from general series knowledge", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "A Nintendo Switch 2 enhanced edition was released (per one source, June 2025) with improved resolution, framerate, HDR support, and additional Nintendo Switch App functionality. No campaign content differences (missions, bosses, story) were found between the original Switch version and the Switch 2 edition; the enhancement appears to be technical/performance only.", "confidence": "medium" },
+    { "note": "No platform other than Nintendo Switch / Switch 2 has ever received this game, and neither platform has native/system-level achievements or trophies — consistent with the Genesis Mode framing of this assignment.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not independently confirm the exact boss-to-region pairing for Mucktorok (Water Temple/Zora/Sidon) and Queen Gibdo (Lightning Temple/Gerudo/Riju) with a single source explicitly naming both the boss and the region/sage together; this is currently based on elimination logic against a confirmed 4-boss rematch list plus partial corroboration (Sidon confirmed tied to Water Temple/Zora's Domain).",
+    "Could not confirm exact named sage abilities for Sidon and Riju (only Tulin's 'Sage of the Wind' and Yunobo's 'Sage of Fire' ability framing were confirmed via source text this session).",
+    "Could not confirm Mineru's specific ability name or the name of the mechanical construct/vehicle she inhabits (widely known in the community as 'Mineru's Construct,' but not verified via search this session).",
+    "Could not confirm the exact story trigger/location for the Phantom Ganon boss fight (when in the campaign it occurs, e.g., after all 4 regional quests vs. earlier).",
+    "Could not confirm whether 'Moragia'-style pre-temple mini-bosses exist for the Rito, Zora, and Gerudo questlines analogous to the Goron questline's Moragia fight, or whether Moragia is unique to the Goron arc.",
+    "Could not confirm whether the game displays an explicit overall completion percentage stat anywhere (this is commonly cited for Breath of the Wild's Purah Pad but was not verified for Tears of the Kingdom this session).",
+    "Could not confirm exact Hyrule Compendium (bestiary) entry count or whether temple/story bosses are logged there, which would matter for any 'defeat all bosses' style trophy.",
+    "Could not confirm whether Master Mode, New Game Plus, or any other post-game/replay mode exists for this title — treated as absent based on lack of search results, which is a weak negative claim.",
+    "Multiple major reference sites (Zelda Wiki/Fandom, IGN, Polygon, Eurogamer, VG247, GameSpot, Zelda Dungeon, Nintendo Life, Rock Paper Shotgun, web.archive.org) were inaccessible to this research session (HTTP 403/404/402 errors or domain blocks), significantly limiting cross-verification. Findings rely heavily on Wikipedia and a single secondary outlet (Attack of the Fanboy); a follow-up pass with access to these blocked sources would substantially raise confidence."
+  ]
+}

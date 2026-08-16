@@ -1,0 +1,77 @@
+{
+  "beat": "reverify-crafting-switch2",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "findings": [
+    {
+      "question": "Fuse and weapon/shield durability interaction",
+      "answer": "Fusing a material to a weapon or shield grants a separate 'bonus durability' pool on top of the base weapon's own durability — it does NOT simply extend/add to the base weapon's durability count as one merged number. The bonus is typically +25 durability for most materials fused to a weapon (some material types grant less, e.g. Gloom-touched materials ~10, Gerudo-make weapons ~5, per one wiki source, though this sub-detail is less independently confirmed). This bonus buffer depletes first on hits; only once it's exhausted does the base weapon's own durability start ticking down. Removing a fusion (e.g. at a Fuse-capable location) preserves any remaining bonus durability, and re-fusing can restack/reuse it. If the base weapon's durability reaches zero, the fused material breaks immediately regardless of how much of its own 'contribution' was left. There is no separate numeric display of the bonus-durability pool in the HUD — the game does not show exact bonus points anywhere (no on-screen counter); the only durability feedback is the weapon icon's cracking/glow state as it nears breaking.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Fuse (via r.jina.ai proxy)",
+        "Reddit r/tearsofthekingdom discussion (via Startpage search snippet)",
+        "TheGamer.com (snippet: 'most fused items provide a standard durability bonus of +25')",
+        "Gosunoob.com (snippet: 'every material in the game provides 25+ bonus durability to a fused weapon')",
+        "Gaming StackExchange (snippet on diamond fusion +25 durability buffer)"
+      ]
+    },
+    {
+      "question": "Zonai Charge / battery (Energy Cell) system",
+      "answer": "Zonai Devices are powered by Link's Energy Cell (a portable battery Link wears), which is charged/expanded using consumable items called Zonai Charges and Large Zonai Charges (dropped by Constructs, sold at Device Dispensers). The Energy Cell's CAPACITY (not its current charge) is upgraded via 'Energy Wells' — Link starts with 3 Energy Wells installed. Additional wells are purchased from a Steward Construct at Crystal Refineries using a different currency item, Crystallized Charges (100 Crystallized Charges = 1 additional Energy Well). Maximum capacity is 48 Energy Wells total (3 starting + 45 obtainable), each well filling roughly one-third of a full Energy Cell segment/wedge (so 48 wells ≈ 16 full battery wedges). Once all 48 slots are filled, further Crystallized Charges can upgrade wells to a 'blue' state allowing a device to be used twice without needing to recharge/stop. Capacity and current charge level ARE displayed on-screen: there is an Energy Cell icon on the HUD that shows the battery wedges/segments and depletes visually as Zonai Devices are used.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Zonai_Energy_Cell (via r.jina.ai proxy)",
+        "https://zeldawiki.wiki/wiki/Energy_Well (via r.jina.ai proxy)"
+      ]
+    },
+    {
+      "question": "Autobuild schematic library total cap",
+      "answer": "There are 12 Schema Stones (each unlocking one specific pre-built Autobuild vehicle schematic, e.g. Fanplane, Hot-Air Balloon, Dirigible, Hovercraft, Bolt Boat, Beam Cycle, Bridge, Instant Scaffold, Rocket Platform, Automated Ally, Instant Cannon, Launch Pad) found mostly from Steward Constructs in Abandoned Mines (two exceptions: the Hot-Air Balloon comes from Josha for a quest, and the Beam Cycle from the Shrine of Resurrection Steward Construct). There are 34 Yiga Schematics found in chests inside Yiga Relay Bases in the Depths, unlocking additional contraption blueprints (Tank, Raiding Plane, Instant Kitchen, Sprinkler System, etc.). That is 46 total obtainable pre-built schematics. Neither the Zelda Wiki pages for Schema Stones nor Yiga Schematics, nor general search results, mention any storage cap or limit on how many of these permanently-unlocked schematics can be held — they appear to all remain available simultaneously once found, unlike the separately-confirmed 8-slot cap on player-made Favorites builds. I could not find an explicit statement of 'no cap' from an authoritative source, only the absence of any cap being mentioned across multiple wiki/guide sources, which is suggestive but not a positive confirmation.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Schema_Stone (via r.jina.ai proxy)",
+        "https://zeldawiki.wiki/wiki/Yiga_Schematic (via r.jina.ai proxy)"
+      ]
+    },
+    {
+      "question": "Difficulty toggle in the base game",
+      "answer": "No evidence was found of any selectable difficulty option (no 'Easy/Normal/Hard' toggle, no New Game+ hard mode, no post-game hard mode akin to BOTW's Master Mode at launch) in Tears of the Kingdom. The English Wikipedia article on the game contains zero mentions of 'difficulty', 'hard mode', or 'easy mode' anywhere in its text. This is consistent with well-established community knowledge that TOTK, like its predecessor BOTW, ships with a single fixed difficulty and instead uses dynamic enemy leveling (enemies get tougher variants as the player progresses) rather than a selectable difficulty setting. I was not able to independently verify this against an options-menu screenshot or official settings list before running out of viable sources, so this remains at medium confidence rather than high.",
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom (checked for absence of the terms)",
+        "General community/training knowledge (unconfirmed by a direct options-menu source)"
+      ]
+    },
+    {
+      "question": "Switch 2 Edition / Upgrade Pack exact pricing",
+      "answer": "Confirmed directly from Nintendo's official US store: the standalone Nintendo Switch 2 Edition (digital) of Tears of the Kingdom is priced at $79.99 USD. The separate Upgrade Pack (for existing Switch-version owners to upgrade to the Switch 2 Edition) is priced at $9.99 USD. It is NOT free with any tier of Nintendo Switch Online membership — the only NSO-related benefit tied to the Switch 2 Edition is that the companion 'Zelda Notes' app service is included specifically for Nintendo Switch Online + Expansion Pack subscribers, which is a separate feature from the game upgrade itself. The Switch 2 Edition also adds 2 save file slots (vs. 1 on original Switch) and has a larger install size (20.1 GB vs 16.5 GB on original Switch).",
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition-switch-2/ (official Nintendo store page)",
+        "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition-upgrade-pack-switch-2/ (official Nintendo store page, price field v_price=9.99)"
+      ]
+    },
+    {
+      "question": "Switch 2 exact resolution/framerate targets (docked and handheld) vs original Switch",
+      "answer": "Per Digital Foundry's technical review (Eurogamer, published ~July 23, 2025): On original Nintendo Switch, the game targets 900p docked / 720p handheld, at an intended 30fps that frequently dropped as low as 20fps during physics-heavy Ultrahand/early-game sequences. On Nintendo Switch 2, docked mode runs at a dynamic resolution peaking at 2560x1440 (1440p), dropping to as low as 1440x810 in extreme cases, with a stable 60fps. Handheld mode runs a dynamic resolution range of roughly 1152x648 up to 1920x1080 (1080p), also targeting 60fps and visually described as 'just as robust as the docked experience,' though Digital Foundry noted framerate testing in handheld specifically wasn't fully completed/verified at time of publication. Both modes add HDR support. This represents a doubling of the framerate target (30fps to 60fps) and roughly 1.5-2x the resolution on both docked and handheld.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.eurogamer.net/digitalfoundry-2025-zelda-upgraded-on-switch-2-breath-of-the-wild-and-tears-of-the-kingdom-tested (Digital Foundry tech review, accessed via r.jina.ai text proxy due to direct fetch being blocked)"
+      ]
+    }
+  ],
+  "trackableStats": [],
+  "versionNotes": [
+    { "note": "Switch 2 Edition adds a second save file slot (2 total) vs. 1 save file slot on the original Nintendo Switch version.", "confidence": "high" },
+    { "note": "Switch 2 Edition install size is 20.1 GB vs 16.5-16.6 GB on original Switch.", "confidence": "high" },
+    { "note": "Switch 2 Edition includes the 'Zelda Notes' companion app service, exclusive to Switch 2 Edition and specifically enhanced for Nintendo Switch Online + Expansion Pack subscribers.", "confidence": "medium" },
+    { "note": "A side finding (not one of the 6 target questions): a 'Gaming Reinvented' snippet indicated that on the Switch 2 version, previously-possible hacked/glitched Autobuild schematics (exploits from the original Switch version) have reportedly been patched out and are no longer usable. Not independently verified further — flagged for awareness only.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not find an authoritative, explicit statement that there is NO cap on total stored Autobuild schematics (12 Schema Stones + 34 Yiga Schematics) — inferred only from absence of any cap being mentioned across the sources checked. Could not confirm whether the game displays a running schematic count anywhere in the Autobuild menu UI.",
+    "Could not independently confirm the sub-detail that fused Gloom weapons grant ~10 bonus durability and Gerudo weapons ~5 bonus durability (single wiki source only, not cross-verified with a second source) — the core +25 standard bonus mechanic IS cross-verified across multiple sources.",
+    "Could not verify handheld-mode framerate for the Switch 2 Edition with full confidence — Digital Foundry's own review stated handheld frame-rate testing was not fully completed/verified at time of publication, only visual/subjective assessment.",
+    "Could not find a direct screenshot/official listing of the TOTK options menu to give a 'high' confidence, positive confirmation that no difficulty toggle exists; conclusion is based on absence of the topic in Wikipedia and general community knowledge, not a direct menu source.",
+    "Could not confirm exact wording/threshold of how many Crystallized Charges are needed to upgrade an already-maxed (48-well) Energy Cell to the 'blue/double-use' state, only that the mechanic exists.",
+    "General search-engine access (Google, Bing, DuckDuckGo, Brave, Startpage) was heavily blocked/rate-limited or CAPTCHA'd throughout this session, and the native WebSearch tool's budget was exhausted before this task began; all findings above were obtained via direct WebFetch of Nintendo's official store and via the r.jina.ai read-proxy against Zelda Wiki, Eurogamer, and search-engine result pages. Where only a single proxied source could be reached, confidence has been capped at medium rather than high."
+  ]
+}

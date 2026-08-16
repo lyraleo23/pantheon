@@ -1,0 +1,264 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game, and DLC",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "collectible-system",
+      "name": "Shrines",
+      "detail": "152 shrines total across the surface, sky, and Depths. Completing one rewards a 'Light of Blessing' (this does replace Breath of the Wild's 'Spirit Orb' terminology). Light of Blessing is exchanged with a Goddess Statue for either a Heart Container or a Stamina Vessel.",
+      "trackable": "Shrines are marked on the map/Purah Pad; completed shrines are visually distinguished from unactivated ones. Light of Blessing count is shown at Goddess Statues.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldacentral.com (via WebFetch)", "game8.co overview (via WebFetch)"]
+    },
+    {
+      "category": "collectible-system",
+      "name": "Korok Seeds",
+      "detail": "1,000 Korok Seeds total (reported breakdown: 938 on the surface, 62 in the sky). This differs from Breath of the Wild's 900. Used to pay Hestu for weapon/shield/bow inventory slot upgrades (20 weapon, 20 shield, 14 bow slots). Sources disagree on exact seeds needed to max all slots: one source says 421, another says 441. After maxing inventory and continuing to turn in seeds up to 1,000, Hestu gives 'Hestu's Gift', a non-functional completionist trophy item.",
+      "trackable": "Seed count shown when talking to Hestu; no in-game running total elsewhere confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co archives/409120 (via WebFetch)", "hyrulearchive.com (via WebFetch)"]
+    },
+    {
+      "category": "depths-collectible",
+      "name": "Lightroots",
+      "detail": "120 Lightroots scattered through the Depths. Each corresponds roughly to a shrine location on the surface above. Activating one reveals the Depths map in that area, provides a permanent light source, becomes a fast-travel point, and cures Gloom affliction the first time it's activated.",
+      "trackable": "Depths map fills in as Lightroots are activated; fast-travel menu lists them.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/412609 (via WebFetch)"]
+    },
+    {
+      "category": "depths-collectible",
+      "name": "Bargainer Statues",
+      "detail": "7 total: 1 on the surface at Lookout Landing, 6 in the Depths. Function as merchants where Poes (collected in the Depths) are traded for materials, armor pieces, and weapons — not for stat respec.",
+      "trackable": "Poe count is tracked in the inventory (uniquely caps at 999,999 vs. the normal 999 item cap).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/412270 (via WebFetch)"]
+    },
+    {
+      "category": "depths-collectible",
+      "name": "Poes",
+      "detail": "Correction to assumption: Poes are found drifting in the Depths, NOT in caves. Three value tiers exist: standard Poe (1 point), Large Poe (5 points), Grand Poe (20 points). Spent at Bargainer Statues.",
+      "trackable": "Inventory count (cap 999,999).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "depths-content",
+      "name": "Chasms",
+      "detail": "23 Chasms total serve as surface entrances to the Depths, distributed across regions (e.g., Hyrule Field 10, Gerudo Highlands 5, Akkala Highlands 3, others 1-2 each).",
+      "trackable": "Not explicitly confirmed as a counted/tracked stat beyond the map showing chasm icons.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co archives/412662 (via WebFetch)"]
+    },
+    {
+      "category": "cave-content",
+      "name": "Caves",
+      "detail": "147 caves total (new to this game). Most contain a Bubbulfrog whose defeat drops a Bubbul Gem. 146 Bubbul Gems exist total — a slight mismatch with 147 caves that was not explained by sources (possibly one cave lacks a Bubbulfrog, e.g. a tutorial cave).",
+      "trackable": "Completing a cave (defeating its Bubbulfrog) adds a checkmark to that cave's map icon. Koltin can sense/hint remaining Bubbulfrog locations after certain Side Adventures.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co overview and archives/411111 (via WebFetch)"]
+    },
+    {
+      "category": "cave-collectible",
+      "name": "Bubbul Gems",
+      "detail": "146 total. Traded to Koltin for monster masks (Moblin, Hinox, Lizalfos, Horriblin, Lynel), Mystic Armor pieces (45 gems total), monster materials, and Koltin's Fabric for paraglider customization (requires all 146 gems).",
+      "trackable": "Tracked implicitly via cave completion checkmarks; gem count shown in inventory.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/411111 (via WebFetch)"]
+    },
+    {
+      "category": "side-content",
+      "name": "Wells",
+      "detail": "58 wells total: 32 returning from Breath of the Wild locations, 26 new. Function similarly to small caves (contain creatures/materials, stable climate); 3 wells double as Depths chasms. A side quest 'Where Are the Wells?' given by a character named Fera tasks the player with finding all 58; rewards 10 rupees per well found and a completion item called 'All's Well'.",
+      "trackable": "Fera's quest log tracks wells found out of 58.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "sky-content",
+      "name": "Skyview Towers",
+      "detail": "15 Skyview Towers total. Launch Link into the sky (via Purah Pad + paraglider) to scan and reveal both the Sky and Surface maps, functioning as this game's tower/map-reveal mechanic (built by Hudson Construction, analogous to BotW's Sheikah Towers).",
+      "trackable": "Sky/Surface map completion updates as towers are activated.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy", "game8.co overview"]
+    },
+    {
+      "category": "compendium",
+      "name": "Hyrule Compendium",
+      "detail": "The Hyrule Compendium returns in Tears of the Kingdom, accessed via the Purah Pad. Reported total: 509 registerable entries (creatures, monsters, materials, equipment, treasure). This count comes from a single source (zeldawiki.wiki) and could not be cross-verified against a second independent source this session.",
+      "trackable": "Compendium screen shows filled/total entries and completion by category.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "quest-system",
+      "name": "Main Quests",
+      "detail": "23 Main Quests reported for the core story.",
+      "trackable": "Quest log.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["game8.co overview page (via WebFetch)"]
+    },
+    {
+      "category": "quest-system",
+      "name": "Side Quests",
+      "detail": "139 Side Quests total. Explicitly described as not missable — can be completed regardless of main story progress. Started by talking to NPCs marked with a red exclamation point.",
+      "trackable": "Quest log tracks accepted/active/completed side quests.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/411000 (via WebFetch)"]
+    },
+    {
+      "category": "quest-system",
+      "name": "Side Adventures",
+      "detail": "60 Side Adventures total — a quest type new to this game where Link accompanies NPCs through challenges/tasks, sometimes forming multi-part story arcs (e.g. 'A Monstrous Collection' spans 5 side adventures, #45-49). Organized into 12 thematic story arcs (Robbie, Hateno, Lurelin, Lucky Clover Gazette, Great Fairy, Monster-Control Crew, Lookout Landing, Koltin, Tarrey Town, Thyphlo Ruins, Sky and Depths, Yiga). Completable regardless of main story progress.",
+      "trackable": "Tracked via a dedicated 'Adventure Log' menu, separate from the side quest log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/411184 (via WebFetch)"]
+    },
+    {
+      "category": "crafting-collectible",
+      "name": "Schema Stones",
+      "detail": "12 Schema Stones total, unlocking pre-built Autobuild designs (Fanplane, Hot-Air Balloon, Dirigible, Hovercraft, Bolt Boat, Beam Cycle, Bridge, Instant Scaffold, Rocket Platform, Automated Ally, Instant Cannon, Launch Pad). Most are given by Steward Constructs in Abandoned Mines (unlocked after obtaining Autobuild at the Great Abandoned Central Mine); 2 exceptions come from quest rewards (Hot-Air Balloon from Josha after 'A Mystery in the Depths'; Beam Cycle from the Shrine of Resurrection's Steward Construct).",
+      "trackable": "Autobuild menu lists unlocked schematics.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "crafting-collectible",
+      "name": "Yiga Schematics",
+      "detail": "34 Yiga Schematics total, found in chests in Yiga Relay Bases scattered through the Depths. Each adds an additional pre-built design to the Autobuild schematic library (vehicles, weapons, utilities like sprinklers/water freezers).",
+      "trackable": "Autobuild menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "crafting-system",
+      "name": "Autobuild favorites limit",
+      "detail": "Player-made Ultrahand creations can be saved as 'Favorites' for Autobuild; capped at 8 favorites. Older non-favorited designs are automatically cleared from memory as new things are built.",
+      "trackable": "Autobuild favorites menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "story-collectible",
+      "name": "Dragon's Tears / Geoglyphs",
+      "detail": "12 Dragon's Tears total: 11 original tears shed when Zelda transformed into the Light Dragon, plus 1 final tear shed by the Light Dragon after all 11 geoglyphs are found. Using Recall at each Tear reveals a memory of Zelda, together forming the game's backstory. No source confirmed a direct link to Master Sword restoration.",
+      "trackable": "Likely tracked via a memory/album menu (not independently confirmed this session).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "side-content",
+      "name": "Addison's Signboards",
+      "detail": "81 locations throughout Hyrule where Addison (a Hudson Construction employee) needs help propping up a fallen signboard using Ultrahand. Rewards include rupees, food, materials, and Sleepover Tickets at select locations.",
+      "trackable": "Not explicitly confirmed whether an overall counter exists in-game beyond individual quest completion markers.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "side-content",
+      "name": "Great Fairy Fountains",
+      "detail": "4 Great Fairy Fountains, located near Woodland, Snowfield, Dueling Peaks, and Outskirt Stables. Provide armor upgrades (as in Breath of the Wild). Each requires bringing musicians via a Side Adventure before the Great Fairy emerges.",
+      "trackable": "Armor upgrade screen at each fountain.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "enemy",
+      "name": "Gleeok (new enemy type)",
+      "detail": "Multi-headed dragon sub-bosses new to this game. Variants confirmed: Flame Gleeok, Frost Gleeok, Thunder Gleeok, and King Gleeok (combines fire, ice, and electricity across its heads simultaneously). Exact spawn locations/count of encounters not fully detailed by sources checked.",
+      "trackable": "Likely logged in the Hyrule Compendium as enemy entries once encountered.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "enemy",
+      "name": "Lynel",
+      "detail": "Lynels return and 'act the same as in Breath of the Wild with minor exceptions' (e.g., Lynels no longer wear armlets). Specific TotK color-variant tier list (Red/Blue/White/Silver equivalents) was NOT confirmed by the source checked this session.",
+      "trackable": "Compendium entries per variant, if distinct.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["zeldawiki.wiki via r.jina.ai proxy"]
+    },
+    {
+      "category": "post-game",
+      "name": "New Game Plus / Master Mode",
+      "detail": "CONFIRMED ABSENT. Tears of the Kingdom has no New Game+ or Master Mode option. Only one save file per profile is allowed; starting fresh requires overwriting or using another user profile. Completing the main story adds a star icon to the save file.",
+      "trackable": "A completion percentage tracker is shown on the map screen, usable for tracking post-game/100% progress.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/413517 FAQ page (via WebFetch)"]
+    },
+    {
+      "category": "dlc",
+      "name": "No paid DLC / Expansion Pass exists",
+      "detail": "CONFIRMED: Unlike Breath of the Wild's paid Expansion Pass, Tears of the Kingdom never received any paid story DLC, character packs, or expansion content. It remains a single complete release. Wikipedia's full article on the game contains no mention of any DLC release; it only notes that BotW's leftover DLC ideas were used to create TotK as a full sequel instead of DLC. Game8's dedicated FAQ page explicitly states there is no DLC. Only free content patches/version updates exist (e.g. a 'Version 1.4.2' patch was referenced, focused on bug fixes like 'Zelda Notes').",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["game8.co archives/413517 (via WebFetch)", "en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom via r.jina.ai proxy"]
+    },
+    {
+      "category": "version",
+      "name": "Nintendo Switch 2 enhanced version",
+      "detail": "The Switch 2 version/edition features improved resolution, framerate, HDR support, and additional functionality tied to the Nintendo Switch App (e.g. GameChat-adjacent features). No content (shrines, koroks, quests) differences between Switch and Switch 2 versions were found — appears to be a technical enhancement only, not a content-different edition.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom (via WebFetch)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Overall completion percentage", "where": "Map/save file screen", "confidence": "high" },
+    { "stat": "Shrine completion (152 total)", "where": "Map/Purah Pad shrine icons", "confidence": "high" },
+    { "stat": "Korok Seed count", "where": "Shown when interacting with Hestu; general item count in inventory", "confidence": "medium" },
+    { "stat": "Hyrule Compendium fill (509 entries reported)", "where": "Compendium app on Purah Pad, broken down by category", "confidence": "medium" },
+    { "stat": "Side Quest completion (139 total)", "where": "Quest log", "confidence": "high" },
+    { "stat": "Side Adventure completion (60 total)", "where": "Dedicated Adventure Log menu", "confidence": "high" },
+    { "stat": "Cave clearance (147 total, via Bubbulfrog defeat)", "where": "Checkmark on cave map icons", "confidence": "high" },
+    { "stat": "Bubbul Gem count (146 total)", "where": "Inventory item count", "confidence": "high" },
+    { "stat": "Well discovery (58 total)", "where": "Fera's 'Where Are the Wells?' quest tracker", "confidence": "high" },
+    { "stat": "Lightroot activation (120 total)", "where": "Depths map fill / fast travel list", "confidence": "high" },
+    { "stat": "Poe count", "where": "Inventory (uniquely caps at 999,999)", "confidence": "high" },
+    { "stat": "Autobuild schematics unlocked (12 Schema Stones + 34 Yiga Schematics = 46 total pre-built designs)", "where": "Autobuild selection menu", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "No paid DLC/Expansion Pass was ever released for Tears of the Kingdom, unlike Breath of the Wild — the game remains a single complete release with only free patches.", "confidence": "high" },
+    { "note": "No New Game+ / Master Mode exists in any version of the game.", "confidence": "high" },
+    { "note": "Switch 2 edition is a technical enhancement (resolution/framerate/HDR/Switch App features) with no discovered content differences in shrines, Korok seeds, or quests.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not verify the exact ratio of Light of Blessing needed per Heart Container / Stamina Vessel upgrade (recalled as 4, matching BotW's Spirit Orb ratio, but not confirmed via search this session — low confidence, not included as a finding).",
+    "Two sources disagree on Korok Seeds required to max all inventory slots (421 vs 441) — needs a third source to resolve.",
+    "147 caves vs. 146 Bubbul Gems discrepancy not explained by any source checked; unclear which cave lacks a Bubbulfrog.",
+    "Could not independently corroborate the Hyrule Compendium's 509-entry total with a second source beyond zeldawiki.wiki (fetched via proxy).",
+    "Could not confirm exact number of Main Quests beyond the single game8.co overview figure (23).",
+    "Could not confirm whether Addison's 81 signboards are tracked by an overall in-game counter/quest, only that each is an individual interaction.",
+    "Could not confirm specific Lynel color-variant tiers/strength list unique to Tears of the Kingdom (Blue/White/Silver equivalents), only that a 'Blue-Maned Lynel' is mentioned.",
+    "Could not confirm exact spawn count/locations for Gleeok encounters (how many total fights exist, whether repeatable/respawning).",
+    "Did not confirm whether amiibo-exclusive gear (Champion's Tunic, etc.) counts as version-specific or DLC-adjacent content — not verified this session.",
+    "Did not confirm details of minigames (e.g., Hyrule Compendium sales side activities, Rola's coliseum-style arenas) beyond what's listed above — WebSearch tool was unavailable (budget exhausted) for the entire session, so coverage relied entirely on WebFetch against a limited set of accessible sites (many major outlets like IGN, Polygon, Eurogame, Zelda Fandom, VG247, Fextralife returned 403/blocked errors).",
+    "Could not verify official Nintendo source (nintendo.com) directly for any of these counts; all figures come from third-party wikis/guides (game8.co, zeldawiki.wiki, zeldacentral.com, hyrulearchive.com)."
+  ]
+}

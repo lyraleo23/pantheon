@@ -1,0 +1,126 @@
+{
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "platform": "Nintendo Switch / Nintendo Switch 2",
+  "mode": "genesis",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "releaseDate": "2023-05-12 (Switch) / 2025-06-05 (Switch 2 Edition)",
+  "researchDate": "2026-08-15",
+  "researchQualityNote": "This round hit the same tool-access friction seen in the Breath of the Wild dossier from the previous session — WebSearch budget exhausted before or during each scout's work, most major wikis/sites blocked (403/404/402). Scouts worked around it via Wikipedia, Attack of the Fanboy, game8.co, and an r.jina.ai proxy against zeldawiki.wiki. A targeted re-verification pass (3 more scouts) was proactively run before the checkpoint, following the same successful pattern used for Breath of the Wild — see `reverifiedFacts` below. It resolved nearly everything to medium/high confidence.",
+  "reverifiedFacts": {
+    "saveFileCounters": "CONFIRMED (medium confidence, 2 independent community sources): the save-file loading/continue screen shows Blessing of Light held, Shrines found/completed, Lightroots activated, Korok Seeds collected, and Rupees held — mirrors BotW's loading-screen pattern. Safe to build shrine/Lightroot/Korok trophies verified via this screen.",
+    "mapCompletionPercentage": "CONFIRMED to exist (medium confidence): appears on the map screen only AFTER defeating Ganondorf, is discovery-focused (towers/shrines found, named locations) rather than requiring full collectible completion, rounds down to 2 decimals. Exact weighting formula unconfirmed — do not build a trophy requiring a cited percentage breakdown, but 'reach 100%' post-game is safe to verify via the on-screen readout.",
+    "missables": "IMPORTANT — genuinely different from Breath of the Wild (which had none): TotK DOES have real missable content, confirmed high confidence via 2 independent guide sites: (1) Quests cannot be replayed once completed — Adventure Log shows only the latest entry. (2) Three bosses are one-time-only and cannot be re-fought: Moragia, Sludge Like, and Master Kohga (after his side adventure) — though their Compendium photos remain purchasable from Robbie for 500 Rupees if missed, so Compendium completion itself stays achievable. (3) Shrine combat-trial enemies don't respawn. (4) Overworld/Shrine/Temple treasure chests don't respawn. (5) Horse names are permanent once registered. (6) Zonai Devices removed from capsules/Constructs can't return directly to inventory (though equivalents are usually re-obtainable). 'Defeat Ganondorf' is a soft main-story climax but does NOT lock the player out of the overworld afterward. IMPLICATION FOR DESIGN: any trophy referencing Moragia, Sludge Like, or the pre-side-adventure Master Kohga fight should be flagged missable:true.",
+    "hyruleCompendium": "RESOLVED: 509 entries confirmed by 2 independent sources (Zelda Wiki, IGN), correcting the earlier single-source claim. Still: the Compendium menu itself is not confirmed to show a numeric readout, so verify via visual full-completion, not a cited number, consistent with BotW precedent.",
+    "korokSeedsForMaxInventory": "RESOLVED: 421 is correct (not 441) — 153 weapon + 160 shield + 108 bow = 421, confirmed arithmetically consistent across 3 sources. Total seeds in the game remain 1,000; only 421 are needed for the practical inventory-max benefit, exactly mirroring BotW's 441-of-900 pattern (same Rule 20 design lesson from the BotW audit applies here — do not require the full 1,000 for a meaningful-completion trophy).",
+    "cavesAndBubbulGems": "RESOLVED in favor of NO discrepancy: 147 caves = 147 Bubbul Gems, a clean 1:1 ratio, confirmed by 4 independent sources against 1 outlier (a Zelda Wiki page claiming 152 caves, unreconciled but treated as the incorrect minority figure).",
+    "regionalBossPairings": "FULLY RESOLVED, high confidence, directly sourced (not elimination logic): Mucktorok/Water Temple/Sidon/Zora's Domain(Lanayru) and Queen Gibdo/Lightning Temple/Riju/Gerudo Desert are both now confirmed by multiple independent sources naming all elements together (IGN, Shacknews, Zelda Dungeon, ScreenRant, GameSpot, Nintendo Life).",
+    "sageAbilityNames": "FULLY RESOLVED, high confidence: the official Key Item names are 'Vow of Sidon, Sage of Water' (water-shield block-and-blast) and 'Vow of Riju, Sage of Lightning' (targeted lightning strike), corroborated by 3 independent wikis + guide sites.",
+    "mineru": "FULLY RESOLVED, high confidence: her mechanical body is officially called 'Mineru's Construct'; her Key Item is 'Vow of Mineru, Sage of Spirit', obtained after defeating the boss 'Seized Construct' in the Spirit Temple (Depths, beneath Hyrule Castle). Unlike the other 4 sages' auto-triggered companion attacks, her power lets Link directly pilot the Construct as a mech.",
+    "phantomGanonTrigger": "RESOLVED, high confidence: the mandatory Sanctum fight is the climax of 'Crisis at Hyrule Castle', which explicitly requires completing all 4 Regional Phenomena quests PLUS 'Find the Fifth Sage' (Mineru) first. Smaller Phantom Ganon variants also appear elsewhere as optional, repeatable encounters — only the Sanctum fight is mandatory/unique.",
+    "moragiaEquivalents": "Still only medium confidence (absence-of-evidence): no equivalent single named pre-temple mini-boss was found for Rito or Zora (Colgera/Mucktorok are each that temple's only boss). Gerudo has a wave-defense event (defending Gerudo Town from a Gibdo invasion) instead of a named mini-boss. Moragia appears genuinely Goron-exclusive, but no source explicitly states this as a rule — treat with appropriate caution in trophy text (don't claim exclusivity outright).",
+    "fuseDurability": "RESOLVED, medium confidence: fusing grants a separate 'bonus durability' buffer (+25 for most materials) that depletes BEFORE the base weapon's own durability — not a merged single number. No on-screen numeric display of this buffer exists; only the weapon icon's crack/glow state gives feedback.",
+    "zonaiCharge": "RESOLVED, medium confidence: Link's Energy Cell starts with 3 Energy Wells, upgradeable to a max of 48 via Crystallized Charges (100 per well) at Crystal Refineries. Current charge and capacity ARE shown via an on-screen HUD icon (battery wedges), though exact wedge-to-well math wasn't fully pinned down.",
+    "autobuildSchematicCap": "Still medium confidence: 46 total obtainable pre-built schematics (12 Schema Stones + 34 Yiga Schematics) confirmed, but no source explicitly confirms 'no cap' on holding all of them simultaneously — only inferred from absence of any cap being mentioned. Safe enough to build a 'collect all Schema Stones/Yiga Schematics' trophy since the schematics themselves are individually confirmed to exist and be permanently kept once found.",
+    "difficultyToggle": "RESOLVED (negative), medium confidence: no selectable difficulty option found anywhere (no Easy/Normal/Hard, no Master-Mode equivalent) — consistent with the confirmed absence of any paid DLC for this title.",
+    "switch2Pricing": "RESOLVED, high confidence, official Nintendo store: standalone Switch 2 Edition = $79.99; Upgrade Pack for existing owners = $9.99; NOT free with any NSO membership tier (differs from BotW, where it WAS free with NSO+Expansion Pack — do not assume parity with BotW here). Switch 2 Edition also adds a 2nd save file slot (vs. 1 on original Switch).",
+    "switch2Performance": "RESOLVED, medium confidence (single Digital Foundry source): original Switch targets 900p docked/720p handheld at 30fps (frequently dropping to ~20fps in physics-heavy scenes). Switch 2: docked dynamic up to 1440p at a stable 60fps; handheld dynamic up to 1080p, also targeting 60fps (though DF itself flagged handheld framerate testing as incomplete). No exclusive gameplay feature found — consistent with BotW's Switch 2 Edition, content parity confirmed."
+  },
+  "premise": "A direct sequel to Breath of the Wild. Beneath Hyrule Castle, Link and Zelda discover a sealed, mummified Ganondorf, who awakens and shatters the Master Sword while gravely wounding Link's arm. Zelda falls into the Depths and vanishes. Rauru, an ancient Zonai king, saves Link and grafts a Zonai arm onto him, granting new abilities (Ultrahand, Fuse, Ascend, Recall). Link must free the four regions' Sages, uncover Zelda's fate through Dragon's Tear memories, and confront the resurrected Demon King Ganondorf.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Neither Switch nor Switch 2 has a system-level achievement/trophy system. This game has never released on any platform that does. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release/version of this game."
+  },
+  "dlcScopeNote": "CONFIRMED (high confidence, 2 independent sources: Wikipedia's full article + game8.co's dedicated FAQ): unlike Breath of the Wild, Tears of the Kingdom never received any paid story DLC, character packs, or expansion content — it remains a single complete release with only free patches. No dlc-style bonus pack is needed for this list.",
+  "campaignStructure": {
+    "worldStructure": "Three vertically-stacked layers: Sky Islands (including the Great Sky Island prologue area), the Hyrule surface, and the Depths (a dark mirror of the surface requiring light sources to see, reached via Chasms).",
+    "prologue": "Link and Zelda explore a cavern beneath Hyrule Castle, find murals of the 'Imprisoning War,' and discover a restrained mummified Ganondorf who awakens and attacks. Link's arm is critically wounded and the Master Sword shatters; Hyrule Castle rises into the sky; Zelda falls into the Depths. Rauru (ancient Zonai king) saves Link and grafts a Zonai arm onto him on the Great Sky Island, where core abilities (Ultrahand, Fuse, Ascend, Recall) are taught.",
+    "regionalPhenomena": [
+      { "region": "Hebra Mountains / Rito Village", "sage": "Tulin (son of Teba)", "dungeon": "Wind Temple", "boss": "Colgera (ice creature, two-phase fight)", "abilityName": "Tulin, Sage of the Wind (wind gust attack, enhances paragliding)", "confidence": "high" },
+      { "region": "Zora's Domain / Lanayru", "sage": "Sidon (Zora prince)", "dungeon": "Water Temple", "boss": "Mucktorok (sludge/mud creature) — CONFIRMED only by elimination against a 4-boss rematch list, not a single source explicitly naming boss+region+sage together", "abilityName": "UNCONFIRMED — commonly cited community name is a water-jet/rage attack, not independently verified this session", "confidence": "medium" },
+      { "region": "Death Mountain / Eldin", "sage": "Yunobo", "dungeon": "Fire Temple", "boss": "Marbled Gohma (two-phase, Yunobo's charge breaks legs/explosives). A separate earlier boss, Moragia (three-headed, fought via Zonai flying machine + Yunobo cannonball), appears during the pre-Fire-Temple 'Yunobo of Goron City' quest — unconfirmed whether analogous pre-temple mini-bosses exist for the other 3 regions.", "abilityName": "Yunobo, Sage of Fire (crowd-control charge attack)", "confidence": "high" },
+      { "region": "Gerudo Desert", "sage": "Riju (Gerudo chief)", "dungeon": "Lightning Temple", "boss": "Queen Gibdo (mummy/desert creature) — CONFIRMED only by elimination logic, not independently verified alongside 'Lightning Temple'/'Riju' in a single source", "abilityName": "UNCONFIRMED — commonly cited community name is a lightning-bow attack, not independently verified this session", "confidence": "medium" }
+    ],
+    "fifthSage": "Mineru — an ancient Zonai sage whose spirit is placed into a mechanical construct body built by Link. Grants a distinct ability. Exact construct name and ability name unconfirmed this session.",
+    "sagesWill": "20 total Sage's Will items (found via hidden locations, sky islands, Gleeok drops). Every 4 used at a Goddess Statue grants one 'Solemn Vow' ability upgrade (~1.3x power) for a chosen sage, for 5 possible upgrades matching the 5 sages.",
+    "dragonsTears": {
+      "count": 12,
+      "titles": ["Where Am I?", "An Unfamiliar World", "Mineru's Counsel", "The Gerudo Assault", "A Show of Fealty", "Zelda and Sonia", "Sonia Is Caught by Treachery", "Birth of the Dragon King", "The Sages' Vow", "A King's Duty", "A Master Sword in Time", "Tears of the Dragon"],
+      "note": "The final memory ('Tears of the Dragon') only becomes available after the other 11 are found. Found via Geoglyphs (large ground drawings visible from the sky), viewed with Recall. Rewatchable in the Adventure Log once found.",
+      "confidence": "high"
+    },
+    "phantomGanon": "A discrete, rematchable boss — the 'Zelda' Link has been searching for is revealed to be an illusion created by Phantom Ganon, servant of Ganondorf. Confirmed as a real mandatory-or-near-mandatory story boss (listed in the game's boss-rematch pool alongside the 4 regional bosses), but exact story trigger point/timing is unconfirmed this session.",
+    "finalBoss": {
+      "sequence": "Ganondorf, revived after millennia sealed by Rauru, is fought first in humanoid form beneath Hyrule Castle (after a monster gauntlet). Near defeat, he uses his Secret Stone to transform into the 'Demon Dragon,' pulling Link into an aerial final phase. Link, aided by the Light Dragon (Zelda, who earlier became a dragon to repair the Master Sword), shatters the Demon Dragon's Secret Stone to defeat it.",
+      "confidence": "high"
+    },
+    "ending": "Link and Zelda are restored. On the Great Sky Island, Mineru bids farewell before her spirit fades, closing the game.",
+    "postGame": "CONFIRMED ABSENT: no New Game+ or Master Mode exists in any version — only one save file per profile; starting fresh requires overwriting or a different user profile. Completing the main story adds a star icon to the save file. A completion percentage tracker is reported on the map screen (source: game8.co FAQ, needs re-verification of exact weighting/composition)."
+  },
+  "collectibles": {
+    "shrines": { "count": 152, "reward": "Light of Blessing (confirmed replacement of BotW's 'Spirit Orb' terminology)", "exchange": "4 Light of Blessing at a Goddess Statue = 1 Heart Container OR 1 Stamina Vessel (ratio assumed same as BotW's Spirit Orbs but not independently re-confirmed for TotK)", "confidence": "high" },
+    "korokSeeds": { "count": 1000, "breakdown": "938 surface + 62 sky", "use": "Paid to Hestu for weapon (20)/shield (20)/bow (14) inventory slot upgrades", "maxInventoryThreshold": "CONFLICTING: one source says 421 seeds needed to max all slots, another says 441 — unresolved, do not cite either number in trophy text", "allSeedsReward": "Hestu's Gift — a non-functional completionist item, same joke-reward pattern as BotW", "confidence": "medium" },
+    "lightroots": { "count": 120, "description": "The Depths' equivalent of towers — activating one reveals the Depths map in that area, provides a permanent light source, becomes a fast-travel point, and cures Gloom affliction on first activation.", "confidence": "high" },
+    "bargainerStatues": { "count": 7, "breakdown": "1 surface (Lookout Landing) + 6 Depths", "function": "Trade Poes for materials/armor/weapons", "confidence": "high" },
+    "poes": { "description": "Found drifting in the Depths (NOT in caves — corrects an initial research assumption). Three tiers: standard (1pt), Large (5pt), Grand (20pt). Inventory cap uniquely raised to 999,999.", "confidence": "high" },
+    "chasms": { "count": 23, "description": "Surface entrances to the Depths.", "confidence": "medium" },
+    "caves": { "count": 147, "description": "New to this game. Most contain a Bubbulfrog whose defeat drops a Bubbul Gem.", "confidence": "high" },
+    "bubbulGems": { "count": 146, "conflict": "147 caves vs. 146 gems — a 1-count mismatch unexplained by any source (possibly one cave lacks a Bubbulfrog). Do not build a trophy assuming these numbers reconcile exactly.", "use": "Traded to Koltin for monster masks, Mystic Armor (45 gems total), materials, and paraglider fabric (requires all 146)", "confidence": "high" },
+    "wells": { "count": 58, "breakdown": "32 returning BotW locations + 26 new", "tracked": "Via a dedicated NPC (Fera)'s 'Where Are the Wells?' quest", "confidence": "high" },
+    "skyviewTowers": { "count": 15, "description": "This game's tower/map-reveal mechanic (built by Hudson Construction), reveals both Sky and Surface maps.", "confidence": "high" },
+    "hyruleCompendium": { "count": 509, "note": "Single-sourced (zeldawiki.wiki via proxy) — could not cross-verify. Do not cite this exact number in trophy text; verify via visual completion state instead.", "confidence": "medium" },
+    "mainQuests": { "count": 23, "confidence": "medium — single-sourced" },
+    "sideQuests": { "count": 139, "note": "Explicitly confirmed NOT missable — completable regardless of main story progress.", "confidence": "high" },
+    "sideAdventures": { "count": 60, "description": "A quest type new to this game — Link accompanies NPCs through challenges, organized into 12 thematic story arcs (Robbie, Hateno, Lurelin, Lucky Clover Gazette, Great Fairy, Monster-Control Crew, Lookout Landing, Koltin, Tarrey Town, Thyphlo Ruins, Sky and Depths, Yiga). Tracked via a dedicated Adventure Log menu, separate from the Side Quest log.", "confidence": "high" },
+    "schemaStones": { "count": 12, "description": "Unlock pre-built Autobuild designs, mostly from Steward Constructs in Abandoned Mines." },
+    "yigaSchematics": { "count": 34, "description": "Found in chests in Yiga Relay Bases in the Depths, each adding a pre-built Autobuild design." },
+    "addisonSignboards": { "count": 81, "description": "Locations where Addison needs a fallen signboard propped up via Ultrahand. Unconfirmed whether an overall in-game counter exists.", "confidence": "medium" },
+    "greatFairyFountains": { "count": 4, "locations": "Woodland, Snowfield, Dueling Peaks, Outskirt Stables", "note": "Each requires completing a Side Adventure (bringing musicians) before the Great Fairy emerges." },
+    "gleeok": { "description": "New multi-headed dragon sub-boss enemy type. Variants: Flame, Frost, Thunder, and King Gleeok (combines all three). Exact encounter count/locations unconfirmed.", "confidence": "medium" },
+    "lynel": { "description": "Return largely unchanged from BotW ('minor exceptions' e.g. no armlets). TotK-specific tier list not confirmed this session.", "confidence": "low" }
+  },
+  "systems": {
+    "fuse": "Combines materials/equipment with a weapon or shield (e.g. rocket fused to a shield enables flight). Exact interaction with weapon durability unconfirmed this session.",
+    "ultrahand": "Picks up, moves, and attaches objects together, used with Zonai Devices to build constructs.",
+    "autobuild": "Instantly recreates a previously-built Ultrahand device, generating replacement parts using Zonaite if originals aren't present. Player-made creations can be saved as 'Favorites' (capped at 8); older non-favorited designs are auto-cleared. Total schematic library slot cap unconfirmed.",
+    "zonaiCharge": "Battery-like resource consumed by activated Zonai Devices. Exact mechanics (starting capacity, upgrade path, UI display location) unconfirmed this session.",
+    "difficultyModes": "No difficulty toggle confirmed to exist (consistent with the confirmed absence of any paid DLC / Master Mode equivalent), but this is an absence-of-evidence finding, not a definitive negative.",
+    "multiplayer": "Single-player only (Wikipedia infobox), high confidence.",
+    "missables": "No specific missable content identified, consistent with BotW's open-world design philosophy, but NOT independently verified for every system this session (side quest chains, one-time NPC events) — treat as medium-low confidence pending re-verification.",
+    "rng": "Material drops, treasure chest contents, and Zonai device drop rates from Depths mining are all unconfirmed this session.",
+    "fileSelectCounters": "UNCONFIRMED whether the save-file/continue screen shows numeric counters analogous to BotW's confirmed shrine-count/lifetime-Korok-count display.",
+    "mapCompletionPercentage": "One source (game8.co FAQ) mentions 'a completion percentage tracker... shown on the map screen' for tracking post-game/100% progress, but this was not independently corroborated or detailed (weighting/composition unknown) this session."
+  },
+  "versionDifferences": {
+    "switch2Edition": {
+      "releaseDate": "~2025-06-05",
+      "confirmedImprovements": "Improved resolution, framerate, HDR support, and expanded Nintendo Switch App connectivity (GameChat-adjacent features per one source). Nintendo's official store lists three SKUs (Switch 2 Edition, Nintendo Switch, Upgrade Pack), confirming a genuine separate build.",
+      "backwardCompatibility": "The original Switch version is officially confirmed backward-compatible/unchanged on Switch 2 hardware without the Edition/Upgrade Pack.",
+      "unconfirmed": "Exact resolution/framerate targets, Upgrade Pack exact price (a $69.99 price appeared but couldn't be attributed to a specific SKU).",
+      "exclusiveGameplayFeature": "No Switch-2-exclusive gameplay feature found (consistent with the same finding for Breath of the Wild in the prior session) — treat as not existing for trophy design purposes.",
+      "contentParity": "No content differences (shrines, Koroks, quests) found between Switch and Switch 2 — safe to treat base-list content as identical across both.",
+      "confidence": "medium on confirmed improvements; low on unconfirmed pricing/exact specs"
+    }
+  },
+  "gaps": [
+    "File-select/continue screen counter existence and contents — unconfirmed.",
+    "Map completion percentage system — existence hinted at by one source but not corroborated or detailed.",
+    "Fuse-durability interaction mechanics — unconfirmed.",
+    "Zonai Charge/battery system mechanics — unconfirmed.",
+    "Autobuild total schematic slot cap — unconfirmed (only the 8-Favorites sub-cap is confirmed).",
+    "Difficulty toggle existence — unconfirmed (leaning toward absent).",
+    "Missable content — leaning toward none, but not exhaustively verified.",
+    "RNG rules for material/chest/Zonai device drops — unconfirmed.",
+    "Hyrule Compendium exact total (509) and Main Quest count (23) — single-sourced.",
+    "Korok Seeds needed to max inventory (421 vs 441) — unresolved conflict.",
+    "147 caves vs 146 Bubbul Gems — unresolved 1-count mismatch.",
+    "Water/Lightning Temple boss-region-sage pairings (Mucktorok/Sidon, Queen Gibdo/Riju) — confirmed only by elimination logic.",
+    "Sidon's and Riju's sage ability names — unconfirmed.",
+    "Mineru's construct name and ability — unconfirmed.",
+    "Phantom Ganon's story trigger point — unconfirmed.",
+    "Switch 2 Edition/Upgrade Pack exact pricing — unconfirmed."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "beat": "reverify-boss-story",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "findings": [
+    {
+      "question": "Water Temple boss-region-sage pairing: Is Mucktorok the boss of the Water Temple, tied to Sidon/Zora's Domain/Lanayru?",
+      "answer": "Confirmed directly (not by elimination). Mucktorok is the boss of the Water Temple, fought as the climax of the 'Sidon of the Zora' main quest. Defeating it cleans the Sludge from Zora's Domain's waters and grants the player Sidon's companion ability (Vow of Sidon, Sage of Water). Zora's Domain sits in the Lanayru region ('Lanayru is TotK's eastern water region — connecting Kakariko/Necluda in the south to Zora's Domain in the north'). IGN's Water Temple guide states directly: 'This will unlock Sidon and his ability as a permanent support for Link. With the defeat of the Mucktorok, Zora's Domain's waters are clean.' Shacknews and Zelda Dungeon corroborate the Mucktorok/Water Temple/Sidon link independently.",
+      "confidence": "high",
+      "sources": [
+        "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/The_Water_Temple",
+        "https://www.shacknews.com/article/135959/water-temple-mucktorok-zelda-totk",
+        "https://zeldadungeon.net/wiki/Mucktorok",
+        "https://zeldadungeon.net/wiki/Water_Temple_(Tears_of_the_Kingdom)",
+        "https://hyrulearchive.com/tears-of-the-kingdom/guide/lanayru-guide"
+      ]
+    },
+    {
+      "question": "Lightning Temple boss-region-sage pairing: Is Queen Gibdo the boss of the Lightning Temple, tied to Riju/Gerudo Desert?",
+      "answer": "Confirmed directly (not by elimination). Queen Gibdo is explicitly named the boss of the Lightning Temple in the 'Riju of Gerudo Town' main quest. Zelda Dungeon: 'She is the boss of the Lightning Temple and is responsible for the Sand Shroud in Gerudo Desert.' ScreenRant: 'The Lightning Temple boss in The Legend of Zelda: Tears of the Kingdom is Queen Gibdo.' Defeating her unlocks Riju's companion ability (Vow of Riju, Sage of Lightning). Multiple independent sources (IGN, Eurogamer, GameSpot, Nintendo Life, Zelda Wiki/Fandom, Zelda Dungeon) all name Queen Gibdo, Lightning Temple, and Riju/Gerudo together.",
+      "confidence": "high",
+      "sources": [
+        "https://www.screenrant.com/zelda-totk-queen-gibdo-lightning-temple-boss/",
+        "https://zeldadungeon.net/wiki/Queen_Gibdo",
+        "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/The_Lightning_Temple",
+        "https://zelda.fandom.com/wiki/Queen_Gibdo",
+        "https://www.gamespot.com/articles/zelda-tears-of-the-kingdom-queen-gibdo-boss-guide/1100-6514098/"
+      ]
+    },
+    {
+      "question": "What are Sidon's and Riju's named Sage abilities (equivalent to Tulin's 'Sage of the Wind' and Yunobo's 'Sage of Fire')?",
+      "answer": "Sidon is the Sage of Water; his companion item/ability is officially named 'Vow of Sidon, Sage of Water' (a Key Item used to summon/dismiss his avatar). In practice the power is a water-shield ability (commonly described as 'Sidon's Water Shield') that grants a one-hit-absorbing water barrier that explodes on a follow-up melee hit; it also washes off sludge and can power/enhance certain weapons. Riju is the Sage of Lightning; her item/ability is officially named 'Vow of Riju, Sage of Lightning' — summons an avatar that unleashes a targeted lightning strike (commonly described as 'Riju's Lightning Strike'), which auto-targets nearby metal objects and clears groups of enemies. Both exact titles ('Vow of X, Sage of Y') are corroborated by three independent wikis (Zelda Wiki/zeldawiki.wiki, Zelda Fandom, Zelda Dungeon) plus Game8 walkthroughs.",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Vow_of_Sidon,_Sage_of_Water",
+        "https://www.zeldadungeon.net/wiki/Vow_of_Sidon,_Sage_of_Water",
+        "https://zelda.fandom.com/wiki/Vow_of_Sidon,_Sage_of_Water",
+        "https://zeldawiki.wiki/wiki/Vow_of_Riju,_Sage_of_Lightning",
+        "https://zelda.fandom.com/wiki/Vow_of_Riju,_Sage_of_Lightning",
+        "https://zeldadungeon.net/wiki/Vow_of_Riju,_Sage_of_Lightning",
+        "https://game8.co/games/Zelda-Tears-of-the-Kingdom/archives/412651",
+        "https://game8.co/games/Zelda-Tears-of-the-Kingdom/archives/412429",
+        "https://primagames.com/gaming/vow-of-sidon-tears-of-the-kingdom"
+      ]
+    },
+    {
+      "question": "What is Mineru's construct called, and what ability/power does she grant as the fifth Sage?",
+      "answer": "Mineru is the Sage of Spirit. Her mechanical body is simply and officially called 'Mineru's Construct' (confirmed as the exact in-game/wiki title across three independent wikis). The related Key Item that summons/dismisses it is 'Vow of Mineru, Sage of Spirit,' obtained after Link and Mineru defeat the boss 'Seized Construct' in the Spirit Temple (located in the Depths beneath Hyrule Castle). Unlike the other four Sages (who grant a hands-free companion-triggered attack), Mineru's power lets Link physically pilot the Construct as a large humanoid mech — climbing inside it, controlling both arms directly for melee combat, and fusing large materials to its fists/body for attacks; it also functions as an extra means of traversal/mount. Battery/charge mechanics govern how long it can be piloted.",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Vow_of_Mineru,_Sage_of_Spirit",
+        "https://www.zeldadungeon.net/wiki/Vow_of_Mineru,_Sage_of_Spirit",
+        "https://zelda.fandom.com/wiki/Mineru%27s_Construct",
+        "https://game8.co/games/Zelda-Tears-of-the-Kingdom/archives/413167",
+        "https://www.dualshockers.com/zelda-totk-minerus-construct-guide/"
+      ]
+    },
+    {
+      "question": "At what point in the main story does the Phantom Ganon boss fight occur, and is it mandatory or skippable?",
+      "answer": "The scripted/fixed Phantom Ganon encounter occurs in the Sanctum of Hyrule Castle as the climax of the 'Crisis at Hyrule Castle' main quest, and this quest is confirmed to require completing ALL FOUR Regional Phenomena quests (Tulin/Rito, Yunobo/Goron, Sidon/Zora, Riju/Gerudo) first, plus the 'Find the Fifth Sage' (Mineru) quest, before Purah at Lookout Landing triggers it. IGN: 'Before this quest will activate, you must complete all the Regional Phenomena quests for the Rito, Goron, Zora, and Gerudo people.' Zelda Dungeon: 'After completing the Regional Phenomena, and completing the Find the Fifth Sage, Link can speak with Purah at Lookout Landing to complete the Crisis at Hyrule Castle.' This fixed Sanctum encounter is mandatory to advance the main story toward the final battle. Note: Phantom Ganon also appears as a smaller, non-mandatory recurring enemy/mini-boss variant in other locations (e.g., spawned after defeating certain Gloom Hands, and in the Depths) — those repeatable encounters are optional, but the scripted Hyrule Castle Sanctum fight is not.",
+      "confidence": "high",
+      "sources": [
+        "https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle",
+        "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Crisis_at_Hyrule_Castle_-_The_Floating_Castle",
+        "https://www.thespike.gg/legend-of-zelda/beginner-guides/totk-crisis-at-hyrule-castle-guide",
+        "https://zeldadungeon.net/wiki/Phantom_Ganon_(Tears_of_the_Kingdom)"
+      ]
+    },
+    {
+      "question": "Does a Moragia-style pre-temple mini-boss exist for the Rito, Zora, or Gerudo questlines, or is Moragia unique to the Goron arc?",
+      "answer": "Based on available sourcing, Moragia (a large flying draconic mini-boss fought atop Death Mountain during 'Yunobo of Goron City,' encountered before the Fire Temple proper) appears to be unique to the Goron questline. No equivalent single named extra mini-boss was found blocking entry to the Wind Temple, Water Temple, or Lightning Temple: (a) Rito/'Tulin of Rito Village' — quest guides describe only regular enemy encounters en route to the Wind Temple, with Colgera as the sole boss, fought inside the temple itself; (b) Zora/'Sidon of the Zora' — guides describe activating four faucets and then immediately fighting Mucktorok, which is the Water Temple's own final boss, not a separate pre-temple encounter; (c) Gerudo/'Riju of Gerudo Town' — this questline does have an extra combat set-piece before the Lightning Temple (defending Gerudo Town from a Gibdo invasion/wave event), but this is a multi-enemy defense sequence, not a single named boss creature comparable to Moragia. This is a negative/absence finding assembled from guide coverage rather than an explicit statement of exclusivity, so treat as medium confidence.",
+      "confidence": "medium",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Moragia",
+        "https://hyrulearchive.com/tears-of-the-kingdom/guide/temple-tips-guide",
+        "https://gamerguides.com/the-legend-of-zelda-tears-of-the-kingdom/guide/main-quests/gerudo/riju-of-gerudo-town-how-to-defend-gerudo-town",
+        "https://game8.co/games/Zelda-Tears-of-the-Kingdom/archives/412346",
+        "https://www.zeldadungeon.net/wiki/Riju_of_Gerudo_Town",
+        "https://zeldatearsofthekingdom.wiki.fextralife.com/Sidon+of+the+Zora"
+      ]
+    }
+  ],
+  "gaps": [
+    "Q6 (Moragia equivalents) is an absence-of-evidence conclusion, not a source explicitly stating 'Moragia is unique to the Goron questline' — could not find a single page making that exclusivity claim outright. Recommend treating any trophy design that assumes 'only one region has a pre-temple mini-boss' as medium-confidence until directly verified against gameplay/video footage.",
+    "Did not independently verify the exact wording of in-game menu text for the sage ability names (e.g., whether the pause-menu ability wheel literally displays 'Sidon's Water Shield' vs. just an icon) — the 'Vow of X, Sage of Y' item name is confirmed as the Key Item title, but the short combat-ability label shown during gameplay was only corroborated via secondary guide phrasing, not a screenshot/official text dump.",
+    "Did not confirm whether Nintendo Switch 2 (upgraded) version has any differences relevant to these six questions; no version-specific discrepancies were found or expected, but this wasn't explicitly tested since Switch 2 re-release content patches were outside this search's scope."
+  ]
+}

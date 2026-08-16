@@ -1,0 +1,71 @@
+{
+  "beat": "reverify-tracking-systems",
+  "game": "The Legend of Zelda: Tears of the Kingdom",
+  "findings": [
+    {
+      "question": "Does TotK's save-file/continue screen display numeric counters (like BotW's shrine/Korok Seed counts)?",
+      "answer": "Yes. The save-file load/continue screen in TotK displays a stack of numeric stats, confirmed identically by two independent community sources: 'Blessing of Light' count (currently held), Shrines (found/completed), Lightroots (activated), Korok Seeds (collected), and Rupees (currently held). This mirrors BotW's loading-screen behavior. Note: this is community-documented (Reddit + GameFAQs discussion), not an official Nintendo source, so treat exact field order/naming as approximate even though the counters themselves are corroborated by two independent posts.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.reddit.com/r/tearsofthekingdom/comments/13vmvvj/at_one_point_my_loading_screen_numbers_lined_up/",
+        "https://gamefaqs.gamespot.com/boards/266202-the-legend-of-zelda-tears-of-the-kingdom/80531472"
+      ]
+    },
+    {
+      "question": "Does TotK have a map/world completion percentage system like BotW, and when does it appear?",
+      "answer": "Yes, confirmed to exist. A percentage counter appears on the map screen, but ONLY after defeating the final boss (Ganondorf) and returning to continue the save file (the save file is marked with a star post-game). Multiple aggregated sources (via search snippets referencing Orbis Patches, IGN, GameWith, Games Learning Society) agree the tracker is discovery-focused: it tracks locations/landmarks discovered on the map (towers activated, shrines found, named locations, etc.) rather than full completion of every collectible system (side quests, all Korok Seeds, all shrines, etc. are NOT required to hit 100%). It rounds down to two decimal places (e.g., 99.9599% displays as 99.95%). Exact weighting formula (how much each category contributes) could not be pinned down precisely from available sources.",
+      "confidence": "medium",
+      "sources": [
+        "aggregated snippets citing Orbis Patches, IGN, GameWith, Games Learning Society, Reddit (search-engine-mediated; original article URLs not individually confirmed by direct fetch)"
+      ]
+    },
+    {
+      "question": "Is there any genuinely missable content in TotK, or does it avoid a hard point of no return like BotW?",
+      "answer": "Some content is missable, though the game is designed to minimize permanent loss. Two independent guide sites (Game8 and GameWith) converge on the same list: (1) Quests (Main/Side Quests/Side Adventures) cannot be replayed once completed, and the Adventure Log only shows the latest entry per quest with no way to review prior log text. (2) Three unique bosses cannot be re-fought after their one-time story encounters: Moragia, Sludge Like, and Master Kohga (after his associated side adventure concludes) -- however, missed Compendium photos of these can be purchased from Robbie for 500 Rupees, so the Compendium entry itself is not permanently missable. (3) Enemies defeated inside Shrine combat trials do not respawn (shrine trial fights are one-time). (4) Treasure chests in the overworld, Shrines, and Temples do not respawn (do not reset on Blood Moons or with time). (5) Horse names cannot be changed once registered at a stable. (6) Zonai Devices removed from item capsules/Constructs cannot be returned directly to inventory, though identical devices can usually be re-obtained via Autobuild/Device Dispensers. The 'Defeat Ganondorf' final quest is described as a soft point of no return for the main story climax, but it does NOT lock the player out of the world -- players are returned to a pre-final-battle save state and retain full access to the overworld, side content, and Depths afterward, similar to BotW.",
+      "confidence": "high",
+      "sources": [
+        "https://game8.co/games/Zelda-Tears-of-the-Kingdom/archives/412412",
+        "https://gamewith.net/zelda-totk/article/show/38993"
+      ]
+    },
+    {
+      "question": "What is the exact total Hyrule Compendium entry count in TotK? (One source claimed 509.)",
+      "answer": "509 total entries confirmed. Independently corroborated by Zelda Wiki ('There are a total of 509 Hyrule Compendium Items that can be registered') and IGN's Compendium guide ('There are 509 Entries in total in the Hyrule Compendium'). One outlier source (Hyrule Archive) referenced a different figure (585) but this appears to be an error/outlier against the converging consensus of Zelda Wiki and IGN.",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Hyrule_Compendium_Items_in_Tears_of_the_Kingdom",
+        "https://zeldawiki.wiki/wiki/Hyrule_Compendium",
+        "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Hyrule_Compendium"
+      ]
+    },
+    {
+      "question": "How many Korok Seeds are needed to max out inventory via Hestu -- 421 or 441?",
+      "answer": "421 is correct, not 441. Confirmed by three independent sources (Zelda Wiki, ecobuilderz.com, and a Reddit thread), with a matching category breakdown that arithmetically sums correctly: Weapon Pouch 153 seeds + Shield Pouch 160 seeds + Bow Pouch 108 seeds = 421 total seeds needed for full inventory expansion. Total Korok Seeds available in the game is 1,000 (up from 900 in BotW), so players who collect all seeds vastly exceed the 421 needed to max the inventory, with excess turning into Hestu's Gift rewards.",
+      "confidence": "high",
+      "sources": [
+        "https://zeldawiki.wiki/wiki/Korok_Seed",
+        "ecobuilderz.com (Korok Seed inventory upgrade guide, via search aggregation)",
+        "Reddit community confirmation (via search aggregation)"
+      ]
+    },
+    {
+      "question": "How many caves exist, and how many Bubbul Gems -- is there a 147 caves / 146 gems discrepancy?",
+      "answer": "The majority consensus across multiple independent sources is 147 caves and 147 Bubbul Gems -- a clean 1:1 ratio, with NO discrepancy. Sources: Game8 ('a list of all 147 Caves'), GamerTW ('There are 147 Caves in Tears of the Kingdom. Every Cave has 1 Bubbulfrog'), Prima Games ('147 collectible Bubbul Gems hidden across 147 caves'), and Games Learning Society ('147 caves throughout... Hyrule Surface and Hyrule Sky'). Every cave has exactly one Bubbulfrog/Bubbul Gem; players only need 47 gems to unlock all of Koltin's rewards, but 147 exist for full collection. NOTE: one Zelda Wiki page fetch returned a conflicting figure of '152 caves' (with 2 more unlisted cave-like locations not counted as official caves), which does not match the 147 consensus from the other four sources -- this could reflect a wiki table including non-standard or edge-case locations, or a stale/incorrect wiki count. Given four independent sources agree on 147/147 versus one outlier wiki page, 147/147 with no discrepancy is the more likely correct figure, but this is not fully reconciled.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co (Cave locations guide, via search aggregation)",
+        "GamerTW (via search aggregation)",
+        "Prima Games (via search aggregation)",
+        "Games Learning Society (via search aggregation)",
+        "https://zeldawiki.wiki/wiki/Cave (conflicting outlier, 152 figure)"
+      ]
+    }
+  ],
+  "gaps": [
+    "Exact weighting formula for TotK's map completion percentage (how much each category -- towers, shrines, named locations, Lightroots, etc. -- contributes to the total) could not be confirmed precisely; only that it is discovery-focused and appears post-Ganondorf.",
+    "No official Nintendo source found for save-file screen stat list; relies on two matching community reports (Reddit + GameFAQs), both otherwise consistent with each other and with BotW precedent.",
+    "The 147 vs 152 cave-count discrepancy between Zelda Wiki and four other independent sources (Game8, GamerTW, Prima Games, Games Learning Society) was not fully reconciled -- could not determine if Zelda Wiki's higher figure includes non-standard cave-like locations (e.g., wells, chasms without map markers) that other sites exclude.",
+    "Could not directly verify via primary/official source whether the map completion percentage is visible before beating Ganondorf under any circumstance (e.g., partial early unlock) -- all corroborating info was via search-engine snippet aggregation rather than direct page fetch, since IGN, Polygon, Eurogamer, and several other major outlets were unreachable via WebFetch in this session (403/blocked errors) and the WebSearch tool was exhausted for this session, forcing reliance on a text-proxy (r.jina.ai) + Bing/DuckDuckGo snippet aggregation workflow.",
+    "Could not confirm whether Nintendo Switch 2 version (enhanced edition) changes any of these six systems -- all findings above pertain to the base Switch 1 version; no Switch 2-specific differences were investigated in this pass."
+  ]
+}
