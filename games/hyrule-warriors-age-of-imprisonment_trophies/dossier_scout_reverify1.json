@@ -1,0 +1,66 @@
+{
+  "beat": "reverify-tracking-systems",
+  "game": "Hyrule Warriors: Age of Imprisonment",
+  "findings": [
+    {
+      "question": "Does the game have an in-game 'Medal List' or similar achievement-analog system (as in the 2014 original and Age of Calamity)?",
+      "answer": "No evidence of a 'Medal List', Gallery-based achievement screen, or any equivalent tracking menu was found. Checked Game8's full walkthrough/chapters hub, the Challenges hub, the Quests hub, the Enemies/Bosses hub, and Nintendo's official US product page — none reference a Medal List, Gallery, Records, or Album menu. This is a notable departure from the two prior mainline Hyrule Warriors titles if accurate, but absence of documentation is not conclusive proof of absence in-game (Game8's guides are walkthrough-focused and may simply not cover a passive stats menu if one exists).",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment (nav structure)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563272 (All Challenges)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563685 (All Quests)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563105 (Complete Walkthrough)",
+        "https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/ (official product page)"
+      ]
+    },
+    {
+      "question": "Does the game show an overall completion percentage anywhere (e.g. a special quest like Age of Calamity's 'Hope of All Hyrule')?",
+      "answer": "No mention of an overall completion percentage, a '100%' quest, or any equivalent found in Game8's walkthrough, quests hub, or challenges hub, nor on Nintendo's official product page. Could not locate a source confirming or denying this with certainty; the absence across multiple otherwise-detailed Game8 guide pages is suggestive but not conclusive.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563105 (Complete Walkthrough)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563685 (All Quests)",
+        "https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"
+      ]
+    },
+    {
+      "question": "What is the exact total number of playable characters, and what is the complete roster list?",
+      "answer": "19 playable characters total, per Game8's 'All Playable Characters' guide: Zelda, Rauru, Mineru, Calamo, Mysterious Construct, Typhan, Raphica, Vence, Qia, Agraston, Ardi, Quino, Lago, Pinnec, Cadlan, Sholani, Ronza, Braton, Pastos. Per the same source, 11 of these are unlocked via natural story progression, and the remaining 8 are unlocked by completing optional Scouting Challenges (e.g., Sholani and Pastos are tied to Chapter 4 Scouting Challenges). Confirmed separately that Link, Ganondorf, and Sonia are NOT playable — Link's narrative role is filled by the 'Mysterious Construct' (a Link-lookalike party member), while Ganondorf appears only as a boss (as Phantom Ganon and as Demon King Ganondorf) and Sonia is listed under Game8's 'All Non-Playable Characters'.",
+      "confidence": "high",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563084 (All Playable Characters)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/569452 (Ganondorf page)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563119 (Link page)"
+      ]
+    },
+    {
+      "question": "What are the names of the other 3 'Archfiend' bosses (only 'Grimgera' was found previously)?",
+      "answer": "IMPORTANT CORRECTION: 'Archfiend' does not appear to be an official in-game boss category/term at all — it was checked directly against Game8's dedicated 'All Bosses & Defeat Strategies' page and its 'All Enemies' page, and the word 'Archfiend' only appears once, in the chapter title 'The Archfiend's Return' (Chapter 5-area battle). It is NOT used there to label a boss or boss class. However, there IS a clear thematic cluster of four recurring, named bosses sharing a 'Grim-' prefix, which reappear across multiple chapters as major set-piece fights and are the most plausible candidates for what earlier passes flagged as 'Archfiends': Grimgera, Grimtorok, Grimgohma, and Grimgibdo. These four appear repeatedly (e.g., all four are fought together in Chapter 5's climax alongside Demon King Ganondorf). Could not confirm an official collective name for this group of four beyond the shared naming convention.",
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/569605 (All Bosses & Defeat Strategies)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/569014 (All Enemies)"
+      ]
+    },
+    {
+      "question": "How many chapters/missions does the main campaign have, and are there named chapter titles?",
+      "answer": "The main campaign has 6 chapters, divided into a total of 28 named battles/missions. Full ordered list of battle titles confirmed via Game8's walkthrough navigation: To the Great Plateau; The Art of the Blade; Where Ancient Wisdom Sleeps; Raging Sands; The Hands of Evil; Growing Suspicion; Striking North; Beneath the Blood Moon; The Howling Tempests; Shadows in the Snow; Lanayru Defiled; The Behemoth in the Crater; Crisis on Death Mountain; Under Cover of Mist; Terror of the Sands; Crimson Omen; A Time for Action; The Counterstrike; Ambush in the Depths; Purging the Shadows; Fire and Sand; Into the Fray; The Archfiend's Return; The Battle of Hyrule Castle; The Demon King, Ensnared; The Battle of Hyrule Field; The Final Confrontation; A Clash of Constructs. Game8 also states focusing only on main Battles takes roughly 20 hours.",
+      "confidence": "high",
+      "sources": [
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment/archives/563105 (Complete Walkthrough)",
+        "https://game8.co/games/Hyrule-Warriors-Age-of-Imprisonment (site navigation listing all 28 battle-title archive pages)"
+      ]
+    }
+  ],
+  "gaps": [
+    "Could not directly confirm or deny the existence of a Medal List / Gallery / achievement-tracking menu through gameplay footage or an official source that explicitly enumerates the game's menu structure; conclusion is based on absence across several detailed guide hubs (walkthrough, quests, challenges) plus the official Nintendo product page, which is suggestive but not conclusive proof.",
+      "Could not confirm or deny an in-game overall completion percentage display for the same reason as above.",
+    "IGN's dedicated wiki (ign.com/wikis/hyrule-warriors-age-of-imprisonment) could not be fetched (tool-level block on ign.com domain).",
+    "Zelda Wiki (zeldawiki.wiki) returned HTTP 403 Forbidden on every fetch attempt; could not cross-verify any finding against it.",
+    "GameFAQs returned HTTP 403 Forbidden; could not check its FAQ/completion-checklist content, which sometimes documents trackers other guides omit.",
+    "DuckDuckGo and Bing web-search-via-fetch both failed to return usable results (CAPTCHA wall on DDG; irrelevant/localized results on Bing), and the dedicated WebSearch tool was already at its session budget limit before this task began, so cross-source triangulation beyond Game8 + Nintendo's official page was not possible.",
+    "No official or community source found that gives a collective in-game name for the four 'Grim-' prefixed bosses (Grimgera, Grimtorok, Grimgohma, Grimgibdo); 'Archfiend' specifically is NOT confirmed as that name and downstream trophy text should avoid asserting it as an official term.",
+    "Could not verify whether any of the 19 playable characters, or any of the 4 'Grim-' bosses, or completion of the 28 battles, are tracked/displayed anywhere as a discrete in-game counter (e.g. 'X/19 characters recruited') — this bears directly on whether roster-completion or boss-completion trophies are trackable, and remains unresolved."
+  ]
+}

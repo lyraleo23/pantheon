@@ -1,0 +1,209 @@
+{
+  "beat": "campaign",
+  "game": "Hyrule Warriors: Age of Imprisonment",
+  "platform": "Nintendo Switch 2",
+  "existenceCheck": {
+    "confirmed": true,
+    "note": "This is a real, released game. Confirmed via Wikipedia, Nintendo's official US product page, and Metacritic. Full title 'Hyrule Warriors: Age of Imprisonment' (Japanese: ゼルダ無双 封印戦記). Released November 6, 2025, Nintendo Switch 2 exclusive (no original Switch version found in any source checked). Developer: Koei Tecmo's AAA Games Studio (commonly known as Omega Force internally, though sources named the studio as 'Koei Tecmo AAA Games Studio' rather than 'Omega Force' by name). Publisher: Nintendo (Koei Tecmo in Japan). The premise in the assignment is correct: the game depicts the Imprisoning War referenced in flashback/mural form in Tears of the Kingdom (2023), and is a prequel distinct from the 2014 original Hyrule Warriors and 2020 Age of Calamity, which are unrelated to Breath of the Wild's era instead of this one.",
+    "confidence": "high",
+    "sources": ["Wikipedia (Hyrule Warriors: Age of Imprisonment)", "Wikipedia (Hyrule Warriors, franchise page, Legacy section)", "nintendo.com official US product page", "metacritic.com"]
+  },
+  "findings": [
+    {
+      "category": "story_premise",
+      "name": "Imprisoning War framing",
+      "detail": "Princess Zelda is transported back in time to the era of Hyrule's founding after an encounter with Ganondorf. She reconnects with ancestors King Rauru and Queen Sonia and gets caught up in Ganondorf's invasion, which becomes a large-scale war involving Hyrule's allied tribes. This is the same 'Imprisoning War' shown briefly via murals/flashback in Tears of the Kingdom, where Rauru and Sonia originally sealed Ganondorf.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "nintendo.com product page"]
+    },
+    {
+      "category": "story_ending",
+      "name": "Campaign climax and ending",
+      "detail": "The story culminates in a full-scale battle against Ganondorf at Hyrule Castle. Forces retreat to the Depths, where Rauru sacrifices himself to seal Ganondorf away. The Knight Construct (Mineru's construct) defeats a rogue 'Forbidden Construct' but is destroyed in the process. A post-credits scene shows the outcome decades later, and separately, Zelda is described as transforming into the immortal Light Dragon by the game's end (tying into the Light Dragon lore established in Tears of the Kingdom).",
+      "trackable": "Presumably marked via a completed save file / story-clear flag, but no in-game chapter-select or percentage tracker was confirmed in any source.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia (two separate fetches, consistent on Rauru's sacrifice and the Knight Construct's destruction)"]
+    },
+    {
+      "category": "playable_character",
+      "name": "Princess Zelda",
+      "detail": "Primary protagonist / player-inserted lead of the campaign.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "nintendo.com"]
+    },
+    {
+      "category": "playable_character",
+      "name": "King Rauru",
+      "detail": "Playable ancestor-king; central to the alliance against Ganondorf. Dies/sacrifices himself at the story's climax to seal Ganondorf — his campaign availability may end at that story point.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "nintendo.com"]
+    },
+    {
+      "category": "playable_character",
+      "name": "Mineru",
+      "detail": "Sage character, also known from Tears of the Kingdom as a Sage of Spirit / creator of constructs.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "nintendo.com"]
+    },
+    {
+      "category": "playable_character",
+      "name": "Calamo",
+      "detail": "Described as a Korok wanderer; new character for this game. Gets a Sync Strike paired with Zelda per free-update patch notes.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia summary"]
+    },
+    {
+      "category": "playable_character",
+      "name": "The Knight Construct / Mysterious Construct",
+      "detail": "A construct-type character powered by a Master Sword shard; referred to inconsistently across sources as 'the Knight Construct' and 'the Mysterious Construct.' Destroyed in the story's climax after defeating a rogue Forbidden Construct — exact playability implications after this point are unconfirmed.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia", "nintendo.com (uses the name 'Mysterious Construct' for a Unique Skills DLC entry)"]
+    },
+    {
+      "category": "playable_character",
+      "name": "Tribal leaders: Raphica (Rito), Qia (Zora), Agraston (Goron), Ardi (Gerudo)",
+      "detail": "Four allied tribal leader characters, one per major Hyrule race (Rito, Zora, Goron, Gerudo). Reported consistently across two independent Wikipedia fetches.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia (two fetches, consistent)"]
+    },
+    {
+      "category": "playable_character",
+      "name": "Queen Sonia",
+      "detail": "Listed as playable/important in one source alongside Rauru and Zelda, but not repeated consistently across all fetches — her exact playable status (vs. story-only NPC) is not fully confirmed.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Wikipedia (one of two fetches)"]
+    },
+    {
+      "category": "boss",
+      "name": "Four Archfiends (including Grimgera)",
+      "detail": "A group of four major antagonist bosses. Only one name, 'Grimgera,' was reported; the other three archfiend names were not found in any source checked.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Wikipedia (one fetch only, not corroborated elsewhere)"]
+    },
+    {
+      "category": "boss",
+      "name": "Rampaging / Forbidden Construct",
+      "detail": "A rogue Forbidden Construct is fought and defeated by the Knight Construct at the story's climax, at the cost of the Knight Construct's own destruction.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia"]
+    },
+    {
+      "category": "boss",
+      "name": "Ganondorf / Demon King",
+      "detail": "Final antagonist of the main campaign; battled in a full-scale assault on Hyrule Castle before being sealed by Rauru in the Depths.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "nintendo.com"]
+    },
+    {
+      "category": "boss",
+      "name": "Phantom Ganon",
+      "detail": "Explicitly called out by Nintendo's own product page as a boss unlocked through free post-launch content updates (not base-game main campaign). This is a strong, official-source confirmation, but it is post-game/DLC content, not part of the core campaign.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendo.com official product page"]
+    },
+    {
+      "category": "post_game_content",
+      "name": "Two free content updates",
+      "detail": "Nintendo's own page confirms two free post-launch content updates adding: extra battles and tougher enemies, a 'Forbidden Difficulty' mode, three new weapons, a Sync Strike for Zelda and Calamo, Unique Skills for the Mysterious Construct, and 'Pure Zonaite Steel' (a crafting/upgrade material). Phantom Ganon is unlocked via these updates.",
+      "trackable": "Not confirmed whether these updates are tracked via any in-game completion counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendo.com official product page"]
+    },
+    {
+      "category": "save_data_bonus",
+      "name": "Cross-save unlockables",
+      "detail": "Having Hyrule Warriors: Age of Calamity save data unlocks the 'High Guard's Claymore.' Having Tears of the Kingdom save data unlocks the 'High Guard's Sword.' These are bonus weapon items, not story content.",
+      "trackable": "Likely visible in a weapon/armory list, but not explicitly confirmed.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["nintendo.com official product page"]
+    },
+    {
+      "category": "feature",
+      "name": "amiibo support",
+      "detail": "Scanning compatible amiibo grants crafting materials and other items. Specific amiibo figures supported were not identified in sources checked.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["nintendo.com official product page"]
+    },
+    {
+      "category": "feature",
+      "name": "Co-op modes",
+      "detail": "Two-player local co-op via split-screen on one Switch 2, or across two systems using GameShare.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendo.com official product page"]
+    },
+    {
+      "category": "checkpoint/mission",
+      "name": "'The Howling Tempests'",
+      "detail": "Named as a story checkpoint/mission title in one source (IGN wiki summary via WebFetch). Could not corroborate with a second source, and its position in the overall campaign structure (early/mid/late) is unknown.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["ign.com wiki (single fetch, summarized by intermediate model, not independently verified)"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Completion percentage or story chapter-select screen",
+      "where": "Not confirmed to exist. No source described an in-game overall completion percentage, chapter list with completion checkmarks, or character-unlock gallery.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Weapon/armory list (including cross-save bonus weapons)",
+      "where": "Presumed to exist since discrete named weapon items (High Guard's Claymore, High Guard's Sword, three DLC weapons) are described, implying some kind of weapon inventory screen, but this was not directly confirmed by any source describing a UI screen.",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Game appears to be Nintendo Switch 2 exclusive; no source found mentioning an original Nintendo Switch release or version. This should be treated as confirmed absence of a Switch 1 version based on absence of evidence across all sources checked (Wikipedia, Nintendo's own product page, Metacritic), but no source explicitly stated 'Switch 2 exclusive' in those words either.",
+      "confidence": "medium"
+    },
+    {
+      "note": "File size reported as 43.5 GB, and the game supports TV, tabletop, and handheld modes — standard Switch 2 feature parity, no indication of cut content between play modes.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Could not confirm the total number of story chapters/missions in the main campaign, nor their individual titles (only one possible mission name, 'The Howling Tempests,' surfaced from a single low-reliability source).",
+    "Could not confirm the full playable character roster count or a definitive complete list — sources gave overlapping but not identical partial lists (e.g., Queen Sonia listed as playable in only one of two fetches).",
+    "Could not confirm names of three of the four 'Archfiend' bosses (only Grimgera was named).",
+    "Could not confirm whether the game has an 'Adventure Mode' or 'History Mode' equivalent (a staple of prior Hyrule Warriors games) separate from the main story campcampaign — no source mentioned or denied this.",
+    "Could not confirm any in-game percentage-complete tracker, mission-select screen, or character/weapon unlock gallery that would be needed to support progress-based trophies.",
+    "Could not confirm exact chronological order of boss fights or which bosses are mandatory vs. optional within the main campaign (only Phantom Ganon was explicitly labeled as unlockable DLC/post-game content).",
+    "Could not access several review sites (IGN, Eurogamer, Polygon, GameSpot, GameInformer, GamesRadar, Zelda Wiki (Fandom), ZeldaWiki.wiki, Nintendo Life, PushSquare) due to fetch errors (403/404/blocked), which likely hold more granular campaign structure detail (chapter names, mission counts, difficulty tiers) that could not be verified this session.",
+    "The WebSearch tool was unavailable for this entire task (session search budget reported as exhausted from the start), so all research relied solely on WebFetch against specific guessed/known URLs; a fresh search-capable pass would likely surface significantly more detail, especially for chapter-by-chapter structure and a definitive boss list.",
+    "Could not confirm whether King Rauru or the Knight Construct remain playable/selectable in free-roam or post-campaign content after their story-driven deaths/destruction — this matters for any 'complete story with X character' trophy design.",
+    "Could not confirm the developer studio's common branding (i.e., whether 'Omega Force' is used in official credits/marketing versus the more generic 'Koei Tecmo AAA Games Studio' label found in sources)."
+  ]
+}

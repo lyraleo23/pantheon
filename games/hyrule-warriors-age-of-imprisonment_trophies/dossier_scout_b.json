@@ -1,0 +1,235 @@
+{
+  "beat": "collectibles / side content / secret areas / minigames / post-game / DLC",
+  "game": "Hyrule Warriors: Age of Imprisonment",
+  "platform": "Nintendo Switch 2",
+  "existenceCheck": {
+    "exists": true,
+    "confidence": "high",
+    "summary": "Confirmed real. Announced April 2, 2025 in a Nintendo Direct alongside the Switch 2 console reveal. Released November 6, 2025, exclusively on Nintendo Switch 2. Developed by Koei Tecmo (AAA Games Studio), published by Nintendo (Koei Tecmo in Japan). Metacritic 79/100 (105 critic reviews), OpenCritic ~82%. Shipped over one million copies worldwide as of January 26, 2026. Director: Koki Aoyanagi.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment",
+      "https://www.metacritic.com/game/hyrule-warriors-age-of-imprisonment/",
+      "https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"
+    ]
+  },
+  "findings": [
+    {
+      "category": "mode structure",
+      "name": "Mission-based campaign (not classic grid Adventure Mode, not open-world)",
+      "detail": "Wikipedia's gameplay description: 'The player controls 1 of up to 4 characters deployed to a given mission, where they must complete certain objectives while fighting off large groups of enemies.' No hub/base-camp, world map, or overworld-between-battles was described in the sources checked, but absence of a mention is not proof of absence. This reads as the mission-select structure used in recent Warriors titles (Age of Calamity-style discrete battle maps) rather than the original Hyrule Warriors' grid-based Adventure Mode or a fully open world.",
+      "trackable": "Unconfirmed — could not verify a mission list, completion checklist, or map screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Two-player co-op",
+      "detail": "Local split-screen on one system, or cross-system via GameShare (only one player needs to own the game).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "character (confirmed playable)",
+      "name": "Princess Zelda",
+      "detail": "Protagonist, time-travels to the Imprisoning War era; confirmed playable in trailers and store listing.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "character (confirmed playable)",
+      "name": "King Rauru",
+      "detail": "Confirmed playable in trailers/store listing ('Princess Zelda, King Rauru, and other legendary heroes').",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "character (likely playable)",
+      "name": "Mineru",
+      "detail": "Listed among playable characters on the official Nintendo store page.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "character (likely playable)",
+      "name": "Calamo (Korok wanderer)",
+      "detail": "Named as receiving a new Sync Strike paired with Zelda in a free post-launch update, implying an existing playable roster slot.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "character (likely playable)",
+      "name": "Mysterious/Knight Construct",
+      "detail": "A construct powered by a Master Sword shard, styled after Link. Store listing references it gaining unlockable 'Unique Skills' via a free update, implying it is a playable unit.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "character (unclear playable status)",
+      "name": "Queen Sonia",
+      "detail": "Major story character, Rauru's queen; killed by Ganondorf in the plot. Not explicitly confirmed as playable in any source checked — could be a story/NPC-only role.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "character (unclear playable status)",
+      "name": "Tribal leaders: Raphica (Rito), Qia (Zora), Agraston (Goron), Ardi (Gerudo)",
+      "detail": "Named allied characters representing the four Hyrule tribes. Playable status not confirmed by any source checked — could be story allies only, or unlockable fighters (past Hyrule Warriors games have made similar tribal leader characters playable).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "full roster count",
+      "name": "Total playable character count",
+      "detail": "Could not find a confirmed final roster number for launch or post-update. Not stated in any source checked.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "boss",
+      "name": "Ganondorf",
+      "detail": "Main antagonist / final boss of the campaign, the Demon King.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "boss",
+      "name": "Grimgera",
+      "detail": "Described as 'one of four archfiends' — implies there may be a set of four archfiend-type bosses, but only Grimgera is named in sources checked.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "boss (post-launch, free update)",
+      "name": "Phantom Ganon",
+      "detail": "Added as a new boss encounter via one of the two confirmed free post-launch content updates.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "difficulty / post-game",
+      "name": "Forbidden Difficulty",
+      "detail": "A new, harder difficulty mode unlocked via a free post-launch content update (not present at launch).",
+      "trackable": "Unconfirmed whether tracked/flagged anywhere in-game beyond difficulty selector.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "post-game",
+      "name": "Replay Battles",
+      "detail": "Nintendo's product page mentions replaying story battles against more powerful enemies after completing the campaign ('The Howling Tempests' mission unlocks related bonuses).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "weapons / materials",
+      "name": "Weapon upgrade system via Zonaite Steel",
+      "detail": "Weapons are enhanced using a material called Zonaite Steel; a stronger variant, 'Pure Zonaite Steel,' was added via a free post-launch update for further upgrades.",
+      "trackable": "Unconfirmed whether a weapon-collection or upgrade-completion screen exists.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "weapons",
+      "name": "Three additional weapons (free update)",
+      "detail": "Three new weapons were added as part of the free post-launch content updates; exact names not confirmed.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "bonus/unlockable content",
+      "name": "Save-data crossover weapons",
+      "detail": "High Guard's Claymore unlocks from detecting Hyrule Warriors: Age of Calamity save data on the system; High Guard's Sword unlocks from detecting The Legend of Zelda: Tears of the Kingdom save data. These appear to be one-time unlock bonuses rather than an ongoing collectible category.",
+      "trackable": "Unconfirmed how/where these are surfaced to the player (likely an item/weapon inventory).",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "collectibles / amiibo",
+      "name": "amiibo support",
+      "detail": "Scanning any compatible amiibo accessory grants in-game rewards including crafting materials and other items. Specific amiibo list and reward table not confirmed.",
+      "trackable": "Unconfirmed whether an amiibo-reward log exists in-game.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "character progression",
+      "name": "Character upgrades via 'spoils'/resources",
+      "detail": "Outside missions, players spend collected resources (spoils) to upgrade characters, described in the Wikipedia gameplay summary as done 'with community assistance' (likely referencing NPC allies/sages), separate from weapon upgrades.",
+      "trackable": "Unconfirmed whether a per-character upgrade-completion tracker exists.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "DLC",
+      "name": "No paid Expansion Pass confirmed",
+      "detail": "Only two FREE post-launch content updates were found (adding extra battles, Phantom Ganon boss, Forbidden Difficulty, 3 weapons, a new Sync Strike, Unique Skills for the Mysterious Construct, and Pure Zonaite Steel). No evidence of a paid Expansion Pass / Season Pass was found in any source checked, unlike some prior Hyrule Warriors titles. This could reflect genuine absence of paid DLC, or simply a gap in available search results given how recent the game is.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Unknown — no in-game completion percentage, bestiary, weapon-collection screen, or mission checklist could be confirmed from available sources.",
+      "where": "Not found",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Game is Nintendo Switch 2 exclusive; no other platform release exists to compare against, so no cross-platform version differences apply.",
+      "confidence": "high"
+    },
+    {
+      "note": "Save-data bonus weapons (High Guard's Claymore, High Guard's Sword) depend on the player also owning/having played Hyrule Warriors: Age of Calamity and/or Tears of the Kingdom on the same Switch/Switch 2 system — a cross-save-dependent unlock, not universally available to all players.",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Could not confirm the total playable character roster count or a complete roster list (only Zelda and Rauru are explicitly confirmed playable; Mineru, Calamo, and the Mysterious/Knight Construct are inferred as playable with medium confidence; Sonia and the four tribal leaders — Raphica, Qia, Agraston, Ardi — have unconfirmed playable status).",
+    "Could not confirm whether the game has any in-game collectible/completion tracker (percentage, bestiary, weapon list, character list) — this determines whether collectible-based trophies are even feasible.",
+    "Could not confirm exact names of the three weapons added in the free post-launch update.",
+    "Could not confirm the full boss list beyond Ganondorf, Grimgera (named as 'one of four archfiends,' implying 3 more unnamed archfiends), and Phantom Ganon (added post-launch).",
+    "Could not confirm whether a paid Expansion Pass / Season Pass exists or is planned — only two free content updates were verifiable.",
+    "Could not confirm details of 'Replay Battles' post-game structure (e.g., is there a hard-mode replay of every mission, or select missions only).",
+    "Could not confirm any minigame content, secret/hidden areas, or side-quest system distinct from the main mission structure.",
+    "Could not confirm the amiibo compatibility list or specific rewards per amiibo.",
+    "Could not access several major outlets (IGN, Nintendo Life, Zelda Dungeon, GameSpot, ZeldaWiki, Reddit, Push Square) due to fetch restrictions (403 errors) or an exhausted web-search budget mid-task, which significantly limited cross-referencing beyond the official Nintendo store page and Wikipedia.",
+    "Could not confirm whether the 'community assistance' character-upgrade resource is materials, currency ('spoils'), or a distinct system, nor its exact name in-game."
+  ]
+}

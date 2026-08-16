@@ -1,0 +1,103 @@
+{
+  "game": "Hyrule Warriors: Age of Imprisonment",
+  "platform": "Nintendo Switch 2",
+  "mode": "genesis",
+  "developer": "Koei Tecmo (AAA Games Studio / Omega Force)",
+  "publisher": "Nintendo (Koei Tecmo in Japan)",
+  "releaseDate": "2025-11-06",
+  "researchDate": "2026-08-16",
+  "premise": "A prequel depicting the 'Imprisoning War' shown in flashback murals in The Legend of Zelda: Tears of the Kingdom. Princess Zelda is transported back in time to Hyrule's founding era after an encounter with Ganondorf, reconnects with ancestors King Rauru and Queen Sonia, and gets caught up in Ganondorf's invasion, which escalates into a large-scale war involving Hyrule's allied tribes.",
+  "existenceVerification": {
+    "confirmed": true,
+    "confidence": "high",
+    "summary": "Real, released game — confirmed by 3 independent scouts against Wikipedia, Nintendo's official US store page, Metacritic, and Siliconera. Announced 2025-04-02 (Switch 2 reveal Direct), released 2025-11-06, Nintendo Switch 2 exclusive (no original Switch version found anywhere). Director: Koki Aoyanagi. Metacritic 79/100 (105 reviews), Famitsu 35/40. Shipped 1M+ copies worldwide as of 2026-01-26."
+  },
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Switch 2 has no system-level achievement/trophy system. This game is Switch 2-exclusive with no other platform release. Valid Pantheon candidate.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for this game."
+  },
+  "dlcScopeNote": "No paid Expansion Pass / Season Pass found — only two FREE post-launch content updates confirmed (first shipped 2025-11-27, adding 2 weapons + a new Sync Strike + challenges; a second promised update adds Phantom Ganon, Forbidden Difficulty, a 3rd weapon, Unique Skills for the Mysterious Construct, and Pure Zonaite Steel). Since these are free updates baked into the base game rather than paid purchasable content, no `dlc` bonus list is needed — this will be a single base list covering all confirmed content, launch and post-launch alike.",
+  "campaignStructure": {
+    "opening": "Zelda time-travels to the Imprisoning War era, reconnects with Rauru and Sonia, and is drawn into the war against Ganondorf's invasion. Confidence: high.",
+    "ending": "Full-scale battle against Ganondorf at Hyrule Castle; forces retreat to the Depths, where Rauru sacrifices himself to seal Ganondorf away. The Knight Construct (Mineru's construct) destroys a rogue 'Forbidden Construct' at the cost of its own destruction. A post-credits scene shows the outcome decades later; Zelda is separately described as eventually becoming the immortal Light Dragon (tying into established TotK lore). Confidence: medium — corroborated by 2 independent Wikipedia fetches on the Rauru/Construct beats, but exact scene-by-scene structure unconfirmed.",
+    "missionStructure": "Mission-based campaign: the player controls up to 4 deployed characters per mission with objective-driven combat, NOT the original Hyrule Warriors' grid-based Adventure Mode and not confirmed as fully open-world. No hub/map screen was confirmed either way. Total chapter/mission count UNCONFIRMED — only one possible mission name ('The Howling Tempests') surfaced from a single low-reliability source. Confidence: medium on structure type, low on exact count.",
+    "bosses": {
+      "confirmed": [
+        { "name": "Ganondorf / the Demon King", "detail": "Final antagonist, fought in a full-scale Hyrule Castle assault before being sealed by Rauru in the Depths.", "confidence": "high" },
+        { "name": "Grimgera", "detail": "Described as 'one of four archfiends' — implies 3 more unnamed archfiend bosses exist, but none were found by name in any source across 3 scouts.", "confidence": "medium" },
+        { "name": "Rogue Forbidden Construct", "detail": "Fought and destroyed by the Knight Construct at the story's climax (at the cost of the Knight Construct's own destruction).", "confidence": "medium" },
+        { "name": "Phantom Ganon", "detail": "Confirmed by Nintendo's own product page as added via a FREE post-launch content update — not base-game/launch-day content.", "confidence": "high" }
+      ],
+      "gap": "3 of the 4 'Archfiend' boss names are completely unconfirmed. Do not build individual boss trophies for unnamed Archfiends."
+    }
+  },
+  "roster": {
+    "confirmedPlayable": ["Princess Zelda (protagonist)", "King Rauru"],
+    "likelyPlayableMediumConfidence": ["Mineru (Zonai-tech moveset)", "Calamo (Korok wanderer, added/expanded via Nov 2025 free update, has a Sync Strike with Zelda)", "The Knight Construct / Mysterious Construct (Master-Sword-shard-powered, gains Unique Skills via free update)"],
+    "unclearPlayableStatus": ["Queen Sonia (major story character, killed by Ganondorf in the plot — could be an NPC-only role)", "Four tribal leaders: Raphica (Rito Sage), Qia (Zora Queen), Agraston (Goron Chief), and a 4th Gerudo leader 'Ardi' (named in only one of three scouts' sources) — past Hyrule Warriors games have made similar tribal-leader characters playable, but this is not confirmed here"],
+    "totalRosterCount": "UNCONFIRMED. One hands-on review reported the roster starts around 3 playable characters and expands to 6+ over the campaign, similar pacing to prior Hyrule Warriors titles, but no final total was found.",
+    "confidence": "medium on the 2 fully-confirmed names; low-medium on the rest"
+  },
+  "systems": {
+    "difficultyModes": "Nintendo's product page confirms 'multiple selectable difficulties' plus a post-game-unlockable 'Forbidden Difficulty' (added via free update, harder than the standard tiers). Exact names/count of the standard difficulty tiers below Forbidden are UNCONFIRMED. Confidence: medium.",
+    "multiplayer": "Local 2-player split-screen co-op on one Switch 2, or cross-system via GameShare (only one player needs to own the game). No online multiplayer confirmed either way. Confidence: high on local co-op/GameShare; unconfirmed on online.",
+    "syncStrike": "A cooperative attack: nearby characters with full Sync gauges can perform a joint 'Sync Strike.' Inspired by TotK's hand-touch mechanic per the director. The Nov 27, 2025 free update added a new Zelda/Calamo Sync Strike specifically. Confidence: high on existence.",
+    "weaponUpgrades": "Weapons enhanced using 'Zonaite Steel' material; a stronger 'Pure Zonaite Steel' variant was added via free update for further upgrades. Character upgrades separately use collected 'spoils' resources, described as done 'with community assistance.' Camps unlock during missions where submitting materials grants performance buffs. A reviewer described weapon/skill upgrades as 'quite simple,' without extensive grinding. Confidence: medium.",
+    "medalListSystem": "UNCONFIRMED — the single most important open question for trophy design. Earlier Hyrule Warriors titles (2014 original, Age of Calamity) both had an in-game 'Medal List' achievement-analog system. No source across 3 independent scouts confirmed this exists in Age of Imprisonment, nor confirmed it was removed. Treat as a genuine unknown, not an assumed carryover.",
+    "completionPercentageTracker": "UNCONFIRMED — Age of Calamity had a specific quest ('Hope of All Hyrule') showing overall completion. No equivalent was found described for this title by any of 3 independent scouts. Treat as a genuine unknown.",
+    "missables": "No source discussed permanently-lockable content, time-limited events, or point-of-no-return story choices. The ONE exception: the cross-save bonus weapons (see below) depend on external save data being present, which is a form of conditional availability, though not really 'missable' in the traditional sense.",
+    "rng": "UNCONFIRMED — no material drop rates or weapon rarity tier details found.",
+    "qolToggles": "A reviewer mentioned optional auto-heal and auto-refill-battery assist toggles. Unconfirmed whether these affect trophy eligibility (no evidence they do or that the game tracks their use)."
+  },
+  "crossSaveBonuses": {
+    "detail": "High Guard's Claymore unlocks from detecting Hyrule Warriors: Age of Calamity save data on the system; High Guard's Sword unlocks from detecting Tears of the Kingdom save data. One-time bonus weapons, not an ongoing collectible category.",
+    "designNote": "Since these require owning and having played SEPARATE games on the same system, no trophy should require them — mirrors the precedent set for BotW's amiibo-gated content earlier this session.",
+    "confidence": "high on existence; unconfirmed on exact in-game surfacing (likely a weapon inventory)."
+  },
+  "amiibo": {
+    "detail": "Scanning compatible amiibo grants crafting materials and other rewards. Specific amiibo list and reward table not found.",
+    "designNote": "No trophy should require amiibo, consistent with the precedent set earlier this session (requires owning specific physical merchandise).",
+    "confidence": "medium"
+  },
+  "freeUpdates": {
+    "update1": { "date": "2025-11-27", "content": "2 new weapons (a spear and a two-handed claymore-style sword), a new Zelda/Calamo Sync Strike, unspecified new map challenges (likely story-progress-gated)." },
+    "update2Promised": { "content": "Phantom Ganon boss, Forbidden Difficulty, a 3rd weapon, Unique Skills for the Mysterious Construct, Pure Zonaite Steel material. Date not confirmed — described as a further promised update, may not be released as of this dossier's research date." },
+    "designNote": "Since Update 2's exact release/availability status is unconfirmed, trophies referencing Phantom Ganon or Forbidden Difficulty carry some risk if that content isn't live yet for all players — flag any such trophy's dependency clearly."
+  },
+  "reverifiedFacts": {
+    "note": "A follow-up re-verification pass reached Game8.co (which the first pass could not access), resolving several previously-unconfirmed facts to high confidence.",
+    "fullRoster19": {
+      "list": ["Zelda", "Rauru", "Mineru", "Calamo", "Mysterious Construct", "Typhan", "Raphica", "Vence", "Qia", "Agraston", "Ardi", "Quino", "Lago", "Pinnec", "Cadlan", "Sholani", "Ronza", "Braton", "Pastos"],
+      "unlockMethod": "11 via natural story progression, 8 via optional 'Scouting Challenges' (e.g. Sholani and Pastos tied to Chapter 4 Scouting Challenges).",
+      "confirmedNotPlayable": "Link (role filled narratively by the Mysterious Construct, a Link-lookalike party member), Ganondorf (boss-only, as Phantom Ganon and Demon King Ganondorf), and Sonia (NPC-only).",
+      "confidence": "high"
+    },
+    "campaignStructure": {
+      "chapters": 6,
+      "totalBattles": 28,
+      "battleTitlesInOrder": ["To the Great Plateau", "The Art of the Blade", "Where Ancient Wisdom Sleeps", "Raging Sands", "The Hands of Evil", "Growing Suspicion", "Striking North", "Beneath the Blood Moon", "The Howling Tempests", "Shadows in the Snow", "Lanayru Defiled", "The Behemoth in the Crater", "Crisis on Death Mountain", "Under Cover of Mist", "Terror of the Sands", "Crimson Omen", "A Time for Action", "The Counterstrike", "Ambush in the Depths", "Purging the Shadows", "Fire and Sand", "Into the Fray", "The Archfiend's Return", "The Battle of Hyrule Castle", "The Demon King, Ensnared", "The Battle of Hyrule Field", "The Final Confrontation", "A Clash of Constructs"],
+      "estimatedMainStoryTime": "~20 hours for main Battles only, per Game8",
+      "confidence": "high"
+    },
+    "bossCorrection": {
+      "wrong": "Assumed 'Archfiend' was an official boss-category term with 4 named members, only 1 of which (Grimgera) had been found.",
+      "correct": "'Archfiend' is NOT an official in-game boss term — it appears exactly once, in the chapter/battle title 'The Archfiend's Return,' and is never used to label a boss or boss class. The real recurring boss cluster is four 'Grim-'-prefixed named bosses: Grimgera, Grimtorok, Grimgohma, Grimgibdo — all four are fought together in Chapter 5's climax alongside Demon King Ganondorf. No official collective name for this group of four was found; do not assert 'Archfiend' as their name in trophy text.",
+      "confidence": "medium"
+    },
+    "stillUnresolved": "Medal List/achievement-analog system and an overall completion-percentage tracker both remain unconfirmed even after this pass — leaning medium-confidence NEGATIVE (absent across multiple detailed Game8 guide hubs plus Nintendo's own product page), but not conclusively proven absent. ALSO UNRESOLVED: whether any discrete in-game counter exists for roster recruitment (e.g. 'X/19') or boss/battle completion — this affects verification wording for any 'recruit everyone' or 'complete every battle' trophy, which should verify via visual/menu completion state (e.g. 'no locked slots remain') rather than assuming a numeric counter is displayed."
+  },
+  "gaps": [
+    "Whether an in-game Medal List (achievement-analog) exists is UNCONFIRMED — the single most load-bearing unknown for trophy design. If no such system exists, trophies must verify via other real game screens (roster, weapon inventory, results screens) instead.",
+    "Whether an overall completion-percentage tracker exists is UNCONFIRMED.",
+    "Total chapter/mission count and full mission title list UNCONFIRMED.",
+    "3 of 4 'Archfiend' boss names UNCONFIRMED — only Grimgera is named.",
+    "Full playable roster count and complete list UNCONFIRMED — only 2 characters (Zelda, Rauru) are fully confirmed playable.",
+    "Whether the promised second free update (Phantom Ganon, Forbidden Difficulty) has actually shipped as of the research date is UNCONFIRMED.",
+    "Exact standard difficulty tier names/count (below Forbidden Difficulty) UNCONFIRMED.",
+    "No confirmed in-game screen for weapon collection, character upgrade completion, or per-mission KO/results stats — standard Warriors-series conventions are assumed but not verified for this specific title.",
+    "This entire research round was constrained by the same tool-access friction as every other game this session — WebSearch budget exhausted early in each scout's task, most major outlets (IGN, Nintendo Life, ZeldaWiki, Zelda Dungeon, GameSpot, Push Square, Reddit, Polygon, Eurogamer, VG247) returned 403/blocked errors. Usable sources were largely limited to Wikipedia, Nintendo's official store page, Metacritic, and Siliconera."
+  ]
+}

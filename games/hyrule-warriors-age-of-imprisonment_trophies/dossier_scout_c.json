@@ -1,0 +1,217 @@
+{
+  "beat": "progression systems, trackable stats, missable content, RNG, difficulty, multiplayer, version notes",
+  "game": "Hyrule Warriors: Age of Imprisonment",
+  "platform": "Nintendo Switch 2",
+  "existenceVerification": {
+    "confirmed": true,
+    "summary": "Real, released title. Announced April 2, 2025 during the Nintendo Switch 2 reveal Direct. Released November 6, 2025, exclusively on Nintendo Switch 2. Developed by Koei Tecmo (Omega Force / AAA Games Studio), published by Nintendo (Koei Tecmo in Japan). Prequel story depicting the 'Imprisoning War' referenced in The Legend of Zelda: Tears of the Kingdom, starring Princess Zelda and King Rauru. Metacritic score 79/100 ('Generally Favorable', 105 critic reviews); Famitsu gave it 35/40. Shipped over 1 million copies worldwide as of January 26, 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment",
+      "https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/",
+      "https://www.metacritic.com/game/hyrule-warriors-age-of-imprisonment/",
+      "https://www.siliconera.com/hyrule-warriors-age-of-imprisonment-debuts-on-switch-2-this-year/"
+    ]
+  },
+  "findings": [
+    {
+      "category": "platform",
+      "name": "Switch 2 exclusivity",
+      "detail": "Nintendo's own product page lists the game as a Nintendo Switch 2 exclusive with no original Switch version, unlike Breath of the Wild / Tears of the Kingdom / Age of Calamity which all ran on original Switch. File size listed as 43.5 GB. Supports TV, Tabletop, and Handheld modes.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/", "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Local co-op / split-screen / GameShare",
+      "detail": "Supports local co-op for 2 players with split-screen on a single system, and Switch 2 GameShare allowing a second player to join via a second console without owning a copy of the game ('only one person needs to have the game'). No mention found of online multiplayer specifically (online functionality, if any, unconfirmed).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Multiple difficulty settings + Forbidden Difficulty",
+      "detail": "Official Nintendo listing states there are 'multiple selectable difficulties', plus a post-game unlockable difficulty tier called 'Forbidden Difficulty'. Exact names/number of standard difficulty tiers below Forbidden not confirmed by any source found.",
+      "trackable": "Unconfirmed whether difficulty selection is shown/tracked anywhere in menus beyond selection itself.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "achievement-like system",
+      "name": "No confirmed in-game Medal List",
+      "detail": "Earlier Hyrule Warriors titles (original Hyrule Warriors, Age of Calamity) featured an in-game 'Medal List' as a pseudo-achievement system. I could not find any source (official page, Wikipedia, reviews) confirming this system exists in Age of Imprisonment, nor confirming it was removed. This is a critical unknown for trophy design.",
+      "trackable": "UNCONFIRMED",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "completion tracking",
+      "name": "No confirmed overall completion percentage stat",
+      "detail": "Age of Calamity had a specific quest ('Hope of All Hyrule') showing overall game completion percentage. No equivalent system was found described for Age of Imprisonment in any source checked (official site, Wikipedia, review excerpts).",
+      "trackable": "UNCONFIRMED",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "progression",
+      "name": "Weapon upgrades via Zonaite Steel",
+      "detail": "Per Wikipedia's gameplay summary: players use 'spoils' to upgrade characters by assisting the people of ancient Hyrule, and improve weapons with 'Zonaite Steel'. Zonai devices function with a battery mechanic tied to abilities.",
+      "trackable": "Unconfirmed where upgrade progress is displayed (likely a character/weapon menu, unverified).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment"]
+    },
+    {
+      "category": "progression",
+      "name": "Camps and material submission",
+      "detail": "Per a Siliconera hands-on review: camps unlock during campaign missions where submitting materials/items provides performance buffs. Weapon/skill upgrades described by the reviewer as 'quite simple' to manage, with no extensive grinding required.",
+      "trackable": "Unconfirmed tracking UI.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.siliconera.com/review-hyrule-warriors-age-of-imprisonment-is-a-slower-paced-musou/"]
+    },
+    {
+      "category": "progression",
+      "name": "Character unlock pacing",
+      "detail": "Reviewer noted the roster starts limited (around 3 playable characters) and expands to 6+ over the course of the campaign, similar to pacing of prior Hyrule Warriors titles. Exact total roster count not confirmed by any source found.",
+      "trackable": "Character select screen likely shows unlocked roster (unconfirmed).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.siliconera.com/review-hyrule-warriors-age-of-imprisonment-is-a-slower-paced-musou/"]
+    },
+    {
+      "category": "roster",
+      "name": "Confirmed named characters",
+      "detail": "Characters confirmed by name across sources: Princess Zelda (protagonist), King Rauru, Queen Sonia, Mineru (Zonai-tech focused moveset), Calamo (new character added in Nov 2025 update, teams up with Zelda for a Sync Strike), and three masked Sage characters: Zora Queen Qia, Goron Chief Agraston, Rito Sage Raphica. Ganondorf and a 'Knight Construct' appear in the story per Wikipedia. This is not confirmed to be the full playable roster.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment",
+        "https://www.siliconera.com/hyrule-warriors-age-of-imprisonment-trailer-shows-sage-characters/",
+        "https://www.siliconera.com/hyrule-warriors-age-of-imprisonment-free-update-arrives-this-week/"
+      ]
+    },
+    {
+      "category": "combat mechanic",
+      "name": "Sync Strike",
+      "detail": "A cooperative attack system: when nearby characters have full Sync gauges, they can perform a joint 'Sync Strike' attack. Inspired by the hand-touch mechanic from Tears of the Kingdom, per director Koki Aoyanagi. The Nov 27, 2025 free update added a new Zelda/Calamo Sync Strike specifically.",
+      "trackable": "Unconfirmed whether Sync Strike usage is counted/tracked anywhere.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Hyrule_Warriors:_Age_of_Imprisonment", "https://www.siliconera.com/hyrule-warriors-age-of-imprisonment-free-update-arrives-this-week/"]
+    },
+    {
+      "category": "mission structure",
+      "name": "Large-scale battles",
+      "detail": "Missions range from brief supply/support tasks to large story campaigns; some battles reportedly feature 500-1,000+ enemies. Players can assign allied characters to different map locations simultaneously to handle multiple objectives at once (per hands-on review).",
+      "trackable": "Enemy defeat counts likely shown per-mission (standard Warriors-series convention) but not explicitly confirmed for this title.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.siliconera.com/review-hyrule-warriors-age-of-imprisonment-is-a-slower-paced-musou/"]
+    },
+    {
+      "category": "QoL / assist options",
+      "name": "Auto-heal and auto-refill battery toggles",
+      "detail": "Reviewer mentions optional settings to auto-heal when low on health and auto-refill Zonai device battery. These sound like assist-mode style toggles that could affect trophy eligibility design (similar to how some games disqualify trophies if assist options are on) but no confirmation such a restriction exists here.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.siliconera.com/review-hyrule-warriors-age-of-imprisonment-is-a-slower-paced-musou/"]
+    },
+    {
+      "category": "amiibo",
+      "name": "amiibo support",
+      "detail": "Official Nintendo store listing confirms amiibo support grants in-game rewards. Specific amiibo/rewards list not found in any source checked.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "save data bonus",
+      "name": "Cross-save bonuses from Age of Calamity and Tears of the Kingdom",
+      "detail": "Official Nintendo listing states save data from Hyrule Warriors: Age of Calamity and The Legend of Zelda: Tears of the Kingdom unlocks bonuses in this game. Exact bonuses not detailed in any source found.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/"]
+    },
+    {
+      "category": "post-launch content",
+      "name": "Free content updates",
+      "detail": "Nintendo's listing promises free post-launch content updates including additional challenges and Phantom Ganon battles. The first confirmed free update shipped November 27, 2025, adding two new weapons (a spear and a two-handed claymore-style sword), a new Zelda/Calamo Sync Strike, and unspecified 'new challenges' on the map, likely gated behind story progress.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.nintendo.com/us/store/products/hyrule-warriors-age-of-imprisonment-switch-2/",
+        "https://www.siliconera.com/hyrule-warriors-age-of-imprisonment-free-update-arrives-this-week/"
+      ]
+    },
+    {
+      "category": "critical reception note",
+      "name": "Repetitiveness criticism (relevant to completionist trophy pacing)",
+      "detail": "Metro GameCentral gave a notably low score (40/100), calling the game 'insanely repetitive, horribly shallow, and pointlessly easy' — worth noting for trophy pacing/difficulty assumptions, though this is an outlier opinion versus the 79 Metacritic average.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.metacritic.com/game/hyrule-warriors-age-of-imprisonment/"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Overall completion percentage (Hope of All Hyrule-style tracker)",
+      "where": "UNCONFIRMED - no source found describing this system for this title",
+      "confidence": "low"
+    },
+    {
+      "stat": "Medal List / achievement-like in-game system",
+      "where": "UNCONFIRMED - no source found confirming this exists in this title (present in earlier Hyrule Warriors games)",
+      "confidence": "low"
+    },
+    {
+      "stat": "Character roster unlock progress",
+      "where": "Likely a character select screen, standard for the series, but not explicitly confirmed by any source for this title",
+      "confidence": "low"
+    },
+    {
+      "stat": "Per-mission enemy defeat / KO count",
+      "where": "Standard Warriors-series convention (post-mission results screen) but not explicitly confirmed for this title by any source checked",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Hyrule Warriors: Age of Imprisonment is Nintendo Switch 2 exclusive with no original Switch release, unlike prior mainline Zelda titles (BOTW, TOTK) and the previous Hyrule Warriors spin-off Age of Calamity, all of which ran on original Switch.",
+      "confidence": "high"
+    },
+    {
+      "note": "GameShare (Switch 2 feature) allows a second local player to join split-screen co-op without owning a copy of the game.",
+      "confidence": "high"
+    },
+    {
+      "note": "A free content update (Nov 27, 2025) added new weapons and a new Sync Strike combo; Nintendo has committed to further free updates including Phantom Ganon battles, implying additional post-launch content beyond what shipped at launch. Trophy/achievement lists built purely from launch-day information may miss this added content.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Could not confirm whether the game has any in-game achievement/'Medal List' analog at all (present in earlier Hyrule Warriors titles). This is the single most important unresolved question for downstream trophy design, since per the ruleset a trophy can only be built on something the game displays to the player.",
+    "Could not confirm whether an overall completion-percentage stat (like Age of Calamity's 'Hope of All Hyrule') exists.",
+    "Could not confirm the total playable character roster count or the full character list — only a partial list of named characters (Zelda, Rauru, Sonia, Mineru, Calamo, Qia, Agraston, Raphica, plus story-only Ganondorf) was found.",
+    "Could not confirm the total number of maps, regions, or missions in the campaign.",
+    "Could not confirm any missable content — no source discussed permanently-lockable content, time-limited events, or point-of-no-return story choices.",
+    "Could not confirm RNG/loot drop systems in any detail (e.g., rare material drop rates, weapon rarity tiers).",
+    "Could not confirm whether online multiplayer exists beyond local co-op/GameShare (official source only described local/split-screen/GameShare).",
+    "Could not confirm exact names or number of standard difficulty tiers below the post-game 'Forbidden Difficulty'.",
+    "Could not access several major review outlets (IGN, Polygon, Eurogamer, VG247, GameSpot, Nintendo Life, ZeldaWiki, Hyrule Warriors Fandom wiki, Reddit) due to tool/access restrictions during this session, so this dossier likely under-represents available information. A follow-up pass against those specific sources is recommended if this beat needs firming up.",
+    "WebSearch tool quota was exhausted early in this task (shared session budget), forcing reliance on direct WebFetch guesses at URLs; some potentially valuable sources were simply never found because search was unavailable."
+  ]
+}
