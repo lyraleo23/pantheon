@@ -65,7 +65,28 @@ Manual operations:
 node scripts/validate.mjs games/<slug>/trophies.json   # mechanical rule checks
 node scripts/validate.mjs --all
 node scripts/render.mjs games/<slug>/trophies.json     # JSON → Markdown
+node scripts/build-catalog.mjs                         # JSON → app/public/data
 ```
+
+---
+
+## 📱 The app
+
+`app/` is a small PWA that turns the lists into something you can actually tick off — on a phone, offline, installable from the browser.
+
+```bash
+cd app
+npm install
+npm run dev
+```
+
+Open a game, tap a trophy to mark it earned, and watch the tier counts move. Secret trophies stay masked until you reveal them, missable ones are flagged, and DLC packs are counted apart — the Platinum lights up on its own once every other trophy in the base list is earned, and never before.
+
+The app never reads `games/` at runtime. `scripts/build-catalog.mjs` runs before every build and copies the lists into `app/public/data/`, which the service worker precaches. Generating a list with `/pantheon` and pushing is all it takes for the game to show up on your phone.
+
+Progress lives in the browser's own storage, on that device. There is no account and no server. **Settings → Backup** exports it as a `.json` and imports it back, which is how you move a save between your phone and your desktop.
+
+A push to `main` builds and publishes it to GitHub Pages.
 
 ---
 
@@ -77,13 +98,15 @@ pantheon/
 ├── schema/trophy_list.schema.json    # list structure
 ├── scripts/
 │   ├── validate.mjs                  # deterministic checks
-│   └── render.mjs                    # JSON → Markdown
+│   ├── render.mjs                    # JSON → Markdown
+│   └── build-catalog.mjs             # JSON → app/public/data
 ├── templates/
 ├── games/<slug>/
 │   ├── trophies.json                 # source of truth
 │   ├── dossier.json                  # research findings
 │   ├── trophies.md                   # generated
 │   └── progress.md                   # yours — never overwritten
+├── app/                              # the PWA
 └── .claude/
     ├── skills/pantheon/              # the pipeline
     ├── agents/                       # scout + auditor

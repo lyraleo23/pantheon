@@ -1,0 +1,10 @@
+node_modules/
+app/dist/
+app/tsconfig.tsbuildinfo
+
+# Gerado por scripts/build-catalog.mjs a partir de games/. Fonte da verdade
+# fica em games/, então o build recria isto do zero.
+app/public/data/
+
+.claude/settings.local.json
+.DS_Store
