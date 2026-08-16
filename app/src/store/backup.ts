@@ -1,4 +1,5 @@
 import { getState, type GameProgress, type ProgressState } from './progress'
+import { getPrefs, type Prefs } from './prefs'
 
 /**
  * O progresso mora no aparelho, então o backup é a única ponte entre o celular
@@ -14,6 +15,8 @@ export interface Backup {
   version: number
   exportedAt: string
   progress: ProgressState
+  /** Opcional: backup gerado antes das preferências existirem não tem. */
+  prefs?: Prefs
 }
 
 export function buildBackup(): Backup {
@@ -22,6 +25,7 @@ export function buildBackup(): Backup {
     version: VERSION,
     exportedAt: new Date().toISOString(),
     progress: getState(),
+    prefs: getPrefs(),
   }
 }
 
@@ -42,8 +46,13 @@ function isEarnedMap(value: unknown): value is Record<string, number> {
   return Object.values(value).every((at) => typeof at === 'number')
 }
 
+export interface ParsedBackup {
+  progress: ProgressState
+  prefs?: Prefs
+}
+
 /** Lança com mensagem legível: é o que a tela mostra quando o arquivo não serve. */
-export function parseBackup(text: string): ProgressState {
+export function parseBackup(text: string): ParsedBackup {
   let parsed: unknown
   try {
     parsed = JSON.parse(text)
@@ -76,7 +85,9 @@ export function parseBackup(text: string): ProgressState {
     }
   }
 
-  return { version: 1, games: clean }
+  // As preferências são acessório: `replacePrefs` descarta o que não reconhece,
+  // então um arquivo sem elas — ou com lixo — importa o progresso do mesmo jeito.
+  return { progress: { version: 1, games: clean }, prefs: backup.prefs }
 }
 
 /** Resumo mostrado na confirmação, antes de sobrescrever o que já existe. */
