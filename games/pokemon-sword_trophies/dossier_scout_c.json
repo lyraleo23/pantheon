@@ -1,0 +1,225 @@
+{
+  "beat": "systems",
+  "game": "Pokemon Sword",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "trackable_stat_ui",
+      "name": "League Card (back side)",
+      "detail": "Replaces the classic Trainer Card in Galar. Back side displays: start date, first partner (starter) Pokemon, current party at time of card creation, Galar Pokedex registration count, Curry Dex count (curries made), Rotom Rally high score, total Pokemon caught in battles, total Shiny Pokemon found, Trainer ID number, League Uniform number, and player name. Gym badges are shown as a golden medallion/ring also viewable via the League Card section of the menu.",
+      "trackable": "League Card screen, accessible from the pause menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/League_Card", "https://bulbapedia.bulbagarden.net/wiki/Draft:Badge_case"]
+    },
+    {
+      "category": "trackable_stat_ui",
+      "name": "Galar Pokedex caught/seen counts",
+      "detail": "The Rotom Phone Pokedex app tracks seen and caught status per species across the Galar Dex (base game: 400 species). Exact on-screen 'X/400' style caught/seen tally could not be independently confirmed for its precise UI presentation, but the League Card's 'Pokedex count' stat (see above) does surface an aggregate registered number, and the shiny charm reward is explicitly gated on 'complete the Galar Pokedex,' implying the game itself tracks completion.",
+      "trackable": "Rotom Phone Pokedex app + League Card aggregate count.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://swordshield.pokemon.com/en-us/gameplay/about-pokedex-rotom-phone/", "Shiny Charm sources below"]
+    },
+    {
+      "category": "trackable_stat_ui",
+      "name": "Battle Tower rank / streak / tier",
+      "detail": "Battle Tower (offline, single-player, vs. NPC trainers) has 5 tiers (Beginner, Poke, Great, Ultra, Master) and 11 ranks (1-10 and MAX). One source states rank/streak are tracked and rank can fall on a loss (though tier does not decrease); another source states rank+tier, once obtained, never decreases -- these two descriptions conflict on whether rank itself can regress. Leon appears as a battle before advancing to the next tier.",
+      "trackable": "Battle Tower rank/tier UI shown when entering the facility.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://screenrant.com/pokemon-sword-shield-understanding-battle-tower-rankings-rewards/", "https://www.gamesradar.com/pokemon-sword-and-shield-battle-tower/", "https://bulbapedia.bulbagarden.net/wiki/Battle_Tower_(Generation_VIII)"]
+    },
+    {
+      "category": "rng_system",
+      "name": "Shiny Charm",
+      "detail": "Obtained by fully registering (catching, per common understanding of 'complete the dex') all 400 entries of the base-game Galar Pokedex; NOT gated on the Isle of Armor or Crown Tundra DLC dexes, which are separate. Reward given by an NPC ('doctor') in a room on the top floor of Hotel Ionia, Circhester. Increases shiny odds from base 1/4096 to roughly 1/1365.33 for standard wild/random encounters. Also improves odds for Masuda Method (international) breeding from 1/683 to roughly 1/512.",
+      "trackable": "Held-item inventory (Key Items); presence is visually confirmable but no in-game shiny-charm-specific counter beyond the League Card's shiny-caught tally.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://rotomlabs.net/sword-shield/shiny-rates", "https://gamerant.com/pokemon-sword-shield-shiny-charm/", "https://www.newsweek.com/pokemon-sword-shield-shiny-hunting-rates-odds-charm-battle-combo-1472515"]
+    },
+    {
+      "category": "shiny_confirmation",
+      "name": "Shiny visual/audio confirmation",
+      "detail": "Standard series convention applies (sparkle particle effect + distinctive jingle on encounter, and a recolored model). Not specifically re-verified for SwSh via search this session but is a long-standing, essentially unchanged franchise mechanic.",
+      "trackable": "Visual sparkle on encounter; Pokedex may mark shiny-caught entries (unconfirmed in this session).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["recollection, not independently re-verified this session"]
+    },
+    {
+      "category": "rng_system",
+      "name": "Dynamax Adventure legendary shiny odds (Crown Tundra DLC)",
+      "detail": "In each Dynamax Adventure (Crown Tundra DLC), every defeated Pokemon in the run has an independent shiny roll of 1/300 without the Shiny Charm, or 1/100 with it. The final legendary encountered is captured with a guaranteed/100% catch rate (no ball-throw RNG), so only its shininess is left to chance. This is DLC content -- noted here because it's an RNG system, but ownership/coverage belongs partly to the DLC beat.",
+      "trackable": "Result is a caught Pokemon in the party/box; shown as shiny sparkle + Pokedex shiny mark.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://screenrant.com/pokemon-crown-tundra-shiny-drop-rate-odds-dynamax/", "https://www.dexerto.com/pokemon/how-to-get-shiny-legendary-pokemon-in-crown-tundra-dynamax-adventures-1440964/"]
+    },
+    {
+      "category": "rng_system",
+      "name": "Breeding: IVs, natures, egg moves",
+      "detail": "IV inheritance: without items, 3 IVs pass down randomly from parents; holding a Destiny Knot on one parent guarantees 5 of 12 possible IV slots get inherited. Nature inheritance: holding an Everstone on a parent passes that nature to offspring (not 100% guaranteed in every past game, but functionally reliable in practice per guides). Perfect IVs are NOT purely RNG-gated: Bottle Caps/Gold Bottle Caps enable Hyper Training, which deterministically maxes an individual stat's effective IV to 31 for battle purposes without any chance involved. This matters for trophy design -- a 'perfect IV Pokemon' goal is achievable deterministically via Hyper Training, not just by breeding RNG.",
+      "trackable": "IVs viewable via the Judge feature (rate Pokemon's potential) in the Pokemon summary screen, accessible after obtaining it from a certain NPC.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.newsweek.com/pokemon-sword-shield-breeding-guide-ivs-egg-moves-hidden-abilities-1472775", "https://victoryroad.pro/2019/12/04/perfect-pokemon-pokemon-sword-shield/"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No formal difficulty mode",
+      "detail": "Pokemon Sword has no easy/normal/hard toggle at game start and no post-launch difficulty option. The only related option is the Battle Style setting (Switch vs. Set) in the options menu -- Set mode hides the opponent's next Pokemon after a faint, forcing blind switches, which raises effective difficulty but is not framed as a 'difficulty mode.'",
+      "trackable": "Options menu shows current Battle Style setting.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://twinfinite.net/guides/pokemon-sword-shield-can-you-change-difficulty-answered/", "https://www.gamerevolution.com/guides/617108-pokemon-sword-and-shield-difficulty-modes-is-there-a-hard-mode"]
+    },
+    {
+      "category": "postgame_content",
+      "name": "Champion Cup Rematch tournament",
+      "detail": "After the main story, the Champion Cup can be replayed repeatedly. Player can select which opponent to invite (or randomize); pool includes the 8 Gym Leaders, Marnie, Hop, Leon, Piers, and other named trainers/random Gym Challengers (roughly ~26 potential named opponents cited by one source). Gym Leaders and other named opponents can Gigantamax a Pokemon in these rematches. Leon's rematch team differs slightly from his story team (benches Haxorus, adjusts movesets).",
+      "trackable": "Tournament results/participation not confirmed to have a dedicated counter beyond normal battle outcomes.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/swordshield/championcuprematch.shtml", "https://www.thegamer.com/pokemon-sword-shield-most-difficult-champion-cup-rematch-opponent-trainers/"]
+    },
+    {
+      "category": "multiplayer_dependency",
+      "name": "Max Raid Battles can be fully soloed",
+      "detail": "Selecting 'Don't Invite Others' when starting a Max Raid Den lets the player battle with 3 AI-controlled NPC trainers instead of real players. AI partners are guaranteed to fill empty slots. This confirms Max Raid content (including Gigantamax dens) is completable single-player without any online/local co-op dependency.",
+      "trackable": "Not a counter, but relevant to whether raid-based trophies require multiplayer -- they do not.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamerguides.com/pokemon-sword-and-shield/guide/intro-and-gameplay/pokemon-battles/max-raid-battles", "https://www.gamespot.com/articles/pokemon-sword-and-shield-max-raid-guide/1100-6471678/"]
+    },
+    {
+      "category": "multiplayer_dependency",
+      "name": "Battle Stadium (Ranked/Casual online battles) requires paid Nintendo Switch Online",
+      "detail": "Distinct from the offline single-player Battle Tower. Battle Stadium online ranked/casual battles require a paid NSO membership and matchmaking against real players. Any trophy tied to Battle Stadium participation/rank would be online-service-dependent, unlike Battle Tower.",
+      "trackable": "Battle Stadium in-game rank/rating display (not independently confirmed in detail this session).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamewith.net/pokemon-swordshield/article/show/12167", "https://bulbapedia.bulbagarden.net/wiki/Battle_Stadium"]
+    },
+    {
+      "category": "trade_requirement",
+      "name": "Trade-only evolutions present and NOT bypassed by an item in Sword/Shield",
+      "detail": "Sword and Shield still use classic trade-only evolution for Machoke->Machamp, Kadabra->Alakazam, Graveler->Golem, Haunter->Gengar, Phantump->Trevenant, Pumpkaboo->Gourgeist, and the mutual Karrablast<->Shelmet trade-evolution pair. The Linking Cord item that removes the trade requirement was not introduced until Legends: Arceus (later game), so it does NOT exist in Sword/Shield. However, Game Freak made several of the FULLY EVOLVED forms (e.g., Machamp, Gengar per some sources) directly catchable in the wild (notably in the Wild Area) for the first time, letting players obtain the evolved form without trading if desired -- this needs per-species verification, as it wasn't confirmed for every trade-evolution line (e.g., unclear if wild Gourgeist/Trevenant are catchable pre-evolved-only or also as final forms).",
+      "trackable": "Owned via normal party/box; Pokedex marks 'caught' regardless of evolution method.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://dotesports.com/pokemon/news/every-pokemon-that-evolves-through-trade-in-sword-and-shield", "https://comicbook.com/gaming/news/pokemon-sword-and-shield-trade-evolutions/", "https://www.powerpyx.com/pokemon-sword-shield-gourgeist-location/"]
+    },
+    {
+      "category": "version_exclusive",
+      "name": "Sword-exclusive legendary: Zacian",
+      "detail": "Zacian (Fairy/Steel-type in its Crowned Sword form when holding the Rusted Sword) is exclusive to Pokemon Sword. Zamazenta is the Shield-exclusive counterpart. The other version's legendary can only be obtained via trade or (historically) special serial-code shiny distributions.",
+      "trackable": "Caught Pokemon shows in party/box/Pokedex.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.dbltap.com/posts/pokemon-sword-and-shield-version-exclusives-01dj8jgvdgvb", "https://pokejungle.net/pokemon-sword-shield/version-differences/"]
+    },
+    {
+      "category": "version_exclusive",
+      "name": "Sword-exclusive Gym Leader: Bea",
+      "detail": "Bea, the Fighting-type Gym Leader, appears in Sword. Shield's counterpart Fighting-position Gym Leader is Allister (Ghost-type) -- note: community sources vary slightly on exact type framing; treat gym-leader-swap detail as needing a second confirmation before writing a trophy description around it.",
+      "trackable": "Story progression / badge case.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dbltap.com/posts/pokemon-sword-and-shield-version-exclusives-01dj8jgvdgvb"]
+    },
+    {
+      "category": "version_exclusive",
+      "name": "Sword-exclusive species (partial list, unverified completeness)",
+      "detail": "Community-compiled list of Sword-exclusive species includes: Flapple, Indeedee (Male), Stonjourner, Deino/Zweilous/Hydreigon, Jangmo-o/Hakamo-o/Kommo-o, Gothita/Gothorita/Gothitelle, Seedot/Nuzzleaf/Shiftry, Rufflet/Braviary, Swirlix/Slurpuff, Scraggy/Scrafty, Sawk, Basculin (Blue-Striped Form), Mawile, Solrock, Passimian, Turtonator, Galarian Farfetch'd/Sirfetch'd, Galarian Darumaka/Darmanitan. This list came from a single secondary source and was not cross-checked entry-by-entry against Bulbapedia/Serebii; treat individual species as medium confidence pending verification, especially since some of these (e.g. Mawile, Sawk vs Throh) are also referenced as in-game-trade-obtainable regardless of version via NPC trades.",
+      "trackable": "Pokedex per-species caught flag.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dbltap.com/posts/pokemon-sword-and-shield-version-exclusives-01dj8jgvdgvb"]
+    },
+    {
+      "category": "version_exclusive",
+      "name": "Shield-exclusive species (partial list, unverified completeness)",
+      "detail": "Community-compiled Shield exclusives: Appletun (source text said 'Appleton', likely a typo for Appletun), Indeedee (Female), Eiscue, Galarian Ponyta/Rapidash, Galarian Corsola/Cursola. Same caveat as Sword list -- single secondary source, not independently cross-checked.",
+      "trackable": "Pokedex per-species caught flag.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dbltap.com/posts/pokemon-sword-and-shield-version-exclusives-01dj8jgvdgvb"]
+    },
+    {
+      "category": "missable",
+      "name": "Starter Pokemon choice locks out the other two in that playthrough",
+      "detail": "At game start, the player picks one of Grookey, Scorbunny, or Sobble; the other two cannot be caught or obtained natively in that save file. Obtaining them requires trading (with another player/console, or via GTS/Wonder Trade/Pokemon HOME juggling multiple save files) -- there is no in-game vendor or wild encounter for starters. This is a genuine single-playthrough missable unless the player uses external trading.",
+      "trackable": "Party/Box/Pokedex.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://www.dexerto.com/pokemon/how-to-get-all-three-pokemon-sword-shield-starters-without-trading-1362804/", "https://gamerant.com/pokemon-sword-shield-all-starter-pokemon/"]
+    },
+    {
+      "category": "missable",
+      "name": "Version-exclusive NPC in-game trades",
+      "detail": "Several NPC trades in Galar swap a version-exclusive Pokemon offered by the trader for a specific Pokemon the player must hand over (e.g., a trainer trades a female Hatenna in Sword vs. an Impidimp in Shield, both requiring the player to give up a Maractus; a Circhester trainer wants a Sawk in Sword vs. a Throh in Shield in exchange for a Vanillish). These are one-time trades; if the player doesn't have/can't get the requested 'offer' Pokemon before triggering/completing the trade, or misses the specific NPC, they lose that easy path to the exclusive species (though alternate paths like external trading may remain).",
+      "trackable": "Pokedex caught flag once received.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.rpgsite.net/feature/9222-pokemon-sword-and-shield-in-game-trades-all-npc-pokemon-trades-listed"]
+    },
+    {
+      "category": "missable",
+      "name": "Time-limited Mystery Gift / serial-code event Pokemon (pre-2026, effectively permanently gone for a new player)",
+      "detail": "Multiple event-exclusive Pokemon were distributed via time-limited serial codes or Pokemon HOME promotions and their windows have since closed, meaning a player starting fresh in 2026 cannot obtain them through normal means: Shiny Zacian/Shiny Zamazenta (GameStop/retail code distribution, ~Nov 2021, since expired), Zarude (event-distributed 2020-2021, no longer available through legitimate normal means barring a re-release), Shiny Zeraora (tied to a limited Max Raid participation window, delivered via Pokemon HOME, concluded), Shiny Eternatus, event Genesect/Volcanion/Marshadow, Otsukimi Clefairy, Victory Victini, 2022 World Championships Sinistea, Ash's event Pokemon (Lucario/Sirfetd'd/Gengar/Dragonite/Dracovish), and 25th Anniversary Film Fest Pokemon (Palkia/Dialga/Jirachi/Latias/capped Pikachu) -- these all had 2022-and-earlier expiration windows per Bulbapedia's event distribution list. IMPORTANT: this list came from an AI summarization of a Bulbapedia page rather than a direct read of the source table, so exact species/dates should be spot-checked before being used verbatim in a trophy description.",
+      "trackable": "N/A -- these are external one-time acquisitions, not counted by any in-game progress tracker beyond the Pokedex 'caught' flag if later obtained.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/List_of_event_Pok%C3%A9mon_distributions_in_Pok%C3%A9mon_Sword_and_Shield"]
+    },
+    {
+      "category": "version_difference",
+      "name": "National Dex cut ('Dexit') -- no way to import all past-game Pokemon",
+      "detail": "Sword/Shield only support a 400-species Galar Pokedex (base game); Pokemon not in this list cannot be transferred in via Pokemon HOME at all, and Game Freak's producer stated this is an intentional, likely-permanent design direction, not a bug. This caps what a 'complete the Pokedex' trophy could realistically ask for -- it must target the Galar Dex (400, or larger once DLC dexes are added), not a 'catch 'em all 900+' style goal.",
+      "trackable": "Pokedex completion percentage/count is the correct scope for any such trophy.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/pokemon-sword-shield-cut-national-pokedex-good-bad/", "https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future"]
+    },
+    {
+      "category": "pokemon_home_dependency",
+      "name": "Full 400-entry Galar Dex realistically requires trading (online or local)",
+      "detail": "Because Zacian/Zamazenta and dozens of other species are split across Sword vs. Shield, and some species are trade-evolution-only, completing the full Galar Pokedex (and thus earning the Shiny Charm) in a single-copy playthrough effectively requires trading with another player (in person, online via Y-Comm/Link Trade, GTS, or Wonder Trade) or owning/borrowing a copy of the opposite version. Pokemon HOME can also be used to shuttle Pokemon between a player's own Sword and Shield saves if they own both, or to pull in compatible species from other Switch-era games, but HOME does not bypass the Dexit restriction (species not in the Galar Dex still cannot enter Sword/Shield even via HOME).",
+      "trackable": "N/A directly, but downstream of the Pokedex completion trackable stat.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["synthesis of version-exclusive and Dexit findings above"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Galar Pokedex registration count (aggregate)", "where": "League Card back side, and implicitly the Rotom Phone Pokedex app", "confidence": "high" },
+    { "stat": "Total Pokemon caught (lifetime)", "where": "League Card back side", "confidence": "high" },
+    { "stat": "Total Shiny Pokemon found", "where": "League Card back side", "confidence": "high" },
+    { "stat": "Curry Dex count (unique curries made)", "where": "League Card back side", "confidence": "high" },
+    { "stat": "Rotom Rally high score", "where": "League Card back side", "confidence": "high" },
+    { "stat": "Gym Badges collected", "where": "League Card menu section, shown as a golden medallion of inserted badges", "confidence": "high" },
+    { "stat": "Battle Tower rank and tier", "where": "Battle Tower facility UI upon entry", "confidence": "medium" },
+    { "stat": "Trainer ID number / League Uniform number", "where": "League Card back side", "confidence": "high" },
+    { "stat": "Per-species Pokedex caught/seen flags", "where": "Rotom Phone Pokedex app", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Zacian is Sword-exclusive (Zamazenta is Shield-exclusive) -- confirmed high confidence, this is the headline version difference relevant to a Sword-specific trophy list.", "confidence": "high" },
+    { "note": "Gym Leader Bea (Sword) vs. Allister (Shield) is the exclusive Gym Leader swap, though exact typing/role framing should be double-checked before writing a trophy around 'defeat Bea.'", "confidence": "medium" },
+    { "note": "Dozens of species are split Sword-exclusive vs. Shield-exclusive; the specific lists gathered this session came from a single secondary source (dbltap) and were not cross-verified against Bulbapedia/Serebii species-by-species -- treat individual species claims as medium confidence only.", "confidence": "medium" },
+    { "note": "No platform differences beyond Switch exist for this game (it is Switch-exclusive); 'version differences' here means Sword vs. Shield cartridge/digital version, not platform.", "confidence": "high" },
+    { "note": "Battle Style option (Switch vs Set) is a real toggle in the options menu but is not a formal difficulty mode; there is no easy/normal/hard selector.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not directly confirm the exact on-screen layout/wording of the Pokedex 'caught/seen' counter in the Rotom Phone app (e.g., whether it shows a running X/400 fraction or just per-species icons) -- inferred from League Card aggregate count and Shiny Charm gating logic instead of a direct screenshot/source describing the Pokedex UI itself.",
+    "Could not fully resolve a contradiction between two sources on whether Battle Tower rank can decrease on a loss within a tier, or whether rank+tier are monotonically non-decreasing once achieved. Needs a tie-breaking source (e.g. Bulbapedia's own Battle Tower page body text) before a trophy is built around 'reach Master Rank.'",
+    "Did not verify, species-by-species, the full and exact Sword-exclusive / Shield-exclusive Pokemon lists against a primary source (Bulbapedia/Serebii tables); only pulled a secondary aggregator's list (dbltap). This should be spot-checked, especially the 'Appleton' entry which is almost certainly a typo for Appletun.",
+    "Did not verify whether ALL trade-evolution lines (Karrablast/Shelmet, Phantump/Trevenant, Pumpkaboo/Gourgeist) have their FULLY EVOLVED forms independently catchable in the wild the way Machamp/Gengar reportedly are -- only Gourgeist's wild availability was directly checked (found in Hammerlocke Hills, but unclear if pre-evolved Pumpkaboo or evolved Gourgeist itself spawns there).",
+    "Could not independently confirm the exact shiny-encounter visual/audio confirmation and whether the Pokedex marks an entry as 'shiny caught' distinctly from a normal catch -- this is standard franchise behavior but was not re-verified for Sword/Shield specifically this session (confidence: low, flagged accordingly).",
+    "Did not verify whether Battle Stadium (online ranked) shows a persistent numeric rank/rating the player can screenshot/reference for a trophy, versus just win/loss records -- only confirmed that it requires paid NSO and matchmaking.",
+    "Did not verify current-day (2026) status of Mystery Gift internet distributions for Sword/Shield -- i.e., whether Nintendo/Game Freak still has ANY active ongoing internet-distribution codes live for this game via Mystery Gift > 'Get via Internet', or whether that service itself might be entirely dead for a Gen 8 title by now. This affects whether ANY event Pokemon should be used in trophy design at all.",
+    "Did not verify the precise mechanic/UI for viewing individual Pokemon IVs (the 'Judge' NPC/feature) -- name and availability recalled from general knowledge, not verified via search this session.",
+    "Isle of Armor's Kubfu -> Urshifu split-evolution choice (Single Strike vs Rapid Strike Style) was not researched in depth since it's borderline DLC/Scout B territory, but it may represent a missable/choice-locked evolution worth flagging to the DLC scout if not already covered."
+  ]
+}

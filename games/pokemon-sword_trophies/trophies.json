@@ -1,0 +1,524 @@
+{
+  "game": {
+    "title": "Pokémon Sword",
+    "slug": "pokemon-sword",
+    "code": "PSW",
+    "targetPlatform": "Nintendo Switch",
+    "mode": "genesis",
+    "developer": "Game Freak",
+    "publisher": "The Pokémon Company / Nintendo",
+    "genre": "Monster Collecting RPG",
+    "releaseYear": 2019,
+    "estimatedDifficulty": 3,
+    "estimatedHours": "25-35h main story, 50h+ for full base-game completion",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode. Nintendo Switch has no native achievement/trophy system, and Sword has never released on any other platform. Design decisions made at the research checkpoint: (1) Sword's version-exclusive Gym Leaders (Bea, 4th; Gordie, 6th) are deliberately NOT given individual trophies — they play an identical structural role to Shield's Allister/Melony, so a dedicated trophy would inflate the list without adding meaningful distinct content; they're covered by PSW-003 (first badge) and PSW-014 (all 8 badges), mirroring the Scarlet list's precedent of not trophying Great Tusk individually despite it being version-exclusive. (2) The Isle of Armor and Crown Tundra expansions each get a separate trophy list under `dlc` per Rule 14; neither affects this base Platinum, matching the precedent from the Scarlet list's Teal Mask/Indigo Disk lists. (3) PSW-026 (Pokémon Professor) targets only the base 400-species Galar Pokédex, deliberately completed before either DLC pack is installed (the Galar Dex does not expand from the DLC packs — they have their own separate dexes — but Zamazenta, the Shield-exclusive version legendary, and several other version-exclusive species still require trading with another player/copy to complete even the base dex; this is standard series behavior, not a design flaw). (4) Two scout sources disagreed on whether the Pokédex screen shows a numeric completion percentage on Switch; PSW-026 sidesteps this entirely by using the Shiny Charm — a discrete, unambiguous key item — as its verification target instead. (5) PSW-024 (Warrior of Legend)'s description deliberately avoids naming an exact catch location for Zacian, since sources disagreed on whether it's caught at Hammerlocke Stadium or the Slumbering Weald. (6) Battle Tower trophies (PSW-018, PSW-027) are phrased as one-time 'reach' milestones rather than 'maintain,' sidestepping a source disagreement over whether Battle Tower rank can regress after a loss. (7) Battle Stadium (online ranked/casual battles, requires paid Nintendo Switch Online) is deliberately excluded from this list per Rule 13 — Max Raid Battles and the Battle Tower are both confirmed fully soloable offline and are used instead. (8) The large batch of 2020-2022 time-limited Mystery Gift/serial-code event Pokémon (Shiny Zacian/Zamazenta, Zarude, Shiny Zeraora, etc.) is excluded entirely, not merely missable-flagged, since their distribution windows are almost certainly closed for a player starting today — the same reasoning the Scarlet list applied to its own expired event content. (9) List size and tier proportions (13 bronze / 8 silver / 6 gold / 1 platinum = 27+1) intentionally mirror the Scarlet list's structure, since both are similarly-scoped single-region mainline entries."
+  },
+  "trophies": [
+    {
+      "id": "PSW-001",
+      "name": "Journey Begins",
+      "description": "Leave Postwick with Hop and receive your starter Pokémon from Leon.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The opening sequence concludes with the starter Pokémon added to the party and the overworld map opening up beyond Postwick.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-002",
+      "name": "Whispers in the Weald",
+      "description": "Witness the Darkest Day manifest in the Slumbering Weald and find the Rusted Sword among its ruins.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The Darkest Day cutscene plays in the Slumbering Weald and the Rusted Sword is added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-003",
+      "name": "First Badge",
+      "description": "Defeat Milo, Turffield's Gym Leader, and earn your first Gym Badge.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Milo's defeat cutscene plays and the Grass Badge is added to the Badge Case.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-004",
+      "name": "Titan of the Ring",
+      "description": "Dynamax a Pokémon in battle for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Dynamax growth animation plays and the giant Pokémon's Max Move options become available.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-005",
+      "name": "Camp Cook",
+      "description": "Set up camp and cook your first curry.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The curry-cooking cutscene concludes and the meal is served to the party at camp.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-006",
+      "name": "A Glimmer in Galar",
+      "description": "Catch a Shiny Pokémon.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Shiny Pokémon is added to the party or box with its distinct color and sparkle animation.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-007",
+      "name": "Back from the Past",
+      "description": "Restore a Fossil Pokémon with Dr. Cara Liss on Route 6.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The restored Fossil Pokémon is added to the party or box following Cara Liss's fusion process.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-008",
+      "name": "Raid Victory",
+      "description": "Clear a Max Raid Battle at a Pokémon Den in the Wild Area.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The raid's victory screen plays and its rewards are added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-009",
+      "name": "Colossal Catch",
+      "description": "Obtain your first Gigantamax Pokémon.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The caught Pokémon's Pokédex/box entry displays its Gigantamax factor.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-010",
+      "name": "Into the Wild Area",
+      "description": "Enter the Wild Area for the first time.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "The Wild Area loads and its overlay (weather, Dens, Watts display) appears on screen for the first time.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-011",
+      "name": "Full Throttle",
+      "description": "Complete a Rotom Rally run on the Rotom Bike.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The Rotom Rally course is finished before time expires and its reward is granted.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-012",
+      "name": "A Fair Trade",
+      "description": "Complete an in-game Pokémon trade with an NPC.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "The traded-for Pokémon appears in the party or box following the trade animation.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-013",
+      "name": "Treasure Hunters",
+      "description": "Pay the Digging Duo to dig for an item in the Wild Area for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The dug-up item is added to the Bag following the digging animation.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-014",
+      "name": "Champion's Circuit",
+      "description": "Earn all 8 Gym Badges of the Galar League.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Badge Case shows all 8 Gym Badges present.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-015",
+      "name": "Star Student",
+      "description": "Defeat Bede in his Champion Cup Finals gatecrasher battle.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Bede's defeat triggers his post-battle dialogue and the Champion Cup resumes toward the Championship match.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-016",
+      "name": "Path to the Ruin",
+      "description": "Defeat Chairman Rose at the Energy Plant.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Rose's defeat triggers his surrender and the story sequence continues toward the Energy Plant's core.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-017",
+      "name": "Dex Explorer",
+      "description": "Register at least 150 species in the Galar Pokédex.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Pokédex app's registered-species count reaches 150 or higher.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-018",
+      "name": "Great Ball and Beyond",
+      "description": "Reach at least the Great Ball Tier in the postgame Battle Tower.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The Battle Tower's tier display shows Great Ball Tier or higher reached.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "Phrased as a one-time 'reach' milestone rather than a maintained streak, since sources disagreed on whether Battle Tower rank can regress after a loss."
+    },
+    {
+      "id": "PSW-019",
+      "name": "Champion Cup Rematch",
+      "description": "Win a full Champion Cup Rematch tournament at Wyndon Stadium.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The rematch tournament's victory screen plays after defeating every chosen opponent.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-020",
+      "name": "Storm Chaser",
+      "description": "Defeat the berserk, Crowned form of the opposing Legendary atop Hammerlocke Stadium.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "The berserk Legendary's defeat triggers its retreat and the postgame story sequence continues.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-021",
+      "name": "Rival's Farewell",
+      "description": "Win Hop's final rematch battle at the close of the postgame story.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Hop's defeat triggers his closing dialogue for the postgame rival arc.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-022",
+      "name": "The Second Darkest Day",
+      "description": "Battle and capture the Eternamax-transformed Eternatus alongside Hop and the two awakened Legendary Pokémon.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Eternatus is added to the party or box following the mandatory capture that ends the battle.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-023",
+      "name": "Champion at Last",
+      "description": "Defeat Leon and become the Champion of the Galar Pokémon League.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Leon's defeat triggers the Championship ceremony and Hall of Fame registration.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-024",
+      "name": "Warrior of Legend",
+      "description": "Catch your version's Legendary Pokémon in its Crowned form once Sordward and Shielbert's scheme is foiled.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "The Legendary Pokémon is added to the party or box following its capture.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PSW-025",
+      "name": "Curry Connoisseur",
+      "description": "Complete the Curry Dex by cooking all 151 curry recipes.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Curry Dex screen shows 151/151 and the Gold Cooking Utensils reward is granted.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "The Curry Dex is a discrete, fully game-tracked collection built from buying varied ingredients across Galar's towns rather than repetitive farming, so a full-completion Gold trophy is coherent with Rule 20 rather than excessive grinding."
+    },
+    {
+      "id": "PSW-026",
+      "name": "Pokémon Professor",
+      "description": "Complete the base Galar Pokédex, before installing any DLC.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Shiny Charm is granted by the Director at Hotel Ionia in Circhester, confirming every base-game Galar Pokédex entry has been registered as caught.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "Roughly 46 species in the 400-entry base dex are Shield-exclusive (including Zamazenta), so completing this dex on a single Sword copy requires trading with another player or a copy of Shield — standard, unavoidable series behavior. Complete this before installing Isle of Armor or Crown Tundra to keep the base-game trophy's scope from drifting into paid DLC content."
+    },
+    {
+      "id": "PSW-027",
+      "name": "Master Rank",
+      "description": "Reach the Master Ball Tier, the Battle Tower's highest rank.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The Battle Tower's tier display shows Master Ball Tier reached.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "Phrased as a one-time 'reach' milestone rather than a maintained streak, for the same reason noted on PSW-018."
+    },
+    {
+      "id": "PSW-028",
+      "name": "The Crowned Sword",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other base-game trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "The Isle of Armor",
+      "trophies": [
+        {
+          "id": "PSWIA-001",
+          "name": "New Horizons",
+          "description": "Arrive at the Isle of Armor for the first time.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The Isle of Armor loads as a new destination following the ferry cutscene from Wedgehurst Station.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-002",
+          "name": "Trial by Fire",
+          "description": "Complete one of the Master Dojo's three trials for Mustard for the first time.",
+          "tier": "bronze",
+          "type": "sidequest",
+          "verification": "Mustard acknowledges the completed trial back at the Dojo.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-003",
+          "name": "Dojo Rival",
+          "description": "Defeat Klara in a battle at the Master Dojo grounds.",
+          "tier": "bronze",
+          "type": "boss",
+          "verification": "Klara's defeat triggers her post-battle dialogue.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-004",
+          "name": "A Cub of Your Own",
+          "description": "Complete all three Master Dojo trials and receive Kubfu from Mustard.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "Kubfu is added to the party following the trial-completion ceremony.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-005",
+          "name": "Style Chosen",
+          "description": "Evolve Kubfu into Urshifu by conquering one of the Towers of Two Fists.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "Kubfu evolves into Urshifu, in either Single Strike or Rapid Strike Style, atop the chosen tower.",
+          "missable": true,
+          "secret": false,
+          "origin": "original",
+          "notes": "Only one Urshifu style is obtainable per playthrough via this method without trading for a second Kubfu; flagged missable per Rule 15."
+        },
+        {
+          "id": "PSWIA-006",
+          "name": "Digging Deeper",
+          "description": "Find at least 50 of the Isle of Armor's hidden Alolan Diglett.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "The Diglett-tracking NPC near the Master Dojo bridge reports a running counter of Diglett found so far, out of 150; this trophy is earned once that counter reaches 50 or higher.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-007",
+          "name": "Diglett's Dozens",
+          "description": "Find all 150 hidden Alolan Diglett on the Isle of Armor.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Diglett-tracking NPC's running counter reaches 150/150 and the final milestone reward is granted.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWIA-008",
+          "name": "Souped Up",
+          "description": "Obtain a Gigantamax form of a starter Pokémon by feeding it Max Soup.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "The starter Pokémon's model changes to its Gigantamax form when Dynamaxed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "The Crown Tundra",
+      "trophies": [
+        {
+          "id": "PSWCT-001",
+          "name": "Snowbound",
+          "description": "Arrive in the Crown Tundra for the first time.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The Crown Tundra region loads as a new destination following the train cutscene to Freezington.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-002",
+          "name": "Into the Lair",
+          "description": "Begin your first Dynamax Adventure at the Max Lair.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The Max Lair's group-selection screen transitions into the four-battle Adventure sequence for the first time.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-003",
+          "name": "Treasure of the Tundra",
+          "description": "Spend Dynite Ore at the Max Lair shop for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The purchased item is added to the Bag in exchange for Dynite Ore.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-004",
+          "name": "Ancient Giants",
+          "description": "Obtain all three Legendary titans — Regirock, Regice, and Registeel — by solving their ruin puzzles.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "All three Regis show as registered/owned in the Pokédex.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-005",
+          "name": "The Choice at Three-Point Pass",
+          "description": "Solve the Split-Decision Ruins puzzle and catch either Regieleki or Regidrago.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "The chosen Legendary is added to the party or box following its capture.",
+          "missable": true,
+          "secret": false,
+          "origin": "original",
+          "notes": "Regieleki and Regidrago are mutually exclusive on a single save; flagged missable per Rule 15."
+        },
+        {
+          "id": "PSWCT-006",
+          "name": "Ride On",
+          "description": "Obtain Calyrex and fuse it with a summoned steed for the first time.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "The Reigns of Unity fusion animation plays, forming Ice Rider or Shadow Rider Calyrex.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-007",
+          "name": "Legendary Haul",
+          "description": "Catch a Legendary Pokémon during a Dynamax Adventure at the Max Lair.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "A Legendary-classified Pokémon is added to the party or box following a Dynamax Adventure's guaranteed capture.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PSWCT-008",
+          "name": "Three Birds, Reforged",
+          "description": "Catch a Galarian form of Articuno, Zapdos, or Moltres through Peony's questline.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "The caught Galarian-form bird is registered in the Pokédex.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

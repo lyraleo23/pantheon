@@ -1,0 +1,271 @@
+{
+  "beat": "collectibles, side quests, secret areas, minigames, post-game, and DLC",
+  "game": "Pokémon Sword",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Galar Pokédex (base game)",
+      "detail": "The base Galar Pokédex contains 400 species. This is the main regional dex used for pre-DLC Pokédex completion.",
+      "trackable": "Pokédex app on the Rotom Phone shows seen/caught counts per regional dex and (per standard mainline Pokédex behavior since Sun/Moon) a completion percentage; not all guides agree there is a visible star/percentage indicator on the Trainer Card itself.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Galar_Pok%C3%A9dex_number"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Sword-exclusive species count",
+      "detail": "Reported as 46 species exclusive to Sword in the base game (includes several pseudo-legendaries/legendaries and version-exclusive evolution lines). A single-version, no-trading playthrough can realistically fill approximately 387 of the 400 base dex entries.",
+      "trackable": "Pokédex seen/caught list distinguishes per-entry status.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://screenrant.com/pokemon-sword-shield-exclusives-legendaries-galarian-forms-types/", "https://screenrant.com/pokemon-shield-version-exclusives-full-list/"]
+    },
+    {
+      "category": "reward",
+      "name": "Shiny Charm",
+      "detail": "Awarded by 'the Director' NPC found on the 2nd floor of Hotel Ionia in Circhester (the same person who earlier gave the Catching Charm) once the player shows him a completed 400-entry Galar Pokédex (caught, not just seen).",
+      "trackable": "Item is added to Bag; Pokédex completion is trackable via the dex list itself.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.powerpyx.com/pokemon-sword-and-shield-shiny-charm/", "https://gamerant.com/pokemon-sword-shield-shiny-charm/"]
+    },
+    {
+      "category": "system",
+      "name": "Wild Area",
+      "detail": "An open, freely-explorable region-spanning zone (accessed after early story progress) featuring weather/overworld encounter variation, the Rotom Bike, Pokémon Dens for Max Raid Battles, Watt Traders, the Digging Duo, and a Pokémon Nursery. Distinct from linear Routes.",
+      "trackable": "No dedicated Wild Area completion tracker found; individual sub-systems (Pokédex, Curry Dex) are tracked separately.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.trainertower.com/pokemon-sword-and-shield-wild-area-guide/", "https://game8.co/games/pokemon-sword-shield/archives/272852"]
+    },
+    {
+      "category": "system",
+      "name": "Max Raid Battles / Pokémon Dens",
+      "detail": "Glowing red beams mark Dens scattered across the Wild Area; players (solo with AI or up to 4-player co-op) battle a Dynamaxed wild Pokémon. Wins reward EXP Candies, Dynamax Candy, TRs matching the raid boss's moves, and high-value items; the raid boss can then be caught.",
+      "trackable": "No explicit in-game raid-win counter found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/pokemon-sword-shield/archives/272852"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Dynamax / Gigantamax",
+      "detail": "Once per battle in specific battle types (Gym battles, raids, some Trainer battles), a Pokémon can Dynamax (grow giant, gain boosted 'Max Move' variants) for 3 turns. Certain species have a unique Gigantamax form/appearance and exclusive G-Max move instead of a generic Dynamax.",
+      "trackable": "Not separately tracked; visible per-battle only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/pokemon-sword-shield/archives/274735"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gigantamax Pokémon (base game)",
+      "detail": "Approx. 25 species can Gigantamax in the base game (sources vary 25-27), obtained via Max Raid Dens or, for starters, via Max Soup at the Isle of Armor Dojo (DLC-gated). Reported Sword-exclusive raid G-Max forms: Machamp, Coalossal, Flapple. Reported Shield-exclusive: Gengar, Lapras, Appletun. Charizard G-Max obtainable from Leon's gift after becoming Champion or via raid. Across base game + Isle of Armor combined, total reaches 33 (Isle of Armor adds G-Max Venusaur, Blastoise, Rillaboom, Cinderace, Inteleon, and Urshifu's two styles).",
+      "trackable": "Caught Gigantamax forms appear as a distinct visual/box entry but there is no explicit in-game 'Gigantamax collected' counter found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/swordshield/gigantamax.shtml", "https://screenrant.com/all-pokemon-sword-shield-gigantamax-max-raid-who/", "https://dotesports.com/pokemon/news/how-to-get-gigantamax-cinderace-inteleon-and-rillaboom-in-pokemon-sword-and-shields-isle-of-armor-expansion"]
+    },
+    {
+      "category": "system",
+      "name": "Watts",
+      "detail": "Wild Area currency earned from footprints of other players' Pokémon seen roaming the overworld, or from Max Raid participation. Spent at Watt Traders (rotating stock of Poké Balls, a Wishing Piece, and 5 TRs daily) and to pay the Digging Duo for items.",
+      "trackable": "Total Watts held is shown in the Wild Area currency display.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/pokemon-sword-shield/archives/274295", "https://www.gamesradar.com/location-of-watt-traders-in-pokemon-sword-and-shield/"]
+    },
+    {
+      "category": "system",
+      "name": "Digging Duo (base game)",
+      "detail": "Two brothers near the Wild Area Pokémon Nursery who dig for items in exchange for Watts (500W typical cost). The 'skill' brother finds rarer items (Gold Bottle Cap, Wishing Piece, evolution stones, fossils) but tires faster; the 'stamina' brother digs more times but finds more common items.",
+      "trackable": "No explicit dig-count tracker found in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamewith.net/pokemon-swordshield/article/show/14066", "https://rankedboost.com/pokemon-sword-shield/digging-duo/"]
+    },
+    {
+      "category": "npc",
+      "name": "Fossil Restoration — Dr. Cara Liss",
+      "detail": "Found on Route 6 (near the Wild Area's Dusty Bowl/camper area). Combines two fossils (one 'head' type + one 'body' type) found via digging or purchase to create a hybrid fossil Pokémon: Fossilized Bird+Dino = Dracozolt/Arctozolt style pairing; exact combos: Bird+Dino=Arctozolt, Fish+Drake=Dracovish, Bird+Drake=Dracozolt, Fish+Dino=Arctovish (fossil types are version-exclusive in supply — Sword leans Dino/Bird, Shield leans Fish/Drake, roughly).",
+      "trackable": "Not tracked beyond Pokédex/Bag entries for the fossils/resulting Pokémon.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Cara_Liss", "https://gameranx.com/features/id/187523/article/pokemon-sword-shield-how-to-get-all-the-ancient-dino-pokemon-fossil-restoration-guide/"]
+    },
+    {
+      "category": "minigame",
+      "name": "Pokémon Camp / Curry cooking",
+      "detail": "Set up a camp anywhere outdoors (functions like Pokémon-Amie/Refresh: petting, playing, raises Friendship/Playfulness/Sociability). Cooking curry is a 3-step minigame (fanning flames, stirring the pot, 'putting your heart into it'); recipe = 1 key ingredient (determines curry type) + berries (determine flavor). There are 151 total curry combinations logged in the 'Curry Dex.' Multiplayer camping lets others help cook for better results.",
+      "trackable": "Curry Dex explicitly tracks which of the 151 curries have been cooked; completing all of them rewards Golden/Gold Cooking Utensils.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamesradar.com/pokemon-sword-and-shield-currydex-curry-recipes/", "https://www.serebii.net/swordshield/currydex.shtml"]
+    },
+    {
+      "category": "postgame",
+      "name": "Battle Tower",
+      "detail": "Located in Wyndon (formerly Rose Tower), unlocked after finishing the main Champion Cup story. Competitive Lv.50 battles across 11 ranks in tiers (Beginner, Poké Ball, Great Ball, Ultra Ball, Master Ball per various sources — exact tier names/count vary slightly between guides). Must periodically defeat Leon to progress tiers. Master Ball Tier rewards include Rare Candy x10, Mints, Ability Capsule, Bottle Caps, Gold Bottle Cap, and BP.",
+      "trackable": "Battle Tower rank/tier is shown and saved; BP (Battle Points) balance is tracked and spendable at a BP shop.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/swordshield/battletower.shtml", "https://gamewith.net/pokemon-swordshield/article/show/13858"]
+    },
+    {
+      "category": "minigame",
+      "name": "Rotom Rally",
+      "detail": "A timed Rotom Bike racing minigame available in the Wild Area (postgame-relevant but can be attempted earlier once the bike is obtained). Reach the finish before time expires to earn Watts; faster clears earn more. First-time completion reward: TM14 Thunder Wave; repeated high-performance completions can reward the Fast Ball.",
+      "trackable": "No persistent leaderboard/counter confirmed beyond per-run Watt payout.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/rotom-rally-guide/", "https://gamewith.net/pokemon-swordshield/article/show/13860"]
+    },
+    {
+      "category": "collectible",
+      "name": "League Cards",
+      "detail": "Customizable trainer cards (Rotom Phone 'Card Maker' app) that can be collected from NPCs/rivals (e.g., Leon's, Ball Guy's, Peony's League Cards) and traded with other players online via a code system. Stored in a 'League Card album' in the Rotom Phone menu.",
+      "trackable": "Album lists collected cards, but no confirmed fixed total count or in-game completion percentage for League Cards was found.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.serebii.net/swordshield/leaguecard.shtml"]
+    },
+    {
+      "category": "gap-flagged",
+      "name": "Legendary birds (Galarian Articuno/Zapdos/Moltres)",
+      "detail": "IMPORTANT CORRECTION to initial assumption: these Galarian-form legendary birds are NOT base-game postgame content. They are exclusive to the Crown Tundra DLC quest 'A Legendary Tree of a Legendary Three,' given by Peony, starting at Balimere Lake/Dyna Tree Hill. Each bird flees to a different DLC-relevant area (Zapdos to the original Wild Area, Moltres to Isle of Armor, Articuno to Crown Tundra) with a unique chase mechanic per bird.",
+      "trackable": "Catch confirmed via Pokédex entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.rpgsite.net/feature/10405-pokemon-sword-shield-articuno-zapdos-moltres-where-to-catch-the-new-shiny-locked-galarian-forms", "https://www.gamerguides.com/pokemon-sword-and-shield/guide/story-walkthrough/postgame-adventures/big-trouble-in-little-galar-part-1"]
+    },
+    {
+      "category": "dlc",
+      "name": "Isle of Armor — overview",
+      "detail": "First expansion (Expansion Pass), released June 2020. New island area (the Isle of Armor) accessed via a Digimon-style ferry after early-mid main story progress on save data with the Expansion Pass. Adds Master Dojo run by Mustard, a rival character (Klara in Sword / Avery in Shield), Kubfu (gifted after completing 3 trials), and new wild encounters/Isle of Armor Pokédex (approx. 211 entries per Pokémon Database listing, includes returning older-gen species).",
+      "trackable": "Isle of Armor Pokédex tracked separately in Rotom Phone dex app once DLC installed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/The_Isle_of_Armor", "https://pokemondb.net/pokedex/game/sword-shield/isle-of-armor"]
+    },
+    {
+      "category": "dlc",
+      "name": "Isle of Armor — Master Dojo trials / Kubfu / Urshifu",
+      "detail": "Three trials to earn Kubfu: (1) chase and battle three fleeing Galarian Slowpoke in the Soothing Wetlands (after they steal the Sword/Shield-exclusive rival's Dojo uniform — Klara in Sword, Avery in Shield); (2) find 3 clusters of Max Mushrooms (used to brew Max Soup); (3) defeat the rival trainer. After raising Kubfu's friendship, the player picks one of two Towers of Two Fists to climb: Tower of Water evolves Kubfu into Rapid Strike Style Urshifu; Tower of Darkness evolves it into Single Strike Style Urshifu. Only one form obtainable per playthrough via this method (the other Urshifu style requires a second Kubfu via trade/Max Raid or another save).",
+      "trackable": "Kubfu/Urshifu appear in party/box and Pokédex once obtained.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/pokemon-sword-shield/archives/290660", "https://www.gamerguides.com/pokemon-sword-and-shield/guide/the-isle-of-armor-dlc/walkthrough/becoming-friends-with-kubfu"]
+    },
+    {
+      "category": "dlc",
+      "name": "Isle of Armor — Diglett hunt",
+      "detail": "Side quest started by crossing the bridge outside the Master Dojo: find 150 hidden Alolan Diglett scattered across the Isle of Armor (they poke out of the ground with a distinctive hair tuft). Milestone rewards at various counts include Alolan Meowth (5), Kantonian Slowpoke holding King's Rock (10), Alolan Vulpix (20), Alolan Sandshrew (30), and further rewards for higher totals.",
+      "trackable": "An NPC (Digging Duo's relative or a dedicated tracker) reports current Diglett-found count; exact display location not independently confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-sword-and-shield-all-diglett-locations-rewards-alolan-isle-of-armor-dlc/", "https://www.gamespot.com/articles/pokemon-isle-of-armor-here-is-what-you-get-for-fin/1100-6478827/"]
+    },
+    {
+      "category": "dlc",
+      "name": "Isle of Armor — Digging Duo (Ma & Pa)",
+      "detail": "DLC-exclusive pair, distinct NPCs from the base game's Digging Duo brothers. 'Digging Ma' finds Armorite Ore (the DLC's Watt-equivalent currency, spent at the Isle of Armor's Cram-o-matic and item shops); has a breakable shovel mechanic where all found-but-uncollected items are lost if it breaks.",
+      "trackable": "Armorite Ore total is shown in currency display.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamewith.net/pokemon-swordshield/article/show/14066"]
+    },
+    {
+      "category": "dlc",
+      "name": "Isle of Armor — Restricted Sparring",
+      "detail": "Postgame-of-DLC battle facility feature unlocked after evolving Kubfu into Urshifu and finishing the Isle of Armor storyline. Type-restricted battle challenges at the Master Dojo (distinct from the main-game Battle Tower).",
+      "trackable": "Not confirmed whether a separate rank/counter is displayed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.serebii.net/swordshield/restrictedsparring.shtml"]
+    },
+    {
+      "category": "dlc",
+      "name": "Crown Tundra — overview",
+      "detail": "Second expansion, released October 2020. New snowy region (Crown Tundra) hosted by NPC Peony. Crown Tundra Pokédex contains approx. 210 entries per Pokémon Database (includes many returning legendaries/older-gen Pokémon plus 5 brand-new species: Regieleki, Regidrago, Calyrex, Glastrier, Spectrier).",
+      "trackable": "Crown Tundra Pokédex tracked separately in Rotom Phone once DLC installed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemondb.net/pokedex/game/sword-shield/crown-tundra", "https://www.serebii.net/swordshield/thecrowntundradex.shtml"]
+    },
+    {
+      "category": "dlc",
+      "name": "Crown Tundra — Dynamax Adventures / Max Lair",
+      "detail": "Located at Max Lair (Slippery Slope). Up to 4 players (or NPC-filled) descend through a series of Max Raid-style battles; any Pokémon encountered (including Legendaries, and species outside the normal Galar dexes) is guaranteed-caught with any Poké Ball used, but 4 total party faints end the run early with no catch. Successful/attempted runs award Dynite Ore, a currency spendable with a shopkeeper NPC (Sableye's trainer) in the Lair for items like EXP Candies, Vitamins, Bottle Caps, Wishing Pieces, Dynamax Candy.",
+      "trackable": "Dynite Ore total shown in currency display; a 'Legendary Vault'/box-like storage holds excess legendaries caught via this method (separate from normal PC Boxes) — exact mechanics of the vault not independently re-verified this session.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://screenrant.com/pokemon-dynite-ore-easy-crown-tundra-sword-shield/", "https://bulbapedia.bulbagarden.net/wiki/Max_Lair"]
+    },
+    {
+      "category": "dlc",
+      "name": "Crown Tundra — Peony/Peonia questline",
+      "detail": "Peony's daughter Peonia appears in the Max Lair; she can tip off the player about a specific rare Pokémon findable there in exchange for 5 Dynite Ore, unlocking a guaranteed Dynamax Adventure path to that Pokémon via the scientist NPC in the back of the Lair room.",
+      "trackable": "Not confirmed to have its own counter.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gamewith.net/pokemon-swordshield/article/show/18995"]
+    },
+    {
+      "category": "dlc",
+      "name": "Crown Tundra — Regi puzzles",
+      "detail": "Regirock, Regice, and Registeel are obtained via individual ancient-ruin puzzles scattered around Crown Tundra (classic Gen 3-style puzzles). Bringing all three Regis into the party unlocks the Split-Decision Ruins at Three-Point Pass, where the player solves a floor-pattern puzzle (stepping on the correct sequence of ~10 floor circles) to choose between catching Regieleki (Electric) or Regidrago (Dragon) — the two are mutually exclusive on a single save/encounter.",
+      "trackable": "Pokédex catch flag.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.gosunoob.com/pokemon-sword-shield/regi-puzzles-legendary-giants-crown-tundra/", "https://www.gamerguides.com/pokemon-sword-and-shield/guide/the-crown-tundra/walkthrough/split-decision-ruins-regieleki-or-regidrago"]
+    },
+    {
+      "category": "dlc",
+      "name": "Crown Tundra — Calyrex / Glastrier / Spectrier",
+      "detail": "Calyrex is obtained as part of a Crown Tundra story quest. Player then chooses which 'steed' to summon: an Iceroot Carrot summons Glastrier (Ice-type horse), a Shaderoot Carrot summons Spectrier (Ghost-type horse). The two steeds can be fused with Calyrex via the key item 'Reigns of Unity' to form Ice Rider Calyrex or Shadow Rider Calyrex, and can also be unfused. Getting both Glastrier and Spectrier on one save is possible (not mutually exclusive like the Regis) but not confirmed with certainty this session.",
+      "trackable": "Pokédex catch flags; fusion state is a party/box toggle, not a separate collectible count.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.imore.com/pokemon-sword-and-shield-crown-tundra-how-catch-calyrex-glastrier-spectrier"]
+    },
+    {
+      "category": "gap-flagged",
+      "name": "Pokédex completion percentage / Trainer Card star",
+      "detail": "One guide (GamerAnt) explicitly claims there is no in-game completion percentage indicator for the Pokédex on the Trainer Card, unlike some other mainline titles. However, a separate Pokédex-mechanics source (Bulbapedia) states that since Gen 7 the Pokédex app itself does display a completion percentage. These two claims were not fully reconciled this session.",
+      "trackable": "Uncertain — flagged as a gap.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gamerant.com/pokemon-sword-shield-pokedex-completion-guide/", "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Galar Pokédex seen/caught counts (400 base entries)", "where": "Rotom Phone Pokédex app", "confidence": "high" },
+    { "stat": "Isle of Armor Pokédex seen/caught (DLC, ~211 entries)", "where": "Rotom Phone Pokédex app, separate DLC dex tab", "confidence": "medium" },
+    { "stat": "Crown Tundra Pokédex seen/caught (DLC, ~210 entries)", "where": "Rotom Phone Pokédex app, separate DLC dex tab", "confidence": "medium" },
+    { "stat": "Curry Dex (151 curry recipes cooked)", "where": "Pokémon Camp menu > Curry Dex", "confidence": "medium" },
+    { "stat": "Watts balance", "where": "Wild Area overlay / currency display", "confidence": "medium" },
+    { "stat": "Armorite Ore balance (Isle of Armor DLC currency)", "where": "Isle of Armor currency display", "confidence": "medium" },
+    { "stat": "Dynite Ore balance (Crown Tundra DLC currency)", "where": "Max Lair currency display", "confidence": "medium" },
+    { "stat": "Battle Points (BP)", "where": "Battle Tower BP shop / menu", "confidence": "medium" },
+    { "stat": "Battle Tower rank/tier progress", "where": "Battle Tower menu", "confidence": "medium" },
+    { "stat": "League Card collection ('album')", "where": "Rotom Phone > League Card app", "confidence": "low, no confirmed total/percentage" },
+    { "stat": "Diglett found count (Isle of Armor, out of 150)", "where": "Presumed tracked by an NPC near the Master Dojo bridge; exact UI not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Base-game Gigantamax raid exclusives split by version: Sword gets Machamp, Coalossal, Flapple; Shield gets Gengar, Lapras, Appletun.", "confidence": "medium" },
+    { "note": "Isle of Armor rival NPC differs by version: Klara appears in Sword, Avery appears in Shield (affects which Dojo-uniform-thief cutscene/rival battles the player sees).", "confidence": "medium" },
+    { "note": "Base Galar Pokédex has an estimated 46 Sword-exclusive species (with an unconfirmed, likely similar, Shield-exclusive count) requiring trade to complete on a single copy; roughly 387/400 obtainable solo per version.", "confidence": "medium" },
+    { "note": "Regieleki and Regidrago are a mutually-exclusive single-save choice at the Split-Decision Ruins (Crown Tundra), independent of Sword/Shield version — this is a DLC-content choice, not a version-exclusive.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not fully confirm exact Shield-version exclusive species count for the base Galar Pokédex (only found the Sword figure of ~46).",
+    "Could not confirm an exact, official total count of League Cards obtainable in-game, nor whether the album shows a completion percentage/counter — this matters for whether a 'collect all League Cards' trophy is even trackable.",
+    "Could not confirm the exact UI/location where the Isle of Armor Diglett-found counter (out of 150) is displayed to the player — likely exists but not independently verified.",
+    "Could not verify whether obtaining both Glastrier and Spectrier (Crown Tundra) is possible on a single save without a second Calyrex via trade — flagged as uncertain, unlike the confirmed-exclusive Regieleki/Regidrago choice.",
+    "Could not verify exact Isle of Armor Pokédex and Crown Tundra Pokédex totals from an authoritative primary source; the pokemondb.net-derived figures (211 and 210 respectively) may include overlap/reprint entries from the base Galar dex and should be treated as approximate.",
+    "Could not confirm whether the base game's Pokédex screen displays a numeric completion percentage on Switch (sources conflict) — this is load-bearing for any 'X% Pokédex complete' trophy design.",
+    "Did not verify presence/absence of other secret/hidden areas beyond Wild Area/DLC islands (e.g., any postgame-only sub-areas within Isle of Armor or Crown Tundra) due to time constraints — recommend a follow-up pass if trophy design needs finer area-by-area detail.",
+    "Could not confirm exact Battle Tower tier names/count with full source agreement (guides cite slightly different tier lists — Beginner/Poké/Great/Ultra/Master Ball tiers across 11 ranks per one source, but exact breakdown unverified against an official source).",
+    "Restricted Sparring's own progress tracking (ranks, rewards) was not deeply verified — flagged low confidence."
+  ]
+}

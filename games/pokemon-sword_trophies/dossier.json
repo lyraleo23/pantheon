@@ -1,0 +1,115 @@
+{
+  "game": "Pokémon Sword",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "mergedFrom": ["dossier_scout_a.json", "dossier_scout_b.json", "dossier_scout_c.json"],
+
+  "campaign": {
+    "structure": "Postwick -> rival Hop's send-off -> Slumbering Weald (Darkest Day teaser, Rusted Sword found) -> 8 Gym Leaders in a linear route across Galar towns -> Champion Cup single-elimination tournament at Wyndon (NO Elite Four) -> Rose/Eternatus crisis interrupts the Leon final -> true Leon Championship match -> credits -> base-game postgame: Sordward & Shielbert arc culminating in defeating berserk Zamazenta and catching Zacian.",
+    "gymLeaders": [
+      { "n": 1, "name": "Milo", "type": "Grass", "exclusive": false },
+      { "n": 2, "name": "Nessa", "type": "Water", "exclusive": false },
+      { "n": 3, "name": "Kabu", "type": "Fire", "exclusive": false },
+      { "n": 4, "name": "Bea", "type": "Fighting", "exclusive": "SWORD (Shield has Allister, Ghost)" },
+      { "n": 5, "name": "Opal", "type": "Fairy", "exclusive": false, "note": "succeeded by Bede postgame, both versions" },
+      { "n": 6, "name": "Gordie", "type": "Rock", "exclusive": "SWORD (Shield has Melony, Ice)" },
+      { "n": 7, "name": "Piers", "type": "Dark", "exclusive": false },
+      { "n": 8, "name": "Raihan", "type": "Dragon", "exclusive": false, "note": "uses Gigantamax Duraludon" }
+    ],
+    "championCup": "Semifinals: Marnie, then Hop. Finals: Nessa -> Bea/Allister -> Raihan, with a Bede gatecrasher battle before the championship match. Chairman Rose then triggers the 2nd Darkest Day, interrupting the Leon match.",
+    "climax": [
+      "Chairman Rose boss fight (all-Steel team, ace Copperajah) at the Energy Plant — mandatory.",
+      "Eternamax Eternatus double battle alongside Hop, Zacian and Zamazenta — mandatory capture, cannot be fainted-past.",
+      "Return to Wyndon for the true Champion match vs. Leon (ace: Gigantamax Charizard; confirmed members Aegislash, Dragapult, Haxorus + starter-counter picks)."
+    ],
+    "postgame_basegame": [
+      "Rose Tower converts into the Battle Tower once Champion.",
+      "Sordward & Shielbert steal the Rusted Sword/Shield, force the OPPOSITE legendary (Zamazenta in Sword) into a berserk 'Crowned' state at Hammerlocke Stadium — mandatory defeat, not catchable.",
+      "Player then catches their OWN version legendary (Zacian in Sword) in Crowned Sword form. Exact catch site disputed between sources (Hammerlocke roof vs. Slumbering Weald altar) — LOW confidence, needs pinning down before writing the trophy verification text.",
+      "Hop's final rival battle caps the postgame arc (team composition incl. possible legendary — low confidence)."
+    ],
+    "ending": "Single, linear, non-branching ending/credits.",
+    "swordExclusiveSummary": "Gym Leaders Bea (4th) and Gordie (6th) replace Shield's Allister/Melony; Zacian is the obtainable version legendary (vs. Shield's Zamazenta, which appears only as a mandatory non-catchable postgame boss in Sword)."
+  },
+
+  "collectiblesAndSideContent": {
+    "pokedex": {
+      "baseDexSize": 400,
+      "swordExclusiveSpeciesCountApprox": 46,
+      "singleCopySoloObtainableApprox": 387,
+      "shinyCharmReward": "Granted by 'the Director' NPC, 2nd floor of Hotel Ionia (Circhester), on registering all 400 base-dex species as CAUGHT. Not gated by DLC dexes.",
+      "completionPercentUiConflict": "Two scouts (B and C) both flag this as unresolved: whether the Pokédex UI shows a numeric X/400 or percentage on-screen is disputed across sources. The Shiny Charm itself (a discrete key item) is the reliable, unambiguous verification target regardless of how the UI displays progress — same pattern used for Scarlet's PKS-025."
+    },
+    "wildArea": "Open, weather-varied hub zone with Pokémon Dens (Max Raid Battles), Watt currency, Digging Duo (item digging for Watts), Fossil Restoration (Dr. Cara Liss, Route 6), Pokémon Nursery, Rotom Rally minigame (Rotom Bike time trial).",
+    "maxRaids": "Soloable via 'Don't Invite Others' + AI partners — confirmed no multiplayer dependency (Rule 13 clear).",
+    "gigantamax": "~25-27 species in base game via raids; Sword raid-exclusive forms: Machamp, Coalossal, Flapple (Shield gets Gengar, Lapras, Appletun). G-Max Charizard obtainable as Leon's postgame gift/raid.",
+    "curryDex": "151 trackable curry recipes, tracked in-game via Curry Dex screen (Camp menu), full completion rewards Gold Cooking Utensils.",
+    "battleTower": "Postgame offline solo facility at former Rose Tower; 5 tiers x ranks, BP currency shop. Rank-regression-on-loss is disputed between sources (flagged gap) — avoid a trophy that hinges on that detail.",
+    "championCupRematch": "Postgame repeatable tournament, ~26 possible opponents including all Gym Leaders, Hop, Marnie, Piers, Leon.",
+    "leagueCard": "Replaces Trainer Card; back side shows Pokédex count, Curry Dex count, Rotom Rally high score, total caught, total shinies found, Trainer ID — this is the single richest trackable-stats hub in the game (Scout C, high confidence).",
+    "fossilPokemon": "Dr. Cara Liss combines two fossils into a hybrid (Dracozolt/Arctozolt/Dracovish/Arctovish); fossil type supply leans Sword vs. Shield but not a hard version-exclusive.",
+    "notInBaseGame_correction": "Galarian Articuno/Zapdos/Moltres are NOT base-game postgame content — they belong to the Crown Tundra DLC only (Scout B caught and corrected an initial wrong assumption)."
+  },
+
+  "dlc": {
+    "isleOfArmor": {
+      "released": "June 2020",
+      "content": "New island, Master Dojo (Mustard), rival Klara (Sword) / Avery (Shield), 3 trials to earn Kubfu (Slowpoke chase, Max Mushroom hunt, defeat rival), then a binary Tower choice evolves Kubfu into Single Strike or Rapid Strike Urshifu (MISSABLE — only one style per playthrough without a 2nd Kubfu), 150-Diglett hunt with milestone rewards, DLC-exclusive Digging Duo (Ma & Pa) using Armorite Ore currency, Restricted Sparring postgame-of-DLC battle facility, G-Max Venusaur/Blastoise/Rillaboom/Cinderace/Inteleon added via Max Soup.",
+      "dexSize": "~211 species (approx, may include base-dex overlap)"
+    },
+    "crownTundra": {
+      "released": "October 2020",
+      "content": "New snowy region hosted by Peony. Dynamax Adventures / Max Lair (guaranteed-catch legendary runs using Dynite Ore currency, shiny odds 1/300 base or 1/100 with Shiny Charm per defeated Pokémon in the run). Regi puzzles (Regirock/Regice/Registeel) unlock Split-Decision Ruins where Regieleki vs. Regidrago is a MUTUALLY EXCLUSIVE single-save choice. Calyrex quest + Glastrier/Spectrier steed choice (fusable via Reigns of Unity; both steeds possibly obtainable on one save, unlike the Regis — medium confidence). Galarian Articuno/Zapdos/Moltres catchable here via Peony's questline (chase mechanic).",
+      "dexSize": "~210 species (approx, may include base-dex overlap), includes new species Regieleki, Regidrago, Calyrex, Glastrier, Spectrier"
+    }
+  },
+
+  "trackableStats": [
+    "Gym Badges (Badge Case / League Card medallion) — high confidence",
+    "League Card back side: Pokédex registration count, Curry Dex count, Rotom Rally high score, total caught, total shinies found — high confidence",
+    "Battle Tower rank/tier — medium confidence (regression-on-loss disputed)",
+    "Champion Cup bracket (live, during the event only) — medium confidence",
+    "Shiny Charm as discrete proof of full base Pokédex — high confidence, recommended verification target over a raw percentage",
+    "Curry Dex 151/151 — medium-high confidence",
+    "Isle of Armor / Crown Tundra separate Pokédex tabs — medium confidence on exact totals"
+  ],
+
+  "missables": [
+    "Starter choice locks out the other two starters without external trading (high confidence).",
+    "Version-exclusive NPC one-time trades (medium confidence).",
+    "Kubfu -> Urshifu style choice, Isle of Armor (medium confidence) — only one style per playthrough via the intended method.",
+    "Regieleki vs. Regidrago, Crown Tundra — hard mutually exclusive single-save choice (medium confidence).",
+    "Numerous 2020-2022 time-limited Mystery Gift/event Pokémon (Shiny Zacian/Zamazenta, Zarude, Shiny Zeraora, etc.) are almost certainly unobtainable for a player starting in 2026 — LOW confidence on exact list/dates, but high confidence on the general fact that event distribution windows for this title have closed. Recommend NOT building any trophy around these at all (matches the Scarlet list's precedent of excluding closed time-gated content entirely rather than flagging it missable)."
+  ],
+
+  "rng": [
+    "Shiny hunting: base 1/4096, ~1/1365 with Shiny Charm for wild encounters — a natural 'catch a shiny' Bronze trophy is reasonable per Rule 21 given the League Card explicitly tracks lifetime shinies found.",
+    "Dynamax Adventure (Crown Tundra) shiny odds 1/300 or 1/100 with Charm per defeated Pokémon in a run — reasonable within DLC list scope, not a stacking/reset-required grind.",
+    "Breeding for perfect IVs is NOT purely RNG — Hyper Training via Bottle Caps deterministically maxes IVs, so a 'perfect stats' trophy, if used, should reference Hyper Training rather than framing it as an RNG breeding challenge."
+  ],
+
+  "versionExclusivity": {
+    "swordExclusive": ["Gym Leader Bea (4th, Fighting)", "Gym Leader Gordie (6th, Rock)", "Zacian (obtainable version legendary)", "Isle of Armor rival Klara", "Raid-exclusive Gigantamax Machamp/Coalossal/Flapple", "~46 species (list not individually verified against a primary source, medium confidence)"],
+    "shieldExclusive": ["Allister (4th), Melony (6th), Zamazenta, rival Avery, G-Max Gengar/Lapras/Appletun"],
+    "shieldOnlyLegendaryInSword": "Zamazenta appears in Sword only as a mandatory-defeat, non-catchable postgame boss."
+  },
+
+  "multiplayerAndOnline": {
+    "maxRaids": "Fully soloable offline with AI partners — safe to use in trophies.",
+    "battleTower": "Offline, solo vs NPCs — safe to use in trophies.",
+    "battleStadiumRanked": "Requires paid NSO + matchmaking — should be AVOIDED per Rule 13 (list must remain reasonably achievable in the future / not dependent on unknown players)."
+  },
+
+  "difficulty": "No formal difficulty mode; only a Switch/Set battle-style toggle (not a difficulty selector) — Rule 11 does not apply, no difficulty-based trophies.",
+
+  "conflictsAndGaps": [
+    "Pokédex completion-percentage on-screen display: disputed between sources (Scout B and C both flag). RESOLUTION: use the Shiny Charm as verification, sidestepping the UI question, matching the Scarlet list's precedent.",
+    "Zacian's exact postgame catch location: Hammerlocke Stadium roof vs. Slumbering Weald altar — disputed, low confidence either way. Trophy text should avoid over-specifying the exact site and instead reference the story beat generically ('once Sordward and Shielbert's scheme is foiled').",
+    "Battle Tower rank-regression-on-loss: disputed. Avoid a trophy that depends on maintaining/not-losing a streak; a one-time 'reach a specific tier' trophy sidesteps this.",
+    "Exact Sword/Shield exclusive species lists: only sourced from one secondary aggregator (dbltap), not cross-checked against Bulbapedia/Serebii species-by-species. Any trophy naming specific exclusive species beyond the well-corroborated headline facts (Zacian, Bea, Gordie) should stick to high-confidence entries only.",
+    "Isle of Armor/Crown Tundra exact dex totals (211/210) may include base-dex overlap — treat as approximate, avoid citing exact numbers in trophy text where avoidable.",
+    "Hop's total battle count across the campaign (cited as '10' by one weak secondary source) not independently confirmed — avoid a cumulative 'defeat Hop N times' trophy; use milestone-based Hop trophies instead (Rule 2 no imaginary counters).",
+    "Full Leon story-team composition only 4/6 members confirmed (Aegislash, Dragapult, Haxorus, G-Max Charizard) — fine for a boss trophy since exact team isn't required to verify a win.",
+    "Whether both Glastrier and Spectrier are obtainable on one Crown Tundra save (vs Regi's confirmed exclusivity) is unresolved — treat Calyrex's steed choice cautiously if used in DLC trophy design; the Regieleki/Regidrago exclusivity is higher confidence and safer to use as a MISSABLE trophy."
+  ]
+}

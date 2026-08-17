@@ -1,0 +1,244 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Sword",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "milestone",
+      "name": "Darkest Day / Slumbering Weald opening",
+      "detail": "Prologue: player leaves Postwick with Hop, receives starter from Leon, and early in the story a black storm ('the Darkest Day') briefly manifests in the Slumbering Weald. Player and Hop find rusted relics (Rusted Sword in Sword version) which later summon Zacian. This is 3,000 years after the original Darkest Day, which was stopped by the ancient Zacian/Zamazenta.",
+      "trackable": "No dedicated counter; story-flag only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Darkest_Day", "https://pokemon.fandom.com/wiki/Darkest_Day"]
+    },
+    {
+      "category": "gym",
+      "name": "Milo (Turffield Stadium, Grass-type)",
+      "detail": "1st Gym Leader, shared between Sword and Shield.",
+      "trackable": "Badge Case in the Bag / Trainer Card shows number of Gym Badges earned.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/gym-list/", "https://primagames.com/tips/pokemon-sword-and-shield-gym-order"]
+    },
+    {
+      "category": "gym",
+      "name": "Nessa (Hulbury Stadium, Water-type)",
+      "detail": "2nd Gym Leader, shared between Sword and Shield.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/gym-list/"]
+    },
+    {
+      "category": "gym",
+      "name": "Kabu (Motostoke Stadium, Fire-type)",
+      "detail": "3rd Gym Leader, shared between Sword and Shield.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/gym-list/"]
+    },
+    {
+      "category": "gym",
+      "name": "Bea (Stow-on-Side Stadium, Fighting-type)",
+      "detail": "4th Gym Leader — SWORD EXCLUSIVE. Shield players instead fight Allister (Ghost-type) at the same stadium. Bea uses Gigantamax Machamp as her ace.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamespot.com/articles/pokemon-sword-and-shield-each-have-version-exclusi/1100-6468264/", "https://www.newsweek.com/pokemon-sword-shield-exclusives-version-allister-gym-leaders-1448120"]
+    },
+    {
+      "category": "gym",
+      "name": "Opal / Bede (Ballonlea Stadium, Fairy-type)",
+      "detail": "5th Gym Leader, shared beat between Sword and Shield (not version-exclusive). Opal is the Gym Leader fought during the main campaign; after the Champion Cup, story events install Bede as her successor and he becomes the Fairy Gym Leader for postgame rematches. This is the same for both versions.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-sword-shield-story-explained/", "https://bulbapedia.bulbagarden.net/wiki/Bede"]
+    },
+    {
+      "category": "gym",
+      "name": "Gordie (Circhester Stadium, Rock-type)",
+      "detail": "6th Gym Leader — SWORD EXCLUSIVE. Shield players instead fight Melony (Ice-type) at the same stadium.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamespot.com/articles/pokemon-sword-and-shield-each-have-version-exclusi/1100-6468264/"]
+    },
+    {
+      "category": "gym",
+      "name": "Piers (Spikemuth Stadium, Dark-type)",
+      "detail": "7th Gym Leader, shared between Sword and Shield. Spikemuth has no formal stadium 'Gym Mission' — battle happens directly in his gym/venue. Piers is Marnie's older brother and leader of Team Yell.",
+      "trackable": "Badge Case / Trainer Card.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/gym-list/"]
+    },
+    {
+      "category": "gym",
+      "name": "Raihan (Hammerlocke Stadium, Dragon-type)",
+      "detail": "8th and final Gym Leader, shared between Sword and Shield. Uses Gigantamax Duraludon.",
+      "trackable": "Badge Case / Trainer Card (8th and final badge).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/pokemon-sword-and-shield/gym-list/"]
+    },
+    {
+      "category": "rival",
+      "name": "Hop battles (main campaign)",
+      "detail": "Hop is fought repeatedly throughout the campaign. Confirmed locations include: Postwick (1st, optional/no story-block if lost), Route 2 (2nd, also non-blocking), Motostoke (Budew Drop Inn ally multi-battle vs Team Yell, then a solo battle), Route 5, Galar Mine No. 2 (ally multi-battle vs Team Yell), Stow-on-Side, Circhester, Hammerlocke, and the Champion Cup semifinal in Wyndon. One community source states Hop is battled 10 times total across the full game (including postgame), plus 4 times as a Multi Battle partner and 2 times as a Max Raid partner.",
+      "trackable": "No explicit in-game rival-battle counter found; battles are tied to story progression flags.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Hop/Sword_and_Shield", "https://gamerant.com/pokemon-sword-shield-hop-trivia-facts/"]
+    },
+    {
+      "category": "rival",
+      "name": "First two Hop battles are non-blocking",
+      "detail": "The first battle (Postwick) and second battle (Route 2) against Hop explicitly do not require a win — losing does not black out the player or halt story progress.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Hop/Sword_and_Shield"]
+    },
+    {
+      "category": "rival",
+      "name": "Bede battles (main campaign)",
+      "detail": "Bede battles the player at least 4 times pre-postgame: Galar Mine, Galar Mine No. 2, Stow-on-Side, and as a Champion Cup Finals gatecrasher at Wyndon Stadium (before the Leon match) where he wears the Fairy-type uniform and pledges to retire if he loses. He loses, tries to quit, but crowd support convinces him to stay; Opal then names him her successor as Ballonlea's new Fairy-type Gym Leader for the postgame. A 5th (postgame) rematch occurs at Ballonlea Stadium as the new Gym Leader, plus further encounters in postgame Champion Tournaments.",
+      "trackable": "No explicit rival counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Bede", "https://www.thegamer.com/pokemon-sword-shield-story-explained/"]
+    },
+    {
+      "category": "rival",
+      "name": "Marnie battles (main campaign)",
+      "detail": "Marnie is fought at least twice pre-Champion Cup: at the Budew Drop Inn lobby in Motostoke, and on Route 9 on the outskirts of Spikemuth (she offers a shortcut into town but insists on a battle first). She then appears again as the Champion Cup semifinal opponent (fought before Hop in the semifinal round) in Wyndon.",
+      "trackable": "No explicit rival counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemon.fandom.com/wiki/Marnie_(Galar)", "https://www.dittobase.com/sword-shield/gym-leaders-elite-four"]
+    },
+    {
+      "category": "tournament",
+      "name": "Champion Cup structure",
+      "detail": "The Galar Pokémon League has NO Elite Four; instead there is a single-elimination Champion Cup tournament held at Wyndon Stadium. Structure: Semi-finals — Marnie, then Hop. Finals — three Gym Leaders in sequence: Nessa, then Bea (Sword) / Allister (Shield), then Raihan. Before the Championship match, Bede forces his way in for an extra battle. Then, right as the Leon match is about to start, Chairman Rose triggers the second Darkest Day, interrupting the tournament — the player must resolve the Rose/Eternatus crisis before the true Championship match against Leon can occur.",
+      "trackable": "Champion Cup bracket screen shows tournament progress in real time during the event.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/swordshield/championcup.shtml", "https://www.thegamer.com/pokemon-sword-shield-story-explained/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chairman Rose (Energy Plant)",
+      "detail": "After the Darkest Day is triggered, the player travels via Rose Tower/Hammerlocke to the Energy Plant to stop Rose. Rose fields an all-Steel-type team: Escavalier, Ferrothorn, Perrserker, Klinklang (all ~Lv55-56), and Copperajah (~Lv57) as his ace. After losing, Rose turns himself in; this fight is mandatory to progress.",
+      "trackable": "No dedicated tracker; story-mandatory single battle.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.supercheats.com/pokemon-sword-and-shield-walkthrough-guide/chairman-rose-battle", "https://pokemon.fandom.com/wiki/Chairman_Rose"]
+    },
+    {
+      "category": "boss",
+      "name": "Eternatus / Eternamax Eternatus (mandatory catch)",
+      "detail": "Following the Rose battle, Eternatus goes berserk and transforms into its 'Eternamax' form. The player battles it as a double battle alongside Hop, joined by Zacian and Zamazenta (both awoken via the rusted relics). Eternatus cannot be defeated to the point of fainting in the normal sense — after its HP is depleted the game forces a mandatory capture; it is not possible to avoid catching it once the battle concludes this way. This is the game's climactic mandatory legendary boss fight.",
+      "trackable": "Appears in Pokédex as caught once captured; also becomes a party/box Pokémon.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)", "https://win.gg/news/all-there-is-to-know-about-eternatus-in-pokemon-sword-and-shield/"]
+    },
+    {
+      "category": "milestone",
+      "name": "Return to Wyndon — true Champion match",
+      "detail": "After the Eternatus crisis is resolved, the Champion Cup resumes and the player finally faces Leon for the Championship title.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-sword-shield-story-explained/"]
+    },
+    {
+      "category": "boss",
+      "name": "Leon (Champion, final battle)",
+      "detail": "Final story boss. Leon is undefeated and his team is built partly to counter the player's starter choice; confirmed members include Aegislash, Dragapult, Haxorus, and Gigantamax Charizard as his ace, plus starter-counter picks. His Pokémon are noted to be roughly 5-10 levels above other trainers faced up to that point.",
+      "trackable": "Becoming Champion is reflected on the Trainer Card / Hall of Fame registration.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gfinityesports.com/article/pokemon-sword-and-shield-champion-cup-elite-4-guide-for-champion-leon-of-the-pokemon-league", "https://www.sportskeeda.com/pokemon/how-beat-leon-pokemon-sword-shield"]
+    },
+    {
+      "category": "ending",
+      "name": "Single, non-branching ending",
+      "detail": "No evidence found of multiple/branching endings or alternate outcomes based on choices — the story is linear to a single credits sequence after defeating Leon. Post-credits the player wakes in their house; Professor Magnolia visits and gives a Master Ball. This is treated as the game's one ending.",
+      "trackable": "Hall of Fame entry / credits roll is the marker of completion.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.imore.com/pokemon-sword-and-shield-post-game-guide"]
+    },
+    {
+      "category": "milestone",
+      "name": "Rose Tower becomes the Battle Tower",
+      "detail": "Once the player becomes Champion, Rose Tower in Wyndon (Rose's Macro Cosmos HQ, and the site of the Rose/Eternatus confrontation's approach) is purchased by Leon and converted into the postgame Battle Tower facility.",
+      "trackable": "n/a (facility unlock, not a counter).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Rose_Tower"]
+    },
+    {
+      "category": "boss",
+      "name": "Sordward and Shielbert postgame arc / rampaging opposite legendary",
+      "detail": "Base-game (NOT DLC) postgame story arc. After becoming Champion, the player returns to the Slumbering Weald; Hop challenges the player to a battle, then Sordward and Shielbert (self-proclaimed royal brothers) appear and steal the Rusted Sword/Shield. They travel to Hammerlocke Stadium/Energy Plant and use Galar particles to force the OPPOSITE version's legendary into a berserk 'Crowned' state — in Sword, this is Zamazenta. The player must defeat (not catch) this berserk Zamazenta atop the stadium; it then flees. Sordward and Shielbert also cause Dynamax-related incidents at multiple Gyms during this postgame arc as 'experiments.'",
+      "trackable": "Story-flag based; no dedicated counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Sordward", "https://pokemon.fandom.com/wiki/Sordward"]
+    },
+    {
+      "category": "boss",
+      "name": "Zacian capture (Sword-exclusive legendary)",
+      "detail": "After defeating the berserk Zamazenta and giving chase, the player eventually gets the opportunity to catch their OWN version's legendary — Zacian in Sword — now in its powered-up 'Crowned Sword' form. This is the actual moment Zacian becomes catchable/ownable (distinct from its earlier story appearance helping fight Eternatus, where it is not caught). One source described a final confrontation involving Hop and the legendary at an altar in the Slumbering Weald as part of this sequence, but exact catch location details were inconsistent between sources (Hammerlocke Stadium roof vs. Slumbering Weald altar) — flagged as uncertain.",
+      "trackable": "Registered in Pokédex once caught; becomes a full party/box Pokémon.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.inverse.com/article/61161-pokemon-sword-shield-catch-zacian-zazamenta-legendary-postgame-masterball", "https://samurai-gamers.com/pokemon-sword-and-shield/walkthrough-part-12-obtaining-zacian-and-zamazenta-post-game/"]
+    },
+    {
+      "category": "rival",
+      "name": "Hop's final postgame battle",
+      "detail": "After the Zacian/Zamazenta arc resolves, Hop requests one final battle, this time fielding his usual team plus a Legendary Pokémon (implied to be the version's opposite legendary that he ends up with, or a copy — exact detail uncertain). This appears to be the narrative capstone to Hop's rival arc.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.gamerguides.com/pokemon-sword-and-shield/guide/story-walkthrough/postgame-adventures/hop-s-final-challenge"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "Sword-exclusive campaign content summary",
+      "detail": "Sword-exclusive: Gym Leader Bea (Fighting, 4th gym, Stow-on-Side) instead of Shield's Allister; Gym Leader Gordie (Rock, 6th gym, Circhester) instead of Shield's Melony; version legendary Zacian (Fairy Tale/Warrior of legend, Fighting/Steel type, Sword box art) obtainable as a permanent catch in postgame instead of Shield's Zamazenta. The opposite version's legendary (Zamazenta in Sword) is fought as a mandatory-defeat berserk boss in the postgame arc but is not catchable in Sword.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamespot.com/articles/pokemon-sword-and-shield-each-have-version-exclusi/1100-6468264/", "https://www.nintendolife.com/news/2020/01/guide_whats_the_difference_between_pokemon_sword_and_shield_which_should_you_buy_-_all_version-exclusive_pokemon_and_gym_leaders"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Number of Gym Badges earned (out of 8)", "where": "Badge Case in the Bag menu, and Trainer Card", "confidence": "high" },
+    { "stat": "Champion Cup tournament bracket progress", "where": "Displayed live on-screen during the Champion Cup event sequence", "confidence": "medium" },
+    { "stat": "Champion / Hall of Fame status", "where": "Trainer Card shows Champion title after beating Leon; Hall of Fame data is recorded", "confidence": "medium" },
+    { "stat": "Pokédex registration for story-relevant Pokémon (Eternatus, Zacian)", "where": "Pokédex 'Caught' status once captured", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Sword's 4th Gym Leader is Bea (Fighting-type, Stow-on-Side); Shield's is Allister (Ghost-type). Both are fought during the Champion Cup Finals round as well.", "confidence": "high" },
+    { "note": "Sword's 6th Gym Leader is Gordie (Rock-type, Circhester); Shield's is Melony (Ice-type).", "confidence": "high" },
+    { "note": "Sword's obtainable legendary is Zacian; Shield's is Zamazenta. In each version, the OTHER version's legendary appears only as a mandatory-defeat (not catchable) berserk boss during the postgame Sordward/Shielbert arc.", "confidence": "high" },
+    { "note": "All 8 Gym Leaders that are NOT version-exclusive (Milo, Nessa, Kabu, Opal, Piers, Raihan) plus the overall story beats (Darkest Day, Rose/Eternatus crisis, Champion Cup structure, Leon final battle, postgame Sordward/Shielbert arc) are identical between Sword and Shield.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not fully confirm the complete ordered list of all Hop battle locations/count with a single authoritative source — figures of '10 total battles' and specific location lists came from secondary sources (Gamerant, partial Bulbapedia fetch) that could not be fully cross-verified in one pass.",
+    "Exact catch location for Zacian in the postgame arc is inconsistent across sources (Hammerlocke Stadium roof area vs. Slumbering Weald altar) — needs a direct primary-source (e.g. Serebii or Bulbapedia walkthrough) confirmation.",
+    "Could not verify whether the game displays any kind of overall 'story completion percentage' or milestone counter beyond the Badge Case and Trainer Card.",
+    "Did not verify the exact final composition of Hop's team in his final postgame battle (which Legendary Pokémon, if any, he uses) — only one weak source described this.",
+    "Did not deeply verify whether Piers/Marnie's Team Yell antagonism produces any additional 'boss'-tier battle against Piers as Team Yell leader distinct from his Gym Leader battle — likely the same encounter, but not explicitly confirmed.",
+    "Full Leon team composition (all 6 Pokémon per starter branch) was not fully enumerated — only 4 core members (Aegislash, Dragapult, Haxorus, Gigantamax Charizard) were confirmed, with 2 more starter-counter picks unconfirmed by name.",
+    "Did not confirm whether Bede's 5th postgame Gym battle and further Champion Tournament rematches should be counted as part of 'campaign' scope or postgame/side-content scope — flagged for design discretion; included here since assignment explicitly covers postgame story beats."
+  ]
+}
