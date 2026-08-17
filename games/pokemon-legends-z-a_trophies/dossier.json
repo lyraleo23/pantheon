@@ -1,0 +1,123 @@
+{
+  "game": "Pokémon Legends: Z-A",
+  "platform": "Nintendo Switch 2 (also released simultaneously on Nintendo Switch; content is identical, only performance differs)",
+  "mode": "genesis",
+  "developer": "Game Freak",
+  "publisher": "The Pokémon Company / Nintendo",
+  "releaseDate": "2025-10-16",
+  "researchDate": "2026-08-16",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch 2",
+    "nativeAchievements": false,
+    "note": "Neither Switch nor Switch 2 has a system-level achievement/trophy system. No other platform release exists for this game.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "premise": "Set in Lumiose City five years after Pokémon X/Y. The Quasartico Inc. corporation runs an urban redevelopment plan, fencing off 'Wild Zones' for wild Pokémon by day and staging holographic 'Battle Zones' for trainer battles by night. The player, an ace member of Team MZ (led by rival Urbain/Taunie), climbs the Z-A Royale ranked tournament ladder in place of traditional Gyms, while a mysterious Pokémon (later revealed as Zygarde) and the immortal AZ (returning from X/Y) drive the central plot toward a citywide Rogue Mega Evolution crisis.",
+  "campaignStructure": {
+    "coreProgression": "No Gyms. The Z-A Royale is a 26-rank ladder (Z lowest to A highest) climbed via nightly real-time Battle Zone skirmishes (defeat opposing trainers' Pokémon for points) that earn a Challenger's Ticket, redeemable for a Promotion Match against one of 11 named Royale Trainers to advance rank. Rank-up wins cannot be replayed once won (loses can be retried). Current rank is shown in a dedicated Z-A Royale menu.",
+    "finalRankBattle": "Rank A promotion match against rival Urbain/Taunie (main mission ~35).",
+    "totalMainMissions": "42 total per community wikis: missions 1-37 are the full main story (credits roll after 37), missions 38-42 are postgame. In-game UI presentation of this exact numbering is unconfirmed (low confidence) — mission progress is tracked via a map-based objective marker system, confirmed to show a completed/pending list when pressing X on the map screen.",
+    "rogueMegaEvolutionBosses": {
+      "count": 16,
+      "detail": "Mandatory, story-integrated boss fights unlocking in 5 waves of 3-4 as the story progresses: Wave 1 — Absol, Camerupt, Slowbro, Victreebel; Wave 2 — Banette, Beedrill, Hawlucha; Wave 3 — Ampharos, Barbaracle, Mawile; Wave 4 — Altaria, Froslass, Venusaur; Wave 5 — Dragonite, Starmie, Tyranitar. Each grants its Mega Stone on defeat; Rogue Absol is unique in that it joins the player's party afterward instead of just granting a stone.",
+      "correction": "Mega Pidgeot, heavily featured in pre-release marketing, is NOT a player-fought battle — it is backstory (a cutscene event that happened 6 months before the game starts, defeated by rival Urbain off-screen). Avoid building a trophy around 'defeating Mega Pidgeot.'",
+      "confidence": "high"
+    },
+    "finalBoss": {
+      "name": "Hyperrogue Ange Floette",
+      "detail": "The true final boss (main mission 37, 'Operation Protect Lumiose'). 'Ange' is an ancient device AZ built in Prism Tower millennia ago; when Urbain/Taunie Mega Evolves AZ's Eternal Flower Floette to help control it at Rank A, the device corrupts/fuses with the Floette, becoming this monster, destroying Prism Tower and triggering a citywide Rogue Mega outbreak. Zygarde reaches Complete Forme during this fight to help. AZ dies at the story's end.",
+      "confidence": "high on structure; medium on exact framing details"
+    },
+    "ending": "Single story ending. A 'wish' dialogue choice exists at the Rank A milestone but does not branch the actual outcome per available sources (not independently double-sourced — treat as likely-cosmetic).",
+    "postgame": {
+      "infiniteZARoyale": "After the story, the Royale continues as 'Infinite Z-A Royale' (Rank ∞) with reward matches for items/Exp Candy. Winning 15 of these grants Eternal Flower Floette + its exclusive Mega Stone (Floettite).",
+      "legendaryCaptureChain": "Postgame missions 38-42: clear Alpha Pokémon in specific Wild Zones to find Xerneas ('The One That Gives'), complete 3 more Rogue Mega battles to find Yveltal ('The One That Takes'), then defeat a secret boss character called 'L' (community sources, low confidence, identify as an amnesiac Lysandre from X/Y — NOT confirmed in-game) to trigger the final encounter and catch Zygarde (~Level 84).",
+      "rogueMegaRush": "Postgame superboss gauntlet: defeat all 27 Level-100 Rogue Mega Evolution rematches with one team, only 3 full heals, no items, no breaks. Described by guides as one of the hardest challenges in any Pokémon game."
+    },
+    "termsNotConfirmed": "The brief's terms 'Zoning Plan' and 'Star Rank' were not found in any source. The game calls these the 'urban redevelopment plan' and 'Rank A' respectively — do not use the unconfirmed terms in trophy text."
+  },
+  "sideContent": {
+    "pokedex": {
+      "base": "232 total species, 230 required for completion (Mewtwo and Diancie, both postgame Mystery-Gift-gated legendaries, excluded from the requirement). Completing it awards the title 'Pokémon Professor.'",
+      "trackerConfidence": "MEDIUM-LOW: no source directly confirmed whether the Pokédex screen shows an explicit 'X/230' or percentage readout, vs. just being a browsable list of registered/unregistered entries. This is the single most load-bearing unconfirmed fact for side content — flagged for checkpoint.",
+      "dlc": "A second Hyperspace Pokédex (132 species, 131 required) exists but is Mega Dimension DLC-exclusive."
+    },
+    "missions": {
+      "main": "42 total (37 story + 5 postgame), consistent across sources.",
+      "side": "Base-game side mission count is INCONSISTENT across sources: 119, 120, or 121 depending on source. Tracker: confirmed — opening the map and pressing X shows a completed/pending mission list.",
+      "note": "A 'complete all side missions' trophy is trackable in principle (the UI shows pending vs. complete), but the exact total is not reliably citable, so trophy text should avoid stating a specific number."
+    },
+    "mablesResearch": {
+      "detail": "Separate collection/request board run by NPC Mable: catch types of Pokémon, register species per Wild Zone, etc. 50 Research Levels, mostly TM rewards; a Master Ball around level 49 and the Shiny Charm at the final level.",
+      "trackable": "Dedicated Research menu (main menu, press X) shows Research Level and claimed/pending rewards — high confidence, one of the best-verified trackers in the game.",
+      "confidence": "high"
+    },
+    "megaEvolution": {
+      "baseGameCount": 62 ,
+      "detail": "26 of the 62 are new to this game; the rest are classics returning from X/Y and other titles. All 16 Rogue Mega bosses' forms are included in this total. Tracked via a 'Mega Evolution Pokédex' referenced by wikis, exact in-game UI not independently confirmed.",
+      "confidence": "medium"
+    },
+    "zygardeCells": {
+      "detail": "Fully modeled, moving collectibles found around Lumiose City. Stored in the Zygarde Cube (obtained after catching Zygarde in the final postgame mission), caps at 300, max 3/day. 50 Cells → Zygarde's 50% Forme; 250 total → Complete Forme.",
+      "trackable": "Zygarde Cube UI tracks the count directly — high confidence, clean numeric tracker.",
+      "confidence": "medium"
+    },
+    "wildZones": { "count": 20, "detail": "Only 6 available at game start; rest unlock via story. Wild Zone 20 unlocks at postgame start, on the site of the former Prism Tower.", "confidence": "medium" },
+    "boutiqueCouture": { "detail": "High-end clothing shop, unlocked via main mission 26 by defeating an NPC with a Mega Evolved Pokémon.", "confidence": "medium" },
+    "postgameLegendaries": {
+      "mewtwo": "Postgame encounter, but access requires redeeming Mewtwonite X/Y via a real-world Mystery Gift code (distribution began Dec 2, 2025).",
+      "diancie": "Postgame mythical, requires redeeming Diancite via a real-world Mystery Gift code (distribution began Nov 6, 2025).",
+      "flagForCheckpoint": "Both require an external, time-distributed Mystery Gift code — not something guaranteed available to a player who owns and plays only the game itself, and potentially permanently missable if the distribution window closes. This is directly analogous to the amiibo-gated content excluded from the Skyward Sword list earlier this session."
+    },
+    "dlc": {
+      "name": "Mega Dimension",
+      "status": "CONFIRMED real paid DLC (not free), released in two waves: Wave 1 apparel (Oct 16, 2025), Wave 2 story content (Dec 10, 2025).",
+      "scope": "Adds a Hyperspace Lumiose storyline, the Hyperspace Pokédex (132 species), ~82 additional side missions, 19-22 new Mega Evolutions (incl. Mega Zeraora), Hyperspace Wild Zones, a level cap raise to 164, and Hyperspace rematches against Rogue Mega Evolutions.",
+      "flagForCheckpoint": "This is substantial, confirmed paid content — unlike Skyward Sword's dropped QoL-only Switch content. Rule 14 supports a separate DLC trophy list for this, matching the precedent set for Hyrule Warriors and Breath of the Wild earlier in this project. Recommend building one unless you'd rather skip DLC for now."
+    }
+  },
+  "systems": {
+    "battleSystem": "Real-time action battle (not turn-based): trainer moves in 3D space, dodge-rolls, can crouch to avoid wild Pokémon detection. Moves use cooldowns (3-60s, scaled by Speed/status) instead of PP-based turn order.",
+    "megaEvolutionUnlock": "First encountered main mission 9 (Mega Absol, receive Mega Bracelet); full system unlocks mission 10 after defeating trainer Vinnie to reach Rank F. Starter's Keystone given then; the other two starter Keystones purchasable post-story from the Stone Emporium.",
+    "levelCap": "100 in the base game (DLC raises it to 164).",
+    "boxStorage": "32 boxes × 30 slots = 960 max.",
+    "shinyOdds": "Base 1/4096. Shiny Charm (Mable's Research final reward) improves odds to roughly 1/1024. Sparkling Power (a further shiny-boost mechanic) is DLC-only, tied to Hyperspace Distortion Wild Zones — not available in the base game.",
+    "difficultyModes": "None confirmed — no selectable difficulty, no New Game+. Postgame continues on the same save file.",
+    "multiplayer": "Link Play unlocks within the first 1-2 hours: Ranked Battles, Private/Link Battles (incl. battle-royale up to 4 players), Link Trade. No Wonder Trade, no GTS, no co-op overworld exploration. Requires Nintendo Switch Online for online play.",
+    "overallCompletionTracker": "No source confirmed a single aggregate completion-percentage screen exists anywhere in the game."
+  },
+  "missables": [
+    { "name": "Z-A Royale rank-up wins cannot be replayed once won (losses can be retried)", "confidence": "medium" },
+    { "name": "Items on the 'Operation Protect Lumiose' scaffolding sequence become unobtainable after the final drop", "confidence": "low" },
+    { "name": "At least one Pokémon (Steelix cited) reportedly has only a single catchable encounter in the whole game", "confidence": "low" },
+    { "name": "Starter Pokémon and player gender choice are permanent from the start of the game", "confidence": "medium" },
+    { "name": "Mewtwo and Diancie require time-distributed Mystery Gift codes — see postgameLegendaries flag above", "confidence": "medium" },
+    { "name": "Reportedly 3 missable Legendary Pokémon within the Mega Dimension DLC specifically (exact names unconfirmed)", "confidence": "low" }
+  ],
+  "conflicts": [
+    {
+      "topic": "Base-game side mission total",
+      "finding": "Sources disagree: 119, 120, or 121. Recommend not citing an exact number in trophy text; verify via 'no pending missions remain' instead if a completion trophy is built."
+    },
+    {
+      "topic": "Identity of postgame character 'L'",
+      "scoutA": "Community plot-summary sources (low confidence, not officially cross-verified) identify 'L' as an amnesiac Lysandre from Pokémon X/Y.",
+      "resolution": "Avoid stating this identity as fact in trophy text; refer to 'L' generically if a trophy touches this fight, to stay spoiler-safe and factually cautious."
+    }
+  ],
+  "scopeDecisionsResolved": [
+    "DLC: Mega Dimension WILL get its own separate trophy list under `dlc` (Rule 14), never affecting the base Platinum.",
+    "Mewtwo and Diancie WILL be included in the base list despite requiring real-world time-distributed Mystery Gift codes — mark both missable and note the external-code dependency in their descriptions/notes.",
+    "Pokédex completion WILL get a Gold trophy despite the exact on-screen readout format being unconfirmed, on the basis that per-species caught/uncaught registration is definitely tracked."
+  ],
+  "gaps": [
+    "Pokédex completion screen's exact numeric/percentage display unconfirmed.",
+    "Mega Evolution collection screen's exact in-game UI (distinct from the main Pokédex) unconfirmed.",
+    "Rogue Mega Rush (27-boss postgame gauntlet) progress-tracking UI, if any, unconfirmed.",
+    "Exact mission titles for Rogue Mega Wave 3-5 arcs (missions ~26-34) approximate, inferred from wave groupings rather than a complete verified list.",
+    "Whether 'L' is explicitly named as Lysandre within the game's own dialogue (vs. community inference) unconfirmed.",
+    "Names of the three reportedly-missable Mega Dimension DLC Legendary Pokémon unconfirmed.",
+    "Whether Switch 2 hardware-exclusive features (mouse controls, GameChat) are used by this game at all — unconfirmed, likely irrelevant to trophy design either way since base gameplay is confirmed identical across platforms."
+  ]
+}

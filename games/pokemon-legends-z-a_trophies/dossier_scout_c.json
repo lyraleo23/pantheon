@@ -1,0 +1,225 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Legends: Z-A",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "core system",
+      "name": "Real-time action battle system",
+      "detail": "Confirmed departure from turn-based combat. Trainer and Pokémon share a 3D battle space; player moves the trainer with the left stick, can dodge-roll (Y), and crouch to avoid detection by wild Pokémon. Moves use a cooldown system (3-60 seconds, replacing PP) instead of turn order, factoring in base cooldown, Speed stat, and status conditions (e.g. 'drowsy' effectively doubles cooldown). Moves have wind-up/execution frames; priority moves have zero wind-up.",
+      "trackable": "Not a discrete counter, but move cooldowns are shown as UI elements during battle.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_battle_(Legends:_Z-A)", "https://screenrant.com/pokemon-legends-za-real-time-combat-gen-10-op-ed/"]
+    },
+    {
+      "category": "progression",
+      "name": "EXP / leveling system",
+      "detail": "Pokémon gain EXP from defeating and/or catching wild Pokémon (catching grants notably more EXP than just defeating, one source states up to 66% more than simply despawning a defeated foe). EXP Candies (XS-XL) can also boost levels directly. Alpha Pokémon (stronger, larger variants, similar to Legends: Arceus) are an efficient EXP/candy source, unlocked relatively early, before Mega Evolution.",
+      "trackable": "Level and EXP bar shown per Pokémon in party/box screens.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/557844", "https://www.sportskeeda.com/pokemon/pokemon-legends-z-a-maximum-level-explained"]
+    },
+    {
+      "category": "progression",
+      "name": "Level cap: 100 (base game), raised in DLC",
+      "detail": "Base game max level is 100. The Mega Dimension DLC (paid expansion) raises the cap, with players able to reach at least level 164 — reportedly the first time a mainline/Legends Pokémon title has raised the level-100 cap.",
+      "trackable": "Level shown on Pokémon summary screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.sportskeeda.com/pokemon/pokemon-legends-z-a-maximum-level-explained", "https://www.thesixthaxis.com/2025/12/23/pokemon-legends-z-a-mega-dimension-dlc-review/"]
+    },
+    {
+      "category": "progression",
+      "name": "Mega Evolution unlock path",
+      "detail": "First encountered via Main Mission 09 ('Chase that Mysterious Pokémon!') around Rank V, facing a Mega Absol and receiving the Mega Bracelet/first Mega Stone. Full Mega Evolution system (Mega Ring) unlocks in Main Mission 10 ('The Secrets of Mega Evolution'). Player's starter's Keystone is given during that mission after defeating trainer Vinnie to reach Rank F in the Z-A Royale (tied to AZ). Keystones for the other two starter Pokémon (not chosen at game start) can be purchased from the Stone Emporium after completing the main story. Mega Evolution requires the Pokémon be in its final evolutionary stage and hold a compatible Mega Stone.",
+      "trackable": "Mega Stones/Keystones owned are viewable in Bag/Mega Evolution menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.powerpyx.com/pokemon-legends-z-a-how-to-unlock-mega-evolutions/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/561356"]
+    },
+    {
+      "category": "progression",
+      "name": "Z-A Royale rank ladder",
+      "detail": "Ranked ladder from Rank Z up to Rank A, fought at night in Lumiose City Battle Zones. Player earns points from battling trainers to get an Event Ticket, used to challenge a Royale Trainer for promotion. There are 11 promotional Royale Trainers total gating rank-ups. Once Rank A is reached, Royale Trainers can be challenged infinitely but rank no longer increases. Rank-up battles, once won, cannot be replayed (though a lost rank-up battle can be re-attempted).",
+      "trackable": "Current Rank (Z through A) is displayed in a menu/HUD element; not confirmed whether a numeric point total is shown.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/legendsz-a/z-aroyale/rankz.shtml", "https://screenrant.com/pokemon-legends-z-a-royale-trainer-team-guide/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/557752"]
+    },
+    {
+      "category": "storage",
+      "name": "Pokémon Box storage system",
+      "detail": "Up to 32 storage boxes, each holding 30 Pokémon (max 960 boxed Pokémon), consistent with recent mainline games. Boxes unlock progressively by filling each currently-available box before more appear; one box (the 32nd) reportedly unlocks via story progression rather than the fill-a-box method.",
+      "trackable": "Box count and fill status visible in the Box/Storage UI.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dexerto.com/wikis/pokemon-legends-z-a/how-to-get-more-storage-boxes/", "https://x.com/REVERSAL7x/status/1979242103205965944"]
+    },
+    {
+      "category": "trackable stat",
+      "name": "Pokédex (Rotom Phone app)",
+      "detail": "Pokémon are registered to a Pokédex app on the Rotom Phone upon being caught, evolved, or traded. App shows movements, cries, habitats and other details of registered Pokémon. 230 unique catchable Pokémon species at base-game launch (more added via Mega Dimension DLC); full Pokédex entry count reaches approximately 360 when counting regional forms, Furfrou (10), Vivillon (20), Pumpkaboo/Gourgeist (4 each), Zygarde (5), Hoopa (2) forms, and Mega Evolutions.",
+      "trackable": "Rotom Phone Pokédex app is the in-game tracker; could not confirm via search whether it displays an explicit numeric or percentage 'X/230 caught' completion counter on its main screen (multiple guide sites describe the catalog but none explicitly show a completion-percent readout).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://legends.pokemon.com/en-us/news/adventure", "https://www.thegamer.com/pokemon-legends-z-a-pokedex-location-completion-guide/", "https://www.powerpyx.com/pokemon-legends-z-a-wiki-100-completion/"]
+    },
+    {
+      "category": "trackable stat",
+      "name": "Mable's Research (research points/levels)",
+      "detail": "A collection/quest-log style system: completing research tasks (catching types of Pokémon, registering species per Wild Zone, etc.) earns points that raise a Research Level. Reaching new levels unlocks claimable rewards (mostly TMs, but higher levels grant a Gold Bottle Cap, a Master Ball at level ~49, and the Shiny Charm at what appears to be the final/50th level). Accessed from the main menu.",
+      "trackable": "Research Level and available/claimed rewards are shown in the Mable's Research menu screen (main menu, press X).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/legends-z-a/research", "https://screenrant.com/pokemon-legends-z-a-mables-research-rewards-rank-requirements/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/557657"]
+    },
+    {
+      "category": "trackable stat",
+      "name": "Ranked Battle points/rank",
+      "detail": "Online Ranked Battle mode (replacing traditional VGC-style competitive play) assigns points based on Pokémon defeated and in-battle actions; accumulating points advances the player's rank tier. Requires Nintendo Switch Online.",
+      "trackable": "Rank/points shown in the Ranked Battle menu (exact UI not confirmed).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.serebii.net/legendsz-a/rankedbattle.shtml"]
+    },
+    {
+      "category": "RNG system",
+      "name": "Shiny odds",
+      "detail": "Base shiny odds are the series-standard 1/4096 (same as X&Y onward). The Shiny Charm (obtained as a Mable's Research reward, reportedly around level 50) adds extra reroll(s), quoted by one source as quadrupling odds to roughly 1/1024. A separate DLC-only mechanic, Sparkling Power (via craftable 'Sparkling Power Donuts' at max Sweetness, only usable inside Hyperspace Distortion Wild Zones added by the Mega Dimension DLC), grants extra shiny rolls per level (1/2/3 rolls at Sparkling Power Lv.1/2/3) for Pokémon matching the donut's type; at Lv.3 the first matching spawn in that zone is guaranteed shiny. Combining Shiny Charm + Sparkling Power Lv.3 was cited by one source as ~1/585 odds.",
+      "trackable": "Shiny Charm possession shown in Bag/Key Items; Sparkling Power level shown when consuming/active (DLC only).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-legends-z-a-shiny-charm-unlock-use-effect-how-to-guide/", "https://rotomlabs.net/legends-z-a/shiny-rates", "https://gamerant.com/pokemon-legends-za-mega-dimension-how-increase-shiny-odds-sparkling-power-donut-recipe/"]
+    },
+    {
+      "category": "RNG system",
+      "name": "No catch-combo mechanic",
+      "detail": "Unlike Pokémon Scarlet/Violet (Mass Outbreaks) or the Masuda Method, no evidence found of a catch-combo or breeding-based shiny-boost system in the base game. Sparkling Power (DLC-locked, see above) appears to be the closest equivalent.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.gamesradar.com/games/pokemon/pokemon-legends-z-a-shiny-shinies/"]
+    },
+    {
+      "category": "missable content",
+      "name": "Rank Up Battles cannot be replayed after winning",
+      "detail": "Once a Z-A Royale Rank Up Battle against a Royale Trainer is won, it cannot be replayed/re-fought (post-Rank-A trainers can still be fought infinitely, but that's a different, non-ranking activity). If the player loses, they can retry.",
+      "trackable": false,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/557752"]
+    },
+    {
+      "category": "missable content",
+      "name": "Operation Protect Lumiose scaffolding items",
+      "detail": "During the main mission 'Operation Protect Lumiose,' items placed along a scaffolding/obstacle-course built by the character Tarragon become permanently unobtainable once the player makes the final drop off the structure — no way to go back for missed items.",
+      "trackable": false,
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/557752"]
+    },
+    {
+      "category": "missable content",
+      "name": "Single-encounter Pokémon (e.g. Steelix)",
+      "detail": "At least one Pokémon (Steelix cited specifically) reportedly has only a single catchable encounter in the entire game, making it permanently missable if not caught at that encounter (no confirmed way to obtain another later, e.g. via evolution chain shortcuts, was not established in sources).",
+      "trackable": false,
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://www.serebii.net/legendsz-a/unobtainable.shtml"]
+    },
+    {
+      "category": "missable content",
+      "name": "Starter and gender selection are permanent",
+      "detail": "Player's gender and initial starter Pokémon choice cannot be changed after selection at the start of the game.",
+      "trackable": false,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/557752"]
+    },
+    {
+      "category": "missable content",
+      "name": "DLC (Mega Dimension) missable Legendaries",
+      "detail": "Three Legendary Pokémon within the Mega Dimension DLC were reported (by press coverage) as missable — obtainable only via time-limited/event-tied means, becoming permanently unavailable if missed (framed by at least one outlet in terms of eventual server shutdown removing the only remaining path). Exact Legendary names not confirmed in the sources reviewed.",
+      "trackable": false,
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://www.vice.com/en/article/pokemon-legends-z-a-dlc-has-three-legendary-pokemon-you-can-miss-forever/"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No selectable difficulty modes",
+      "detail": "Multiple outlets (including at least one GameFAQs community post and a dedicated 'is Z-A too easy' analysis piece) state the game has no difficulty option, consistent with the mainline Pokémon series' historical lack of difficulty settings.",
+      "trackable": false,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/boards/524792-pokemon-legends-z-a-nintendo-switch-2-edition/81056367", "https://bossrush.net/2025/10/boss-rush-banter-is-pokemon-legends-z-a-too-easy/"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No New Game+ confirmed",
+      "detail": "No source found confirming a New Game+ mode. Post-credits, the game continues on the same save file into a postgame (return to Hotel Z, 4-5 additional postgame main missions, remaining side missions, legendary encounters). This is the traditional 'continue same save postgame' Pokémon structure, not a NG+ replay-with-carryover system.",
+      "trackable": false,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.rpgsite.net/guide/18750-pokemon-legends-z-a-postgame-guide-what-unlocks-after-credits", "https://www.thegamer.com/pokemon-legends-z-a-post-game-content-guide/"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Link Play: trading and battling",
+      "detail": "Multiplayer (Link Play) unlocks early, within the first 1-2 hours, shortly after meeting the character Mable. Includes Ranked Battles, Private/Link Battles (singles, and battle-royale-style matches for up to 4 players), and Link Trade. No co-op overworld exploration (unlike Scarlet/Violet's Union Circle). No Wonder Trade and no GTS (Global Trade System) — direct trading only, via Prism Tower hub in Lumiose City or the Y-Comm overlay while exploring. Requires a paid Nintendo Switch Online subscription for online play.",
+      "trackable": false,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en-americas-support.nintendo.com/app/answers/detail/a_id/68627/", "https://fandomwire.com/pokemon-legends-z-a-multiplayer-explained-how-to-unlock-it-and-how-does-it-work/", "https://www.thegamer.com/pokemon-legends-z-a-link-play-multiplayer-online-battles-trading-unlock-how-to/"]
+    },
+    {
+      "category": "version difference",
+      "name": "Switch vs Switch 2 Edition — resolution and framerate",
+      "detail": "Switch 1: up to 1080p docked, down to ~800p handheld, capped at 30fps. Switch 2 (native/upgraded edition): up to 2160p (upscaled) docked, 1080p handheld, runs at a consistent 60fps both docked and handheld. Switch 2 also has better shadows, textures, object draw distance, vegetation density, and notably faster load times/reduced pop-in.",
+      "confidence": "high",
+      "sources": ["https://kotaku.com/pokemon-legends-za-switch-2-comparison-framerate-upgrade-2000635404", "https://www.allout-gaming.com/news/pokemon-legends-z-switch-1-1438288", "https://www.nintendolife.com/guides/pokemon-legends-z-a-switch-1-vs-switch-2-which-version-should-you-buy"]
+    },
+    {
+      "category": "version difference",
+      "name": "No exclusive content/features gated to either platform",
+      "detail": "No gameplay content, story content, or feature is exclusive to Switch 1 or Switch 2 — both versions play the same game with the same missions, Pokémon, and systems. The only differences are technical/performance (resolution, framerate, load times, minor visual fidelity). Could not confirm whether Switch 2-exclusive hardware features (mouse-mode Joy-Con controls, GameChat) are supported/used by this game; no source explicitly confirmed or denied it.",
+      "confidence": "medium",
+      "sources": ["https://insider-gaming.com/pokemon-legends-z-a-switch-2-exclusive-platform-details/", "https://www.nintendolife.com/guides/pokemon-legends-z-a-switch-1-vs-switch-2-which-version-should-you-buy"]
+    },
+    {
+      "category": "version difference",
+      "name": "Switch 2 Edition pricing/upgrade structure",
+      "detail": "Base Switch version: $59.99. Switch 2 Edition: $69.99. A separate $9.99 paid upgrade pack is available for Switch-version owners to upgrade to the Switch 2 Edition.",
+      "confidence": "high",
+      "sources": ["https://insider-gaming.com/how-much-does-pokemon-legends-z-a-cost/", "https://www.nintendo.com/us/store/products/pokemon-legends-z-a-nintendo-switch-2-edition-upgrade-pack-switch-2/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex registration (species caught/evolved/traded)", "where": "Rotom Phone Pokédex app", "confidence": "high" },
+    { "stat": "Mable's Research Level and reward claim status", "where": "Main menu > Mable's Research (press X)", "confidence": "high" },
+    { "stat": "Z-A Royale Rank (Z through A)", "where": "Menu/HUD indicator; exact screen not confirmed by name", "confidence": "medium" },
+    { "stat": "Box storage fill (up to 32 boxes x 30 Pokémon)", "where": "Box/Storage system UI", "confidence": "medium" },
+    { "stat": "Individual Pokémon level/EXP", "where": "Pokémon summary screen", "confidence": "high" },
+    { "stat": "Mission completion (main and side missions)", "where": "Mission log/journal in menu (existence inferred from guide structure, not directly confirmed via a screenshot/source)", "confidence": "low" },
+    { "stat": "Ranked Battle points/rank tier", "where": "Ranked Battle menu", "confidence": "low" },
+    { "stat": "Overall completion percentage indicator", "where": "Not found — no source confirmed a single aggregate % complete screen exists", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch 2 Edition runs at 60fps both docked and handheld vs Switch's 30fps cap; higher resolution (up to 4K docked / 1080p handheld vs 1080p docked / ~800p handheld on Switch) and faster loading.", "confidence": "high" },
+    { "note": "No story/gameplay content is exclusive to either platform; a $9.99 paid upgrade pack moves a Switch-version save/purchase to the Switch 2 Edition.", "confidence": "high" },
+    { "note": "Could not confirm whether Switch 2 mouse-control (Joy-Con) or GameChat features are implemented in this specific game.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the Pokédex app displays an explicit numeric/percentage completion counter (e.g., 'X/230 caught') on a summary screen, versus just being a browsable list of registered entries.",
+    "Could not confirm whether the game has a dedicated mission-log screen showing 'X/42 main missions' or 'X/120 side missions' completed — side-mission total itself varies across sources (119, 120, or 121 for the base game).",
+    "Could not confirm exact Z-A Royale rank screen UI or whether numeric ladder points are shown to the player, only that a Rank letter (Z-A) exists.",
+    "Could not confirm existence or absence of an in-game 'total Pokémon caught' or 'total battles won' lifetime counter outside of Ranked Battle points.",
+    "Could not confirm the names of the three reportedly-missable DLC Legendary Pokémon in Mega Dimension.",
+    "Could not confirm whether New Game+ exists in any form (no source discusses it as an actual released feature, only speculative wishlist pieces predating/around launch).",
+    "Could not confirm exact Wild Zone count with full confidence — one source stated 20 Wild Zones unlocked progressively, but this wasn't cross-verified with a second independent source.",
+    "Could not verify whether Switch 2-specific hardware features (mouse mode, GameChat) are supported by this specific game.",
+    "Could not confirm whether Sparkling Power (shiny-boosting mechanic) is available in the base game prior to the Mega Dimension DLC, or is entirely DLC-gated — sources consistently tie it to Hyperspace Distortions, which appear to be DLC content, but this should be double-checked."
+  ]
+}

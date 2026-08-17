@@ -1,0 +1,126 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Legends: Z-A — Mega Dimension DLC",
+  "platform": "Nintendo Switch 2 (content identical to Switch 1)",
+  "findings": [
+    {
+      "category": "mission_structure",
+      "name": "Hyperspace Missions 1-14 (Mega Dimension DLC main progression)",
+      "detail": "The DLC's main mission track is numbered 1-14, distinct from the base game's Main Missions. Missions 1-11 are the mandatory story: 1) Hyperspace Lumiose Survey No. 1 (fight Korrina + Rogue Mega Absol Z, Lv105), 2) Lebanne Arrives with a Bang!, 3) Hyperspace Lumiose Survey No. 2 (Rogue Mega Staraptor, Lv120), 4) Le Musée et le Café, 5) A Boom from the Strategy Room, 6) Hyperspace Lumiose Survey No. 3 (Rogue Mega Tatsugiri, Lv140), 7) Naveen's Not OK, 8) Hyperspace Lumiose Survey No. 4 (Rogue Mega Meowstic, Lv150), 9) Hyperspace Lumiose Survey No. 5 (Rogue Mega Heatran, Lv180), 10) Mayhem at Midnight, 11) Hyperspace Lumiose Survey No. 6 (Rogue Mega Darkrai two-phase fight, Lv200). Credits roll at the end of Mission 11.",
+      "trackable": "Mission log/quest tracker (standard Pokemon Legends Z-A mission list UI).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.dexerto.com/wikis/pokemon-legends-z-a/all-main-story-missions-walkthrough-in-mega-dimension-dlc/", "https://www.serebii.net/legendsz-a/hyperspacemissions.shtml"]
+    },
+    {
+      "category": "boss",
+      "name": "Rogue Mega Heatran",
+      "detail": "Fought during Hyperspace Lumiose Survey No. 5 (Mission 9 of 14), the mandatory story mission immediately BEFORE the Darkrai finale (Mission 11). Level 180. This directly contradicts the earlier claim that Zeraora is fought 'between Heatran and Darkrai' — Zeraora is not adjacent to Heatran at all; it's a hidden postgame side mission unlocked much later (after Mission 12/Rayquaza).",
+      "trackable": "Mission log; also appears as the 21st opponent (of 27) in the postgame Rogue Mega Rush boss-rush order.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Search summary citing thegamer.com Rogue Mega Evolutions guide", "https://www.serebii.net/legendsz-a/roguemegarush.shtml", "https://www.dexerto.com/wikis/pokemon-legends-z-a/all-main-story-missions-walkthrough-in-mega-dimension-dlc/"]
+    },
+    {
+      "category": "boss",
+      "name": "Rogue Mega Darkrai / Mega Darkrai (\"Normal Ending\" boss)",
+      "detail": "Fought during Hyperspace Lumiose Survey No. 6 (Mission 11 of 14), a two-phase fight: base Darkrai then Rogue Mega Darkrai, Level 200. Defeating and catching it rolls the DLC's credits and opens postgame (Hotel Z, new Darkranite). This is the point earlier research mistakenly treated as the DLC's final story beat; it is only what community guides call the 'Normal Ending' — the DLC continues afterward toward Rayquaza.",
+      "trackable": "Story completion is implied by the credits sequence; no separate in-game 'ending achieved' flag was found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.dexerto.com/wikis/pokemon-legends-z-a/darkrai-pokemon-legends-z-a/", "https://www.dexerto.com/wikis/pokemon-legends-z-a/all-main-story-missions-walkthrough-in-mega-dimension-dlc/"]
+    },
+    {
+      "category": "postgame_chain",
+      "name": "Mission 12 \"The Greatest Gift\" (Rayquaza) — split into two parts around Missions 13-14",
+      "detail": "After the Mission 11 credits roll, talking to Corbeau at the Rust Syndicate Office starts Mission 12 Part 1: he and Philippe reveal the ruby and sapphire distortions. Progressing requires accumulating 70,000 Hyperspace survey points, after which Ansha provides the Omega Old-Fashioned Donut (Groudon) and Alpha Old-Fashioned Donut (Kyogre) recipes. Missions 13 (\"A Ruby-Red Legend\", Groudon) and 14 (\"A Sapphire-Blue Legend\", Kyogre) can be done in either order and run in parallel — both must be completed before Mission 12 can resume. Once both legendaries are caught, Mission 12 resumes: a further 100,000 survey points are needed, after which Corbeau explains (via Ansha) that Rayquaza requires the Hyperspace Sky Pillar to be 'actualized' with a Delta Old-Fashioned Donut, leading to the Rayquaza fight. Completing this fight is described by the walkthrough as when 'the Mega Dimension DLC story will officially be over.'",
+      "trackable": "Survey points appear to be tracked during Hyperspace exploration sessions (a points/timer HUD element during Hyperspace excursions), though the exact on-screen display was not confirmed. Mission log tracks 12/13/14 as active/complete.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/570326", "https://www.serebii.net/legendsz-a/hyperspacemissions.shtml", "Search summary re: gamerant.com Mega Rayquaza guide"]
+    },
+    {
+      "category": "legendary_catch",
+      "name": "Primal Groudon",
+      "detail": "Obtained via Mission 13, \"A Ruby-Red Legend,\" triggered by crafting the Omega Old-Fashioned Donut (recipe given by Corbeau/Ansha after reaching 70,000 survey points). Battle is Groudon at Level 200; upon defeat it undergoes Primal Reversion and must be beaten again as Primal Groudon (Level 200) using a Red Orb obtained in the same mission. Mandatory to progress Mission 12 toward Rayquaza.",
+      "trackable": "Caught Pokémon appears in party/boxes and Hyperspace Pokédex; mission marked complete in mission log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/legendsz-a/hyperspacemissions/aruby-redlegend.shtml", "https://gamerant.com/pokemon-legends-z-a-mega-dimension-dlc-how-get-mega-rayquaza/"]
+    },
+    {
+      "category": "legendary_catch",
+      "name": "Primal Kyogre",
+      "detail": "Obtained via Mission 14, \"A Sapphire-Blue Legend,\" triggered by crafting the Alpha Old-Fashioned Donut. Beaten as regular Kyogre (Lv200) then Primal Kyogre (Lv200) using a Blue Orb obtained in the mission. Mandatory alongside Groudon to progress Mission 12 toward Rayquaza; can be done before or after Groudon.",
+      "trackable": "Caught Pokémon appears in party/boxes and Hyperspace Pokédex; mission marked complete in mission log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Search summary citing gamerant.com Kyogre guide", "https://game8.co/games/Pokemon-Legends-Z-A/archives/570326"]
+    },
+    {
+      "category": "boss",
+      "name": "Mega Rayquaza (DLC's community-labeled \"true final boss\")",
+      "detail": "Reached at the end of Mission 12 (\"The Greatest Gift\") after both Groudon and Kyogre are caught and 100,000 further survey points are earned. Requires crafting a Delta Old-Fashioned Donut, then traveling via Hoopa's portal to the Hyperspace Sky Pillar (accessed from Hotel Z rooftop after speaking with Korrina). Fight is two phases with no heal window between them: base Rayquaza at Level 200, then Rogue Mega Rayquaza at Level 200. Rayquaza does not need a Mega Stone to Mega Evolve — it Mega Evolves once it knows the move Dragon Ascent (standard core-series Rayquaza mechanic). Described by multiple sources/guide videos as the DLC's strongest Pokémon and 'true final boss,' though this appears to be community terminology rather than an official in-game label — one detailed walkthrough states simply that completing this fight ends the DLC story, without describing a distinct extra cutscene beyond the standard postgame unlock.",
+      "trackable": "Caught Rayquaza appears in party/boxes and Hyperspace Pokédex; unlocks the Rogue Mega Rush boss-rush mode afterward.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-legends-z-a-mega-dimension-dlc-how-get-mega-rayquaza/", "https://www.dexerto.com/wikis/pokemon-legends-z-a/mega-rayquaza-pokemon-legends-z-a/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/570326", "https://game8.co/games/Pokemon-Legends-Z-A/archives/570409"]
+    },
+    {
+      "category": "ending_distinction",
+      "name": "\"Normal Ending\" vs \"True Ending\" terminology",
+      "detail": "Could NOT confirm an official in-game label distinguishing a 'Normal Ending' (post-Darkrai) from a 'True Ending' (post-Rayquaza). This phrasing is used by YouTube guide titles and some community writeups, but the most detailed text walkthrough found (Game8) describes the post-Rayquaza moment only as the DLC story being 'officially over,' without mentioning a second credits roll or distinct epilogue cutscene. The first (Darkrai) credits roll is confirmed to be a real, distinct event that opens postgame content. Whether a second, different final cutscene plays after Rayquaza specifically (as opposed to just a mission-complete message) is UNCONFIRMED.",
+      "trackable": "No confirmed in-game flag, title-screen variant, or menu indicator was found that distinguishes reaching Darkrai's ending vs Rayquaza's ending.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.youtube.com/watch?v=h2BBbwZFM5E (title only)", "https://game8.co/games/Pokemon-Legends-Z-A/archives/570326"]
+    },
+    {
+      "category": "postgame_mode",
+      "name": "Rogue Mega Rush",
+      "detail": "A 27-battle boss-rush gauntlet unlocked after catching Mega Rayquaza (per Serebii) and after defeating every Rogue Mega Evolution in the game, including the hidden Zeraora fight. Confirmed exact order: 1 Absol, 2 Slowbro, 3 Camerupt, 4 Victreebel, 5 Beedrill, 6 Hawlucha, 7 Banette, 8 Ampharos, 9 Barbaracle, 10 Mawile, 11 Froslass, 12 Altaria, 13 Venusaur, 14 Dragonite, 15 Tyranitar, 16 Starmie, 17 Absol Z, 18 Staraptor, 19 Tatsugiri, 20 Meowstic, 21 Heatran, 22 Darkrai, 23 Groudon, 24 Kyogre, 25 Rayquaza, 26 Zeraora, 27 Zygarde. Excludes Hyperrogue Ange Floette. All opponents are Level 100 in this mode (note: this differs from their story-fight levels, which are much higher). Only 3 total heals allowed across the whole run; bag items/Potions cannot be used; fainted Pokémon stay fainted for the rest of the run. Zygarde is technically the base game's post-game legendary (caught in base-game Main Mission 42, not part of the DLC), but is folded into this DLC boss-rush roster as the final battle.",
+      "trackable": "Completing the full 27-battle gauntlet awards the \"Mega Rush Master\" title, equippable under Titles in the Link Play/profile menu — a clear, confirmable completion flag.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/legendsz-a/roguemegarush.shtml", "Search summary citing nintendoeverything.com Rogue Mega Rush guide", "https://bulbapedia.bulbagarden.net/wiki/Rogue_Mega_Evolution"]
+    },
+    {
+      "category": "boss/legendary",
+      "name": "Rogue Mega Zeraora (Side Mission EX3: \"Raging Lightning\")",
+      "detail": "A hidden postgame side mission, NOT part of the main Hyperspace Mission 1-14 chain and NOT adjacent to Heatran. Requires: Mission 12 (The Greatest Gift / Rayquaza) fully complete, PLUS the base game's Side Mission EX1 (\"Shine Bright like a Gemstone\" — Diancie, Lv70) and EX2 (\"Project M\" — Mewtwo, Lv70) already completed. To trigger: buy Canari Bread from Tarragon at Racine Construction (₽1,300), trade it for Popping Candy with a boy on a rooftop in Vert Sector 3, then return to Hotel Z and have Ansha craft a Plasma-Glazed Donut, which starts EX3. Battle is against Level 200 Rogue Mega Zeraora; defeating it grants the catch plus the Zeraorite Mega Stone. Notable as Zeraora's first core-series obtainability without a limited-time distribution event.",
+      "trackable": "Side mission log; catch registers in Hyperspace Pokédex.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Search summary citing game8.co Raging Lightning walkthrough", "https://game8.co/games/Pokemon-Legends-Z-A/archives/570898", "https://bulbapedia.bulbagarden.net/wiki/Rogue_Mega_Evolution"]
+    },
+    {
+      "category": "collection_tracker",
+      "name": "Hyperspace Pokédex",
+      "detail": "A DLC-specific Pokédex covering 132 Pokémon added/available in Hyperspace Lumiose, separate from the base game Kalos Pokédex. Primal Groudon, Primal Kyogre, Mega Rayquaza, and Mega Zeraora register here once caught.",
+      "trackable": "Yes — the Hyperspace Pokédex is an explicit in-game menu screen showing seen/caught counts, confirmed by multiple guide sites (Game8, Nintendo Life, Serebii all maintain checklists against it).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/pokemon-legends-za-plza-mega-dimension-all-dlc-pokemon-locations-hyperspace-pokedex/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/563825", "https://www.serebii.net/legendsz-a/hyperspacepokedex.shtml"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Hyperspace Mission log (1-14 plus EX side missions)", "where": "Standard mission/quest tracker UI, same system as base game missions", "confidence": "high" },
+    { "stat": "Hyperspace Pokédex seen/caught count (132 Pokémon)", "where": "Dedicated Hyperspace Pokédex menu screen", "confidence": "high" },
+    { "stat": "Rogue Mega Rush completion", "where": "Awards \"Mega Rush Master\" title, viewable/equippable under Titles in the profile/Link Play menu", "confidence": "high" },
+    { "stat": "Hyperspace survey points", "where": "Believed to be tracked during Hyperspace excursions (points/timer element), but exact on-screen display/persistent counter not confirmed", "confidence": "low" },
+    { "stat": "Distinct 'Normal Ending reached' vs 'True Ending reached' flag", "where": "No such flag or menu indicator found", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "No Switch 1 vs Switch 2 content differences were found for the Mega Dimension DLC; all sourced guides treat the DLC content as identical across both hardware versions, consistent with Nintendo's messaging that Legends Z-A DLC content is the same on both platforms.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm whether a distinct 'True Ending' cutscene/second credits roll actually plays after catching Mega Rayquaza, as opposed to simply a 'mission complete' message. The most detailed walkthrough found says only that the DLC story is 'officially over' at that point — this may just mean postgame unlocks, not a unique cinematic. Recommend NOT building a trophy around a specific 'True Ending cutscene' name/description without further verification (e.g. a full video playthrough transcript).",
+    "Could not find an official in-game term for 'Normal Ending' or 'True Ending' — these appear to be community/YouTuber shorthand, not menu or credits text confirmed via search.",
+    "Could not confirm the exact on-screen mechanism (if any) for tracking Hyperspace survey points (the 70,000 / 100,000 point thresholds gating Missions 12-14) — whether it's a visible running counter, a hidden background value, or only revealed via NPC dialogue when the threshold is met.",
+    "Could not verify whether Primal Groudon/Kyogre/Rayquaza captures are guaranteed (auto-catch after the scripted battle, as strongly implied for Rayquaza which one source explicitly calls a guaranteed catch with 'any Poké Ball') or require normal catch-rate mechanics with possible failure/re-fights. Rayquaza's guaranteed-catch claim is single-sourced (medium-low confidence); Groudon/Kyogre catch-guarantee status is unconfirmed either way.",
+    "Could not confirm Heatranite (Heatran's Mega Stone) acquisition details beyond it being obtained from the mandatory Survey No. 5 story fight; not deeply verified.",
+    "Zygarde's inclusion in the Rogue Mega Rush roster (position 27) is confirmed, but Zygarde itself is base-game postgame content (Main Mission 42), not Mega Dimension DLC content — flagging this so a DLC-specific trophy list doesn't mistakenly treat Zygarde's own catch/story as DLC-exclusive content, even though the Rogue Mega Rush challenge itself is DLC-exclusive.",
+    "Could not find confirmation of any additional superboss/legendary content beyond what's listed here (Heatran, Darkrai, Groudon, Kyogre, Rayquaza, Zeraora, plus the Rogue Mega Rush gauntlet and the base-game-adjacent EX1 Diancie/EX2 Mewtwo prerequisites). Did not find evidence of further hidden postgame bosses beyond Rogue Mega Rush.",
+    "Could not confirm exact Heatranite/Zeraorite/Red Orb/Blue Orb item names' in-game bag icons or whether they are one-time key items vs. consumables — low priority but relevant if a trophy references specific item pickups."
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Legends: Z-A",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "setting",
+      "name": "Lumiose City urban redevelopment",
+      "detail": "The entire game takes place within Lumiose City, five years after Pokémon X/Y. Corporation Quasartico Inc. runs an urban redevelopment plan to let humans and Pokémon coexist, creating fenced-off 'Wild Zones' for wild Pokémon by day and holographic 'Battle Zones' for trainer battles by night. Note: the assignment brief's term 'Zoning Plan' was not found in any source; the plan is referred to as an 'urban redevelopment plan'/Wild Zones initiative.",
+      "trackable": "Zones are shown on the city map, but there is no separate 'redevelopment progress' meter found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Legends:_Z-A",
+        "https://www.gamesradar.com/games/pokemon/lumiose-city-is-going-through-an-urban-redevelopment-plan-in-pokemon-legends-z-a-and-i-bet-it-has-something-to-do-with-the-1100lbs-battles-on-its-rooftops/"
+      ]
+    },
+    {
+      "category": "core progression",
+      "name": "Z-A Royale ranked tournament (no traditional Gyms)",
+      "detail": "Legends Z-A replaces Gyms with the Z-A Royale, a nightly real-time/turn-based hybrid battle tournament in Battle Zones. There are 26 ranks from Z (lowest) up to A (highest); each rank has a themed named Promotion Match opponent (e.g., Zach=Rank Z, Yvon=Rank Y, Xavi=Rank X, Canari=Rank F, Ivor=Rank E). Players earn Ticket Points by defeating opponents/completing bonus cards in Battle Zone matches (4 trainers, ~3-minute real-time skirmishes scored by number of opposing Pokémon knocked out), then cash in a Challenger's Ticket for a Promotion Match to advance a rank. Advancing through specific ranks is gated to main story missions (e.g., 'Reaching Rank X/W/V/E/D/C/B/A').",
+      "trackable": "Current Z-A Royale rank is shown in the dedicated Z-A Royale menu (accessed via Ranked Battles in the pause menu); the assignment's term 'Star Rank' was not confirmed in any source — the top rank is simply called 'Rank A'.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Z-A_Royale",
+        "https://www.serebii.net/legendsz-a/z-aroyale.shtml"
+      ]
+    },
+    {
+      "category": "story milestone / final boss",
+      "name": "Rank A promotion match vs. Urbain/Taunie",
+      "detail": "The rival character (male name Urbain, female name Taunie), leader of Team MZ, is the final Promotion Match opponent, fought when the player reaches Rank A alongside him. This is main mission 35, 'Reaching Rank A'.",
+      "trackable": "Reflected in Z-A Royale rank menu and mission log.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Z-A_Royale", "https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)"]
+    },
+    {
+      "category": "npc",
+      "name": "Player character — Paxton (male) / Harmony (female)",
+      "detail": "Default names for the customizable protagonist; the 'ace member' of Team MZ.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Team_MZ"]
+    },
+    {
+      "category": "npc",
+      "name": "Team MZ members",
+      "detail": "Urbain/Taunie — team leader and player's rival; steps back after 15 Z-A Royale matches to become CEO of Quasartico Inc. Lida — second-in-command and strategist. Naveen — member, designed the team's logo/clothing. Korrina and Ansha join specifically during the Mega Dimension DLC content, not the base campaign.",
+      "trackable": "Team roster/relationships not confirmed to have an explicit in-game tracker.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Team_MZ", "https://hero.fandom.com/wiki/Team_MZ"]
+    },
+    {
+      "category": "npc / ally",
+      "name": "AZ",
+      "detail": "Owner of Hotel Z where the player and Team MZ stay; ancient immortal former king of Kalos (returning character from Pokémon X/Y), over nine feet tall, claims to be roughly 3,000 years old. Built the Ultimate Weapon and the device 'Ange' inside Prism Tower in the ancient past (sources vary between '2,000' and '3,000' years — treat exact figure as unconfirmed). His partner Pokémon is Eternal Flower Floette. AZ dies at the end of the main story following the Hyperrogue Ange Floette crisis.",
+      "trackable": "Story-only; no dedicated tracker found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/AZ", "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Legends:_Z-A", "https://www.sportskeeda.com/pokemon/pokemon-legends-z-a-ending-explained"]
+    },
+    {
+      "category": "npc / secret character",
+      "name": "L (revealed as Lysandre)",
+      "detail": "A mysterious figure named 'L' who is working alongside the mysterious Pokémon (Zygarde) throughout the game; per community/plot summaries, 'L' is Lysandre from Pokémon X/Y, who lost his memories and was granted AZ-like immortality after being saved by Zygarde when the Ultimate Weapon activated in the past. L challenges the player to a secret boss battle in the postgame, just before Zygarde becomes catchable.",
+      "trackable": "Story-only; encountered via postgame mission chain.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gamerant.com/pokemon-legends-z-a-lysandre-fate-unclear-return-how/", "https://www.youtube.com/watch?v=9RbE61tVPdA"]
+    },
+    {
+      "category": "antagonist / faction",
+      "name": "Ange / Hyperrogue Ange Floette (true final antagonist)",
+      "detail": "'Ange' is an ancient device AZ built inside Prism Tower ~2,000-3,000 years ago. After the player and Urbain/Taunie reach Rank A, Team MZ attempts to use Ange; when Urbain/Taunie Mega Evolves Eternal Flower Floette to help control it, the device fuses with/corrupts the Floette, becoming the monstrous 'Hyperrogue Ange Floette,' which destroys Prism Tower and triggers a citywide Rogue Mega Evolution outbreak. This is the true final boss, fought in main mission 37 ('Operation Protect Lumiose').",
+      "trackable": "Story mission; final story boss fight, not a repeatable/tracked collectible.",
+      "missable": true,
+      "confidence": "high",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Legends:_Z-A",
+        "https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)",
+        "https://www.sportskeeda.com/pokemon/pokemon-legends-z-a-ending-explained"
+      ]
+    },
+    {
+      "category": "antagonist / faction",
+      "name": "Rust Syndicate",
+      "detail": "A menacing criminal faction led by Corbeau, who specializes in Poison-type Pokémon; feared enough that 'even a rampaging alpha Pokémon wouldn't dare cross the group.' A representative named Philippe contacts the player about Team MZ leader Urbain/Taunie's unpaid debts, tied into main missions 20-23 ('A Request from the Rust Syndicate' arc). Functions as one of several rival factions/gatekeepers for Rogue Mega battles rather than the game's ultimate villain.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://legends.pokemon.com/en-us/story-world/characters/corbeau", "https://deltiasgaming.com/pokemon-legends-z-a-a-request-from-the-rust-syndicate-walkthrough/", "https://bulbapedia.bulbagarden.net/wiki/Rust_Syndicate"]
+    },
+    {
+      "category": "faction",
+      "name": "SBC (Lumiose Society of Battle Connoisseurs)",
+      "detail": "A battling faction encountered via characters Francois and Vivica, later expanding to Lebanne and the group's head, Jacinthe. Tied to main missions 26-29 ('An Invitation from the SBC' arc). Appears to be a battling club/faction rather than a traditional villain team.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://community.pokemon.com/en-us/discussion/20400/pokemon-legends-z-a-antagonist"]
+    },
+    {
+      "category": "faction",
+      "name": "Team Flare Nouveau",
+      "detail": "A second-generation Team Flare formed to try to salvage the original organization's reputation after Lysandre's failed Ultimate Weapon plot in X/Y. Led by Grisham (a former Team Flare member), who runs Nouveau Café with comrade Griselle. Tied into main mission 35 area content (Lysandre Labs discovery).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://legends.pokemon.com/en-us/story-world/characters/grisham", "https://bulbapedia.bulbagarden.net/wiki/Grisham"]
+    },
+    {
+      "category": "boss / rogue mega evolution",
+      "name": "Rogue Mega Evolution battles (16 total in base game)",
+      "detail": "Sixteen mandatory/story-integrated Rogue Mega Evolution boss battles unlock in waves of 3-4 as the story progresses (only 3 shown on the map at a time). Confirmed roster across 5 waves: Wave 1 — Absol, Camerupt, Slowbro, Victreebel; Wave 2 — Banette, Beedrill, Hawlucha; Wave 3 — Ampharos, Barbaracle, Mawile; Wave 4 — Altaria, Froslass, Venusaur; Wave 5 — Dragonite, Starmie, Tyranitar. Each Team MZ core member (Urbain/Taunie, Lida, Naveen) battles roughly five of these alongside the player as part of main missions 10 onward. Defeating a Rogue Mega automatically grants its Mega Stone. The Rogue Mega Absol is unique: after defeat it joins the player's own party rather than just granting a stone.",
+      "trackable": "Mega Stones obtained are visible in the Bag; Mega forms seen/caught are logged in the Mega Evolution Pokédex (a dedicated section of the Pokédex covering all 93 Mega Evolutions in the game, seen via battle and fully registered once caught with its stone).",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://comicbook.com/gaming/list/every-pokemon-and-rogue-mega-battle-you-have-to-fight-to-get-mega-stones-in-pokemon-legends-z-a/",
+        "https://www.thegamer.com/pokemon-legends-z-a-all-rogue-mega-evolutions-how-to-beat/",
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_the_Mega_Evolution_Pok%C3%A9dex"
+      ]
+    },
+    {
+      "category": "boss",
+      "name": "Rogue Mega Beedrill",
+      "detail": "One of the pre-release marketing hook fights; confirmed as an actual mandatory-adjacent story battle ('A Rogue Mega Beedrill', main missions 15-18 arc, Wave 2). Fought around level 41; summons a horde of Kakuna then a swarm of Beedrill allies. Defeating it grants Beedrillite.",
+      "trackable": "Mega Evolution Pokédex / Mega Stone in Bag.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://deltiasgaming.com/pokemon-legends-z-a-how-to-defeat-rogue-mega-beedrill/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/557832"]
+    },
+    {
+      "category": "lore, not a fought boss",
+      "name": "Mega Pidgeot (backstory only)",
+      "detail": "Marketing materials heavily featured Mega Pidgeot, but it is NOT a battle the player fights in the main campaign. Per the story, six months before the game begins, a rogue Mega Pidgeot was the first-ever Rogue Mega Evolution in Lumiose; AZ tried and failed to subdue it with his Floette, and Urbain (the future rival/Team MZ leader) defeated it instead, which is what impressed Quasartico's Vinnie and led to Team MZ's formation. This event happens before the player's playable story starts and is relayed as backstory/cutscene, not a player-controlled boss fight. (A source also references a later multi-Mega encounter including Mega Pidgeot alongside Mega Kangaskhan and Mega Garchomp, but it's unclear if this is base-game postgame content, a superboss, or Mega Dimension DLC content — unconfirmed.)",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Urbain", "https://legends.pokemon.com/en-us/story-world/characters/urbain-or-taunie"]
+    },
+    {
+      "category": "legendary encounter",
+      "name": "Zygarde — mysterious Pokémon thread through the campaign",
+      "detail": "A 'mysterious Pokémon' first chased/glimpsed in main mission 9 ('Chase That Mysterious Pokémon!') is later understood to be Zygarde; it recurs across the story. During the final battle against Hyperrogue Ange Floette (main mission 37), Zygarde merges with Cells it has been collecting (aided by 'L') and reaches Complete Forme to help defeat the threat and save Lumiose.",
+      "trackable": "Story-only during the campaign; only becomes an actual catchable/ownable Pokémon in the postgame (see postgame finding below).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)", "https://www.sportskeeda.com/pokemon/pokemon-legends-z-a-ending-explained"]
+    },
+    {
+      "category": "ending",
+      "name": "Single main-story ending, with a flavor-only 'wish' choice",
+      "detail": "After defeating Hyperrogue Ange Floette (mission 37, end of the 37-mission main story, credits roll), AZ dies. Earlier, at the Rank A milestone, reaching Rank A grants the player (jointly with Urbain/Taunie) 'one wish' from Quasartico Inc.; multiple wish-dialogue options exist, but sources confirm the underlying story outcome is identical regardless of which option is picked — this is NOT a branching-ending mechanic, just a dialogue/flavor choice.",
+      "trackable": "None found; wish choice does not appear to be logged/displayed anywhere post-selection.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/plza-wish-choice-matter-end-pokemon-legends-z-a/", "https://game8.co/games/Pokemon-Legends-Z-A/archives/559045"]
+    },
+    {
+      "category": "postgame",
+      "name": "Infinite Z-A Royale",
+      "detail": "After the main story (mission 38 onward), the Z-A Royale continues as the 'Infinite Z-A Royale' where all trainers are assigned 'Rank ∞'; new battle zones/reward matches unlock offering items and Exp. Candy. Main mission 39 is literally titled 'The Infinite Z-A Royale.'",
+      "trackable": "Still tracked via the Z-A Royale menu (rank display now shows ∞).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Z-A_Royale", "https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)"]
+    },
+    {
+      "category": "postgame / legendary capture chain",
+      "name": "Catching Xerneas, Yveltal, and Zygarde (postgame missions 40-42)",
+      "detail": "After one Infinite Z-A Royale reward match, the player is directed back to Hotel Z, where 'L' points toward finding 'the one who gives' (Xerneas) and 'the one who takes' (Yveltal). Working with researcher Mable: Xerneas is found after clearing Alpha Pokémon in Wild Zones 3, 5, and 9, then investigating a presence in Zone 11's south shoreline grass (mission 40, 'The One That Gives'). Yveltal requires completing three more Rogue Mega Evolution battles offered by Vinnie at Quasartico Inc. (mission 41, 'The One That Takes'). Once both are caught, returning to Hotel Z triggers a battle against 'L'; defeating him causes Zygarde to appear and leads the player to Zone 20, beneath the ruins of Prism Tower, for mission 42 ('To Keep the World in Balance'). Zygarde is reported as a Level 84 Dragon/Ground-type at this encounter.",
+      "trackable": "Progress gated by mission log (missions 38-42) and Alpha Pokémon clearing status per Wild Zone.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.rpgsite.net/guide/18753-pokemon-legends-z-a-legendaries-guide-how-to-catch-xerneas-yveltal-zygarde",
+        "https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)",
+        "https://www.dittobase.com/legends-za/guides/xerneas-yveltal-and-zygarde-in-legends-z-a"
+      ]
+    },
+    {
+      "category": "campaign structure",
+      "name": "Total main mission count: 42 (37 main story + 5 postgame)",
+      "detail": "Community wikis (Game8, Bulbapedia mission list) consistently report 42 total Main Missions: missions 1-37 comprise the full main story (credits roll after 37), and missions 38-42 are postgame content (Infinite Z-A Royale unlock, then the Xerneas/Yveltal/Zygarde capture chain).",
+      "trackable": "Unconfirmed whether the game itself displays a numbered '1-42' mission list to the player, or if this numbering is a wiki/community convention describing an in-game quest-marker system without explicit numbering. Treat mission count as reliable, but the exact in-game UI presentation of mission numbering as low confidence.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)", "https://game8.co/games/Pokemon-Legends-Z-A/archives/556189"]
+    },
+    {
+      "category": "version notes",
+      "name": "Story content identical across Switch and Switch 2 editions",
+      "detail": "Multiple outlets confirm the campaign story and content are the same on both the original Nintendo Switch version and the Nintendo Switch 2 Edition; differences are purely technical (Switch 2 runs at a locked/near-locked 60fps at up to 2160p upscaled docked / 1080p handheld, vs. Switch's ~30fps at 1080p docked/720p handheld), plus a $10 price difference.",
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendolife.com/guides/pokemon-legends-z-a-switch-1-vs-switch-2-which-version-should-you-buy",
+        "https://www.rpgsite.net/feature/18710-pokemon-legends-z-a-switch-1-vs-switch-2-comparison"
+      ]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Z-A Royale Rank (Z through A, then ∞ in postgame)", "where": "Z-A Royale menu (Ranked Battles screen, accessible from pause menu)", "confidence": "high" },
+    { "stat": "Main mission progression", "where": "Presumed quest/objective tracker and map markers (green flag icons); exact in-game numbering/UI not independently confirmed beyond wiki convention", "confidence": "low" },
+    { "stat": "Mega Evolutions seen/registered (includes all Rogue Mega bosses fought)", "where": "Mega Evolution Pokédex, a dedicated section of the in-game Pokédex covering all 93 Mega Evolutions (seen once witnessed in battle, fully registered once the player owns both the Pokémon and its Mega Stone)", "confidence": "medium" },
+    { "stat": "Mega Stones obtained", "where": "Bag/Key Items — one per defeated Rogue Mega Evolution (16 in base game)", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Campaign story, missions, bosses, and endings are identical between the Nintendo Switch and Nintendo Switch 2 Edition; only performance/resolution differ.", "confidence": "high" },
+    { "note": "The Mega Dimension DLC (released ~December 2025/further update mentioned as late as July 2026 review) adds a separate Hyperspace Lumiose storyline with new characters (Korrina, Ansha) and 10 additional Rogue Mega Evolution encounters — this is DLC/expansion content, not part of the base campaign covered here.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact in-game term for the 'urban redevelopment plan' — no source used the phrase 'Zoning Plan' as given in the assignment brief; it may be a mistranslation, a marketing-only term, or simply not what the shipped game calls it.",
+    "Could not confirm whether 'Star Rank' is an actual in-game term; all sources describe the top tier simply as 'Rank A' within a Z-to-A ladder of 26 ranks.",
+    "Could not verify the exact year figure (2,000 vs 3,000 years) for how long ago AZ built Ange/the Ultimate Weapon — sources disagreed.",
+    "Could not confirm with a primary/official source whether 'L' is explicitly and unambiguously identified as Lysandre within the base game's own dialogue (this comes from community plot-summary sources of medium/low reliability) — flagged low confidence and should be verified before building a trophy around this reveal.",
+    "Could not confirm additional detail on the 'multi-Mega boss encounter' pairing Mega Pidgeot with Mega Kangaskhan and Mega Garchomp — unclear if base-game postgame, a repeatable Rogue Mega Showdown/Rush side-mode encounter, or DLC-exclusive content.",
+    "Could not confirm whether the game displays an explicit story/campaign completion percentage anywhere (e.g., a save-file or menu completion meter covering just the main story, as opposed to the Pokédex catch percentage which is a systems-beat concern).",
+    "Could not confirm exact mission names/order for the 'Wave 3-5' Rogue Mega arcs (missions 26-34) beyond the wave groupings found — the Bulbapedia mission list summary was truncated/inferred in the fetch, so intermediate mission titles between the milestone missions are approximate.",
+    "Could not independently confirm whether choosing different 'wish' dialogue options at Rank A has any mechanical (not just flavor-text) effect — one source states outcome is identical regardless of choice, but this wasn't cross-verified by a second independent source.",
+    "Did not deeply verify Mega Dimension DLC campaign content, since it is a separate expansion and likely out of scope for the base-game campaign beat; flagged briefly under versionNotes for awareness only."
+  ]
+}

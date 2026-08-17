@@ -1,0 +1,183 @@
+{
+  "beat": "side content",
+  "game": "Pokémon Legends: Z-A",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Lumiose Pokédex",
+      "detail": "The base game's regional Pokédex contains 232 Pokémon total, but only 230 are required for completion — Diancie and Mewtwo (both postgame legendaries) are excluded from the completion requirement.",
+      "trackable": "Pokédex menu screen; completing it awards the in-game title 'Pokémon Professor'. General Pokédex UI since Sun/Moon shows a completion percentage, but the exact on-screen wording/percentage display for Legends Z-A specifically was not directly confirmed via a screenshot/guide description.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Lumiose_Pok%C3%A9dex_number", "https://www.thegamer.com/pokemon-legends-z-a-pokedex-location-completion-guide/", "https://www.powerpyx.com/pokemon-legends-z-a-wiki-100-completion/"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Hyperspace Pokédex (Mega Dimension DLC)",
+      "detail": "A second regional Pokédex added by the paid Mega Dimension DLC, covering Pokémon found in Hyperspace Lumiose. Contains 132 Pokémon, of which only 131 are required for completion (Zeraora, tied to Mega Zeraora, is excluded from the requirement). Some entries are returning Pokémon (e.g., Hoenn starters) rather than all-new.",
+      "trackable": "Separate Pokédex menu entry; completing it awards the title 'Hyperspace Pokémon Professor'.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/guides/pokemon-legends-z-a-mega-dimension-hyperspace-pokedex-all-dlc-exclusive-pokemon", "https://pokestats.gg/pokedex/hyperspace", "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Hyperspace_Pok%C3%A9dex_number"]
+    },
+    {
+      "category": "side quest system",
+      "name": "Missions (Main Missions and Side Missions)",
+      "detail": "The game's quest system is simply called 'Missions.' Main Missions (yellow markers) form the story critical path; Side Missions (blue exclamation-mark markers, described as requests from Lumiose City residents) are optional. Counts vary by source: 42 Main Missions is consistent across sources. Side Mission totals differ: one source states 119 base-game Side Missions (total 161 missions with mains); another states 121 base-game Side Missions plus 82 added by the Mega Dimension DLC (203 total). At least one specific late-unlocking side mission, 'Le Super-Tournoi de Jacinthe,' requires beating the main story and winning the Infinite Z-A Royale 15-20 times.",
+      "trackable": "Confirmed in-game tracker: opening the map and pressing X shows a list of completed and pending missions. Pressing + while a side mission is active pins/tracks its objective on-screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.powerpyx.com/pokemon-legends-z-a-all-side-mission-locations-main-missions/", "https://gfuel.com/blogs/news/pokemon-legends-z-a-mission-list-all-main-missions-and-more", "https://pokemondb.net/legends-z-a/missions", "https://bulbapedia.bulbagarden.net/wiki/Mission_(Legends:_Z-A)"]
+    },
+    {
+      "category": "collection system",
+      "name": "Mable's Research",
+      "detail": "A separate research/request board (distinct from Missions) run by an NPC named Mable, focused on collection and Pokédex-adjacent goals such as catching a number of Pokémon of each type and registering all available Pokémon in each Wild Zone. Completing tasks raises a 'Research Level'; there are 50 Research Levels total, each granting a reward (mostly TMs), with a Master Ball and the Shiny Charm awarded for completing all of Mable's requests.",
+      "trackable": "Dedicated Research menu/screen showing Research Level and completed/pending requests.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemondb.net/legends-z-a/research", "https://www.yardbarker.com/video_games/articles/your_guide_to_mables_research_rewards_in_pokmon_legends_z_a/s1_17458_42917698", "https://gamerant.com/pokemon-legends-za-plza-mables-research-rewards-requests/"]
+    },
+    {
+      "category": "collection system",
+      "name": "Hyperspace Survey Points",
+      "detail": "A DLC-specific counterpart to the survey/research point system, earned by completing tasks in Hyperspace Wild Zones within the Mega Dimension DLC. Also earned (10,000 points per win) by beating Rogue Mega Evolution rematches in Hyperspace.",
+      "trackable": "Low confidence on exact UI, but a points total is referenced by guides implying an on-screen counter.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Pokemon-Legends-Z-A/archives/573597"]
+    },
+    {
+      "category": "mega evolution",
+      "name": "Base game Mega Evolution roster",
+      "detail": "62 different Mega Evolutions are obtainable in the base game, including 26 new Mega Evolutions not seen in prior games (e.g., Mega Meganium, Mega Feraligatr, Mega Delphox, Mega Greninja, Mega Malamar, Mega Dragonite, Mega Excadrill, Mega Zygarde, Mega Skarmory, Mega Starmie, and others) alongside classics returning from X/Y (e.g., Mega Charizard, Mega Gengar, Mega Gardevoir).",
+      "trackable": "Likely tracked via a Mega Evolution Pokédex / list (Bulbapedia references a 'Mega Evolution Pokédex' list), but the exact in-game UI for this was not directly confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.playerauctions.com/pokemon-legends-za-guide/tips-guides/all-mega-pokemon-list/", "https://www.serebii.net/legendsz-a/megaevolutions.shtml", "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_the_Mega_Evolution_Pok%C3%A9dex"]
+    },
+    {
+      "category": "mega evolution",
+      "name": "Mega Dimension DLC new Mega Evolutions",
+      "detail": "The Mega Dimension DLC (Wave 2, released December 10, 2025) adds 19 new Mega Evolutions (22 counting form variants) making their video-game debut, including Mega Raichu X, Mega Raichu Y, Mega Chimecho, Mega Baxcalibur, and Mega Zeraora (explicitly stated by Game Freak to be difficult to obtain).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/pokemon-legends-z-a-mega-dimension-dlc-70070000030771-switch/", "https://legends.pokemon.com/en-us/dlc", "https://www.techradar.com/gaming/pokemon-legends-z-a-mega-dimension-dlc-will-add-mega-zeraora-but-game-freak-says-it-might-be-a-little-difficult-to-obtain"]
+    },
+    {
+      "category": "postgame superboss content",
+      "name": "Rogue Mega Rush",
+      "detail": "A postgame superboss gauntlet challenge: defeat all 27 Rogue Mega Evolutions (postgame rematch versions, Level 100) using the same single team, with only 3 full team heals allowed, no items, and no breaks. Described by guides as one of the toughest challenges in any Pokémon game. Rogue Mega Evolution rematches first unlock at Level 70 after starting the postgame search for Xerneas/Yveltal (fought as simulations at Quasartico Inc.); the full Level 100 'Rush' version is a separate, harder postgame challenge.",
+      "trackable": "Not confirmed whether the game displays a running count of Rogue Mega Evolutions defeated in the Rush; likely tracked only by battle outcome, not an explicit counter screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/legendsz-a/roguerematch.shtml", "https://nintendoeverything.com/rogue-mega-rush-strategy-guide-for-pokemon-legends-z-a/", "https://www.thegamer.com/pokemon-legends-z-a-post-game-content-guide/"]
+    },
+    {
+      "category": "postgame content",
+      "name": "Infinite Z-A Royale",
+      "detail": "After the main story, the Z-A Royale rank-up system (originally 26 ranks, Z through A) transforms into the 'Infinite Z-A Royale.' Players earn Challenger Tickets nightly to fight Reward Matches against semi-random NPCs from the story for rare Poké Balls, Exp Candy, etc. Winning 15 battles in the Infinite Z-A Royale is required to obtain Eternal Flower Floette and its exclusive Mega Stone, Floettite.",
+      "trackable": "Win count toward Eternal Flower Floette (15 wins) is implied to be tracked in some form, but exact UI not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-legends-z-a-post-game-content-guide/", "https://bulbapedia.bulbagarden.net/wiki/Z-A_Royale", "https://game8.co/games/Pokemon-Legends-Z-A/archives/558218"]
+    },
+    {
+      "category": "postgame legendary",
+      "name": "Mewtwo",
+      "detail": "Postgame-only encounter (~Level 70) on B3F of Lysandre Labs, the 'button room.' Access requires redeeming Mewtwonite X and Mewtwonite Y via Mystery Gift (distribution began December 2, 2025), which unlocks an extra side mission after the main story. Caught Mewtwo has 3 guaranteed perfect IVs and is hard shiny-locked.",
+      "trackable": null,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://allthings.how/pokemon-legends-z-a-mewtwo-and-mega-mewtwo-event-unlocks/", "https://www.pokemon.com/us/pokemon-news/get-mewtwo-and-mewtonite-stones"]
+    },
+    {
+      "category": "postgame legendary",
+      "name": "Diancie",
+      "detail": "Postgame-only mythical Pokémon. Requires redeeming Diancite via Mystery Gift (distribution began November 6, 2025) to unlock the side mission 'Shine Bright like a Gemstone,' available after completing the main story. Involves following Espurr to find and catch Diancie (defeating two Carbink first).",
+      "trackable": null,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.videogameschronicle.com/guide/pokemon-legends-z-a-diancie-location-how-to-get-diancie-in-pokemon-legends-z-a/", "https://www.pokemon.com/us/pokemon-news/get-diancite-via-mystery-gift-and-diancie-in-pokemon-legends-z-a"]
+    },
+    {
+      "category": "collectible",
+      "name": "Zygarde Cells / Zygarde Cube",
+      "detail": "Zygarde Cells appear as fully modeled, moving collectibles around Lumiose City (not simple pickup items). The Zygarde Cube (given after catching Zygarde in the final Main Mission, 'To Keep the World in Balance') stores up to 300 Cells. A maximum of 3 Cells can be collected per day. 50 Cells change Zygarde from 10% Forme to 50% Forme; 200 more (250 total) are needed for Complete Forme.",
+      "trackable": "The Zygarde Cube UI tracks the number of Cells collected/stored, up to a 300 cap.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamerguides.com/pokemon-legends-z-a/database/items/key-items/zygarde-cube", "https://game8.co/games/Pokemon-Legends-Z-A/archives/560623", "https://bulbapedia.bulbagarden.net/wiki/Zygarde_Cube"]
+    },
+    {
+      "category": "exploration",
+      "name": "Wild Zones",
+      "detail": "20 Wild Zones total across Lumiose City, where wild Pokémon spawn (as opposed to city streets). Only 6 are available at the game's start; the rest unlock through story progress. The final one, Wild Zone 20, unlocks at the start of the postgame and is located where Prism Tower once stood.",
+      "trackable": "Likely shown on the city map with unlock status, but an explicit 'Wild Zones completed' counter was not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://esports.gg/guides/pokemon/how-many-wild-zones-are-in-pokemon-legends-z-a/", "https://gamerant.com/pokemon-legends-za-plza-all-wild-zones-pokemon-list-locations-alpha/"]
+    },
+    {
+      "category": "customization",
+      "name": "Boutique Couture (fashion)",
+      "detail": "A high-end clothing store at Promenade du Vent (southern Lumiose City), unlocked via Main Mission 26 ('An Invitation from the SBC') by battling and defeating NPC Asami with a Mega Evolved Pokémon. Sells formal outfits (blazer/blouse sets, trench coats, boater hats, etc.), separate from the game's general character-customization options (hairstyles, outfits, glasses, backpacks) available from the start.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-legends-za-plza-boutique-couture-how-to-become-truly-stylish/", "https://www.videogameschronicle.com/guide/pokemon-legends-z-a-boutique-couture-how-to-shop-at-boutique-couture/", "https://www.serebii.net/legendsz-a/customisation.shtml"]
+    },
+    {
+      "category": "activity",
+      "name": "Photo Mode",
+      "detail": "A Rotom Phone camera app (returning from Scarlet/Violet) available from the very start of the game, no unlock required. Accessed with the minus button; includes pose/expression menus, camera tilt, and filters. No evidence found of a distinct in-game 'photography challenge' collectible system built around it.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.sportskeeda.com/pokemon/how-use-photo-mode-pokemon-legends-z-a", "https://deltiasgaming.com/pokemon-legends-z-a-photo-mode-guide/"]
+    },
+    {
+      "category": "secret area",
+      "name": "Lumiose Sewers",
+      "detail": "An underground area accessible after sufficient story progress, entered near a fountain by South Boulevard/Bleu Street, with additional entry points leading to different sections. Contains exclusive wild Pokémon not found elsewhere.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.siliconera.com/how-to-enter-the-sewers-in-pokemon-legends-z-a/", "https://www.pockettactics.com/pokemon-legends-z-a/sewers"]
+    },
+    {
+      "category": "dlc",
+      "name": "Mega Dimension DLC",
+      "detail": "Paid downloadable content, the only announced expansion for the game as of this research. Released in two waves: Wave 1 (Holo-X and Holo-Y apparel sets, October 16, 2025) and Wave 2 (new story content, December 10, 2025). Story centers on dimensional distortions connecting to 'Hyperspace Lumiose,' with the Mythical Pokémon Hoopa able to open portals there. Requires completing the main story to progress. Adds the Hyperspace Pokédex (132 entries), 82 additional Side Missions, 19-22 new Mega Evolutions, Hyperspace Wild Zones, Hyperspace Survey Points, and Hyperspace rematches against Rogue Mega Evolutions (unlocked after defeating Mega Darkrai and viewing the DLC ending). An early-purchase bonus (by Feb 28, 2026) grants a Luxurious Poké Ball Set via email code.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/pokemon-legends-z-a-mega-dimension-dlc-70070000030771-switch/", "https://legends.pokemon.com/en-us/dlc", "https://bulbapedia.bulbagarden.net/wiki/Mega_Dimension", "https://www.thesixthaxis.com/2025/12/23/pokemon-legends-z-a-mega-dimension-dlc-review/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Lumiose Pokédex catch count (out of 232, 230 required)", "where": "Pokédex menu", "confidence": "medium" },
+    { "stat": "Hyperspace Pokédex catch count (out of 132, 131 required, DLC)", "where": "Pokédex menu (Hyperspace tab, DLC-added)", "confidence": "medium" },
+    { "stat": "Mission completion (Main + Side)", "where": "Map screen, pressing X to view completed/pending mission list", "confidence": "high" },
+    { "stat": "Mable's Research Level (out of 50)", "where": "Research menu/screen", "confidence": "medium" },
+    { "stat": "Zygarde Cells collected", "where": "Zygarde Cube item screen (caps at 300; 3/day collection limit)", "confidence": "medium" },
+    { "stat": "Z-A Royale rank (Z through A) / Infinite Z-A Royale win count", "where": "Z-A Royale menu", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "No gameplay content differences confirmed between the Nintendo Switch and Nintendo Switch 2 Editions of Pokémon Legends: Z-A — differences are purely technical (Switch 2: 60fps docked/handheld, 2160p upscaled docked / 1080p handheld, faster loads, less pop-in vs. Switch's ~30fps, 1080p docked / 720p handheld). A $10 paid upgrade pack lets Switch 1 Edition owners obtain the Switch 2 performance benefits.", "confidence": "medium" },
+    { "note": "The Mega Dimension DLC is available for and playable on both Switch and Switch 2 Editions; no Switch-2-exclusive side content was found.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not directly confirm the exact wording/visual of the Pokédex completion screen (e.g., whether it explicitly shows 'X/232' or a percentage) for Legends Z-A specifically — inferred from franchise-wide Pokédex UI conventions (percentage tracking since Sun/Moon) and general guide language, not a direct screenshot/description.",
+    "Side Mission total count is inconsistent across sources: base game figures range from 119 to 121; DLC figures range from 82 (one clear source) with total series claims of 161 (base only) up to 203 (base+DLC). Needs a single authoritative recount before building trophies around an exact number.",
+    "Could not confirm whether the Mega Evolution roster (62 base game / additional DLC Mega Evolutions) has a dedicated in-game collection/checklist screen distinct from the Pokédex — Bulbapedia references a 'Mega Evolution Pokédex' list but this was not verified as a distinct in-game UI element.",
+    "Could not confirm an exact in-game visible counter for the Rogue Mega Rush (27 Rogue Mega Evolutions) challenge — unclear if the game tracks/displays progress through the gauntlet or only pass/fail.",
+    "Could not confirm exact mechanics/UI for Hyperspace Survey Points (DLC) beyond that they exist and are earned via Hyperspace Wild Zone tasks and Rogue Mega Evolution rematches (10,000 per win).",
+    "Could not confirm whether a player-customizable room/apartment/hideout exists (only confirmed: character/outfit customization and NPC-owned rooms like Hotel Z rooms). This should be treated as unconfirmed, not assumed absent.",
+    "Could not verify full 'secret area' catalog beyond the Lumiose Sewers — rumors of underground catacombs / Zygarde-cell-locked areas were found but not officially confirmed by a reliable source.",
+    "Did not confirm whether Mewtwo/Diancie Mystery Gift codes have hard expiration dates (making them permanently missable after a window) or are effectively permanent/reusable — flagged as missable out of caution given they are gated behind time-stamped Mystery Gift distributions typical of Pokémon games, but this needs confirmation before building a trophy around them.",
+    "Did not find confirmation of a dedicated 'boutique/fashion completionist' tracker (e.g., percentage of clothing items owned) — customization appears to be presented as a shop/wardrobe system rather than a tracked collectible."
+  ]
+}
