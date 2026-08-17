@@ -1,0 +1,530 @@
+{
+  "game": {
+    "title": "Pokémon Scarlet",
+    "slug": "pokemon-scarlet",
+    "code": "PKS",
+    "targetPlatform": "Nintendo Switch",
+    "mode": "genesis",
+    "developer": "Game Freak",
+    "publisher": "The Pokémon Company / Nintendo",
+    "genre": "Open-World RPG / Monster Collecting",
+    "releaseYear": 2022,
+    "estimatedDifficulty": 3,
+    "estimatedHours": "35-45h main story, 60h+ for full completion",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode. Nintendo Switch has no native achievement/trophy system, and Scarlet has never released on any other platform. Scope decisions made at the research checkpoint: (1) The Hidden Treasure of Area Zero DLC gets two separate trophy lists under `dlc` — The Teal Mask and The Indigo Disk — per Rule 14, matching the precedent from Hyrule Warriors, Breath of the Wild, and Pokémon Legends Z-A earlier in this project; neither affects the base Platinum. (2) The base-game Paldea Pokédex's exact catchable total is disputed across sources (400 vs. 373) and whether the game displays an explicit completion percentage could not be confirmed, so PKS-025's trophy text avoids citing a specific number — verification instead uses the Shiny Charm, a discrete, unambiguous reward item only granted on full Pokédex registration, sidestepping the uncertainty entirely. (3) Mystery Gift-based Pokémon and expired real-world-time-limited Tera Raid event bosses (e.g. past 7-star event distributions) are excluded entirely from this list, not merely missable-flagged — these were time-gated promotional content spanning 2022-2024 that is almost certainly closed by now, and building a trophy around content a current player likely cannot access at all would violate Rule 13's 'reasonably achievable' standard even more directly than an online-only trophy would. (4) The Union Circle-gated Finizen-to-Palafin evolution (requires another player connected) is deliberately NOT used in any trophy per Rule 13, since it's the one Pokédex-relevant mechanic in the base game dependent on multiplayer and cannot be guaranteed available to a future solo player. (5) Team Star's five bosses are correctly NOT treated as Scarlet-exclusive (they're identical in both versions bar cosmetics) — only Great Tusk (replacing Violet's Iron Treads) as the Quaking Earth Titan is a genuine version-exclusive mandatory boss. (6) A note for the record: the original research brief referenced a character named 'Clive' — no such character exists in this game; the AI professor is Sada (Scarlet) / Turo (Violet). No trophy references this name."
+  },
+  "trophies": [
+    {
+      "id": "PKS-001",
+      "name": "Treasure Hunt",
+      "description": "Begin your journey at Naranja Academy, receiving your starter Pokémon and the Tera Orb.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The opening story sequence concludes with Director Clavell issuing the Treasure Hunt assignment, unlocking the open world.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-002",
+      "name": "Crystalline Power",
+      "description": "Terastallize a Pokémon in battle for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Terastallizing animation and crystal-crown effect play on the chosen Pokémon.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-003",
+      "name": "Lead the Way",
+      "description": "Use Let's Go auto-battle to defeat a wild Pokémon for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The lead Pokémon's Let's Go auto-battle animation resolves in a win against a wild Pokémon.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-004",
+      "name": "Homemade Technical",
+      "description": "Craft a TM at a TM Machine for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The crafted TM appears in the Bag's TM pocket.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-005",
+      "name": "Picnic Debut",
+      "description": "Make your first sandwich at a picnic.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The sandwich-eating cutscene plays and its Meal Power effects are shown active on screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-006",
+      "name": "First Badge",
+      "description": "Defeat your first Gym Leader and earn a Gym Badge.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The Gym Leader's defeat cutscene plays and the Badge is added to the Badge case.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-007",
+      "name": "Ground Shaker",
+      "description": "Defeat your first Titan Pokémon.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The Titan's defeat cutscene plays and its Herba Mystica is added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-008",
+      "name": "Star Struck",
+      "description": "Clear your first Team Star base.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The base leader's defeat cutscene plays and a Star Badge is added to the Badge case.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-009",
+      "name": "A Glimmer of Luck",
+      "description": "Catch a Shiny Pokémon.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Shiny Pokémon is added to the party or box with its distinct color and sparkle animation.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-010",
+      "name": "Echo of the Past",
+      "description": "Catch an Ancient Paradox Pokémon in Area Zero.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The caught Paradox Pokémon's entry registers as owned in the Pokédex app.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-011",
+      "name": "Tera Raider",
+      "description": "Clear a Tera Raid Battle.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The raid's victory screen plays and its rewards are added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-012",
+      "name": "Full Speed Ahead",
+      "description": "Unlock Koraidon's Sprinting Build.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Koraidon's model changes to its Sprinting Build and new traversal options become available.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-013",
+      "name": "The Great Crater",
+      "description": "Visit Area Zero for the first time.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "The Area Zero region loads and appears on the map for the first time.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-014",
+      "name": "Champion's Circuit",
+      "description": "Earn all 8 Gym Badges.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Badge case screen shows all 8 Gym Badges present.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-015",
+      "name": "Legends Uncovered",
+      "description": "Defeat all 5 Titan Pokémon and collect enough Herba Mystica for Arven's request.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Bag's Herba Mystica tally shows enough ingredients collected, and the path's map markers all show cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-016",
+      "name": "Constellation Cleared",
+      "description": "Clear all 5 Team Star bases.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Badge case screen shows all 5 Star Badges present.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-017",
+      "name": "True Form",
+      "description": "Unlock Koraidon's Apex Build.",
+      "tier": "silver",
+      "type": "story",
+      "verification": "Koraidon's model changes to its full battle-ready Apex Build, matching its box-art appearance.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-018",
+      "name": "Five-Star Challenger",
+      "description": "Clear a 5-star Tera Raid Battle.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The 5-star raid's victory screen plays and its rewards are added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-019",
+      "name": "Master Chef",
+      "description": "Craft a Master-tier sandwich recipe using Herba Mystica ingredients.",
+      "tier": "silver",
+      "type": "mechanic",
+      "verification": "The Master-tier recipe's completion screen confirms the recipe was made using its required Herba Mystica.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-020",
+      "name": "Academy Ace",
+      "description": "Win the Academy Ace Tournament for the first time.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The tournament's victory ceremony plays and the Paldea Champion Ribbon is added to the party.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-021",
+      "name": "Six-Star Challenger",
+      "description": "Clear a 6-star Tera Raid Battle.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The 6-star raid's victory screen plays and its rewards are added to the Bag.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-022",
+      "name": "Top Champion",
+      "description": "Defeat Geeta and become Paldea's Champion.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Geeta's defeat triggers the Champion title ceremony.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-023",
+      "name": "A Cure for Mabosstiff",
+      "description": "Defeat Arven in the Path of Legends' climactic battle.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Arven's defeat triggers the Path of Legends completion cutscene.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-024",
+      "name": "Behind the Mask",
+      "description": "Defeat Penny in her true identity as Team Star's leader, revealed at the end of Starfall Street.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "Penny's defeat triggers the Starfall Street completion cutscene and Team Star's disbanding.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-025",
+      "name": "Pokémon Professor",
+      "description": "Complete the base game's Paldea Pokédex, before installing any DLC.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Shiny Charm is granted by Jacq, confirming every non-Mythical base-game Pokédex entry has been registered as caught.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "The Paldea Pokédex expands to include Teal Mask/Indigo Disk species once that DLC is installed, which would pull paid DLC content into a base-game trophy's requirements (Rule 14) if pursued out of order. Complete this trophy — and claim the Shiny Charm — before installing either DLC pack; the Charm persists afterward even as the Pokédex grows. Separately, the Pokédex includes Miraidon's slot, Violet's exclusive legendary — completing the dex requires trading for one from another player's Violet copy (or a second personal copy), the same category of external dependency this list already excludes Palafin's Union Circle evolution for under Rule 13. This is standard, unavoidable series behavior rather than a design flaw, but the player should know going in rather than discover it at the very last entry."
+    },
+    {
+      "id": "PKS-026",
+      "name": "Children of Time",
+      "description": "Catch every Ancient Paradox Pokémon exclusive to Scarlet: Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks, and Roaring Moon.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "All seven species show as registered/owned in the Pokédex app.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-027",
+      "name": "The Way Home",
+      "description": "Descend into Zero Lab, defeat the AI, and confront the hostile wild Koraidon to bring the main story to its end.",
+      "tier": "gold",
+      "type": "boss",
+      "verification": "The final battle's defeat triggers the ending sequence and credits.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "PKS-028",
+      "name": "Paldea's Finest",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "The Teal Mask",
+      "trophies": [
+        {
+          "id": "PKSTM-001",
+          "name": "Field Trip",
+          "description": "Arrive in Kitakami for the school trip.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The Kitakami region loads for the first time following the school trip cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-002",
+          "name": "Ogre Oustin'",
+          "description": "Play the \"Ogre Oustin'\" minigame for the first time.",
+          "tier": "bronze",
+          "type": "minigame",
+          "verification": "An Ogre Oustin' match concludes and its result screen appears.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-003",
+          "name": "Through the Lens",
+          "description": "Complete one of Perrin's Timeless Woods photography requests.",
+          "tier": "bronze",
+          "type": "sidequest",
+          "verification": "Perrin accepts the submitted photo and the request is marked complete.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-004",
+          "name": "Loyal to a Fault: Okidogi",
+          "description": "Defeat Okidogi, one of the Loyal Three.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Okidogi's defeat triggers its mission's clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-005",
+          "name": "Loyal to a Fault: Munkidori",
+          "description": "Defeat Munkidori, one of the Loyal Three.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Munkidori's defeat triggers its mission's clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-006",
+          "name": "Loyal to a Fault: Fezandipiti",
+          "description": "Defeat Fezandipiti, one of the Loyal Three.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Fezandipiti's defeat triggers its mission's clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-007",
+          "name": "Mask of the Forest",
+          "description": "Defeat Kieran in the Teal Mask's final battle.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "Kieran's defeat triggers the Teal Mask's ending cutscene.",
+          "missable": false,
+          "secret": true,
+          "origin": "original"
+        },
+        {
+          "id": "PKSTM-008",
+          "name": "The Verdant Guardian",
+          "description": "Catch Ogerpon.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "Ogerpon is added to the party or box following its capture.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "The Indigo Disk",
+      "trophies": [
+        {
+          "id": "PKSID-001",
+          "name": "Exchange Student",
+          "description": "Arrive at Blueberry Academy in the Terarium as an exchange student.",
+          "tier": "bronze",
+          "type": "story",
+          "verification": "The Terarium region loads for the first time following the exchange-student cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-002",
+          "name": "Printed Fresh",
+          "description": "Use the Item Printer to craft an item from TM Materials for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The printed item appears in the Bag.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-003",
+          "name": "Extra Credit",
+          "description": "Complete your first Blueberry Quest.",
+          "tier": "bronze",
+          "type": "sidequest",
+          "verification": "The Blueberry Quest is marked complete and Blueberry Points are awarded.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-004",
+          "name": "Elite Trial: Lacey",
+          "description": "Defeat Elite Trial member Lacey.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Lacey's defeat plays her unique post-battle dialogue and clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-005",
+          "name": "Elite Trial: Crispin",
+          "description": "Defeat Elite Trial member Crispin.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Crispin's defeat plays his unique post-battle dialogue and clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-006",
+          "name": "Elite Trial: Amarys",
+          "description": "Defeat Elite Trial member Amarys.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Amarys's defeat plays her unique post-battle dialogue and clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-007",
+          "name": "Elite Trial: Drayton",
+          "description": "Defeat Elite Trial member Drayton.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "Drayton's defeat plays his unique post-battle dialogue and clear cutscene.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-008",
+          "name": "BB League Champion",
+          "description": "Defeat Kieran as the BB League Champion.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "Kieran's defeat triggers the BB League championship ceremony.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PKSID-009",
+          "name": "Beyond the Underdepths",
+          "description": "Catch Terapagos in the Area Zero Underdepths.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "Terapagos is added to the party or box following its capture.",
+          "missable": false,
+          "secret": true,
+          "origin": "original"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

@@ -1,0 +1,398 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Scarlet",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Three parallel storylines",
+      "detail": "The overworld unlocks three player-orderable storylines after a short prologue: 'Victory Road' (Gym Challenge, 8 Gym Leaders), 'Path of Legends' (5 Titan Pokémon with Arven), and '★ Starfall Street ★' (5 Team Star bases). The player can tackle them in any order, in any mixture, at their own pace.",
+      "trackable": "Progress on each path is tracked in the game's menu/map via badge icons, Titan defeat markers, and Team Star base icons turning gray once cleared.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "milestone",
+      "name": "Prologue / Treasure Hunt assignment",
+      "detail": "Player moves to Cabo Poco in Paldea with their mother, attends Naranja Academy (Scarlet) / Uva Academy (Violet), receives starter Pokémon from Director Clavell, meets Nemona (student council president) and Arven, rescues/is rescued by a wounded Koraidon (Scarlet) that later becomes the Legendary partner, receives the Tera Orb, and is given the 'Treasure Hunt' independent-study assignment by Clavell that formally unlocks all three storylines.",
+      "trackable": "Story progression; not itself counted numerically.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Katy",
+      "detail": "Bug-type Gym Leader, first/lowest-level gym by community convention (order is player's choice, not fixed by the game).",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Brassius",
+      "detail": "Grass-type Gym Leader.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Iono",
+      "detail": "Electric-type Gym Leader; also a Paldea broadcast personality (recurring NPC in other story threads).",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Kofu",
+      "detail": "Water-type Gym Leader.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Larry",
+      "detail": "Normal-type Gym Leader. Notably, the same character 'Larry' later reappears as a member of the Elite Four with a Flying-type specialty — a unique dual role in Scarlet/Violet.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii: Elite Four", "Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Ryme",
+      "detail": "Ghost-type Gym Leader.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Tulip",
+      "detail": "Psychic-type Gym Leader.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-gym",
+      "name": "Grusha",
+      "detail": "Ice-type Gym Leader; community-convention 'final'/highest-level gym, though the game does not enforce an order.",
+      "trackable": "Badge case in the player menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-elite-four",
+      "name": "Rika",
+      "detail": "Ground-type Elite Four member; administers an entrance test/assessment before the Elite Four challenge can begin (the 'Champion Assessment' / 'Elite Test').",
+      "trackable": "Not clearly confirmed whether a distinct in-game counter exists beyond story flags.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Serebii: Elite Four"]
+    },
+    {
+      "category": "boss-elite-four",
+      "name": "Poppy",
+      "detail": "Steel-type Elite Four member.",
+      "trackable": "Story flag.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Serebii: Elite Four"]
+    },
+    {
+      "category": "boss-elite-four",
+      "name": "Larry",
+      "detail": "Flying-type Elite Four member (same character as the Normal-type Gym Leader).",
+      "trackable": "Story flag.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Serebii: Elite Four"]
+    },
+    {
+      "category": "boss-elite-four",
+      "name": "Hassel",
+      "detail": "Dragon-type Elite Four member, battled last among the Elite Four before the Champion.",
+      "trackable": "Story flag.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Serebii: Elite Four"]
+    },
+    {
+      "category": "boss-final",
+      "name": "Geeta (Top Champion)",
+      "detail": "Final battle of Victory Road; no type specialty, uses a varied team including a Terastallized Glimmora. Per Serebii, the Elite Four (and by extension this gauntlet) can only be challenged/battled once in the main story sequence.",
+      "trackable": "Marks completion of the Victory Road path; League Club / credits-relevant milestone.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Serebii: Elite Four", "Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-titan",
+      "name": "Klawf — Stony Cliff Titan",
+      "detail": "Located in South Province (Area Three). Multi-phase fight: player battles alone first, Titan flees/regroups, then a second-phase battle occurs with Arven assisting.",
+      "trackable": "Path of Legends progress in the map/menu; Herba Mystica added to inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Titan Pokémon"]
+    },
+    {
+      "category": "boss-titan",
+      "name": "Bombirdier — Open Sky Titan",
+      "detail": "Located in West Province (Area One).",
+      "trackable": "Path of Legends progress in the map/menu; Herba Mystica added to inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Titan Pokémon"]
+    },
+    {
+      "category": "boss-titan",
+      "name": "Orthworm — Lurking Steel Titan",
+      "detail": "Located in East Province (Area Three).",
+      "trackable": "Path of Legends progress in the map/menu; Herba Mystica added to inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Titan Pokémon"]
+    },
+    {
+      "category": "boss-titan",
+      "name": "Great Tusk — Quaking Earth Titan (SCARLET EXCLUSIVE FORM)",
+      "detail": "Located in Asado Desert. In Pokémon Scarlet this Titan is Great Tusk; the Violet-version equivalent is Iron Treads. This is a direct version-exclusive difference in the Path of Legends questline.",
+      "trackable": "Path of Legends progress in the map/menu; Herba Mystica added to inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Titan Pokémon"]
+    },
+    {
+      "category": "boss-titan",
+      "name": "Tatsugiri — False Dragon Titan",
+      "detail": "Located at Casseroya Lake; the true Titan is Tatsugiri, though the much larger Dondozo it rides also appears in the fight (Dondozo is not itself the Titan). This is the final/climactic Titan battle before Arven's full-power battle.",
+      "trackable": "Path of Legends progress in the map/menu; Herba Mystica added to inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Titan Pokémon"]
+    },
+    {
+      "category": "boss-final",
+      "name": "Arven (Path of Legends finale)",
+      "detail": "After all 5 Titans are defeated and enough Herba Mystica are collected, the Path of Legends climaxes in a full-strength Pokémon battle against Arven, whose partner Mabosstiff needed the Herba Mystica-based medicine.",
+      "trackable": "Marks completion of the Path of Legends storyline.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "boss-team-star",
+      "name": "Giacomo — Segin Squad boss",
+      "detail": "Dark-type specialist, leads Segin Squad's base.",
+      "trackable": "Starfall Street progress in map/menu; Star Badge obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "boss-team-star",
+      "name": "Mela — Schedar Squad boss",
+      "detail": "Fire-type specialist, leads Schedar Squad's base.",
+      "trackable": "Starfall Street progress in map/menu; Star Badge obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "boss-team-star",
+      "name": "Atticus — Navi Squad boss",
+      "detail": "Poison-type specialist, leads Navi Squad's base.",
+      "trackable": "Starfall Street progress in map/menu; Star Badge obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "boss-team-star",
+      "name": "Ortega — Ruchbah Squad boss",
+      "detail": "Fairy-type specialist, leads Ruchbah Squad's base.",
+      "trackable": "Starfall Street progress in map/menu; Star Badge obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "boss-team-star",
+      "name": "Eri — Caph Squad boss",
+      "detail": "Fighting-type specialist, leads Caph Squad's base; commonly the highest-level/last Team Star base.",
+      "trackable": "Starfall Street progress in map/menu; Star Badge obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "boss-final",
+      "name": "Penny (as 'Cassiopeia', Starfall Street finale)",
+      "detail": "Penny is the true 'Big Boss' of Team Star, operating under the online alias 'Cassiopeia.' Backstory: Team Star originated from bullied students who confronted their tormentors; after a scandal, Penny/Cassiopeia took sole responsibility and studied abroad, leaving the five squad bosses to run the team in her absence. After all 5 bases are cleared, Penny reveals herself as Cassiopeia and battles the player to formally announce Team Star's disbanding.",
+      "trackable": "Marks completion of the Starfall Street storyline.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "character",
+      "name": "Arven",
+      "detail": "Companion NPC who requests help defeating the 5 Titans for Herba Mystica to heal his Mabosstiff; later revealed to be the son of the deceased Professor Sada.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Sada", "Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "character",
+      "name": "Nemona",
+      "detail": "Paldea Academy student council president and a Champion-level trainer; recurring rival/support character across the story, battled repeatedly.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "character",
+      "name": "Penny",
+      "detail": "True leader of Team Star under the alias 'Cassiopeia'; initially presented as a reclusive, harassed student.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Team Star"]
+    },
+    {
+      "category": "character",
+      "name": "Professor Sada (AI) — SCARLET VERSION NAME",
+      "detail": "The 'professor' character who guides the player throughout the game is an AI construct modeled on the real Professor Sada, who died 10 years prior. In Pokémon Scarlet this character/AI is named Sada; the Violet-version equivalent is named Turo. The real Sada obsessively researched Paradox Pokémon from the past via a time machine in Area Zero and died protecting a passive Koraidon from a more aggressive, territorial one.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Sada"]
+    },
+    {
+      "category": "character-correction",
+      "name": "No character named 'Clive' exists in Pokémon Scarlet/Violet",
+      "detail": "Searched confirmed there is no 'Clive' in the game. The AI professor is named Sada (Scarlet) / Turo (Violet). The academy director is named Clavell (Bug/Steel-toned similarity to 'Clive' may be the source of confusion). Flagging this so downstream trophy text does not reference a nonexistent character.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Sada"]
+    },
+    {
+      "category": "character",
+      "name": "Director Clavell",
+      "detail": "Director of Naranja Academy (Scarlet) / Uva Academy (Violet); gives the player their starter Pokémon and formally issues the 'Treasure Hunt' assignment that opens up the three storylines.",
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "finale",
+      "name": "The Way Home (Area Zero climax)",
+      "detail": "The fourth/final narrative chapter, unlocked after completing all three paths (Victory Road, Path of Legends, Starfall Street). The full group descends into the Great Crater of Paldea / Area Zero to reach the Zero Lab. Inside, the player proceeds alone while companions hold off Paradox Pokémon outside. The AI professor reveals it is a robot built on the real Sada/Turo's research; the player must defeat the AI in a Pokémon battle, then confront and defeat the second, hostile Koraidon/Miraidon (the one that killed the real professor) in a final wild Pokémon battle.",
+      "trackable": "Story/credits milestone; no separate numeric counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "ending",
+      "name": "Single ending — Paradise Protection Protocol",
+      "detail": "After the final battle, a 'Paradise Protection Protocol' activates; the AI chooses to travel to another era via the time machine, allowing it to be shut down permanently and preventing further Paradox Pokémon leaking into Paldea. The game concludes with the player and friends taking 'a slow and scenic route back to Mesagoza,' then returning to normal academy life. No branching endings were found — this is a single, fixed ending for the base game (DLC provides additional post-credits story content, see below).",
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "Koraidon — Scarlet-exclusive Legendary/cover Pokémon",
+      "detail": "Koraidon is the box-art Legendary and player's companion throughout Pokémon Scarlet, described as a 'primeval'-themed form; its Paradox Pokémon (ancient-past themed) are the version-exclusive Paradox species found throughout Scarlet. The Violet-exclusive equivalent is Miraidon (mechanical/future-themed) with future-themed Paradox Pokémon.",
+      "confidence": "high",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "post-game",
+      "name": "Academy Ace Tournament",
+      "detail": "A post-game repeatable tournament activity available after completing the main story, featuring rebattles against notable NPCs/rivals in a bracket format.",
+      "trackable": "Uncertain — could not confirm an in-game completion tracker for tournament wins/rank beyond story flags.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Scarlet and Violet"]
+    },
+    {
+      "category": "dlc",
+      "name": "The Teal Mask (DLC Part 1 — The Hidden Treasure of Area Zero)",
+      "detail": "Set in Kitakami, a new region reached via Naranja/Uva Academy's school trip. Key characters: Briar (Blueberry Academy teacher, descendant of a character named Heath, possesses an uncensored 'Scarlet Book'/'Violet Book' manuscript), Carmine and Kieran (local siblings, Blueberry Academy students), their grandparents Yukito and Hideko, and photographer Perrin. Story centers on the legendary Ogerpon and the 'Loyal Three' (Okidogi, Munkidori, Fezandipiti), who must be defeated to retrieve Ogerpon's masks, followed by a final battle against Kieran and the capture of Ogerpon. Story content does not differ between Scarlet and Violet versions.",
+      "confidence": "medium",
+      "sources": ["Bulbapedia: The Teal Mask"]
+    },
+    {
+      "category": "dlc",
+      "name": "The Indigo Disk (DLC Part 2 — The Hidden Treasure of Area Zero)",
+      "detail": "Set at Blueberry Academy in a Terarium (an artificial undersea dome with four biomes) located within the Unova region. Key characters: Cyrano (academy director), Kieran (now a rival who becomes the BB League Champion), Carmine, and Briar, plus returning base-game characters Geeta and Rika. The BB League's four Elite Four-equivalents are Lacey, Crispin, Amarys, and Drayton, each with a unique challenge/trial type; after defeating all four, the player faces Kieran as Champion. The climax occurs in an area called Area Zero Underdepths. Post-game unlocks access to 25 Legendary Pokémon from past generations via Blueberry Quests and special snacks, encountered within Paldea. Story content does not differ between Scarlet and Violet versions.",
+      "confidence": "medium",
+      "sources": ["Bulbapedia: The Indigo Disk"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Gym Badges (8)",
+      "where": "Badge case in the player's Trainer Card / pause menu; conventionally referenced across Pokémon games. Exact UI screen name not independently re-confirmed this session.",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Star Badges (5, from Team Star bosses)",
+      "where": "Likely tracked similarly to Gym Badges in a badge/menu screen; exact UI location not independently confirmed this session.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Titans defeated (5) / Herba Mystica collected",
+      "where": "Path of Legends progress shown on the region map (icons change once a Titan is cleared); Herba Mystica appear as inventory items.",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Pokédex (Paldea Dex)",
+      "where": "Rotom Phone Pokédex app tracks Seen/Caught counts. Paldea Pokédex contains 400 entries in the base game (numbered 001–400); DLC (Kitakami + Blueberry) adds further entries to a combined Pokédex.",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Elite Four / Champion clear",
+      "where": "Story/credits flag; per Serebii, the Elite Four sequence can only be challenged once during the main story push (rematches likely available later via League Club or Academy Ace Tournament, not independently confirmed).",
+      "confidence": "medium"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Koraidon (primeval-themed) is the Scarlet-exclusive cover Legendary and player companion; Miraidon (futuristic-themed) is the Violet equivalent. This affects which Paradox Pokémon (past- vs future-themed) populate each version.",
+      "confidence": "high"
+    },
+    {
+      "note": "The Path of Legends 'Quaking Earth Titan' is Great Tusk in Scarlet and Iron Treads in Violet — a direct version-exclusive difference within a mandatory campaign boss fight.",
+      "confidence": "medium"
+    },
+    {
+      "note": "The AI-professor character central to the main plot is named Sada in Scarlet and Turo in Violet.",
+      "confidence": "high"
+    },
+    {
+      "note": "The academy attended by the player is Naranja Academy in Scarlet and Uva Academy in Violet (cosmetic/name difference, same story role).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Could not confirm any other Scarlet-exclusive story beats, side characters, or additional Scarlet-only campaign content beyond the Koraidon/Sada/Great Tusk/Naranja Academy naming differences noted above. Best available information suggests the core campaign structure (paths, bosses, ending) is otherwise identical between Scarlet and Violet.",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "Could not verify the exact in-game UI name/location of the badge case screen (e.g., whether it's under the Trainer Card, a dedicated 'Badges' menu, or the Rotom Phone) — web search budget was exhausted this session and WebFetch sources did not cover this detail.",
+    "Could not verify whether Star Badges (from Team Star bosses) are tracked visually anywhere, or whether that tracking is purely a story flag.",
+    "Could not confirm the recommended/community order for the 5 Team Star bases (Giacomo, Mela, Atticus, Ortega, Eri) — sources did not state an explicit level-based order; the game itself does not enforce one.",
+    "Could not confirm exact missable content within the campaign (e.g., one-time-only NPC battles, dialogue choices with permanent consequences) beyond the Elite Four apparently being a single-attempt gauntlet per Serebii.",
+    "Could not confirm whether the Academy Ace Tournament (post-game) has an in-game completion tracker/rank display.",
+    "Could not confirm exact level ranges or precise suggested order for the 8 Gym Leaders beyond general community convention (Katy lowest, Grusha highest) — not independently verified this session.",
+    "Did not deeply investigate whether DLC content (Teal Mask / Indigo Disk) has any Scarlet vs. Violet exclusivity in Pokémon encounters or minor story branches beyond what's noted (sources stated no major story differences, but this wasn't cross-verified with a second source).",
+    "Could not confirm the precise mechanism/name for how the game displays overall '% complete' or path completion count, if any exists at all — this materially affects whether a 'complete all three paths' trophy could reference an in-game percentage.",
+    "Web search tool was unavailable for this task (session budget exhausted before first query); all findings above rely on WebFetch of Bulbapedia/Serebii pages only, not corroborated across multiple independent sources in most cases — many facts are marked medium rather than high for this reason even where I have prior training knowledge that agrees."
+  ]
+}

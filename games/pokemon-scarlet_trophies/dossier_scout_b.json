@@ -1,0 +1,158 @@
+{
+  "beat": "side content",
+  "game": "Pokémon Scarlet",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Paldea Pokédex",
+      "detail": "Regional Pokédex for Scarlet/Violet, accessed via the Rotom Phone Pokédex app. Sources disagree on the exact base-game (pre-DLC) total: Bulbapedia states the Paldea Pokédex contains 400 numbered entries; PokemonDB's breakdown (140 new + 233 returning species) sums to 373. The 400 figure may reflect the dex numbering after later game-version updates/DLC folded new slots in, or may include entries not wild-catchable at launch (e.g. trade-only version legendary). Exact base-game catchable/registerable count could not be pinned down with certainty.",
+      "trackable": "Pokédex app shows per-species Seen/Registered (owned) status; could not confirm whether an explicit completion PERCENTAGE is displayed anywhere in the UI (unlike Sun/Moon's Rotom Pokédex, which Bulbapedia confirms shows a percentage — S/V-specific confirmation was not found in available sources).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Paldea_Pokédex", "pokemondb.net/scarlet-violet/pokedex"]
+    },
+    {
+      "category": "pokedex reward",
+      "name": "Shiny Charm",
+      "detail": "Given by Jacq at Naranja Academy (Scarlet's academy; Violet's is Uva Academy) after the player has obtained (caught/registered) all Pokémon in the Paldea Pokédex, excluding Mythical Pokémon. Not fully confirmed whether the box legendary (Koraidon in Scarlet) counts toward this or must be traded from the opposite version to reach 100%.",
+      "trackable": "Implicitly requires 100% Pokédex completion; the reward itself is an item in the Bag, not a counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Shiny_Charm"]
+    },
+    {
+      "category": "side quest / post-game",
+      "name": "Academy Ace Tournament",
+      "detail": "Unlocks after completing all three main storylines (Path of Legends, Starfall Street, Victory Road) and returning to Director Clavell's office; Nemona proposes the tournament. First run is a fixed bracket against Arven, Jacq, Dendra, and finally Champion Geeta. Repeatable afterward with randomized opponents drawn from a trainer pool. After installing The Indigo Disk DLC, opponent levels/teams scale up to use Blueberry League Club rosters.",
+      "trackable": "Not clear if the game logs number of tournament runs anywhere; rewards are randomized items (Mints, Tera Shards, Rare Candy, Nuggets, PP items, rare chance at Beast Ball/Dream Ball/Gold Bottle Caps).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["serebii.net/scarletviolet/academyacetournament.shtml"]
+    },
+    {
+      "category": "post-game story",
+      "name": "The Way Home",
+      "detail": "The fourth/epilogue storyline, unlocked after completing Path of Legends, Starfall Street, and Victory Road. Player travels with Nemona, Penny, and Arven to Zero Lab at the bottom of Area Zero. Reveals the professor (Sada in Scarlet) is an AI copy of the real professor, who died in a lab accident before the game's events; the AI was maintaining a time machine. A security lockdown disables all Poké Balls except the player's Koraidon (Scarlet)/Miraidon (Violet), forcing a final battle using only the box legendary. This is base-game content — no DLC required.",
+      "trackable": "Story completion is tracked implicitly by which storylines are marked complete on the map/quest log; no explicit 'epilogue complete' counter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["en.wikipedia.org/wiki/Pokémon_Scarlet_and_Violet"]
+    },
+    {
+      "category": "secret/optional area",
+      "name": "Area Zero structure",
+      "detail": "Accessed via Zero Gate, a facility on the edge of the Great Crater of Paldea. Contains: Zero Lab (bottom-most area, site of Terastallization/Paradox Pokémon research and the time machine); four Research Stations (built 87 years prior, each with a bed and warp panels linking to Zero Gate and other stations); multiple biome/crater zones with distinct terrain and exclusive wild Pokémon (including ancient Paradox Pokémon on Scarlet, future Paradox on Violet); a cavern with symbol-inscribed walls and a metallic plate resembling a present-day Paldea map.",
+      "trackable": "No explicit area-completion tracker found; Pokédex registration for the exclusive Paradox Pokémon found here is the closest trackable proxy.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Area_Zero", "bulbapedia.bulbagarden.net/wiki/Zero_Gate"]
+    },
+    {
+      "category": "sandwich/cooking system",
+      "name": "Sandwich-making minigame",
+      "detail": "Played at Picnics (solo or with up to 4 players via Union Circle). Requires at least one condiment and one ingredient. Two modes: Recipe Mode (premade recipes in four tiers — Normal, Great, Ultra, Master; Master tier requires a specific Herba Mystica) and Creative Mode (freeform stacking of up to 10 ingredients, risking spillage). Produces up to 3 simultaneous 'Meal Powers' lasting 30 minutes: Egg Power, Encounter Power (forces specific types to spawn), Catching Power, Exp. Point Power, Item Drop Power, Raid Power, Humungo/Teensy Power, and Sparkling Power (raises Shiny odds), each with 3 intensity levels.",
+      "trackable": "The number of distinct sandwich recipes made is displayed in the player's Profile app (Trainer Card-adjacent screen). Bulbapedia cites 151 total pre-made recipes, though it is unconfirmed whether that figure is base-game-only or includes recipes added by the Teal Mask/Indigo Disk DLC.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Sandwich", "bulbapedia.bulbagarden.net/wiki/Sandwich_recipe"]
+    },
+    {
+      "category": "systems/side content",
+      "name": "TM crafting",
+      "detail": "TM Machines are found at Pokémon Centers throughout Paldea (and later Kitakami/Blueberry Academy). Crafting a TM costs League Points (LP), ranging roughly 200 LP for basic moves up to 10,000 LP for advanced ones, plus 3 (sometimes 5) units of a specific material dropped by wild Pokémon. The TM list can be sorted by number, name, power, category, or craftable-first, and individual TMs can be pinned to a watchlist via the + button.",
+      "trackable": "Watchlist feature tracks TMs the player is saving toward; not confirmed whether a running total of TMs crafted/owned is displayed anywhere.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (TM crafting article)"]
+    },
+    {
+      "category": "minigame/system",
+      "name": "Let's Go! auto-battle",
+      "detail": "Pressing R while a Pokémon follows the player outside its ball triggers Let's Go mode; the lead Pokémon runs ahead and auto-battles nearby wild Pokémon. Outcomes are simulated (win, win-with-damage, forced retreat, or no-contest retreat); the player's Pokémon can never faint from this. Does not consume PP or grant EVs, but does grant EXP and TM crafting materials. Will not trigger against Shiny or Terastallized wild Pokémon.",
+      "trackable": "No dedicated counter found for auto-battle wins.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Let's_Go!"]
+    },
+    {
+      "category": "minigame/system",
+      "name": "Tera Raid Battles",
+      "detail": "Star-rated raids from 1★ to 7★, escalating HP multipliers (roughly 5x at 1★ up to ~30x at 7★) and guaranteed perfect IVs. 5★ raids (Lv. 75, 4 guaranteed perfect IVs) unlock post-story/post-Academy Ace Tournament. 6★ raids temporarily field a Lv. 90 boss (caught at Lv. 75) with 5 guaranteed perfect IVs. 'Black crystal' raids (6★/7★) have a distinct black/purple visual and can carry a 'Mightiest Mark' for special event bosses. Multiple limited-time 7★ event raids ran during the game's post-launch lifecycle (e.g., Hisuian Typhlosion, Mewtwo); it is not fully confirmed which of these were Scarlet-exclusive versus shared with Violet — treat any 'Scarlet-exclusive raid boss' claim as unverified.",
+      "trackable": "No in-game raids-completed counter confirmed.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Tera_Raid_Battle"]
+    },
+    {
+      "category": "version exclusive",
+      "name": "Koraidon (box legendary) vs. Great Tusk / other Scarlet-exclusive wild encounters",
+      "detail": "Scarlet's mascot legendary is Koraidon (Fighting/Dragon). Scarlet-exclusive ancient Paradox Pokémon includes Great Tusk (vs. Violet's future Paradox Iron Treads). Other reported Scarlet-exclusive wild encounters: Larvitar, Deino, Skrelp, Oranguru (vs. Violet's Misdreavus, Bagon, Clauncher, Passimian). Most version-exclusive non-legendary Pokémon can still be encountered/caught by the 'wrong' version's player via Union Circle or Tera Raid Battles; Koraidon/Miraidon themselves can only be obtained via trade from the other version.",
+      "trackable": "Pokédex registration (Seen/Owned) per species.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (Scarlet and Violet games article)"]
+    },
+    {
+      "category": "DLC",
+      "name": "The Hidden Treasure of Area Zero — The Teal Mask",
+      "detail": "First DLC part, released September 13, 2023 (10 a.m. JST), identical release for both Scarlet and Violet. Sends the player and classmates to Kitakami (based on rural Japan) for the Festival of Masks, including locations like Mossui Town, Oni Mountain, and Timeless Woods. Introduces legendary Ogerpon (four mask forms: Teal, Wellspring, Hearthflame, Cornerstone, each with a unique Tera form), caught post-story. Also introduces 'The Loyal Three' — Okidogi, Munkidori, and Fezandipiti — as antagonists (version-exclusive distribution among the three is unconfirmed). New non-legendary species include Dipplin, Poltchageist, Sinistcha, and Bloodmoon Ursaluna. Adds 102 returning Pokémon from prior games to the regional dex. Side content: Perrin's Timeless Woods photography sidequests, the 'Ogre Oustin' multiplayer minigame, and Kitakami Ogre Clan trainer battles.",
+      "trackable": "Not confirmed whether Ogerpon mask forms or Loyal Three are tracked via a distinct in-game counter beyond standard Pokédex registration.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/The_Teal_Mask"]
+    },
+    {
+      "category": "DLC",
+      "name": "The Hidden Treasure of Area Zero — The Indigo Disk",
+      "detail": "Second DLC part, released December 14, 2023, identical release for both versions. Player becomes an exchange student at Blueberry Academy (Unova region), inside a massive undersea dome called the Terarium containing four biomes. Introduces the BB League: four Elite Four members (each preceded by an 'Elite Trial'), then Champion Kieran. New evolutions: Archaludon (from Duraludon) and Hydrapple (from Dipplin). New Paradox Pokémon: Gouging Fire, Raging Bolt, Iron Boulder, Iron Crown. Adds 139 returning Pokémon to the dex. Legendary Terapagos (Normal/Terastal/Stellar forms, signature move Tera Starstorm) is caught here in the Area Zero Underdepths — this is DLC-exclusive content, NOT part of the base game's post-game. Side content: League Club Room, Item Printer (crafts items from TM materials), Blueberry Quests (BBQs) for Blueberry Points, Synchro Machine, and guest-character invitation events.",
+      "trackable": "Blueberry Points from BBQs are tracked in-menu (exact display location unconfirmed). BB League progress tracked via standard League Card / Champion status.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/The_Indigo_Disk", "bulbapedia.bulbagarden.net/wiki/Terapagos_(Pokémon)"]
+    },
+    {
+      "category": "DLC epilogue",
+      "name": "Mochi Mayhem",
+      "detail": "Free epilogue content for DLC owners, released January 11, 2024, providing additional Teal Mask/Kitakami-adjacent storyline material. Details on content scope not confirmed beyond the release date.",
+      "trackable": "Unconfirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["en.wikipedia.org/wiki/Pokémon_Scarlet_and_Violet"]
+    },
+    {
+      "category": "multiplayer system",
+      "name": "Union Circle",
+      "detail": "Local wireless or internet co-op for up to 4 players: joint exploration, trading, battling, Tera Raid Battles (with group members only), co-op picnics/sandwich-making, photo sharing, and egg-exchange breeding. Enables encountering the opposite version's exclusive wild Pokémon while grouped with a player of that version.",
+      "trackable": "No completion tracker; purely a multiplayer feature.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Union_Circle"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Sandwich recipes made", "where": "Player's Profile app (near Trainer Card)", "confidence": "medium" },
+    { "stat": "Pokédex Seen/Owned status per species", "where": "Rotom Phone Pokédex app", "confidence": "high" },
+    { "stat": "Pokédex completion percentage", "where": "Unconfirmed whether displayed anywhere in Scarlet/Violet's Pokédex app (prior games in the series, e.g. Sun/Moon, are confirmed to show one; S/V-specific confirmation not found)", "confidence": "low" },
+    { "stat": "TM crafting watchlist (pinned TMs)", "where": "TM Machine menu", "confidence": "medium" },
+    { "stat": "Blueberry Points (Indigo Disk DLC)", "where": "Likely a menu/BBQ screen at Blueberry Academy; exact location unconfirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Scarlet's box/cover legendary is Koraidon (Fighting/Dragon, 'primeval' theme); Violet's is Miraidon (Electric/Dragon, 'mechanical' theme). Obtaining the opposite version's legendary requires trading.", "confidence": "high" },
+    { "note": "Scarlet's ancient Paradox Pokémon exclusives (e.g. Great Tusk) differ from Violet's future Paradox exclusives (e.g. Iron Treads); this ancient/future split applies to the whole roster of Paradox Pokémon across the base game and both DLC waves, not just one pair.", "confidence": "medium" },
+    { "note": "A reported list of ordinary version-exclusive wild encounters (Scarlet: Larvitar, Deino, Skrelp, Oranguru; Violet: Misdreavus, Bagon, Clauncher, Passimian) was found via a single AI-summarized source and is not independently cross-verified — treat specifics as medium/low confidence pending a second source.", "confidence": "low" },
+    { "note": "Both DLC parts (Teal Mask, Indigo Disk) released on identical dates and with identical content structure for Scarlet and Violet; no DLC-internal version-exclusive content was identified in the sources reviewed, beyond the usual Paradox ancient/future split continuing into the DLC's new Paradox Pokémon.", "confidence": "medium" },
+    { "note": "The Academy setting name differs by version: Naranja Academy in Scarlet vs. Uva Academy in Violet (relevant to the Shiny Charm reward NPC location, Jacq).", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm the exact base-game (pre-DLC) Paldea Pokédex catchable/registerable total — sources conflict between 400 (Bulbapedia dex numbering) and 373 (140 new + 233 returning, per PokemonDB). Needs a direct primary-source check (e.g. an actual in-game dex screenshot or official Pokémon Company count).",
+    "Could not confirm whether the Pokédex app in Scarlet/Violet explicitly displays a completion PERCENTAGE (as earlier games like Sun/Moon do) — every source checked either paywalled, 404'd, or didn't mention it. This is load-bearing for any 'Pokédex completion' trophy and should be verified before building one.",
+    "Could not confirm the exact number of Tera Raid Battle 7-star event bosses that were Scarlet-exclusive vs. shared with Violet, or a full timeline of which event raids ran during the base game's post-launch life.",
+    "Could not confirm whether the 151-recipe sandwich count (Bulbapedia) is base-game-only or includes recipes added by the Teal Mask/Indigo Disk DLC.",
+    "Could not confirm an in-game running total for TMs crafted/owned, or for Tera Raids completed.",
+    "Could not confirm exact scope of 'Mochi Mayhem' epilogue content beyond its January 11, 2024 release date.",
+    "Could not confirm whether Terapagos or Ogerpon mask forms have a dedicated collection tracker beyond standard Pokédex registration.",
+    "Did not find confirmation of a dedicated 'Photo Mode' feature distinct from Union Circle's photo-sharing and standard screenshot capture — unclear if this deserves separate side-content treatment.",
+    "Could not verify the precise distribution of 'The Loyal Three' (Okidogi, Munkidori, Fezandipiti) — whether all three are catchable in a single playthrough of one version or whether any require version-specific conditions."
+  ]
+}

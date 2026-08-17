@@ -1,0 +1,260 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Scarlet",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "progression-system",
+      "name": "Auto Battle (Let's Go feature)",
+      "detail": "Pressing R while a Pokémon is out in Let's Go mode makes it run in a straight line and auto-battle nearby wild Pokémon without manual input. Party Pokémon receive a fraction of the Exp. Points a full battle would give (lead gets the most), and TM Materials drop from the defeated species' family. Items (including hidden ones) near the path are auto-collected.",
+      "trackable": "Not itself tracked as a stat; feeds into TM Material inventory and Exp totals, which are visible in menus.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Auto_Battle"]
+    },
+    {
+      "category": "progression-system",
+      "name": "Auto Battle exclusions",
+      "detail": "Auto Battle will NOT engage Shiny Pokémon or Terastallized wild Pokémon — the lead Pokémon refuses the order in these cases. Auto Battles also give no PP loss, no EVs, and will not trigger evolutions from level-ups gained this way. The player's Pokémon can never faint from an Auto Battle (stays at minimum 1 HP).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Auto_Battle"]
+    },
+    {
+      "category": "progression-system",
+      "name": "TM Crafting",
+      "detail": "TMs are crafted (not single-use finds) at the TM Machine inside any Pokémon Center, using League Points (in-game currency, separate from Poké Dollars) plus TM Materials. TM Materials drop from defeating or catching wild Pokémon (including via Auto Battle). Once a TM's recipe is known, unlimited copies can be crafted if materials/LP are sufficient.",
+      "trackable": "League Points balance and TM Material counts are visible in the player's Bag/menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/TM"]
+    },
+    {
+      "category": "progression-system",
+      "name": "League Points (LP)",
+      "detail": "Earned via Tera Raid Crystals, defeating Team Star bases, ranked online battles, defeating/catching wild (Tera) Pokémon, and trading in TM Materials. Used to buy shop items as an alternative to Poké Dollars and to craft TMs. Not accepted at Porto Marinada auctions. LP does not decrease on blackout.",
+      "trackable": "Persistent currency balance shown with its own icon, viewable in the player's inventory/shop screens at all times.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/League_Point"]
+    },
+    {
+      "category": "progression-system",
+      "name": "Battle Points (BP) system",
+      "detail": "Could not confirm a Battle Points system exists in Scarlet/Violet. Bulbapedia's dedicated Battle Point article covers only up to Generation VIII (Sword/Shield, BDSP) and does not list Scarlet/Violet, consistent with there being no Battle Tower-style facility in the base game. Treat 'League Rep / Battle Points' from the brief as unconfirmed/likely not present; League Points (LP, see above) is the actual currency system.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Battle_Point"]
+    },
+    {
+      "category": "progression-system",
+      "name": "Picnic / Sandwich system",
+      "detail": "Picnics replace the Day Care for breeding: with two compatible Pokémon in the party, Eggs occasionally appear in the picnic basket. Picnics also allow 'Pokémon Wash' (restores HP, cures status, raises friendship/Exp) and sandwich-making. Sandwiches grant up to 3 simultaneous 'Meal Powers' for 30 minutes: Encounter Power (forces a chosen type to spawn, 50-100% depending on level), Egg Power (speeds up egg generation/reduces egg cycles 1.25x-2x), Catching Power (1.1x-2x catch rate), Exp. Point Power (1.1x-1.5x Exp vs a type), Item Drop Power, Raid Power (extra Tera Raid rewards), Humungo/Teensy Power (skews wild Pokémon size), and Sparkling Power (adds 1-3 shiny rolls; requires at least 2 Herba Mystica ingredients). Herba Mystica ingredients unlock the strongest (level 3) power tiers.",
+      "trackable": "Active Meal Powers and their remaining duration/level are shown on-screen after eating a sandwich.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Picnic", "https://bulbapedia.bulbagarden.net/wiki/Sandwich"]
+    },
+    {
+      "category": "progression-system",
+      "name": "Herba Mystica and Koraidon's forms",
+      "detail": "Koraidon (Scarlet's legendary mount) starts in a weakened 'Limited Build' form. It regains its old abilities by eating sandwiches made with Herba Mystica ingredients gathered from major story milestones (Titan battles), progressively unlocking Sprinting Build (fast ground travel/climbing), Swimming Build (water traversal), Gliding Build (aerial travel), and finally Apex Build (full battle-ready form, matching the box art) after the main story's climax.",
+      "trackable": "Movement abilities are gated to story milestones; not shown as an explicit counter, but each new Build is a discrete, noticeable unlock.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Koraidon"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Pokédex completion percentage",
+      "detail": "Since Pokémon Sun/Moon (Gen VII), the Pokédex UI displays total percentage of Pokédex completion; this convention is expected to continue in Scarlet/Violet (Paldea Pokédex contains 400 Pokémon in the base game, before DLC expansions). Could not confirm the exact on-screen wording/label used in Scarlet/Violet specifically via available sources.",
+      "trackable": "Pokédex menu (accessed via Rotom Phone), shows a completion percentage. Exact phrasing unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex", "https://bulbapedia.bulbagarden.net/wiki/Paldea_Pok%C3%A9dex"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Badges across three storylines",
+      "detail": "Paldea has three separate campaign threads, each with its own reward marker: Victory Road (8 Gym Badges from Gym Leaders), Path of Legends (Titan emblems from defeating 5 Titan Pokémon), and Starfall Street (Team Star badges from defeating 5 Team Star base leaders: Giacomo/Dark, Mela/Fire, Atticus/Poison, Ortega/Fairy, Eri/Fighting). Only the 8 Gym Badges are a hard requirement to enter the Pokémon League building/challenge the Elite Four. Exact in-game display screen for all three (e.g., a combined badge case) not fully confirmed.",
+      "trackable": "Badges/emblems are collected as physical inventory items; a badge case screen likely exists but exact UI unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Team_Star", "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_League_(Paldea)"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Academy Ace Tournament",
+      "detail": "A post-game tournament in Mesagoza, available only after completing all base-game storylines. NOT missable — repeatable indefinitely via an NPC at the academy front desk. First win grants a Sporty Cap and Paldea Champion Ribbon for the whole party; completing it is also required to unlock 6-star/7-star Tera Raid Battles.",
+      "trackable": "Repeatable, not a countable/limited stat.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Academy_Ace_Tournament"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Base Shiny odds",
+      "detail": "Standard shiny encounter rate is 1 in 4,096 (one 'roll') with no boosts.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net (via fetch)", "training knowledge cross-check"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Shiny Charm",
+      "detail": "Awarded for completing the Pokédex (registering all species as caught). Grants 2 additional shiny rolls, bringing the total to 3 in 4,096 (~1 in 1,365.7).",
+      "trackable": "Shiny Charm appears as a key item in the Bag once obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net (via fetch)"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Masuda Method (breeding)",
+      "detail": "Breeding two parent Pokémon from different-language game cartridges/save data increases shiny odds: 6 in 4,096 without Shiny Charm, 8 in 4,096 (~1 in 512) with Shiny Charm.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net (via fetch)"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Sparkling Power (sandwich shiny boost)",
+      "detail": "A sandwich Meal Power that adds 1-3 additional shiny rolls, stacking with Shiny Charm/Masuda Method. Requires at least 2 Herba Mystica ingredients in the sandwich recipe to activate.",
+      "trackable": "Shown as an active buff after eating the sandwich.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Sandwich"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Wild Tera Type randomization",
+      "detail": "Most ordinary wild Pokémon in Paldea have a Tera Type matching one of their normal types. However, 68 specific 'wild Tera Pokémon' scattered across the overworld are pre-set with a Tera Type that usually differs from their normal type (these are fixed spawns, not re-randomized). The 8 Eeveelution wild Tera spawns keep Tera Types matching their evolved forms rather than Normal. Ogerpon and Terapagos (DLC-only) have fixed, unchangeable Tera Types.",
+      "trackable": "Tera Type is visible on the Pokémon's summary screen and via the Tera Orb aura when encountered in the overworld.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Terastallizing"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No selectable difficulty mode",
+      "detail": "Could not find any confirmation of a selectable difficulty setting in Scarlet/Violet via available sources. Consistent with training knowledge: mainline Pokémon games (including SV) do not offer a difficulty selector; difficulty is fixed, though the game's fully open 3-path structure lets players sequence-break into higher-level areas early, creating de facto variable difficulty.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training knowledge, not independently confirmed this session"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Union Circle scope",
+      "detail": "Optional online/local multiplayer for up to 4 players: trading, battling, joint exploration, shared picnics/sandwich-making, and egg-sharing via breeding visits. No story or main single-player progression content is gated behind Union Circle, with one specific exception (see next finding).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Union_Circle"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Finizen -> Palafin evolution requires connection",
+      "detail": "Finizen evolves into Palafin at level 38 only while the player is connected to another player (commonly reported as requiring an internet connection with another player nearby, not necessarily an active battle/trade). This is the one Pokédex-relevant mechanic in the base game that depends on a multiplayer connection. Important caution for any trophy design involving 'complete the Pokédex' or 'evolve every starter-adjacent Pokémon' type goals — a player could get stuck needing another player online.",
+      "trackable": "Standard evolution notification; Palafin's entry appears in Pokédex once evolved.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Union_Circle", "training knowledge cross-check"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Scarlet-exclusive Paradox Pokémon (Ancient forms)",
+      "detail": "Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks are the base-game Scarlet-exclusive Ancient Paradox Pokémon. NOTE: Roaring Moon (base game, Scarlet) is also ancient/Scarlet-exclusive. Walking Wake, Gouging Fire, and Raging Bolt are DLC-era Paradox Pokémon (Teal Mask/Indigo Disk) and should be flagged separately as DLC content, not base-game Nov 2022 release content — this needs verification against the base game's actual roster before building trophies around it.",
+      "trackable": "Appear in the Paldea Pokédex once caught/seen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Paradox_Pok%C3%A9mon"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Violet-exclusive Paradox Pokémon (Future forms)",
+      "detail": "Iron Treads, Iron Bundle, Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns, Iron Valiant are the base-game Violet-exclusive Future Paradox Pokémon. Iron Leaves, Iron Boulder, and Iron Crown are DLC-era additions (Teal Mask/Indigo Disk) and should be flagged as DLC, not base game — needs verification.",
+      "trackable": "Appear in the Paldea Pokédex once caught/seen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Paradox_Pok%C3%A9mon"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Koraidon (Scarlet box legendary) vs Miraidon (Violet)",
+      "detail": "Koraidon is the Scarlet-exclusive legendary/box art Pokémon and the player's permanent story-mount, framed as an ancient Paradox form (ancestor of Cyclizar). Violet's counterpart is Miraidon, framed as a futuristic/mechanical form. Story flavor differs accordingly: Scarlet frames the crater mystery around 'primeval' Pokémon, Violet around 'mechanical' Pokémon. Professor is Sada in Scarlet vs Turo in Violet (differing professor character/design, same narrative role).",
+      "trackable": "Story-integral; not a hidden collectible.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Scarlet_and_Violet", "https://bulbapedia.bulbagarden.net/wiki/Koraidon"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Team Star bosses NOT version-exclusive",
+      "detail": "All five Team Star base leaders (Giacomo/Dark, Mela/Fire, Atticus/Poison, Ortega/Fairy, Eri/Fighting) and their bases appear identically in both Scarlet and Violet; only their uniform cosmetics differ slightly by version per Bulbapedia. This contradicts an assumption of version-exclusive Team Star content — flag as NOT a source of Scarlet-only trophies.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Team_Star"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Charcadet evolution is NOT version-exclusive",
+      "detail": "Charcadet evolves into Armarouge (via Auspicious Armor item) or Ceruledge (via Malicious Armor item) — this is a player choice based on which item is used, not a version lock. Both evolution items are obtainable in both Scarlet and Violet. This contradicts a common misconception; do not build a Scarlet-exclusive trophy around Armarouge specifically without further checking whether Auspicious Armor is easier/only obtainable in Scarlet.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Charcadet_(Pok%C3%A9mon)"]
+    },
+    {
+      "category": "missable",
+      "name": "Mystery Gift / event distributions",
+      "detail": "Mystery Gift is accessed via the Poké Portal menu (unlocked after the first Pokémon Center visit in Los Platos), receivable via password or internet. Scarlet/Violet had numerous real-world time-limited promotional distributions post-launch (e.g., special Pikachu, Sprigatito/Fuecoco/Quaxly-line promos, Pokémon Center codes) that are permanently missable once their redemption window closed, unless redeemed before the current date. Specific list of which distributions have already expired as of August 2026 was not compiled this session — treat any Mystery Gift-based trophy as high-risk/likely inappropriate since availability is real-world-time-gated and largely already closed.",
+      "trackable": "Received gifts appear in the party/box and Pokédex; no dedicated 'gifts redeemed' counter confirmed.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Mystery_Gift"]
+    },
+    {
+      "category": "gap",
+      "name": "In-game trade details",
+      "detail": "Could not retrieve full details on Scarlet/Violet's specific in-game NPC trades (which species, whether one-time/missable) — the Bulbapedia in-game trades article content was truncated in the fetch and did not include the Gen IX trade table.",
+      "trackable": null,
+      "missable": null,
+      "confidence": "low",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/In-game_trade"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex completion percentage", "where": "Pokédex app on the Rotom Phone; exact on-screen wording unconfirmed", "confidence": "medium" },
+    { "stat": "League Points (LP) balance", "where": "Bag/shop menus, denoted with a currency icon", "confidence": "medium" },
+    { "stat": "TM Material inventory (per-species/family materials)", "where": "Bag > TM Materials tab", "confidence": "medium" },
+    { "stat": "Gym Badges (8, Victory Road)", "where": "Likely a badge case in the menu; exact UI unconfirmed", "confidence": "medium" },
+    { "stat": "Titan emblems (5, Path of Legends) and Team Star badges (5, Starfall Street)", "where": "Unconfirmed UI location", "confidence": "low" },
+    { "stat": "Active Sandwich Meal Powers and duration", "where": "On-screen buff display after eating a sandwich", "confidence": "high" },
+    { "stat": "Playtime / Trainer Card contents", "where": "Trainer Card screen (exact contents for SV specifically not confirmed this session)", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Scarlet's box-art legendary and permanent story mount is Koraidon; Violet's is Miraidon. Koraidon is framed as an ancient Paradox Pokémon; Miraidon as a futuristic one.", "confidence": "high" },
+    { "note": "Base-game Paradox Pokémon split by version: Scarlet gets the 'Ancient' line (Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks, Roaring Moon), Violet gets the 'Future' line (Iron Treads, Iron Bundle, Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns, Iron Valiant). Walking Wake/Iron Leaves (Teal Mask DLC) and Gouging Fire/Raging Bolt/Iron Boulder/Iron Crown (Indigo Disk DLC) are DLC-exclusive additions from 2023, not part of the November 2022 base release — verify scope (base game vs. DLC-inclusive) before using these in trophy design.", "confidence": "medium" },
+    { "note": "Team Star boss leaders and bases are identical across both versions (only uniform cosmetics differ) — no version-exclusive antagonist content there.", "confidence": "medium" },
+    { "note": "Professor character differs by version: Professor Sada appears in Scarlet, Professor Turo in Violet, affecting story flavor/cutscenes though the plot beats are structurally identical.", "confidence": "medium" },
+    { "note": "Regular (non-Paradox) species version exclusives (e.g., certain evolution lines reportedly split by version) could not be confirmed with a reliable source this session — multiple fetch attempts to compile a full non-Paradox exclusives list failed (404s/bot-blocks). This is a meaningful gap for trophy design since 'catch every Scarlet-exclusive Pokémon' type trophies need an exact, complete list.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm the exact in-game wording/label used for Pokédex completion percentage in Scarlet/Violet specifically (only confirmed the mechanic exists as a series convention since Gen VII).",
+    "Could not confirm whether a 'League Rep' stat (as distinct from League Points) exists at all — could not find any source describing it; likely this term does not apply to SV and the brief may be conflating it with another game or with League Points.",
+    "Could not confirm a Battle Points (BP) system exists in Scarlet/Violet; no Battle Tower-equivalent facility was found in available sources.",
+    "Could not obtain a complete, verified list of non-Paradox version-exclusive Pokémon species (evolution-line-level exclusives) between Scarlet and Violet — multiple source fetches failed (404 or bot-blocked). This is important for any 'Scarlet-exclusive Pokédex' trophy.",
+    "Could not confirm whether completing all three storylines (Victory Road + Path of Legends + Starfall Street) is a hard requirement to trigger the final story chapter/Area Zero climax, versus just needing Path of Legends progress — sources were inconclusive; this is well-established in community knowledge but not independently confirmed via search this session.",
+    "Could not retrieve the specific list/count of in-game NPC trades in Scarlet/Violet or whether any are one-time/missable.",
+    "Could not confirm exact contents of the Trainer Card screen (whether it shows Pokédex count, badges, playtime, etc.) for Scarlet/Violet specifically.",
+    "Could not compile a current (August 2026) list of which Mystery Gift promotional distributions for Scarlet/Violet have already permanently expired versus which (if any) might still be redeemable — this matters for missable-content trophy design.",
+    "Could not independently confirm whether Scarlet/Violet has zero selectable difficulty options (relied on general series-knowledge; not verified this session for SV specifically).",
+    "WebSearch tool budget was exhausted at the very start of this research session (before any of my searches ran), forcing reliance entirely on WebFetch of known-URL guesses; several intended source pages returned 404 or bot-block errors (Serebii, IGN, Eurogamer, Polygon, Nintendo Life, Game8, PokemonDB, official Pokemon.com), which limited cross-verification. Findings should be spot-checked against these site types if search budget becomes available."
+  ]
+}

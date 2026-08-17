@@ -1,0 +1,130 @@
+{
+  "game": "Pokémon Scarlet",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "developer": "Game Freak",
+  "publisher": "The Pokémon Company / Nintendo",
+  "releaseDate": "2022-11-18",
+  "researchDate": "2026-08-16",
+  "researchQualityNote": "All three scouts hit the same friction: the shared WebSearch budget was exhausted before or shortly into their work, forcing reliance on WebFetch against known Bulbapedia/Serebii/PokemonDB URLs, with several other guide sites (IGN, Eurogamer, Polygon, Nintendo Life, Game8) returning 404/bot-block errors. Most findings are marked medium rather than high confidence for this reason even where corroborated. Treat this dossier as solid on structure/names but softer than usual on exact numeric/UI details — flagged explicitly below.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Switch has no system-level achievement/trophy system. Scarlet has never released on any other platform.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "premise": "The player attends Naranja Academy in the Paldea region and is sent on an open-ended 'Treasure Hunt' independent-study assignment by director Clavell, which unlocks three parallel storylines: Victory Road (8 Gym Leaders), Path of Legends (5 Titan Pokémon, with Arven), and Starfall Street (5 Team Star bases, with the mystery of leader 'Cassiopeia'). All three converge on a fourth chapter, The Way Home, descending into Area Zero to confront the true nature of the AI professor Sada and the source of Paldea's Paradox Pokémon.",
+  "characterCorrection": "IMPORTANT: no character named 'Clive' exists in this game (this was in the original research brief and is confirmed wrong). The AI professor is named Sada in Scarlet (Turo in Violet); the academy director is Clavell. Do not use 'Clive' anywhere in trophy text.",
+  "campaignStructure": {
+    "threeParallelPaths": {
+      "victoryRoad": {
+        "gymLeaders": ["Katy (Bug)", "Brassius (Grass)", "Iono (Electric)", "Kofu (Water)", "Larry (Normal)", "Ryme (Ghost)", "Tulip (Psychic)", "Grusha (Ice)"],
+        "note": "Order is entirely player-chosen; the game does not enforce one. Katy/Grusha are community-convention 'first/last' by level, not game-enforced.",
+        "eliteFour": ["Rika (Ground)", "Poppy (Steel)", "Larry (Flying — same character as the Normal Gym Leader, a unique dual role)", "Hassel (Dragon, battled last)"],
+        "champion": "Geeta (Top Champion), varied team including a Terastallized Glimmora.",
+        "confidence": "high on names/types; medium on exact order/UI tracking"
+      },
+      "pathOfLegends": {
+        "titans": [
+          { "name": "Klawf", "title": "Stony Cliff Titan", "location": "South Province (Area Three)" },
+          { "name": "Bombirdier", "title": "Open Sky Titan", "location": "West Province (Area One)" },
+          { "name": "Orthworm", "title": "Lurking Steel Titan", "location": "East Province (Area Three)" },
+          { "name": "Great Tusk", "title": "Quaking Earth Titan", "location": "Asado Desert", "versionExclusive": "SCARLET-EXCLUSIVE — the Violet equivalent is Iron Treads. Direct version-exclusive difference in a mandatory boss fight." },
+          { "name": "Tatsugiri", "title": "False Dragon Titan", "location": "Casseroya Lake", "note": "Rides a much larger Dondozo; Dondozo itself is not the Titan." }
+        ],
+        "finale": "A full-strength Pokémon battle against Arven (later revealed as Professor Sada's son) once all 5 Titans are defeated and enough Herba Mystica collected.",
+        "confidence": "medium — titan list/names high confidence, exact locations/order medium"
+      },
+      "starfallStreet": {
+        "teamStarBosses": ["Giacomo — Segin Squad (Dark)", "Mela — Schedar Squad (Fire)", "Atticus — Navi Squad (Poison)", "Ortega — Ruchbah Squad (Fairy)", "Eri — Caph Squad (Fighting, commonly highest-level/last)"],
+        "versionExclusiveCorrection": "NOT version-exclusive — all five bosses/bases are identical in Scarlet and Violet; only uniform cosmetics differ slightly.",
+        "finale": "Penny reveals herself as 'Cassiopeia,' the true leader of Team Star, and battles the player to announce the team's disbanding.",
+        "confidence": "medium"
+      }
+    },
+    "finalChapter": {
+      "name": "The Way Home",
+      "detail": "Unlocked once all three paths are complete. The player and companions descend to Zero Lab at the bottom of Area Zero. A security lockdown disables all Poké Balls except the player's Koraidon. The AI professor Sada is revealed as a robot built on the real (deceased) professor's research; the player defeats the AI, then confronts and defeats the second, hostile wild Koraidon (the one that killed the real professor) in a final battle.",
+      "confirmed": "This is base-game content — no DLC required.",
+      "confidence": "high"
+    },
+    "ending": "Single fixed ending ('Paradise Protection Protocol' — the AI shuts itself down via time travel). No branching found.",
+    "confidence": "high on overall structure; medium on some specific character/plot framing details (single-source, not independently cross-checked)"
+  },
+  "sideContent": {
+    "pokedex": {
+      "conflict": "Base-game Paldea Pokédex catchable total is DISPUTED across sources: Bulbapedia states 400 numbered entries; PokemonDB's breakdown (140 new + 233 returning) sums to 373. Could not resolve which is the true pre-DLC catchable count.",
+      "percentageDisplayUnconfirmed": "Could not confirm whether the Pokédex app displays an explicit completion PERCENTAGE (a series convention since Sun/Moon) — every source checked either paywalled, 404'd, or didn't address it directly for Scarlet/Violet specifically. Per-species Seen/Owned tracking IS confirmed to exist regardless.",
+      "shinyCharmReward": "Given by Jacq at Naranja Academy after registering all Pokémon (excluding Mythicals) as caught. Unconfirmed whether the box legendary itself counts or must be traded from a Violet copy."
+    },
+    "academyAceTournament": {
+      "detail": "Post-game repeatable tournament, unlocked after completing all three main storylines. First run is a fixed bracket (Arven, Jacq, Dendra, then Champion Geeta); repeatable afterward with randomized opponents. Required to unlock 6-star/7-star Tera Raid Battles.",
+      "trackable": "Confirmed NOT missable — repeatable indefinitely via an NPC at the academy front desk.",
+      "confidence": "high"
+    },
+    "areaZero": {
+      "detail": "Accessed via Zero Gate. Contains Zero Lab (bottom, site of the time machine), four Research Stations, and multiple biome/crater zones with exclusive wild Paradox Pokémon.",
+      "trackable": "No explicit area-completion tracker found; Pokédex registration of exclusive Paradox species is the closest proxy.",
+      "confidence": "medium"
+    },
+    "sandwichSystem": {
+      "detail": "Recipe Mode (4 tiers, Master requires Herba Mystica) and Creative Mode. Up to 3 simultaneous 'Meal Powers' for 30 minutes (Encounter/Egg/Catching/Exp/Item Drop/Raid/Humungo-Teensy/Sparkling Power).",
+      "trackable": "Number of distinct recipes made IS displayed in the player's Profile app — a clean, confirmed numeric tracker. 151 total pre-made recipes cited by Bulbapedia, though unconfirmed whether that's base-game-only or includes DLC recipes."
+    },
+    "tmCrafting": "TM Machines at Pokémon Centers; League Points + TM Materials. Not confirmed whether a running total of TMs crafted is displayed anywhere.",
+    "letsGoAutoBattle": "Auto-battle system; never triggers against Shiny or Terastallized wild Pokémon; cannot faint the player's Pokémon; grants EXP and TM materials but no PP loss/EVs.",
+    "teraRaidBattles": "1-star to 7-star raids, escalating IVs/HP. 5-star unlocks post-Academy Ace Tournament. Many 7-star raids were real-world time-limited post-launch events — treat any specific raid boss as likely already-expired, real-world-time-gated content, NOT suitable for a durable trophy.",
+    "dlc": {
+      "name": "The Hidden Treasure of Area Zero",
+      "parts": [
+        { "name": "The Teal Mask", "releaseDate": "2023-09-13", "scope": "Kitakami region (school trip). Legendary Ogerpon (4 mask forms) and antagonists 'The Loyal Three' (Okidogi, Munkidori, Fezandipiti). New species: Dipplin, Poltchageist, Sinistcha, Bloodmoon Ursaluna. Side content: Perrin's photography sidequests, 'Ogre Oustin' minigame." },
+        { "name": "The Indigo Disk", "releaseDate": "2023-12-14", "scope": "Blueberry Academy in a Terarium (Unova). BB League: 4 Elite Trial members (Lacey, Crispin, Amarys, Drayton) then Champion Kieran. New evolutions Archaludon/Hydrapple. Legendary Terapagos caught in Area Zero Underdepths — CONFIRMED DLC-EXCLUSIVE, not base-game postgame content (corrects a common assumption)." }
+      ],
+      "versionParity": "Confirmed identical release dates and content structure for Scarlet and Violet; no DLC-internal version exclusivity found beyond the ongoing ancient/future Paradox split.",
+      "flagForCheckpoint": "This is substantial, confirmed paid content, matching the precedent of building a separate DLC list (as done for Hyrule Warriors, Breath of the Wild, and Pokémon Legends Z-A earlier in this project)."
+    }
+  },
+  "systems": {
+    "leaguePoints": "In-game currency (LP), separate from Poké Dollars, used to craft TMs and buy some shop items. Persistent balance shown in Bag/shop menus.",
+    "battlePointsCorrection": "No 'Battle Points'/Battle Tower-style facility found in Scarlet/Violet — this term from a prior assumption does not apply to this game.",
+    "koraidonForms": "Koraidon starts in a weakened 'Limited Build' and progressively unlocks Sprinting/Swimming/Gliding Build via story-milestone sandwiches with Herba Mystica, culminating in the full battle-ready 'Apex Build' after the main story's climax. Each Build unlock is a discrete, noticeable story beat.",
+    "shinyOdds": "Base 1/4096. Shiny Charm (Pokédex completion reward) adds 2 rolls (~1/1365.7). Masuda Method (cross-language breeding) and Sparkling Power (sandwich buff, needs 2+ Herba Mystica) both stack further.",
+    "teraTypeRandomization": "Most wild Pokémon Tera Types match a normal type; 68 fixed 'wild Tera Pokémon' spawns have a pre-set differing Tera Type (not re-randomized).",
+    "noDifficultyModes": "No selectable difficulty mode found (consistent with mainline Pokémon convention); the open 3-path structure allows de facto sequence-breaking into harder areas early.",
+    "multiplayerCaution": "Union Circle (up to 4 players) is optional for almost everything, with ONE exception: Finizen only evolves into Palafin at level 38 while connected to another player. This is the one Pokédex-relevant mechanic depending on multiplayer — flagged as a real risk for any 'complete the Pokédex' trophy design (Rule 13)."
+  },
+  "versionExclusives": {
+    "legendary": "Koraidon (Fighting/Dragon, 'primeval' theme) is Scarlet's box legendary and permanent story mount; Miraidon is Violet's ('mechanical' theme). Obtaining the other version's legendary requires trading.",
+    "paradoxPokemonAncient": ["Great Tusk", "Scream Tail", "Brute Bonnet", "Flutter Mane", "Slither Wing", "Sandy Shocks", "Roaring Moon"],
+    "paradoxPokemonFutureViolet": ["Iron Treads", "Iron Bundle", "Iron Hands", "Iron Jugulis", "Iron Moth", "Iron Thorns", "Iron Valiant"],
+    "dlcEraParadoxNote": "Walking Wake (Teal Mask) and Gouging Fire/Raging Bolt (Indigo Disk) continue the Scarlet/ancient side; Iron Leaves (Teal Mask) and Iron Boulder/Iron Crown (Indigo Disk) continue Violet/future. These are DLC-era 2023 additions, not part of the Nov 2022 base release.",
+    "professorName": "Sada (Scarlet) vs. Turo (Violet).",
+    "academyName": "Naranja Academy (Scarlet) vs. Uva Academy (Violet) — cosmetic only, same story role.",
+    "otherWildExclusivesUnconfirmed": "A reported list of ordinary (non-Paradox) version-exclusive wild encounters (Scarlet: Larvitar, Deino, Skrelp, Oranguru) came from a single, weakly-sourced summary and could not be independently cross-verified — treat as low confidence, avoid building a trophy around this specific list without further checking.",
+    "charcadetCorrection": "Charcadet's evolution into Armarouge/Ceruledge is an item choice (Auspicious/Malicious Armor), NOT version-locked — both items obtainable in both versions."
+  },
+  "missables": [
+    { "name": "Elite Four/Champion gauntlet is reportedly a single-attempt sequence in the main story push (per Serebii); rematches likely available later via Academy Ace Tournament, not independently confirmed.", "confidence": "medium" },
+    { "name": "Mystery Gift promotional distributions (numerous real-world time-limited codes over Scarlet/Violet's lifecycle) — most or all almost certainly expired as of today; treat any Mystery Gift-based trophy as inappropriate for a durable list.", "confidence": "low-but-directionally-safe" },
+    { "name": "Many 7-star Tera Raid event bosses were real-world time-limited post-launch events, largely expired now — same caution as Mystery Gift content.", "confidence": "medium" }
+  ],
+  "conflicts": [
+    { "topic": "Paldea Pokédex base-game total", "claimA": "400 (Bulbapedia numbering)", "claimB": "373 (PokemonDB: 140 new + 233 returning)", "resolution": "Unresolved — needs a primary check or should be avoided in trophy text as a specific number." },
+    { "topic": "Pokédex completion percentage display", "finding": "Expected by series convention (confirmed in Sun/Moon) but not specifically confirmed for Scarlet/Violet by either scout despite real effort." }
+  ],
+  "scopeDecisionsResolved": [
+    "DLC: The Hidden Treasure of Area Zero (Teal Mask + Indigo Disk) WILL get its own separate trophy list under `dlc` (Rule 14), never affecting the base Platinum.",
+    "Pokédex completion WILL get a Gold trophy, but trophy text will NOT cite a specific catchable total (400 vs 373 is unresolved) — verification will reference the Pokédex app's registration state generically.",
+    "Mystery Gift-based and expired Tera Raid event-boss content is EXCLUDED entirely from both the base and DLC lists — not missable-flagged, just left out, since these real-world time-gated distributions are almost certainly closed."
+  ],
+  "gaps": [
+    "Exact in-game UI location/wording for the Gym Badge case, Titan emblems, and Star Badges not confirmed.",
+    "Exact base-game Pokédex catchable total unresolved (400 vs 373).",
+    "Pokédex completion percentage display existence unconfirmed for Scarlet/Violet specifically.",
+    "No complete, verified list of non-Paradox version-exclusive wild Pokémon between Scarlet and Violet.",
+    "Whether all three storylines are a hard requirement (vs. just Path of Legends) to trigger The Way Home not independently confirmed, though well-established in community knowledge.",
+    "Exact missable content beyond the Elite Four single-attempt gauntlet not confirmed.",
+    "Whether sandwich recipe count (151) is base-game-only or DLC-inclusive unconfirmed."
+  ]
+}
