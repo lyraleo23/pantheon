@@ -1,0 +1,323 @@
+{
+  "beat": "progression systems, trackable statistics, missable content, RNG systems, version differences (BD vs SP)",
+  "game": "Pokémon Brilliant Diamond",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "core-system",
+      "name": "Turn-based battle formula unchanged",
+      "detail": "BDSP retains the standard mainline turn-based battle system with no structural overhaul; it is a faithful remake of Gen IV Diamond/Pearl mechanics rebuilt on a new (Unity-based, ILCA-developed) engine rather than Game Freak's Sw/Sh engine, which explains why several modern Gen VIII QoL UI features (e.g. the EV graph on the summary screen) are absent.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (Summary, Pokémon Brilliant Diamond and Shining Pearl)"]
+    },
+    {
+      "category": "core-system",
+      "name": "Exp. Share is automatic and party-wide",
+      "detail": "Exp. Share functions as a togglable Key Item that distributes EXP to the whole party automatically (Gen VI+ style), not the classic single held-item version from original Diamond/Pearl.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Exp._Share"]
+    },
+    {
+      "category": "core-system",
+      "name": "Effort Values (EVs) are not shown to the player",
+      "detail": "BDSP has no in-game EV viewer/graph on the summary screen (unlike Sw/Sh's X-button EV graph). EVs remain a fully invisible background stat. Indirect confirmation of max EV training (510 total) exists via an NPC in the Sunyshore Market who awards the Effort Ribbon once a Pokémon hits 510 EVs.",
+      "trackable": "Only indirectly, via the Effort Ribbon awarded at 510 total EVs by an NPC in Sunyshore Market.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Effort_values", "bulbapedia.bulbagarden.net/wiki/Summary"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Poketch app roster (20 apps, faithful to Gen IV)",
+      "detail": "Confirmed apps and unlock conditions: Digital Watch, Calculator, Memo Pad (Coal Badge), Pedometer, Pokémon List, Friendship Checker (Eterna Pokémon Center), Dowsing Machine (Route 207, given by Dawn/Lucas), Egg Monitor (Solaceon Town Day Care), Pokémon History (Solaceon Town resident, tracks last 12 Pokémon obtained), Counter (Veilstone Dept. Store), Analog Watch (Celestic Town resident), Marking Map (after 3 badges), Coin Toss (Hotel Grand Lake), Calendar / Dot Artist / Spinner (Sunyshore City, nature-dependent), Chain Counter (Ramanas Park, tracks Poké Radar chains), Kitchen Timer (Ramanas Park, show Snorlax), Color Changer (Ramanas Park, show Kecleon), Hidden Moves app (Oreburgh Gate).",
+      "trackable": "Each app is a persistent, player-visible tracker on the Switch touch/button UI.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Pok%C3%A9tch"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "No 'Vital Stats' Pokétch app found",
+      "detail": "Could not confirm a Pokétch app named 'Vital Stats' exists in BDSP. It does not appear in the Bulbapedia Pokétch app list gathered above. This may be a misremembered or non-existent feature for this game.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Pok%C3%A9tch (absence)"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Trainer Card contents",
+      "detail": "Shows player name/ID, badges obtained, playtime, money, and basic stats; back of the card shows Contest-style stats instead of a signature space (Gen IV had a signature). The old 'star' rating system (visible stars for achievements) was removed starting Gen V — BDSP instead only changes the card's color/background when certain achievements are completed, with no visible star icons.",
+      "trackable": "Trainer Card screen, accessible from the pause menu at any time.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Trainer_Card_(game)"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Pokédex seen/caught counts, completion % uncertain",
+      "detail": "The Pokédex list screen displays the number of Pokémon seen and caught. Bulbapedia states that 'from Sun and Moon onward' the Pokédex UI also shows a total completion percentage, which would nominally include BDSP, but this could not be directly confirmed as present in BDSP's specific redesigned single-screen Pokédex UI.",
+      "trackable": "Pokédex screen (seen/caught counts confirmed; % completion unconfirmed for this specific game).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Sinnoh Pokédex = 151 entries",
+      "detail": "The Sinnoh Pokédex in BDSP matches original Diamond/Pearl (151 entries), NOT the expanded 210-entry Platinum Sinnoh Dex. Manaphy counts among the 151 but the original Sinnoh Dex could technically be 'completed' by seeing 150 non-Manaphy entries (Manaphy is event-only).",
+      "trackable": "Pokédex screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (List of Pokémon by Sinnoh Pokédex number)"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "National Pokédex = 493 entries",
+      "detail": "National Dex covers all 493 Pokémon from Gen I-IV (no regional forms). Unlocked by seeing all Sinnoh Dex entries (excluding Manaphy) then talking to Professor Rowan in Sandgem Town, triggering Professor Oak's visit to upgrade the Pokédex.",
+      "trackable": "Pokédex screen, National mode.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/National_Pok%C3%A9dex"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Grand Underground 'something good' Diglett/Dugtrio counter",
+      "detail": "Collecting 40 sparkle points (from Digletts/Dugtrio hidden in the Underground) triggers a 4-minute buff shared among connected players that raises shiny odds in the Underground from 1/4096 to 1/2048 and guarantees Gorgeous (higher-tier) Stone Boxes from digging.",
+      "trackable": "A visible Diglett-icon counter appears on screen while digging in the Grand Underground (progress toward 40).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Grand_Underground"]
+    },
+    {
+      "category": "systems-note",
+      "name": "Underground flag-capture minigame removed",
+      "detail": "The original Gen IV Underground's flag-stealing multiplayer minigame (collecting/stealing flags from other players' secret bases) does NOT exist in BDSP's Grand Underground. Secret Bases in BDSP instead only display statues/pedestals for decoration; there is no flag-count stat to track. This directly contradicts an assumption that 'Underground Flags collected' is a trackable BDSP stat — it appears NOT to exist in this remake.",
+      "trackable": "Not applicable — mechanic removed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Grand_Underground"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Secret Base statue display cap",
+      "detail": "A player's single Secret Base can display a maximum of 18 statues at once, obtained from Stone Boxes (Pretty/Gorgeous variants found digging) or awarded for catching Legendary Pokémon at Ramanas Park.",
+      "trackable": "Visible directly in the player's Secret Base.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Grand_Underground"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Base shiny rate: 1/4096",
+      "detail": "Standard wild-encounter shiny odds are 1 in 4096, matching modern-era base rate.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["serebii.net (shiny Pokémon page, via fetch)"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Shiny Charm: breeding-only effect in BDSP (does not affect wild encounters)",
+      "detail": "Unlike Sw/Sh, the Shiny Charm in BDSP only boosts breeding shiny odds, NOT wild-encounter odds, despite the item's in-game description implying otherwise (this is reportedly an oversight/bug in the code that disables the charm's effect for non-breeding encounters). Two independent sources (Bulbapedia, Serebii) agree on this. Obtained from the game director at the Valor Lakefront after completing the National Pokédex (catching all Pokémon, excluding Mythicals).",
+      "trackable": "Held as a Key Item; presence implied by dialogue but not shown on a dedicated counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Shiny_Charm", "serebii.net (shiny Pokémon page)"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Masuda Method breeding odds",
+      "detail": "Breeding two Pokémon from different-language game cartridges/versions raises shiny odds to roughly 1/682.7 without the Shiny Charm, or 1/512 with it (Shiny Charm adds extra rerolls specifically during breeding).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Shiny_Pok%C3%A9mon", "serebii.net"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Poké Radar chaining",
+      "detail": "Obtained automatically after unlocking the National Pokédex (not missable — story-tied key item). Chaining shiny odds by consecutively encountering the same species in shaking grass patches; the radar always produces four patches and (per one source) the first Pokémon encountered in a chain will always reappear in later patches, preventing chain breaks from wrong species. Shiny odds improve substantially with chain length. Exact numeric odds table is inconsistent between sources found (one source: ~1/256 at chain ~30; another: 1/99 per patch at chain 40+) — could not resolve the precise table with confidence. Shiny Charm does NOT boost Poké Radar odds per at least one source.",
+      "trackable": "Chain Counter Pokétch app (unlocked at Ramanas Park) displays current chain length.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar", "serebii.net (shiny Pokémon page)"]
+    },
+    {
+      "category": "missable",
+      "name": "Manaphy Egg — early-purchase/limited-time bonus",
+      "detail": "The Manaphy Egg (tied to Pokémon Ranger crossover event in the original games) was made available in BDSP as a time-limited early-purchase bonus event, not a permanent in-game acquisition method. Exact date window and current (2026) availability could not be confirmed — flagging as likely missable/expired.",
+      "trackable": null,
+      "missable": true,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net (Pokémon Brilliant Diamond and Shining Pearl, summarized)"]
+    },
+    {
+      "category": "missable",
+      "name": "Lake Guardian trio (Uxie, Mesprit, Azelf) missability unresolved",
+      "detail": "Could not confirm via sources whether encountering/fleeing the Lake Guardians during the Team Galactic story event causes any permanent loss of access. In the original Gen IV games these Pokémon remain catchable in their lake caves afterward (Mesprit roams the region instead). No BDSP-specific source confirmed whether this remains true or whether anything changed. Treat as NOT missable pending confirmation, but flagged as a gap.",
+      "trackable": null,
+      "missable": null,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net (Lake Verity, inconclusive)"]
+    },
+    {
+      "category": "missable",
+      "name": "Distortion World Giratina — Origin Forme not obtainable in Ramanas Park",
+      "detail": "One source states Giratina appears in Ramanas Park's shared (both-version) legendary pool but 'in Origin Forme, which cannot be caught,' implying the Ramanas Park Giratina encounter is not a valid catch. Could not verify further; the story-mode Giratina (caught in the Distortion World in Altered Forme during the main campaign) is presumably the legitimate catchable instance and is not missable since it's tied to mandatory late-game story content.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Ramanas_Park"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No selectable difficulty mode",
+      "detail": "BDSP has no player-selectable easy/normal/hard difficulty option; it follows the fixed original Diamond/Pearl challenge curve.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (Pokémon Brilliant Diamond and Shining Pearl, summarized)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Union Room supports up to 8 players (local/internet)",
+      "detail": "Union Room returns, expanded to support up to 8 simultaneous connected players via local wireless or internet.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net (summarized, unverified detail)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Global Wonder Station replaces GTS — Wonder Trade ONLY, no search-based trading",
+      "detail": "Unlike the classic GTS (which allowed searching for specific requested Pokémon), BDSP's Global Wonder Station only supports Wonder Trade (random blind trade), selecting one of 630 points on a globe called 'Geonet.' Requires an active Nintendo Switch Online subscription. IMPORTANT: this feature was NOT present at the game's November 2021 launch — it was added later via the version 1.3.0 update (dated March 15, 2022). Any trophy design requiring GTS-style search trading is not possible in this game; only Wonder Trade (both players get a random Pokémon) is supported, and it depends on other players / NSO connectivity.",
+      "trackable": "Rare Candies are awarded for marking points on the Geonet globe, tracked implicitly by trade history.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Global_Wonder_Station"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Mystery Gift added via update",
+      "detail": "One source indicates the Mystery Gift feature was added to BDSP in the version 1.1.0 update rather than being present at launch. Could not independently verify this specific version number.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net (summarized, unverified)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Ramanas Park requires v1.1.0 update, but not practically missable",
+      "detail": "One source claims Ramanas Park (the Pal Park replacement / legendary-catching post-game facility) was technically gated behind the version 1.1.0 patch, but since that patch released prior to or at the game's public launch, it is not considered missable in practice for players buying the game today.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Ramanas_Park"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Version-exclusive Legendary: Dialga (Brilliant Diamond) vs Palkia (Shining Pearl)",
+      "detail": "Dialga is the mascot/story-exclusive legendary caught in Spear Pillar in Brilliant Diamond; Palkia fills this role in Shining Pearl. This is the central version-exclusive legendary distinction.",
+      "trackable": "Registered in Pokédex/party upon capture during mandatory late-game story content — not missable (story-required).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bulbapedia.bulbagarden.net (Pokémon Brilliant Diamond and Shining Pearl)"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Sinnoh Dex version-exclusive Pokémon list",
+      "detail": "Brilliant Diamond exclusive (Sinnoh Dex): Murkrow, Honchkrow, Cranidos, Rampardos, Stunky, Skuntank (plus Dialga). Shining Pearl exclusive (Sinnoh Dex): Misdreavus, Mismagius, Shieldon, Bastiodon, Glameow, Purugly (plus Palkia). These pairs are evolutionary-line-for-line swaps between the two versions.",
+      "trackable": "Pokédex screen shows caught/seen per entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net (Pokémon Brilliant Diamond and Shining Pearl, summarized)"]
+    },
+    {
+      "category": "version-difference",
+      "name": "National Dex version-exclusive encounter lines (pre-Ramanas-Park wild/other encounters)",
+      "detail": "A source lists an extensive set of National-Dex-only version exclusives for wild/other encounters, e.g. BD-side: Caterpie line, Ekans line, Growlithe line, Seel line, Scyther, Electabuzz/Elekid, Gligar/Gliscor, Scizor, Larvitar/Tyranitar, Seedot line, Mawile, Zangoose, Solrock, Kecleon, Electivire. SP-side: Weedle line, Sandshrew line, Vulpix line, Slowpoke/Slowbro/Slowking, Magmar/Magby/Magmortar, Pinsir, Teddiursa line, Stantler, Lotad line/Ludicolo, Sableye, Seviper, Lunatone, Bagon line/Salamence. NOTE: this list, as fetched, ALSO included the Kanto/Johto/Hoenn legendary birds/beasts/Lugi/Ho-Oh as 'National Dex exclusives,' which is very likely an error/conflation with the separate Ramanas Park legendary split (see next finding) rather than true wild-encounter exclusives. Treat the legendary portion of this list as unreliable; the regular-species portion is plausible but only single-sourced.",
+      "trackable": "Pokédex screen.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net (Pokémon Brilliant Diamond and Shining Pearl, summarized — internally inconsistent)"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Ramanas Park version-exclusive Legendaries",
+      "detail": "Ramanas Park (post-game legendary catching facility, unlocked after National Dex + Hall of Fame) splits Gen I/II legendaries by version: Brilliant Diamond gets Raikou, Entei, Suicune (legendary beasts) and Ho-Oh (via Rainbow Slate). Shining Pearl gets Articuno, Zapdos, Moltres (legendary birds) and Lugia (via Squall Slate). Both versions share access to Mewtwo, Regirock/Regice/Registeel, Latias/Latios, Kyogre, Groudon, Rayquaza, and a non-catchable Origin Forme Giratina appearance.",
+      "trackable": "Registered in Pokédex upon capture; also grants a matching Secret Base statue.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Ramanas_Park"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Trophy Garden rotation is save-file/time-based, NOT version-exclusive",
+      "detail": "Mr. Backlot's rotating rare Pokémon list (Trophy Garden, Route 212) is identical in content between BD and SP — it rotates in National Dex order (Clefairy through Happiny, 16 species, then repeats) based on real time/save state, resetting at midnight. This is NOT a version-exclusive mechanic and should not be treated as one when designing trophies.",
+      "trackable": "Mr. Backlot's dialogue announces the next rotating Pokémon; Trophy Garden itself is a location, not a UI counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Trophy_Garden"]
+    },
+    {
+      "category": "version-difference",
+      "name": "No confirmed version-exclusive Eterna City statues/items",
+      "detail": "Contrary to the assumption that Eterna City might have version-exclusive statues, a fetched Bulbapedia summary states BD and SP share identical statues/items in Eterna City, with a unified statue design (unlike original Diamond=Dialga statue / Pearl=Palkia statue / Platinum=combined). This conflicts with general recollection of the Gen IV originals having version-specific statues, so it's unclear whether BDSP truly unified this or whether the summary is inaccurate. Flagged as an open gap — do not build a trophy on an assumed Eterna statue version split without further verification.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["bulbapedia.bulbagarden.net/wiki/Eterna_City (AI-summarized, unverified against primary text)"]
+    },
+    {
+      "category": "core-system",
+      "name": "HMs likely retained in traditional form",
+      "detail": "Recollection (not confirmed via search this session) that BDSP retains classic HM items with permanent moves (Cut, Fly, Surf, Strength, Waterfall, Rock Climb, Defog, Rock Smash) taught via TM-like discs, consistent with a faithful Gen IV remake, rather than replacing them with Legends: Arceus-style 'Secret Techniques.' Could not verify via search this session.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["training recollection, unverified"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex seen/caught counts (Sinnoh: 151, National: 493)", "where": "Pokédex screen", "confidence": "medium" },
+    { "stat": "Pokédex completion percentage", "where": "Possibly shown on Pokédex screen per Gen VII+ convention, but not directly confirmed for BDSP's redesigned UI", "confidence": "low" },
+    { "stat": "Trainer Card: badges, playtime, money, ID", "where": "Trainer Card screen (pause menu)", "confidence": "medium" },
+    { "stat": "Poké Radar chain length", "where": "Chain Counter Pokétch app (unlocked at Ramanas Park)", "confidence": "medium" },
+    { "stat": "Grand Underground Diglett/Dugtrio bonus counter (toward 40)", "where": "On-screen icon counter while digging in the Grand Underground", "confidence": "medium" },
+    { "stat": "Friendship/happiness level", "where": "Friendship Checker Pokétch app (heart display, not exact number)", "confidence": "medium" },
+    { "stat": "Steps walked", "where": "Pedometer Pokétch app", "confidence": "medium" },
+    { "stat": "Last 12 Pokémon obtained", "where": "Pokémon History Pokétch app", "confidence": "medium" },
+    { "stat": "Effort Values (EVs)", "where": "NOT shown directly; only indirectly inferable via the Effort Ribbon (awarded at 510 total EVs by a Sunyshore Market NPC)", "confidence": "medium" },
+    { "stat": "Secret Base statue count", "where": "Visible directly in the Secret Base (max 18 displayed)", "confidence": "medium" },
+    { "stat": "Underground Flags collected", "where": "Does not exist — mechanic removed in BDSP's Grand Underground (no flag-capture minigame)", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Brilliant Diamond's exclusive legendary is Dialga; Shining Pearl's is Palkia.", "confidence": "high" },
+    { "note": "Sinnoh Dex swaps: BD gets Murkrow/Honchkrow, Cranidos/Rampardos, Stunky/Skuntank; SP gets Misdreavus/Mismagius, Shieldon/Bastiodon, Glameow/Purugly.", "confidence": "medium" },
+    { "note": "Ramanas Park splits Gen I/II legendaries by version: BD gets Raikou/Entei/Suicune + Ho-Oh; SP gets Articuno/Zapdos/Moltres + Lugia. Both share Mewtwo, Regi trio, Latias/Latios, the weather trio (Kyogre/Groudon/Rayquaza), and a non-catchable Origin Forme Giratina appearance.", "confidence": "medium" },
+    { "note": "Trophy Garden's rotating rare-Pokémon roster (Mr. Backlot) is identical content between versions and depends on save-file time/date, not on BD vs SP — do not treat it as version-exclusive.", "confidence": "medium" },
+    { "note": "Shiny Charm behaves differently in BDSP than in other modern titles: it boosts breeding shiny odds only, and does NOT affect wild encounter or (per one source) Poké Radar odds — likely an unintended bug given the item's description text.", "confidence": "high" },
+    { "note": "The classic Underground flag-capture multiplayer minigame from original Diamond/Pearl/Platinum was removed entirely in BDSP's Grand Underground; Secret Bases are decoration-only (statues/pedestals).", "confidence": "medium" },
+    { "note": "GTS was replaced by the Global Wonder Station, which supports ONLY Wonder Trade (blind random trade), not GTS-style search trading, and requires Nintendo Switch Online. This feature reportedly was not available at the November 2021 launch and was added via a later patch (v1.3.0, dated March 2022).", "confidence": "medium" },
+    { "note": "No selectable difficulty mode exists in BDSP.", "confidence": "medium" },
+    { "note": "Could not confirm whether Eterna City's Dialga/Palkia statue differs by version in BDSP (original Gen IV games had version-specific statues); one AI-summarized source claims it is now unified/identical across versions, which conflicts with expectation and needs verification.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Web search tool was exhausted for this session (200/200 budget used almost immediately); all research after the first two queries relied on WebFetch against specific known wiki URLs, which sometimes returned AI-summarized answers rather than raw source text — several findings above are single-sourced and only medium/low confidence as a result. A follow-up pass with fresh search budget would substantially raise confidence on many entries.",
+    "Could not confirm whether the in-game Pokédex UI in BDSP specifically displays a completion percentage (vs. only seen/caught counts).",
+    "Could not confirm the exact numeric Poké Radar shiny-odds-by-chain-length table; two sources gave inconsistent figures (1/256 at chain ~30 vs 1/99 per patch at chain 40+).",
+    "Could not confirm current (2026) availability status of the Manaphy Egg event — it was originally a limited-time early-purchase bonus around the November 2021 launch and is likely long expired, but exact cutoff date not found.",
+    "Could not resolve whether the Lake Guardian trio (Uxie, Mesprit, Azelf) can be permanently missed or become harder to obtain based on player actions during the Team Galactic lake events in BDSP specifically.",
+    "Could not verify whether traditional HM items (Cut, Fly, Surf, Strength, Waterfall, Rock Climb, Rock Smash, Defog) are present in BDSP in their classic Gen IV form — treated as a low-confidence recollection only.",
+    "Could not verify the existence, or non-existence, of a Pokétch app called 'Vital Stats' — it did not appear in the Bulbapedia app list retrieved, suggesting it may not exist in BDSP, but this is an absence-of-evidence finding, not a confirmed negative.",
+    "Could not verify Union Room's exact feature set (trading vs battling vs both) or connectivity requirements beyond a general '8 players' claim from an unreliable summarized source.",
+    "Could not verify the exact version number/date for the Mystery Gift feature's addition via update, or reconcile it with the game's overall patch history.",
+    "Could not verify whether Eterna City's Dialga/Palkia statue is version-exclusive in BDSP as it reportedly was in the original Gen IV games — one source claims it was unified, contradicting general expectation for a 'faithful' remake.",
+    "Did not investigate: Amity Square (Pokémon walking feature) mechanics/trackables, Contest system to the extent it may exist in BDSP, Battle Tower / Battle Park facilities and any streak trackers, egg hatching step-count display specifics, Trainer ID / Secret ID trackables, or the Underground's 'Hideaway' Pokémon encounter completion tracking — these were out of scope for the time available but may be relevant to progression/RNG trophy design and should be covered if not already assigned to another scout."
+  ]
+}

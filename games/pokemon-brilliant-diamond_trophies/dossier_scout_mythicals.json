@@ -1,0 +1,130 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Brilliant Diamond",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "mythical-availability",
+      "name": "Manaphy",
+      "detail": "Obtained via a Manaphy Egg Mystery Gift (internet distribution), active November 19, 2021 – February 21, 2022. This was the only way to obtain Manaphy (and, by extension, Phione, which is bred from Manaphy) in BDSP. It was tied to the games' launch window as an early-purchase/loyalty style bonus, not a serial code.",
+      "trackable": "Once obtained, shows as caught in the National Pokédex (owned/caught flag). No in-game counter tracks 'mythicals obtained' separately.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Manaphy — current obtainability verdict",
+      "detail": "VERDICT: EXPIRED/LIKELY GONE. The distribution window closed February 21, 2022 and every event-tracking source consulted (Serebii's dedicated distribution tracker, which lists every past and current BDSP event) marks it 'Expired' with no listed re-run, permanent code, or QR-code alternative. No news of any re-distribution was found in a search covering years after the window closed. Absence of evidence is not proof it can never return, but there is no indication Nintendo has ever re-run a BDSP Mystery Gift distribution.",
+      "trackable": "N/A — verdict statement.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)", "Bing search summary — no re-distribution news found (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Shaymin",
+      "detail": "Obtained via the 'Oak's Letter' Mystery Gift item, active February 27 – March 27, 2022 (timed to Pokémon Day). The letter unlocks access to the Flower Paradise, reached via a white stone on Route 224, where Shaymin (Lv. 30) is encountered.",
+      "trackable": "Shows as caught in the National Pokédex once obtained.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)", "Serebii.net BDSP Legendary Pokémon page (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Shaymin — current obtainability verdict",
+      "detail": "VERDICT: EXPIRED/LIKELY GONE. Window closed March 27, 2022. Serebii's distribution tracker marks it 'Expired' with no re-run listed anywhere. No evidence found of any subsequent re-distribution as of today.",
+      "trackable": "N/A — verdict statement.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Darkrai",
+      "detail": "Obtained via the 'Member Card' Mystery Gift item, active April 1–30, 2022. The card grants access to New Moon Island, reached from the Canalave City inn (available after beating the Elite Four), where Darkrai (Lv. 50) is encountered.",
+      "trackable": "Shows as caught in the National Pokédex once obtained.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)", "Serebii.net BDSP Legendary Pokémon page (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Darkrai — current obtainability verdict",
+      "detail": "VERDICT: EXPIRED/LIKELY GONE. Window closed April 30, 2022. Serebii's distribution tracker marks it 'Expired' with no re-run listed. No evidence found of any subsequent re-distribution.",
+      "trackable": "N/A — verdict statement.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Serebii.net BDSP Internet Distributions page (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Mew — conflict resolved",
+      "detail": "RESOLVED: Both reported methods were actually describing the same mechanic, not competing alternatives. Mew is obtained in an in-game location (Floaroma Town) FROM an NPC (an old woman) WHO ONLY appears/gives the Pokémon if the game detects save data from Pokémon: Let's Go, Pikachu! or Let's Go, Eevee! on the same Nintendo Switch console (i.e., that game has been played/saved on the system, associated with a user profile). It is not a pure walk-up encounter, and it is not solely an external save-check with no in-game location — it is both at once. Mew is given at Level 1.",
+      "trackable": "Shows as caught in the National Pokédex once obtained.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: List of in-game event Pokémon in Pokémon Brilliant Diamond and Shining Pearl (fetched, quoted: 'An old woman gives the player a Mew if they have save data from Pokémon: Let's Go, Pikachu! or Let's Go, Eevee!')", "Bulbapedia: Mythical Pokémon article (fetched, corroborates Let's Go save-data requirement)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Mew — current obtainability verdict",
+      "detail": "VERDICT: EXTERNALLY GATED BUT OBTAINABLE. This is a save-data-detection mechanic, not a Mystery Gift or time-limited distribution — it has no announced expiration date. A player starting fresh today needs to own and have played (with save data present) Pokémon: Let's Go, Pikachu! or Let's Go, Eevee! on the same Switch console/profile as their BDSP save. Both Let's Go titles remain purchasable/downloadable on the Switch eShop as of this research, so this path remains open to any player willing to acquire and boot that second game. No source found indicates this detection has ever been disabled or is time-limited.",
+      "trackable": "N/A — verdict statement.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: List of in-game event Pokémon in BDSP (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Jirachi",
+      "detail": "Obtained in Floaroma Town from an NPC (an old man) who gives Jirachi (Level 5) only if the game detects save data from Pokémon Sword or Pokémon Shield on the same Nintendo Switch console. Same mechanic family as the Mew method (both NPCs are in Floaroma Town, gated on different linked games).",
+      "trackable": "Shows as caught in the National Pokédex once obtained.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: List of in-game event Pokémon in Pokémon Brilliant Diamond and Shining Pearl (fetched, quoted: 'An old man gives the player a Jirachi if they have save data from Pokémon Sword or Shield')"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Jirachi — current obtainability verdict",
+      "detail": "VERDICT: EXTERNALLY GATED BUT OBTAINABLE. Confirmed accurate: requires Sword/Shield save data on the same console, no time limit involved (it's a save-detection check, not an online distribution). Sword and Shield remain purchasable on the Switch eShop, so this route remains open to any player who acquires and saves progress in either title.",
+      "trackable": "N/A — verdict statement.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: List of in-game event Pokémon in BDSP (fetched)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Arceus",
+      "detail": "Added via the version 1.3.0 game update, but the update alone does NOT grant Arceus. The mechanic requires: (1) BDSP updated to v1.3.0 or later, AND (2) Pokémon Legends: Arceus save data detected on the same console with ALL missions in that game's story completed (one source specified this as all 27 missions, unverified against a second source). When conditions are met, an Azure Flute is delivered to the player's house in Twinleaf Town. The player must also have already caught Dialga or Palkia, entered the Hall of Fame, and obtained the National Pokédex in BDSP. Using the Azure Flute at Spear Pillar reshapes the map into a staircase leading to the Hall of Origin, where Arceus (Level 80) can be encountered.",
+      "trackable": "Shows as caught in the National Pokédex once obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Azure Flute article (fetched)", "Bulbapedia: Mythical Pokémon article (fetched, corroborates Legends: Arceus save-data + v1.3.0 requirement)"]
+    },
+    {
+      "category": "mythical-availability",
+      "name": "Arceus — current obtainability verdict",
+      "detail": "VERDICT: EXTERNALLY GATED BUT OBTAINABLE, NOT purely a patch-based unlock. Every current copy of BDSP will already be on v1.3.0+ (it's an old, presumably mandatory-by-now patch), so that part is a non-issue for a fresh start today. However, the gating factor a designer must not overlook is the Pokémon Legends: Arceus save-data requirement with full story completion — this is an external game requirement, not just 'have the patch.' No time limit is attached to this mechanic (it is not an online Mystery Gift); Legends: Arceus remains purchasable on the Switch eShop. This path should remain open indefinitely to a player willing to also complete Legends: Arceus.",
+      "trackable": "N/A — verdict statement.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Azure Flute article (fetched)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "National Pokédex caught/owned flags", "where": "Pokédex menu; each of the six Mythicals would show as caught once obtained, but there is no dedicated 'Mythicals obtained: X/6' counter anywhere in the game UI", "confidence": "medium" },
+    { "stat": "Sinnoh/National Dex completion percentage", "where": "Pokédex summary screen — confirmed by the earlier scout pass that none of these six Mythicals are required for National Dex or Shiny Charm completion, so this counter is not a reliable proxy for 'has player obtained the mythicals'", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "All six Mythicals are available identically on Brilliant Diamond and Shining Pearl — no version-exclusive differences were found between the two SKUs for any of these six.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not run new WebSearch queries after the session's search budget (200/200) was exhausted partway through this task; all findings after that point rely on WebFetch against specific known URLs (Serebii, Bulbapedia, one Bing results page), not fresh targeted searches. A follow-up with search capability restored could strengthen several of these findings, especially the 'no re-run' verdicts for Manaphy/Shaymin/Darkrai.",
+    "Could not find a single source that explicitly states 'as of August 2026, Nintendo has never re-distributed the BDSP Manaphy/Shaymin/Darkrai events' — this is inferred from Serebii's distribution tracker (which lists every known past/current BDSP event and shows only the original 2021-2022 windows) plus a search for recent news turning up nothing, not from a direct statement covering the full 2022-2026 span. Treat the 'EXPIRED/LIKELY GONE' verdicts as very probable but not airtight.",
+    "The 'all 27 missions' figure for the Pokémon Legends: Arceus completion requirement (Arceus/Azure Flute gate) came from a single AI-summarized fetch of one Bulbapedia section and was not cross-verified against a second independent source. The requirement itself (full Legends: Arceus story completion + v1.3.0+) is corroborated by two sources, but the exact mission count is not.",
+    "Could not confirm from a primary/official Nintendo or Pokémon.com source whether the Let's Go/Sword-Shield/Legends-Arceus save-data detection methods (Mew, Jirachi, Arceus) have any hidden expiration, region lock, or account-linking caveat (e.g., whether it must be the exact same Nintendo Account/user profile, or just the same physical console with any profile). Only wiki-level detail was available.",
+    "Did not verify whether Manaphy, Shaymin, or Darkrai can still be obtained via trade/transfer from Pokémon HOME or another already-caught save file if a player never claimed them during the original windows but knows someone else who did — this task focused on 'obtainable by a player starting fresh today' via the game's own distribution/event systems, not via trading with other players, which is technically always a loophole for any Pokémon and wasn't in scope.",
+    "Could not access serebii.net's individual per-Pokémon Pokédex pages (URLs returned 404 for the guessed patterns), so some detail confirmation relied on Bulbapedia and Bing-summarized results rather than Serebii's own species pages."
+  ]
+}

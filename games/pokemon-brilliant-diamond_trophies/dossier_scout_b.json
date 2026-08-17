@@ -1,0 +1,288 @@
+{
+  "beat": "side content",
+  "game": "Pokémon Brilliant Diamond",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Sinnoh Regional Pokédex",
+      "detail": "Contains 151 Pokédex numbers, matching the original Diamond/Pearl (not the expanded Platinum dex). Manaphy is dex entry #151 but is not obtainable through normal gameplay and is NOT required for regional dex completion — 150 catches/sightings effectively complete it.",
+      "trackable": "Pokédex menu shows caught/seen counts per entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Sinnoh Pokédex, via WebFetch summary)"]
+    },
+    {
+      "category": "pokedex",
+      "name": "National Pokédex",
+      "detail": "Unlocked at Eterna City by seeing every Pokémon in the Sinnoh Pokédex (excluding Manaphy) and speaking to Professor Rowan/Oak. Covers all 493 Pokémon from Generations 1-4 (no Gen 5+ species obtainable).",
+      "trackable": "Pokédex menu switches to National mode; tracks caught/seen per species.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (National Pokédex page, via WebFetch)"]
+    },
+    {
+      "category": "reward",
+      "name": "Shiny Charm",
+      "detail": "Awarded by 'the game director' at Valor Lakefront after CATCHING (not just seeing) every Pokémon in the National Pokédex, excluding Mythical Pokémon (Mew, Jirachi, Manaphy, Darkrai, Shaymin, Arceus, Phione, etc.).",
+      "trackable": "Item obtained; no separate percentage meter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (Shiny Charm page, via WebFetch)"]
+    },
+    {
+      "category": "system",
+      "name": "Pokédex completion percentage display",
+      "detail": "Could not confirm whether the game shows an explicit numeric/percentage completion tracker for the Pokédex anywhere in the UI (only caught/seen counts per species were confirmed).",
+      "trackable": "Unconfirmed — likely just raw counts, not a % display.",
+      "missable": false,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "area",
+      "name": "Grand Underground",
+      "detail": "Expanded version of the Underground from the original Diamond/Pearl. Composed of digging areas plus 16 distinct 'Pokémon Hideaway' rooms across six zones (including named caverns like Big Bluff Cavern and Stargleam Cavern, plus smaller thematic caves such as Volcanic Cave and Icy Cave). Wild Pokémon pools in hideaways expand as the player progresses (badges, TMs obtained, National Dex acquired). Non-Sinnoh fossils only appear in digging spots after defeating Dialga/Palkia.",
+      "trackable": "Not explicitly confirmed if game tracks hideaways visited or digging spots found as a stat.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Grand Underground, via WebFetch)"]
+    },
+    {
+      "category": "feature",
+      "name": "Secret Base (Grand Underground)",
+      "detail": "Player can build exactly ONE Secret Base using a Digger Drill purchased underground. Decoration is limited to statues and pedestals only (no furniture/flags like Gen III/VI); the old 'flag stealing' minigame is removed. Base size can be expanded via sphere merchants. Bases can be shared with other players over the internet.",
+      "trackable": "Statue placement visible in-base; max 18 statues displayable simultaneously.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Grand Underground, via WebFetch)"]
+    },
+    {
+      "category": "feature",
+      "name": "Digging for treasure / Stone Boxes / Statues",
+      "detail": "Digging minigame yields items, Plates (duplicates possible, unlike originals), and Stone Boxes. Stone (Pretty) Boxes yield Standard Statues; Gorgeous Boxes yield Color Statues. Placing type-matching statues in the Secret Base increases the odds of that type appearing in nearby Hideaways.",
+      "trackable": "Not confirmed if there's a lifetime dig count or items-found tracker.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Grand Underground, via WebFetch)"]
+    },
+    {
+      "category": "currency/system",
+      "name": "Sphere Exchange System",
+      "detail": "Spheres (found underground) replace previous Underground currency. Three merchant types: small-sphere merchants (Digger Drills, small pedestals), large-sphere merchants (large pedestals), and item merchants (trade treasures for spheres/base expansions). TM stock rotates daily based on sphere color/quantity.",
+      "trackable": "Sphere count likely shown in underground menu (unconfirmed exact UI).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (Grand Underground, via WebFetch)"]
+    },
+    {
+      "category": "area",
+      "name": "Ramanas Park",
+      "detail": "Replaces Pal Park from the original games. Unlocked after obtaining the National Pokédex AND entering the Hall of Fame (post-game). Players trade Mysterious Shards (Small/Large, found underground) for Slates at the park shop, then insert a Slate into a pedestal in a themed room to spawn a Legendary Pokémon (Lv. 70) in a Pure Space or Strange Space. Catching one causes a permanent statue to appear and the slate 'sticks' (no more encounters for that Legendary from that slate, but slates are repurchasable with more shards, so nothing is permanently missable).",
+      "trackable": "Statues placed in each room serve as a visual completion tracker.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (Ramanas Park, via WebFetch)"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "Ramanas Park version-exclusive rooms",
+      "detail": "BRILLIANT DIAMOND EXCLUSIVE: Johto Room (Raikou, Entei, Suicune, Lv.70) and Rainbow Room (Ho-Oh, Lv.70). Shining Pearl instead gets the Kanto Room (Articuno, Zapdos, Moltres) and Squall Room (Lugia). Rooms shared by both versions: Discovery Room (Regirock/Regice/Registeel), Genome Room (Mewtwo), Soul Room (Latias/Latios), Oceanic Room (Kyogre), Tectonic Room (Groudon), Stratospheric Room (Rayquaza), Distortion Room (Giratina, Origin Forme, uncatchable).",
+      "trackable": "Statues per room.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (Ramanas Park, via WebFetch)"]
+    },
+    {
+      "category": "boss/legendary",
+      "name": "Giratina — Distortion Room (Ramanas Park)",
+      "detail": "In the Distortion Room, Giratina appears in a shadow-based Origin Forme that CANNOT be caught (battle only). Defeating it flips the room upside-down (visual Distortion World effect) and awards the Griseous Orb held item.",
+      "trackable": "Distortion Room clear flag / Griseous Orb obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Distortion World / Ramanas Park, via WebFetch)"]
+    },
+    {
+      "category": "boss/legendary",
+      "name": "Giratina — Turnback Cave (main story/post-Hall of Fame)",
+      "detail": "The catchable Giratina (Altered Forme, Lv.70, Ghost/Dragon, ability Pressure, moves include Shadow Force/Pain Split/Aura Sphere/Dragon Claw) is found at Turnback Cave, reached via Sendoff Spring. Access requires having already entered the Hall of Fame (i.e., this is technically post-champion content, not pre-champion). Not missable — if defeated/fled, it respawns after re-entering the Hall of Fame.",
+      "trackable": "Pokédex catch flag.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Turnback Cave, via WebFetch)"]
+    },
+    {
+      "category": "note",
+      "name": "No true Distortion World / Turnback Cave puzzle depth",
+      "detail": "Unlike Pokémon Platinum, BDSP (being a Diamond/Pearl remake) does not include the full navigable Distortion World storyline; the Ramanas Park 'Distortion Room' is a smaller post-game substitute/reference rather than a full area.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Distortion World, via WebFetch)"]
+    },
+    {
+      "category": "minigame",
+      "name": "Super Contest Shows",
+      "detail": "Return of Pokémon Contests (last seen in Platinum), rebranded 'Super Contest Shows.' Five main categories: Coolness, Beauty, Cuteness, Cleverness, Toughness. A sixth 'Brilliant/Shining Contest' category unlocks after entering the Hall of Fame. Four ranks: Normal, Great, Ultra, Master. Modernized with online play support and Ball Capsules/Stickers system (replacing old contest categories mechanics).",
+      "trackable": "Contest Hall lobby has a wall displaying pictures of winning Pokémon by category; Hall Points accumulate to raise 'Hall Rank,' which visually upgrades the contest stage.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (Super Contest Show, via WebFetch)"]
+    },
+    {
+      "category": "reward",
+      "name": "Contest Ribbons",
+      "detail": "First-time Master Rank win in a given main category awards a unique Ribbon (not just a Sticker) for that Pokémon. Winning all five main contest categories at Master Rank grants the Contest Star Ribbon. Winning the Brilliant/Shining Contest at Master Rank for the first time grants the Twinkling Star Ribbon.",
+      "trackable": "Ribbons viewable on a Pokémon's individual summary screen (Ribbon page). Could not confirm existence/details of a separate 'Ribbon Case' menu specific to BDSP.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Super Contest Show; Ribbon, via WebFetch)"]
+    },
+    {
+      "category": "minigame/area",
+      "name": "Amity Square",
+      "detail": "Returns from Diamond/Pearl/Platinum. Now supports up to SIX Pokémon walking simultaneously (select one; other eligible team members also tag along), versus one in the original games. Players can tilt/zoom camera for photos, make Poffins inside the square, and collect scattered items (TMs, Amulet Coin, berries, stickers, Poké Balls). Following Pokémon give berries/items roughly every 400 steps taken with them. 28 eligible species confirmed, including Pikachu, Eevee and evolutions, the three Sinnoh starter lines, Pachirisu, Buneary, and Happiny (exact full list of 28 not fully enumerated in source).",
+      "trackable": "Not confirmed whether there's an explicit item-collection tracker inside Amity Square.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii / community source (via WebFetch), unable to verify with second source"]
+    },
+    {
+      "category": "post-game",
+      "name": "Battle Park / Battle Tower",
+      "detail": "Post-game facility in the 'Battle Zone,' accessed after entering the Hall of Fame. Streak-based: player climbs floors battling Trainers one after another; must win 7 straight to clear a streak, no penalty for losing besides breaking the streak. Rewards Battle Points (BP) instead of prize money, redeemable at a nearby shop for items.",
+      "trackable": "Battle Points balance is a persistent trackable currency; could not confirm an explicit lifetime win-streak record display in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Battle Tower, via WebFetch)"]
+    },
+    {
+      "category": "post-game",
+      "name": "Battle Zone additional content",
+      "detail": "Post-Hall of Fame 'Battle Zone' also includes: daily Gym Leader rematches with stronger teams, weekend battles against Lucas/Dawn (the player's rival) at Professor Rowan's lab, and notable Trainers at the Battle Tower including a rematchable Cynthia and Team Galactic members.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["WebFetch summary of Bulbapedia BDSP overview page — could not independently verify Cynthia rematch details (source page for that specific fetch 404'd)"]
+    },
+    {
+      "category": "system",
+      "name": "Move Reminder / Heart Scales",
+      "detail": "A Move Reminder NPC lets Pokémon relearn previously known level-up moves in exchange for a Heart Scale. Could NOT confirm whether BDSP includes true 'Move Tutors' (teaching moves outside the Pokémon's normal learnset, as Platinum had) — source page did not return BDSP-specific tutor details.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (BDSP overview, via WebFetch) — Move Tutor page fetch returned no BDSP-specific section"]
+    },
+    {
+      "category": "system",
+      "name": "Pokétch Apps",
+      "detail": "21 total Pokétch apps confirmed: Digital Watch, Calculator, Memo Pad, Pedometer, Pokémon List, Friendship Checker, Dowsing Machine, Egg Monitor, Pokémon History, Counter, Analog Watch, Marking Map, Coin Toss, Calendar, Dot Artist, Spinner, Chain Counter, Kitchen Timer, Color Changer, Matchup Checker, and Hidden Moves. The Hidden Moves app replaces HMs entirely — summons a wild-Pokémon helper (Bidoof for Rock Smash/Cut, Staraptor for Fly/Defog, Bibarel for Strength/Rock Climb/Surf/Waterfall) to perform field moves without needing them on the player's own Pokémon.",
+      "trackable": "Apps unlocked list visible in Pokétch menu itself.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Pokétch, via WebFetch)"]
+    },
+    {
+      "category": "dlc",
+      "name": "Paid DLC",
+      "detail": "No paid downloadable content/expansion exists for Pokémon Brilliant Diamond and Shining Pearl (unlike Sword/Shield's Isle of Armor/Crown Tundra). All post-launch content was free updates and time-limited Mystery Gift distributions.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["General knowledge confirmed by absence of any DLC references across all fetched sources"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Manaphy Egg distribution",
+      "detail": "Manaphy (and by extension Phione, bred from it) was obtainable ONLY via a time-limited Mystery Gift internet distribution (Manaphy Egg), active November 19, 2021 – February 21, 2022. This distribution has ENDED and is not confirmed to be available in 2026. Manaphy is NOT required for National Dex completion or the Shiny Charm.",
+      "trackable": null,
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Serebii (Internet Events page, via WebFetch)"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Shaymin — Oak's Letter / Flower Paradise",
+      "detail": "Shaymin obtained via the time-limited 'Oak's Letter' Mystery Gift item (active Feb 27 – Mar 27, 2022), which granted access to Flower Paradise. This distribution has ENDED; current availability in 2026 is unconfirmed (likely unavailable via normal Mystery Gift download, though it's possible Nintendo re-ran it — unverified).",
+      "trackable": null,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Serebii (Internet Events page, via WebFetch)"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Darkrai — Member Card / New Moon Island",
+      "detail": "Darkrai obtained via the time-limited 'Member Card' Mystery Gift item (active April 1–30, 2022), granting access to a building in Canalave City leading to New Moon Island. This distribution has ENDED; current 2026 availability unconfirmed.",
+      "trackable": null,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Serebii (Internet Events page, via WebFetch)"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Mew",
+      "detail": "CONFLICTING INFORMATION FOUND: One source states Mew is obtained via an in-game Floaroma Town event (unverified, possibly inaccurate/hallucinated by summarizer). A second, more consistent source (Bulbapedia Mythical Pokémon overview) states Mew is obtained by having save data from Pokémon Let's Go, Pikachu!/Let's Go, Eevee! detected on the same Switch. Treat with caution — needs a third source to resolve.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (Mythical Pokémon overview, via WebFetch); contradicted by an earlier WebFetch of the Bulbapedia BDSP overview page"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Jirachi",
+      "detail": "Obtained by having save data from Pokémon Sword and/or Shield detected on the same Nintendo Switch.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Mythical Pokémon overview, via WebFetch)"]
+    },
+    {
+      "category": "event/mythical",
+      "name": "Arceus / Azure Flute / Hall of Origin",
+      "detail": "Arceus obtainable via a 'Hall of Origin' event added in the version 1.3.0 update, letting the player use the Azure Flute at Spear Pillar (the item/event was originally planned but never distributed in the original Gen IV games). Availability appears tied to detecting completed Pokémon Legends: Arceus save data and/or the free 1.3.0 patch — exact trigger condition NOT fully confirmed/resolved between sources.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (Arceus page; Mythical Pokémon overview, via WebFetch) — sources partially disagree on exact trigger"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "General version-exclusive framing (Brilliant Diamond)",
+      "detail": "Brilliant Diamond's version-exclusive legendary is Dialga (Adamant Orb). Beyond the Ramanas Park Johto/Rainbow rooms (see above), standard Gen 4 version-exclusive Pokémon lines apply (e.g., Brilliant Diamond gets Pokémon like Snubbull/Granbull, Skorupi/Drapion, Chatot, etc., while Shining Pearl gets counterparts like Shroomish/Breloom, Gligar/Gliscor, Wingull/Pelipper) — exact full exclusive list NOT independently re-verified this session; treat as recalled/low confidence pending confirmation.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Recalled from training knowledge, not confirmed via search this session"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex caught/seen counts (Sinnoh and National modes)", "where": "Pokédex menu", "confidence": "high" },
+    { "stat": "Ribbons per Pokémon", "where": "Individual Pokémon summary screen, Ribbon page", "confidence": "medium" },
+    { "stat": "Battle Points (Battle Tower currency)", "where": "Battle Park menu/shop", "confidence": "medium" },
+    { "stat": "Hall Points / Hall Rank (Contest Hall upgrade tier)", "where": "Contest Hall", "confidence": "medium" },
+    { "stat": "Contest wall of winning Pokémon by category", "where": "Contest Hall lobby wall display", "confidence": "medium" },
+    { "stat": "Ramanas Park statues per room (visual Legendary-catch tracker)", "where": "Ramanas Park rooms", "confidence": "high" },
+    { "stat": "Secret Base statue count (max 18 displayed)", "where": "Player's Secret Base, Grand Underground", "confidence": "medium" },
+    { "stat": "Pokédex completion percentage number", "where": "Unconfirmed — could not verify this exists as a distinct % display anywhere", "confidence": "low" },
+    { "stat": "Lifetime win streak record at Battle Tower", "where": "Unconfirmed — could not verify an explicit persistent streak record display", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Brilliant Diamond exclusive: Ramanas Park's Johto Room (Raikou, Entei, Suicune) and Rainbow Room (Ho-Oh). Shining Pearl instead has the Kanto Room (Articuno, Zapdos, Moltres) and Squall Room (Lugia). All other Ramanas Park rooms (Discovery, Genome, Soul, Oceanic, Tectonic, Stratospheric, Distortion) are shared by both versions.", "confidence": "high" },
+    { "note": "Brilliant Diamond's version-exclusive legend is Dialga; Shining Pearl's is Palkia. Standard Gen 4 version-exclusive wild Pokémon splits apply, requiring trading (or GTS/online) for a single-cartridge National Dex completion. Exact per-species exclusive list not re-verified this session.", "confidence": "low" },
+    { "note": "No paid DLC/expansion pass exists for BDSP, unlike Sword/Shield.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm whether the game displays an explicit Pokédex completion PERCENTAGE anywhere, versus just raw caught/seen counts per species.",
+    "Could not confirm the exact number of digging spots, lifetime Underground stat tracking (e.g., total digs, total treasures found), or whether the game surfaces any of this as a checkable stat.",
+    "Could not confirm whether BDSP has true 'Move Tutors' (teaching moves outside a Pokémon's normal learnset) in addition to the Move Reminder (Heart Scale relearner) — the relevant wiki fetch did not return BDSP-specific content.",
+    "Could not independently verify Cynthia's rematch location/conditions/team — the direct source page 404'd; only summarized via a secondary overview.",
+    "Could not resolve a contradiction on how Mew is obtained: one source says an in-game Floaroma Town event, another (more likely correct) says it requires Pokémon Let's Go Pikachu/Eevee save data detection. Needs a third source to confirm.",
+    "Could not fully confirm the exact trigger/requirement for the Arceus 'Hall of Origin' / Azure Flute event added in v1.3.0 (whether it needs Legends: Arceus save data, a specific Mystery Gift, or just the patch).",
+    "Could not confirm current (2026) availability status of the Shaymin (Oak's Letter) and Darkrai (Member Card) Mystery Gift distributions — they were time-limited in early 2022 and may or may not have been re-run since.",
+    "Could not obtain the full 28-species list for Amity Square (only partial list confirmed: Pikachu, Eevee + evolutions, starter lines, Pachirisu, Buneary, Happiny).",
+    "Could not confirm the exact full list of Brilliant Diamond version-exclusive wild Pokémon beyond the Ramanas Park rooms and the Dialga/Palkia legendary split — this was recalled from training knowledge only and needs verification.",
+    "Could not confirm whether the game has a dedicated 'Ribbon Case' menu (separate from per-Pokémon summary ribbon pages) as seen in some other Pokémon titles.",
+    "Web search tool was unavailable for most of this research session (session budget exhausted); all findings past the first two queries rely solely on WebFetch of wiki pages, several of which 404'd or returned partial/summarized content rather than full raw text — recommend a follow-up pass with WebSearch available to cross-check the medium/low confidence items above."
+  ]
+}

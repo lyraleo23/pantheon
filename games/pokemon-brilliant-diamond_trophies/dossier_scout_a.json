@@ -1,0 +1,265 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Brilliant Diamond",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "gym_leader",
+      "name": "Roark",
+      "detail": "1st Gym, Oreburgh City, Rock-type.",
+      "trackable": "Badge Case (menu) shows all badges earned; Trainer Card also displays badge count.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Gardenia",
+      "detail": "2nd Gym, Eterna City, Grass-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Maylene",
+      "detail": "3rd Gym, Veilstone City, Fighting-type. (Note: in Platinum the 3rd Gym is Fantina instead — Diamond/BD keeps the original DP order.)",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Crasher Wake",
+      "detail": "4th Gym, Pastoria City, Water-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Fantina",
+      "detail": "5th Gym, Hearthome City, Ghost-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Byron",
+      "detail": "6th Gym, Canalave City, Steel-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Candice",
+      "detail": "7th Gym, Snowpoint City, Ice-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Volkner",
+      "detail": "8th and final Gym, Sunyshore City, Electric-type.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Gym Leader"]
+    },
+    {
+      "category": "elite_four",
+      "name": "Aaron",
+      "detail": "1st Elite Four member, Bug-type specialist.",
+      "trackable": "No dedicated Elite Four counter found; progress is implicit via Hall of Fame entry.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Elite Four"]
+    },
+    {
+      "category": "elite_four",
+      "name": "Bertha",
+      "detail": "2nd Elite Four member, Ground-type specialist.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Elite Four"]
+    },
+    {
+      "category": "elite_four",
+      "name": "Flint",
+      "detail": "3rd Elite Four member, Fire-type specialist.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Elite Four"]
+    },
+    {
+      "category": "elite_four",
+      "name": "Lucian",
+      "detail": "4th Elite Four member, Psychic-type specialist.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Elite Four"]
+    },
+    {
+      "category": "champion",
+      "name": "Cynthia",
+      "detail": "Champion of the Sinnoh League. Team is not mono-typed — deliberately diverse (no two Pokémon share a type), signature Pokémon is Garchomp. First female non-playable Champion in the core series.",
+      "trackable": "Hall of Fame registration after defeating her; Elite Four/Champion can be rechallenged afterward, with her team's levels increasing (up to level 77-79) after the player completes the Stark Mountain postgame story event.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Cynthia", "Bulbapedia - Pokémon League (Sinnoh)"]
+    },
+    {
+      "category": "antagonist",
+      "name": "Cyrus",
+      "detail": "Leader of Team Galactic. Fought mandatorily twice: (1) at Team Galactic HQ in Veilstone City after infiltrating it — on defeat he gives the player a Master Ball and allows the lake guardians to be freed; (2) at Spear Pillar after he summons Dialga (BD) with the Red Chain — the lake trio arrives and destroys the chain before/during this fight, freeing Dialga. Cyrus is defeated, rages, retreats/vanishes (in the original DP lore he disappears through a rift; the full 'Distortion World' portal sequence is a Platinum-exclusive expansion).",
+      "trackable": "Story-flag only; no dedicated boss-kill counter observed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Cyrus", "Bulbapedia - Team Galactic", "Bulbapedia - Spear Pillar"]
+    },
+    {
+      "category": "antagonist",
+      "name": "Commander Mars",
+      "detail": "Mandatory battles: (1) Valley Windworks (Route 205 area), (2) Lake Verity, (3) Spear Pillar — fought as a 2v2 Multi Battle alongside Commander Jupiter (player + rival Barry vs. Mars + Jupiter), stalling the player while Cyrus summons Dialga.",
+      "trackable": "None found beyond story progression.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Mars"]
+    },
+    {
+      "category": "antagonist",
+      "name": "Commander Jupiter",
+      "detail": "Mandatory battles: (1) Team Galactic Eterna Building (top floor), (2) Spear Pillar — 2v2 Multi Battle with Mars against player + Barry.",
+      "trackable": "None found beyond story progression.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Jupiter"]
+    },
+    {
+      "category": "antagonist",
+      "name": "Commander Saturn",
+      "detail": "Mandatory battles: (1) Lake Valor (inside Azelf's cave), (2) Team Galactic HQ in Veilstone (overseeing the imprisoned lake guardians / Red Chain creation). Unlike Mars and Jupiter, no source confirms a Saturn appearance at Spear Pillar itself.",
+      "trackable": "None found beyond story progression.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Saturn"]
+    },
+    {
+      "category": "story_element",
+      "name": "Lake guardians (Uxie, Mesprit, Azelf)",
+      "detail": "Uxie = Lake Acuity, Mesprit = Lake Verity, Azelf = Lake Valor. Each is captured by Team Galactic early on (mandatory story beats at each lake), then freed as part of the mandatory Spear Pillar climax where they destroy the Red Chain. Catching the trio afterward is OPTIONAL, not required for story progress: Uxie and Azelf can be caught in their lake caverns, while Mesprit becomes a roaming encounter that flees the region until engaged/caught (missable in the sense that it roams and can be difficult to pin down, though it does not permanently vanish).",
+      "trackable": "Pokédex 'caught' entries for each.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Lake guardians"]
+    },
+    {
+      "category": "legendary_boss",
+      "name": "Dialga",
+      "detail": "VERSION EXCLUSIVE TO BRILLIANT DIAMOND (Pearl/Shining Pearl instead summons Palkia). Summoned by Cyrus at Spear Pillar via the Red Chain; after Cyrus's defeat and the chain's destruction by the lake trio, the player has the opportunity to battle and catch Dialga at level 47 (per general DP/BDSP legendary encounter conventions — exact level not independently confirmed this session) directly at Spear Pillar as part of/immediately following the story climax.",
+      "trackable": "Pokédex entry; also whether it's in the party/box.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Spear Pillar", "Bulbapedia - Pokémon Brilliant Diamond and Shining Pearl"]
+    },
+    {
+      "category": "story_milestone",
+      "name": "Team Galactic HQ infiltration / Cyrus first battle",
+      "detail": "Located in Veilstone City. Player infiltrates using a Galactic Key card, confronts Saturn, then Cyrus, who afterward hands over a Master Ball and permits release of the lake guardians.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Cyrus"]
+    },
+    {
+      "category": "story_milestone",
+      "name": "Spear Pillar climax",
+      "detail": "Final Team Galactic confrontation atop Mt. Coronet. Sequence: player fights through Grunts, then a 2v2 Multi Battle vs. Mars+Jupiter (with rival Barry as partner), then Cyrus summons Dialga/Palkia with the Red Chain, the lake guardian trio arrives and destroys the chain, Cyrus battles the player one final time and is defeated, then retreats/vanishes. Player can then catch the freed legendary.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Spear Pillar", "Bulbapedia - Team Galactic", "Bulbapedia - Cyrus"]
+    },
+    {
+      "category": "story_milestone",
+      "name": "Sinnoh League Champion victory / Hall of Fame",
+      "detail": "Defeating Elite Four (Aaron, Bertha, Flint, Lucian in that order) then Champion Cynthia registers the player in the Hall of Fame, the primary 'ending' trigger of the main campaign.",
+      "trackable": "Hall of Fame entry; save file / trainer card presumably marks Champion status (not independently confirmed this session).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Pokémon League (Sinnoh)"]
+    },
+    {
+      "category": "postgame",
+      "name": "Stark Mountain / Heatran (Buck questline)",
+      "detail": "Postgame-only location, accessible after Hall of Fame. Rival Barry appears at the entrance; NPC Buck accompanies the player through the cavern to retrieve the Magma Stone, after which Heatran (level 70) becomes catchable in its chamber after talking to Buck's grandfather in the Survival Area. IMPORTANT VERSION NOTE: unlike Pokémon Platinum, this sequence in Diamond/Pearl and Brilliant Diamond/Shining Pearl does NOT involve Team Galactic or the character Charon — that subplot (Charon leading remnants of Team Galactic, Looker arresting him at Stark Mountain) is Platinum-exclusive and does not exist in Brilliant Diamond.",
+      "trackable": "Pokédex entry for Heatran; completing this event is reported (single source, unverified independently) to be the trigger that raises the Elite Four/Champion's rematch levels.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Stark Mountain"]
+    },
+    {
+      "category": "postgame",
+      "name": "Turnback Cave / Giratina",
+      "detail": "Located north-central Sendoff Spring; accessible only after entering the Hall of Fame. A maze with a fixed entrance room and fixed Giratina room; the rooms in between are randomized each visit. Giratina (Altered Forme) appears at level 70; if defeated or fled, it respawns on next Hall-of-Fame-postgame visit. NOTE: This is a simple single-room legendary encounter, NOT the multi-area 'Distortion World' dungeon featured in Pokémon Platinum's mid-story — Brilliant Diamond does not have the Distortion World as a location; Giratina is Turnback-Cave-only.",
+      "trackable": "Pokédex entry.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia - Turnback Cave"]
+    },
+    {
+      "category": "postgame",
+      "name": "Elite Four / Cynthia rematch",
+      "detail": "Elite Four and Champion can be rechallenged after Hall of Fame entry; their Pokémon levels increase once the player completes the Stark Mountain story content (Cynthia's team reported to reach level 77-79 post-Stark-Mountain vs. lower levels beforehand). No evidence found of a separate roaming/route rematch with Cynthia outside the League itself (as exists with some other postgame champions in other Pokémon titles).",
+      "trackable": "Implicit via being able to re-enter the League and refight the same trainers.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia - Pokémon League (Sinnoh)"]
+    },
+    {
+      "category": "npc_subplot",
+      "name": "Looker (International Police investigator)",
+      "detail": "Appears repeatedly during the Team Galactic campaign arc (Jubilife City, Valley Windworks, Eterna Building, Galactic Warehouse, Team Galactic HQ) helping the player. In Platinum his postgame arc culminates in arresting Charon at Stark Mountain, but since Charon does not appear as a character in Brilliant Diamond/Shining Pearl (replaced by a generic Team Galactic Grunt, with Charon only referenced via notebook flavor text in Rotom's Room), it is UNCONFIRMED whether/how Looker's postgame arc concludes in Brilliant Diamond specifically.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia - Looker", "Bulbapedia - Charon"]
+    },
+    {
+      "category": "ending",
+      "name": "Single ending, no branching",
+      "detail": "No evidence found of multiple endings or narrative branches in Brilliant Diamond; the Hall of Fame registration after beating Cynthia functions as the game's 'ending' beat, consistent with mainline Pokémon campaign structure. Could not find an explicit description of end-credits content or post-credits epilogue text this session.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["General genre knowledge / inference — not independently sourced this session"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Badges earned (0-8)", "where": "Badge Case menu item and Trainer Card", "confidence": "high" },
+    { "stat": "Pokédex caught/seen counts (including legendary catch flags for lake trio, Dialga, Heatran, Giratina)", "where": "Pokédex menu", "confidence": "high" },
+    { "stat": "Hall of Fame entry (Champion status)", "where": "Triggered on defeating Cynthia; exact UI display not independently confirmed", "confidence": "low" },
+    { "stat": "Elite Four/Champion rematch team level scaling tied to Stark Mountain completion", "where": "Not a visible player-facing counter — an internal story flag", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Dialga is exclusive to Brilliant Diamond as the Spear Pillar legendary; Shining Pearl gets Palkia instead. This mirrors the original Diamond/Pearl split.", "confidence": "high" },
+    { "note": "Brilliant Diamond/Shining Pearl follow the original Diamond/Pearl gym order (Maylene 3rd, Fantina 5th), NOT Pokémon Platinum's reordered sequence (which swaps Fantina to 3rd).", "confidence": "high" },
+    { "note": "The Distortion World as a multi-room dungeon (mid-story Giratina confrontation with Cynthia) is Platinum-exclusive and does not exist in Brilliant Diamond; BD's only Giratina encounter is the postgame Turnback Cave single-room fight.", "confidence": "high" },
+    { "note": "Charon does not appear as a character in Brilliant Diamond (replaced with a generic Grunt sprite; only referenced via notebook text), unlike Platinum where he becomes a significant post-Cyrus antagonist confronted by Looker at Stark Mountain. This subplot is effectively absent in BD.", "confidence": "medium" },
+    { "note": "Stark Mountain in Brilliant Diamond (as in the original Diamond/Pearl) is a pure Heatran-catching sidequest with Buck — it does NOT include the Team Galactic/Charon confrontation that Platinum added.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm the exact level at which Dialga is encountered/caught at Spear Pillar in Brilliant Diamond specifically (recalled as level 47 by convention but not verified this session — mark low).",
+    "Could not confirm whether the game displays any on-screen 'times entered Hall of Fame' or Champion-defeated counter.",
+    "Could not confirm exact ending/credits sequence content or whether any epilogue dialogue/cutscene plays after the first Hall of Fame entry beyond the generic sequence.",
+    "Could not confirm how (or whether) Looker's investigation subplot resolves in Brilliant Diamond given Charon's absence as a character — this needs a dedicated walkthrough source, not just wiki character pages.",
+    "Could not independently confirm whether Saturn is fought a third time at Galactic Veilstone Building/HQ warehouse as mandatory vs. optional flavor content.",
+    "Serebii.net walkthrough page could not be reached (404) to cross-verify the Bulbapedia-derived battle order; all campaign structure facts here rely on Bulbapedia alone (via WebFetch summarization, not raw article review), so treat medium-confidence items as needing a second-source check.",
+    "Did not verify whether Ramanas Park (BDSP's legendary-encounter facility) intersects with any campaign-required content or is purely optional/postgame side content (likely the latter, and likely covered by the side-content scout)."
+  ]
+}

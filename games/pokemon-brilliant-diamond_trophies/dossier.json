@@ -1,0 +1,132 @@
+{
+  "game": "Pokémon Brilliant Diamond",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "developer": "ILCA (with Game Freak supervision)",
+  "publisher": "The Pokémon Company / Nintendo",
+  "releaseDate": "2021-11-19",
+  "researchDate": "2026-08-17",
+  "researchQualityNote": "All three scouts hit the same friction as prior games this session: shared WebSearch budget exhausted almost immediately, forcing reliance on WebFetch against Bulbapedia (AI-summarized, occasionally internally inconsistent), with Serebii and other sites frequently 404ing. Confidence is generally medium rather than high even on corroborated facts.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Switch has no system-level achievement/trophy system. Brilliant Diamond has never released on any other platform.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "dlcStatus": "CONFIRMED (two independent scouts): no paid DLC or expansion pass exists for Brilliant Diamond/Shining Pearl. All post-launch content was free patches and time-limited Mystery Gift distributions. No `dlc` block needed.",
+  "premise": "A faithful remake of the 2006/2007 Pokémon Diamond, set in the Sinnoh region. The player battles through 8 Gyms and the Elite Four/Champion Cynthia while Team Galactic, led by Cyrus, pursues a plan to capture the lake guardian trio (Uxie, Mesprit, Azelf) and use the Red Chain to summon and control the version-exclusive legendary Dialga at Spear Pillar.",
+  "campaignStructure": {
+    "gymLeaders": ["Roark (Rock, Oreburgh City)", "Gardenia (Grass, Eterna City)", "Maylene (Fighting, Veilstone City)", "Crasher Wake (Water, Pastoria City)", "Fantina (Ghost, Hearthome City)", "Byron (Steel, Canalave City)", "Candice (Ice, Snowpoint City)", "Volkner (Electric, Sunyshore City)"],
+    "gymOrderNote": "This is the ORIGINAL Diamond/Pearl order (Maylene 3rd, Fantina 5th) — NOT Pokémon Platinum's reordered sequence (which swaps Fantina to 3rd). High confidence.",
+    "eliteFour": ["Aaron (Bug)", "Bertha (Ground)", "Flint (Fire)", "Lucian (Psychic)"],
+    "champion": "Cynthia — type-diverse team (no two Pokémon share a type), signature Garchomp. First non-playable female Champion in the core series.",
+    "teamGalactic": {
+      "cyrus": "Leader. Fought mandatorily at (1) Team Galactic HQ, Veilstone City (rewards a Master Ball, permits the lake guardians' release), and (2) Spear Pillar, after summoning Dialga with the Red Chain.",
+      "mars": "3 mandatory battles: Valley Windworks, Lake Verity, and Spear Pillar (2v2 Multi Battle alongside Jupiter, with the player's rival Barry as partner).",
+      "jupiter": "2 mandatory battles: Team Galactic Eterna Building, and Spear Pillar (2v2 Multi Battle alongside Mars).",
+      "saturn": "2 mandatory battles: Lake Valor (Azelf's cave) and Team Galactic HQ. NOT confirmed to appear at Spear Pillar itself, unlike Mars/Jupiter.",
+      "confidence": "high on Cyrus/structure; medium on exact commander battle counts (single-source Bulbapedia)"
+    },
+    "lakeGuardians": {
+      "list": "Uxie (Lake Acuity), Mesprit (Lake Verity), Azelf (Lake Valor)",
+      "detail": "Each captured by Team Galactic early in the story (mandatory beats at each lake), then freed at the Spear Pillar climax when they destroy the Red Chain. Catching them afterward is OPTIONAL — Uxie/Azelf remain in their lake caverns, Mesprit becomes a roaming encounter (moves between routes but does not permanently vanish).",
+      "missability": "UNRESOLVED whether any BDSP-specific change affects catchability after the story event — no source found suggesting a change from the original Diamond/Pearl behavior (where they remain accessible), so treated as NOT missable pending further evidence."
+    },
+    "spearPillarClimax": "Sequence: fight through Grunts → 2v2 Multi Battle vs Mars+Jupiter (partnered with rival Barry) → Cyrus summons Dialga with the Red Chain → lake trio arrives and destroys the chain → final Cyrus battle, he retreats → Dialga can be caught. Dialga is version-exclusive to Brilliant Diamond (Shining Pearl gets Palkia instead) — story-mandatory access, not missable.",
+    "corrections": [
+      "NO Distortion World multi-room dungeon exists in Brilliant Diamond — that mid-story Cynthia-accompanied Giratina confrontation is PLATINUM-EXCLUSIVE. BD's only story-adjacent Giratina content is the postgame Turnback Cave (single fixed entrance/Giratina room, randomized middle rooms, Lv.70 Altered Forme, accessible only after Hall of Fame).",
+      "Charon does NOT appear as a character in Brilliant Diamond (replaced by a generic Grunt sprite, referenced only in flavor text) — the Platinum-exclusive 'Looker arrests Charon at Stark Mountain' subplot does not exist here. How (or whether) Looker's arc resolves in BD is UNCONFIRMED.",
+      "Stark Mountain in BD is a pure Heatran-catching questline with NPC Buck (retrieve the Magma Stone, then catch Heatran Lv.70) — no Team Galactic remnant/Charon content, unlike Platinum."
+    ],
+    "ending": "Single ending — Hall of Fame registration after defeating Cynthia. No branching found; exact credits/epilogue content unconfirmed.",
+    "postgame": {
+      "starkMountainHeatran": "Postgame Heatran catch via Buck questline; reported (single-source, unverified) to be what raises Elite Four/Cynthia rematch levels (up to Lv.77-79 for Cynthia).",
+      "turnbackCaveGiratina": "Postgame Lv.70 Altered Forme Giratina, catchable, respawns if defeated/fled.",
+      "eliteFourRematch": "Rechallengeable after Hall of Fame; team levels reportedly scale up after Stark Mountain completion."
+    }
+  },
+  "sideContent": {
+    "pokedex": {
+      "sinnohDex": "151 entries (matches original Diamond/Pearl, not Platinum's expanded 210). Manaphy is #151 but excluded from completion (event-only).",
+      "nationalDex": "493 species (Gen 1-4 only). Unlocked at Sandgem/Eterna by seeing all 150 non-Manaphy Sinnoh Dex entries and speaking to Professor Rowan.",
+      "shinyCharm": "Awarded by 'the game director' at Valor Lakefront after CATCHING (not just seeing) every National Dex species excluding Mythicals. IMPORTANT BUG (high confidence, two independent sources): in BDSP the Shiny Charm only boosts BREEDING shiny odds — it does NOT affect wild encounter or Poké Radar odds, despite its description implying otherwise. Do not write trophy text claiming it boosts wild-encounter shiny odds.",
+      "percentageDisplayUnconfirmed": "No source confirmed whether the Pokédex UI shows an explicit completion percentage vs. just raw seen/caught counts."
+    },
+    "grandUnderground": {
+      "detail": "Expanded remake of the original Underground: digging areas plus 16 Pokémon Hideaway rooms across 6 zones. Wild pools expand with badges/TMs/National Dex progress.",
+      "secretBase": "Exactly ONE Secret Base per save, decorated only with statues/pedestals (max 18 displayed) from Stone/Gorgeous Boxes found digging or awarded by Ramanas Park catches.",
+      "flagMinigameRemoved": "IMPORTANT CORRECTION: the classic Gen IV Underground flag-capture/stealing minigame does NOT exist in BDSP. There is no 'flags collected' stat to build a trophy around.",
+      "digletBonus": "Collecting 40 Diglett/Dugtrio sparkle points triggers a shared 4-minute buff (better shiny odds + guaranteed Gorgeous Boxes while digging), tracked via a visible on-screen Diglett-icon counter."
+    },
+    "ramanasPark": {
+      "detail": "Pal Park replacement. Unlocked after National Dex + Hall of Fame. Trade Mysterious Shards for Slates, insert a Slate to spawn a Lv.70 Legendary in a themed room. Catching one places a permanent Secret Base statue; slates are repurchasable, so nothing here is permanently missable.",
+      "sharedRooms": "Discovery (Regirock/Regice/Registeel), Genome (Mewtwo), Soul (Latias/Latios), Oceanic (Kyogre), Tectonic (Groudon), Stratospheric (Rayquaza), Distortion (Giratina, Origin Forme — NOT catchable, battle-only, defeating it awards the Griseous Orb).",
+      "bdExclusiveRooms": "Johto Room (Raikou, Entei, Suicune) and Rainbow Room (Ho-Oh) — CONFIRMED Brilliant Diamond exclusive. Shining Pearl gets the Kanto Room (Articuno/Zapdos/Moltres) and Squall Room (Lugia) instead. Strong, clean version-exclusive collection trophy hook.",
+      "confidence": "high on room split, medium on exact unlock timing"
+    },
+    "superContestShows": {
+      "detail": "5 main categories (Coolness, Beauty, Cuteness, Cleverness, Toughness) + a 6th 'Brilliant/Shining Contest' category unlocked post-Hall-of-Fame. 4 ranks: Normal, Great, Ultra, Master.",
+      "ribbons": "First Master Rank win in a category grants a unique Ribbon. Winning all 5 main categories at Master Rank grants the Contest Star Ribbon. Winning the Brilliant/Shining Contest at Master Rank grants the Twinkling Star Ribbon. Clean, confirmed collection-trophy hooks (Ribbons viewable on each Pokémon's summary screen)."
+    },
+    "battlePark": {
+      "detail": "Post-Hall-of-Fame Battle Zone facility. Streak-based: win 7 straight battles to clear a streak (losing only breaks the streak, no other penalty). Rewards Battle Points, spendable at a nearby shop.",
+      "trackable": "Battle Points balance persists as a trackable currency; no confirmed lifetime win-streak record display."
+    },
+    "amitySquare": "Up to 6 following Pokémon (28 eligible species, only partially enumerated) can walk together; camera/photo features, Poffin-making, scattered items given roughly every 400 steps.",
+    "mythicals": {
+      "note": "None are required for National Dex completion or the Shiny Charm (explicitly excluded). All have either expired real-world distribution windows or unresolved/conflicting acquisition requirements:",
+      "manaphy": "Time-limited early-purchase Mystery Gift (Nov 2021-Feb 2022 window per one source) — EXPIRED, current availability unconfirmed.",
+      "shaymin": "'Oak's Letter' Mystery Gift (Feb-Mar 2022) — EXPIRED.",
+      "darkrai": "'Member Card' Mystery Gift (Apr 2022) — EXPIRED.",
+      "mew": "CONFLICTING sources: one says an in-game Floaroma Town event, another says detecting linked Pokémon Let's Go Pikachu/Eevee save data. Unresolved.",
+      "jirachi": "Requires detecting linked Pokémon Sword/Shield save data on the same Switch.",
+      "arceus": "Added via the v1.3.0 update as an Azure Flute/Hall of Origin event at Spear Pillar; exact trigger condition (Legends: Arceus save data? just the patch?) UNRESOLVED between sources."
+    }
+  },
+  "systems": {
+    "battleSystem": "Standard mainline turn-based formula, no structural changes. Built on a new ILCA/Unity engine rather than Game Freak's Sw/Sh engine, which is why some modern UI conveniences (e.g. an EV graph) are absent.",
+    "expShare": "Automatic, party-wide, togglable Key Item (Gen VI+ style), not the classic single held-item version.",
+    "evsNotShown": "No in-game EV viewer. Only indirect confirmation via the Effort Ribbon (awarded by a Sunyshore Market NPC at 510 total EVs).",
+    "poketch": "~20-21 apps confirmed (Digital Watch, Calculator, Memo Pad, Pedometer, Pokémon List, Friendship Checker, Dowsing Machine, Egg Monitor, Pokémon History, Counter, Analog Watch, Marking Map, Coin Toss, Calendar, Dot Artist, Spinner, Chain Counter, Kitchen Timer, Color Changer, Matchup Checker, Hidden Moves). No 'Vital Stats' app found — likely does not exist in this game.",
+    "hiddenMovesApp": "Replaces classic HMs entirely — summons a wild-Pokémon helper (Bidoof, Staraptor, Bibarel) to perform field moves (Rock Smash, Cut, Fly, Defog, Strength, Rock Climb, Surf, Waterfall) without needing them on the player's own team. NOTE: this conflicts with one low-confidence recollection-only claim that classic HM items are retained — the Pokétch-app version is the better-sourced (medium confidence) finding and should be treated as correct.",
+    "shinyOdds": "Base 1/4096. Masuda Method breeding ~1/682.7 (1/512 with Shiny Charm). Poké Radar chaining odds table disputed between sources — treat any specific chain-length percentage as unconfirmed.",
+    "noDifficultyModes": "No selectable difficulty mode.",
+    "multiplayer": {
+      "unionRoom": "Up to 8 players, local/internet (detail medium-low confidence).",
+      "globalWonderStation": "Replaces GTS. Wonder Trade ONLY (random blind trade) — no search-based trading. Requires Nintendo Switch Online. Added via a post-launch patch (v1.3.0, ~March 2022), not present at November 2021 launch.",
+      "rule13Flag": "No trophy should require Global Wonder Station / online trading or battling, consistent with this session's precedent of avoiding multiplayer-dependent trophies."
+    }
+  },
+  "versionExclusives": {
+    "legendary": "Dialga (Brilliant Diamond) vs. Palkia (Shining Pearl) at Spear Pillar — story-mandatory, not missable.",
+    "ramanasParkRooms": "BD: Johto Room (Raikou/Entei/Suicune) + Rainbow Room (Ho-Oh). SP: Kanto Room (Articuno/Zapdos/Moltres) + Squall Room (Lugia). High confidence.",
+    "sinnohDexPairs": "BD: Murkrow/Honchkrow, Cranidos/Rampardos, Stunky/Skuntank. SP: Misdreavus/Mismagius, Shieldon/Bastiodon, Glameow/Purugly. Medium confidence.",
+    "correctedAssumptions": [
+      "Trophy Garden's rotating roster (Mr. Backlot) is IDENTICAL between versions, save-file/time-based, NOT version-exclusive — do not build a version-exclusive trophy around it.",
+      "Eterna City statues: one source claims BD/SP share an identical unified statue (contradicting the original Diamond/Pearl's version-specific statues) — UNRESOLVED, do not assume a version split exists here."
+    ]
+  },
+  "missables": [
+    { "name": "Manaphy/Shaymin/Darkrai Mystery Gift distributions — all real-world time-limited and expired.", "confidence": "medium" },
+    { "name": "Lake Guardian trio catchability after the story event — unresolved whether anything changes from original D/P behavior (presumed still catchable/roaming).", "confidence": "low" }
+  ],
+  "conflicts": [
+    { "topic": "Mew acquisition method", "finding": "One source: in-game Floaroma Town event. Another: Let's Go Pikachu/Eevee save-data detection. Unresolved." },
+    { "topic": "Arceus acquisition trigger", "finding": "v1.3.0 added an Azure Flute/Hall of Origin event, but exact trigger (Legends: Arceus save data vs. just the patch) unresolved." },
+    { "topic": "Eterna City statue version-exclusivity", "finding": "One source claims unified across versions, contradicting the original games' version-specific statues. Unresolved." }
+  ],
+  "scopeDecisionsResolved": [
+    "Follow-up research (games/pokemon-brilliant-diamond_trophies/dossier_scout_mythicals.json) confirmed: Manaphy, Shaymin, and Darkrai were real-world time-limited Mystery Gift distributions (Nov 2021-Apr 2022) with no confirmed re-run since — EXCLUDED from the trophy list entirely as permanently expired.",
+    "Mew, Jirachi, and Arceus are each externally gated but permanently obtainable (no time limit): Mew via a Floaroma Town NPC that appears only with linked Pokémon Let's Go, Pikachu!/Eevee! save data; Jirachi via a Floaroma Town NPC gated on linked Pokémon Sword/Shield save data; Arceus via the v1.3.0 Azure Flute/Hall of Origin event, which requires a completed Pokémon Legends: Arceus save file (the v1.3.0 patch alone is not sufficient). User confirmed owning all three prerequisite games/saves — all three WILL be included as trophies, each marked missable with a notes field disclosing the external save-data dependency."
+  ],
+  "gaps": [
+    "Pokédex completion percentage display existence unconfirmed.",
+    "Exact ending/credits sequence content unconfirmed.",
+    "How Looker's investigation subplot resolves without Charon unconfirmed.",
+    "Exact Poké Radar shiny-odds-by-chain table disputed between sources.",
+    "Full 28-species Amity Square list only partially confirmed.",
+    "Lifetime Battle Park win-streak record display unconfirmed.",
+    "Full National Dex version-exclusive wild-encounter list only single-sourced and partly internally inconsistent."
+  ]
+}
