@@ -1,0 +1,137 @@
+{
+  "game": "Pokémon Legends: Arceus",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "developer": "Game Freak",
+  "publisher": "The Pokémon Company / Nintendo",
+  "releaseDate": "2022-01-28",
+  "researchDate": "2026-08-16",
+  "researchQualityNote": "All three scouts hit the same friction as the last two games this session: shared WebSearch budget exhausted before or shortly into their work, forcing reliance on WebFetch against Bulbapedia/Serebii, with several target pages (dedicated mission/request lists, IGN, Polygon, GameRant, TheGamer) 404ing. Confidence is generally medium rather than high even on corroborated facts. Treat structure/names as solid, numeric/UI specifics as softer.",
+  "entryGate": {
+    "targetPlatform": "Nintendo Switch",
+    "nativeAchievements": false,
+    "note": "Switch has no system-level achievement/trophy system. Legends: Arceus has never released on any other platform — confirmed by two independent scouts as 'the first core series game to only come out in one version,' with no version-exclusive split unlike Scarlet/Violet.",
+    "otherPlatformNativeList": false,
+    "resolvedMode": "genesis — no native list exists anywhere for any release of this game."
+  },
+  "dlcStatus": "CONFIRMED: no paid DLC or expansion pass was ever released for this game. The only post-launch content is the free v1.1.0 'Daybreak' update (Feb 27, 2022), which added Request 102 ('Daybreak', leading to catching Arceus), Massive Mass Outbreaks, and the Eternal Battle Reverie postgame mode. Since this is free and has been a permanent part of the game for years, it is treated as base-game content — no `dlc` block needed for this list, unlike the last three games this session.",
+  "premise": "The player is transported by Arceus to the ancient Hisui region (pre-Sinnoh past) and joins the newly-founded Galaxy Expedition Team out of Jubilife Village, tasked with compiling the region's first Pokédex. The story follows the Diamond Clan (reveres Dialga) vs. Pearl Clan (reveres Palkia) feud, a growing space-time rift over Mount Coronet, and the machinations of the traveling merchant Volo, who is secretly engineering the whole crisis to draw out and seize the power of Arceus itself.",
+  "campaignStructure": {
+    "mainMissions": {
+      "count": 27,
+      "titles": ["In an Unfamiliar Land", "The Galaxy Team's Entry Trial", "The Basics of Crafting", "Getting to Work on Research Tasks", "A Request from Mai", "Summoned by Commander Kamado", "The Frenzy of the Lord of the Woods", "Arezu's Predicament", "A New Mission", "The Lordless Island", "Scaling Perilous Heights", "The Slumbering Lord of the Tundra", "Disaster Looming / Seeking the Red Chain", "The Trial of Lake Verity", "The Trial of Lake Valor", "The Trial of Lake Acuity", "Atop Mount Coronet", "The Counterpart", "A New Day Dawns", "The Researcher of Myths", "The Plate of the Lakes", "The Plate of Firespit Island", "The Plate of Moonview Arena", "The Plate of Snowpoint Temple", "The Plate of Prelude Beach", "Seeking the Remaining Plates", "The Deified Pokémon"],
+      "confidence": "medium — single-source (Serebii) list, internally consistent but not independently cross-checked against a second primary source",
+      "structureNote": "Mission 19 'A New Day Dawns' appears to be the main story's credits point (space-time rift resolved, Dialga/Palkia counterpart caught). Missions 20-27 form a postgame-feeling epilogue chain (Volo's true nature revealed, Giratina fought, all 18 Plates collected, culminating in 'The Deified Pokémon'). Separately, Request 102 'Daybreak' — added by the free v1.1.0 update, not a numbered Main Mission — is what actually leads to catching Arceus at the Hall of Origin. CONFLICT/AMBIGUITY: it's unclear whether Main Mission 27 'The Deified Pokémon' IS the Arceus encounter, or whether it concludes the Plate-collection/Giratina arc and the separate Daybreak request is the true final Arceus content layered on top. Flagged for checkpoint — treat the exact mission-27-vs-Request-102 relationship as unresolved until confirmed."
+    },
+    "nobles": {
+      "list": [
+        { "name": "Kleavor", "title": "Lord of the Woods", "region": "Obsidian Fieldlands", "type": "Bug/Rock" },
+        { "name": "Lilligant-Hisui", "title": "Lady of the Ridge", "region": "Crimson Mirelands", "type": "Grass/Fighting" },
+        { "name": "Arcanine-Hisui", "title": "Lord of the Isles", "region": "Cobalt Coastlands", "type": "Fire/Rock" },
+        { "name": "Electrode-Hisui", "title": "Lord of the Hollow", "region": "Coronet Highlands", "type": "Electric/Grass" },
+        { "name": "Avalugg-Hisui", "title": "Lord of the Tundra", "region": "Alabaster Icelands", "type": "Ice/Rock" }
+      ],
+      "mechanic": "NOT a standard Pokémon battle. The player throws crafted balms at the Noble to deplete a frenzy gauge while dodging attacks; landing hits stuns the Noble for a short conventional battle phase, which lengthens the next stun window. Repeat until the frenzy gauge empties. Reward: a Plate.",
+      "postgameRematch": "All 5 can be rematched via their associated Warden at the original arena, appearing at Level 70 with a timed personal-best record.",
+      "confidence": "high on mechanic and list; low on exact balm item names (single source, not cross-checked)"
+    },
+    "characters": {
+      "volo": "True antagonist. Traveling Ginkgo Guild merchant who secretly allied with Giratina to force Dialga/Palkia's appearance and draw out Arceus. Fought at least twice before the finale (an early mandatory Jubilife Village battle, and a reported — unconfirmed location — mid-game optional battle).",
+      "adamanIrida": "Diamond/Pearl Clan leaders. Accompanying one on the Trial of the Lakes is a genuine player choice, determining which of Dialga/Palkia is caught first in normal Forme (the other appears later in Origin Forme at the climax). Both end up registered in the Pokédex regardless of choice order.",
+      "kamado": "Galaxy Team commander who banishes the player mid-story after the rift crisis escalates; later reconciles after the player proves themselves.",
+      "cogita": "Elder at the Ancient Retreat; reveals the Red Chain lore, later guides the postgame Plate-collection chain and rewards the Pixie Plate + Reveal Glass.",
+      "laventon": "Professor who takes the player in at the start and later crafts the Origin Ball.",
+      "akariRei": "Whichever of the two player-character options isn't chosen appears as an NPC rival/fellow Survey Corps member.",
+      "confidence": "medium across the board — single-source per character, structurally consistent with known Pokémon narrative conventions"
+    },
+    "finaleChain": {
+      "originForme": "At the Temple of Sinnoh (Mount Coronet), the Dialga/Palkia counterpart not caught earlier appears in Origin Forme and is quelled/caught with the Origin Ball, crafted from Red Chain/Origin Ore materials. This resolves the main story (mission ~18-19, 'The Counterpart' / 'A New Day Dawns').",
+      "voloGiratina": "Postgame chain ('The Researcher of Myths' onward) leads back to the Temple of Sinnoh, where Volo reveals his scheme and fights the player with a team reported (single-source, unconfirmed) as Spiritomb, Roserade, Togekiss, Hisuian Arcanine, Lucario, Garchomp (~Lv68), then summons Giratina (Altered Forme → Origin Forme after its first HP bar). Defeating Giratina ends the encounter; Volo surrenders the Spooky Plate and leaves. Whether Giratina is caught or simply defeated/flees is UNCONFIRMED.",
+      "plateCollection": "18 total Plates; the Spooky Plate comes directly from Volo, the rest via a postgame mission chain (missions 21-26 per the mission list above) plus side content (e.g., the Pixie Plate from Cogita).",
+      "arceus": "True final encounter, at the Hall of Origin. Requires the Azure Flute (obtained after the Volo/Giratina fight) AND full Hisui Pokédex completion (all non-Mythical species registered). Playing the Azure Flute at the Temple of Sinnoh's dais reveals a stairway to the Hall of Origin. Arceus (~Lv75) is fought as a 'test of strength'; winning results in it joining the team as a captured Pokémon (coded to never be Shiny). This content, along with the postgame Eternal Battle Reverie battle facility, was added by the free Daybreak update via Request 102, not a numbered Main Mission.",
+      "confidence": "medium — two independently-fetched pages (Hall of Origin, Temple of Sinnoh) agree on the Azure Flute + full-dex requirement"
+    },
+    "ending": "Single main story ending ('A New Day Dawns' credits point) with no branching found; the postgame epilogue chain (Volo/Giratina → Plates → Arceus) is additional content after that, not an alternate ending.",
+    "confidence": "high on overall structure; medium-low on several specific details (exact mission 27 content, Volo's battle team, optional Volo battle location)"
+  },
+  "sideContent": {
+    "pokedex": {
+      "total": 242,
+      "requiredForCompletion": 238,
+      "excludedFromRequirement": ["Phione", "Manaphy", "Shaymin", "Darkrai"],
+      "researchLevelSystem": "Per-species Research Level 0-10, raised via species-specific tasks (catching variants, observing moves incl. Strong/Agile Style, defeating, evolving, feeding, using items, etc. — roughly 25 task categories exist across the dex). Level 10 = 'Complete!'; finishing every task for a species = 'Perfect!' (bigger shiny-odds boost than Complete alone).",
+      "noOverallPercentageConfirmed": "No source confirms an explicit numeric 'X/242' or percentage completion display anywhere in the UI. The Pokédex is presented as a physical book whose visual wear/condition changes with progress, and rank stars appear on its cover — but this is NOT the same as a hard completion number. This is the single most load-bearing gap for trophy design here.",
+      "shinyCharmWorkaround": "Reaching Research Level 10 for every species in the Hisui Pokédex earns a Shiny Charm from Cyllene — a discrete, unambiguous reward item usable as verification for a 'complete the Pokédex' trophy, exactly as was done for the Scarlet list's equivalent problem."
+    },
+    "galaxyTeamRank": {
+      "system": "0 Star ('No Star') to 10 Star ('Full Star'), ~11 levels, earned via Rank Points from Pokédex research (10 pts/task, 20 for harder 'red' tasks, +100 bonus for completing a species entry). Cyllene in Jubilife Village executes the actual rank-up once thresholds are hit and will confirm current rank when spoken to.",
+      "thresholds": "Single-source (Serebii) point thresholds found per rank (500 through 60,000 points) — treat exact numbers as medium-low confidence, but the star-rank system itself and Cyllene's confirmation dialogue are reasonably well corroborated.",
+      "unlocks": "Higher ranks raise the wild-Pokémon obedience level cap and unlock better Poké Ball types (Heavy, Feather, Great, Leaden, Wing, Ultra, Gigaton, Jet Balls)."
+    },
+    "requests": {
+      "totalCountConflict": "Two independent scout fetches (both via Serebii, so not a fully independent second source) converged on 122 total requests, with #122 titled 'Kricketot's Path of Solitude.' One scout independently confirmed requests exist at least up to #102 ('Daybreak'). Treat 122 as medium confidence — better corroborated than most disputed numbers in this dossier, but still single-site.",
+      "notableRequests": {
+        "22": "'Eerie Apparitions in the Night' — collect 107 wisps across Hisui.",
+        "26": "Unlocks the balloon-popping minigame.",
+        "91": "'On the Trail of Giratina'",
+        "92": "Shaymin — REQUIRES a linked Pokémon Sword/Shield save file on the system.",
+        "93": "Darkrai — REQUIRES a linked Pokémon Brilliant Diamond/Shining Pearl save file.",
+        "94": "'Incarnate Forces of Hisui'",
+        "102": "'Daybreak' — final request, leads to catching Arceus and unlocks Eternal Battle Reverie."
+      },
+      "externalDependencyFlag": "Requests 92 and 93 require owning and having save data from OTHER Pokémon games entirely (Sword/Shield, Brilliant Diamond/Shining Pearl) — not just this game. This is a real external-ownership dependency, structurally similar to the Mystery Gift/amiibo-locked content excluded from prior lists this session.",
+      "trackable": "Pending requests show a black-circle marker over the giving NPC's head, both in the overworld and on the map. Whether a numeric 'X of Y requests completed' counter exists anywhere was NOT confirmed."
+    },
+    "massOutbreaks": {
+      "standard": "10-15 spawns of one evolutionary line at a single location, 4 visible at once. ~20% chance of a new one when returning to Jubilife Village.",
+      "massive": "Added by the free Daybreak update. 11-15 simultaneous outbreak locations across a region, initially hidden as '?' map markers; guaranteed higher levels (Lv60+) and increased Alpha chance.",
+      "trackable": "Both shown as icons on the region-select map."
+    },
+    "eternalBattleReverie": {
+      "detail": "Postgame battle gauntlet, unlocked after Request 102/catching Arceus. Win streak tracked and shown during the mode (display caps at 999). The 50th consecutive win pits the player against Arceus itself; winning grants a reward.",
+      "trackable": "high confidence — win streak is a confirmed, always-visible in-mode counter."
+    },
+    "minigames": {
+      "balloonPopping": "Unlocked via Request 26. 1-minute timed Poké Ball throwing minigame; score-based rewards. Persistent high-score tracking NOT confirmed.",
+      "photography": "Photo Studio (Dagero, Jubilife Village), available after Mission 2. Whether photos taken are tallied anywhere NOT confirmed."
+    },
+    "trainingGrounds": "Jubilife Village postgame content: 'Path of Solitude' (single-Pokémon battles, escalating difficulty) and 'Path of Tenacity' (Warden/character rematches). No confirmed formal completion tracker.",
+    "ancientRetreat": "Secluded camp, home to Cogita; becomes accessible mid-story after the player's banishment. Contains a crafting station/storage. Rewards: Pixie Plate (bring 3 pieces of wood) and Reveal Glass (complete Pokédex entries for the 'forces of nature'/genie group)."
+  },
+  "systems": {
+    "battleSystem": "Action-speed turn-order system. Mastered moves (via level-up or Seeds of Mastery at Training Grounds) can be used in Agile Style (less power, faster turn) or Strong Style (more power, slower next turn). Mastery status shown via a confirmed, always-visible icon on the summary and move-selection screens — solid ground for a move-mastery trophy.",
+    "alphaPokemon": {
+      "detail": "Larger, red-eyed in the wild, unique summary icon, 'Wild Might' stat boost, guaranteed 3+ perfect IVs, know one otherwise-unobtainable mastered move. Three spawn types: Fixed (set locations, respawn after 2 days), Random (post-Noble-quell, 0.2-2% chance), Outbreak (Massive Mass Outbreak waves).",
+      "missableWarning": "Certain unique STORY Alpha Pokémon (e.g., Alpha Kleavor) are permanently lost if defeated instead of caught during their specific mission encounter."
+    },
+    "satchel": "39 upgrade tiers via Bagin, up to $1,000,000 for the final tier ($4.7M cumulative). Each tier adds one item slot (999 cap per item type).",
+    "crafting": "40+ recipes from raw materials at crafting benches/portable kit. Exact total count unconfirmed.",
+    "shinyOdds": "Base 1/4096. Shiny Charm (full Pokédex Research completion reward) adds ~3 rolls (~1/1365). Per-species Research Level 10 and 'Perfect' status further improve that species' individual odds (exact modifier math disputed between sources — treat as directional, not precise). Distinctive overworld shiny sparkle + audio cue allows sight/sound shiny hunting before engaging.",
+    "noDifficultyModes": "No selectable difficulty mode found.",
+    "multiplayer": "Minimal — online trading only (unlocked Mission 4, requires Nintendo Switch Online), no PvP battling, no co-op exploration. Trading is confirmed NOT required to complete the Pokédex."
+  },
+  "missables": [
+    { "name": "Unique story Alpha Pokémon (e.g., Alpha Kleavor) permanently lost if defeated rather than caught during their mission encounter.", "confidence": "medium" },
+    { "name": "Requests #92 (Shaymin) and #93 (Darkrai) require linked save data from separate Pokémon games (Sword/Shield, BDSP) — not permanently missable exactly, but inaccessible without owning those other titles.", "confidence": "medium" }
+  ],
+  "conflicts": [
+    { "topic": "Total request count", "finding": "122 (two scout fetches, both ultimately via Serebii) vs. only independently confirmed up to #102 by a third angle. Treat 122 as the working number but flag it as single-site-sourced." },
+    { "topic": "Mission 27 'The Deified Pokémon' vs. Request 102 'Daybreak' relationship", "finding": "Unclear whether these are the same Arceus-encounter content described two ways, or genuinely sequential/separate. See campaignStructure.mainMissions.structureNote." },
+    { "topic": "Whether Giratina is caught or merely defeated after the Volo battle", "finding": "Unconfirmed by either scout." }
+  ],
+  "scopeDecisionsResolved": [
+    "Requests #92 (Shaymin, needs Sword/Shield) and #93 (Darkrai, needs Brilliant Diamond/Shining Pearl) WILL both be included as trophies — user confirmed owning Sword and Shining Pearl, satisfying both. Each marked missable with a notes field disclosing the external save-data dependency, mirroring how Mewtwo/Diancie's Mystery Gift dependency was handled in the Legends Z-A list, so a future reader without those games knows why.",
+    "No DLC exists for this game (confirmed by two independent scouts), so this is a single base list with no `dlc` block — different shape from the last three games this session.",
+    "As with Scarlet, the Pokédex completion trophy uses the Shiny Charm as verification (sidesteps the unconfirmed percentage-display gap) rather than citing the 238/242 total directly in trophy text."
+  ],
+  "gaps": [
+    "Exact UI location/wording for Galaxy Team rank display beyond Cyllene's confirmation dialogue not fully confirmed.",
+    "Exact relationship between Main Mission 27 and Request 102 (Daybreak/Arceus) unresolved.",
+    "Whether Giratina is caught or defeated-only after its battle unconfirmed.",
+    "Total request count (122) single-site sourced.",
+    "Exact balm item names per Noble unconfirmed (single source).",
+    "Whether losing (not just defeating) a Noble battle has any permanent consequence unconfirmed — likely just a retry.",
+    "Exact per-Ride-Pokémon unlock requirements (which mission/rank triggers each of the 5) not itemized.",
+    "Persistent tracking (if any) for balloon minigame high scores and photography count unconfirmed."
+  ]
+}

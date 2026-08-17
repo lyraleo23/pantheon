@@ -1,0 +1,213 @@
+{
+  "beat": "systems",
+  "game": "Pokémon Legends: Arceus",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "progression",
+      "name": "Survey Corps / Galaxy Team rank system",
+      "detail": "Ranks run from 0 Star (No Star) to 10 Star (Full Star). Progress is earned via Rank Points: completing a Pokédex research entry gives 10 points, tasks marked in red (harder tasks) give 20 points, and fully completing an entry (reaching research level 10 on all its tasks) awards 100 points total. Talking to Cyllene in Jubilife Village executes the actual rank-up once point thresholds are hit. Known thresholds/unlocks per one source: 1 Star = 500 pts (Heavy Balls, wild Pokémon obedience up to Lv.20), 2 Star = 1800 pts (Feather Balls, Lv.30), 3 Star = 3500 pts (Great Balls, Lv.40), 4 Star = 6000 pts (Leaden Balls, Lv.50), 5 Star = 8500 pts (Wing Balls, Lv.65), 6 Star = 11000 pts (Ultra Balls, Lv.80), 7 Star = 15000 pts (Gigaton Balls, Lv.100), 8 Star = 20000 pts (Jet Balls, Lv.100), 9 Star = 30000 pts, 10 Star = 60000 pts. Story progression also gates new areas behind reaching certain ranks.",
+      "trackable": "Rank shown as stars, referenced on the Hisui Pokédex book cover; Cyllene confirms current rank when spoken to.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii.net (fetched pokedexrank.shtml)", "Bulbapedia Galaxy Team article (partial)"]
+    },
+    {
+      "category": "progression",
+      "name": "Satchel upgrade system",
+      "detail": "39 total upgrade tiers for the 'Everyday Items' pocket of the Satchel, purchased from Bagin (Security Corps, Galaxy Hall) using Pokémon Dollars. Cost starts at $100 for the first upgrade and rises to $1,000,000 for the 39th/final upgrade; cumulative total cost across all 39 upgrades is $4,749,500. Each upgrade adds one additional distinct item slot (each slot still caps at 999 units per item type); overflow items go to separate storage at Jubilife Village/base camps.",
+      "trackable": "Satchel menu shows current capacity/slots used.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Satchel article (fetched)"]
+    },
+    {
+      "category": "progression",
+      "name": "Pokédex research levels",
+      "detail": "Each Pokémon species has its own Pokédex entry with a Research Level that goes up to 10, raised by completing species-specific research tasks (catching, defeating, defeating with specific move types, observing/using specific moves, etc. — roughly 25 task categories exist across the dex per Serebii). Reaching level 10 completes/fills the entry; completing every possible task for a species makes the entry 'Perfect,' which grants an even larger shiny-encounter-rate boost than level 10 alone.",
+      "trackable": "Individual Hisui Pokédex entries show research level/progress per species; the book's physical appearance (worn/complete pages) reflects overall completion, and rank stars appear on its cover.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii.net researchtasks/pokedexrank pages", "Bulbapedia Pokédex article"]
+    },
+    {
+      "category": "progression",
+      "name": "Perfect Pokédex reward — Shiny Charm",
+      "detail": "Reaching research level 10 for every Pokémon species in the Hisui Pokédex earns the player a Shiny Charm from Cyllene.",
+      "trackable": "Shiny Charm listed in Key Items; its acquisition implies full dex completion.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Pokédex article (fetched)"]
+    },
+    {
+      "category": "systems",
+      "name": "Crafting system",
+      "detail": "Players craft items (Poké Balls, medicine, camp tools, etc.) from raw materials (Apricorns, Tumblestones, Iron Chunks, berries, plants) at a crafting bench (Craftworks/base camps) or with a portable Crafting Kit. At least 40+ distinct recipes exist per one source, though an exact total count could not be confirmed. Recipes are unlocked via story missions (e.g., Poké Ball recipe from Mission 2), Galaxy Team rank advancement, completing requests, purchase at Craftworks, or NPC interactions.",
+      "trackable": "Crafting menu lists known recipes, but no confirmed in-game 'recipes discovered / total' counter was found.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia Crafting article (fetched)"]
+    },
+    {
+      "category": "battle system",
+      "name": "Strong Style / Agile Style (Move Mastery)",
+      "detail": "Battles use an 'action speed' turn-order system rather than pure simultaneous turns. Once a Pokémon has mastered a move (via natural level-up or by using Seeds of Mastery with Zisu at the Training Grounds), it can use that move in Agile Style (reduced power/effect, but increases the user's action speed or decreases the target's) or Strong Style (increased power/effect/accuracy, but delays the user's next turn). Mastered moves display a distinct icon on the summary and move-selection screens.",
+      "trackable": "Mastery status shown via icon on the Pokémon summary screen and move-selection screen during battle — this is a confirmed, always-visible per-move indicator, relevant for any 'master X moves' style trophy.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia Move mastery article (fetched)"]
+    },
+    {
+      "category": "systems",
+      "name": "Alpha Pokémon mechanics",
+      "detail": "Alpha Pokémon are larger, have glowing red eyes in the wild (disappears once caught), display a unique summary-screen icon, and have a 'Wild Might' trait that boosts all stats independent of in-battle boosts. They are guaranteed at least 3 perfect (31) IVs and know one mastered move not obtainable via normal leveling. Three spawn types: Fixed Alphas (set locations/levels, respawn after 2 in-game days), Random Alphas (spawn after quelling a region's Noble Pokémon, 0.2%–2% chance), and Outbreak Alphas (appear in specific waves during Massive Mass Outbreaks).",
+      "trackable": "Alpha status shown via icon on summary screen; no confirmed in-game master list/counter of 'all Alphas caught or defeated.'",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Alpha Pokémon article (fetched)"]
+    },
+    {
+      "category": "missable",
+      "name": "Unique story Alpha Pokémon (e.g., Alpha Kleavor)",
+      "detail": "Certain unique story Alpha Pokémon encountered during specific missions are permanently missable if the player defeats them in battle instead of catching them — they cannot be re-obtained afterward.",
+      "trackable": "n/a (loss is permanent; no in-game warning confirmed)",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Alpha Pokémon article (fetched)"]
+    },
+    {
+      "category": "boss/story",
+      "name": "Noble Pokémon (5 total)",
+      "detail": "Five Noble Pokémon: Kleavor (Lord of the Woods), Lilligant (Lady of the Ridge), Arcanine (Lord of the Isles), Electrode (Lord of the Hollow), Avalugg (Lord of the Tundra). These cannot be caught during their frenzied boss encounters — players quell them by throwing balms until the frenzy gauge depletes, receiving a plate as reward. These are mandatory story battles with post-game rematches available. Could not confirm whether failing/losing a Noble battle results in permanent content loss (likely just a retry, not missable), but this is unconfirmed.",
+      "trackable": "Story progression flag; plates collected are key items.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Noble Pokémon article (fetched)"]
+    },
+    {
+      "category": "RNG",
+      "name": "Shiny Pokémon base odds and detection",
+      "detail": "Base shiny rate is 1/4096 (Gen VIII standard, one roll). The Shiny Charm (earned via Perfect/complete Pokédex research per species) adds 3 extra rolls, improving odds to approximately 1/1365.67. Distinctively, shiny Pokémon in the overworld are visibly colored differently, play a shiny sparkle animation and a distinct audio cue both on spawn and periodically while roaming — allowing shiny hunting by sight/sound before engaging, unique to this game's real-time overworld encounter system.",
+      "trackable": "n/a (visual/audio cue in the overworld, not a menu stat)",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia Shiny Pokémon article (fetched)"]
+    },
+    {
+      "category": "RNG",
+      "name": "Shiny odds modifiers — research level and outbreaks",
+      "detail": "Reaching Pokédex research level 10 for a species reportedly improves that species' shiny odds to roughly 1/2048.25, and reaching 'Perfect'/max research further improves it to roughly 1/1024.38 (figures from a single fetched source, exact rounding/methodology unverified). Mass Outbreak encounters get an estimated 26 rolls (~1/158.02). A separate source (via Massive Mass Outbreak page) gave different aggregate percentages with Shiny Charm active: ~0.17% for ordinary wild encounters, ~0.78% for mass outbreak encounters, ~0.46% for massive mass outbreak encounters — these numbers are not fully consistent with the odds above, indicating source disagreement on exact math; treat exact fractions as approximate.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia Shiny Pokémon article (fetched)", "Bulbapedia Mass Outbreak article (fetched)"]
+    },
+    {
+      "category": "systems",
+      "name": "Mass Outbreaks and Massive Mass Outbreaks",
+      "detail": "A normal Mass Outbreak spawns Pokémon from a single evolutionary line at one location (10-15 total spawns, 4 visible at once); only one active per area, with a 20% chance of a new one triggering when returning to Jubilife Village. Massive Mass Outbreaks (unlocked later in the story) feature 11-15 simultaneous outbreak locations across one region, initially hidden as '?' markers; a star icon marks locations with a bonus second wave (evolved forms with increased Alpha chance, or guaranteed Alpha of the original species), and a berry icon grants Aguav Berries per Pokémon caught/defeated there. All Massive Mass Outbreak Pokémon are at least level 60 (with minor species-specific exceptions).",
+      "trackable": "Map screen shows outbreak locations and icons.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Mass Outbreak article (fetched)"]
+    },
+    {
+      "category": "systems",
+      "name": "Ride Pokémon (5 total)",
+      "detail": "Five Ride Pokémon: Wyrdeer, Ursaluna, Basculegion, Sneasler, Braviary. Each is unlocked through story progression by proving worthiness (playing the Celestica Flute given by Adaman, or defeating/calming the wild Ride Pokémon), granting the player a plate/ride ability. Exact per-Pokémon unlock method (mission number/rank requirement) not fully itemized by the source fetched.",
+      "trackable": "n/a — ride Pokémon appear as party-adjacent traversal tools once unlocked; not a counted collectible list beyond the fixed 5.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia Ride Pokémon (Hisui) article (fetched)"]
+    },
+    {
+      "category": "progression/story",
+      "name": "Main mission count",
+      "detail": "27 main missions total, from 'In an Unfamiliar Land' through 'The Deified Pokémon.' Full list captured: (1) In an Unfamiliar Land, (2) The Galaxy Team's Entry Trial, (3) The Basics of Crafting, (4) Getting to Work on Research Tasks, (5) A Request from Mai, (6) Summoned by Commander Kamado, (7) The Frenzy of the Lord of the Woods, (8) Arezu's Predicament, (9) A New Mission, (10) The Lordless Island, (11) Scaling Perilous Heights, (12) The Slumbering Lord of the Tundra, (13) Disaster Looming / Seeking the Red Chain, (14) The Trial of Lake Verity, (15) The Trial of Lake Valor, (16) The Trial of Lake Acuity, (17) Atop Mount Coronet, (18) The Counterpart, (19) A New Day Dawns, (20) The Researcher of Myths, (21) The Plate of the Lakes, (22) The Plate of Firespit Island, (23) The Plate of Moonview Arena, (24) The Plate of Snowpoint Temple, (25) The Plate of Prelude Beach, (26) Seeking the Remaining Plates, (27) The Deified Pokémon.",
+      "trackable": "Mission log/quest tracker in the pause menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii.net missions.shtml (fetched)"]
+    },
+    {
+      "category": "side content",
+      "name": "Total requests (side quests)",
+      "detail": "One source (Serebii) lists 122 total numbered requests, with #122 titled 'Kricketot's Path of Solitude.' This single-source figure should be cross-checked by another scout/beat covering side content, as it was not independently corroborated by a second source in this pass. No requests were confirmed as time-limited or permanently missable, though this absence-of-evidence is not strong confirmation either way.",
+      "trackable": "Requests are tracked in an in-game request log accessible via the pause menu; guidance markers can be manually toggled for active requests.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Serebii.net requests.shtml (fetched)"]
+    },
+    {
+      "category": "missable/trade",
+      "name": "NPC trades",
+      "detail": "Could not confirm specific one-time NPC trade offers or whether any are permanently missable. General note found: trading is NOT required to complete the Pokédex/collect all available Pokémon in this game (unlike mainline titles), and online trading unlocks after Mission 4.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia Trade article (fetched, incomplete section)"]
+    },
+    {
+      "category": "difficulty",
+      "name": "No selectable difficulty mode",
+      "detail": "No selectable difficulty setting/mode was found for this game across multiple sources checked.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia main article (fetched, absence of mention)"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Minimal online features, no player-vs-player battling",
+      "detail": "The game supports online connectivity for trading with other players (requires Nintendo Switch Online, unlocked after Mission 4) but does NOT include player-vs-player battles or any co-op exploration mode. This is much more limited than mainline games (no Union Circle-style multiplayer exploration, no online battle facility).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia main article (fetched)", "Bulbapedia Trade article (fetched)"]
+    },
+    {
+      "category": "version",
+      "name": "Single unified version — no Scarlet/Violet-style split",
+      "detail": "Pokémon Legends: Arceus is described as 'the first core series game to only come out in one version' — there is no version-exclusive content split. Confirmed Switch-exclusive, released worldwide January 28, 2022. No port, remaster, or release on any other platform (PC, mobile, other consoles) was found.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia main article (fetched)"]
+    },
+    {
+      "category": "version",
+      "name": "Daybreak — free post-launch update (not paid DLC)",
+      "detail": "A free content update called 'Daybreak' (version 1.1.0) was announced and released February 27, 2022, roughly a month after launch, adding new requests, battles, and features. This is NOT paid DLC/an expansion pass — no paid DLC or expansion was ever released for this game. Exact full content list of the Daybreak update could not be confirmed in this pass (fetch attempts to detailed update-notes pages 404'd).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia main article (fetched)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Galaxy Team / Survey Corps rank (0-10 stars)", "where": "Shown on the Hisui Pokédex book cover; confirmed by talking to Cyllene in Jubilife Village", "confidence": "medium" },
+    { "stat": "Per-species Pokédex research level (0-10) and 'Perfect' status", "where": "Individual entries in the Hisui Pokédex menu; overall dex physical wear reflects aggregate progress", "confidence": "medium" },
+    { "stat": "Move mastery status (whether a move can be used in Strong/Agile Style)", "where": "Icon on the Pokémon summary screen and the in-battle move-selection screen", "confidence": "high" },
+    { "stat": "Alpha Pokémon status", "where": "Icon on the Pokémon summary screen", "confidence": "medium" },
+    { "stat": "Satchel capacity/upgrade tier", "where": "Satchel menu", "confidence": "medium" },
+    { "stat": "Requests completed", "where": "In-game request log in the pause menu (existence of the log confirmed; whether it shows a 'completed X of Y total' numeric counter was NOT confirmed)", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch-exclusive; no release on any other platform, no ports or remasters found.", "confidence": "high" },
+    { "note": "Single unified version with no Scarlet/Violet-style content split between copies.", "confidence": "high" },
+    { "note": "Free 'Daybreak' update (v1.1.0, Feb 27 2022) added post-game content; this is not paid DLC. No paid DLC or expansion pass was ever released for this game.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact per-rank point thresholds/unlocks for Galaxy Team ranks from a second independent source — only one detailed table (Serebii) was retrieved; Bulbapedia's own rank page returned incomplete info.",
+    "Could not confirm the exact total number of crafting recipes in the game (only 'at least 40+' from one source, no full authoritative count).",
+    "Could not confirm whether the game displays a numeric 'requests completed X / Y total' counter anywhere in the UI, only that a request log exists.",
+    "Total request count (122) comes from a single source (Serebii) and was not cross-verified against Bulbapedia or another independent source — recommend the side-content scout verify this number.",
+    "Could not confirm exact shiny odds formulas/consistency — two fetched sources gave different-looking numbers for outbreak/research-level shiny boosts; treat all specific fractions/percentages as approximate pending a third source.",
+    "Could not confirm whether losing a Noble Pokémon battle (as opposed to defeating a unique story Alpha) causes any permanent content loss — likely just a retry, but unconfirmed.",
+    "Could not find specific one-time NPC trade offers in the game or confirm/deny whether any are missable.",
+    "Could not retrieve full contents of the 'Daybreak' v1.1.0 update patch notes (fetch attempts 404'd); only that it exists, is free, and was released Feb 27 2022.",
+    "Could not confirm exact per-Ride-Pokémon unlock requirements (which specific mission/rank triggers each of Wyrdeer, Ursaluna, Basculegion, Sneasler, Braviary).",
+    "Could not confirm whether an overall Pokédex completion PERCENTAGE (numeric %) is displayed anywhere, as opposed to just per-species research levels and physical book wear — this matters for whether a 'Pokédex % complete' trophy is even designable.",
+    "This session's WebSearch tool budget was exhausted early; all research after the first two queries relied on WebFetch against known wiki URLs, several of which 404'd (Bulbapedia page-title mismatches). Some topics (exact Alpha spawn tables, full request list, exact Daybreak content) could likely be confirmed with a fresh search budget."
+  ]
+}

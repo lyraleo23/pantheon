@@ -1,0 +1,217 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon Legends: Arceus",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "premise",
+      "name": "Galaxy Expedition Team / arrival in Hisui",
+      "detail": "The player character is transported to the ancient Hisui region (the pre-Sinnoh past) by Arceus, receives the Arc Phone, and is taken in by the Galaxy Expedition Team, based out of the newly-founded Jubilife Village. The team's mandate is to compile the region's first Pokédex.",
+      "trackable": "Pokédex completion is tracked on the Pokédex menu screen (per-species research level and overall completion count/percentage).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "premise",
+      "name": "Diamond Clan vs Pearl Clan conflict",
+      "detail": "Two clans who crossed the sea into Hisui generations apart, in a long-running religious feud: the Diamond Clan reveres Dialga and claims it created time; the Pearl Clan reveres Palkia and claims it created space. Adaman leads the Diamond Clan, Irida leads the Pearl Clan.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "region/hub structure",
+      "name": "Five sub-regions and their base camps",
+      "detail": "Obsidian Fieldlands (Fieldlands Camp, Heights Camp), Crimson Mirelands (Mirelands Camp, Bogbound Camp), Cobalt Coastlands (Beachside Camp, Coastlands Camp), Coronet Highlands (Highlands Camp, Mountain Camp, Summit Camp), Alabaster Icelands (Snowfields Camp, Icepeak Camp). Jubilife Village is the central hub/settlement.",
+      "trackable": "Fast travel / map screen shows unlocked camps.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, AI-summarized)"]
+    },
+    {
+      "category": "progression system",
+      "name": "Galaxy Team Survey Corps rank",
+      "detail": "The player advances through a star-based rank system, described as running from 'No Star' for new recruits up to 'Full Star' (10 stars). Rank appears tied to mission and request completion.",
+      "trackable": "Likely shown via Arc Phone or a status/profile screen (exact UI location not fully confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "starters",
+      "name": "Starter Pokémon choice",
+      "detail": "Player chooses one of three starters near the beginning: Rowlet, Cyndaquil, or Oshawott. Exact selection method (chest/box choice) not confirmed via source text.",
+      "trackable": null,
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "boss",
+      "name": "Noble Pokémon — full list and order",
+      "detail": "Five Noble Pokémon frenzy bosses, one per region, encountered in this order: 1) Kleavor (Bug/Rock, Obsidian Fieldlands), 2) Lilligant-Hisui (Grass/Fighting, Crimson Mirelands), 3) Arcanine-Hisui (Fire/Rock, Cobalt Coastlands), 4) Electrode-Hisui (Electric/Grass, Coronet Highlands), 5) Avalugg-Hisui (Ice/Rock, Alabaster Icelands).",
+      "trackable": "Each Noble fight is tied to a numbered main mission; likely reflected in mission log / Pokédex entry for that species noting it as 'calmed'.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "mechanic",
+      "name": "Noble Pokémon frenzy-calming mechanic",
+      "detail": "Nobles are NOT fought as a standard Pokémon battle throughout. The player throws special balms (crafted from the Noble's favorite food/regional materials) at the Noble to deplete a 'frenzy gauge' while dodging its attacks. Landing enough balm hits or exploiting an opening stuns the Noble, allowing the player to send out their own Pokémon for a short conventional battle phase; defeating it in that phase increases the stun duration, making subsequent balm throws more effective. Repeat until the frenzy gauge is emptied.",
+      "trackable": "Not a persistent stat; one-time story encounter per Noble.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia (fetched), corroborated by Serebii Wardens page (fetched)"]
+    },
+    {
+      "category": "item",
+      "name": "Regional balm names (per Noble)",
+      "detail": "Specific balm consumed per Noble fight: Kleavor = Forest Balm; Lilligant-Hisui = Marsh Balm (unconfirmed exact name); Arcanine-Hisui = Volcano Balm; Electrode-Hisui = Mountain Balm; Avalugg-Hisui = Snow Balm.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (fetched, single source, names not independently cross-checked)"]
+    },
+    {
+      "category": "character",
+      "name": "Wardens (regional NPC pairs)",
+      "detail": "Each region has two Warden NPCs (one Diamond Clan, one Pearl Clan) who give Noble-related missions and later offer optional trainer battles using their own signature Pokémon: Mai (Wyrdeer) & Lian (Kleavor) in Obsidian Fieldlands; Calaba (Ursaluna) & Arezu (Lilligant) in Crimson Mirelands; Iscan (Basculegion) & Palina (Arcanine) in Cobalt Coastlands; Ingo (Sneasler) & Melli (Electrode) in Coronet Highlands; Gaeric (Avalugg) & Sabi (Braviary) in Alabaster Icelands. Note: Wyrdeer, Ursaluna, Basculegion, Sneasler, and Braviary are the Wardens' own partner Pokémon, not additional Noble bosses — only the 5 species listed above are actual Noble frenzy fights.",
+      "trackable": "Warden postgame rematch battles may be tracked via request log (side-content beat).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Serebii Wardens page (fetched)"]
+    },
+    {
+      "category": "story milestone / boss",
+      "name": "Commander Kamado confrontation",
+      "detail": "After the space-time rift expands, the player is banished/kicked out of Jubilife Village on Kamado's orders. The player later returns, defeats Kamado in a battle, and is reinstated/apologized to.",
+      "trackable": "Story mission completion.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "character",
+      "name": "Cogita",
+      "detail": "A mysterious elder living alone at the Ancient Retreat. After the player is exiled, Volo brings them to her. She reveals the existence and importance of the Red Chain — an artifact that can bind the world and close the space-time rift over Mount Coronet, crafted from materials gathered from the three Sinnoh lake guardians (Uxie, Mesprit, Azelf). She reappears later to guide postgame Plate-collection content and eventually reveals the legendary Enamorus.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Trial of the Lakes",
+      "detail": "The player, accompanied by either Adaman (Diamond Clan) or Irida (Pearl Clan) — a genuine player choice, not random — visits the three lakes (Verity, Valor, Acuity) to gather Red Chain components, encountering the lake guardian trio. Choosing a companion determines which of Dialga/Palkia is heard first/caught first in normal Forme; the other Pokémon later appears at the climax in Origin Forme and must be quelled/caught with the Origin Ball.",
+      "trackable": "Story mission completion; both Dialga and Palkia end up caught/registered in the Pokédex by story's end regardless of choice order.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, Adaman page)"]
+    },
+    {
+      "category": "boss",
+      "name": "Origin Forme Dialga/Palkia (counterpart) battle",
+      "detail": "At the Temple of Sinnoh (atop Mount Coronet, Coronet Highlands), after the player has already caught one of Dialga/Palkia in normal Forme, the counterpart legendary appears in Origin Forme, causing destruction, and must be quelled and caught using the Origin Ball (crafted by Professor Laventon from Red Chain/Origin Ore materials).",
+      "trackable": "Registered as caught in the Pokédex.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "story milestone / ending",
+      "name": "\"A New Day Dawns\" — main story conclusion / credits",
+      "detail": "Following the Origin Forme legendary capture and resolution of the space-time rift crisis, the game rolls credits. This appears to be the primary/only ending — no branching endings were found in sources.",
+      "trackable": "Save file / title screen typically shows a completion marker after credits (common Pokémon convention; not independently confirmed for this title).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Serebii missions page (fetched, AI-summarized), inference"]
+    },
+    {
+      "category": "character/antagonist",
+      "name": "Volo — true antagonist",
+      "detail": "A traveling Ginkgo Guild merchant who assists the player throughout the game while secretly having engineered the whole crisis. He deliberately sought out and allied with Giratina to force Dialga/Palkia's appearance, hoping this would draw out Arceus so he could seize its power to remake the world. Fought by the player at least twice before the finale: an early mandatory battle in Jubilife Village, and an optional mid-game battle (reported location: Solaceon Ruins — unconfirmed).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, Volo page)"]
+    },
+    {
+      "category": "boss",
+      "name": "Volo final battle (post-credits/postgame)",
+      "detail": "After the main credits, a follow-up mission chain ('The Researcher of Myths' and related) leads back to the Temple of Sinnoh, where Volo reveals his scheme and fights the player with a team reported as: Spiritomb, Roserade, Togekiss, Arcanine-Hisui, Lucario, Garchomp (all around level 68). After his team is defeated, he summons Giratina.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, Volo page) — team composition single-source, treat with caution"]
+    },
+    {
+      "category": "boss",
+      "name": "Giratina (Altered/Origin Forme) — final story boss",
+      "detail": "Immediately follows the Volo battle in the same encounter. Giratina begins in Altered Forme; once its first HP bar is depleted it transforms into Origin Forme for a second battle phase. After its defeat, Volo takes the loss, surrenders the Spooky Plate, and leaves vowing to one day conquer Arceus.",
+      "trackable": "Registered in Pokédex once caught (if catchable) or at minimum logged as defeated; exact catchability not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, Volo page)"]
+    },
+    {
+      "category": "collection / postgame structure",
+      "name": "18 Plates postgame questline",
+      "detail": "After the Volo/Giratina encounter, a chain of postgame missions sends the player to collect all 18 Plates (mission names reported: 'The Plate of the Lakes', 'The Plate of Firespit Island', 'The Plate of Moonview Arena', 'The Plate of Snowpoint Temple', 'The Plate of Prelude Beach', 'Seeking the Remaining Plates', culminating in a final mission). The Spooky Plate is obtained directly from Volo after his defeat.",
+      "trackable": "Plates are likely viewable in the Bag/key items menu; unclear if there's a dedicated Plate-collection counter on screen.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Serebii missions page (fetched, AI-summarized) — exact mission titles/count not independently verified"]
+    },
+    {
+      "category": "true final boss",
+      "name": "Arceus encounter — Hall of Origin",
+      "detail": "To trigger this final encounter the player must: (1) complete the main story and the Volo/Giratina postgame battle to obtain the Azure Flute, and (2) catch at least one of every non-Mythical Pokémon in the Hisui Pokédex (full Pokédex completion, excluding Mythicals). Playing the Azure Flute at the Temple of Sinnoh's dais reveals a glowing stairway to the Hall of Origin. Arceus then appears and challenges the player to a mandatory battle (reported around level 75). Winning the battle results in Arceus joining the player's team as a captured Pokémon (it is coded to never be Shiny). This is framed narratively as a 'test of strength' rather than a conventional capture attempt with balls.",
+      "trackable": "Pokédex completion percentage (Hisui dex) is the visible gating stat; shown on the Pokédex summary screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched, Hall of Origin page); Bulbapedia (fetched, Temple of Sinnoh page) — two independently-fetched pages agree on the Pokédex-completion + Azure Flute requirement"]
+    },
+    {
+      "category": "character",
+      "name": "Professor Laventon",
+      "detail": "The professor who takes the player in at the start of the game, provides the starter Pokémon, and later crafts the Origin Ball from Red Chain fragments/Origin Ore. His fate/role at the very end of the story (e.g., any framing-device reveal) could not be confirmed.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (fetched)"]
+    },
+    {
+      "category": "character",
+      "name": "Akari / Rei (rival research fellow)",
+      "detail": "Whichever of Akari/Rei is not chosen as the player's own character appears as an NPC — a fellow Survey Corps member and the professor's assistant who befriends and occasionally assists the player. Could not confirm specifics of their arc conclusion or any unique ending role.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (fetched)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex completion (research level per species, overall count)", "where": "Pokédex menu", "confidence": "high" },
+    { "stat": "Survey Corps rank (No Star through Full Star / 10 stars)", "where": "Likely Arc Phone or player profile screen — exact UI not independently confirmed", "confidence": "low" },
+    { "stat": "Mission/quest log with completed main missions", "where": "Likely a quest/mission log accessible via menu or Arc Phone (standard for the game but not independently screenshotted/confirmed this session)", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Pokémon Legends: Arceus is a single SKU on Switch (no separate 'Diamond'/'Pearl' cartridge versions unlike Brilliant Diamond/Shining Pearl). However, recollection (unconfirmed via search this session) suggests the game may still assign certain version-exclusive wild Pokémon per save file (e.g., Growlithe vs Vulpix, Braviary vs Mandibuzz, Rufflet vs Vullaby) similar to a hidden Diamond/Pearl split — this is a side-content/systems concern, NOT the same as the confirmed, deliberate Adaman-vs-Irida story choice. Could not verify this claim through search this session; flagging as low confidence / needs checking by another scout.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not obtain a verified, verbatim, complete numbered list of all main missions — the mission list was reconstructed via an AI-summarized fetch of Serebii's missions page and showed internal inconsistencies (e.g., a duplicated mission number 13). Total main mission count and exact titles from mission ~13 onward (lake trials, Mount Coronet, postgame Plate missions) need re-verification against a primary source before being used for trophy names.",
+    "Could not confirm the exact location name where the optional mid-game Volo battle occurs (reported as 'Solaceon Ruins' from a single AI-summarized source).",
+    "Could not confirm exact Pokémon team/level for the Volo final battle beyond a single source; treat the listed team (Spiritomb, Roserade, Togekiss, Hisuian Arcanine, Lucario, Garchomp) as unverified.",
+    "Could not confirm whether Giratina is caught by the player after the final battle, or simply defeated/leaves.",
+    "Could not confirm the exact title or number of the true final mission (e.g., whether 'The Deified Pokémon' is real and what it covers) — this came from a single AI-summarized fetch and was not cross-checked.",
+    "Could not confirm exact names of the balm items used per Noble Pokémon beyond a single source (Forest/Marsh/Volcano/Mountain/Snow Balm) — treat as low confidence.",
+    "Could not confirm whether the Survey Corps star-rank system is visibly displayed to the player anywhere in the UI, or whether it's purely a backend/wiki construct — this materially affects whether a 'reach Full Star rank' trophy is viable.",
+    "Could not confirm any post-credits framing-device reveal (e.g., the story being read as a historical record / connecting explicitly to modern Sinnoh in Diamond/Pearl) — could not verify or refute this via search this session.",
+    "Could not confirm missable content within the campaign (e.g., whether skipping the optional mid-game Volo battle permanently locks it out, or whether it remains available later).",
+    "Could not confirm the exact mechanism/UI for starter Pokémon selection (chest choice vs. dialogue choice).",
+    "WebSearch tool was unavailable for this task (session search budget exhausted before this task began); all research relied on WebFetch against specific URLs, several of which 404'd (Bulbapedia mission list page, IGN, Polygon, Rock Paper Shotgun, GameRant, TheGamer, the official Pokemon.com site). This constrained cross-referencing versus what a full multi-source WebSearch pass would normally achieve — findings above should be treated as somewhat less corroborated than the confidence labels of a typical session might suggest, and a follow-up pass with working web search is recommended before finalizing trophy copy for any 'low'/'medium' item here."
+  ]
+}

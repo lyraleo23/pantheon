@@ -1,0 +1,240 @@
+{
+  "beat": "side content",
+  "game": "Pokémon Legends: Arceus",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Hisui Pokédex total entries",
+      "detail": "The Hisui Pokédex contains 242 total Pokémon entries (dex #001-#242).",
+      "trackable": "Each entry appears in the in-game Pokédex (a physical book, not electronic). Book appearance changes/becomes less damaged-looking as more entries are filled out.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: List of Pokémon by Hisui Pokédex number", "Serebii.net Hisui Pokédex listing"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Pokédex completion requirement excludes 4 species",
+      "detail": "Only 238 of the 242 Hisui dex entries are required to be obtained for full Pokédex completion. Phione, Manaphy, Shaymin, and Darkrai are excluded from the completion requirement (special/event-adjacent availability).",
+      "trackable": "Not explicitly confirmed where a 'Pokédex complete' flag is shown, but implied via the book state and likely an in-game acknowledgment/reward.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: List of Pokémon by Hisui Pokédex number"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Research Level system per species",
+      "detail": "Each Pokémon species has an individual research level, capping at 10 ('Complete!' status). If ALL research goals/tasks for that species are also finished (not just level 10), the status upgrades further to 'Perfect!'. Both Complete and Perfect status increase that species' shiny encounter rate. Research goals/tasks can accumulate progress before the Pokémon is even caught, becoming valid retroactively once caught.",
+      "trackable": "Shown per-species in the Pokédex entry (research level displayed with each Pokémon's dex page).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Research task (Legends: Arceus)"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Research task point values",
+      "detail": "Most individual research tasks grant 1 research level worth of points (10 points); tasks marked as more significant grant 2 levels (20 points). Reaching Research Level 10 ('Complete') for a species awards a bonus 100 research points (used toward Galaxy Team rank progression). Task categories include: catching (overall, alpha, large/small/heavy/light variants, specific times of day), observing moves (including Strong/Agile Style moves, leaps from trees/ore deposits), defeating (overall and with specific move types), evolving, giving food, using items (e.g. Scatter Bang to scare), and obtaining specific forms.",
+      "trackable": "Per-species research task checklist visible in that Pokémon's Pokédex entry.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Research task (Legends: Arceus)", "Serebii.net Research Tasks overview"]
+    },
+    {
+      "category": "pokedex",
+      "name": "No overall Pokédex completion percentage UI",
+      "detail": "The Legends: Arceus Pokédex is depicted as a physical book rather than an electronic device. No source found confirms an on-screen numeric completion percentage or 'X/242' counter. The book's visual condition (damage/wear) changes as more entries are filled, and the player's Galaxy Team rank is tracked on the book's cover — but this is rank, not raw dex completion percentage.",
+      "trackable": "Ambiguous — visual book state changes, but no confirmed explicit percentage/counter display.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokédex (general article, Legends: Arceus section)"]
+    },
+    {
+      "category": "system",
+      "name": "Galaxy Team / Survey Corps Rank",
+      "detail": "The player has a rank system running from 'No Star' up to 'Full Star' (10 stars) — roughly 11 total rank levels. Ranks are earned via research points (from completing research tasks/leveling up dex entries) and possibly requests. Exact earning mechanism per rank-up threshold not confirmed.",
+      "trackable": "Tracked on the Pokédex book's cover per one source; exact other UI locations unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Galaxy Team"]
+    },
+    {
+      "category": "sidequest",
+      "name": "Requests system — total count",
+      "detail": "Requests are optional NPC-given missions, separate from main story Missions. One community source stated a total of 122 requests, but this could not be independently corroborated. Individually confirmed to exist: Requests up to at least #102 ('Daybreak', the finale request involving Arceus). Numbers of specific named requests confirmed: #22 'Eerie Apparitions in the Night' (collect 107 wisps across Hisui), #26 (unlocks the balloon-popping minigame), #91 'On the Trail of Giratina', #92 (Shaymin, requires linked Pokémon Sword/Shield save data), #93 (Darkrai, requires linked Brilliant Diamond/Shining Pearl save data), #94 'Incarnate Forces of Hisui', #102 'Daybreak' (final request; leads to catching Arceus and unlocks Eternal Battle Reverie), #102 also mentioned in relation to a photo-related NPC visit unlock.",
+      "trackable": "Yes — characters with pending requests display a black circle marker above their head, visible both on the overworld and on the map when guidance is active.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (Requests-related pages via search)", "Serebii.net Requests overview"]
+    },
+    {
+      "category": "sidequest",
+      "name": "Requests #22, #91, #94 required for full completion",
+      "detail": "These three requests were called out by a source as required to complete the true final mission 'without trading' — because certain Pokémon needed for full Pokédex/story completion are only obtainable by completing them.",
+      "trackable": "Requests board / NPC markers.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (via search summary, page title not directly confirmed)"]
+    },
+    {
+      "category": "sidequest",
+      "name": "Request #92 (Shaymin) and #93 (Darkrai) require save data linking",
+      "detail": "Request 92 unlocks Shaymin content, gated behind having a Pokémon Sword/Shield save file on the system. Request 93 unlocks Darkrai content, gated behind having a Pokémon Brilliant Diamond/Shining Pearl save file. If a player does not own/have played those linked games, this content may be unavailable or require workarounds — a real version/ownership-dependent gap.",
+      "trackable": "Requests board.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["Bulbapedia (via search summary)"]
+    },
+    {
+      "category": "system",
+      "name": "Space-Time Distortions",
+      "detail": "Anomalies linked to a larger rift above Mount Coronet. They spawn after the player spends continuous time exploring an area without resting: 10% chance to appear at 5 minutes, scaling up to 100% chance by 40 minutes. Intense sun, snowstorms, or thunderstorms block spawning. Once active, wild Pokémon in the area despawn and groups of up to 3 aggressive Pokémon spawn repeatedly (each group vanishes after 20 seconds if not caught/dealt with); three rare, fixed-location Pokémon spawn within each distortion (species vary by region, e.g. Porygon-Z in Crimson Mirelands, Scizor in Alabaster Icelands). After catching Dialga/Palkia, Hisuian-form-exclusive Pokémon can also appear via distortions. No confirmed dedicated tracking statistic (e.g., 'distortions entered' counter) was found.",
+      "trackable": "Distortions are visible/audible in the world when active but no confirmed persistent counter of times entered.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Space-time distortion"]
+    },
+    {
+      "category": "sidecontent",
+      "name": "Mass Outbreaks and Massive Mass Outbreaks",
+      "detail": "Mass Outbreaks: events where many Pokémon of the same evolutionary line spawn in one location (10-15 total spawns, 4 present at a time). Massive Mass Outbreaks: larger events combining 11-15 individual outbreaks in one area, drawing from an expanded species pool including some otherwise-unique spawns. Massive Mass Outbreaks were added in the free v1.1.0 'Daybreak' update (prior to that, only standard Mass Outbreaks existed). Both types are repeatable and non-missable; a new outbreak has roughly a 20% chance to appear in an area when the player returns to Jubilife Village.",
+      "trackable": "Both outbreak types are shown as icons on the Hisui region-select map (a Pokémon headshot icon for standard outbreaks, a question mark icon for massive ones — the latter can be revealed by visiting or by giving Aguav Berries to Mai's Munchlax).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Mass Outbreak"]
+    },
+    {
+      "category": "postgame",
+      "name": "Eternal Battle Reverie",
+      "detail": "A continuous battle gauntlet (Hisui's battle-facility equivalent), unlocked after completing Request 102 'Daybreak' and catching Arceus. Accessed thereafter by choosing 'I'd rather battle' when interacting with the player's bed. Pokémon are NOT automatically healed between battles; players earn points during the run to purchase 'wish' effects (HP/PP restoration, etc.) instead. Win streak is tracked, capped for display purposes at 999 (actual max recorded internally is 998, with anything beyond shown as 'battle 999'). On the 50th consecutive win, the player faces Arceus itself as the only possible opponent; defeating it grants a golden stamp reward.",
+      "trackable": "Win streak count is tracked and shown to the player during the mode.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Bulbapedia: Eternal Battle Reverie"]
+    },
+    {
+      "category": "postgame",
+      "name": "Request 102 'Daybreak' — true final content, catching Arceus",
+      "detail": "The culminating post-game request, added as part of the free v1.1.0 'Daybreak' update (released Feb 27, 2022). Completing it leads to catching Arceus at the Hall of Origin and unlocks the Eternal Battle Reverie postgame battle mode.",
+      "trackable": "Requests board.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Legends: Arceus (main article)", "Bulbapedia: Eternal Battle Reverie"]
+    },
+    {
+      "category": "postgame",
+      "name": "Hall of Origin",
+      "detail": "A post-game-accessible location where the Mythical/titular Pokémon Arceus resides, tied to the Coronet Highlands/Mount Coronet area lore.",
+      "trackable": "Not applicable (location, not a stat).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Coronet Highlands", "Bulbapedia: Pokémon Legends: Arceus"]
+    },
+    {
+      "category": "postgame",
+      "name": "Noble Pokémon rematches (Path of Solitude / Path of Tenacity)",
+      "detail": "The five Noble Pokémon story bosses can be rematched post-game by talking to their associated Warden at the noble's original arena: Kleavor 'Lord of the Woods' (Obsidian Fieldlands), Lilligant-Hisui 'Lady of the Ridge' (Crimson Mirelands), Arcanine-Hisui 'Lord of the Isles' (Cobalt Coastlands), Electrode-Hisui 'Lord of the Hollow' (Coronet Highlands), Avalugg-Hisui 'Lord of the Tundra' (Alabaster Icelands). In rematches they appear at Level 70 with maxed effort levels, and the player is timed for a personal record. Separately, the Training Grounds in Jubilife Village offers 'Path of Solitude' (single-Pokémon battles with escalating difficulty, e.g. against a Bidoof, Eevee, Wormadam) and 'Path of Tenacity' (rematches against Wardens/other characters).",
+      "trackable": "Personal best time recorded for noble rematches (implied, not confirmed where displayed). No confirmed formal completion log for Path of Solitude/Tenacity progress.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Noble Pokémon", "Bulbapedia: Pokémon Legends: Arceus"]
+    },
+    {
+      "category": "npc",
+      "name": "Wardens (Diamond Clan and Pearl Clan) — full roster",
+      "detail": "Diamond Clan wardens: Mai (Obsidian Fieldlands, associated with ride Pokémon Wyrdeer), Arezu (Crimson Mirelands, noble Lilligant), Melli (Coronet Highlands, noble Electrode), Sabi (Alabaster Icelands, ride Pokémon Braviary-Hisui). Pearl Clan wardens: Lian (Obsidian Fieldlands, noble Kleavor), Iscan (Cobalt Coastlands, ride Pokémon Basculegion), Palina (Cobalt Coastlands, noble Arcanine), Ingo (Coronet Highlands, ride Pokémon Sneasler), Gaeric (Alabaster Icelands, noble Avalugg). Several of these (Ingo, Lian, Gaeric, Sabi, Melli, Arezu) can be rematched in Jubilife Village's Training Grounds post-game.",
+      "trackable": "Not applicable directly, though ties into Noble rematch and Training Grounds progress.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Warden"]
+    },
+    {
+      "category": "minigame",
+      "name": "Balloon-popping minigame",
+      "detail": "Unlocked via Request 26, hosted by Taggart at the practice field. Players get 1 minute with unlimited Poké Balls to pop Drifloon-shaped balloons: purple balloons = 100 points, yellow balloons = 200 points, with bonus points for multiple pops in a single throw. Rewards scale with points earned (balls, crafting materials).",
+      "trackable": "Score displayed during/after each minigame attempt; unclear if a persistent high-score record is kept.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Jubilife Village"]
+    },
+    {
+      "category": "minigame",
+      "name": "Photography Studio",
+      "detail": "Operated by Dagero in Jubilife Village, available after completing Mission 2. Lets the player take solo or Pokémon photos with customizable pose, expression, lens filter, and background. After completing Request 102, other characters can randomly visit to request joint photos.",
+      "trackable": "Not confirmed whether photos taken are tallied/counted anywhere.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Jubilife Village"]
+    },
+    {
+      "category": "area",
+      "name": "Secret/optional sub-areas — Coronet Highlands",
+      "detail": "Wayward Cave (maze of tunnels leading to Wayward Wood), Primeval Grotto (forest + two-room grotto cave), Celestica Ruins (stone columns/statues of Dialga, Palkia, Giratina — lore significant), Hall of Origin (Arceus's post-game location).",
+      "trackable": "Not applicable (exploration areas).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Coronet Highlands"]
+    },
+    {
+      "category": "area",
+      "name": "Secret/optional sub-areas — Alabaster Icelands",
+      "detail": "Secret Hollow (cavern below Lake Acuity, entrance blocked by breakable rocks), Heart's Crag (secluded forest reachable only via ride Pokémon), Acuity Cavern (underground chamber beneath Lake Acuity), Ice Column Chamber (icy cavern where alpha Froslass can be found).",
+      "trackable": "Not applicable (exploration areas).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Alabaster Icelands"]
+    },
+    {
+      "category": "area",
+      "name": "Ancient Retreat",
+      "detail": "A small settlement in northeastern Hisui, a secluded riverside camp with a single house inhabited by Cogita (its only resident). Becomes accessible after Kamado banishes the player from Jubilife Village (mid-story story beat); Cyllene's Abra then allows Pokémon transfers between the Retreat and Jubilife Village's pastures. Contains a crafting station and item storage box. After Mission 13, Volo temporarily operates a shop there (Poké Balls, Potions, Revives, Cake-Lure Bases). Missions/requests can be accepted here, including trials at the three lakes and plate-seeking missions. Cogita rewards the player with the Pixie Plate for bringing 3 pieces of wood, and the Reveal Glass for completing all Pokédex entries for the forces of nature (the genies/Therian-related Pokémon).",
+      "trackable": "Reveal Glass reward implies a trackable sub-goal (completing dex entries for the 'forces of nature' group).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Ancient Retreat"]
+    },
+    {
+      "category": "dlc",
+      "name": "No paid DLC or expansion pass",
+      "detail": "Pokémon Legends: Arceus received no paid downloadable content or expansion pass, unlike Pokémon Scarlet/Violet's paid 'Hidden Treasure of Area Zero' DLC. It only received free post-launch updates, most notably the 'Daybreak' update (v1.1.0), released February 27, 2022, which added new post-game requests (including the Massive Mass Outbreak phenomenon and Request 102), and the ability to catch Arceus.",
+      "trackable": "Not applicable.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Bulbapedia: Pokémon Legends: Arceus (main article, update history section)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Wisps ('Eerie Apparitions in the Night', Request 22)",
+      "detail": "This request tasks the player with collecting 107 wisps scattered across Hisui.",
+      "trackable": "Likely tracked via a request-specific progress counter while the request is active; unclear if wisp count persists/displays after completion.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Bulbapedia (via search summary)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-species Research Level (0–10, with 'Complete' and 'Perfect' status flags)", "where": "Individual Pokémon's Pokédex entry page", "confidence": "high" },
+    { "stat": "Pending Requests indicator", "where": "Black circle icon over NPC heads in the overworld and on the map (when guidance is active)", "confidence": "medium" },
+    { "stat": "Mass Outbreak / Massive Mass Outbreak locations", "where": "Icons on the Hisui region-select map (Pokémon headshot icon = mass outbreak; question mark icon = massive mass outbreak)", "confidence": "high" },
+    { "stat": "Eternal Battle Reverie win streak", "where": "Displayed during the Eternal Battle Reverie mode, caps display at 999", "confidence": "high" },
+    { "stat": "Galaxy Team / Survey Corps rank (No Star to Full Star, ~11 levels)", "where": "Possibly shown on the Pokédex book cover; exact UI location not fully confirmed", "confidence": "low" },
+    { "stat": "Overall Pokédex completion percentage/count", "where": "Not confirmed to exist as an explicit numeric display; Pokédex book's visual wear changes with progress instead", "confidence": "medium" },
+    { "stat": "Balloon minigame score", "where": "Shown during/after each attempt; persistent high-score tracking not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "No platform-version differences found — Pokémon Legends: Arceus was released only on Nintendo Switch, so no cross-platform content differences apply.", "confidence": "high" },
+    { "note": "The 'Daybreak' content (Request 102, Massive Mass Outbreaks, catching Arceus, Eternal Battle Reverie) was added post-launch via the free v1.1.0 update rather than being present at initial January 2022 launch — relevant if trophy design needs to assume the game is fully patched.", "confidence": "medium" },
+    { "note": "Shaymin (Request 92) and Darkrai (Request 93) content requires linked save data from Pokémon Sword/Shield and Brilliant Diamond/Shining Pearl respectively — players without those games/saves may be unable to access this content normally.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact total number of Requests in the game — one weak source claimed 122 total, but I only independently verified requests exist up to #102 (Daybreak) through fetched sources. The true total (and whether it's higher than 102, e.g. including further post-Daybreak requests) needs verification.",
+    "Could not confirm whether the game displays an explicit overall Pokédex completion percentage or 'X/242' counter anywhere in the UI (Pokédex book, save file, or elsewhere) — this is a load-bearing gap for any 'complete the Pokédex' trophy design, since the physical-book presentation may only show relative wear/condition, not a hard number.",
+    "Could not fully verify the exact list of research task categories per species, nor whether task lists differ significantly between species (some Pokémon likely have fewer than the full ~25 task types available).",
+    "Could not confirm exactly how Galaxy Team/Survey Corps rank point thresholds work (how many research points needed per rank-up) or find a confirmed on-screen display location for current rank.",
+    "Could not confirm whether Space-Time Distortions have any persistent counter (e.g., 'distortions entered' or 'rare Pokémon caught in distortions') tracked anywhere.",
+    "Could not confirm whether the balloon-popping minigame keeps a persistent high score across attempts.",
+    "Could not confirm whether photos taken in the Photography Studio are counted/tallied anywhere (e.g., an album or gallery with a completion count).",
+    "Could not verify additional named/notable requests beyond the handful confirmed (#22, #26, #91, #92, #93, #94, #102) — a full request list (with exact total count) was not successfully retrieved despite multiple attempts (target pages returned 404 or were inaccessible).",
+    "Could not confirm exact requirements or scope of 'complete all Pokédex entries for the forces of nature' needed for the Reveal Glass reward at Ancient Retreat (which specific Pokémon species count toward this).",
+    "Web search tool was unavailable for this session (budget exhausted before this task began); all research relied on WebFetch against known reference URLs (primarily Bulbapedia and Serebii), several of which returned 404 and could not be retrieved (e.g., dedicated Requests list page, Kamado's warden context, IGN and Fandom wiki post-game pages). A follow-up pass with search enabled would likely close several of the gaps above."
+  ]
+}
