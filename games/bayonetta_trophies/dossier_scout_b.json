@@ -1,0 +1,192 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game content, costumes/unlockables, and DLC",
+  "game": "Bayonetta (2009)",
+  "platform": "Nintendo Wii U (port bundled with Bayonetta 2: Special Edition, later standalone eShop release)",
+  "note": "This is PORT MODE research. Native trophy/achievement lists (PS3/360/Steam) exist separately; this dossier covers general factual research on the assigned beat only.",
+  "facts": [
+    {
+      "topic": "weapons_count",
+      "finding": "Bayonetta (2009) has approximately 12-13 weapons total (excluding the base Handguns/Scarborough Fair): Scarborough Fair (default guns), Onyx Roses, Shuraba, Kulshedra, Durga, Odette, Lt. Col. Kilgore, Sai Fung, Bazillions, Pillow Talk, and Rodin. Exact canonical total count could not be independently cross-verified against an official source.",
+      "confidence": "medium",
+      "source": "gamerant.com/bayonetta-1-unlock-all-weapons, bayonetta.fandom.com weapon category pages",
+      "notes": "AI-summarized fetch of the gamerant article had likely-garbled details (e.g. 'Sai Fung: Complete 100 chapters on Normal+' and 'Onyx Roses: Defeat Beloved' phrasing may be imprecise). Treat individual unlock descriptions as medium/low confidence pending primary-source verification. Rakshasa is confirmed Bayonetta 2-exclusive, NOT in Bayonetta 1."
+    },
+    {
+      "topic": "weapon_names_verified",
+      "finding": "Confirmed weapon names existing in Bayonetta (2009): Scarborough Fair (default handguns), Onyx Roses (shotguns, souls of fairies), Shuraba (living katana, soul of demon god Ashura, obtained after defeating the Beloved boss(es)), Kulshedra (possessed whip), Durga (fire/lightning claw gauntlets, Golden LP unlock), Odette, Lt. Col. Kilgore, Sai Fung (nunchaku-style revolvers on a chain), Bazillions (gun-type weapon resembling Scarborough Fair but shots cannot be blocked/reflected, unlocked via beating Hard mode or a phone cheat code for 1,000,000 Halos), Pillow Talk (unlocked via completing Non-Stop ∞ Climax mode), Rodin (unlocked by purchasing a 'Platinum Ticket' at Gates of Hell for either 999,999 or 9,999,999 Halos, sources disagree, then defeating Father Rodin himself).",
+      "confidence": "medium",
+      "source": "bayonetta.fandom.com/wiki/Weapons, bayonetta.fandom.com weapon category listing, gamerant.com, in-search snippets",
+      "notes": "Halos cost for the Rodin fight ticket is inconsistent across sources (999,999 vs 9,999,999) - needs primary confirmation before using in a trophy description."
+    },
+    {
+      "topic": "weapon_unlock_currency",
+      "finding": "Several weapons (Kulshedra, Durga, Odette, Lt. Col. Kilgore) are unlocked by collecting a set number of Angelic Hymns Gold LP fragments/records during specific chapters and delivering them to Rodin at the Gates of Hell, who forges them into weapons.",
+      "confidence": "medium",
+      "source": "bayonetta.fandom.com, gamerant.com/bayonetta-1-unlock-all-weapons",
+      "missable": true,
+      "notes": "Gold LPs can be missed if not collected during the relevant chapter, though replaying chapters via Chapter Select generally allows retroactive collection since this is a beat-em-up with replayable stages."
+    },
+    {
+      "topic": "gold_lp_collectible_count",
+      "finding": "There are 9 total Angelic Hymns Gold LP records in Bayonetta (2009). The 'Record Fanatic' reward (a trophy/achievement on the native PS3/360/Steam lists) requires collecting 7 of the 9.",
+      "confidence": "medium",
+      "source": "Search-aggregated result citing bayonetta.fandom.com/wiki/Record_Fanatic and related community guides",
+      "notes": "Could not directly fetch the Record Fanatic wiki page (repeated 402 errors) to confirm this number against primary source. Gold LPs are found either whole or in broken pieces scattered through chapters/Umbran Resting Places."
+    },
+    {
+      "topic": "alfheim_portals_count",
+      "finding": "There are 21 Alfheim Portals total, distributed across chapters as follows: Chapter 1 (1), Chapter 2 (3), Chapter 3 (4), Chapter 5 (3), Chapter 6 (1), Chapter 9 (3), Chapter 10 (2), Chapter 12 (2), Chapter 15 (1), Requiem (1).",
+      "confidence": "high",
+      "source": "selphie1999gaming.com/game-guides/bayonetta-all-21-alfheim-portal-locations-path-to-the-heavens-trophy-achievement-guide, steamcommunity.com guide 907908396, PlayStationTrophies.org Alfheim Portal Strategy Guide",
+      "missable": false,
+      "notes": "Portals are tied to specific chapters/verses but are generally re-accessible by replaying the chapter via Chapter Select (standard Bayonetta chapter-replay structure), so not considered permanently missable in a single playthrough sense."
+    },
+    {
+      "topic": "alfheim_challenge_types",
+      "finding": "Alfheim Portal challenges are timed trials with varying rule sets, including: defeat all enemies before time expires using Witch Time, limited number of kicks/punches allowed, defeat all enemies (no restriction), use Torture Attacks to finish enemies before time expires, stay airborne, use Angel Attack/Angel Arms, Witch Time disabled, use only Wicked Weaves, and an 'Out-of-Body' battle variant.",
+      "confidence": "medium",
+      "source": "selphie1999gaming.com Alfheim Portal guide",
+      "notes": "Names/exact wording of challenge conditions are guide paraphrases, not verified against in-game text strings."
+    },
+    {
+      "topic": "alfheim_completion_reward",
+      "finding": "Completing all 21 Alfheim Portals (and finishing the associated chapters) unlocks the Lost Chapter: Angel Slayer, a bonus/secret chapter consisting of 51 individual battles spread across 5 verses.",
+      "confidence": "high",
+      "source": "selphie1999gaming.com Alfheim Portal guide, steamcommunity.com guide 907908396",
+      "missable": false
+    },
+    {
+      "topic": "costumes_base_list",
+      "finding": "The base game's alternate costume set ('Couture Bullets') includes: d'Arc (Jeanne/French-fashion-inspired), Nun, Old (500-years-prior period dress), P.E. Uniform (3 color/type variants), Queen, Umbra, Umbran Komachi Kimono (3 color variants), and 'Various' body-suit types (including bikini and cheerleader variants). All are purchased individually for 100,000 Halos each at the Gates of Hell shop, but first require purchasing the 'Super Mirror' item for 100,000 Halos, which itself unlocks after clearing all chapters on Normal difficulty.",
+      "confidence": "medium",
+      "source": "videogamesblogger.com (2009) unlock guide, bayonetta.fandom.com/wiki/Rodin's_Treasures/Costumes_(Bayonetta) (via search snippet)",
+      "notes": "Costume naming ('Couture Bullet' as the purchasable item name for each costume) confirmed by two independent sources, giving medium confidence. Full canonical list/count not independently verified via direct wiki fetch (fandom.com returned repeated 402 errors)."
+    },
+    {
+      "topic": "nintendo_exclusive_costumes",
+      "finding": "The Wii U port of Bayonetta (2009) added Nintendo-character-themed costumes not present in the PS3/360/Steam versions: a Princess Peach/Princess Daisy costume (Mario series) and a Samus Aran Power Suit costume (Metroid series), plus a Link costume (Zelda series). These same three costumes also appear in Bayonetta 2 (Wii U exclusive). A Fox McCloud 'Star Fox' costume exists but is exclusive to Bayonetta 2 only, NOT the original Bayonetta port.",
+      "confidence": "high",
+      "source": "siliconera.com/bayonetta-samus-link-peach-star-fox-costumes-bayonetta-2, nintendojo.com, nintendolife.com",
+      "versionSpecific": true
+    },
+    {
+      "topic": "nintendo_costume_gameplay_effects",
+      "finding": "Reported gameplay effects (per secondary summary, not directly verified via primary fetch): Peach/Daisy costume changes Halos drops to Gold Coins with a Mario coin sound, and Wicked Weave summons change to Bowser's fists/feet instead of Madama Butterfly. Samus costume changes Bayonetta's gunfire to an arm-cannon blaster with Metroid Prime-style sound/visuals. Link costume reportedly grants the parry ability automatically without purchasing the 20,000-Halo parry accessory.",
+      "confidence": "low",
+      "source": "Aggregated web search summary referencing nintendolife.com feature (direct fetch of that page failed with 403)",
+      "notes": "Could not confirm directly against nintendolife.com article text; treat gameplay-effect specifics as unverified until cross-checked."
+    },
+    {
+      "topic": "nintendo_costume_zero_suit_samus",
+      "finding": "Could NOT confirm a 'Zero Suit Samus' costume in Bayonetta (Wii U) or Bayonetta 2. All sources found reference only the standard Samus Power Suit costume. This appears to be a misremembered/unconfirmed detail from the brief.",
+      "confidence": "low",
+      "source": "Absence of evidence across siliconera.com, nintendolife.com, nintendojo.com, sportskeeda.com search results",
+      "notes": "Flagging explicitly per instructions not to guess. Recommend NOT building a trophy around a 'Zero Suit Samus' costume unless independently reconfirmed."
+    },
+    {
+      "topic": "nintendo_costume_unlock_condition",
+      "finding": "Could not confirm whether the Nintendo-themed costumes are available from the start on Wii U or require an unlock condition (Halos purchase, chapter completion, etc.).",
+      "confidence": "low",
+      "source": "gap - no source found specifying unlock condition",
+      "notes": "Needs direct verification, e.g. via a Wii U-specific costume guide or the Rodin's Treasures/Costumes (Bayonetta) wiki page (which could not be fetched)."
+    },
+    {
+      "topic": "angel_attack_minigame",
+      "finding": "Angel Attack! is a shooting-gallery-style arcade minigame that plays automatically after completing each chapter. The player (as Bayonetta, Jeanne, or a masked figure called 'Zero' depending on context) is given 9 bullets by default, plus 3 additional bullets per 'Arcade Bullet' collectible found during that chapter. Points scored convert to Halos (100 Halos per point) or items when the round ends (all bullets spent), or the player can end early for a bonus of 200 Halos per unused bullet.",
+      "confidence": "medium",
+      "source": "bayonetta.fandom.com/wiki/Angel_Attack! (via search snippet)",
+      "notes": "Mechanically substantial enough to be a distinct minigame with its own scoring loop; plausible trophy candidate (e.g. 'perfect' Angel Attack score), but no confirmed max-score or perfect-clear benchmark was found in this research pass."
+    },
+    {
+      "topic": "combat_medal_ranking",
+      "finding": "Each Verse (combat encounter) is scored and awarded a medal at its conclusion: Stone (lowest), Bronze, Silver, Gold, Platinum, and Pure Platinum (highest). Rankings factor in combo variety/length, clear time, and damage taken. Chapter-end rank appears to aggregate Verse medals, with dying multiple times capping the chapter at Stone regardless of individual medal performance.",
+      "confidence": "medium",
+      "source": "gamefaqs.gamespot.com boards (community answers), twinfinite.net (Bayonetta 3 mechanic description used for cross-reference), bayonetta.fandom.com/wiki/Platinum!",
+      "notes": "Core medal-tier list (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum) is well-attested for the Bayonetta series generally; exact numeric thresholds for Bayonetta 1 specifically were not confirmed."
+    },
+    {
+      "topic": "difficulty_modes_and_unlocks",
+      "finding": "Bayonetta (2009) difficulty modes, in unlock order: Very Easy, Easy, and Normal are available from the start. Hard unlocks after completing all chapters on Normal. Non-Stop ∞ Climax (the game's hardest/endless-style mode) unlocks after completing all chapters on Hard.",
+      "confidence": "medium",
+      "source": "bayonetta.fandom.com/wiki/%E2%88%9E_Climax (via search snippet), gameplay wiki page",
+      "notes": "The mode is specifically named 'Non-Stop ∞ Climax' in the first game (distinct from later games' 'Infinite Climax' naming)."
+    },
+    {
+      "topic": "lost_chapter_angel_slayer",
+      "finding": "Angel Slayer is a bonus/secret 'Lost Chapter' unlocked by completing all 21 Alfheim Portals. It consists of 51 battles across 5 verses, functioning as an arena/survival-style challenge gauntlet distinct from the main story chapters.",
+      "confidence": "high",
+      "source": "selphie1999gaming.com, steamcommunity.com guide 907908396",
+      "missable": false
+    },
+    {
+      "topic": "secret_final_superboss",
+      "finding": "Could not confirm a separate optional/secret superboss beyond the main story's climactic fights. Queen Sheba, often mentioned in searches about 'secret bosses,' is actually part of the final story boss sequence (summoned during the climax against Jubileus), not an optional hidden encounter.",
+      "confidence": "low",
+      "source": "Aggregated search result discussing tvtropes.org and community threads",
+      "notes": "No evidence found of a true hidden/optional superboss distinct from Angel Slayer or the story's final battles."
+    },
+    {
+      "topic": "paid_dlc_original_release",
+      "finding": "Could not find evidence that the original 2009 Bayonetta release (PS3/Xbox 360) had paid, purchasable DLC costumes or content. All alternate costumes appear to be unlocked via in-game Halos currency progression (the Couture Bullet/Super Mirror system), not real-money microtransactions. No confirmed preorder-exclusive costumes were found either.",
+      "confidence": "medium",
+      "source": "Aggregated search results; unable to fetch segaretro.org/Bayonetta/Downloadable_content (403 error) which likely would have been the authoritative source",
+      "notes": "This is a negative finding (absence of DLC) — flagging as medium rather than high confidence since the most likely authoritative source (SEGA Retro's dedicated DLC page) could not be accessed directly."
+    },
+    {
+      "topic": "wii_u_port_dlc_or_paid_content",
+      "finding": "No evidence found of any paid DLC specific to the Wii U port of Bayonetta (2009). The Nintendo costumes and the bundling with Bayonetta 2 appear to be built into the port at no extra charge (Bayonetta 2's 'Special Edition' physical release included a disc/download of the original Bayonetta for free; standalone Wii U eShop version listed separately but content was the same complete port).",
+      "confidence": "medium",
+      "source": "Aggregated search results (Wikipedia Bayonetta 2 article summary, general coverage)",
+      "notes": "Could not verify eShop-standalone pricing/content parity independently in this pass."
+    },
+    {
+      "topic": "lp_halos_lifetime_counter",
+      "finding": "Could not confirm whether the game displays a lifetime/cumulative total of Halos earned (as opposed to current spendable balance) anywhere in a menu or stats screen. The Gates of Hell shop shows the player's current Halos balance for spending purposes, but a persistent 'total earned' or 'total collected' counter was not confirmed.",
+      "confidence": "low",
+      "source": "gap - no direct confirmation found; repeated fetch failures on wiki 'Halos' and stats-related pages",
+      "notes": "This is important: if no lifetime counter exists, a 'collect X total Halos' trophy would not be player-trackable in-game."
+    },
+    {
+      "topic": "in_game_collectible_tracking_menu",
+      "finding": "Could not confirm the existence of an explicit in-game checklist/menu tracking Alfheim Portal completion (e.g., 'X/21 collected') or Gold LP collection progress (e.g., 'X/9 collected') outside of the Chapter Select screen showing per-chapter completion/medal status.",
+      "confidence": "low",
+      "source": "gap - not found in this research pass",
+      "notes": "This is load-bearing: without a confirmed checklist, trophies referencing 'collect all 21 Alfheim Portals' or 'find all 9 Gold LPs' rely on players manually tracking via external guides rather than an in-game counter. Chapter Select itself likely shows chapter-level completion/medal icons, which is a confirmed trackable stat, but portal/LP-specific sub-tracking is unconfirmed."
+    },
+    {
+      "topic": "weapon_and_costume_menus",
+      "finding": "Weapons and costumes are selectable/manageable via pre-chapter equipment menus (weapon loadout screen and 'wardrobe'/costume select), which by nature display which items are owned versus locked, making 'own all weapons' and 'own all costumes' plausibly trackable via those menus.",
+      "confidence": "low",
+      "source": "General genre/series knowledge, not independently confirmed via a fetched primary source this session",
+      "notes": "Reasonable inference based on standard Bayonetta series UI conventions but not directly verified for the Wii U build specifically."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-Verse combat medal (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum)", "where": "End-of-Verse results screen; likely also summarized on Chapter Select", "confidence": "medium" },
+    { "stat": "Current Halos balance", "where": "Gates of Hell shop screen", "confidence": "medium" },
+    { "stat": "Chapter completion / replay status", "where": "Chapter Select menu", "confidence": "medium" },
+    { "stat": "Weapon ownership", "where": "Weapon loadout/equip menu (inferred, not directly confirmed for this build)", "confidence": "low" },
+    { "stat": "Costume ownership", "where": "Costume/wardrobe select menu (inferred, not directly confirmed for this build)", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Wii U version adds Nintendo-character-themed costumes not present on PS3/Xbox 360/Steam: Peach/Daisy (Mario) and Samus Aran (Metroid), plus Link (Zelda). These carried over into Bayonetta 2 as well.", "confidence": "high" },
+    { "note": "Fox McCloud (Star Fox) costume is exclusive to Bayonetta 2 and does NOT appear in the original Bayonetta port on Wii U.", "confidence": "high" },
+    { "note": "A 'Zero Suit Samus' costume could not be confirmed to exist in either Bayonetta or Bayonetta 2; only the standard Samus Power Suit costume is documented.", "confidence": "low" },
+    { "note": "The original Bayonetta was bundled for free with Bayonetta 2's Special Edition physical release on Wii U, and was also sold/available standalone via the Wii U eShop.", "confidence": "medium" },
+    { "note": "No paid DLC has been identified for either the original 2009 release or the Wii U port specifically; all costume/weapon unlocks use the in-game Halos economy.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the exact total weapon count for Bayonetta 1 from a single authoritative source; the list assembled (~12-13 weapons) is a cross-referenced estimate, not a verified canonical count.",
+    "Could not confirm exact Halos cost for the Rodin weapon's Platinum Ticket (sources gave both 999,999 and 9,999,999).",
+    "Could not confirm whether the Wii U version's Nintendo-exclusive costumes (Peach/Daisy, Samus, Link) are unlocked from the start or require a purchase/condition.",
+    "Could not confirm the precise gameplay effects of the Nintendo costumes against a primary source (secondary summary only, nintendolife.com direct fetch failed with 403).",
+    "Could not confirm whether the game displays a lifetime/cumulative Halos-earned counter anywhere, as opposed to just a current spendable balance.",
+    "Could not confirm whether there is an in-game checklist/menu tracking Alfheim Portal completion (X/21) or Gold LP collection (X/9) outside of manually revisiting chapters.",
+    "Could not directly verify the full canonical costume list and pricing against the Bayonetta Wiki's dedicated 'Rodin's Treasures/Costumes (Bayonetta)' page — repeated 402 errors when fetching bayonetta.fandom.com pages throughout this research session blocked several verification attempts.",
+    "Could not verify exact numeric score/medal thresholds (e.g., what combo length or time triggers Platinum vs Pure Platinum) for Bayonetta 1 specifically.",
+    "Could not confirm whether Angel Attack has a definable 'perfect score' or completion criterion suitable for a trophy.",
+    "Could not confirm existence or absence of any other secret/hidden superboss beyond Angel Slayer and the story's climax.",
+    "Web search budget was exhausted (200/200) partway through this research session; some planned verification searches (e.g., segaretro.org DLC page cross-check, Wii U costume unlock condition) could not be run.",
+    "Multiple WebFetch attempts to bayonetta.fandom.com pages returned HTTP 402 errors throughout the session (possible tool-side rate limiting rather than a real site issue) — several planned direct-wiki verifications were blocked as a result and had to rely on search-engine snippet summaries instead, which carries higher risk of AI-summarization error."
+  ]
+}

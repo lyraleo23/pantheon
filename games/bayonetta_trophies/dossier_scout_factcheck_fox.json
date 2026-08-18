@@ -1,0 +1,24 @@
+{
+  "question": "Does the original Bayonetta (2009), as ported to Wii U (bundled with Bayonetta 2, 2014), include a Fox McCloud (Star Fox) themed costume unlockable in-game — or is Fox McCloud exclusive to Bayonetta 2?",
+  "answer": "5 costumes, includes Fox",
+  "confidence": "high",
+  "evidence": [
+    {
+      "source": "English Wikipedia, article 'Bayonetta (video game)' (the 2009 original's own article, Sequels section)",
+      "url": "https://en.wikipedia.org/wiki/Bayonetta_(video_game)",
+      "quote": "The game, released in Japan in September 2014 and in North America and Europe in December 2014, features a port of the original Bayonetta, which adds costumes based on Nintendo properties including Super Mario, The Legend of Zelda, Star Fox and Metroid, as well as touch screen controls and dual audio tracks.",
+      "note": "Grammatically, 'which adds costumes' modifies 'a port of the original Bayonetta' — i.e., the sentence attributes the Nintendo-themed costumes (including Star Fox) to the Bayonetta 1 Wii U port itself, not to Bayonetta 2's own campaign. This is on the dedicated Bayonetta 1 article, not the Bayonetta 2 article, reducing the risk of the two games' rosters being conflated."
+    },
+    {
+      "source": "Citation [121] backing the above sentence — official Nintendo E3 webpage (archived)",
+      "url": "Archived version of e3.nintendo.com page titled 'Bayonetta 2 (Wii U) – Nintendo @ E3', archived July 14, 2014, retrieved by Wikipedia editors August 19, 2014",
+      "note": "Primary/official Nintendo source cited directly for the costume claim. Could not independently re-fetch the archived page's full text (web.archive.org fetch blocked in this tool environment), but Wikipedia's citation apparatus attributes the Star Fox costume claim to this official Nintendo E3 material, not to a fan wiki or rumor."
+    },
+    {
+      "source": "English Wikipedia, article 'Bayonetta 2'",
+      "url": "https://en.wikipedia.org/wiki/Bayonetta_2",
+      "note": "Independently corroborates that the bundled original Bayonetta port 'includes exclusive Nintendo costumes,' though this article does not itself enumerate which characters. Consistent with, and does not contradict, the Bayonetta 1 article's claim."
+    }
+  ],
+  "reasoning": "Two independent Wikipedia articles (one specifically about Bayonetta 1, the other about Bayonetta 2) agree that the Wii U port of the ORIGINAL Bayonetta — not just Bayonetta 2's own campaign — received bonus costumes based on Nintendo properties. The Bayonetta 1 article names all four franchises explicitly: Super Mario, The Legend of Zelda, Star Fox, and Metroid, and cites an official Nintendo E3 webpage as the source. Star Fox as a franchise has one iconic playable/mascot character (Fox McCloud), so a 'Star Fox' costume is essentially certain to be Fox McCloud-themed (consistent with the pattern of the other costumes being named for specific characters: Peach/Daisy for Mario, Link for Zelda, Samus for Metroid). This resolves the dispute: the claim that Bayonetta 1's Wii U port has Fox McCloud is correct, and the 'absence-of-evidence' pass that called it Bayonetta-2-exclusive was working from an incomplete source set. Confidence is 'high' rather than 'very high' only because: (a) I could not independently re-fetch the original archived Nintendo E3 page's exact wording (web.archive.org fetch was blocked in this tool environment) to see the precise costume names as Nintendo phrased them, and (b) I could not locate a dedicated third-party costume-list article (Nintendo Life/Siliconera/wiki) with a screenshot to triple-confirm the exact costume count (4 vs 5) and naming, because most gaming sites (IGN, Eurogamer, Nintendo Life, Fandom wikis, GameFAQs) returned 403/402 errors to the fetch tool and the web search budget for this session was exhausted before I could pull alternate sources."
+}

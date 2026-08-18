@@ -1,0 +1,180 @@
+{
+  "beat": "campaign",
+  "game": "Bayonetta (2009)",
+  "platform": "Nintendo Wii U",
+  "facts": [
+    {
+      "topic": "chapter_structure",
+      "finding": "The campaign is structured as: Prologue: The Vestibule, then 16 numbered chapters (Chapter I through Chapter XVI), then Epilogue: Requiem — 18 total story chapters. A 19th, secret bonus chapter (Lost Chapter: Angel Slayer) exists outside the main story. Chapters are subdivided into individual fight/exploration segments called 'Verses'.",
+      "confidence": "high",
+      "source": "Aggregated from bayonetta.fandom.com/wiki/Walkthrough chapter sub-pages (individually confirmed titles for Chapters IV, VII, XI, XIII, XIV, XV, XVI, Prologue, Epilogue), cross-checked against gamerant.com 'Bayonetta 1: How Many Chapters Does It Have' and neoseeker/trueachievements walkthrough listings.",
+      "notes": "Direct page fetches to fandom/neoseeker/trueachievements returned HTTP 402/403 in this session; this list is reconstructed from WebSearch result snippets referencing those pages, not a single primary-source read. Recommend a direct verification pass if possible."
+    },
+    {
+      "topic": "chapter_titles_full_list",
+      "finding": "Prologue: The Vestibule / Chapter I: The Angel's Metropolis / Chapter II: Vigrid, City of Déjà vu / Chapter III: The Burning Ground / Chapter IV: The Cardinal Virtue of Fortitude / Chapter V: The Lost Holy Grounds / Chapter VI: The Gates of Paradise / Chapter VII: The Cardinal Virtue of Temperance / Chapter VIII: Route 666 / Chapter IX: Paradiso - A Remembrance of Time / Chapter X: Paradiso - A Sea of Stars / Chapter XI: The Cardinal Virtue of Justice / Chapter XII: The Broken Sky / Chapter XIII: The Cardinal Virtue of Prudence / Chapter XIV: Isla Del Sol / Chapter XV: A Tower to Truth / Chapter XVI: The Lumen Sage / Epilogue: Requiem / (secret) Lost Chapter: Angel Slayer.",
+      "confidence": "medium",
+      "source": "WebSearch synthesis of bayonetta.fandom.com walkthrough page titles and strategywiki.org/wiki/Bayonetta/Table_of_Contents listing (fetch of strategywiki itself failed with 403; relied on search snippet).",
+      "notes": "Individual Cardinal Virtue chapter titles (IV, VII, XI, XIII) were independently corroborated via separate wiki page-title hits, raising confidence for those four. The full ordered list as a whole is single-sourced synthesis, hence medium overall."
+    },
+    {
+      "topic": "verse_counts",
+      "finding": "Could not confirm exact number of verses per individual story chapter, nor the total verse count across the full campaign.",
+      "confidence": "low",
+      "source": "n/a",
+      "notes": "Gap — see gaps list."
+    },
+    {
+      "topic": "boss",
+      "finding": "Fortitudo, 'Bringer of Flame' — Cardinal Virtue of Fortitude, one of the four Auditio (highest-ranking angels) of the Hierarchy of Laguna. Fought in Chapter IV: The Cardinal Virtue of Fortitude. Mandatory main-path boss.",
+      "trackable": "Not independently confirmed beyond general Verse medal tracking (see ranking system).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bayonetta.fandom.com/wiki/Fortitudo (via search snippet)", "chapter title cross-reference"]
+    },
+    {
+      "topic": "boss",
+      "finding": "Temperantia, 'Manipulator of Wind' — Cardinal Virtue of Temperance, one of the four Auditio. Fought in Chapter VII: The Cardinal Virtue of Temperance, in a tornado arena. Mandatory main-path boss.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bayonetta.fandom.com/wiki/Temperantia (via search snippet)", "chapter title cross-reference"]
+    },
+    {
+      "topic": "boss",
+      "finding": "Iustitia (spelled 'Iustitia' on the wiki, sometimes rendered 'Justitia') — Cardinal Virtue of Justice, one of the four Auditio. Fought in Chapter XI: The Cardinal Virtue of Justice. Mandatory main-path boss.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["bayonetta.fandom.com/wiki/Auditio (via search snippet)", "chapter title cross-reference"]
+    },
+    {
+      "topic": "boss",
+      "finding": "Sapientia — Cardinal Virtue of Prudence, one of the four Auditio. Fought in Chapter XIII: The Cardinal Virtue of Prudence; fight involves surfing across water and damaging Sapientia's legs before an infernal-demon-summon finisher. Mandatory main-path boss.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["goombastomp.com boss ranking article (via search snippet)", "chapter title cross-reference"]
+    },
+    {
+      "topic": "boss",
+      "finding": "Father Balder — Bayonetta's biological father and the last Lumen Sage; orchestrates the plot to resurrect Jubileus. During the resurrection ritual he seals the 'God of Chaos' (Loptr) inside himself, becoming 'Father Balder', whom Bayonetta must defeat. Fought in Chapter XVI: The Lumen Sage. Mandatory main-path boss, penultimate major fight.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["namu.wiki Loki(Bayonetta) page and bayonetta.fandom.com/wiki/Loki (via search snippet synthesis)"],
+      "notes": "The exact in-game boss-name display (whether the game itself labels this fight 'Father Balder' vs simply 'Balder') was not directly confirmed from a primary source; the Loptr-sealing/'Father Balder' framing comes from secondary wiki synthesis, not a verified direct quote."
+    },
+    {
+      "topic": "boss",
+      "finding": "Jubileus the Creator — the true final boss, ruler of Paradiso, resurrected by Father Balder. Fought in Epilogue: Requiem. Bayonetta defeats Jubileus by summoning the demon Queen Sheba to punch the deity's soul into the sun, then destroys its descending physical body with Jeanne's help. Mandatory, final story boss.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["en.wikipedia.org/wiki/Bayonetta_(video_game)", "bayonetta.fandom.com/wiki/Jubileus_the_Creator (via search snippet)"]
+    },
+    {
+      "topic": "boss",
+      "finding": "Jeanne — rival Umbra Witch, fought as a boss multiple times across the campaign (not a single encounter). Later revealed to have been mind-controlled by Balder/Cardinal Virtues and becomes an ally. Mandatory, recurring.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["en.wikipedia.org/wiki/Bayonetta_(video_game)", "thegamer.com boss article (via search snippet)"]
+    },
+    {
+      "topic": "boss_minor",
+      "finding": "Joy — a Seraphim-class angel (capable of shapeshifting/splitting into multiple forms) that Bayonetta fights early in the game in what is described as a 'vogue show-off battle' with no real second phase. Exact chapter placement not confirmed.",
+      "missable": "unknown",
+      "confidence": "low",
+      "sources": ["bayonetta.fandom.com/wiki/Joy (via search snippet)"]
+    },
+    {
+      "topic": "boss_minor",
+      "finding": "Fairness, Beloved, and 'Grace and Glory' are recurring angel enemy types that function as repeated mid-tier boss/mini-boss encounters across multiple chapters of Bayonetta 1 (not one-time unique deity fights like the Cardinal Virtues).",
+      "confidence": "low",
+      "sources": ["WebSearch synthesis of bayonetta.fandom.com enemy pages"],
+      "notes": "Could not verify exact chapters/verses where each appears, nor whether all three are exclusive to Bayonetta 1 vs also/only in Bayonetta 2. 'Golem' and 'Glamor' appear in search results tagged as Bayonetta 2-specific content — do NOT assume they are Bayonetta 1 bosses without further verification."
+    },
+    {
+      "topic": "secret_chapter",
+      "finding": "Lost Chapter: Angel Slayer — a plot-less, secret bonus chapter/survival gauntlet unlocked after finding and completing all 21 Alfheim Portal challenges scattered through the main campaign. Consists of 51 enemy-wave fights split across 5 verses, playable at Normal, Hard, and Non-Stop Infinite Climax difficulty tiers. First-time completion unlocks the demon 'King Zero' as a playable/summonable character. Fully optional, does not block main-story completion.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["chaptercheats.com and supercheats.com unlock pages (via search snippet)", "bayonetta.fandom.com/wiki/Alfheim (via search snippet)"]
+    },
+    {
+      "topic": "alfheim_portals",
+      "finding": "21 Alfheim Portals are hidden throughout the main campaign's chapters. Each is a short, timed combat/platforming challenge (e.g., defeat all enemies before time runs out, no Witch Time allowed, limited move-set restrictions). Completing all 21 unlocks the Lost Chapter.",
+      "trackable": "Not confirmed whether a dedicated in-game counter/checklist of found vs. total Alfheim portals exists on a menu screen.",
+      "missable": "unknown — not confirmed whether portals are permanently missable if a chapter is completed without finding them, or remain accessible via chapter replay.",
+      "confidence": "medium",
+      "sources": ["chaptercheats.com/gameriv/supercheats aggregation (via search snippet)"]
+    },
+    {
+      "topic": "difficulty_modes",
+      "finding": "Five difficulty modes, in ascending order: Very Easy, Easy, Normal, Hard, and the hardest mode referred to on the Bayonetta Wiki as '∞ Climax' (rendered in various secondary sources as 'Non-Stop Infinite Climax' or 'Non-Stop ∞ Climax'). Normal is available from the start. Hard unlocks after completing ALL chapters on Normal. The hardest mode unlocks after completing ALL chapters on Hard.",
+      "confidence": "medium-high",
+      "sources": ["en.wikipedia.org/wiki/Bayonetta_(video_game) (via WebFetch)", "bayonetta.fandom.com/wiki/∞_Climax (via search snippet)"],
+      "notes": "The exact in-game menu text for the hardest difficulty could not be confirmed with certainty — sources disagree between '∞ Climax', 'Infinite Climax', and 'Non-Stop Infinite Climax'. Recommend confirming the literal on-screen string before naming a trophy after it."
+    },
+    {
+      "topic": "difficulty_modes_naming_flag",
+      "finding": "The alternate naming convention '1st Climax / 2nd Climax / 3rd Climax' (mapping to Easy/Normal/Hard respectively) that was referenced in the task brief appears, per search results, to be terminology specifically documented for BAYONETTA 2, not clearly confirmed as the in-game naming for the original Bayonetta (2009)/Wii U port. Multiple sources describe Bayonetta 1's difficulty screen simply as Very Easy / Easy / Normal / Hard / ∞ Climax without the '1st/2nd/3rd Climax' labels.",
+      "confidence": "medium",
+      "sources": ["gamefaqs.gamespot.com Bayonetta 2 boards (via search snippet)", "en.wikipedia.org/wiki/Bayonetta_(video_game)"],
+      "notes": "This is a direct contradiction flag against the task brief's assumption — do not build trophy names around 'Third Climax' etc. for Bayonetta 1 without further primary-source confirmation (e.g. an actual screenshot of the Wii U difficulty select menu)."
+    },
+    {
+      "topic": "difficulty_mechanics",
+      "finding": "Very Easy: health regenerates over time, plus the 'Immortal Marionette' accessory is auto-equipped (prevents permanent death). Easy: also auto-equips Immortal Marionette. Hardest mode (∞ Climax): enemy placement similar to Hard but with more enemy health, and Witch Time is disabled.",
+      "confidence": "medium",
+      "sources": ["WebSearch synthesis citing bayonetta.fandom.com/wiki/Gameplay"]
+    },
+    {
+      "topic": "ranking_system",
+      "finding": "Each Verse is graded with a medal upon completion: Stone, Bronze, Silver, Gold, Platinum, and Pure Platinum (highest). Grading considers time taken, combo/combat score, and damage taken. Pure Platinum specifically requires taking zero damage during the verse in addition to a fast clear time and high combo score. Chapter-level performance is generally described as an average/rounding of that chapter's verse medals; using consumable items (lollipops, Red Hot Shots) or dying counts against the rank.",
+      "trackable": "Tracked per-verse and viewable after the fact via an in-game 'Play History' / chapter-select detail view that shows medals earned per verse within a chapter.",
+      "confidence": "medium",
+      "sources": ["gamefaqs.gamespot.com boards 'Chapter Grading Guide and Platinum Rank Tips' and 'Requirements for different medals?' (via search snippet)", "bayonetta.fandom.com/wiki/Platinum! (via search snippet)", "gamefaqs.gamespot.com PS3 Q&A 'How do I view the medals of each verse afterwards?'"],
+      "notes": "Exact numeric thresholds (time limits, combo score cutoffs, precise rounding formula for chapter-level award) were not confirmed to precision — only the general medal names, general criteria (time/combo/damage), and that Pure Platinum requires zero damage taken."
+    },
+    {
+      "topic": "new_game_plus",
+      "finding": "Bayonetta 1 does not have a traditional story-resetting 'New Game+' with a special second-playthrough mode. Instead, the game uses a persistent Chapter Select system: once a difficulty is unlocked, the player can replay any chapter (including starting from the Prologue) at any unlocked difficulty while keeping all previously unlocked weapons, accessories, moves, and halos/money earned. Starting a genuinely new save file resets all progress.",
+      "confidence": "medium",
+      "sources": ["gamefaqs.gamespot.com PS3 Q&A 'Once you beat all chapters in easy mode...' and 'Can you change difficulty in chapter select?' forum threads, xboxachievements.com forum (via search snippet)"],
+      "notes": "This is community-forum-sourced consensus, not an official manual/patch-note citation. Recommend treating as reasonably reliable but not airtight."
+    },
+    {
+      "topic": "ending",
+      "finding": "Bayonetta 1 appears to have a single, non-branching ending. After defeating Jubileus in the Epilogue: Requiem, the story resolves with Bayonetta regaining her full memories, reconciling with Jeanne and Luka, and sending the child Cereza back to her own time. A funeral/epilogue scene (attended by Luka) implies Bayonetta is believed dead before a twist reveals she survived. No alternate ending branches were identified.",
+      "confidence": "medium",
+      "sources": ["en.wikipedia.org/wiki/Bayonetta_(video_game) (via WebFetch)", "WebSearch synthesis referencing bayonetta.fandom.com/wiki/The_Witch_Hunts_Are_Over"],
+      "notes": "Could not find a source dedicated specifically to confirming there is exactly one ending with no hidden/alternate variant tied to completion conditions (e.g., difficulty, collectibles). Treat as likely single-ending but not exhaustively ruled out."
+    },
+    {
+      "topic": "wiiu_version_notes",
+      "finding": "The Wii U release of the original Bayonetta was bundled as a bonus disc with every physical copy of Bayonetta 2 (titled 'Bayonetta 2: Special Edition' as a bundle), released Sept 2014 (Japan) / Oct 2014 (NA/EU); it was later also made available standalone on the Wii U eShop. The Wii U port adds four exclusive Nintendo-themed costumes not present in PS3/360/Steam versions: Peach, Daisy, Samus ('Samus' suit with functional arm cannon and Morph Ball), and Link ('Hero of Hyrule', with a shield-block special move). These were curated by original director Hideki Kamiya and include gameplay-affecting special abilities, not just cosmetic swaps.",
+      "confidence": "high",
+      "sources": ["nintendolife.com 'We Put Bayonetta 2's Nintendo Outfits to the Test'", "vooks.net 'Platinum Games details original Bayonetta Wii U improvements'", "bayonetta.fandom.com/wiki/Nintendo_Content (via search snippet)"],
+      "notes": "This is not core to the campaign/chapter/boss structure beat, but is flagged since it is a genuine Wii U-exclusive content difference relevant to overall trophy planning (likely belongs to a 'systems/collectibles' beat for a wardrobe-type trophy)."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-verse combat medal (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum)", "where": "Results screen after each Verse, and retrievable afterward via a 'Play History'/chapter detail menu", "confidence": "medium" },
+    { "stat": "Chapter-level award (aggregate of that chapter's verse medals)", "where": "Chapter Select screen, shown on/near each chapter's entry", "confidence": "low" },
+    { "stat": "Alfheim Portals found/completed (out of 21)", "where": "Unconfirmed whether a dedicated counter exists in a menu; only confirmed that finding all 21 is required to unlock the Lost Chapter", "confidence": "low" },
+    { "stat": "Difficulty completion status (which difficulties have been cleared for all chapters)", "where": "Implied to be tracked internally to gate Hard and ∞ Climax unlocks, but no confirmed dedicated UI screen showing this explicitly", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Wii U version bundles the original Bayonetta as a bonus disc with Bayonetta 2 (retail 'Special Edition'), later also sold standalone on the Wii U eShop.", "confidence": "high" },
+    { "note": "Wii U version adds 4 exclusive Nintendo-themed costumes (Peach, Daisy, Link 'Hero of Hyrule', Samus) with unique gameplay abilities, not present in PS3/360/Steam versions.", "confidence": "high" },
+    { "note": "Could not confirm any Wii U-specific changes to chapter count, verse count, boss roster, difficulty-mode names/unlock conditions, or ending content relative to the PS3/Xbox 360 original — evidence suggests the campaign structure itself is an unmodified port, but this was not exhaustively verified against a Wii U-specific source.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm the exact number of verses within each of the 18 story chapters, nor a total verse count for the full campaign (only the Lost Chapter's 5 verses/51 fights were confirmed).",
+    "Could not confirm the literal on-screen/menu text for the hardest difficulty mode in Bayonetta 1 specifically ('∞ Climax' vs 'Infinite Climax' vs 'Non-Stop Infinite Climax') — sources used these interchangeably.",
+    "Could not confirm whether the '1st/2nd/3rd Climax' difficulty naming (referenced in the task brief) actually applies to Bayonetta 1's difficulty menu, or is exclusive to Bayonetta 2's terminology — flagged as a likely mismatch, needs primary-source confirmation.",
+    "Could not verify the in-game display name used for the Father Balder boss fight (whether the game itself ever labels it 'Father Balder' on screen, vs. that being fan/wiki shorthand).",
+    "Could not confirm exact chapter/verse placement for the Joy boss fight, nor confirm which chapters contain the recurring Fairness / Beloved / 'Grace and Glory' mini-boss encounters.",
+    "Could not confirm whether Golem and/or Glamor (which surfaced in search results as possibly Bayonetta-2-specific) appear at all in the original Bayonetta 1 campaign — do not assume they belong on a Bayonetta 1 boss list without further checking.",
+    "Could not confirm precise numeric criteria (time thresholds, combo score cutoffs, exact rounding rule) behind the Stone→Pure Platinum medal grading beyond the general factors (time, combo, damage taken, item use, death).",
+    "Could not confirm whether the game displays a dedicated numeric counter for Alfheim Portals found/remaining, which would determine whether a 'find all Alfheims' trophy is directly trackable in-UI or must be self-tracked by the player.",
+    "Could not fully rule out the existence of any alternate/secret ending variant tied to completion conditions (e.g., a different scene on ∞ Climax clear, or for 100% verse ranks) — current evidence points to a single linear ending, but this was not exhaustively confirmed against a spoiler-focused source dedicated to Bayonetta 1.",
+    "Multiple primary sources (Bayonetta Fandom wiki, GameFAQs, Neoseeker, TrueAchievements, StrategyWiki) returned HTTP 402/403 errors when fetched directly during this research session; all findings from those domains are based on WebSearch snippet synthesis rather than a full direct read of the source page, and should ideally be re-verified with direct browser access before finalizing trophy copy."
+  ]
+}

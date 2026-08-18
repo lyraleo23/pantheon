@@ -1,0 +1,91 @@
+{
+  "sourcePlatform": "PlayStation 3 (Bayonetta, SCEA/SEGA trophy list)",
+  "sourceRationale": "PS3 trophy list chosen per instructions because it carries native tiers (Bronze/Silver/Gold/Platinum), which Port Mode Rule 22 preserves directly. Multiple independent sources (PSNProfiles, TrueTrophies, PlayStationTrophies.org, PlayStationLifestyle.net) agree the PS3 list totals 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze). Primary trophy-database sites (PSNProfiles, TrueTrophies, GameFAQs, StrategyWiki, PlayStationTrophies.org, Fandom wiki) all returned HTTP 403/402 errors to direct fetch (Cloudflare/paywall blocks), so the full name+description+tier table was reconstructed from a successfully-fetched PlayStationLifestyle.net trophy list article, corroborated and spot-checked against WebSearch result snippets sourced from TrueTrophies/TrueAchievements/PlayStationTrophies.org. The Xbox 360 achievement list (50 achievements, 1000G, no Platinum) shares the same 50 base names as the PS3 Bronze/Silver/Gold set plus the PS3-exclusive Platinum trophy 'Acquire all Trophies' = 51.",
+  "nativeCount": 51,
+  "tierBreakdown": { "platinum": 1, "gold": 2, "silver": 10, "bronze": 38 },
+  "achievements": [
+    { "name": "Acquire all Trophies", "description": "Acquire all Trophies.", "tier": "Platinum", "category": "completion-related", "confidence": "high", "notes": "Standard PS3 platinum trophy, unlocks after all other 50 trophies are earned." },
+
+    { "name": "Angel Slayer", "description": "Complete all Alfheim portals.", "tier": "Gold", "category": "collection-related", "confidence": "high", "notes": "Requires clearing all 21 Alfheim portal challenges (discovery alone is a separate, lower trophy)." },
+    { "name": "Legendary Dark Witch", "description": "Complete all Chapters on ∞ Climax difficulty.", "tier": "Gold", "category": "completion-related", "confidence": "high", "notes": "Infinite Climax is the hardest unlockable difficulty." },
+
+    { "name": "Angel May Cry", "description": "Complete half of all Alfheim portals.", "tier": "Silver", "category": "collection-related", "confidence": "high" },
+    { "name": "Commander Of Magic", "description": "Purchase all techniques.", "tier": "Silver", "category": "collection-related", "confidence": "high" },
+    { "name": "Nice Try", "description": "Engage Witch Time successfully 10 times consecutively.", "tier": "Silver", "category": "combat-related", "confidence": "high" },
+    { "name": "Record Fanatic", "description": "Obtain seven complete Angelic Hymn Gold LPs.", "tier": "Silver", "category": "collection-related", "confidence": "high" },
+    { "name": "Touch And It Will REALLY Hurt", "description": "Counter three consecutive enemy attacks with the Moon of Mahaa-Kalaa equipped.", "tier": "Silver", "category": "combat-related", "confidence": "high" },
+    { "name": "Treasure Fanatic", "description": "Discover all of the Umbra Witches' final resting places.", "tier": "Silver", "category": "collection-related", "confidence": "high" },
+    { "name": "Truth In Its Purest Form", "description": "Collect all of Antonio's notes.", "tier": "Silver", "category": "collection-related", "confidence": "high" },
+    { "name": "Umbra Elder", "description": "Complete all Chapters on Hard difficulty.", "tier": "Silver", "category": "completion-related", "confidence": "high" },
+    { "name": "Umbra Witch", "description": "Complete all Chapters on Normal difficulty.", "tier": "Silver", "category": "completion-related", "confidence": "high" },
+    { "name": "Wicked Weave Master", "description": "Execute 20 Wicked Weave attacks while using Dodge Offset.", "tier": "Silver", "category": "combat-related", "confidence": "high" },
+
+    { "name": "A Mother's Love", "description": "Defend Cereza during the out of body experience, ensuring she takes no damage.", "tier": "Bronze", "category": "story-related", "confidence": "medium", "missable": "Not permanently missable — Bayonetta has chapter select, so the scene can be replayed." },
+    { "name": "A Primer In The Magical Arts", "description": "Complete the Vestibule.", "tier": "Bronze", "category": "story-related", "confidence": "medium", "notes": "The Vestibule is the game's opening tutorial sequence." },
+    { "name": "Chapters 1-4 (Normal)", "description": "Complete Chapters 1 through 4 on Normal difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "Chapters 5-7 (Normal)", "description": "Complete Chapters 5 through 7 on Normal difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "Chapters 8-11 (Normal)", "description": "Complete Chapters 8 through 11 on Normal difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "Chapters 12-13 (Normal)", "description": "Complete Chapters 12 and 13 on Normal difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "Chapters 14-Epilogue (Normal)", "description": "Complete Chapters 14 through the Epilogue on Normal difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "New Testament: Ch. 1-4 (Hard)", "description": "Complete Chapters 1 through 4 on Hard difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "New Testament: Ch. 5-7 (Hard)", "description": "Complete Chapters 5 through 7 on Hard difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "New Testament: Ch. 8-11 (Hard)", "description": "Complete Chapters 8 through 11 on Hard difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "New Testament: Ch. 12-13 (Hard)", "description": "Complete Chapters 12 and 13 on Hard difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "New Testament: Close The Book", "description": "Complete Chapters 14 through the Epilogue on Hard difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium" },
+    { "name": "Come Here, Little Boy", "description": "Taunt and defeat five or more angered enemies while taking no damage.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "Double, Double, Toil And Trouble", "description": "Create 20 Concoctions.", "tier": "Bronze", "category": "collection-related", "confidence": "medium" },
+    { "name": "Feels Good, Doesn't It?", "description": "Execute 50 Torture Attacks.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "Fire The Afterburners", "description": "Earn Platinum Medals during Verse 1 and Verse 2 of Chapter 14.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "Fortitudo, Bringer Of Flame", "description": "Defeat Fortitudo on any difficulty.", "tier": "Bronze", "category": "combat-related", "confidence": "high", "notes": "Boss fight; tier confirmed by pattern-match with the directly-verified 'Master Of The Heavens' boss trophy (also Bronze)." },
+    { "name": "Higher And Higher", "description": "While never setting foot on the ground, grab enemies 10 times using Kulshedra.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "I'm A Bit... I Mean Witch.", "description": "Execute a Torture Attack.", "tier": "Bronze", "category": "combat-related", "confidence": "low", "notes": "Exact punctuation/ellipsis of the name could not be independently confirmed — flagged for verification." },
+    { "name": "Iustitia, Giver Of Life", "description": "Defeat Iustitia on any difficulty.", "tier": "Bronze", "category": "combat-related", "confidence": "high", "notes": "Boss fight; tier confirmed by pattern-match with directly-verified 'Master Of The Heavens'." },
+    { "name": "Just In The Nick Of Time", "description": "Dodge the runaway streetcar during Chapter 2.", "tier": "Bronze", "category": "story-related", "confidence": "medium", "missable": "Not permanently missable via chapter select." },
+    { "name": "Master Of The Heavens", "description": "Defeat Father Balder on any difficulty.", "tier": "Bronze", "category": "combat-related", "confidence": "high", "notes": "Tier directly confirmed via independent search cross-reference (not just the single PlayStationLifestyle source)." },
+    { "name": "Naughty Tentacles", "description": "Destroy all the tentacles that drop down together during a single sequence in Chapter 9.", "tier": "Bronze", "category": "story-related", "confidence": "medium" },
+    { "name": "Nice And Relaxed", "description": "Avert 10 enemy attacks with the Moon of Mahaa-Kalaa equipped.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "Platinum!", "description": "Earn 10 Platinum Medals. Must be earned in 10 different battles.", "tier": "Bronze", "category": "combat-related", "confidence": "medium", "notes": "Refers to the in-game 'Platinum' battle performance rank, not the PSN Platinum trophy tier — avoid conflating the two in downstream trophy naming." },
+    { "name": "Record Collector", "description": "Obtain three complete Angelic Hymn Gold LPs.", "tier": "Bronze", "category": "collection-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Record Fanatic' (7 LPs)." },
+    { "name": "Sapientia, Controller Of Seas", "description": "Defeat Sapientia on any difficulty.", "tier": "Bronze", "category": "combat-related", "confidence": "high", "notes": "Boss fight; tier confirmed by pattern-match with directly-verified 'Master Of The Heavens'." },
+    { "name": "Seeker Of Magic", "description": "Purchase three new techniques.", "tier": "Bronze", "category": "collection-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Commander Of Magic' (all techniques)." },
+    { "name": "Taste Of The Witching Hour", "description": "Complete all Chapters on any difficulty.", "tier": "Bronze", "category": "completion-related", "confidence": "medium", "notes": "Appears to be the base completion trophy that Umbra Witch (Normal, Silver) / Umbra Elder (Hard, Silver) / Legendary Dark Witch (Climax, Gold) build on top of." },
+    { "name": "Temperantia, Manipulator Of Wind", "description": "Defeat Temperantia on any difficulty.", "tier": "Bronze", "category": "combat-related", "confidence": "high", "notes": "Boss fight; tier confirmed by pattern-match with directly-verified 'Master Of The Heavens'." },
+    { "name": "The Deepest Cut", "description": "Kill 20 enemies using only Iai-Jutsu with Shuraba equipped.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "The Ice Witch", "description": "Freeze 20 enemies while wearing Odette.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "The Path To The Heavens", "description": "Discover all Alfheim portals.", "tier": "Bronze", "category": "collection-related", "confidence": "medium", "notes": "Distinct from Gold trophy 'Angel Slayer' — this is about locating the 21 portals, not clearing their challenges." },
+    { "name": "Touch And It Will Hurt", "description": "Counter 10 enemy attacks with the Moon of Mahaa-Kalaa equipped.", "tier": "Bronze", "category": "combat-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Touch And It Will REALLY Hurt' (3 consecutive)." },
+    { "name": "Tread Not So Softly", "description": "Kill an enemy by jumping on top of them.", "tier": "Bronze", "category": "combat-related", "confidence": "medium" },
+    { "name": "Treasure Collector", "description": "Discover half of all the Umbra Witches' final resting places.", "tier": "Bronze", "category": "collection-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Treasure Fanatic' (all graves)." },
+    { "name": "Wicked Weaver", "description": "Execute a Wicked Weave attack while using Dodge Offset.", "tier": "Bronze", "category": "combat-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Wicked Weave Master' (20 attacks)." },
+    { "name": "You Want To Touch Me?", "description": "Engage Witch Time successfully 10 times.", "tier": "Bronze", "category": "combat-related", "confidence": "medium", "notes": "Lower-tier counterpart to Silver trophy 'Nice Try' (10 consecutive)." }
+  ],
+  "flaggedForVerification": [
+    "Exact punctuation of 'I'm A Bit... I Mean Witch.' (ellipsis/period placement) — low confidence, single weak source.",
+    "Whether 'Taste Of The Witching Hour' is a real, separate Bronze trophy distinct from 'Umbra Witch' — plausible and numerically consistent (38 bronze total matches 51-1-2-10) but not independently corroborated on a second live site.",
+    "The full block of 10 chapter-range trophies ('Chapters X-Y (Normal)' and 'New Testament: Ch. X-Y (Hard)' / 'New Testament: Close The Book') — confirmed that 'Chapters 1-4 (Normal)' exists as a real Xbox 360 achievement (20G) via TrueAchievements; assumed the PS3 trophy list mirrors the same 50-item base achievement set plus the exclusive Platinum trophy, which is a common (but not 100% verified here) cross-platform pattern for this game.",
+    "Secret/hidden trophy flags — one source snippet claimed '15 secret trophies' but could not retrieve which specific ones are marked secret.",
+    "Exact wording of a handful of Bronze descriptions (e.g. 'Come Here, Little Boy', 'The Deepest Cut') pulled from a single source fetch, not cross-referenced word-for-word against a second independent source."
+  ],
+  "sourcesAttempted": {
+    "successfullyFetched": [
+      "https://www.playstationlifestyle.net/2013/01/15/bayonetta-trophies-trophy-list/"
+    ],
+    "blockedOrFailed": [
+      "https://psnprofiles.com/trophies/10387-bayonetta (403 Cloudflare)",
+      "https://www.playstationtrophies.org/game/bayonetta/trophies/ (403)",
+      "https://www.truetrophies.com/game/Bayonetta-PS3/trophies (403)",
+      "https://gamefaqs.gamespot.com/ps3/946345-bayonetta/trophies (403)",
+      "https://strategywiki.org/wiki/Bayonetta/Achievements_and_trophies (403)",
+      "https://bayonetta.fandom.com/wiki/Category:Trophies (402)",
+      "https://www.exophase.com/game/bayonetta/trophies/ (403)",
+      "https://www.trueachievements.com/game/Bayonetta-Xbox-360/achievements (403)",
+      "https://www.supercheats.com/bayonetta/trophies (403)"
+    ],
+    "usedForSpotVerificationViaSearchSnippets": [
+      "TrueTrophies.com (Angel Slayer = Gold; Master Of The Heavens = Bronze)",
+      "TrueAchievements.com (Chapters 1-4 (Normal) = real Xbox 360 achievement, 20G)",
+      "PlayStationTrophies.org (Umbra Witch = Silver; total 51 trophies)",
+      "PSNProfiles.com (total 51 trophies, tier count 1/2/10/38 — confirmed via search summary only, not direct page fetch)"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "beat": "Wii U port differences, trackable stats, missable content, RNG systems (scout C)",
+  "game": "Bayonetta (2009)",
+  "platform": "Nintendo Wii U (Bayonetta 2: Special Edition bundle / standalone eShop)",
+  "facts": [
+    {
+      "topic": "trackable_stats",
+      "finding": "The 'Item and File' game menu has a File section with five browsable tomes, one of which is 'Rarities': 'Examine gathered Umbran Tears of Blood and Angelic Hymns Gold LPs.' This is a genuine in-game collection-tracking screen present on Wii U (confirmed identical structure to PS3/360 since it's not tied to platform trophy services).",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual for Bayonetta (nintendo.com/eu PDF), page 32",
+      "notes": "This is the closest thing to a proper 'collectibles' checklist screen. Other File tomes: 'The Hierarchy of Laguna' (bestiary of Angels encountered), 'Infernal Demons' (demons summoned), 'Antonio's Notebook' (lore notes gathered), 'Tome of Umbran Arts' (combos/techniques known)."
+    },
+    {
+      "topic": "trackable_stats",
+      "finding": "The bestiary-style tome 'The Hierarchy of Laguna' tracks which Angel enemy types have been encountered, and 'Infernal Demons' tracks which torture-attack demons have been summoned. These function as trackable enemy/demon-encounter logs.",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual, page 32",
+      "notes": "Useful for any 'encounter every enemy type' or 'summon every demon' trophy design — the game itself tracks this."
+    },
+    {
+      "topic": "trackable_stats",
+      "finding": "On clearing a Chapter, a results screen displays: Medals (the Verse Medal earned for each Verse in that chapter), Used Item (items used and number of times Game Over was reached), Total Score (Combo Points earned, time taken, damage taken), Award Bonus (bonus Halos), and a final Award rank. The Award rank scale runs from Stone (lowest) up to Pure Platinum (highest).",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual, pages 13-14",
+      "notes": "This is per-chapter, not a global/cumulative stat. No evidence of a single global 'best combo ever' or 'total halos earned lifetime' counter — see gaps."
+    },
+    {
+      "topic": "trackable_stats",
+      "finding": "Could NOT confirm the existence of a dedicated global 'Records'/'Play History' stats menu (total playtime, lifetime Halos earned, lifetime combo records, verses cleared count) in the official Wii U manual's menu documentation. The manual's full table of contents (Title Menu, Chapter Menu, Game Menu>Equip/Item and File) contains no section titled Records/History/Statistics. A secondary web source (GameFAQs forum, not verified against the manual) claims a 'Play History' submenu shows total game time and per-chapter time on the mission-start screen, and the Save Data list screen in the manual's own screenshot appears to show a time value (formatted like '121:00:05') and a large number (possibly Halos) next to each save slot — but this could not be confirmed as a full stats screen versus just a per-save metadata display.",
+      "confidence": "low",
+      "source": "GameFAQs community thread (unverified) + ambiguous reading of Wii U manual page 11 save-data screenshot",
+      "notes": "GAP: flag any trophy idea premised on a global playtime or lifetime-Halos-earned counter as unconfirmed."
+    },
+    {
+      "topic": "missable_content",
+      "finding": "Chapter Select (accessible from the Chapter Menu submenu) lets the player select and replay any Chapter they have already cleared, at any time. Community consensus (GameFAQs, Steam guides) confirms no achievements/trophies in the base PS3/360/Steam lists are missable because any chapter, including its Alfheim portal verses, can be replayed after first clear.",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual page 10 (Chapter Menu) + GameFAQs 'Missable Trophies?' board thread + Steam Community guide",
+      "notes": "Practically nothing is permanently missable within a save in the traditional sense. One caveat below re: chapter score/rank carryover."
+    },
+    {
+      "topic": "missable_content",
+      "finding": "Chapter Award rank is calculated per full chapter clear, including any Alfheim (Witch Trial) verses within it. If a player skips an Alfheim portal on a given playthrough of a chapter, that Alfheim verse contributes a score of 0 to that specific clear's rank — to get a 'Pure Platinum' award on a chapter, the player must complete ALL its Alfheim portals in that same continuous chapter run, not across separate replays.",
+      "confidence": "medium",
+      "source": "Community search results (GameFAQs board discussion), consistent across summarized guidance",
+      "notes": "Not truly 'missable' since the chapter can simply be replayed again from Chapter Select to try for a clean full-clear rank, but relevant if a trophy is designed around 'get Pure Platinum on chapter X' — players may need multiple attempts, not one-shot missable, but not casually achievable either."
+    },
+    {
+      "topic": "missable_content",
+      "finding": "Save/checkpoint system: only ONE checkpoint slot exists at a time (auto-created when a Verse is cleared); loading CONTINUE always goes to the most recent checkpoint. The manual explicitly states 'There are certain Verses where Checkpoint data will not be created.' Up to 30 manual save files can also be stored from the Chapter Menu.",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual, page 11",
+      "notes": "Could not identify which specific Verses lack checkpoint creation — flagged as gap. Low practical missability risk given manual saves + full Chapter Select replay exist as safety nets, but worth noting for any 'no death' / 'no continue' run trophy design since a Game Over without a nearby checkpoint could send the player back further than expected."
+    },
+    {
+      "topic": "collectible_count",
+      "finding": "Umbran Tears of Blood: 101 total in the original Bayonetta (2009/Wii U). Per community collectible guides, 51 are found as physical pickups (Umbran Crows) placed throughout the chapters, and the other 50 are awarded one-per-completion of the game's own in-fiction achievement system, called 'Bewitchments' (miscellaneous combat/style challenges), which is NOT a platform trophy/achievement system — it exists identically in the game's own logic on every platform including Wii U, which has no native achievement service.",
+      "confidence": "medium",
+      "source": "Bayonetta Fandom Wiki 'Umbran Tears Of Blood' (via search snippet, direct fetch blocked by paywall), GameFAQs collectible/tears guides, cross-referenced with Bayonetta 2's confirmed 20 crows + 30 Bewitchments = 50 tears structure",
+      "notes": "Collecting all 101 unlocks the 'Climax Brace' accessory (purchasable at Gates of Hell once all 101 are found); per one GameFAQs source, obtaining all 101 also requires having beaten the story on the hardest 'Non-Stop Infinite Climax' difficulty. This should be treated as medium confidence pending a primary-source check, since only secondary/community sources were available (direct Fandom wiki fetch returned HTTP 402)."
+    },
+    {
+      "topic": "collectible_count",
+      "finding": "Angelic Hymns Gold LP: 9 total in the original Bayonetta. Bringing one to Rodin at the Gates of Hell unlocks a new obtainable weapon. The Rarities File screen tracks which Gold LPs have been collected.",
+      "confidence": "medium",
+      "source": "Community wiki/guide search snippets (bayonetta.fandom.com, nintendo.fandom.com, GameRevolution/Nintendo Life-style guides referenced in aggregate search)",
+      "notes": "Single-tier confirmation from secondary sources only; count not cross-verified against a primary/official source."
+    },
+    {
+      "topic": "collectible_count",
+      "finding": "Alfheim portals (also called Witch Trials): 21 total in the original Bayonetta.",
+      "confidence": "medium",
+      "source": "Multiple community guides (GameSpew, Steam Community guides, selphie1999gaming) agreeing on 21",
+      "notes": "The native PS3/360 trophy 'Angel Slayer' is awarded for completing all Alfheim portals, per Bayonetta Fandom Wiki trophy page — relevant context for the other scout's native list, confirms Alfheim completion is the intended full-clear condition, not just finding all portals."
+    },
+    {
+      "topic": "rng_system",
+      "finding": "Enemy combat drops include Halos (currency) and 'compound' crafting ingredidents (Green Laurel, Purple Butterfly, Broken Witch Heart, Broken Moon Pearl, Baked Gecko, Unicorn Horn, Mandragora Root, Arcade Bullet ammo for the Angel Attack minigame). The official manual does not specify drop rates or whether drops are random vs. guaranteed-on-kill. Community farming guides (GameFAQs, TrueAchievements, GamePretty) describe grinding specific enemy types/verses for better Halo yield, implying variable/RNG-influenced drop amounts tied partly to combo performance rather than pure chance.",
+      "confidence": "low",
+      "source": "Community farming guides (GameFAQs, TrueAchievements, GamePretty) — no official/primary confirmation of drop-rate mechanics found",
+      "notes": "The one clearly NON-random item pickup type identified is the Durga weapon's 'Golden LP', described as being split into 3 fixed, non-random pieces at specific one-time locations within Chapter V. General Halos/compound drops from regular enemies appear to scale with combo score/performance more than pure RNG, but this was not conclusively confirmed. No in-game counter for 'lifetime Halos earned' or 'total items collected' was found — see trackableStats gap above. Recommend treating any Halos-total or drop-count trophy idea as unsupported until a global tracked counter is confirmed."
+    },
+    {
+      "topic": "wii_u_exclusive_content",
+      "finding": "Wii U-exclusive Nintendo-themed costumes for Bayonetta: Princess Peach, Princess Daisy, Link, Samus Aran, and Fox McCloud (5 total). These were reportedly hand-picked by original director Hideki Kamiya and are not purely cosmetic — each has a unique gameplay quirk (e.g., Link's costume grants an automatic parry ability normally requiring a 20,000-Halo accessory purchase; Peach/Daisy replace combo finisher hits with a Bowser arm/leg; Samus grants an arm-cannon/morph-ball visual; Fox references Star Fox).",
+      "confidence": "high",
+      "source": "Siliconera, Nintendo Life 'We Put Bayonetta 2's Nintendo Outfits to the Test', Nintendojo, Sportskeeda — multiple independent sources agree",
+      "notes": "These costumes are unlocked in-game by earning Halos and purchasing them at Rodin's Gates of Hell shop (standard unlock path on Wii U). This is exclusive to the Nintendo-published Wii U (and later Switch) releases — NOT present on PS3/360/Steam versions, which is directly relevant to the Prune pass since the native PS3/360/Steam achievement list will not reference these costumes, and any Wii-U-specific trophy referencing them must be added fresh, not imported."
+    },
+    {
+      "topic": "wii_u_exclusive_content",
+      "finding": "The Wii U port also added: touch-screen/GamePad-based alternate control scheme (touch-to-attack, touch-to-move), off-TV play via the GamePad, dual Japanese+English audio tracks (Japanese dub was newly commissioned/paid for by Nintendo specifically for this port — the original PS3/360 releases were English-dub only), Miiverse integration (posting text/handwritten notes and chapter-clear score posts, with unlockable in-fiction character illustration stickers), and generally improved/60fps-targeted performance versus the original Xbox 360 version and vastly improved over the notoriously poor PS3 port.",
+      "confidence": "high",
+      "source": "Official Nintendo Wii U Electronic Manual (Miiverse section, pages 6, 19, 40-41); MyNintendoNews, Cubed3, Entertainment Fuse, NeoGAF comparison thread, Kotaku 'definitive version' comparison",
+      "notes": "None of these are content that was CUT from Wii U relative to PS3/360 — reviews and comparisons consistently describe Wii U as the superior/'definitive' version at the time, adding rather than removing content. No evidence found of any mode or feature present on PS3/360/Steam that is absent on Wii U."
+    },
+    {
+      "topic": "wii_u_vs_switch",
+      "finding": "The 2018 Nintendo Switch re-release (part of the digital 'Bayonetta & Bayonetta 2' or physical dual-game bundle) retains the same 5 Nintendo-themed costumes (Peach, Daisy, Link, Samus, Fox) from Wii U — these are NOT new/Switch-exclusive. What IS new on Switch is amiibo support: scanning compatible amiibo figures (the specific Peach/Link/Samus/Fox-series amiibo, per most sources) instantly unlocks the corresponding Nintendo costume without needing to save up and purchase it with Halos at Rodin's shop, which was the only unlock method on Wii U.",
+      "confidence": "medium",
+      "source": "Nintendo Wire, Siliconera, SEGAbits, ComicBook.com, GameTyrant (amiibo support announcement coverage)",
+      "notes": "One search result additionally described a Smash Bros.-series Bayonetta amiibo unlocking a distinct set of costumes (Dress, Police Woman, Schoolgirl, Metal Witch) via a 'Super Mirror 2' pool, and a second amiibo tap ('Player 2') unlocking 'Super Mirror' + old-hairstyle Nintendo costumes except Star Mercenary — this description strongly resembles Bayonetta 2's costume/accessory system specifically (Bayonetta 2 has 'New Style'/'Old Style' hair and a 'Super Mirror' unlock item), and it is UNCLEAR whether this applies to Bayonetta 1 as well or is Bayonetta-2-only content bleeding into the same search results. Flagged low confidence / needs disambiguation before use for Bayonetta 1 trophy design."
+    },
+    {
+      "topic": "wii_u_vs_switch",
+      "finding": "Miiverse (the Wii U-exclusive social posting feature used for regular posts and 'Score Posts' on the Chapter Clear screen) is NOT present on Switch. Nintendo's Miiverse service was discontinued in November 2017, three months before the Switch version of Bayonetta released in February 2018, so this Wii U feature could not and does not carry over.",
+      "confidence": "high",
+      "source": "Well-documented public fact (Miiverse shutdown November 2017) cross-referenced with Switch Bayonetta release date (February 16, 2018) and the Wii U manual's Miiverse Features section (pages 6, 19, 40-41)",
+      "notes": "Not achievement-relevant on its own (Miiverse posting was never a trophy condition), but confirms a genuine feature removed from Wii U when going to Switch — relevant context for the Prune pass if any hypothetical Wii-U-only trophy idea were pinned to Miiverse posting (should not be, as this is an online/social feature, not a completion metric)."
+    },
+    {
+      "topic": "wii_u_vs_switch",
+      "finding": "The Switch version reportedly runs at a steadier 60fps during combat compared to the Wii U version, and includes general portability/performance improvements. Not achievement-relevant.",
+      "confidence": "low",
+      "source": "Single aggregated web search summary, not independently cross-checked against a technical comparison source (e.g., Digital Foundry)",
+      "notes": "Included for completeness only; explicitly not relevant to trophy list design."
+    },
+    {
+      "topic": "dlc_absent_from_wii_u",
+      "finding": "Could NOT confirm whether the original 2009 PS3/Xbox 360 release of Bayonetta had any paid/preorder-exclusive DLC costumes or content that is absent from the Wii U port. Searches for preorder bonus costumes (e.g., an 'Angel Slayer' costume pack, Climax Edition-specific in-game content) did not surface evidence of paid costume DLC for the base 2009 game — 'Angel Slayer' turned out to be a PS3/360 trophy name (for completing all Alfheim portals), not a costume. The only confirmed PAL-region bonus was a physical 'Climax Edition' box set (soundtrack CD, artbook, and a limited replica Scarborough Fair prop gun for very early preorders) — physical/collectible bonuses, not digital DLC content, and thus not achievement-relevant either way.",
+      "confidence": "low",
+      "source": "CollectorsEdition.org (Bayonetta Climax Edition PS3 listing), GameFAQs DLC board thread (inconclusive), general search",
+      "notes": "GAP: Ran out of search budget before could specifically confirm/deny (a) whether Bayonetta (2009) had ANY paid digital DLC costumes on PS3/360 (unlike Bayonetta 2 and Bayonetta 3, which clearly did/do), and (b) whether the 2017 Steam PC release added any Steam-exclusive bonus content (trading cards, achievements-only content, etc.) not present on Wii U. Flag this explicitly for the Prune pass — if the native PS3/360/Steam scout's achievement list references any DLC-locked costume or content, it needs independent verification of whether that DLC ever existed for Bayonetta 1, since my search could not confirm it did."
+    },
+    {
+      "topic": "difficulty_system",
+      "finding": "Chapter Menu has a 'Difficulty' option to change difficulty setting mid-playthrough. On Easy difficulty or lower, an auto-equipped accessory called the 'Immortal Marionette' is placed on Bayonetta's hip (preventing death); the player can choose to remove this item even on Easy. Higher difficulties (community-known as Hard, then post-clear-unlocked 'Non-Stop Climax' and 'Non-Stop Infinite Climax') are referenced by secondary sources in connection with the 101-Tears/Climax Brace unlock, but the official manual only documents the existence of the Difficulty menu option, not the specific named tiers above Normal.",
+      "confidence": "medium",
+      "source": "Official Wii U Electronic Manual page 30 (Accessories/Immortal Marionette) for the Easy-difficulty detail (high confidence); difficulty tier names (Hard/Non-Stop Climax/Non-Stop Infinite Climax) from general series knowledge and one GameFAQs thread (lower confidence)",
+      "notes": "Difficulty can apparently be changed at will from the Chapter Menu at any time (not locked to a single choice at New Game), which is relevant to any 'complete the game on hardest difficulty' trophy design — need to confirm whether changing difficulty mid-chapter/mid-run affects that chapter's Award rank calculation (not confirmed)."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Rarities file: Umbran Tears of Blood collected / 101 total", "where": "Game Menu > Item and File > File > Rarities", "confidence": "high" },
+    { "stat": "Rarities file: Angelic Hymns Gold LPs collected / 9 total", "where": "Game Menu > Item and File > File > Rarities", "confidence": "medium" },
+    { "stat": "Per-chapter clear results: Verse Medals, Total Score (Combo Points/Time/Damage), Used Item count, Award Bonus, final Award rank (Stone to Pure Platinum)", "where": "Chapter Clear results screen, shown immediately after completing a chapter; also viewable again by re-entering Chapter Select for a cleared chapter", "confidence": "high" },
+    { "stat": "Angel bestiary: which Angel enemy types encountered", "where": "Game Menu > Item and File > File > The Hierarchy of Laguna", "confidence": "high" },
+    { "stat": "Demon log: which Infernal Demons summoned via Torture Attacks", "where": "Game Menu > Item and File > File > Infernal Demons", "confidence": "high" },
+    { "stat": "Combo/technique reference: Tome of Umbran Arts", "where": "Game Menu > Item and File > File > Tome of Umbran Arts", "confidence": "high" },
+    { "stat": "Global total playtime / lifetime Halos earned / lifetime combo record / total verses cleared counter", "where": "UNCONFIRMED — no dedicated Records/Stats/History menu found in official manual", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Wii U port added 5 exclusive Nintendo-themed costumes (Peach, Daisy, Link, Samus, Fox McCloud) not present on PS3/360/Steam; each has a small gameplay-affecting quirk, not just cosmetic.", "confidence": "high" },
+    { "note": "Wii U port added Japanese dub audio option (paid for by Nintendo specifically), GamePad touch controls, off-TV play, and Miiverse integration (posting + score posts); none of this is achievement-relevant.", "confidence": "high" },
+    { "note": "No evidence found of any content present on PS3/360/Steam that is absent/cut from the Wii U port — Wii U is consistently described by reviewers as the 'definitive'/superior version at the time, technically and content-wise.", "confidence": "medium" },
+    { "note": "2018 Switch release keeps the same 5 Nintendo costumes as Wii U (not new), but adds amiibo-based instant unlocking as an alternative to the Halos-purchase method; also loses the Wii U's Miiverse posting feature (service discontinued before Switch release) and reportedly runs steadier 60fps.", "confidence": "medium" },
+    { "note": "A claimed Smash Bros.-series Bayonetta amiibo unlock (Dress/Police Woman/Schoolgirl/Metal Witch costumes via 'Super Mirror 2') could not be confirmed as applying to Bayonetta 1 specifically vs. being Bayonetta 2-only content; needs disambiguation before use.", "confidence": "low" },
+    { "note": "Could not confirm whether original PS3/360/Steam versions had any paid DLC costumes absent from Wii U (unlike Bayonetta 2/3 which clearly have DLC) — flagged as an open gap for the Prune pass.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm existence of a dedicated global 'Records'/stats menu showing total playtime, lifetime Halos earned, or cumulative verses cleared — only per-chapter clear-screen stats and the Rarities collection screen were confirmed via the official manual.",
+    "Could not confirm exact drop-rate/RNG mechanics for enemy item drops (Halos, compound ingredients) — unclear whether truly random or performance/combo-scaled, and no lifetime counter exists to track them even if trophy design wanted to reference totals.",
+    "Could not obtain a full itemized list of the ~50 'Bewitchments' (in-fiction achievement conditions) in Bayonetta 1, nor confirm whether there is a dedicated Bewitchments checklist screen separate from the Rarities/Tears-collected count.",
+    "Could not verify exact Angelic Hymns Gold LP count (9) against a primary/official source — only secondary wiki/guide aggregation.",
+    "Could not confirm whether original 2009 PS3/Xbox 360 release had any paid DLC costumes/content absent from Wii U (search budget exhausted before resolving this) — important for Prune pass if the native scout's list references DLC-gated content.",
+    "Could not confirm which specific Verses lack auto-save checkpoint creation (manual states this exists but does not enumerate them).",
+    "Could not fully verify exact named tiers of difficulty above Normal (Hard / Non-Stop Climax / Non-Stop Infinite Climax) against an official/primary source — only community references, tied to the '101 Tears requires beating Non-Stop Infinite Climax' claim which is itself only medium/low confidence.",
+    "Could not access the Bayonetta Fandom Wiki directly (WebFetch returned HTTP 402 Payment Required on multiple attempts) — relied on search-result snippets of that wiki instead of primary text, reducing confidence on several collectible-count facts.",
+    "Ran out of WebSearch budget before could verify Steam (2017) PC release for any Steam-exclusive bonus content not present on Wii U."
+  ]
+}

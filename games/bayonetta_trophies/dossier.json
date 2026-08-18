@@ -1,0 +1,43 @@
+{
+  "game": "Bayonetta (2009)",
+  "platform": "Nintendo Wii U",
+  "mode": "port",
+  "sourcePlatform": "PlayStation 3",
+  "mergedFrom": ["dossier_scout_a.json", "dossier_scout_b.json", "dossier_scout_c.json", "dossier_scout_native.json"],
+  "nativeList": {
+    "source": "PS3 trophy list, 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze). Xbox 360 shares the same 50 base achievements minus the Platinum.",
+    "confidence": "high on structure/tier counts and most Silver+ trophies; medium on exact Bronze wording (single-source, several sites blocked fetch).",
+    "notableCategories": ["chapter/difficulty completion (10 chapter-range trophies across Normal/Hard)", "boss defeats (5, all Bronze)", "collectible thresholds (Alfheim portals, Gold LPs, Umbran resting places, Antonio's notes)", "combat technique challenges (Witch Time, Wicked Weave, Torture Attack, weapon-specific)", "Platinum battle-rank medals"],
+    "designFlag": "The 10 chapter-range completion trophies (Chapters 1-4/5-7/8-11/12-13/14-Epilogue x Normal and Hard) are granular slices of the same 'clear the game' progression already covered by Umbra Witch/Umbra Elder/Legendary Dark Witch. Rule 20 (Relevant Completion) suggests consolidating rather than importing all 10 as separate trophies — Filter pass candidate."
+  },
+  "campaignStructure": {
+    "chapters": "Prologue: The Vestibule + Chapters I-XVI + Epilogue: Requiem = 18 story chapters, plus secret 19th (Lost Chapter: Angel Slayer). Verse subdivisions per chapter unconfirmed in count.",
+    "bosses": ["Fortitudo (Ch. IV)", "Temperantia (Ch. VII)", "Iustitia (Ch. XI)", "Sapientia (Ch. XIII)", "Jeanne (recurring)", "Father Balder (Ch. XVI)", "Jubileus the Creator (Epilogue, final boss)"],
+    "difficulty": "Very Easy, Easy, Normal, Hard, ∞ Climax (hardest — exact on-screen name inconsistent across sources: '∞ Climax' vs 'Non-Stop Infinite Climax'; Rule: avoid quoting a specific string in trophy text, describe the condition instead). Hard unlocks after clearing all chapters on Normal; hardest mode after clearing all on Hard. The task brief's '1st/2nd/3rd Climax' naming is Bayonetta 2 terminology, not confirmed for this game — not used in design.",
+    "verseRanking": "Stone/Bronze/Silver/Gold/Platinum/Pure Platinum per Verse, aggregating to a per-Chapter Award rank shown on the Chapter Clear results screen (high confidence, confirmed via official Wii U manual).",
+    "ending": "Single linear ending, no confirmed branches."
+  },
+  "collectiblesAndSystems": {
+    "alfheimPortals": "21 total, timed combat/platforming challenges. Completing all 21 unlocks Lost Chapter: Angel Slayer (51 fights / 5 verses). No confirmed in-game X/21 checklist beyond the two native trophies (discover all = Bronze, clear all = Gold).",
+    "umbranTearsOfBlood": "101 total (51 physical pickups + 50 from 'Bewitchments' in-fiction challenge conditions). Tracked via Game Menu > Item and File > File > Rarities (confirmed, official manual).",
+    "goldLPs": "9 total Angelic Hymns records, tracked in the same Rarities file screen. Delivering them to Rodin unlocks named weapons (Kulshedra, Durga, Odette, Lt. Col. Kilgore).",
+    "weapons": "~12 total: Scarborough Fair (default), Onyx Roses, Shuraba, Kulshedra, Durga, Odette, Lt. Col. Kilgore, Sai Fung, Bazillions, Pillow Talk, Rodin (secret superboss reward). Exact count medium confidence.",
+    "otherFileTomes": "Hierarchy of Laguna (angel bestiary), Infernal Demons (summon log), Antonio's Notebook (lore), Tome of Umbran Arts — all confirmed trackable via official manual.",
+    "noGlobalStatsScreen": "No confirmed lifetime playtime / total Halos earned counter beyond current spendable balance and the per-chapter results screen. Do not design a cumulative-currency trophy.",
+    "missables": "Essentially none — full Chapter Select replay of any cleared chapter at any time. Pure Platinum on a chapter must be earned in one continuous run (all its Alfheim portals included), but the chapter itself can be re-attempted indefinitely."
+  },
+  "wiiUAndSwitchDifferences": {
+    "wiiUExclusiveContent": "4 Nintendo-themed costumes not on PS3/360/Steam: Peach, Daisy, Samus (Power Suit — NOT confirmed as 'Zero Suit'), Link. Each has a real gameplay quirk (Bowser-fist Wicked Weaves for Peach/Daisy, arm-cannon for Samus, auto-parry for Link). Unlocked via the normal Halos/Gates of Hell purchase system alongside the rest of the costume roster — no separate unlock gate confirmed. Fox McCloud is Bayonetta-2-only, NOT in this game.",
+    "wiiUOtherAdditions": "Japanese dub audio option, GamePad touch controls/off-TV play, Miiverse integration (defunct since Nov 2017). None of this cuts content versus PS3/360/Steam — Wii U is consistently the 'definitive' version, strictly additive.",
+    "switchVsWiiU": "The 2018 Switch re-release keeps the same 4 Nintendo costumes (not new) and adds ONLY an amiibo-scan shortcut to unlock them instantly instead of via Halos purchase — not new content, every costume remains obtainable identically without amiibo. No other confirmed Switch-exclusive content for this game.",
+    "designImplication": "The user's premise of a meaningful 'Switch bonus/DLC' pack for Bayonetta 1 does not hold up under research — the only Switch difference is a hardware-dependent convenience shortcut for content that already exists on Wii U. This is NOT enough distinct, achievement-worthy content for a standalone DLC-style list (validate.mjs would flag <5 trophies as too thin). Recommend folding this into game.notes instead, or skipping it — needs a checkpoint decision.",
+    "pruneCheck": "No evidence any native PS3/360/Steam trophy references content absent from Wii U — Wii U appears to be a strict superset. No paid DLC found for the original 2009 release either, so no DLC-referencing trophies exist on the native list needing removal."
+  },
+  "gaps": [
+    "Exact on-screen name of the hardest difficulty unconfirmed (avoid quoting a specific string).",
+    "Verse counts per chapter unconfirmed.",
+    "Whether Nintendo costumes are free or Halos-gated on Wii U specifically is unconfirmed (treated as Halos-gated like the rest of the costume roster, consistent with the general system).",
+    "A handful of native Bronze trophy descriptions are single-source (flagged in dossier_scout_native.json's flaggedForVerification array).",
+    "No confirmed global lifetime-stats screen — cumulative-currency trophies are unsupported and excluded from design."
+  ]
+}
