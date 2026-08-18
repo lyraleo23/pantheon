@@ -1,0 +1,130 @@
+{
+  "game": "Mario Kart 8",
+  "platform": "Wii U",
+  "mode": "genesis",
+  "mergedFrom": ["dossier_scout_a.json", "dossier_scout_b.json", "dossier_scout_c.json"],
+  "coreStructure": {
+    "cups": {
+      "base": "8 cups x 4 tracks = 32 tracks, all available from the start, no gating between cups.",
+      "nitro": ["Mushroom Cup", "Flower Cup", "Star Cup", "Special Cup"],
+      "retro": ["Shell Cup", "Banana Cup", "Leaf Cup", "Lightning Cup"],
+      "trackLists": {
+        "Mushroom Cup": ["Mario Kart Stadium", "Water Park", "Sweet Sweet Canyon", "Thwomp Ruins"],
+        "Flower Cup": ["Mario Circuit", "Toad Harbor", "Twisted Mansion", "Shy Guy Falls"],
+        "Star Cup": ["Sunshine Airport", "Dolphin Shoals", "Electrodrome", "Mount Wario"],
+        "Special Cup": ["Cloudtop Cruise", "Bone-Dry Dunes", "Bowser's Castle", "Rainbow Road"],
+        "Shell Cup": ["Moo Moo Meadows (Wii)", "Mario Circuit (GBA)", "Cheep Cheep Beach (DS)", "Toad's Turnpike (N64)"],
+        "Banana Cup": ["Dry Dry Desert (GCN)", "Donut Plains 3 (SNES)", "Royal Raceway (N64)", "DK Jungle (3DS)"],
+        "Leaf Cup": ["Wario Stadium (DS)", "Sherbet Land (GCN)", "Music Park (3DS)", "Yoshi Valley (N64)"],
+        "Lightning Cup": ["Tick-Tock Clock (DS)", "Piranha Plant Slide (3DS)", "Grumble Volcano (Wii)", "Rainbow Road (N64)"]
+      },
+      "note": "Scout A flagged 'Music Park' vs 'Melody Motorway' and 'Piranha Plant Slide' vs 'Piranha Plant Pipeway' as a source discrepancy. Resolved: Music Park and Piranha Plant Slide are the correct, widely-documented official English track names."
+    },
+    "engineClasses": {
+      "atLaunch": ["50cc", "100cc", "150cc"],
+      "mirrorMode": "Present at launch, gated behind clearing all 8 cups at 150cc (unlock wording not verified against a primary source, medium confidence).",
+      "200cc": "NOT present at launch (May 2014). Added free in Ver. 4.0 (Apr 23, 2015), still locked at that point. Ver. 4.1 (May 1, 2015) made 200cc AND Mirror Mode available by default with no unlock condition. Any current/updated copy has both open from a fresh save.",
+      "decision": "Because every sold/updated copy today ships fully patched, base list should treat 50/100/150/Mirror/200cc as simply the five available engine classes — do not build an 'unlock Mirror Mode' or 'unlock 200cc' trophy, since there is nothing left to unlock on a patched game."
+    },
+    "starRanks": {
+      "system": "0-3 stars per cup per engine class, based on total points across the cup's 4 races (max 60 = 1st in all four races = 3 stars). Displayed persistently on the Grand Prix cup-select screen.",
+      "confidence": "high on the 3-star=60pts threshold and on-screen display; medium on exact 1-star/2-star point cutoffs (not needed for trophy design, only the top threshold matters)."
+    },
+    "battleMode": {
+      "finding": "Wii U original has exactly one mode, Balloon Battle, played on 8 repurposed race tracks, never on dedicated arenas. No Coin Runners/Shine Thief/Bob-omb Blast/Renegade Roundup, and no dedicated arenas were ever added via patch. This is a real, well-documented launch weak point distinct from Mario Kart 8 Deluxe's later overhaul.",
+      "confidence": "high",
+      "designImplication": "Weak, thin content. At most a single lightweight trophy for playing/winning a Balloon Battle; do not build multiple Battle Mode trophies."
+    }
+  },
+  "unlockSystems": {
+    "characters": {
+      "total": 30,
+      "default": 16,
+      "unlockable": 14,
+      "unlockableList": ["Rosalina", "Metal Mario", "Lakitu", "Toadette", "Baby Rosalina", "Pink Gold Peach", "Iggy", "Roy", "Lemmy", "Larry", "Wendy", "Ludwig", "Morton", "Mii"],
+      "mechanic": "Winning any Grand Prix Cup for the first time (any of the 4 engine classes present at the time) grants exactly one random character unlock; a given cup only ever grants one unlock. Not coin-based. RNG order, so no trophy should require a specific character by a specific milestone — only 'unlock the full roster' is safe.",
+      "confidence": "medium-high"
+    },
+    "vehicleParts": {
+      "mechanic": "A new part (kart body/tire/glider) unlocks randomly from the remaining locked pool every 50 lifetime coins up to 1000, then every 100 coins after, totalling roughly 2,800 coins for all standard (non-gold) parts. Max 10 coins bank per race (coins held at the finish line).",
+      "confidence": "medium — figures are community-sourced (GameFAQs/SuperCheats), not an official Nintendo total, but corroborated across multiple independent threads.",
+      "goldParts": {
+        "goldStandardKart": "Unlocks by earning at least 1 star in every Grand Prix Cup, every engine class. Whether 200cc specifically is required is unconfirmed, but since 200cc ships unlocked by default today, this is very likely simply 'every cup, every class currently available' in practice.",
+        "goldTires": "Unlocks by beating the Staff Ghost (developer time) in Time Trial on every base-game track.",
+        "goldGlider": "Unlocks at 10,000 lifetime coins collected — a long-haul grind, well beyond the ~2,800 needed for all standard parts.",
+        "confidence": "medium, GameFAQs-sourced, internally consistent across scouts"
+      }
+    },
+    "goldMario": {
+      "finding": "Unlocks by finishing 1st in all 12 Grand Prix Cups at 200cc. The base Wii U game only has 8 cups — reaching 12 requires BOTH paid DLC packs installed.",
+      "confidence": "medium",
+      "designImplication": "NOT achievable in the base game without both DLC packs. Excluded from the base-game trophy list; would only make sense as part of a future DLC-inclusive pack."
+    }
+  },
+  "dlc": {
+    "pack1": {
+      "name": "The Legend of Zelda x Mario Kart 8",
+      "released": "2014-11-13",
+      "price": "$7.99 individually",
+      "cups": ["Egg Cup", "Triforce Cup"],
+      "tracks": {
+        "Egg Cup": ["Yoshi Circuit (GCN)", "Excitebike Arena", "Dragon Driftway", "Mute City"],
+        "Triforce Cup": ["Wario's Gold Mine (Wii)", "Rainbow Road (SNES)", "Ice Ice Outpost", "Hyrule Circuit"]
+      },
+      "characters": ["Link", "Tanooki Mario", "Cat Peach"],
+      "vehicles": ["Blue Falcon", "B Dasher", "Master Cycle", "Tanooki Kart"]
+    },
+    "pack2": {
+      "name": "Animal Crossing x Mario Kart 8",
+      "released": "2015-04-23",
+      "price": "$7.99 individually",
+      "cups": ["Bell Cup", "Crossing Cup"],
+      "characters": ["Villager (M)", "Villager (F)", "Isabelle"],
+      "vehicleNamesConfidence": "low — exact 4 vehicle names not independently re-confirmed this session",
+      "note": "Animal Crossing track has 4 seasonal variants (Spring/Summer/Fall/Winter)."
+    },
+    "bundle": "Both packs together, $11.99 ('Pack 1 + Pack 2 Bundle'); owning both additionally unlocks 8 exclusive Yoshi/Shy Guy colors.",
+    "decision": "Per Rule 14, paid DLC is out of scope for the base trophies.json. Could become a future separate DLC list if the user requests it."
+  },
+  "freeContentAtLaunchOrLater": {
+    "mercedesPack": "Free Ver. 2.0.0 update (Aug 2014) adds 3 Mercedes-Benz vehicles (GLA kart, 300 SL Roadster, W 25 Silver Arrow). No accompanying track ('Silver Arrow' is a kart, not a course — corrects an initial research premise). Free and auto-applied, in scope for base list if a trophy is built around it (low priority, cosmetic-only).",
+    "recordsMenu": "Added via free Ver. 2.0.0 update. Main-menu 'Records' section shows at minimum lifetime coins collected and online win/loss. Full field list unconfirmed beyond that."
+  },
+  "trackableStats": [
+    "Star rank (0-3) per cup per engine class — cup-select screen, persistent.",
+    "Character roster completion — character select screen shows locked (silhouette) vs unlocked.",
+    "Vehicle part completion — garage/customization screen shows locked vs owned parts.",
+    "Gold Standard / Gold Tires / Gold Glider unlock state — appear as selectable parts once earned.",
+    "Lifetime coins collected — Records menu.",
+    "Per-track Time Trial best time vs Staff Ghost — per-track leaderboard after a run. No confirmed global 'all staff ghosts beaten' checklist screen exists; the Gold Tires unlock is the clean in-game proxy for that aggregate."
+  ],
+  "missables": {
+    "finding": "No permanently missable content identified. All unlocks (characters, parts, gold parts) are persistent and cumulative; nothing is time-limited or lost by play order.",
+    "confidence": "medium (absence-of-evidence conclusion, consistent with the genre)"
+  },
+  "rngRisk": {
+    "finding": "Item box contents are position-weighted (trailing racers get better odds at rare items). No official counter for items received/used exists. Rule 21 risk: do not build any trophy around obtaining a specific item (e.g. 'get a Blue Shell in 1st place') — no trackable stat backs it and it fights the game's own weighting.",
+    "confidence": "medium"
+  },
+  "amiibo": {
+    "finding": "~19 Mii Racing Suits unlockable by scanning physical amiibo figures. Entirely hardware/purchase dependent.",
+    "designImplication": "Excluded — depends on owning physical toys outside the game itself, not a fair trophy condition.",
+    "confidence": "medium"
+  },
+  "onlineFeaturesDefunct": {
+    "finding": "All Nintendo Network online services for Wii U (online races/battles, VR/BR ratings, online win/loss tracking, Tournaments, Mario Kart TV online sharing) were permanently shut down April 8, 2024. Miiverse (which displayed Staff Ghost-beat stamps) shut down even earlier, November 2017.",
+    "confidence": "high",
+    "designImplication": "No trophy may depend on online play, online ranks, or Miiverse. Local split-screen multiplayer (up to 4 players) remains fully functional and is a valid trophy candidate; offline Time Trial, Grand Prix, and VS/Battle remain fully functional."
+  },
+  "versionDifferencesVsDeluxe": {
+    "note": "For scope clarity only — none of the following exist on Wii U and must not appear in this list: dual item slots / Double Item Boxes, Smart Steering, dedicated Battle arenas + 4 extra battle modes, 200cc as a launch feature, the Feather item, and 5 exclusive characters (King Boo, Dry Bones, Bowser Jr., Inkling Boy, Inkling Girl). Boomerang Flower's presence on Wii U vs Deluxe-only is unconfirmed either way and will simply not be used in any trophy wording to be safe.",
+    "confidence": "high on the confirmed-absent list; the Boomerang Flower point is an open unknown, not used in design."
+  },
+  "gaps": [
+    "Exact base-game-only (pre-DLC) kart body/tire/glider breakdown by name is not confirmed, only inferred counts.",
+    "Full Records-menu field list beyond coins collected and online win/loss is unconfirmed.",
+    "No confirmed global 'staff ghosts beaten' checklist screen exists — Gold Tires unlock used as the safe proxy instead.",
+    "Whether Gold Standard kart's 'star in every cup, every class' includes 200cc is unconfirmed (treated as moot since 200cc ships unlocked by default today).",
+    "DLC Pack 2's exact 4 vehicle names unconfirmed (not needed — DLC out of scope for this list)."
+  ]
+}

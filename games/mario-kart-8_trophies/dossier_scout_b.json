@@ -1,0 +1,136 @@
+{
+  "beat": "collectibles, unlockables, side content, minigames, post-game, DLC",
+  "game": "Mario Kart 8",
+  "platform": "Wii U",
+  "findings": [
+    {
+      "category": "roster",
+      "name": "Base game character roster",
+      "detail": "30 total playable characters at launch (pre-DLC): 16 default (Mario, Luigi, Peach, Daisy, Yoshi, Toad, Koopa Troopa, Shy Guy, Bowser, Donkey Kong, Wario, Waluigi, Baby Mario, Baby Luigi, Baby Peach, Baby Daisy) and 14 unlockable (Rosalina, Metal Mario, Lakitu, Toadette, Baby Rosalina, Pink Gold Peach, the 7 Koopalings [Iggy, Roy, Lemmy, Larry, Wendy, Ludwig, Morton], and Mii).",
+      "trackable": "Character select grid visually shows silhouettes for unearned characters vs. unlocked portraits.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://mariokart.fandom.com/wiki/Unlockable_Characters", "https://www.mariowiki.com/Mario_Kart_8", "https://www.nintendo-insider.com/unlock-mario-kart-8-characters/"]
+    },
+    {
+      "category": "unlock-mechanic",
+      "name": "Character unlock method",
+      "detail": "Characters are NOT unlocked via coins. They unlock at random by winning any Grand Prix Cup for the first time (across 50cc, 100cc, 150cc, and Mirror 150cc engine classes). Each individual cup-win-for-the-first-time event grants exactly one random unlock and a given cup will not grant more than one character. Coins collected during races are used exclusively for kart part unlocks, not characters.",
+      "trackable": "Not separately tracked/counted anywhere beyond the roster screen itself; no on-screen counter of 'X of 14 unlocked' was confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo-insider.com/unlock-mario-kart-8-characters/", "https://mariokart.fandom.com/wiki/Unlockable_Characters"]
+    },
+    {
+      "category": "kart-parts",
+      "name": "Total vehicle part counts (base game + both DLC packs combined)",
+      "detail": "With both DLC packs installed, the full roster of vehicle bodies is 22 karts + 6 standard bikes + 5 sport bikes + 4 ATVs = 37 bodies, plus 21 tire sets and 14 gliders, yielding 10,878 possible combinations. DLC added roughly 8 vehicle bodies (4 per pack: Blue Falcon/B Dasher/Master Cycle/Tanooki Kart from Pack 1; Biddybuggy/Circuit Special/Landship/Bone Rattler from Pack 2), plus a small number of tires/gliders. Base game (Wii U at launch, before any DLC) therefore had roughly 29 bodies, ~18 tire sets, ~12 gliders — this base-only breakdown is an inference from subtracting reported DLC additions from reported totals and was not found stated directly as a standalone base-game figure.",
+      "trackable": "Garage/customization screen shows all owned parts; locked parts show as silhouettes.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_8", "https://mario.fandom.com/wiki/Mario_Kart_8"]
+    },
+    {
+      "category": "unlock-mechanic",
+      "name": "Kart part unlock via coins",
+      "detail": "A new vehicle part unlocks (randomly, from remaining locked parts) for every 50 coins of cumulative lifetime coin collection, up to 1000 total coins; after 1000 coins, the threshold changes to every 100 coins. A player earns at most 10 coins per race (coins picked up during a race that exceed 10 are not banked — only the coins held at the finish, capped at 10, count toward the lifetime total). One community source states a grand total of 2,800 lifetime coins is needed to unlock all standard (non-gold) parts. A separate/lower-confidence claim states the Golden Glider specifically requires 10,000 lifetime coins in the Wii U version.",
+      "trackable": "Coin count is visible during races (coin icon + counter) and lifetime coin total is reportedly shown on the Records/main menu stats screen (see trackableStats).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/boards/700050-mario-kart-8/69375714", "https://www.gamesradar.com/mario-kart-8-unlockables/"]
+    },
+    {
+      "category": "dlc",
+      "name": "DLC Pack 1: The Legend of Zelda × Mario Kart 8",
+      "detail": "Released November 13, 2014. Adds 3 characters (Link, Tanooki Mario, Cat Peach), 4 vehicles (Blue Falcon, B Dasher, Master Cycle, Tanooki Kart), and 2 new cups of 4 tracks each (8 tracks total): Egg Cup (Yoshi Circuit [from Mario Kart: Double Dash!!], Excitebike Arena, Dragon Driftway, Mute City) and Triforce Cup (Wario's Gold Mine [from Mario Kart Wii], SNES Rainbow Road, Ice Ice Outpost, Hyrule Circuit).",
+      "trackable": "New cups/tracks appear in Grand Prix and Time Trial track select menus once DLC is installed; new characters appear on character select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/The_Legend_of_Zelda_x_Mario_Kart_8", "https://zeldawiki.wiki/wiki/The_Legend_of_Zelda_%C3%97_Mario_Kart_8"]
+    },
+    {
+      "category": "dlc",
+      "name": "DLC Pack 2: Animal Crossing × Mario Kart 8",
+      "detail": "Released April 23, 2015. Adds 3 characters (Villager, Isabelle, Dry Bowser), 4 vehicles, and 2 new cups of 4 tracks each (8 tracks total): Bell Cup and Crossing Cup. The Animal Crossing-themed track itself has four seasonal variants (Spring, Summer, Fall, Winter) that rotate/are selectable.",
+      "trackable": "New cups/tracks appear in menus once DLC installed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Animal_Crossing_x_Mario_Kart_8", "https://nookipedia.com/wiki/Mario_Kart_8", "https://www.techtimes.com/articles/43715/20150402/mario-kart-8-dlc-animal-crossing-will-hit-wii-u-on-april-23-with-new-200cc-mode.htm"]
+    },
+    {
+      "category": "dlc",
+      "name": "DLC pricing / bundle",
+      "detail": "Each DLC pack was sold individually for $7.99 USD, or both together as a bundle ('Mario Kart 8 DLC Pack Bundle' / 'Pack 1 + Pack 2 Bundle') for $11.99 USD, purchasable via the in-game Shop or Nintendo eShop. Owning both packs (i.e., the full DLC set) additionally unlocks 8 new color variants for Yoshi and Shy Guy that are not obtainable otherwise.",
+      "trackable": "Ownership reflected by presence of DLC content in menus; the 8 Yoshi/Shy Guy colors appear as extra color-swap options on the character select screen once both packs are owned.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://purenintendo.com/pr-mario-kart-8-dlc-to-cost-7-99-per-pack-11-99-for-both/", "https://www.neogaf.com/threads/mario-kart-8-dlc-pricing-confirmed-7-99-each-or-11-99-for-both-16-tracks.882971/"]
+    },
+    {
+      "category": "systems",
+      "name": "200cc engine class",
+      "detail": "200cc was added as a FREE update (Version 4.0) released the same day as paid DLC Pack 2 (April 23, 2015). 200cc itself is not part of either paid DLC pack and does not require owning any DLC — it is available to all Wii U owners who update the game, independent of DLC purchase. (Cross-check recommended with campaign/systems scout, as this task flagged possible overlap.)",
+      "trackable": "New engine class option appears in Grand Prix/Time Trial/VS setup menus after updating.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.techtimes.com/articles/43715/20150402/mario-kart-8-dlc-animal-crossing-will-hit-wii-u-on-april-23-with-new-200cc-mode.htm", "https://www.perfectly-nintendo.com/mario-kart-8-wii-u-all-the-updates/"]
+    },
+    {
+      "category": "amiibo",
+      "name": "Amiibo-unlocked Mii Racing Suits",
+      "detail": "Scanning a compatible amiibo figure via the Wii U GamePad unlocks a corresponding Mii Racing Suit permanently for use on Mii racers. Wii U Mario Kart 8 supports roughly 19 distinct Mii Racing Suits via amiibo (sources vary; one source lists an initial compatible set including Mario, Luigi, Peach, Yoshi, Donkey Kong, Link, Captain Falcon, Kirby, Samus, and Fox amiibo, with additional suits unlocked by other amiibo across various series as more were released post-launch). This is entirely dependent on the player owning physical amiibo figures/hardware — a poor/impossible candidate for a trophy given many players will not own the required physical toys.",
+      "trackable": "Mii suit selection screen shows which suits have been unlocked; no confirmed on-screen 'X of 19 suits unlocked' counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://amiibo.fandom.com/wiki/Mario_Kart_8", "https://amiipedia.com/amiibo-games/mario-kart-8"]
+    },
+    {
+      "category": "systems",
+      "name": "Records / stats menu",
+      "detail": "The main menu includes a 'Records' section that displays cumulative lifetime statistics, confirmed to include total coins collected and online wins/losses. Full contents of this screen (e.g., whether it also shows total races won offline, total distance driven, or a bestiary-style breakdown per character/track) could NOT be confirmed from available sources.",
+      "trackable": "Yes — Records menu accessible from the main menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_8"]
+    },
+    {
+      "category": "systems",
+      "name": "Mario Kart TV / Highlight Reel",
+      "detail": "After each race, the game auto-generates a Highlight Reel (editable: choice of up to 3 featured racers, focus type [Items, Action, Drifting, Hits, Big Hits], and length from 30 seconds up to full race). Up to 12 recent race highlight reels are kept, plus a favorites list (reported as up to 6). Reels could be shared online via Mario Kart TV and to social/video services. Local reel generation/viewing/editing likely still functions offline post-shutdown; ONLINE SHARING via Mario Kart TV's web service relied on Nintendo Network and is presumed non-functional since the Wii U online service shutdown (see versionNotes).",
+      "trackable": "Yes — Highlight Reel menu accessible after races and from main menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://mariokart.fandom.com/wiki/Highlight_Reel", "https://www.mariowiki.com/Mario_Kart_TV"]
+    },
+    {
+      "category": "multiplayer",
+      "name": "Local split-screen multiplayer",
+      "detail": "Supports up to 4-player local split-screen (offline). Exact GamePad off-TV play behavior in split-screen configurations (e.g., whether GamePad can serve as one of the split-screen displays) could not be confirmed from available sources.",
+      "trackable": "N/A — session-based, not a persistent trackable stat found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Mario_Kart_8"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Lifetime coins collected", "where": "Records menu (main menu)", "confidence": "medium" },
+    { "stat": "Online wins/losses", "where": "Records menu (main menu)", "confidence": "medium — now unverifiable/frozen since Wii U online shutdown (April 8, 2024)" },
+    { "stat": "Vehicle parts unlocked", "where": "Garage/kart customization screen (locked parts shown as silhouettes vs. owned parts)", "confidence": "high" },
+    { "stat": "Characters unlocked", "where": "Character select screen (locked characters shown as silhouettes)", "confidence": "high" },
+    { "stat": "Star rank per Cup/engine class", "where": "Grand Prix results/cup select screen shows earned trophy (Bronze/Silver/Gold) and star rating (1-3 stars) per cup per engine class", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Wii U's Nintendo Network online services (Worldwide/Regional online races, Tournaments, online leaderboards, and online sharing via Mario Kart TV) were officially discontinued by Nintendo on April 8, 2024. Any trophy design relying on online races, online tournaments, or online video sharing is NOT achievable by a player starting the game today and must be excluded or reframed around offline/local content only.", "confidence": "high" },
+    { "note": "200cc was delivered as a free update (Ver. 4.0) simultaneously with, but independent of, paid DLC Pack 2 — it does not require DLC ownership. Flagging for cross-check with other scout covering systems/campaign to avoid duplicate or conflicting trophy design.", "confidence": "high" },
+    { "note": "Amiibo Mii Suit unlocks are hardware-dependent (require owning physical amiibo figures) and should likely be excluded from trophy design per the standard rule against physical-purchase-gated content.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm the complete, itemized list of base-game (pre-DLC) kart bodies, tires, and gliders by exact name — only derived approximate counts (29 bodies / ~18 tires / ~12 gliders) by subtracting reported DLC additions from reported grand totals; this subtraction was not found stated as a direct base-game figure in any single source.",
+    "Could not verify the exact/complete list of all 19 (or however many) amiibo-unlockable Mii Racing Suits by name, nor find an in-game on-screen counter tracking 'X of Y suits unlocked.'",
+    "Could not confirm the full contents of the Records/stats menu beyond 'total coins collected' and 'online wins/losses' — unclear if it also tracks offline races won, total distance, or per-character/per-track stats.",
+    "Could not independently confirm the '2,800 total coins to unlock all non-gold parts' and 'Golden Glider requires 10,000 coins' figures beyond single/community sources (GameFAQs forum, GamesRadar) — no official Nintendo source found stating exact coin totals.",
+    "Could not confirm whether Mario Kart TV highlight reel creation and local playback still function fully offline post-April 2024 shutdown, versus only the online sharing/upload portion being broken.",
+    "Could not confirm exact split-screen GamePad behavior (e.g., GamePad as a 5th view, or 2-player GamePad + TV modes) — only that up to 4-player split-screen is supported.",
+    "Did not find a confirmed exact list of DLC Pack 2's 4 added vehicles by name with full certainty (referenced as Biddybuggy, Circuit Special, Landship, Bone Rattler based on general series knowledge, but this specific list was not independently re-confirmed via a dedicated search in this session — flag as needing verification)."
+  ]
+}

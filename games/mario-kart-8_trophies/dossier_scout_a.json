@@ -1,0 +1,193 @@
+{
+  "beat": "campaign structure, cups, Grand Prix, race modes, and major milestones",
+  "game": "Mario Kart 8",
+  "platform": "Wii U (2014 original release)",
+  "facts": [
+    {
+      "topic": "Base game cup count/structure",
+      "finding": "The Wii U base game (no DLC) has 8 cups of 4 tracks each = 32 tracks total. 4 'Nitro' cups of new tracks: Mushroom Cup, Flower Cup, Star Cup, Special Cup. 4 'Retro' cups of remastered classic tracks: Shell Cup, Banana Cup, Leaf Cup, Lightning Cup.",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom, Super Mario Wiki (mariowiki.com)",
+      "notes": "Shell/Banana/Leaf/Lightning Cups are NOT locked/unlockable content in MK8 (unlike some earlier titles) — they are simply the second set of Grand Prix cups you select from the same cup-select screen alongside the Nitro cups. All 8 base cups are available from the start; nothing needs to be 'unlocked' to access them."
+    },
+    {
+      "topic": "Mushroom Cup tracks",
+      "finding": "Mario Kart Stadium, Water Park, Sweet Sweet Canyon, Thwomp Ruins",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom"
+    },
+    {
+      "topic": "Flower Cup tracks",
+      "finding": "Mario Circuit, Toad Harbor, Twisted Mansion, Shy Guy Falls",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom"
+    },
+    {
+      "topic": "Star Cup tracks",
+      "finding": "Sunshine Airport, Dolphin Shoals, Electrodrome, Mount Wario",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom",
+      "notes": "Track name is 'Electrodrome' in official spelling (search result rendered it 'Electrodome' — flagging spelling as low-confidence detail, but track identity is high confidence)."
+    },
+    {
+      "topic": "Special Cup tracks",
+      "finding": "Cloudtop Cruise, Bone-Dry Dunes, Bowser's Castle, Rainbow Road",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom"
+    },
+    {
+      "topic": "Shell Cup tracks (retro)",
+      "finding": "Moo Moo Meadows (Wii), Mario Circuit (GBA), Cheep Cheep Beach (DS), Toad's Turnpike (N64)",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom"
+    },
+    {
+      "topic": "Banana Cup tracks (retro)",
+      "finding": "Dry Dry Desert (GCN), Donut Plains 3 (SNES), Royal Raceway (N64), DK Jungle (3DS)",
+      "confidence": "high",
+      "source": "Mario Kart Wiki/Fandom",
+      "notes": "3DS track officially named 'DK Jungle' (from Mario Kart 7's 'DK Jungle', itself based on Donkey Kong Country)."
+    },
+    {
+      "topic": "Leaf Cup tracks (retro)",
+      "finding": "Wario Stadium (DS), Sherbet Land (GCN), Melody Motorway/Music Park (3DS), Yoshi Valley (N64)",
+      "confidence": "medium",
+      "source": "Mario Kart Wiki/Fandom",
+      "notes": "One search result rendered the 3DS track as 'Melody Motorway'; the commonly documented official name is 'Music Park' (3DS). Flagging discrepancy — recommend double-checking exact track name before using in a trophy description."
+    },
+    {
+      "topic": "Lightning Cup tracks (retro)",
+      "finding": "Tick-Tock Clock (DS), Piranha Plant Slide/Pipeway (3DS), Grumble Volcano (Wii), Rainbow Road (N64)",
+      "confidence": "medium",
+      "source": "Mario Kart Wiki/Fandom",
+      "notes": "3DS track's official English name is generally documented as 'Piranha Plant Slide' — search result rendered it 'Piranha Plant Pipeway'. Flagging name discrepancy for verification."
+    },
+    {
+      "topic": "Engine classes at launch",
+      "finding": "At Wii U launch (May 2014), the available engine classes were 50cc, 100cc, and 150cc. Mirror Mode existed but had to be unlocked (see Mirror Mode unlock fact below). 200cc did not exist at launch.",
+      "confidence": "high",
+      "source": "Wikipedia (Mario Kart 8), Perfectly Nintendo update history"
+    },
+    {
+      "topic": "Mirror Mode unlock (pre-update)",
+      "finding": "Originally, Mirror Mode was unlocked by earning first place / a trophy in all 8 base cups at 150cc (i.e., getting gold in every 150cc cup).",
+      "confidence": "medium",
+      "source": "Mario Kart Racing Wiki (Fandom) 'Mirror Mode' page, cross-referenced via search summaries",
+      "notes": "Could not directly verify the precise wording (e.g., whether it required literal 1st place finishes in all four races of each cup, or just winning the cup trophy overall) via a fully loaded source page — the Fandom page itself returned an HTTP 402 paywall error when fetched directly, so this is based on search-result summaries only, not a directly read page. Recommend a follow-up check before finalizing wording of any related trophy."
+    },
+    {
+      "topic": "200cc release",
+      "finding": "200cc was NOT in the game at launch. It was added via a free title update — Version 4.0 — released April 23, 2015 (same day as the DLC Pack 2 / Animal Crossing x Mario Kart 8 DLC). At this point, 200cc (and Mirror Mode) still had to be unlocked by the player.",
+      "confidence": "high",
+      "source": "Perfectly-Nintendo.com Mario Kart 8 update history page (via search summary), Destructoid, My Nintendo News",
+      "notes": "This is an important version-difference: any trophy referencing 200cc or Mirror Mode should note it requires the game to be patched (title updates are built into all physical/digital copies sold after mid-2015, but a fresh unpatched cart from launch stock or an offline console would not have it)."
+    },
+    {
+      "topic": "200cc / Mirror Mode unlocked by default",
+      "finding": "Version 4.1 update, released May 1, 2015, made both 200cc and Mirror Mode available by default in Grand Prix mode without needing to unlock them (removed the unlock requirement entirely going forward).",
+      "confidence": "high",
+      "source": "My Nintendo News 'Mario Kart 8 Update Version 4.1', Perfectly Nintendo, Destructoid",
+      "notes": "So there are actually two distinct patch milestones: v4.0 (added 200cc, still locked) and v4.1 one week later (unlocked by default for everyone). A game on the latest patch (which virtually all played copies will be, since Wii U eShop and disc-based patching requires internet at some point) will have 200cc and Mirror Mode available from a fresh save with no unlock condition at all. This affects whether 'unlock Mirror Mode' or 'unlock 200cc' can even be framed as a trophy milestone — on a fully updated game there is nothing to unlock."
+    },
+    {
+      "topic": "Star Rank system",
+      "finding": "Each Grand Prix cup, at each engine class, is awarded a star rank of 0-3 stars based on total points across its 4 races (out of a max 60 points = 15/race for 1st place). 60 points = 3 stars, 57-59 = 2 stars, 54-56 = 1 star, below 54 = 0 stars (no star awarded, cup still 'cleared'/trophy still won if you place high enough for a podium finish overall).",
+      "confidence": "high",
+      "source": "GameFAQs Mario Kart 8 Q&A, Zero1Magazine, Mario Kart Racing Wiki 'Star Rank' page"
+    },
+    {
+      "topic": "Star Rank tracked in-game",
+      "finding": "Star ranks earned are displayed as star icons directly on the cup-selection screen for Grand Prix mode, per cup. This is a persistent, visible in-game tracker of per-cup performance history.",
+      "confidence": "medium",
+      "source": "GameFAQs Mario Kart 8 Deluxe Q&A thread describing the analogous MK8 mechanic; cross-referenced against MK8 (Wii U) Q&A on star meaning",
+      "notes": "Direct confirmation is strongest for Mario Kart 8 Deluxe's version of this screen (which is known to carry over from the Wii U original), but I could not find a screenshot-verified source specific to the original Wii U UI. High confidence the underlying star-rank display mechanic exists in Wii U MK8 (it's the same base game), medium confidence on exact UI presentation details."
+    },
+    {
+      "topic": "'Complete all cups, all classes' scope",
+      "finding": "With 8 base cups and (post-update) 5 engine classes (50cc, 100cc, 150cc, Mirror, 200cc), fully completing every cup at every class = 40 individual Grand Prix clears (8 cups x 5 classes) on Wii U base game, pre-DLC.",
+      "confidence": "medium",
+      "source": "Derived arithmetic from confirmed cup count (8) and confirmed engine class count (5, post-v4.1 update)",
+      "notes": "This is my own calculation, not a direct source statement — flagging as medium/derived. If DLC cups are included this number rises (another scout's beat)."
+    },
+    {
+      "topic": "Ending credits / completion milestone",
+      "finding": "Earning gold (1st place trophy) in every Grand Prix cup at 150cc and at Mirror Mode unlocks a different/extended ending credits sequence and song, plus different single-player and multiplayer title screen presentations.",
+      "confidence": "low",
+      "source": "Search-result summary only (ChapterCheats/Cheats.co aggregation); could not verify against a primary or wiki source directly",
+      "notes": "This claim needs verification before being used as the basis for a trophy. It's a commonly repeated community claim but I was not able to confirm it against a reliable wiki page directly (e.g., mariowiki.com credits page). Treat as unconfirmed."
+    },
+    {
+      "topic": "Battle Mode in original Wii U MK8 (launch)",
+      "finding": "At launch, Battle Mode had only ONE mode: Balloon Battle (Coin Runners and other historical battle modes were removed/absent). Crucially, Battle Mode did NOT use dedicated battle arenas — it reused 8 existing Grand Prix race tracks as battle 'courses': Mario Circuit, Toad Harbor, Moo Moo Meadows (Wii), Toad's Turnpike (N64), Sherbet Land (GCN), Donut Plains 3 (SNES), Dry Dry Desert (GCN), and Yoshi Valley (N64).",
+      "confidence": "medium",
+      "source": "Kotaku 'A Defense Of Mario Kart 8's Unpopular Battle Mode', Nintendo Life forum thread 'No Battle Arenas for Mario Kart DLC?', general search summaries",
+      "notes": "This was a well-documented, widely-reported launch criticism at the time (confirmed by multiple outlets). The exact list of the 8 specific race tracks used for battle is medium confidence — pulled from a single aggregated search summary, not cross-verified against a dedicated wiki table. Recommend a direct wiki check before finalizing which 8 tracks are used for Battle in a trophy description."
+    },
+    {
+      "topic": "Battle Mode arena/track updates post-launch",
+      "finding": "Could not confirm whether any Wii U update ever added new/dedicated battle arenas to the original MK8. The consensus across sources is that the original Wii U version NEVER received dedicated battle arenas — that fix only arrived with the ground-up Battle Mode redesign in Mario Kart 8 Deluxe (Switch, 2017), which is a different game/product from vanilla Wii U MK8.",
+      "confidence": "medium",
+      "source": "Wikipedia (Mario Kart 8), Kotaku, Nintendo Life",
+      "notes": "Important version-difference: do NOT confuse vanilla Wii U MK8 Battle Mode with MK8 Deluxe's 5-ruleset (Balloon Battle, Bob-omb Blast, Shine Thief, Coin Runners, Renegade Roundup) dedicated-arena Battle Mode — those Deluxe features are NOT present in the Wii U original at any patch level, as far as I could confirm."
+    },
+    {
+      "topic": "Time Trial mode - Staff Ghosts",
+      "finding": "Mario Kart 8 (Wii U) includes one Staff Ghost per track (developer-recorded target time) for Time Trial mode. Unlike some earlier MK titles, MK8 (Wii U) does NOT have a separate tier of 'Expert'/'Fast' Staff Ghosts — just the single standard staff ghost per course.",
+      "confidence": "medium",
+      "source": "Mario Kart Racing Wiki 'Staff Ghosts' page (via search summary)",
+      "notes": "Mario Kart 8 Deluxe later added separate 150cc and 200cc staff ghosts, but that's Deluxe-specific and not part of the Wii U original per this source."
+    },
+    {
+      "topic": "Time Trial completion tracking",
+      "finding": "Could not confirm any in-game UI element that shows the player, at a glance, which tracks' staff ghosts have been beaten across all 32 base tracks (e.g., no confirmed 'completion percentage' or checklist screen for Time Trial staff-ghost beats).",
+      "confidence": "low",
+      "source": "GameFAQs Q&A thread titled 'Is there an easy way to see on which Time Trials you've beaten the staff ghost?' (implies the answer is 'not easily' / no dedicated tracker)",
+      "notes": "This is a load-bearing gap: if there is no in-game way to see aggregate staff-ghost-beaten progress, a trophy for 'beat all staff ghosts' is still trackable per-track (each track's Time Trial leaderboard would show your ghost beat the staff ghost time), but there's no single global counter/summary screen confirmed. Flagging as a gap for the downstream design step."
+    },
+    {
+      "topic": "Online / Nintendo Network features (now defunct)",
+      "finding": "Mario Kart 8 (Wii U) supported online races, online leaderboards, and online ghost data exchange via Nintendo Network. All of this went offline permanently on April 8, 2024 (4pm PT / 7pm ET / 12am April 9 GMT), when Nintendo shut down all Wii U and 3DS online services network-wide.",
+      "confidence": "high",
+      "source": "TheSixthAxis, Neoseeker, GamesRadar+, Engadget, My Nintendo News",
+      "notes": "CRITICAL for trophy design: any trophy tied to online races, online leaderboard rank, downloading/uploading ghost data via Nintendo Network, or Mario Kart TV online sharing is now permanently unachievable on original hardware without unofficial server workarounds. Local wireless/LAN play and offline Time Trial/Grand Prix are unaffected. Flag any such trophy candidate for removal or reframing as local-only."
+    },
+    {
+      "topic": "DLC packs (existence only, not deep content — per instructions)",
+      "finding": "Two paid DLC packs existed for Wii U MK8: Pack 1 'The Legend of Zelda x Mario Kart 8' (released Nov 13, 2014) adding Egg Cup and Triforce Cup (8 tracks); Pack 2 'Animal Crossing x Mario Kart 8' (released April 23, 2015, same day as the 200cc update) adding Crossing Cup and Bell Cup (8 tracks). Total with both DLC packs: 12 cups / 48 tracks.",
+      "confidence": "high",
+      "source": "Forbes, Mario Kart Wiki/Fandom, RPGGeek, IBTimes",
+      "notes": "Per task instructions, not deep-diving DLC content — another scout covers that beat. Noting only cup names/existence/dates for structural completeness."
+    },
+    {
+      "topic": "Grand Prix player count",
+      "finding": "Grand Prix races in Mario Kart 8 (Wii U) feature 12 racers (up from 8 in some earlier MK titles), consistent across all engine classes.",
+      "confidence": "medium",
+      "source": "General series knowledge cross-referenced in search summaries (not independently re-verified with a dedicated search this session)",
+      "notes": "This is a widely known fact about MK8 but I did not run a dedicated confirming search this session — flagging as medium/low-effort verification. Should be easy to confirm with a single follow-up search if load-bearing for a trophy."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Star rank (0-3 stars) per cup per engine class", "where": "Grand Prix cup-selection screen, displayed as star icons next to each cup", "confidence": "medium" },
+    { "stat": "Grand Prix cup trophy/placement (gold/silver/bronze or no trophy) per cup per class", "where": "End-of-cup results screen; persists as the basis for the star icon shown on cup select screen", "confidence": "medium" },
+    { "stat": "Time Trial best time per track, and whether it beats the Staff Ghost", "where": "Per-track Time Trial leaderboard/results screen after a run", "confidence": "medium" },
+    { "stat": "Aggregate/global count of staff ghosts beaten across all tracks", "where": "NOT CONFIRMED to exist as a single summary screen — appears to require manually checking each track", "confidence": "low" },
+    { "stat": "Online leaderboard rank / online records", "where": "Formerly via Nintendo Network (Mario Kart TV, online rankings) — now permanently defunct as of April 8, 2024", "confidence": "high" }
+  ],
+  "versionNotes": [
+    { "note": "200cc engine class was NOT present at Wii U launch (May 2014). Added via free Version 4.0 update on April 23, 2015 (still had to be unlocked at that point).", "confidence": "high" },
+    { "note": "Version 4.1 update (May 1, 2015) made both 200cc and Mirror Mode available by default from a fresh save, removing the prior unlock requirement entirely.", "confidence": "high" },
+    { "note": "Battle Mode in the original Wii U MK8 is a stripped-down, single-ruleset (Balloon Battle only) mode that reuses ordinary race tracks instead of dedicated arenas — this was a major, widely-reported launch criticism. This is fundamentally different from Mario Kart 8 Deluxe's Battle Mode (5 rulesets, dedicated arenas), which is a different product/platform (Switch) and should not be conflated when building a Wii U-specific trophy list.", "confidence": "medium" },
+    { "note": "All Nintendo Network online features (online races, online leaderboards, Mario Kart TV online ghost sharing) were permanently shut down April 8, 2024. Any trophy referencing online play/ranks on original Wii U hardware is now unachievable through official means.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not directly confirm the exact original Mirror Mode unlock wording (gold in all 8 cups at 150cc vs. some other specific condition) from a primary source — only from search-result summaries of a Fandom wiki page that returned an HTTP 402 error when fetched directly. Needs a follow-up check.",
+    "Could not confirm exact spelling/official names for two retro tracks: 'Music Park' vs 'Melody Motorway' (3DS, Leaf Cup) and 'Piranha Plant Slide' vs 'Piranha Plant Pipeway' (3DS, Lightning Cup). Search results gave inconsistent renderings — needs a direct wiki confirmation before use in trophy text.",
+    "Could not confirm whether completing 150cc Special Cup (or Mirror Special Cup) for the first time triggers a distinct 'ending/credits' screen — this was only found via a low-confidence aggregator source, not a primary or wiki source.",
+    "Could not confirm whether the original Wii U version has any in-game global/aggregate tracker for 'staff ghosts beaten' across all tracks (e.g., a completion percentage or checklist) — a GameFAQs thread suggests no such tracker exists, but this is not conclusively confirmed.",
+    "Did not verify the exact list of which 8 race tracks specifically served as Battle Mode courses in the original Wii U release beyond a single aggregated search summary — recommend cross-checking against Mario Kart Wiki's dedicated Battle Courses page directly.",
+    "Did not independently re-verify the 12-racer Grand Prix count this session (relied on prior/general knowledge, marked low/medium confidence).",
+    "Could not access the Mario Kart Racing Wiki (Fandom) 'Mirror Mode' page directly due to a paywall/402 error from WebFetch — all Mirror Mode unlock details are secondhand via search snippets only.",
+    "Did not investigate whether the original Wii U MK8 credits/completion also involves any specific unlock (e.g., Gold Mario, Gold Standard kart) tied to earning at least 1 star in every cup — a Switch-focused search result mentioned 'at least one star rank in all cups unlocks the Gold Standard kart' but this needs Wii U-specific confirmation, not just Deluxe.",
+    "Did not deep-dive DLC cup contents (Egg/Triforce/Crossing/Bell Cup track lists) per task scope — flagged only for structural existence; another scout's beat."
+  ]
+}

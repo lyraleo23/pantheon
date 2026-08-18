@@ -1,0 +1,353 @@
+{
+  "game": {
+    "title": "Mario Kart 8",
+    "slug": "mario-kart-8",
+    "code": "MK8",
+    "targetPlatform": "Wii U",
+    "mode": "genesis",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "genre": "Racing",
+    "releaseYear": 2014,
+    "estimatedDifficulty": 4,
+    "estimatedHours": "15-20h for the base list, +5-8h per DLC pack",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — Wii U has no native achievement system, and Mario Kart 8 Deluxe (Switch) has no native list either, so no port source exists. Base list covers the vanilla Wii U base game only (8 cups / 32 tracks); both paid DLC packs get their own separate lists under `dlc` per Rule 14 and never affect the base Platinum. 200cc and Mirror Mode arrived via free post-launch updates (Ver. 4.0/4.1, April-May 2015) and are unlocked by default on any currently patched copy, so no trophy is built around 'unlocking' them — they're treated as simply two of the five available engine classes. All Nintendo Network online features (online races, VR/BR ratings, online win/loss tracking, Mario Kart TV online sharing) were permanently shut down April 8, 2024, and Miiverse (which displayed Staff Ghost stamps) shut down in November 2017 — no trophy depends on either. Amiibo-unlocked Mii Racing Suits are excluded as hardware/purchase-dependent (~19 suits requiring physical amiibo figures the player may not own). The Gold Glider vehicle part (10,000 lifetime coins, a purely cosmetic reward with no gameplay benefit) is deliberately excluded per Rule 20 — it represents excessive grinding without meaningful experiential gain, unlike the ~2,800-coin threshold for all standard parts, which is included. Battle Mode in the vanilla Wii U release is thin by design (only Balloon Battle, played on repurposed race tracks rather than dedicated arenas — the arena overhaul is exclusive to Mario Kart 8 Deluxe on Switch) and is represented by a single trophy rather than inflated with redundant Battle Mode content. Vehicle-part and coin-threshold figures (e.g. ~2,800 coins for all standard parts, Gold Standard/Gold Tires unlock conditions) are community-sourced (GameFAQs, SuperCheats) and cross-corroborated across independent research passes, but no official Nintendo total was found — treated as medium-confidence but design-safe since all are genuine persistent, visually-verifiable in-game unlocks regardless of the exact coin count."
+  },
+  "trophies": [
+    {
+      "id": "MK8-001",
+      "name": "Race to First",
+      "description": "Win your first race, in any mode.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The end-of-race results screen shows a 1st place finish.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-002",
+      "name": "Podium Debut",
+      "description": "Earn a cup trophy by completing your first Grand Prix Cup.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The cup results screen awards a trophy (bronze or better) after the fourth race.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-003",
+      "name": "New Wheels",
+      "description": "Unlock your first new vehicle part by collecting coins during races.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "A previously locked part becomes selectable in the garage customization screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-004",
+      "name": "Familiar Face",
+      "description": "Unlock your first hidden character by winning a Grand Prix Cup.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The character's portrait replaces its silhouette on the character-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-005",
+      "name": "Ghost Beater",
+      "description": "Beat the Staff Ghost's time on any track in Time Trial for the first time.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The Time Trial results screen shows your ghost finishing ahead of the Staff Ghost.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-006",
+      "name": "Last Balloon Standing",
+      "description": "Win a round of Balloon Battle.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The Battle results screen names you the winner.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-007",
+      "name": "Grand Prix Together",
+      "description": "Complete a Grand Prix race in local split-screen multiplayer with a friend.",
+      "tier": "bronze",
+      "type": "multiplayer",
+      "verification": "The race finishes with two or more human-controlled racers sharing the screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-008",
+      "name": "Grand Prix Champion",
+      "description": "Take 1st place in all 8 base-game cups at 150cc.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "All 8 cups display an earned trophy on the 150cc cup-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-009",
+      "name": "Through the Looking Glass",
+      "description": "Clear all 8 base-game cups in Mirror Mode.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "All 8 cups show a completed result on the Mirror cup-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-010",
+      "name": "Fully Loaded",
+      "description": "Unlock every standard vehicle part through lifetime coin collection.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "No locked (silhouette) parts remain in the garage customization screen, aside from the three Gold parts.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-011",
+      "name": "Full Roster",
+      "description": "Unlock all 30 playable characters.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "No silhouettes remain on the character-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-012",
+      "name": "Into the Fast Lane",
+      "description": "Complete all 8 base-game cups at 200cc for the first time.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "All 8 cups show a completed result on the 200cc cup-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-013",
+      "name": "Double Century",
+      "description": "Take 1st place in all 8 base-game cups at 200cc.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "All 8 cups display an earned trophy on the 200cc cup-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-014",
+      "name": "Flawless Run",
+      "description": "Earn a 3-star rank in all 8 base-game cups at 150cc.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "All 8 cups display 3 stars on the 150cc cup-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-015",
+      "name": "Golden Rubber",
+      "description": "Unlock the Gold Tires by beating the Staff Ghost on every track in the base game.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The Gold Tires appear as a selectable part in the garage customization screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-016",
+      "name": "Racing Royalty",
+      "description": "Unlock the Gold Standard kart body by earning at least one star in every cup, in every engine class you play through.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Gold Standard body appears as a selectable part in the garage customization screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "MK8-017",
+      "name": "Grand Prix Grandmaster",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "The Legend of Zelda x Mario Kart 8",
+      "trophies": [
+        {
+          "id": "MK8ZLD-001",
+          "name": "A Link to the Grand Prix",
+          "description": "Race as Link for the first time.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "Link is selected and a race is completed with him active.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ZLD-002",
+          "name": "Cracking the Egg Cup",
+          "description": "Complete the Egg Cup Grand Prix.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The Egg Cup shows a completed result on the cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ZLD-003",
+          "name": "Piece of the Triforce Cup",
+          "description": "Complete the Triforce Cup Grand Prix.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The Triforce Cup shows a completed result on the cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ZLD-004",
+          "name": "Hylian Grand Prix",
+          "description": "Take 1st place in both the Egg Cup and the Triforce Cup at 150cc.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "Both cups display an earned trophy on the 150cc cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ZLD-005",
+          "name": "Ocarina of Time Trial",
+          "description": "Beat the Staff Ghost on Hyrule Circuit in Time Trial.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "The Time Trial results screen shows your ghost finishing ahead of the Staff Ghost on Hyrule Circuit.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ZLD-006",
+          "name": "Triforce of Speed",
+          "description": "Take 1st place in both the Egg Cup and the Triforce Cup at 200cc.",
+          "tier": "gold",
+          "type": "challenge",
+          "verification": "Both cups display an earned trophy on the 200cc cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Animal Crossing x Mario Kart 8",
+      "trophies": [
+        {
+          "id": "MK8ACC-001",
+          "name": "Mayor on the Move",
+          "description": "Race as Isabelle for the first time.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "Isabelle is selected and a race is completed with her active.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ACC-002",
+          "name": "Ringing the Bell Cup",
+          "description": "Complete the Bell Cup Grand Prix.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The Bell Cup shows a completed result on the cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ACC-003",
+          "name": "Changing Seasons",
+          "description": "Complete the Crossing Cup Grand Prix, driving the seasonal Animal Crossing track.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The Crossing Cup shows a completed result on the cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ACC-004",
+          "name": "Model Villager",
+          "description": "Take 1st place in both the Bell Cup and the Crossing Cup at 150cc.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "Both cups display an earned trophy on the 150cc cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ACC-005",
+          "name": "Matching Set",
+          "description": "Unlock the exclusive Yoshi and Shy Guy color variants by owning both Mario Kart 8 DLC packs.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "The additional Yoshi and Shy Guy color swatches appear on the character-select screen once both packs are installed.",
+          "notes": "Requires owning The Legend of Zelda x Mario Kart 8 as well as this pack — not completable from this pack alone. Disclosed openly in the description; the two DLC packs were also sold as a discounted bundle.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "MK8ACC-006",
+          "name": "Interest Paid in Full",
+          "description": "Take 1st place in both the Bell Cup and the Crossing Cup at 200cc.",
+          "tier": "gold",
+          "type": "challenge",
+          "verification": "Both cups display an earned trophy on the 200cc cup-select screen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ]
+}

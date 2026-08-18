@@ -1,0 +1,189 @@
+{
+  "beat": "progression systems, trackable stats, missable content, RNG, version differences",
+  "game": "Mario Kart 8",
+  "platform": "Wii U",
+  "facts": [
+    {
+      "topic": "Records/Stats menu",
+      "finding": "A 'Records' section was added to the main menu via the free Ver. 2.0.0 update (released Aug 27-28, 2014), not present at launch. It tracks player statistics including coins collected and online wins/losses. Exact full field list (e.g. whether it shows per-track best times, total races, distance driven) could not be confirmed from available sources.",
+      "confidence": "medium",
+      "source": "https://www.perfectly-nintendo.com/mario-kart-8-wii-u-all-the-updates/ ; community search summary (GameFAQs board discussion)",
+      "notes": "Because this was a post-launch addition (not day-one), a trophy referencing 'the Records screen' is valid for the released/patched game (all retail copies today ship with or auto-update to this), but the exact stat list is not independently verified beyond 'coins collected' and 'online wins/losses'. Treat any more specific stat (e.g. 'time played') as unconfirmed."
+    },
+    {
+      "topic": "Online rating stats (VR/BR)",
+      "finding": "Mario Kart 8 tracks Versus Rating (VR) for online races and Battle Rating (BR) for online battles, displayed to the player in online modes, with a cap of 99,999 (the original 9999 VR cap was lifted via update).",
+      "confidence": "medium",
+      "source": "https://mynintendonews.com/2014/08/27/the-mario-kart-8-online-multiplayer-vr-cap-seems-to-have-been-lifted/ ; community aggregation (maxvrlist.com)",
+      "notes": "CRITICAL: Nintendo Wii U online services (Nintendo Network) were permanently shut down April 8-9, 2024. VR/BR and any online-wins/losses stats are no longer accessible/incrementable on real Wii U hardware today. Any trophy design depending on online play, VR, BR, or online win/loss counts is NOT viable for current players unless a private server (e.g. Pretendo) is assumed, which should not be assumed for a mainstream trophy list.",
+      "missable": false
+    },
+    {
+      "topic": "Star ranking system",
+      "finding": "After completing a Grand Prix Cup (4 races) in a given engine class, the game awards 0-3 stars based on total points accumulated across the 4 races. Per-race points follow the standard Mario Kart scale: 1st=15, 2nd=12, 3rd=10, 4th=9, 5th=8, 6th=7, 7th=6, 8th=5, 9th=4, 10th=3, 11th=2, 12th=1. Community-sourced thresholds: roughly 54-56 points = 1 star, 57-59 = 2 stars, 60 (i.e. 1st place in all four races of the cup) = 3 stars.",
+      "confidence": "medium",
+      "source": "https://gamefaqs.gamespot.com/wii-u/700050-mario-kart-8/answers/372983-what-are-the-stars-earned-at-the-end-of-each-cup-for ; wiki-aggregated search results (Mario Kart Racing Wiki 'Star Rank' and 'Driver's Points' pages, not independently fetched due to paywall)",
+      "notes": "Exact official point breakpoints for 1-star vs 2-star could not be verified against a primary/official source (fan wiki figures conflict slightly between the two search passes, e.g. 'over 54' vs '54-56'). The 3-star threshold (60 points = win all 4 races of the cup) is corroborated by multiple independent sources and is high confidence on its own. Stars are shown on the cup-select screen per engine class per cup after first completion, and this progress is retained/trackable (persistent unlock state), making '3-star every cup in [class]' a legitimate, game-surfaced completionist target."
+    },
+    {
+      "topic": "Gold Standard kart body unlock",
+      "finding": "Unlocked by earning at least 1 star in every Grand Prix Cup across every engine class (50cc, 100cc, 150cc, Mirror; unclear if 200cc is required post-update).",
+      "confidence": "medium",
+      "source": "https://gamefaqs.gamespot.com/wii-u/700050-mario-kart-8/answers/605050-how-to-unlock-gold-parts ; corroborated by Mario Kart Racing Wiki 'Gold Standard' page (search-aggregated)",
+      "notes": "Whether 200cc (added in a later free update) is included in this requirement on Wii U specifically is unconfirmed — gap."
+    },
+    {
+      "topic": "Gold Tires unlock",
+      "finding": "Unlocked by beating the Staff Ghost in every Time Trial track (all base-game tracks; unclear whether DLC tracks are required if DLC installed).",
+      "confidence": "medium",
+      "source": "https://gamefaqs.gamespot.com/wii-u/700050-mario-kart-8/answers/605050-how-to-unlock-gold-parts",
+      "notes": "This is a strong, legitimate 'beat all staff ghosts' completionist condition, but see the Staff Ghosts entry below for tracking-visibility caveats."
+    },
+    {
+      "topic": "Gold Glider unlock",
+      "finding": "Unlocked by collecting a lifetime total of 10,000 coins.",
+      "confidence": "medium",
+      "source": "https://gamefaqs.gamespot.com/wii-u/700050-mario-kart-8/answers/605050-how-to-unlock-gold-parts",
+      "notes": "10,000 coins is well beyond the 2,800 needed to unlock all non-gold parts, making this a long-haul grind trophy candidate. The Records screen's 'coins collected' stat (if confirmed to show a running lifetime total, not just recent) would make this directly trackable in-game; this linkage is plausible but not independently confirmed."
+    },
+    {
+      "topic": "Vehicle parts (non-gold) coin unlock system",
+      "finding": "Kart/bike/ATV bodies, tires, and gliders are unlocked semi-randomly by lifetime coin accumulation: a part unlocks every 50 coins collected up to 1,000 coins, then every 100 coins thereafter, totaling 2,800 coins to unlock all non-gold parts. Only up to 10 coins per race count toward the lifetime total (coins held at the finish line, not all coins picked up during the race).",
+      "confidence": "medium",
+      "source": "https://www.supercheats.com/wiiu/mario-kart-8/223/unlocking-vehicle-parts ; corroborated by multiple GameFAQs Wii U-specific Q&A threads",
+      "notes": "This 2,800 figure is commonly cited for the Wii U original; some of the sourcing conflates with Mario Kart 8 Deluxe figures, so treat the exact number as medium- rather than high-confidence for Wii U specifically."
+    },
+    {
+      "topic": "Character unlocks",
+      "finding": "16 characters are available from the start; the remaining characters (of the base 30) unlock via winning Grand Prix Cups — winning any cup has a chance to unlock a character, but the same cup will not award more than one character unlock, and unlocks are otherwise randomized rather than tied to specific cups/classes.",
+      "confidence": "medium",
+      "source": "https://mariokart.fandom.com/wiki/Unlockable_Characters (search-aggregated, page itself not directly fetchable) ; https://mynintendonews.com/2014/05/01/heres-a-look-at-all-30-characters-in-mario-kart-8/",
+      "notes": "Base Wii U roster (no DLC) = 30 characters. With both paid DLC packs, the roster grows further (Link, Tanooki Mario, Cat Peach from DLC1; Villager M/F, Isabelle from DLC2). Because unlocks are RNG-based per cup win rather than deterministic, no single trophy should require 'unlock character X after cup Y' — only 'unlock all characters eventually' is safe to design around."
+    },
+    {
+      "topic": "Missable content — overall assessment",
+      "finding": "No permanently missable content was found in Mario Kart 8 (Wii U). All character, vehicle-part, and Gold-part unlocks are tied to persistent, cumulative progress (coins collected, cups won, stars earned, staff ghosts beaten) with no time-limited or one-shot-only conditions. Nothing is lost by playing in any particular order.",
+      "confidence": "medium",
+      "source": "Aggregated GameFAQs/community search results confirming random-but-guaranteed character unlocks and cumulative coin/star systems",
+      "notes": "This is an absence-of-evidence conclusion (could not find any missable mechanic after specific searching), consistent with the game's genre (kart racer with persistent save-file unlock state) and the confirmed unlock systems above. Recommend treating 'no missables' as the working assumption unless another beat's research surfaces a counterexample (e.g. a Miiverse-tied item, which is now defunct — see below)."
+    },
+    {
+      "topic": "Miiverse stamps (defunct reward)",
+      "finding": "Beating a Staff Ghost in Time Trial originally rewarded a Miiverse stamp (10 new stamps were also added via the Ver. 4.0.0 update, April 2015). Miiverse itself was permanently shut down in November 2017.",
+      "confidence": "high",
+      "source": "https://www.perfectly-nintendo.com/mario-kart-8-wii-u-all-the-updates/ ; general knowledge of Miiverse shutdown date (Nov 8, 2017), not independently re-searched this session",
+      "notes": "IMPORTANT: Do not design any trophy around 'use/view your Miiverse stamp' — this reward is completely inaccessible today. The underlying achievement of beating the Staff Ghost itself is still meaningful (it contributes toward the Gold Tires unlock, which remains a valid persistent in-game unlock), but the stamp reward itself is dead content."
+    },
+    {
+      "topic": "Staff Ghosts — individual track tracking visibility",
+      "finding": "Could not confirm whether the Wii U Time Trial track-select screen shows a distinct, persistent visual indicator (e.g. a checkmark, crown, or medal) for which specific tracks' Staff Ghosts have already been beaten.",
+      "confidence": "low",
+      "source": "Search of GameFAQs board 'Is there an easy way to see on which Time Trials you've beaten the staff ghost?' (thread title implies players did NOT have an easy way to check this in-game)",
+      "notes": "GAP: If there is no per-track indicator, a trophy like 'beat the staff ghost on every track' is still valid (players can determine completion by attempting each track and checking if their own ghost now out-paces/matches the staff ghost, or by the eventual Gold Tires unlock as an aggregate proof), but a granular per-track checklist trophy would not be well-supported by the UI. The aggregate Gold Tires unlock (see above) IS a clean, confirmed, in-game-surfaced proxy for 'all staff ghosts beaten.'"
+    },
+    {
+      "topic": "RNG — Item probability system",
+      "finding": "Item box contents are determined by a position-relative probability table (distance from 1st place at time of pickup), not pure uniform randomness. The game offers two selectable settings for item frequency in Grand Prix/Versus/Battle: 'Normal Items' (default) and 'Frantic Items,' with Frantic Items sharply increasing the frequency of offensive items (Bullet Bill, Lightning, Blue Shell, Bob-ombs, etc.) and reducing/eliminating defensive items like Bananas and Coins.",
+      "confidence": "medium",
+      "source": "https://www.mariowiki.com/Mario_Kart_8_item_probability_distributions ; https://gamefaqs.gamespot.com/wii-u/700050-mario-kart-8/answers/372497-what-is-frantic-mode",
+      "notes": "This confirms Rule 21 relevance: Blue Shell, Lightning, and Bullet Bill pulls are RNG-dependent and position-weighted, meaning a trophy like 'get a Blue Shell in 1st place' would be poor design (rare/impossible by design, since trailing position increases rare-item odds while leading position suppresses them). No official in-game counter for 'items used' or 'items received by type' was found — there is no trackable statistic to hang an item-specific trophy on."
+    },
+    {
+      "topic": "Coin item",
+      "finding": "Coins collected during a race (both from item boxes and coins scattered on track) add to a per-race running total, but only coins held at the finish line (max 10 per race) carry over to the lifetime coin total used for part unlocks. Coins also provide a small permanent speed boost while carried during the race, up to 10 held.",
+      "confidence": "medium",
+      "source": "https://www.supercheats.com/wiiu/mario-kart-8/223/unlocking-vehicle-parts ; general series knowledge of coin speed-boost mechanic (not independently re-verified this session, low confidence on the speed-boost detail specifically)",
+      "notes": "The 'max 10 coins per race count toward lifetime total' detail should be treated as medium confidence; the speed-boost-while-holding-coins mechanic is series-standard but not independently re-verified for MK8 in this session (treat separately as low confidence if used)."
+    },
+    {
+      "topic": "Battle Mode — Wii U vanilla",
+      "finding": "The original 2014 Wii U release has exactly one Battle mode: Balloon Battle (the only mode for the first time in the series since Mario Kart: Super Circuit). It is NOT played on dedicated battle arenas — it reuses 8 regular Grand Prix race tracks repurposed for battling. There is no Shine Thief, Coin Runners, Bob-omb Blast, or Renegade Roundup in the Wii U version; those were all added later in Mario Kart 8 Deluxe.",
+      "confidence": "high",
+      "source": "https://kotaku.com/a-defense-of-mario-kart-8s-unpopular-battle-mode-1723176184 ; https://www.mariowiki.com/Battle (search-aggregated) ; https://kotaku.com/mario-kart-8-switch-makes-battle-mode-so-much-better-1794448420",
+      "notes": "Confirms the task's suspicion: Wii U Battle Mode never received dedicated arenas via any patch — that overhaul is exclusive to Mario Kart 8 Deluxe on Switch. Given the mode's weak, widely-panned launch state (single mode, no purpose-built maps) and lack of any distinct trackable stat beyond the general online BR (itself now dead post-shutdown, and BR would also cover Balloon Battle specifically only if it's the only mode used), Battle Mode is a weak candidate for meaningful trophy design on Wii U — there isn't much distinct content to hang trophies on beyond 'play/win a Balloon Battle.'"
+    },
+    {
+      "topic": "200cc engine class — Wii U rollout",
+      "finding": "200cc was added to Wii U Mario Kart 8 as a FREE update, Ver. 4.0.0, released April 23-24, 2015 (about 11 months after the game's May 2014 launch). At introduction it had to be unlocked (implied: by clearing all cups at 150cc). A subsequent update, Ver. 4.1.0 (May 1-2, 2015), made 200cc and Mirror Mode immediately available with no unlock requirement.",
+      "confidence": "high",
+      "source": "https://www.perfectly-nintendo.com/mario-kart-8-wii-u-all-the-updates/ ; https://www.vooks.net/patch-notes-for-mario-kart-8s-second-dlc-and-200cc-update-released/",
+      "notes": "On any current/patched copy of Wii U MK8 (all copies today, since updates are cumulative and required for the game to function properly), 200cc is available from the start — the historical unlock requirement is moot for a present-day trophy list. In Mario Kart 8 Deluxe (Switch), 200cc was included as a launch-day feature instead of a post-launch add — genuine version difference worth noting but not a Wii U trophy design concern."
+    },
+    {
+      "topic": "Gold Mario unlock",
+      "finding": "Gold Mario (an alternate palette swap for Metal Mario) unlocks by placing 1st in all 12 Grand Prix Cups at 200cc. The base Wii U game only has 8 Cups (32 tracks: Mushroom, Flower, Star, Special [Nitro] + Shell, Banana, Leaf, Lightning [Retro]); reaching 12 cups requires BOTH paid DLC packs installed: DLC Pack 1 ('The Legend of Zelda x Mario Kart 8', adds Egg Cup + Triforce Cup) and DLC Pack 2 ('Animal Crossing x Mario Kart 8', adds Crossing Cup + Bell Cup).",
+      "confidence": "medium",
+      "source": "Search-aggregated (bitget.com, screenrant.com Gold Items article, mariowiki.com Egg Cup/Triforce Cup/Bell Cup/Crossing Cup pages) — no single primary source directly fetched and confirmed for the exact '12 cups' + DLC dependency combination",
+      "notes": "CRITICAL VERSION/DLC CAVEAT: If the Pantheon trophy list is meant to be achievable on the vanilla/base Wii U game WITHOUT assuming DLC ownership, Gold Mario is likely NOT achievable (base game maxes out at 8 cups, not 12). This needs explicit resolution by the trophy designer/checkpoint: either (a) exclude Gold Mario as a trophy, (b) design it as a DLC-dependent/optional trophy, or (c) confirm whether the '12 cups' requirement scales down to 8 when DLC isn't installed (unconfirmed either way — flagged as a gap below)."
+    },
+    {
+      "topic": "Mercedes-Benz DLC pack",
+      "finding": "A free promotional DLC pack containing three Mercedes-Benz vehicles (GLA kart body, 300 SL Roadster, and W 25 Silver Arrow) was added via the free Ver. 2.0.0 update, released Aug 27-28, 2014. This is vehicle-only DLC — there is NO separate Mercedes-branded race track. ('W 25 Silver Arrow' is the name of one of the three vehicles, not a track.)",
+      "confidence": "high",
+      "source": "https://www.perfectly-nintendo.com/mario-kart-8-wii-u-all-the-updates/ ; multiple corroborating community sources (GBAtemp, archive.org) confirming free/no-cost status",
+      "notes": "Corrects a premise in the task brief: there is no 'Mercedes Silver Arrow track' — Silver Arrow is a kart, not a course. Since this pack is free and auto-applied via the mandatory update, it's fair game to include in a Wii U base-game trophy list (unlike the two paid DLC packs)."
+    },
+    {
+      "topic": "Paid DLC packs (for contrast/exclusion)",
+      "finding": "Two PAID DLC packs exist for Wii U MK8: DLC Pack 1 ('The Legend of Zelda x Mario Kart 8', Nov 2014) adds Egg Cup + Triforce Cup (8 tracks) and characters Link, Tanooki Mario, Cat Peach; DLC Pack 2 ('Animal Crossing x Mario Kart 8', April 2015) adds Crossing Cup + Bell Cup (8 tracks) and characters Villager (M), Villager (F), Isabelle.",
+      "confidence": "high",
+      "source": "https://www.mariowiki.com/Egg_Cup ; https://www.mariowiki.com/Triforce_Cup ; https://www.mariowiki.com/Bell_Cup ; https://www.mariowiki.com/Crossing_Cup (search-aggregated, not directly fetched)",
+      "notes": "These are paid content and should be excluded from a base-game Wii U trophy list unless the list is explicitly scoped to include DLC-complete playthroughs. Flagging for the checkpoint/designer to decide scope."
+    },
+    {
+      "topic": "Version difference — Deluxe roster size",
+      "finding": "Mario Kart 8 Deluxe (Switch) launched with 42 playable characters, including 5 newcomers never in the Wii U version at all (not even via DLC): King Boo, Dry Bones, Bowser Jr., Inkling Girl, Inkling Boy.",
+      "confidence": "high",
+      "source": "https://www.inverse.com/article/30945-mario-kart-8-deluxe-all-new-characters-gold-mario-unlock (search-aggregated) ; https://mariokart.fandom.com/wiki/Mario_Kart_8_Deluxe (search-aggregated)",
+      "notes": "Confirms these 5 characters should NOT appear in any Wii U-specific trophy list."
+    },
+    {
+      "topic": "Version difference — dual item slots",
+      "finding": "Mario Kart 8 Deluxe introduced the ability to hold up to two items simultaneously (with Double Item Boxes that refill both slots at once). The original Wii U version was balanced entirely around holding one item at a time; this mechanic does not exist on Wii U.",
+      "confidence": "high",
+      "source": "https://mariokart.fandom.com/wiki/Double_Item_Box (search-aggregated) ; https://www.tomsguide.com/uk/us/mario-kart-8-deluxe-differences,news-24643.html",
+      "notes": "Confirmed absent from Wii U — any trophy referencing 'held two items' would be invalid for this platform."
+    },
+    {
+      "topic": "Version difference — new items in Deluxe",
+      "finding": "The Feather item (previously last seen in Super Mario Kart, 1992) and the returning Boo item were reintroduced in Mario Kart 8 Deluxe. Could NOT confirm via search whether 'Boomerang Flower' specifically is new to Deluxe or was already present in the Wii U original (Boomerang Flower is present in Mario Kart 8 base game as a recollection from training knowledge, unconfirmed this session).",
+      "confidence": "low",
+      "source": "Search-aggregated (neogaf.com, attackofthefanboy.com threads on Deluxe's two-item system)",
+      "notes": "GAP: The Feather's absence from Wii U MK8 is confirmed (high confidence — explicitly stated as returning after a 22-year absence, i.e. not in MK8 Wii U). The Boomerang Flower's version status is NOT independently confirmed this session; my training-knowledge recollection is that Boomerang Flower WAS already in the Wii U base game (added via DLC or base — uncertain), so do not assume it's Deluxe-exclusive without further checking. Recommend checkpoint verification if any item-specific trophy is considered."
+    },
+    {
+      "topic": "Version difference — Smart Steering",
+      "finding": "Smart Steering (auto-pilot assist that keeps the kart from going off-road, disables ultra-mini-turbos and off-road shortcuts while active) is a Mario Kart 8 Deluxe-exclusive feature, enabled by default for new profiles. Not present on Wii U.",
+      "confidence": "high",
+      "source": "https://mariokart.fandom.com/wiki/Smart_Steering (search-aggregated) ; https://www.nintendolife.com/guides/mario-kart-8-deluxe-smart-steering-how-to-turn-auto-steering-on-and-off",
+      "notes": "Confirmed Deluxe-only; irrelevant to Wii U trophy design except as an explicit exclusion note."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Star rank (0-3 stars) per Grand Prix Cup per engine class", "where": "Cup-select screen / results screen after completing a cup; persists across sessions", "confidence": "medium" },
+    { "stat": "Lifetime coins collected (drives non-gold part unlocks at 50/100-coin intervals, and Gold Glider at 10,000)", "where": "Tracked internally for unlock purposes; whether displayed as a running total on the Records screen specifically is unconfirmed (medium confidence it's shown somewhere in Records, per Ver. 2.0.0 patch notes)", "confidence": "medium" },
+    { "stat": "Character unlock progress (14 of 30 base characters locked at start)", "where": "Character select screen shows locked (silhouette/'?') vs unlocked characters directly", "confidence": "medium" },
+    { "stat": "Gold parts unlocked (Standard body / Tires / Glider)", "where": "Kart customization screen — parts simply appear as selectable once unlocked", "confidence": "medium" },
+    { "stat": "Online VR (Versus Rating) and BR (Battle Rating)", "where": "Displayed during/after online matches", "confidence": "medium — but NON-FUNCTIONAL as of April 2024 due to Nintendo Network shutdown" },
+    { "stat": "Online wins/losses and coins collected (via Records menu)", "where": "Main menu 'Records' section, added in Ver. 2.0.0 update (Aug 2014)", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Wii U original never received dedicated Battle Mode arenas via any patch; only Balloon Battle exists, played on 8 repurposed race tracks. Dedicated arenas plus 4 additional battle modes (Coin Runners, Shine Thief, Bob-omb Blast, Renegade Roundup) are exclusive to Mario Kart 8 Deluxe on Switch.", "confidence": "high" },
+    { "note": "200cc was added to Wii U via free Ver. 4.0.0 update (April 2015), roughly 11 months post-launch, and initially had an unlock requirement that was removed one update later (Ver. 4.1.0, May 2015). Deluxe includes 200cc from launch.", "confidence": "high" },
+    { "note": "Deluxe added dual item slots, Smart Steering, 5 new characters (King Boo, Dry Bones, Bowser Jr., Inkling Girl, Inkling Boy) not present on Wii U in any form, and the Feather item (absent on Wii U).", "confidence": "high" },
+    { "note": "The free Mercedes-Benz vehicle pack (GLA, 300 SL Roadster, W 25 Silver Arrow) is vehicle-only DLC with no accompanying track, added via free Ver. 2.0.0 update.", "confidence": "high" },
+    { "note": "Two PAID DLC packs (Zelda-themed Pack 1, Animal Crossing-themed Pack 2) each add 2 cups / 8 tracks / 3 characters; Gold Mario's 'win all 12 cups at 200cc' requirement appears to depend on both being installed, since the base game only has 8 cups.", "confidence": "medium" },
+    { "note": "Wii U Nintendo Network online services were permanently shut down April 8-9, 2024, making all online-dependent stats (VR, BR, online win/loss records, online play itself) permanently inaccessible on real hardware going forward.", "confidence": "high" },
+    { "note": "Miiverse (the platform that displayed Staff Ghost-beat stamp rewards) was shut down in November 2017, predating even the Nintendo Network shutdown; the stamp reward for beating Staff Ghosts has been non-functional for years.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm the complete field list of the in-game 'Records' menu (only 'coins collected' and 'online wins/losses' were found; unclear if it shows per-track best times, total distance driven, total races played, or a running lifetime coin counter distinct from the DLC-unlock coin tally).",
+    "Could not confirm exact official point thresholds for 1-star vs 2-star Grand Prix results (community figures range 54-56 for 1-star, 57-59 for 2-star; not verified against a primary/official source).",
+    "Could not confirm whether the Wii U Time Trial track-select UI shows any persistent per-track indicator for 'Staff Ghost already beaten' — a GameFAQs thread title implies this was NOT easily visible in-game, which would make a granular per-track staff-ghost trophy hard for players to track themselves (the aggregate Gold Tires unlock is the safer proxy).",
+    "Could not confirm whether the Gold Standard kart body's 'star in every cup, every engine class' requirement includes 200cc (added post-launch) or only the four classes present at launch (50cc/100cc/150cc/Mirror).",
+    "Could not confirm whether Gold Mario's '12 cups at 200cc, 1st place' requirement scales down to 8 cups when no DLC is installed, or is simply unattainable without both paid DLC packs. This is a significant open question for trophy list scope.",
+    "Could not independently verify whether 'Boomerang Flower' item is present in the Wii U base game or is Deluxe-exclusive (conflicting/unclear from search this session — training recollection suggests it exists in MK8 base game, but this is unconfirmed and should be treated as low confidence).",
+    "Could not verify the coin-holding speed-boost mechanic detail (up to 10 coins carried granting a small speed boost) specifically for Mario Kart 8 Wii U this session — this is series-standard from prior games but not re-confirmed here.",
+    "Could not obtain a readable/parseable copy of the official Wii U electronic manual PDF to cross-check Records menu, star rank, and Battle Mode wording against Nintendo's own documentation (the fetch returned undecoded binary content)."
+  ]
+}
