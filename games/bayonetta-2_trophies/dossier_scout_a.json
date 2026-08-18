@@ -1,0 +1,132 @@
+{
+  "beat": "campaign",
+  "game": "Bayonetta 2",
+  "platform": "Nintendo Wii U",
+  "facts": [
+    {
+      "topic": "chapter_count",
+      "finding": "Bayonetta 2's story mode contains 16 main chapters (Chapter I through Chapter XVI), preceded by an unnumbered Prologue: World of Chaos. This differs from Bayonetta 1's structure (which had different chapter/verse organization) — do not assume parity.",
+      "confidence": "medium",
+      "source": "GameRevolution (gamerevolution.com/guides/370205), corroborated by chapter-by-chapter titles pulled from GameFAQs/Prima Games/StrategyWiki search results and YouTube walkthrough titles referencing 'Chapter 16 (last chapter)'",
+      "notes": "16-chapter total count independently stated by GameRevolution. Could not directly load a single authoritative page (Fandom wiki returned HTTP 402, StrategyWiki returned 403) listing all 16 titles in one place, so the full title list below was assembled from multiple partial search-result confirmations, not one unified source. Treat individual titles as medium confidence; the total count (16) as medium-high given independent corroboration."
+    },
+    {
+      "topic": "chapter_titles",
+      "finding": "Assembled chapter title list (Prologue + I–XVI): Prologue: World of Chaos; I: Noatun, The City of Genesis; II: A Remembrance of Time; III: Paradiso – The Gates of Paradise; IV: The Two Meet; V: The Cathedral of Cascades; VI: The Bridge to the Heavens; VII: The Ark; VIII: An Ancient Civilization; IX: The Gates of Hell; X: The Depths; XI: Inferno and Its Ruler; XII: The Lumen Sage; XIII: Vigrid, City of Déjà Vu; XIV: The Witch Hunts; XV: Truth; XVI: Sovereign Power.",
+      "confidence": "medium",
+      "source": "Composite of GameFAQs walkthrough search snippets, Prima Games eGuide (primagames.com/eguides/bayonetta-2-eguide, confirms 'Chapter XIV: The Witch Hunts'), and YouTube walkthrough titles confirming 'Chapter XVI: Sovereign Power'. Chapter XI title corroborated independently by an Alraune boss-fight search ('Alraune is the major boss fight for Chapter XI' and chapter titled 'Inferno and Its Ruler').",
+      "notes": "No single page was successfully loaded that listed all 17 entries together (Fandom and StrategyWiki both blocked the fetch tool with 402/403 errors). Recommend a downstream spot-check against a screenshot or video of the in-game chapter-select menu before finalizing chapter-name-dependent trophies."
+    },
+    {
+      "topic": "verse_structure",
+      "finding": "Each chapter is subdivided into numbered Verses (individual combat/puzzle/platforming segments), consistent with Bayonetta 1's structure. Many chapters also contain optional Hidden Verses (bonus combat arenas) that are not required for story progress.",
+      "confidence": "medium",
+      "source": "Nintendo Life 'Bayonetta 2 Hidden Verses' guide (title/summary only — full page fetch blocked with 403); GameFAQs board threads referencing hidden verses per chapter",
+      "notes": "Could NOT confirm exact verse count per chapter or a grand total verse count for Bayonetta 2 — page fetches for the detailed guides (Nintendo Life, ChapterCheats) were blocked (403) this session. This is a meaningful gap for any 'find all hidden verses' trophy."
+    },
+    {
+      "topic": "boss",
+      "name": "The Masked Lumen (revealed as young/time-displaced Balder)",
+      "detail": "Recurring antagonist boss fought across multiple chapters. Initially disguised, unmasks and reveals himself as a younger, time-displaced version of Father Balder (antagonist of Bayonetta 1) after being repeatedly stopped from killing Loki, in the Inferno-set chapters. Final fight against him reuses the boss theme 'You May Call Me Father' from the first game.",
+      "trackable": "Not confirmed — no bestiary/boss-log screen confirmed this session.",
+      "missable": false,
+      "confidence": "medium",
+      "source": "Platinum Games Fandom Wiki 'The Masked Lumen Sage' page (search-result summary), Bayonetta Wiki 'Balder' page (search-result summary)",
+      "notes": "Mandatory story boss, fought more than once. Exact chapter numbers of each individual encounter not fully verified."
+    },
+    {
+      "topic": "boss",
+      "name": "Alraune",
+      "detail": "Boss of Chapter XI: Inferno and Its Ruler. Fought in two phases: first a humanoid form, then a larger scorpion-tailed monstrous form after absorbing Jeanne. Contracted to the demon Madame Butterfly.",
+      "trackable": "Not confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "source": "Search-result summaries citing Bayonetta Wiki 'Alraune' page and Escapist Magazine walkthrough guide; corroborated independently by YouTube walkthrough titles ('Chapter XI: Alraune Boss Fight')",
+      "notes": "Mandatory story boss."
+    },
+    {
+      "topic": "boss",
+      "name": "Loptr / Aesir",
+      "detail": "Final boss of the game. Loptr is the 'evil half' of the Aesir god-soul (Loki being the good half). In the finale, Loptr reclaims the Sovereign Power from Loki and the Eyes of the World from Balder and Bayonetta, becoming whole again as Aesir ('God of Chaos'), and is fought as the climactic final boss in Chapter XVI: Sovereign Power.",
+      "trackable": "Not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "source": "Search-result summaries citing Bayonetta Wiki 'Aesir (Loptr)' page",
+      "notes": "Exact in-game boss name label (whether the game credits/HUD calls it 'Loptr' or 'Aesir' at the moment of the fight) is not confirmed — flagging this explicitly since a wrong name in a trophy description would be unverifiable to a player. A 'Young Loptr' also appears as a separate, weaker optional boss (see Witch Trials entry below)."
+    },
+    {
+      "topic": "boss",
+      "name": "Loki",
+      "detail": "Loki is a companion/ally character (the good half of the Aesir soul), NOT fought as a boss under normal circumstances.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "source": "Multiple corroborating search summaries (Bayonetta Wiki Aesir/Loptr page)",
+      "notes": "Confirms the task brief's caution — do not build a 'defeat Loki' trophy."
+    },
+    {
+      "topic": "optional_content",
+      "name": "Lost Chapter: Witch Trials",
+      "detail": "A set of 5 unlockable bonus chapters ('Witch Trial I' through 'Witch Trial V'), each with escalating difficulty, unlocked outside the main 16-chapter story. Witch Trial V includes a fight against Alraune and 'Young Loptr' together as a double-boss verse.",
+      "trackable": "Presumably tracked via chapter-select availability, not confirmed as a percentage/counter.",
+      "missable": false,
+      "confidence": "medium",
+      "source": "Bayonetta Wiki 'Bayonetta 2/Walkthrough/Lost Chapter: Witch Trials' (title/search-summary only, full page blocked); LP Archive playthrough updates (lparchive.org/Bayonetta-2) referencing 'The Lost Chapter: Witch Trial III' and 'Witch Trial V'",
+      "notes": "Exact unlock condition for the Witch Trials (e.g., which chapter/rank triggers it) not confirmed this session — gap."
+    },
+    {
+      "topic": "difficulty_modes",
+      "finding": "Bayonetta 2 uses five difficulty modes, matching Bayonetta 1's naming convention but with a shortened name for the top tier: Very Easy, Easy, Normal (aka '2nd Climax'), Hard (aka '3rd Climax'), and ∞ Climax ('Infinite Climax'). Unlike Bayonetta 1's 'Non-Stop Infinite Climax', Bayonetta 2's hardest mode is simply called '∞ Climax' / 'Infinite Climax' — the 'Non-Stop' prefix is dropped in-game (though used informally/in some marketing, e.g. the 'Non-Stop Climax Edition' Switch bundle name).",
+      "confidence": "medium",
+      "source": "Bayonetta Wiki '∞ Climax' page (search summary): '∞ Climax, called Non-Stop ∞ Climax in the first game, is the highest level of difficulty in Bayonetta, Bayonetta 2 and Bayonetta 3'; corroborated by supercheats.com and chaptercheats.com unlock-condition pages for both Wii U and Switch versions",
+      "notes": "Very Easy and Easy both auto-equip the 'Immortal Marionette' accessory (prevents death) and unlock a one-handed 'Automatic' control mode. Confidence is medium because this was assembled from AI-summarized search snippets rather than a single directly-read primary source; recommend a spot-check of the in-game options menu."
+    },
+    {
+      "topic": "difficulty_unlock",
+      "finding": "Hard (3rd Climax) unlocks after completing all chapters on Normal (2nd Climax). ∞ Climax (Infinite Climax) unlocks after completing all chapters on Hard (3rd Climax). On ∞ Climax, Witch Time is stated to be disabled/severely restricted, demanding parry-perfect play.",
+      "confidence": "medium",
+      "source": "Bayonetta Wiki '∞ Climax' page and chaptercheats.com 'Infinite Climax difficulty mode' unlockables page (both Wii U and Switch versions listed separately, same requirement)",
+      "notes": "The Witch-Time-disabled claim is consistent with established series convention (true in Bayonetta 1's Non-Stop Infinite Climax) but was not independently re-verified against a Bayonetta-2-specific primary source this session — flagging as medium, not high."
+    },
+    {
+      "topic": "verse_ranking",
+      "finding": "Bayonetta 2 uses the same six-tier verse grading system as Bayonetta 1: Stone (lowest) < Bronze < Silver < Gold < Platinum < Pure Platinum (highest). Pure Platinum requires high combo counts, fastest clear time, and taking no damage during the verse.",
+      "confidence": "high",
+      "source": "Wikipedia 'Bayonetta 2' article (direct quote: \"the highest 'Pure Platinum' grade achieved by performing high numbers of combos, in the fastest time possible, without being damaged\"); Bayonetta Wiki 'Platinum!' page and community point-value breakdown (Pure Platinum=6, Platinum=5, Gold=4, Silver=3, Bronze=2, Stone=1) corroborate the same six-tier system used across the series",
+      "notes": "System confirmed present and functioning the same way as Bayonetta 1. Individual per-verse rank achievement (e.g., 'get Pure Platinum on all verses in a chapter') is a heavily-used trophy pattern in prior Bayonetta trophy/achievement lists (PS3/360/PC versions) — worth flagging to trophy designers as a strong candidate, contingent on confirming a chapter-wide or game-wide rank tracker exists (see gaps)."
+    },
+    {
+      "topic": "playable_characters_story",
+      "finding": "Beyond Bayonetta herself, additional playable characters unlockable for Story Mode replay: Jeanne (unlocked by beating Story Mode on any difficulty) and Rosa (unlocked by beating Story Mode on 3rd Climax/Hard difficulty). Balder and Rodin are also unlockable but are stated to be Tag Climax-mode-only, not usable in Story Mode.",
+      "confidence": "medium",
+      "source": "Search-result summary citing chaptercheats.com/supercheats.com unlockables pages (Wii U and Switch)",
+      "notes": "Tag Climax is a competitive/co-op mode likely covered by the systems-beat scout, included here only because it affects Story Mode replay characters. Exact per-character unlock verse numbers ('Verse Card no. 13', 'no. 53') were sourced from a single secondary aggregator and are low-confidence on the specific numbers even though the character names/roles are more solid — flagging the numeric details as low confidence."
+    },
+    {
+      "topic": "ending",
+      "finding": "Single linear ending (no branching endings identified). After the credits, a post-credits epilogue scene shows young Balder returning to his own time after having absorbed part of Loptr's evil soul into himself — setting up his slow corruption into the antagonist of the original Bayonetta. This is followed by a brief scene of Bayonetta and Jeanne shopping, interrupted by an angel attack as the credits roll.",
+      "confidence": "medium",
+      "source": "Wikipedia 'Bayonetta 2' article (\"Balder is shown returning to his time period, now corrupted, setting up the events of the first Bayonetta\"); corroborated by GameFAQs board discussion summaries ('Dat End Credits O.O', 'About the Ending...', 'Ending paradox?')",
+      "notes": "No evidence found of multiple/alternate endings based on difficulty, choices, or completion percentage. Flagged as medium rather than high because full GameFAQs board threads were not directly read (only AI search summaries)."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-verse grade (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum)", "where": "Displayed at the end of each verse and presumably re-viewable via chapter/verse select, consistent with series convention", "confidence": "medium" },
+    { "stat": "Chapter/game completion (chapters cleared, difficulty completed)", "where": "Likely tracked via chapter-select screen showing cleared/locked chapters per difficulty and difficulty-unlock gating (Normal to unlock Hard, Hard to unlock ∞ Climax) — existence of the gating itself is confirmed; a visible aggregate 'completion %' stat was NOT confirmed this session", "confidence": "low" },
+    { "stat": "Hidden Verses found", "where": "Unconfirmed whether the game shows a per-chapter or total hidden-verse counter; guides exist for locating them but no confirmed in-game tracker", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "This dossier targets the original Wii U release. The 2018 Nintendo Switch re-release (Bayonetta 2, standalone or as part of the 'Non-Stop Climax Edition' physical bundle with Bayonetta 1 and Bayonetta 3: Inception demo) is reported by community sources to have the same chapter/boss/difficulty structure; no campaign-content differences between Wii U and Switch versions were found in this session's searches. Flag for other scouts/checkpoint to confirm no Switch-exclusive campaign content exists.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm exact verse count per chapter or a total verse count for the full game — Nintendo Life and ChapterCheats detailed hidden-verse guides were blocked (HTTP 403) and not re-attempted due to search/fetch budget limits.",
+    "Could not load a single authoritative, directly-fetched source (Fandom Bayonetta Wiki returned HTTP 402, StrategyWiki returned HTTP 403) for the complete chapter title list — the list in this dossier was reconstructed from multiple partial search snippets and should be spot-checked against an in-game screenshot before being used verbatim in trophy text.",
+    "Could not confirm the exact unlock condition/trigger for the Lost Chapter: Witch Trials (which chapter, rank, or difficulty is required to access them).",
+    "Could not confirm whether the game displays an aggregate 'completion percentage' or overall stat screen anywhere (e.g., a save-file summary) — this directly affects whether a '100% campaign' style trophy is even craftable.",
+    "Could not confirm whether Pure Platinum ranks (or any verse grade) are tracked/re-viewable in a persistent per-chapter or per-game summary screen, versus being shown only transiently at the end of each verse. This is load-bearing for any 'Pure Platinum every verse' trophy.",
+    "Could not fully verify the exact chronological order and total number of distinct Masked Lumen/Balder boss encounters across chapters (only that it is a recurring, multi-encounter boss).",
+    "Did not verify whether the in-game credits/UI ever explicitly labels the final boss 'Aesir' versus 'Loptr' — flagged in the boss finding above; do not use either name in a trophy title without downstream confirmation.",
+    "Did not verify exact 'Verse Card' numbers for unlocking Balder and Rodin as Tag Climax characters (sourced from a single secondary aggregator, low confidence).",
+    "Search and fetch tool budgets were exhausted before a planned final check of the in-game chapter-select/save-file screen contents (medal display, completion tracking) — recommend a follow-up pass if budget allows."
+  ]
+}

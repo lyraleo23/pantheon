@@ -1,0 +1,331 @@
+{
+  "beat": "side content / collectibles / systems (weapons, costumes, DLC, secrets)",
+  "game": "Bayonetta 2",
+  "platform": "Nintendo Wii U",
+  "findings": [
+    {
+      "category": "weapon",
+      "name": "Rakshasa (katanas)",
+      "detail": "Obtained via a golden LP found early in Chapter 1 (accounts vary on exact verse). One source in-game LP name references classical music titles used as flavor text (e.g. 'Entrance of the Gladiators').",
+      "trackable": "Appears in weapon-select/loadout menu once acquired.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Nintendo Life / GameFAQs summary via search", "epictrick.com weapons guide"]
+    },
+    {
+      "category": "weapon",
+      "name": "Alruna (whip)",
+      "detail": "Unlocked by defeating the boss (Alraune) at the end of Chapter 11; both sources consulted agree on this.",
+      "trackable": "Appears in weapon-select menu once acquired.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameFront-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Kafka (bow)",
+      "detail": "Found via golden LP in Chapter 2, shortly after verse 5.",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameFront-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Chernobog (scythe)",
+      "detail": "Found via golden LP fragments in Chapter 5 (two sources disagree on whether it's one LP or split fragments).",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameRevolution-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Salamandra (chainsaws)",
+      "detail": "Found via golden LP fragments in Chapter 10.",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameRevolution-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Takemikazuchi (hammer)",
+      "detail": "Found via golden LP fragments across Chapters 8-9.",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameRevolution-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Undine (flamethrowers)",
+      "detail": "Found via golden LP fragments in Chapter 4.",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide", "GameRevolution-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Love Is Blue (guns)",
+      "detail": "Bayonetta's default starting weapon (handguns), no unlock required.",
+      "trackable": "Always available.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["GameRevolution-derived search summary"]
+    },
+    {
+      "category": "weapon",
+      "name": "Chain Chomp",
+      "detail": "A Mario-themed weapon exclusive to Bayonetta 2. Unlock method is disputed between sources: one claims a hidden LP, another claims it unlocks for completing the game on Hard difficulty. There is also a matching 'Chain Chomp' Umbran Elegance (fragrance/perfume costume, 30,000 Halos) that is the only Elegance Jeanne can wear (as a Luigi-colored variant).",
+      "trackable": "Weapon-select menu; Elegance shown in costume/accessory shop.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["GameRevolution-derived search summary", "epictrick.com weapons guide", "thegamer.com costume guide"]
+    },
+    {
+      "category": "weapon",
+      "name": "Rodin (bracelet / Wicked Weave-style weapon)",
+      "detail": "Obtained by purchasing the Platinum Ticket (very high Halos cost, reported as ~9,999,999) and defeating Rodin himself in a secret boss fight.",
+      "trackable": "Weapon-select menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["epictrick.com weapons guide"]
+    },
+    {
+      "category": "weapon",
+      "name": "Total weapon count discrepancy",
+      "detail": "Two guides disagree on the total weapon roster: one lists 10 total weapons, another lists 12 (including a Super Mirror-tied weapon called 'Shuraba'/possibly transliterated differently, which reportedly becomes a Master Sword reskin when paired with the Hero of Hyrule costume). Could not reconcile an authoritative, single complete list.",
+      "trackable": "Weapon-select menu would show the true total.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["GameRevolution-derived search summary", "epictrick.com weapons guide"]
+    },
+    {
+      "category": "collectible",
+      "name": "Umbran Crows",
+      "detail": "20 total crow collectibles scattered across roughly 11 of the game's 16 chapters (chapters 1, 2, 4, 5, 7, 8, 9, 10, 13, 15, 16 reported as containing crows). They appear as small black crows with a red glowing outline/red jewel; must be caught quickly (they flee and can respawn/reappear with audio cues if missed). Catching one is saved permanently — chapter replay not required afterward.",
+      "trackable": "Confirmed collected automatically; can be reviewed via Umbran Tears of Blood / Records-style menu (exact menu name for Bayonetta 2 not directly confirmed in sources found).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Nintendo Life (search summary)", "videogamesblogger.com Umbran Crows guide", "Bayonetta Wiki (search snippet, page itself inaccessible)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Umbran Crow reward: Miiverse stamps",
+      "detail": "Original reward for catching each crow was a unique stamp usable on Nintendo's Miiverse social service, accessed via Pause Menu upload option. Miiverse was permanently shut down in November 2017 — this reward mechanism is non-functional today and cannot be used as a trophy hook in its original form.",
+      "trackable": "N/A — feature is dead.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["videogamesblogger.com", "search summary of Bayonetta Wiki Umbran Tears Of Blood page"]
+    },
+    {
+      "category": "collectible",
+      "name": "Bewitchments (Bayonetta 2)",
+      "detail": "A separate collectible category from Umbran Crows — described as hidden in-verse challenge trials, distinct wiki page exists for 'Bewitchments (Bayonetta 2)'. Reported total is 30. Combined with the 20 Umbran Crows, this yields the widely-cited '50 total Umbran Tears of Blood.' Could not directly access the wiki page to confirm exact mechanics (whether these are the same as Muspelheim trials or a separate system).",
+      "trackable": "Unclear — possibly tallied within the same Tears of Blood counter.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Search summary referencing bayonetta.fandom.com/wiki/Bewitchments_(Bayonetta_2), page itself returned HTTP 402 and could not be directly verified"]
+    },
+    {
+      "category": "collectible",
+      "name": "Umbran Tears of Blood total / reward threshold",
+      "detail": "Reported total of 50 Umbran Tears of Blood (20 Crows + 30 Bewitchments). Collecting 25 of them reportedly unlocks the ability to purchase an item called 'Eternal Testimony' from Rodin at the Gates of Hell for 500,000 Halos. Could not verify what the Eternal Testimony item actually is/does (accessory, costume, or lore item).",
+      "trackable": "Unclear whether an in-game counter displays '25/50' or similar progress — not confirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Search summary referencing bayonetta.fandom.com/wiki/Umbran_Tears_Of_Blood, page itself inaccessible (HTTP 402)"]
+    },
+    {
+      "category": "secret area",
+      "name": "Muspelheim",
+      "detail": "Bayonetta 2's equivalent of Bayonetta 1's Alfheim portals — hidden challenge Verses scattered through chapters with special combat rules (e.g., 'Single Combo Challenge'), rewarding items/Witch Hearts and contributing to chapter score. One walkthrough source notes Chapter 1 alone has 7 total hidden verses, 4 of which are Muspelheim challenges; Chapter 2 has at least 2. Could not find an authoritative total count across the full game.",
+      "trackable": "Contributes to per-chapter/per-verse completion tracked in Play History menu (see trackableStats).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["search summary referencing bayonetta.fandom.com/wiki/Muspelheim", "videogamesblogger.com walkthrough"]
+    },
+    {
+      "category": "post-game content",
+      "name": "Lost Chapter: Witch Trials",
+      "detail": "A secret post-game mode consisting of 5 separate trial chapters ('Witch Trials I' through 'V', increasing difficulty), unlocked by completing the main Story Mode once (on any difficulty per one source). Distinct wiki walkthrough page exists confirming this as a real, named bonus chapter set. Could not confirm the specific unlock reward for completing all five Witch Trials (one search hinted at an accessory called 'Evil Harvest Rosary' tied to Witch Trials content, but this was not verified).",
+      "trackable": "Should appear as a selectable mode from the main/chapter-select menu once unlocked.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["bayonetta.fandom.com/wiki/Bayonetta_2/Walkthrough/Lost_Chapter:_Witch_Trials (title/existence confirmed via search, page itself inaccessible)", "supercheats.com", "chaptercheats.com"]
+    },
+    {
+      "category": "systems",
+      "name": "Infinite Climax difficulty",
+      "detail": "An unlockable higher difficulty mode beyond the standard Climax tiers, confirmed to exist as a named unlockable category on multiple cheat-site unlockable lists. Exact unlock condition not confirmed by sources accessed (likely completing the game on 3rd Climax/hardest standard difficulty, consistent with the Bayonetta series pattern, but this is an assumption, not verified).",
+      "trackable": "Selectable from difficulty menu once unlocked.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["chaptercheats.com unlockables list (category name only, no condition confirmed)"]
+    },
+    {
+      "category": "DLC",
+      "name": "No DLC exists for Bayonetta 2 (Wii U)",
+      "detail": "Director Yusuke Hashimoto confirmed at E3 2014 that there would be NO DLC for Bayonetta 2, and that everything — including all Nintendo-themed costumes — would ship on-disc. This directly contradicts any assumption of a paid 'Digital Deluxe' costume pack. No such DLC exists for the Wii U version.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gameranx.com (June 2014, quoting director Yusuke Hashimoto)", "Wikipedia Bayonetta_2 article corroborating 'exclusive Nintendo costumes' as on-disc bundled content"]
+    },
+    {
+      "category": "costume",
+      "name": "Nintendo-themed costumes (base game, on-disc)",
+      "detail": "Confirmed roster via Super Mirror 64-2 (100,000 Halos each, default/no story-progress gate required): Pilot Suit (Star Fox / Fox McCloud theme), Mushroom Kingdom Princess (Peach), Sarasaland Princess (Daisy), Galactic Bounty Hunter (Samus/Metroid), Hero of Hyrule (Link/Zelda). A second tier, Super Mirror 64 ('Legacy Hair' variants of Mushroom Kingdom Princess, Sarasaland Princess, Galactic Bounty Hunter, Hero of Hyrule), requires beating Story Mode on Hard/3rd Climax difficulty or higher. Special gameplay hooks confirmed for some: Peach/Daisy costumes summon Bowser's arms/feet on special moves; Samus costume allows a Morph Ball roll; Link costume changes the in-game currency icon to rupees.",
+      "trackable": "Costume/wardrobe select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["thegamer.com/bayonetta-2-unlock-all-costumes-guide", "gamesided.com", "search summary of bayonetta.fandom.com/wiki/Nintendo_Content"]
+    },
+    {
+      "category": "correction",
+      "name": "No Palutena or Wonder Red costume found",
+      "detail": "The task brief speculated about a possible Palutena (Kid Icarus) or Wonder Red (The Wonderful 101) costume. No source found in this research mentions either. The confirmed Nintendo costume roster is limited to Star Fox, Super Mario (Peach/Daisy), Metroid (Samus), and Zelda (Link) themes only. This should be treated as NOT existing unless contradicted by another scout/source.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com/bayonetta-2-unlock-all-costumes-guide (exhaustive costume list, no Palutena/Wonder Red entries)"]
+    },
+    {
+      "category": "unlockable",
+      "name": "amiibo costume shortcuts (optional, not required)",
+      "detail": "Peach, Daisy, Link, Fox, Falco, and Samus amiibo each instantly unlock the corresponding Nintendo costume for free; Bayonetta amiibo (Player 1 Short Hair / Player 2 Long Hair) unlock full sets of Couture Bullets for the Super Mirror lines. Crucially, ALL of these costumes can also be purchased normally with in-game Halos — amiibo only provide a shortcut, not exclusive/required access. This should rule out any amiibo-locked trophy design per standard practice.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["nintendosoup.com / mynintendonews.com / gonintendo.com amiibo unlock list (search summary)", "amiibo.fandom.com/wiki/Bayonetta_2"]
+    },
+    {
+      "category": "version note",
+      "name": "amiibo support timing on Wii U",
+      "detail": "Bayonetta 2 Wii U released October 2014; Nintendo's amiibo figures launched November 2014. It is unconfirmed whether amiibo functionality was present in the Wii U version at launch or added via a post-launch patch. Not verified in this research pass.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["inference from release date timeline, not directly confirmed"]
+    },
+    {
+      "category": "costume",
+      "name": "Rodin's Gates of Hell shop costumes (Super Mirror 2 line, non-Nintendo)",
+      "detail": "Base costume set available by default for 100,000 Halos via 'Super Mirror 2': Gekka (cheongsam, 3 color variants), Schoolgirl, Police Woman, Witch Apprentice, Metal Witch, Dress (2 variants). Jeanne-exclusive costumes (unlocked after beating the story once and playing as Jeanne): Uniformed, Elegant Outfit.",
+      "trackable": "Costume/wardrobe select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com/bayonetta-2-unlock-all-costumes-guide"]
+    },
+    {
+      "category": "costume",
+      "name": "Original Bayonetta 1 costumes ported into Bayonetta 2 (Super Mirror line)",
+      "detail": "100,000 Halos, requires beating Story Mode on Normal/2nd Climax difficulty or higher: 'A Witch With No Memories' (original Bayonetta look), 'The Last Witch' (original Jeanne look), 'Old' (500-year-old/aged outfit), 'Nun'. Jeanne-exclusive: 'Cutie J', 'Uniformed'.",
+      "trackable": "Costume/wardrobe select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com/bayonetta-2-unlock-all-costumes-guide"]
+    },
+    {
+      "category": "unlockable",
+      "name": "Umbran Elegances (fragrance costumes)",
+      "detail": "Weapon-tied cosmetic 'perfume' costumes costing 30,000 Halos each, unlocked upon acquiring the associated weapon: Rakshasa (belly dancer outfit with face mask), Kafka (Robin Hood-style with pointed green hat), Chernobog (devil outfit with horns/bat wings/tail), Takemikazuchi (tiara + floating scarf), Chain Chomp (Mario-mustache + red cap; Luigi-colored variant is the only Elegance available to Jeanne).",
+      "trackable": "Costume/wardrobe select screen.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["thegamer.com/bayonetta-2-unlock-all-costumes-guide (single source for this specific detail)"]
+    },
+    {
+      "category": "systems",
+      "name": "Tag Climax multiplayer mode",
+      "detail": "Co-operative online multiplayer mode where players choose 6 Verse Cards and fight through stages, wagering Halos. On Wii U this mode was ONLINE-ONLY (no local co-op option — local co-op was added later for the 2018 Switch release). Halos earned in Tag Climax can be spent in the single-player shop on techniques, accessories, costumes, and weapons.",
+      "trackable": "N/A (mode selection from main menu).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["dualshockers.com / siliconera.com / nintendolife.com Tag Climax coverage (search summary)"]
+    },
+    {
+      "category": "version note",
+      "name": "Wii U Tag Climax online servers shut down",
+      "detail": "Nintendo shut down all Wii U and 3DS online services (Nintendo Network) on April 8, 2024. Since Wii U Tag Climax was online-only, matchmaking with real players is no longer functional on Wii U as of this research date. Any trophy requiring live online play/matchmaking on Wii U is currently impossible to complete unless the mode supports offline/CPU-only play (one search snippet mentioned playing 'with a computer-controlled partner,' which may remain available offline — not fully confirmed).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["eventhubs.com", "delistedgames.com", "insider-gaming.com (Nintendo Network shutdown April 2024 coverage)"]
+    },
+    {
+      "category": "systems",
+      "name": "Tag Climax playable characters",
+      "detail": "One AI-summarized search result claimed Tag Climax playable characters are Bayonetta, Jeanne, Rodin, Rosa, and Balder. 'Rosa' is not a character recognized from prior Bayonetta knowledge and could not be independently corroborated — likely a search-summary error. Treat this roster as unverified.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["single unverified search-engine summary, contents not independently confirmed"]
+    },
+    {
+      "category": "systems",
+      "name": "Chapter/Verse medal ranking",
+      "detail": "Every Verse (combat encounter) within a chapter ends with a medal ranking: Stone, Bronze, Silver, Gold, Platinum, or Pure Platinum, based on performance (time, damage taken, combo variety).",
+      "trackable": "Displayed at end of each verse; reviewable afterward via 'Play History' from the main Menu — select a chapter's trophy icon to see per-verse medals earned.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["videogamesblogger.com walkthrough", "GameFAQs Q&A: 'Is it possible to see what medals I acquired outside of the end of a chapter?'"]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Per-verse medal ranking (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum)",
+      "where": "Shown at end of each Verse; reviewable via Menu > Play History > select chapter",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Umbran Crows collected (out of 20)",
+      "where": "Presumed tracked somewhere (likely a Tears of Blood / Records-style screen), but the exact menu name and display format for Bayonetta 2 specifically was not directly confirmed — could not access the wiki page describing it firsthand.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Overall single completion percentage",
+      "where": "No source found confirming a single overall completion-percentage number/counter exists anywhere in Bayonetta 2's menus. This may not exist as a trackable stat at all.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Halos (currency) total",
+      "where": "Likely shown in the shop/Gates of Hell interface as a running total, consistent with series convention, but not directly confirmed in sources accessed this pass.",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "No DLC exists for Bayonetta 2 on Wii U — confirmed via director statement (Yusuke Hashimoto, E3 2014). All costumes, including Nintendo-themed ones, ship on-disc. Any trophy design assuming paid DLC content should be discarded.",
+      "confidence": "high"
+    },
+    {
+      "note": "Wii U online services (Nintendo Network) were permanently shut down April 8, 2024, disabling Tag Climax online matchmaking on Wii U. This is critical for genesis-mode trophy design: no trophy should require live online multiplayer completion on Wii U going forward, unless an offline/CPU-partner mode is confirmed to substitute.",
+      "confidence": "high"
+    },
+    {
+      "note": "The original Umbran Crow collection reward (Miiverse stamps) is defunct since Miiverse's November 2017 shutdown. The underlying collectible (catching all 20 crows) likely still exists and is trackable, but the stated in-fiction 'reward' cannot be experienced as originally designed.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Wii U version's Tag Climax lacked local co-op (added later for the Switch 2018 re-release) — Wii U was online-only for this mode.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Could not confirm the exact, single authoritative total weapon count for Bayonetta 2 (sources disagreed: 10 vs 12), nor reconcile all unlock conditions — some conflicting claims about LP locations vs. difficulty-based unlocks (esp. for Chain Chomp).",
+    "Could not directly access bayonetta.fandom.com pages (persistent HTTP 402 errors from WebFetch) for Umbran Tears of Blood, Umbran Crows, Bewitchments (Bayonetta 2), Muspelheim, Weapons, Nintendo Content, or Tag Climax — all findings sourced from search-engine summaries of these pages rather than the primary text, which reduces confidence across several facts.",
+    "Could not confirm the exact mechanic/relationship between Umbran Crows (20) and Bewitchments (30) as components of 'Umbran Tears of Blood' (50 total) — whether they share one combined counter or are tracked separately.",
+    "Could not confirm what the 'Eternal Testimony' item (unlocked at 25 Umbran Tears of Blood, 500,000 Halos) actually is or does.",
+    "Could not confirm a total count of Muspelheim hidden-verse challenges across all 16 chapters — only fragmentary chapter-level data found (Ch1: 4 of 7 hidden verses; Ch2: at least 2).",
+    "Could not confirm the reward/unlock for completing all five Lost Chapter: Witch Trials chapters (one unverified hint pointed to an accessory called 'Evil Harvest Rosary').",
+    "Could not confirm the exact unlock condition for Infinite Climax difficulty.",
+    "Could not confirm whether the game displays an overall single completion-percentage stat anywhere, or a running Halos-earned-lifetime counter, distinct from the per-verse medal system.",
+    "Could not confirm whether amiibo functionality was present in the Wii U version at launch (Oct 2014, one month before amiibo launched) or added via later patch.",
+    "Could not verify the 'Tag Climax playable characters' roster beyond Bayonetta and Jeanne — a single unverified search summary listed Rodin, Rosa, and Balder, but 'Rosa' does not match any known Bayonetta character and should be treated as unreliable.",
+    "Did not find any evidence of a Palutena (Kid Icarus) or Wonder Red (The Wonderful 101) costume in Bayonetta 2, despite this being floated in the task brief — treat as non-existent unless another source contradicts this.",
+    "Could not confirm whether the Wii U Tag Climax mode supports any offline/single-player-facing substitute (vs. CPU partner) now that online matchmaking is defunct — this materially affects whether any Tag Climax-related trophy is completable today."
+  ]
+}

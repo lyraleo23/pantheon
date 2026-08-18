@@ -1,0 +1,44 @@
+{
+  "game": "Bayonetta 2",
+  "platform": "Nintendo Wii U",
+  "mode": "genesis",
+  "mergedFrom": ["dossier_scout_a.json", "dossier_scout_b.json", "dossier_scout_c.json"],
+  "campaignStructure": {
+    "chapters": "Prologue: World of Chaos + 16 numbered chapters (I-XVI) = 17 total. Chapter titles reconstructed from partial sources, medium confidence on exact wording.",
+    "bosses": ["The Masked Lumen / young time-displaced Balder (recurring, multi-chapter)", "Alraune (Ch. XI: Inferno and Its Ruler, two-phase)", "Loptr/Aesir (final boss, Ch. XVI: Sovereign Power — exact in-game display name unconfirmed, avoid quoting 'Loptr' or 'Aesir' directly in trophy text)"],
+    "notPlayableAsBoss": "Loki is a companion ally, never fought.",
+    "difficulty": "Very Easy, Easy, Normal, Hard, ∞ Climax (hardest — drops the 'Non-Stop' prefix used in Bayonetta 1). Same sequential unlock pattern (Normal→Hard→∞ Climax).",
+    "verseRanking": "Same Stone→Pure Platinum six-tier system as Bayonetta 1, confirmed present (high confidence via Wikipedia direct quote + community point-value breakdown), reviewable via Menu > Play History.",
+    "ending": "Single linear ending; post-credits epilogue shows young Balder returning to his time, corrupted — seeds the original Bayonetta's plot.",
+    "optionalContent": "Lost Chapter: Witch Trials — 5 bonus chapters (Witch Trial I-V), unlocked after completing Story Mode once. Witch Trial V includes a double-boss fight (Alraune + Young Loptr). Exact unlock trigger (which difficulty/rank) unconfirmed."
+  },
+  "collectiblesAndSystems": {
+    "weapons": "10-12 total depending on source (discrepancy unresolved): Love Is Blue (default), Rakshasa, Alruna (story unlock, defeat Alraune), Kafka, Chernobog, Salamandra, Takemikazuchi, Undine, Chain Chomp (Mario-themed, Bayonetta-2-exclusive), Rodin (secret superboss reward via Platinum Ticket).",
+    "umbranCrows": "20 total, scattered across ~11 of 16 chapters. Reward was Miiverse stamps — dead since Nov 2017 shutdown; the underlying pickup itself is presumably still trackable, though the exact tracking menu/screen for Bayonetta 2 specifically is unconfirmed.",
+    "bewitchments": "~30 in-fiction challenge conditions, reportedly combining with the 20 Crows into '50 Umbran Tears of Blood' total — mechanic/tracking screen unconfirmed (medium-low confidence).",
+    "muspelheim": "Bayonetta 2's Alfheim-equivalent hidden challenge verses. No confirmed total count across all chapters (only fragmentary per-chapter data).",
+    "noGlobalStatsScreen": "No confirmed dedicated Records/Statistics menu (playtime, lifetime Halos, combo records) — every relevant primary source was blocked this session. Do not design a cumulative-currency or playtime trophy.",
+    "missables": "Same as Bayonetta 1 — full Chapter Select replay available indefinitely; nothing permanently missable. Pure Platinum needs a single clean continuous run of a chapter."
+  },
+  "costumesAndDLC": {
+    "noDLCConfirmed": "Director Yusuke Hashimoto confirmed at E3 2014 there is NO DLC for Bayonetta 2 — everything, including all Nintendo costumes, ships on-disc. High confidence, corroborated by two independent scouts and VGChartz's extras page showing none.",
+    "nintendoCostumes": "5 on-disc costumes via Super Mirror 64-2 (100,000 Halos each): Pilot Suit (Fox McCloud/Star Fox), Mushroom Kingdom Princess (Peach), Sarasaland Princess (Daisy), Galactic Bounty Hunter (Samus), Hero of Hyrule (Link). A second tier (Super Mirror 64, 'Legacy Hair' variants) requires beating Story Mode on Hard or higher. No Palutena or Wonder Red costume exists (ruled out this session).",
+    "otherCostumes": "Non-Nintendo Super Mirror 2 line (Gekka, Schoolgirl, Police Woman, Witch Apprentice, Metal Witch, Dress) and ported Bayonetta-1-style costumes (A Witch With No Memories, The Last Witch, Old, Nun) available via Halos purchase, some gated behind difficulty completion.",
+    "amiibo": "Optional instant-unlock shortcut for costumes already obtainable via Halos — never required, never exclusive content. Not a valid trophy basis.",
+    "designFlag": "The user's request to treat 'Switch bonus content' as a DLC-style list runs into the same problem as Bayonetta 1: costumes are already Wii U base content, not Switch-exclusive."
+  },
+  "wiiUVsSwitch": {
+    "confirmedSwitchExclusive": "Tag Climax (the online co-op/competitive mode) gained LOCAL wireless 2-console co-op on Switch. Wii U's Tag Climax was online-only. This is the one genuine, functional Switch-only change found — but it's a connectivity mode, not new unlockable content, and thin material for a standalone trophy (at most one trophy: 'play Tag Climax locally').",
+    "amiiboSupport": "amiibo scanning itself is a Switch-exclusive feature (Wii U had none for this game), but only as a shortcut to existing Halos-purchasable content — not new content.",
+    "onlineStatus": "Wii U's Nintendo Network (needed for Tag Climax online matchmaking) permanently shut down April 8, 2024. No trophy should require live online Tag Climax on Wii U going forward.",
+    "designImplication": "As with Bayonetta 1, there isn't enough substantive Switch-exclusive content here to justify a full separate DLC-style list under Rule 14 (validate.mjs flags <5 trophies as too thin to stand alone). The one real difference (local Tag Climax co-op) could at most be a single note or a single bonus trophy folded into the base list — needs a checkpoint decision."
+  },
+  "gaps": [
+    "No confirmed global stats/records screen (biggest gap, affects several trophy ideas).",
+    "Exact chapter title wording (medium confidence, reconstructed from partial sources).",
+    "Weapon total count disputed (10 vs 12 across sources).",
+    "Muspelheim and Umbran Tears of Blood exact counts/tracking UI for Bayonetta 2 specifically are unconfirmed.",
+    "Witch Trials unlock trigger unconfirmed.",
+    "Exact in-game display name of the final boss (Loptr vs Aesir) unconfirmed — avoid quoting either directly."
+  ]
+}

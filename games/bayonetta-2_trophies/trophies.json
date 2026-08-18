@@ -1,0 +1,208 @@
+{
+  "game": {
+    "title": "Bayonetta 2",
+    "slug": "bayonetta-2",
+    "code": "BAY2",
+    "targetPlatform": "Nintendo Wii U",
+    "mode": "genesis",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "genre": "Action / Hack-and-Slash",
+    "releaseYear": 2014,
+    "estimatedDifficulty": 6,
+    "estimatedHours": "10-13h main story, +6-8h for full completion",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — no native achievement list exists for this game on any platform (Wii U has no achievements, and the 2018 Nintendo Switch re-release has none either). No DLC was ever released for Bayonetta 2 (confirmed by director Yusuke Hashimoto at E3 2014 — everything, including all Nintendo-themed costumes, ships on-disc), so unlike some other titles there is no separate DLC list here. Per the user's explicit decision, Nintendo Switch differences are documented here rather than built into a separate bonus list, since neither difference is substantial enough to justify one on its own: (1) amiibo scanning is Switch-exclusive but only as a shortcut to unlock costumes already purchasable in-game with Halos — no new content; (2) Tag Climax (the online co-op/competitive mode) gained local wireless 2-console co-op on Switch, where the Wii U original was online-only — a genuine functional difference, but a connectivity feature rather than new unlockable content. Wii U's Tag Climax also depended on Nintendo Network, which was permanently shut down April 8, 2024, so no trophy in this list depends on live online play. Several native-feeling collectible systems were deliberately excluded from cumulative-count trophies because their exact totals and in-game tracking UI could not be confirmed with confidence for this specific game (as opposed to Bayonetta 1, where the equivalent systems were confirmed via the official manual): the ~50 'Umbran Tears of Blood' (20 Umbran Crows + ~30 Bewitchments) and the Muspelheim hidden-verse total are represented here only through single-occurrence 'first' trophies, which are self-evident in the moment and don't require an unconfirmed aggregate counter. The Rodin secret weapon (obtained via an extreme Halos grind, reported around 9,999,999) is deliberately excluded from the weapon-collection trophy for the same reason Mario Kart 8's Gold Glider was excluded from that list: it represents grinding disproportionate to any meaningful gameplay gain, not mastery of a core system. Jeanne and Rosa's playable-character unlocks are not given separate trophies since they occur automatically at the same milestones already covered by existing trophies — Jeanne on completing the story at any difficulty (BAY2-008) and Rosa on completing it at Hard (BAY2-010)."
+  },
+  "trophies": [
+    {
+      "id": "BAY2-001",
+      "name": "World of Chaos",
+      "description": "Complete the Prologue.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The Prologue concludes and Chapter I begins.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-002",
+      "name": "A New Arrangement",
+      "description": "Discover a Golden LP and forge a new weapon with Rodin.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "A new weapon is added to the weapon-select menu after visiting Rodin with a collected Golden LP.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-003",
+      "name": "Caught One",
+      "description": "Catch your first Umbran Crow.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The crow is caught on-screen, confirmed in the moment.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-004",
+      "name": "Trial by Fire",
+      "description": "Complete your first Muspelheim challenge verse.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The Muspelheim verse's results screen confirms it cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-005",
+      "name": "Perfect Form",
+      "description": "Earn a Pure Platinum medal on any Verse for the first time.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The Verse's clear results screen shows the Pure Platinum medal.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-006",
+      "name": "Bloom and Wither",
+      "description": "Defeat Alraune.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Alraune's defeat cutscene plays and Chapter XI resolves.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-007",
+      "name": "Behind the Mask",
+      "description": "Defeat the Masked Lumen for the first time.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "The Masked Lumen's defeat cutscene plays out during that chapter's encounter.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-008",
+      "name": "Loki's Champion",
+      "description": "Complete the story on any difficulty.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The final chapter concludes and the credits roll.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-009",
+      "name": "Second Climax",
+      "description": "Complete all Chapters on Normal difficulty.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "Hard difficulty becomes available at the difficulty select option, confirming Normal was fully cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-010",
+      "name": "Third Climax",
+      "description": "Complete all Chapters on Hard difficulty.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The hardest difficulty becomes available at the difficulty select option, confirming Hard was fully cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-011",
+      "name": "The Last Climax",
+      "description": "Defeat the final boss and bring the story to its climax.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "The final boss's defeat cutscene plays and the story concludes.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-012",
+      "name": "Star Mercenaries",
+      "description": "Unlock all five Nintendo-themed costumes: Fox McCloud, Peach, Daisy, Samus, and Link.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "All five costumes appear owned in the wardrobe select screen at the Gates of Hell.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-013",
+      "name": "The Full Arsenal",
+      "description": "Own every weapon obtainable through normal play, excluding Rodin's secret weapon.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The weapon-select menu shows every obtainable weapon owned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-014",
+      "name": "Double Trouble",
+      "description": "Overcome the double-boss encounter in Witch Trial V.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "Witch Trial V's results screen confirms it cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-015",
+      "name": "Infinite Climax",
+      "description": "Complete all Chapters on the hardest difficulty.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Every chapter shows a cleared result on the hardest difficulty.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-016",
+      "name": "Witch Hunt Complete",
+      "description": "Complete all five Lost Chapter: Witch Trials.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "All five Witch Trial chapters show a cleared result in Chapter Select.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BAY2-017",
+      "name": "Sovereign Power Reclaimed",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ]
+}

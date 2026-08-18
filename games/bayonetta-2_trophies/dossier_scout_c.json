@@ -1,0 +1,139 @@
+{
+  "beat": "systems",
+  "game": "Bayonetta 2",
+  "platform": "Nintendo Wii U (base) + Nintendo Switch (2018 re-release, bonus scope)",
+  "facts": [
+    {
+      "topic": "Nintendo-themed costumes origin",
+      "finding": "The five Nintendo-character costumes for Bayonetta (Fox McCloud/Star Fox, Link, Samus, Princess Peach, Princess Daisy) were part of the ORIGINAL 2014 Wii U release, unlocked in-game by purchasing 'Couture Bullets' for 100,000 Halos each at The Gates of Hell (Fox's outfit comes bundled free with the Super Mirror 64-2). They are NOT exclusive to the Switch version.",
+      "confidence": "high",
+      "source": ["https://nintendoeverything.com/bayonetta-2-amiibo-support-lets-you-immediately-unlock-nintendo-themed-costumes/", "https://www.siliconera.com/bayonetta-amiibo-instantly-nets-nintendo-themed-costumes-bayonetta-2/", "https://www.thegamer.com/bayonetta-2-unlock-all-costumes-guide/", "https://www.gameskinny.com/news/unlockable-nintendo-costumes-in-bayonetta-2-are-for-more-than-just-show/"],
+      "notes": "Costumes have gameplay effects, not just cosmetic: Link outfit adds a shield-reflect input and (combined with the Shuraba weapon) Master Sword moves; Samus outfit adds a charged arm-cannon attack and a Morph Ball transformation; Fox outfit lets Bayonetta fight with miniature Arwings and triggers an Arwing-flying segment; Peach/Daisy outfits reskin the hair-demon summons as Bowser limbs and swap Halos pickup sound/visual for Mario coins. None of this is Switch-specific."
+    },
+    {
+      "topic": "amiibo support — Switch-exclusive feature",
+      "finding": "amiibo scanning support for Bayonetta 2 was added specifically for the 2018 Nintendo Switch re-release. The original 2014 Wii U release did not have amiibo integration for this game. On Switch, scanning a compatible amiibo (Link, Peach, Daisy, Fox/Falco, Samus, and the Bayonetta series' own amiibo) instantly unlocks the corresponding costume(s) without needing to grind Halos, and other amiibo grant Halos, healing items, or stat boosts (up to 32 amiibo scans per day).",
+      "confidence": "high",
+      "source": ["https://nintendoeverything.com/bayonetta-2-amiibo-support-lets-you-immediately-unlock-nintendo-themed-costumes/", "https://www.techtimes.com/articles/220388/20180206/bayonetta-and-bayonetta-2-look-much-better-on-nintendo-switch-than-on-wii-u-what-else-is-new.htm", "https://gonintendo.com/stories/302392-bayonetta-2-full-list-of-amiibo-unlocks"],
+      "notes": "IMPORTANT for trophy design: the amiibo shortcut does not unlock anything a player cannot also get through normal play (Halos purchase). This is a convenience feature, not new content, so it should not be the basis for a 'Switch-exclusive costume' trophy — the underlying costumes are base-game (Wii U) content."
+    },
+    {
+      "topic": "Tag Climax local co-op — genuinely Switch-exclusive change",
+      "finding": "Tag Climax (the 2-player competitive/co-op online mode) gained LOCAL wireless multiplayer support on Switch. On Wii U, Tag Climax was online-only. The Switch local mode requires two separate Switch systems and two copies of the game (no single-cart/single-console local play).",
+      "confidence": "high",
+      "source": ["https://www.techtimes.com/articles/220388/20180206/bayonetta-and-bayonetta-2-look-much-better-on-nintendo-switch-than-on-wii-u-what-else-is-new.htm", "https://nintendoeverything.com/bayonetta-2-amiibo-support-lets-you-immediately-unlock-nintendo-themed-costumes/"],
+      "notes": "This is one of the only functionally NEW pieces of Switch content confirmed (a connectivity mode, not new unlockables). Two independent articles agree on this point."
+    },
+    {
+      "topic": "No evidence of paid DLC costume packs for Bayonetta 2",
+      "finding": "Extensive searching (VGChartz extras page, GameFAQs DLC board summaries, costume unlock guides) turned up NO paid/purchasable DLC costume packs for Bayonetta 2 on Wii U. Every costume in the game — including all five Nintendo-themed ones — is unlocked in-game using the Halos currency (100,000 Halos per Couture Bullet, plus a 100,000-Halo Super Mirror to unlock each costume 'slot'). VGChartz's Extras/DLC page for the Wii U version explicitly states 'No extras available for this game.'",
+      "confidence": "medium",
+      "source": ["https://www.vgchartz.com/game/70956/bayonetta-2/extras", "https://gamefaqs.gamespot.com/boards/683293-bayonetta-2/73270649 (via search synthesis)"],
+      "notes": "FLAG FOR RECONCILIATION: the task briefing referenced 'the Wii U version's paid DLC costume packs (per the other scout's findings).' I could not independently verify that any such paid DLC exists for Bayonetta 2 specifically (unlike Bayonetta 1, which did get PC/other-platform costume DLC in later re-releases, and unlike some other PlatinumGames titles). If the other scout found a citable source for Bayonetta 2 paid DLC, that should take precedence over this negative finding — but as researched independently, Bayonetta 2's costume economy appears to be entirely in-game-currency-based, with no separate purchase required. Do not assume DLC-carryover trophies are needed without a firm source."
+    },
+    {
+      "topic": "\"Nonstop Climax Edition\" — packaging name, not new content",
+      "finding": "\"Bayonetta: Nonstop Climax Edition\" / \"Bayonetta 2: Nonstop Climax Edition\" is the retail/special-edition NAME used for the Switch physical release bundle (steelbook case, collectible verse cards, sticker sheet, code for the first game + cartridge for the second). It is a packaging/marketing term, not a distinct new gameplay mode or difficulty added for Switch.",
+      "confidence": "medium",
+      "source": ["https://www.ebay.de/itm/313838199548", "https://www.ebay.de/itm/317032954310"],
+      "notes": "Low-quality sources (retail listings) but consistent with general knowledge of the 2018 Switch release naming. Worth double-checking against an official Nintendo press release if precision is critical, but this should NOT be mistaken for an in-game 'Nonstop Climax' difficulty/mode exclusive to Switch."
+    },
+    {
+      "topic": "Switch bundling",
+      "finding": "The 2018 Switch release packages Bayonetta 2 on the game cartridge along with a download code for the full original Bayonetta (Wii U port). Both games run natively on Switch.",
+      "confidence": "medium",
+      "source": ["https://en.wikipedia.org/wiki/Bayonetta_2", "https://tiredoldhack.com/2018/02/14/bayonetta-1-2-switch-review/"],
+      "notes": "Could not verify the claim about a bundled Bayonetta 3 marketing/code in specific regions mentioned in the task brief — no source found confirming this for the base Switch release; it may be conflated with the separate standalone Bayonetta 3 Switch release in 2022."
+    },
+    {
+      "topic": "Chapter/verse medal ranking system",
+      "finding": "Bayonetta titles use a per-verse medal system (Pure Platinum > Platinum > Gold > Silver > Bronze > Stone) that averages into a per-chapter award, based on combo performance, speed, and damage taken; using recovery items (Lollipops, Red Hot Shots) counts as a 'death' and lowers the chapter's award by a full rank. This system is confirmed for Bayonetta (1). It is widely reported (community consensus, not independently re-verified for Bayonetta 2 in this research pass) that Bayonetta 2 uses the same medal/award structure.",
+      "confidence": "medium",
+      "source": ["https://gamefaqs.gamespot.com/boards/946345-bayonetta/52387216", "https://bayonetta.fandom.com/wiki/Platinum!"],
+      "notes": "This is the single most important trackable-stat candidate for a trophy list (e.g. 'Pure Platinum every chapter'), but my direct sourcing is for Bayonetta 1; I could not get a Bayonetta-2-specific page to load (GameFAQs and Fandom both blocked the fetch tool with 403/402 errors) to confirm the exact medal names/thresholds are identical in Bayonetta 2. Recommend the build treat this as MEDIUM confidence and, if possible, have another pass verify directly against Bayonetta 2 screenshots/videos before designing chapter-rank trophies."
+    },
+    {
+      "topic": "Chapter replay / verse replay mechanics",
+      "finding": "In the Bayonetta series, Chapter Select allows full chapters to be replayed from the main menu at any time after first completion, but individual verses within a chapter cannot be replayed in isolation once a chapter run is in progress — to earn a 'Pure Platinum' chapter award (which requires clearing every verse, including optional Alfheim/Umbran-gate side verses, without dying) the player must clear the whole chapter in one continuous run. Confirmed for Bayonetta (1); presumed to apply identically to Bayonetta 2 given the shared engine and verse/chapter structure, but not independently re-confirmed on a Bayonetta-2-specific source.",
+      "confidence": "medium",
+      "source": ["https://gamefaqs.gamespot.com/boards/683293-bayonetta-2/70519842 (title/snippet only, fetch blocked)", "https://gamefaqs.gamespot.com/boards/946345-bayonetta/52387216"],
+      "notes": "This strongly implies LOW missability at the save-file level (nothing is permanently lost — chapters can always be replayed), but PURE PLATINUM / no-damage / single-life style trophies would need to specify 'in a single chapter run' rather than assuming cumulative progress across replays."
+    },
+    {
+      "topic": "Optional/side verses (Alfheim-equivalent) missability",
+      "finding": "Optional combat challenge verses exist off the main path within chapters (the Bayonetta 2 equivalent of Bayonetta 1's Alfheim trials); skipping them does not block story progress or lock the player out of replaying the chapter later to attempt them, since full chapters remain replayable via Chapter Select. No permanent point-of-no-return missability was found for these.",
+      "confidence": "low",
+      "source": ["training knowledge, not independently confirmed via a working source this pass"],
+      "notes": "Could not get a working fetch on a Bayonetta-2-specific verse list/walkthrough to confirm exact optional-verse count or names. Flagging as low confidence — treat as a lead, not a fact, until confirmed by another source or the campaign scout."
+    },
+    {
+      "topic": "Collectibles — Umbran Tears of Blood",
+      "finding": "Bayonetta 2 includes an Umbran Tears of Blood collectible type (obtained via 'Umbran Crow' items in past Bayonetta titles' style), but I could not confirm the exact per-chapter or total count for Bayonetta 2 specifically, nor confirm whether there is an in-game checklist/counter screen showing collected vs. total.",
+      "confidence": "low",
+      "source": ["search snippet referencing https://bayonetta.fandom.com/wiki/Umbran_Tears_Of_Blood/Locations_(Bayonetta_2) — page itself could not be fetched (402 error)"],
+      "notes": "GAP: total count and tracking UI unconfirmed."
+    },
+    {
+      "topic": "Collectibles — Angelic Hymns",
+      "finding": "Bayonetta 2 has hidden 'Angelic Hymns' collectibles that unlock bonus weapons when found. Could not confirm exact count, chapter distribution, or whether an in-game counter/checklist exists.",
+      "confidence": "low",
+      "source": ["https://www.nintendolife.com/guides/bayonetta-2-angelic-hymns-locations-how-to-find-them-all-and-unlock-the-hidden-weapons (title only — fetch blocked with 403)"],
+      "notes": "GAP: could not access page content to confirm count/tracking."
+    },
+    {
+      "topic": "RNG — enemy item drops",
+      "finding": "Halos (the main currency) are awarded deterministically based on end-of-verse performance rating, not randomly. There is some enemy-drop variability tied to accessories: e.g., equipping the 'Mallet of Rewards' accessory causes enemies to drop 'Green Laurels' that would not otherwise drop. No evidence found of a loot-table/RNG system significant enough to threaten a 'collect X random drops' trophy design.",
+      "confidence": "low",
+      "source": ["search synthesis, no single strong source"],
+      "notes": "Overall RNG risk for this game appears LOW — most rewards are score/performance-gated rather than randomized. Not independently confirmed with a strong source; treat as a lead."
+    },
+    {
+      "topic": "Dedicated stats/records screen",
+      "finding": "Could not confirm the existence, contents, or location of a dedicated 'Records' or 'Statistics' menu (e.g., total playtime, lifetime combo count, total Halos earned, verses cleared count) in Bayonetta 2. Multiple attempts to access GameFAQs FAQs, the Bayonetta Fandom wiki, IGN's wiki, and CheatCC's guide were all blocked (403/402 errors) during this research session.",
+      "confidence": "low",
+      "source": ["multiple blocked sources: gamefaqs.gamespot.com, bayonetta.fandom.com, ign.com, cheatcc.com"],
+      "notes": "This is a critical GAP. Bayonetta games are known (from general series knowledge, unconfirmed this pass) to show a per-verse/per-chapter medal result screen and a Halos currency total in the shop, but a dedicated lifetime-stats page was not confirmed to exist. If Pantheon trophy design needs a hard confirmation before building 'X total combos' or 'X hours played' style trophies, this needs a follow-up check, ideally by someone who can access a wiki mirror or the game directly."
+    },
+    {
+      "topic": "Difficulty modes",
+      "finding": "Bayonetta 2 has multiple difficulty settings including at minimum Easy Automatic/Very Easy, Normal, Hard, and higher 'Climax'-tier difficulties unlocked after clearing the story (consistent with series convention: '2nd Climax', '3rd Climax', etc. referenced by costume-unlock guides which state some costumes unlock for 'beating the story on 2nd/3rd Climax'). Exact difficulty name list and unlock order not fully re-verified this pass.",
+      "confidence": "medium",
+      "source": ["search synthesis referencing thegamer.com and nintendolife.com guides"],
+      "notes": "Higher Climax difficulties gating certain costume unlocks (e.g., long-hair Bayonetta-1-style costumes unlocked on 2nd Climax+) is corroborated by at least one guide snippet."
+    },
+    {
+      "topic": "Performance differences (non-achievement-relevant, noted per instructions)",
+      "finding": "Wii U targeted 60fps but reportedly dropped to around 40fps during busy scenes; Switch version reportedly holds a stable 720p/60fps both docked and handheld, with faster loading times and enhanced touchscreen controls in handheld mode (lock-on, Witch Time trigger).",
+      "confidence": "medium",
+      "source": ["https://www.techtimes.com/articles/220388/20180206/bayonetta-and-bayonetta-2-look-much-better-on-nintendo-switch-than-on-wii-u-what-else-is-new.htm"],
+      "notes": "Not achievement/trophy relevant per task scope, included for completeness only."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Halos (in-game currency) total/balance", "where": "Displayed at The Gates of Hell shop screen when purchasing items/costumes", "confidence": "medium" },
+    { "stat": "Per-verse and per-chapter medal ranking (Stone through Pure Platinum)", "where": "End-of-verse and end-of-chapter results screen; likely also shown next to each chapter on Chapter Select (confirmed for Bayonetta 1; presumed but not independently reconfirmed for Bayonetta 2)", "confidence": "medium" },
+    { "stat": "Lifetime playtime / total combo count / other cumulative records", "where": "UNCONFIRMED — could not locate or verify a dedicated stats/records menu this pass", "confidence": "low" },
+    { "stat": "Umbran Tears of Blood / Angelic Hymns collection counters", "where": "UNCONFIRMED — could not verify whether a collection checklist screen exists", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "All five Nintendo-themed costumes (Fox, Link, Samus, Peach, Daisy) are base Wii U 2014 content, unlocked via in-game Halos purchase — NOT exclusive to Switch.", "confidence": "high" },
+    { "note": "amiibo scanning support itself (the feature, not the costumes it unlocks) is exclusive to the 2018 Switch re-release; Wii U original had no amiibo integration for this game.", "confidence": "high" },
+    { "note": "Tag Climax mode gained local wireless 2-system co-op on Switch; Wii U version of Tag Climax was online-only. This is the clearest genuinely new Switch-side functional change found.", "confidence": "high" },
+    { "note": "No evidence found of paid DLC costume packs for Bayonetta 2 on Wii U (unlike some other PlatinumGames/Bayonetta titles). All costumes appear to be unlockable purely with in-game Halos currency. This should be reconciled against the other scout's DLC findings before building a 'DLC carryover' trophy bonus list — it may not apply to Bayonetta 2 the way it does to other games.", "confidence": "medium" },
+    { "note": "\"Nonstop Climax Edition\" is a retail special-edition packaging name for the 2018 Switch physical release (steelbook, cards), not a new in-game mode or difficulty exclusive to Switch.", "confidence": "medium" },
+    { "note": "Switch release bundles a full download code for the original Bayonetta alongside Bayonetta 2 on the cartridge. Could not verify a Bayonetta 3 marketing code bundled with the base 2018 release as mentioned in the task brief — may be a conflation with the later 2022 standalone Bayonetta 3 Switch release.", "confidence": "low" },
+    { "note": "Switch version: stable 720p/60fps docked and handheld, faster load times, enhanced touch controls. Wii U: 60fps target with drops to ~40fps in busy scenes. Performance-only, not achievement-relevant.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm the existence or contents of a dedicated Records/Statistics menu (playtime, lifetime combos, total Halos earned, verses cleared) — this is the single biggest open question for stat-based trophy design. GameFAQs, Fandom wiki, IGN wiki, and CheatCC were all inaccessible (403/402 errors) during this session.",
+    "Could not confirm the exact total count of Umbran Tears of Blood collectibles in Bayonetta 2, nor whether an in-game checklist/counter exists for them.",
+    "Could not confirm the exact total count of Angelic Hymns collectibles in Bayonetta 2, nor their tracking UI.",
+    "Could not directly confirm the chapter medal system (Pure Platinum/Platinum/Gold/Silver/Bronze/Stone) is identically named/structured in Bayonetta 2 specifically — sourcing was for Bayonetta (1); treated as likely-true by series convention but flagged medium confidence.",
+    "Could not confirm whether Chapter Select displays the earned medal per chapter visually on the select screen itself (vs. only at the end-of-chapter results screen).",
+    "Could not verify presence/absence of a bestiary or enemy-encyclopedia screen.",
+    "Could not independently confirm the task brief's premise of Wii U paid DLC costume packs for Bayonetta 2 — my research found no evidence such DLC exists for this specific title. Needs reconciliation with the other scout who apparently found something on this topic.",
+    "Could not verify the claimed Bayonetta 3 marketing/code bundling with regional 2018 Switch releases of Bayonetta 2.",
+    "Could not confirm total number of chapters in Bayonetta 2 (commonly cited as 16 plus a prologue from general knowledge, but not verified this pass — likely covered by the campaign-beat scout instead).",
+    "Could not confirm exact list/count of optional side-verses (Alfheim-equivalent) per chapter or whether skipping them has any permanent consequence beyond a lower chapter medal."
+  ]
+}
