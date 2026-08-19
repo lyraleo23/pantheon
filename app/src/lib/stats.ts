@@ -10,7 +10,7 @@ export interface Progress {
   complete: boolean
 }
 
-function progress(earned: number, total: number): Progress {
+export function progress(earned: number, total: number): Progress {
   return {
     earned,
     total,

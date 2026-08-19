@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { loadCatalog, loadGame } from '../data/catalog'
-import type { GameMeta, Tier, Trophy, TrophyList } from '../data/types'
+import type { Tier } from '../data/types'
 import { useAsync } from '../hooks/useAsync'
-import { toggleTrophy, useProgress, EMPTY_GAME, type GameProgress } from '../store/progress'
+import { toggleTrophy, useProgress } from '../store/progress'
 import { TIERS, TIER_ICON, TIER_LABEL } from '../lib/labels'
 import { normalize } from '../lib/format'
+import { collectPending, type PendingItem } from '../lib/pending'
 import { TrophyRow } from '../components/TrophyRow'
 
 type SortKey = 'game' | 'tier' | 'name' | 'platform'
@@ -16,43 +17,8 @@ const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: 'platform', label: 'Console' },
 ]
 
-/** Um troféu pendente já carregando o jogo de onde veio. */
-interface Item {
-  trophy: Trophy
-  game: GameMeta
-  /** Nome do pacote, quando o troféu é de DLC. */
-  pack?: string
-  reveal: boolean
-}
-
-function collect(lists: TrophyList[], games: Record<string, GameProgress>): Item[] {
-  const items: Item[] = []
-
-  for (const list of lists) {
-    const progress = games[list.game.slug] ?? EMPTY_GAME
-    const earned = progress.earned
-    const reveal = progress.revealSecrets ?? false
-
-    for (const trophy of list.trophies) {
-      // A Platina é derivada: não dá para marcar aqui, e as oito ficariam
-      // encalhadas no topo até cada jogo acabar.
-      if (trophy.tier === 'platinum' || trophy.id in earned) continue
-      items.push({ trophy, game: list.game, reveal })
-    }
-
-    for (const pack of list.dlc ?? []) {
-      for (const trophy of pack.trophies) {
-        if (trophy.tier === 'platinum' || trophy.id in earned) continue
-        items.push({ trophy, game: list.game, pack: pack.name, reveal })
-      }
-    }
-  }
-
-  return items
-}
-
 /** Em qual bloco o item cai, conforme a ordenação escolhida. */
-function groupOf(item: Item, sort: SortKey): string {
+function groupOf(item: PendingItem, sort: SortKey): string {
   switch (sort) {
     case 'game':
       return item.game.title
@@ -66,7 +32,7 @@ function groupOf(item: Item, sort: SortKey): string {
   }
 }
 
-function compare(a: Item, b: Item, sort: SortKey): number {
+function compare(a: PendingItem, b: PendingItem, sort: SortKey): number {
   if (sort === 'tier') {
     const byTier = TIERS.indexOf(a.trophy.tier) - TIERS.indexOf(b.trophy.tier)
     if (byTier !== 0) return byTier
@@ -94,7 +60,7 @@ export function PendingPage() {
   const [withDlc, setWithDlc] = useState(true)
   const [sort, setSort] = useState<SortKey>('game')
 
-  const items = collect(data ?? [], state.games)
+  const items = collectPending(data ?? [], state.games)
 
   const visible = items
     .filter((item) => {

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "WebSearch",
+
+      "WebFetch(domain:*.fandom.com)",
+      "WebFetch(domain:fandom.com)",
+      "WebFetch(domain:*.wikipedia.org)",
+      "WebFetch(domain:gamefaqs.gamespot.com)",
+      "WebFetch(domain:howlongtobeat.com)",
+      "WebFetch(domain:*.nintendo.com)",
+      "WebFetch(domain:store.steampowered.com)",
+      "WebFetch(domain:steamcommunity.com)",
+      "WebFetch(domain:steamdb.info)",
+      "WebFetch(domain:psnprofiles.com)",
+      "WebFetch(domain:truetrophies.com)",
+      "WebFetch(domain:trueachievements.com)",
+      "WebFetch(domain:exophase.com)",
+      "WebFetch(domain:powerpyx.com)",
+      "WebFetch(domain:ign.com)",
+      "WebFetch(domain:*.gamepedia.com)",
+
+      "Read",
+      "Glob",
+      "Grep",
+      "Task",
+
+      "Write(games/**)",
+      "Edit(games/**)",
+
+      "Bash(node scripts/validate.mjs:*)",
+      "Bash(node scripts/render.mjs:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(git push:*)",
+      "Bash(rm -rf:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

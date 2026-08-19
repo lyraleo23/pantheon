@@ -3,6 +3,7 @@ import { AppShell } from './components/AppShell'
 import { GamesPage } from './pages/GamesPage'
 import { GamePage } from './pages/GamePage'
 import { PendingPage } from './pages/PendingPage'
+import { DrawPage } from './pages/DrawPage'
 import { SettingsPage } from './pages/SettingsPage'
 
 /**
@@ -16,6 +17,7 @@ export function App() {
         <Route element={<AppShell />}>
           <Route path="/" element={<GamesPage />} />
           <Route path="/jogo/:slug" element={<GamePage />} />
+          <Route path="/sorteio" element={<DrawPage />} />
           <Route path="/pendentes" element={<PendingPage />} />
           <Route path="/ajustes" element={<SettingsPage />} />
         </Route>

@@ -1,8 +1,9 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { ChecklistIcon, SettingsIcon, TrophyIcon } from './icons'
+import { ChecklistIcon, DiceIcon, SettingsIcon, TrophyIcon } from './icons'
 
 const TABS = [
   { to: '/', label: 'Jogos', Icon: TrophyIcon },
+  { to: '/sorteio', label: 'Sorteio', Icon: DiceIcon },
   { to: '/pendentes', label: 'Pendentes', Icon: ChecklistIcon },
   { to: '/ajustes', label: 'Ajustes', Icon: SettingsIcon },
 ]
