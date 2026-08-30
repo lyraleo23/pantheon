@@ -1,0 +1,289 @@
+{
+  "beat": "systems",
+  "game": "Super Mario Bros. Wonder (+ Nintendo Switch 2 Edition + Meetup in Bellabel Park)",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "playable-character",
+      "name": "Mario, Luigi, Peach, Daisy, Blue Toad, Yellow Toad, Red Toad, Nabbit, Yellow Yoshi, Light-Blue Yoshi, Pink Yoshi",
+      "detail": "Base game roster. Nabbit and the Yoshis cannot take damage from most enemy/obstacle hits (they bump or phase through instead of dying) but cannot use power-ups/badges tied to transformation the same way as human characters — they still equip badges, but cannot become other power-up forms.",
+      "trackable": "Character select shown at course-start screen; no separate 'characters used' counter found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.shacknews.com/article/136864/super-mario-bros-wonder-playable-characters", "https://gamerant.com/super-mario-bros-wonder-characters-yoshi-nabbit/"]
+    },
+    {
+      "category": "playable-character",
+      "name": "Rosalina and Co-Star Luma",
+      "detail": "New playable character/companion exclusive to the Switch 2 Edition. Co-Star Luma is a second-player-style helper that cannot take damage or transform, assists by collecting coins/defeating enemies, and can be controlled via Joy-Con 2 mouse controls.",
+      "trackable": "Character select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.techradar.com/gaming/nintendo/super-mario-bros-wonder-meetup-in-bellabel-park-does-the-impossible-and-finally-gives-nintendo-switch-2-mouse-mode-a-reason-to-live", "https://backyarddrunkard.com/game-news/super-mario-bros-wonder-switch-2-edition-new-content-guide/"]
+    },
+    {
+      "category": "system",
+      "name": "Badge equip system",
+      "detail": "Base game has 24 Badges (Action, Boost, Expert types), equip one at a time, found in courses/shops. Switch 2 Edition reportedly adds 18 new 'Dual Badges' (combine two badge effects into one slot) plus 3 'Support Badges' (Fruit Lover, Life Booster, Zero Damage — beginner-friendly handicaps for Bellabel Park multiplayer) and a new standard badge 'All Flower Power' (reward for beating all 7 Koopalings), for a reported total of 42+ badges.",
+      "trackable": "Badges obtained is one of the completion medal requirements (see trackableStats); a full badge list/inventory screen exists in base game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Badge_(Super_Mario_Bros._Wonder)", "https://nintendoeverything.com/super-mario-bros-wonder-badges-list-locations/"]
+    },
+    {
+      "category": "trackable-stat / completion-system",
+      "name": "Six (now reportedly seven) Medal completion system",
+      "detail": "Base game save file displays up to 6 medals for: (1) beating the final boss/rolling credits, (2) collecting all Wonder Seeds, (3) collecting all 10-Flower Coins, (4) touching the top of every Goal Pole, (5) obtaining all Badges, (6) obtaining all Standees. Collecting all six unlocks an alternate (dark) title screen. There is NO numeric completion-percentage stat in the base game — only these discrete medals.",
+      "trackable": "Save file select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Completion", "https://wccftech.com/how-to/super-mario-bros-wonder-guide-earn-all-6-medals-save-file/"]
+    },
+    {
+      "category": "trackable-stat / completion-system",
+      "name": "Seventh medal (Switch 2 Edition / Bellabel Park)",
+      "detail": "Community reports (a player thread titled 'I got all 7 medals') indicate the Switch 2 Edition adds a 7th medal tied to 100%-clearing Meetup in Bellabel Park content: reportedly requires clearing all Koopaling boss missions, all Toad Brigade Training Camp challenges, all Recruit Poplin reports, assembling the full Poplin Band, collecting all reactions/decorative flowers, and buying all park decor. Also reportedly the pre-existing Standee and Badge medals get provisionally revoked on save files that update to the Switch 2 Edition (because Dual Badges and new Rosalina standees expand those pools) until the player collects the new items too.",
+      "trackable": "Save file select screen (presumed, consistent with base game medal display), not confirmed via an official/wiki source directly — only via a GameFAQs forum thread paraphrase.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gamefaqs.gamespot.com/boards/559168-super-mario-bros-wonder-nintendo-switch-2-edition-plus/81140908"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Wonder Seeds",
+      "detail": "225 Wonder Seeds total in the base game (Power Star/Moon equivalent), at least 2 per main course, obtained by triggering that course's Wonder Flower and surviving to the end of the Wonder Effect sequence.",
+      "trackable": "Course-select map shows Wonder Seed count collected per level; save file medal tracks total.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Wonder_Seed", "https://gameinformer.com/guide/2023/10/19/super-mario-bros-wonder-flower-coins-and-wonder-seeds-guide"]
+    },
+    {
+      "category": "missable",
+      "name": "Wonder Seed tied to Wonder Flower activation",
+      "detail": "In some courses you can grab the level's 3rd Flower Coin without touching the Wonder Flower, but doing so means you cannot also get that course's Wonder Seed in the same run — you would need to replay the course to trigger the Wonder Flower and get the seed. Individual courses can be replayed freely, so nothing is permanently lost, but a single 'complete' run requires attention to sequencing within a course.",
+      "trackable": "Per-course collectible checklist on the course-select map.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://gameinformer.com/guide/2023/10/19/super-mario-bros-wonder-flower-coins-and-wonder-seeds-guide"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "10-Flower Coins",
+      "detail": "Each main course has three 10-Flower Coins (large flower-shaped coins), separate from the 'total coins' currency and from smaller/mini Flower Coins.",
+      "trackable": "Per-course checklist on map; save file medal tracks full collection.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gameinformer.com/guide/2023/10/19/super-mario-bros-wonder-flower-coins-and-wonder-seeds-guide"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Standees",
+      "detail": "Purchasable collectible figures (one of the six base-game medal requirements: 'obtain all standees'). Switch 2 Edition reportedly adds new Rosalina-related standees.",
+      "trackable": "Standee shop / collection menu (exact name not independently confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Completion"]
+    },
+    {
+      "category": "system / RNG",
+      "name": "Wonder Effects are fixed, not randomized",
+      "detail": "Contrary to a possible assumption, Wonder Effects are NOT randomized — each main course has exactly one Wonder Flower which always triggers the same, fixed Wonder Effect for that course and always leads to that course's Wonder Seed. No RNG element was found in Wonder Effect selection.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendo.fandom.com/wiki/Wonder_Flower_(power-up)"]
+    },
+    {
+      "category": "RNG-system",
+      "name": "Bellabel Park sprout rewards (Dual Badges)",
+      "detail": "In Bellabel Park (Switch 2 Edition), players spend 'Bellabel Water' currency (earned from Toad Brigade Training Camp challenges and Attraction Central minigames, capped at 999) to water Sprouts. Each grown Sprout yields one of four reward categories at random: a Poplin Band instrument, a Decorative Flower, a Dual Badge, or a Greeting Flower. Once all instruments, Dual Badges, and Greetings have been collected, remaining Sprouts yield only Decorative Flowers (an infinite filler reward). This means completing the Dual Badge set is gated by random drops from a shared reward pool, not direct/deterministic acquisition.",
+      "trackable": "Presumed tracked via badge inventory and a Sprout-growth UI in Bellabel Park; exact 'rewards remaining' display not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Sprout_(Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_+_Meetup_in_Bellabel_Park)", "https://www.mariowiki.com/Bellabel_Water"]
+    },
+    {
+      "category": "RNG-system",
+      "name": "Amiibo-decoration randomization",
+      "detail": "Scanning an unsupported (non-Wonder-specific) amiibo in Bellabel Park randomly themes park decorations to one of: Bellabel Flower, Wonder Flower, 1-Up Mushroom, Super Mushroom, Fire Flower, Super Star, Bubble Flower, Drill Mushroom, or Super Flower Pot. This is cosmetic only.",
+      "trackable": "N/A (cosmetic, no counter found).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park"]
+    },
+    {
+      "category": "RNG-system",
+      "name": "Mysterious! Maze Race (attraction)",
+      "detail": "One of the 6 Game Room Plaza attractions; its course layout changes randomly every time it is played. This is a minor/trivial RNG element affecting only this one competitive minigame, not overall progression.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park"]
+    },
+    {
+      "category": "content-hub",
+      "name": "Bellabel Park — premise & location",
+      "detail": "An ancient ruin styled as a playground/park, shaped like a Bellabel Flower, located in the Flower Kingdom on fog-covered plains and discovered by Captain Toad. Accessed via an entrance found in Pipe-Rock Plateau (a base-game world). It is the hub for all Meetup in Bellabel Park content and is divided into two main areas: 'Attraction Central' (multiplayer minigames) and 'Camp Central' (Toad Brigade Training Camp).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Bellabel_Park", "https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park"]
+    },
+    {
+      "category": "content-hub",
+      "name": "Bellabel Park attractions — exact count and split",
+      "detail": "23 total attractions, split into: Local Multiplayer Plaza (17 attractions playable same-system, up to 4 players, or via GameShare) — of which 7 are co-op and 10 are VS/competitive; and Game Room Plaza (6 attractions, each player brings their own system, up to 8 players local wireless or up to 12 players online). Named attractions confirmed include: Fast Cash: Tip-Tap's Coin Spree, Knock 'em Back: Bubble Blaster, Build Away: Donut Block Maker, Get Gobbling: Yoshi's Buffet, Look Out! Bob-omb Relay, Pumped Up: 1,2,3 Jump!, Sinking! Puffy Jump, Run Hide! Phanto Tag (local and online versions), Baby Yoshi's Feeding Time, Fly Free Captain Toad!, Decisive Battle: Shuffle Arena, Teamwork Time: Coin Count, Teamwork Time: Jump Count, Boing-Boing! Bouncy Ball Race, Mysterious! Maze Race, Rip-Roar! Roller Skater Race, Soaring! Propeller Flower Race, Whoosh! Flap Jet Race. A 'Tour Plaza' offering series/back-to-back attraction runs is also mentioned by one source.",
+      "trackable": "Not confirmed whether there is a per-attraction completion tracker; no confirmed 'attractions played' counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Bellabel_Park", "https://backyarddrunkard.com/game-news/super-mario-bros-wonder-switch-2-edition-new-content-guide/"]
+    },
+    {
+      "category": "content-hub",
+      "name": "Toad Brigade Training Camp — exact structure",
+      "detail": "74 training courses/challenges in Camp Central, hosted by 'Brigade Blue Toad,' using remixed courses from the base campaign. Difficulty rated 1-5 stars; clearing a training awards Bellabel Water scaled to difficulty (5/10/15/20/40 droplets per one source; a separate source states 5/10/20/40 as first-clear bonuses — sources disagree on exact scaling, treat with caution). Categories include 'Collect coins in time,' 'Defeat enemies in time,' 'Clear the course in time,' 'Clear course and stay invincible,' and 'Extra training.' Can be played solo or with up to 4 players.",
+      "trackable": "Player rank (see below) and a 'patches' collection shown in a backpack-style UI.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Toad_Brigade_Training_Camp"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Toad Brigade rank progression",
+      "detail": "Named ranks from lowest to highest, reported as: Aspiring Brigade Member, Recruit Explorer, Junior Explorer, Senior Explorer, Expert Explorer, Elite Explorer, Legendary Explorer. (One other source calls the top rank simply 'Elite Explorer' — naming/order not fully cross-confirmed.) Rank increases as training challenges are cleared and unlocks additional challenges.",
+      "trackable": "Shown via patches/rank badge in the Training Camp UI.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Toad_Brigade_Training_Camp"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Bellabel Water currency cap",
+      "detail": "Bellabel Water (Bellabel Park's currency) is capped at 999 held at once.",
+      "trackable": "Presumed shown as a numeric currency counter in Bellabel Park UI (exact on-screen location not confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Bellabel_Water"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Sprout count in Bellabel Park",
+      "detail": "31 total sprouts across the park: 9 in Camp Central (1 standalone + 8 around a fountain) and 22 in Attraction Central (16 around two Tour Plaza fountains, 4 in Local Multiplayer Plaza, 2 in Game Room Plaza). Fountains can be filled with 40 Bellabel Water to bloom all surrounding sprouts simultaneously (individual sprouts cost 5 Bellabel Water each).",
+      "trackable": "Not confirmed whether a 'sprouts grown' counter exists on any menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Sprout_(Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_+_Meetup_in_Bellabel_Park)"]
+    },
+    {
+      "category": "single-player-content",
+      "name": "Bellabel Park is not purely multiplayer",
+      "detail": "The Toad Brigade Training Camp (Camp Central) supports solo play — training challenges can be done alone to earn Bellabel Water and rank up, though most are designed as 1-4 player. The 23 Attraction Central/Game Room Plaza minigames appear to require at least 2 players (co-op or VS) — no source confirmed solo play for these.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Toad_Brigade_Training_Camp", "https://www.mariowiki.com/Bellabel_Park"]
+    },
+    {
+      "category": "version-availability",
+      "name": "Bellabel Park requires the paid Switch 2 Edition / Upgrade Pack",
+      "detail": "Meetup in Bellabel Park is bundled into the full 'Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park' package ($79.99 per one source) OR is purchasable as a separate 'Upgrade Pack' by existing owners of the original Switch cartridge/digital copy. It is not available for free to all Switch 2 owners of the original game — it is paid, exclusive content tied to owning/upgrading to this specific edition.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/store/products/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-upgrade-pack-switch-2/", "https://www.nintendo.com/us/store/products/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-switch-2/"]
+    },
+    {
+      "category": "exclusive-content",
+      "name": "Bellabel Park exclusive characters/hosts",
+      "detail": "Recruit Poplin and 'Brigade Blue Toad' are characters exclusive to Bellabel Park content (Poplin also appears to have a report-collection mechanic — 'Recruit Poplin reports' — feeding into the reported 7th medal). Rosalina & Co-Star Luma, the Koopalings (as new bosses), and Baby Yoshis are also newly featured across the Switch 2 Edition per official marketing copy.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Bellabel_Park", "https://www.nintendo.com/us/store/products/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-switch-2/"]
+    },
+    {
+      "category": "version-difference / campaign-adjacent",
+      "name": "Seven new Koopaling boss courses added to the base campaign",
+      "detail": "The Switch 2 Edition adds seven new boss courses to the main campaign (not just to Bellabel Park), one per Koopaling (Wendy, Roy, Iggy, Morton, Ludwig, and two more), each unlocked via a 'Brigade Tent' found on the base-game world map. Ludwig's Showdown uniquely skips the Brigade Tent step and becomes available immediately after beating Morton, triggered from Bellabel Park. Beating all seven grants a 'Victory over Koopalings' flag and the 'All Flower Power' badge. After collecting the final 'Bellabel Flower' reward, harder remixed versions of all seven boss fights unlock in an Extras section of the Training Camp menu. NOTE: this is campaign content and may be more fully covered by the campaign-beat scout — flagging here only because it affects version differences and completion/medal tracking.",
+      "trackable": "Presumed shown via world map icons and the 7th-medal completion tracking noted above.",
+       "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/super-mario-bros-wonder-switch-2-koopaling-locations-boss-fights/", "https://www.mariowiki.com/Bellabel_Flower"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Resolution and framerate",
+      "detail": "Original 2023 Switch release already targeted a steady 60fps in both docked and handheld modes (resolution scaled dynamically, generally sub-1080p docked). Switch 2 Edition reportedly renders up to 1080p handheld and up to 4K (2160p) docked, with most UI elements remaining at 1080p, plus added HDR support, faster loading, and more stable frame rates especially in 4-player split-screen/online scenarios (which could dip in the original version).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendoeverything.com/super-mario-bros-wonder-tech-analysis-frame-rate-resolution/", "https://www.tomsguide.com/gaming/nintendo/the-nintendo-switch-2-edition-of-super-mario-bros-wonder-isnt-just-a-visual-masterpiece-its-the-directors-cut-i-didnt-know-i-needed"]
+    },
+    {
+      "category": "version-difference",
+      "name": "GameShare support",
+      "detail": "The Switch 2 Edition adds GameShare support for the 17 Local Multiplayer Plaza attractions, letting a single cartridge/copy owner share the experience with up to 3 other Switch/Switch 2 consoles that don't own the game, in addition to same-system and online play.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gamespot.com/articles/super-mario-bros-wonder-switch-2-edition-features-playable-rosalina-17-new-minigames/1100-6537570/"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Online player-shadow count increase",
+      "detail": "Original release supported 2 players seeing up to 3 total 'live player shadows' (ghost-like other players) per course; the Switch 2 Edition supports up to 4 players per system online and displays up to 11 live player shadows in the same course simultaneously.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendo.com/us/store/products/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-switch-2/"]
+    },
+    {
+      "category": "version-difference",
+      "name": "amiibo support",
+      "detail": "Three new amiibo figures released alongside the Switch 2 Edition on March 26, 2026: Elephant Mario, Captain Toad & Talking Flower, and Poplin & Prince Florian. Compatible amiibo scans reportedly unlock power-up items in courses or themed decorations for the Bellabel Park Camp Area; unsupported/other amiibo give randomized cosmetic decoration themes (see RNG finding above).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gonintendo.com/contents/56891-3-new-super-mario-bros-wonder-amiibo-revealed", "https://www.siliconera.com/new-super-mario-bros-wonder-amiibo-accompany-switch-2-edition/"]
+    },
+    {
+      "category": "version-difference",
+      "name": "Language / voice changes",
+      "detail": "One source (AI-summarized, not independently verified) claims the Switch 2 Edition adds Polish/Thai text-language support (without dubbed Talking Flower dialogue) and re-recorded English/Russian Talking Flower voice lines. Treat as unverified.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park (AI summary, not directly re-verified with quote)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Medal count on save file (6 base, reportedly 7 with Switch 2 Edition)", "where": "Save file select screen", "confidence": "high (base 6), low (7th medal)" },
+    { "stat": "Wonder Seeds collected (out of 225)", "where": "Course-select world map, per-course checklist", "confidence": "high" },
+    { "stat": "10-Flower Coins collected (3 per course)", "where": "Course-select world map, per-course checklist", "confidence": "high" },
+    { "stat": "Goal Pole top touches per course", "where": "Course-select world map", "confidence": "medium" },
+    { "stat": "Badges obtained (out of 24 base / 42+ with Switch 2 Edition)", "where": "Badge inventory menu; also a medal requirement", "confidence": "medium" },
+    { "stat": "Standees purchased", "where": "Standee shop/collection screen; also a medal requirement", "confidence": "medium" },
+    { "stat": "Bellabel Water currency amount (capped at 999)", "where": "Presumed on-screen counter in Bellabel Park (exact UI unconfirmed)", "confidence": "low" },
+    { "stat": "Toad Brigade rank / patches earned", "where": "Backpack-style UI in Toad Brigade Training Camp", "confidence": "medium" },
+    { "stat": "Sprouts grown / rewards obtained (31 total sprouts)", "where": "Not confirmed whether a dedicated counter exists", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Meetup in Bellabel Park is paid exclusive content (bundled in the Switch 2 Edition or purchasable as a separate Upgrade Pack); it is not free content for all Switch 2 owners of the original cartridge.", "confidence": "high" },
+    { "note": "Switch 2 Edition adds 7 new Koopaling boss courses to the base campaign (not just Bellabel Park), each unlocked via world-map Brigade Tents.", "confidence": "medium" },
+    { "note": "Switch 2 Edition upgrades resolution (up to 4K docked) and stabilizes framerate versus the original 2023 release, which already ran at a mostly-steady 60fps.", "confidence": "medium" },
+    { "note": "Switch 2 Edition adds GameShare for local multiplayer attractions and raises online player/shadow counts (from 2 players/3 shadows to 4 players/11 shadows).", "confidence": "medium" },
+    { "note": "Switch 2 Edition reportedly adds/expands the badge, standee, and medal pools (Dual Badges, Support Badges, new standees, possible 7th medal) — these numbers come from a mix of wiki and forum sources and are not all cross-confirmed by an official Nintendo source.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not find an official Nintendo source directly confirming the existence, exact requirements, or exact name of a 'seventh medal' for Bellabel Park completion — only a paraphrased GameFAQs forum thread. This needs verification before any trophy is built around it.",
+    "Could not confirm the exact UI location where Bellabel Water currency and Sprout-growth progress are displayed on-screen (e.g., HUD element, pause menu, or park-only overlay).",
+    "Could not confirm total number of Dual Badges precisely — 18 is a wiki-derived figure; not independently cross-confirmed by a second source, and the two Bellabel Water reward-scaling figures found (5/10/15/20/40 vs 5/10/20/40) disagree, so exact Toad Brigade Training reward math is uncertain.",
+    "Could not confirm the exact total count of Poplin Band members/instruments, or whether there's a Poplin Band 'completion' checklist screen.",
+    "Could not confirm whether Bellabel Park attractions (the 23 minigames) have individual high-score tracking, a 'played X times' counter, or any per-attraction completion state, versus being purely session-based with no persistent record.",
+    "Could not independently verify claims about new Polish/Thai language support or re-recorded voice lines for the Switch 2 Edition — sourced only from an AI-paraphrased wiki fetch, not a directly quoted primary source.",
+    "Could not confirm whether solo play is possible for any of the 23 Attraction Central / Game Room Plaza minigames (only Toad Brigade Training Camp was confirmed solo-capable).",
+    "Did not find confirmation of a numeric overall completion-percentage stat anywhere in the base game or Switch 2 Edition — all evidence points to discrete medals only, not a percentage.",
+    "Could not verify exact wording/order of the Toad Brigade rank list beyond one source's rendering (Aspiring Brigade Member through Legendary Explorer) — a second source used the term 'Elite Explorer' as if it were the top rank, creating ambiguity.",
+    "This scout could not access the direct TechRadar review body (content was truncated on fetch) or the NintendoLife 1.1.0 patch notes / Bellabel Park review (403 errors on both) — those may contain additional trackable-stat or missable-content details not captured here."
+  ]
+}

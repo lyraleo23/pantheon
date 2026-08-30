@@ -1,0 +1,175 @@
+{
+  "beat": "side content",
+  "game": "Super Mario Bros. Wonder",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Wonder Seed",
+      "detail": "225 Wonder Seeds total across all courses. Standard levels contain at least 2 (one for course clear, one for triggering the Wonder Effect), with a possible 3rd via a secret exit. Break Time!, Search Parties, Badge Challenges, and flying battleship levels contain only 1. The final Bowser battle level ('The Final Battle! Bowser's Rage Stage') has none. Used as currency to unlock Wonder Piranha-blocked courses on the map.",
+      "trackable": "Courses list (accessed via + button on the world map) shows per-course seed count found vs total, and a green checkmark appears once a course is 100% complete (all seeds + all Flower Coins + flagpole top reached). Collecting every seed in a world (except Special World) awards 100 Flower Coins.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Wonder_Seed", "https://gamerant.com/super-mario-wonder-all-worlds-courses-list-checklist-every-wonder-seed-flower-coin/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Wonder Flower",
+      "detail": "Typically exactly 1 Wonder Flower per standard course, which triggers that level's unique 'Wonder Effect' transformation. Absent in KO Arena courses and Badge Challenges.",
+      "trackable": "Not separately counted on a global collection screen; its collection is folded into the per-course Wonder Seed / green-checkmark tracking (grabbing it and surviving its effect awards a Wonder Seed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Wonder_Flower", "https://gamerant.com/super-mario-bros-wonder-welcome-to-the-flower-kingdom-all-wonder-seeds-flower-coins/"]
+    },
+    {
+      "category": "collectible",
+      "name": "Flower Coins (10-Flower Coins / purple coins)",
+      "detail": "Most standard courses contain 3 large purple '10-Flower Coins' (worth 10 coins first time, 3 on replays). Used as the Poplin Shop currency for Badges, Wonder Seeds, Standee Surprises, and 1-Up Mushrooms.",
+      "trackable": "Per-course collection count shown on the Courses list screen; collecting all 3 in a course is one of the three requirements for that course's green checkmark. Collecting every 10-Flower Coin in the game awards one of the six end-game medals.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Flower_coin", "https://gamerant.com/super-mario-wonder-all-worlds-courses-list-checklist-every-wonder-seed-flower-coin/"]
+    },
+    {
+      "category": "system",
+      "name": "Poplin Shop",
+      "detail": "11 Poplin Shops located throughout the Flower Kingdom overworld, plus 1 additional Standee Shop in the Special World. Sell Badges and Wonder Seeds (one-time purchase per item, priced 30/100/200 coins for seeds), and repeatable purchases of 1-Up Mushrooms (5/20/300 coins) and Standee Surprises (10 coins random, or 30 coins for a guaranteed new standee of a chosen character in the Special World shop).",
+      "trackable": "Shop inventory itself shows what's already been purchased (grayed out/sold items).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Poplin_Shop"]
+    },
+    {
+      "category": "secret content",
+      "name": "Secret Exits",
+      "detail": "7 secret exits exist in the entire game. Petal Isles, Shining Falls, Fungi Mines, and the Special World contain none. Finding one rewards a Wonder Seed from a rescued Poplin and unlocks a bonus/optional course. Note: 5 additional courses have a cosmetic second goal pole (black flag, dark gray base) that grants no Wonder Seed and does NOT count as a true secret exit or affect 100% completion.",
+      "trackable": "Courses list screen — a course with an unfound secret exit will not show its green checkmark even if the main path's seeds/coins are all collected, signaling a secret exit exists.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Secret_exit"]
+    },
+    {
+      "category": "system",
+      "name": "Badges",
+      "detail": "Original 2023/Switch 1 release: 24 Badges across three categories — 9 Action Badges (e.g. Parachute Cap, Wall-Climb Jump, Dolphin Kick, Floating High Jump, Crouching High Jump, Timed High Jump, Fast Dash, Grappling Vine, Boosting Spin Jump), 11 Boost Badges (e.g. Coin Reward, Auto Super Mushroom, Add ! Blocks, Safety Bounce, Rhythm Jump, Sensor, Coin Magnet, All Elephant/Fire/Bubble/Drill Power), and 4 Expert Badges (Jet Run, Spring Feet, Invisibility, Sound Off?). Obtained via Badge Challenge courses, Poplin Shop purchase, or story progression. The Sound Off? badge is the final/secret badge, unlocked only by clearing the hidden 'The Final-Final Test: Badge Marathon' course in the Special World.",
+      "trackable": "A badge-selection screen lets players browse/equip all owned badges (accessible before a course or on death). One of the six end-game save-file medals is awarded for obtaining all badges (24 in the base game).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Badge_(Super_Mario_Bros._Wonder)", "https://www.videogameschronicle.com/guide/mario-bros-wonder-how-to-unlock-the-final-badge-sound-off/"]
+    },
+    {
+      "category": "version-exclusive system",
+      "name": "Dual Badges (Switch 2 Edition / Bellabel Park exclusive)",
+      "detail": "16 new 'Dual Badges' added exclusively in the Nintendo Switch 2 Edition + Meetup in Bellabel Park content, each combining two existing badge abilities simultaneously. Obtained by growing/watering sprouts in the new Bellabel Park area. Also 3 new Support Badges (Fruit Lover, Life Booster, Zero Damage) noted as multiplayer-exclusive within Bellabel Park. Combined badge total for the Switch 2 Edition is reported as 42 (note: category counts summed give 43 — a 1-badge discrepancy exists between sources; treat exact total with caution).",
+      "trackable": "Unclear whether Dual Badges factor into a save-file completion medal separate from the base 24-badge medal; not confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Badge_(Super_Mario_Bros._Wonder)", "https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park"]
+    },
+    {
+      "category": "side content",
+      "name": "Operation Poplin Rescue",
+      "detail": "A specific course/side-mission where a Loyal Poplin guides the player to rescue 4 captive Poplin friends; completing it yields the 'Royal Seed' and the loyal Poplin then leads its rescued friends home.",
+      "trackable": "Not confirmed to have separate global tracking beyond standard course completion (Wonder Seed/checkmark system).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Operation_Poplin_Rescue", "https://www.mariowiki.com/Loyal_Poplin"]
+    },
+    {
+      "category": "side content / minigame",
+      "name": "Search Party courses",
+      "detail": "A course subtype (e.g. 'Search Party Puzzling Park' in Fluff-Puff Peaks) where players must find 5 scattered 'Wonder Tokens' hidden throughout the level — some visible immediately, others revealed by collecting coins, interacting with Wow Buds, or hitting Hidden Character Blocks — to spawn that course's Wonder Seed. Can be played solo or with friends locally.",
+      "trackable": "Standard per-course Wonder Seed tracking on the Courses list.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Search_Party_Puzzling_Park", "https://game8.co/games/Super-Mario-Bros-Wonder/archives/430965"]
+    },
+    {
+      "category": "minigame / bonus level",
+      "name": "Break Time! levels",
+      "detail": "19 short bite-sized bonus/challenge levels called 'Break Time!' scattered across the game, each typically containing a single Wonder Seed as the reward for completion.",
+      "trackable": "Tracked the same as regular courses via the Courses list / green checkmark.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/super-mario-wonder-break-time-levels-ranked/"]
+    },
+    {
+      "category": "collectible / multiplayer system",
+      "name": "Standees (Standee Surprises)",
+      "detail": "144 total standees in the game — 12 per playable character across 12 characters (Mario, Luigi, Peach, Daisy, Blue Toad, Yellow Toad, Toadette, Nabbit, and the various Yoshi colors). Each character has 4 standard-frame poses, 4 silver-frame power-up/alt poses, and 4 gold-frame Wonder Effect poses. Bought randomly from Poplin Shops for 10 Flower Coins, or a guaranteed new one for a chosen character for 30 coins at the Special World Standee Shop. In multiplayer (online or local), a downed player can be revived using a placed standee, and players can place their own standee to help others.",
+      "trackable": "Standee collection/album screen exists (implied by 'collection' framing in multiple guides). Collecting all 144 awards one of the six save-file medals.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Standee", "https://nintendosupply.com/articles/super-mario-bros-wonder-over-100-standee-surprise-collectibles"]
+    },
+    {
+      "category": "post-game",
+      "name": "Special World",
+      "detail": "Accessed via hidden 'flower petal' propeller-shaped warp entrances found on world maps, generally revealed after finding a secret exit or hidden path. Each Special World stage contains 2-3 Wonder Seeds; 6 seeds are required to unlock the first locked stage within it, escalating access requirements for later stages. Contains 'The Final Test: Wonder Gauntlet' and the ultimate secret course 'The Final-Final Test: Badge Marathon.'",
+      "trackable": "Special World courses appear on the Courses list like other worlds.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Super-Mario-Bros-Wonder/archives/430655", "https://www.videogameschronicle.com/guide/mario-bros-wonder-special-world/"]
+    },
+    {
+      "category": "post-game / secret content",
+      "name": "The Final-Final Test: Badge Marathon",
+      "detail": "The true final/secret course of the game. Unlocked only after getting a green checkmark (100% completion) on every single course in the game, including all of Worlds 1-6, Petal Isles, and the Special World (all Wonder Seeds, all Flower Coins, and a flagpole-top finish everywhere). A 5-star difficulty course split into 10 rooms, each forcing use of a different major badge, with only 2 checkpoints. Clearing it awards the final/secret badge, 'Sound Off?', which changes all game sound effects to a cappella versions.",
+      "trackable": "Appears on the Courses list once unlocked.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/The_Final-Final_Test_Badge_Marathon", "https://www.videogameschronicle.com/guide/mario-bros-wonder-how-to-unlock-the-final-badge-sound-off/"]
+    },
+    {
+      "category": "system",
+      "name": "Six Save-File Medals (100% completion tracking)",
+      "detail": "Six medals exist per save file, earned for: (1) beating the game/credits, (2) collecting every Wonder Seed, (3) collecting every 10-Flower Coin, (4) touching every flagpole top ('Wonderful Finish' on every course), (5) obtaining all Badges (including clearing the Badge Marathon for the final one), and (6) collecting all 144 Standees. Getting all six medals is the game's definition of 100% completion.",
+      "trackable": "Displayed/tracked on the save file itself; achieving full 100% completion changes the title screen background to black and adds a checkmark to the save file on the save-select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://wccftech.com/how-to/super-mario-bros-wonder-guide-earn-all-6-medals-save-file/", "https://gamerant.com/mario-wonder-medals-how-to-get-all-100-percent-reward-super-bros/"]
+    },
+    {
+      "category": "DLC / paid content",
+      "name": "Meetup in Bellabel Park (Switch 2 Edition content)",
+      "detail": "Paid add-on/upgrade content bundled with or purchasable for the Nintendo Switch 2 Edition (released March 26, 2026 as part of Mario's 40th anniversary). Adds a new area, 'Bellabel Park,' with 23 total attractions: 17 local multiplayer attractions (7 co-op, 10 competitive, up to 4 players) and 6 'Game Room' attractions supporting 8-12 players via wireless/online, plus an 'Attraction Tour' mode with adjustable difficulty/round count. Introduces new currency 'Bellabel Water' (earned via Toad Brigade Training Camp missions and playing attractions), 7 collectible 'Bellabel Flowers' (stolen by the Koopalings, used to buy park decorations), Toad Brigade rank-progression 'patches,' a Camp Central amiibo decoration system, and the 16 Dual Badges + Support Badges described above. Features Rosalina & Co-Star Luma, the Koopalings, Baby Yoshis, and Toad Brigade as new characters/NPCs.",
+      "trackable": "Not fully confirmed — Bellabel Water and Bellabel Flowers are described as trackable resources/collectibles but no specific completion screen was confirmed in sources reviewed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Meetup_in_Bellabel_Park", "https://gameinformer.com/2026/01/22/super-mario-bros-wonder-gets-switch-2-upgrade-playable-rosalina-and-bellabel-park-in"]
+    },
+    {
+      "category": "version note",
+      "name": "No DLC for original 2023 Switch 1 release",
+      "detail": "Nintendo never released any paid or free DLC/expansion content for the original October 2023 Super Mario Bros. Wonder on the original Nintendo Switch. 'Meetup in Bellabel Park' is exclusive to the Nintendo Switch 2 Edition (announced Jan 2026, released March 26, 2026) and does not run on the original Switch.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gameinformer.com/2026/01/22/super-mario-bros-wonder-gets-switch-2-upgrade-playable-rosalina-and-bellabel-park-in", "https://www.nintendolife.com/forums/nintendo-switch/mario_wonder_will_there_be_dlc"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-course completion (Wonder Seeds found / total, Flower Coins found / total, flagpole finish)", "where": "World map, + Button > 'Courses' list screen; green checkmark shown for 100%-complete courses", "confidence": "high" },
+    { "stat": "Total Wonder Seed count toward unlocking Wonder-Piranha-blocked courses", "where": "World map course-unlock indicators / seed counter", "confidence": "medium" },
+    { "stat": "Six end-game medals (seeds, coins, flagpoles, badges, standees, story clear)", "where": "Save file select screen", "confidence": "high" },
+    { "stat": "Badge ownership / equipped badge", "where": "Badge selection screen (accessible pre-course or on death)", "confidence": "high" },
+    { "stat": "Standee collection (144 total, 12 per character)", "where": "Implied standee collection/album screen; exact UI name not confirmed", "confidence": "low" },
+    { "stat": "Flower Coin currency total (for Poplin Shop spending)", "where": "HUD / shop currency display", "confidence": "medium" },
+    { "stat": "Bellabel Water currency and Bellabel Flowers (7 total)", "where": "Bellabel Park hub, exact tracking UI not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch 2 Edition adds 16 exclusive Dual Badges and additional Support Badges (Fruit Lover, Life Booster, Zero Damage) not present in the original Switch 1 release, bringing the badge total from 24 to roughly 42-43 (source figures do not perfectly reconcile).", "confidence": "medium" },
+    { "note": "'Meetup in Bellabel Park' (new multiplayer hub area, 23 attractions, new currencies/collectibles, Rosalina/Koopalings/Baby Yoshis/Toad Brigade) is exclusive to the Nintendo Switch 2 Edition and unavailable on the original Switch version.", "confidence": "high" },
+    { "note": "The original 2023 Super Mario Bros. Wonder release received no DLC of any kind during its Switch 1 lifecycle.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not confirm exact total badge count for the Switch 2 Edition — mariowiki-derived category sums (9+11+4+16+3=43) do not match the stated total of 42; the discrepancy is unresolved.",
+    "Could not confirm whether Dual Badges/Bellabel Park content contribute to a separate completion medal or percentage beyond the base game's six medals.",
+    "Could not find a confirmed name or exact UI location for a dedicated 'Standee Collection' or 'Standee Album' screen — its existence is inferred from guides describing standee 'collection' but not explicitly screenshotted/named in sources reviewed.",
+    "Could not confirm exact trackable UI for Bellabel Water currency total or Bellabel Flower collection progress (e.g., a park completion percentage or decoration checklist).",
+    "Could not fully verify the complete named list of all 9 Action Badges / 11 Boost Badges' exact unlock methods individually (some via Badge Challenge, some via Poplin Shop, some via story) — only category-level acquisition methods were confirmed.",
+    "Did not confirm whether there is a distinct 'total minigames completed' or 'attractions cleared' counter within Bellabel Park's Attraction Tour mode.",
+    "Could not verify the exact number of playable characters relevant to standee math beyond the commonly cited 12 (exact Yoshi color count contributing to the 12 total was not itemized in sources).",
+    "Did not investigate whether Search Party and Badge Challenge course types have their own dedicated counts (e.g., 'X Search Party courses total in the game') — only one example course was confirmed by name."
+  ]
+}

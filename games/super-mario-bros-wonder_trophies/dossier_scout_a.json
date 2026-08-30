@@ -1,0 +1,178 @@
+{
+  "beat": "campaign",
+  "game": "Super Mario Bros. Wonder",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "world_structure",
+      "name": "Six numbered worlds + Petal Isles hub + Special World",
+      "detail": "The campaign is structured as: Pipe-Rock Plateau (World 1), Fluff-Puff Peaks (World 2), Shining Falls (World 3), Sunbaked Desert (World 4), Fungi Mines (World 5), Deep Magma Bog (World 6), plus Petal Isles as a central hub world connecting to all six, and the secret/optional Special World. Sources disagree on precise per-world course counts (one source: 20/17/10/18/11/15/19/10; another: 22/22/13/25/14/21/22/11) — treat exact per-world counts as unverified.",
+      "trackable": "World map screen shows which worlds/levels are unlocked; course-clear checkmarks per level.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder", "https://game8.co/games/Super-Mario-Bros-Wonder/archives/430373"]
+    },
+    {
+      "category": "boss",
+      "name": "Wonder Bowser Jr. — Pipe-Rock Plateau Palace",
+      "detail": "First Bowser Jr. fight, in World 1. He becomes 'Wonder Bowser Jr.' via a Wonder Flower effect involving size-changing mechanics affecting both him and playable characters. Reward: a Royal Seed.",
+      "trackable": "Course marked cleared on world map; Royal Seed added to inventory/HUD.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Wonder_Bowser_Jr.", "https://www.mariowiki.com/Pipe-Rock_Plateau_Palace"]
+    },
+    {
+      "category": "boss",
+      "name": "Wonder Bowser Jr. — Fluff-Puff Peaks Palace",
+      "detail": "Second Bowser Jr. fight, in World 2. Fight occurs on platforms that alternate between ice and honey substances (some sources describe a water-based chase with his spinning spiked shell). Reward: a Royal Seed.",
+      "trackable": "Course marked cleared on world map; Royal Seed added.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Wonder_Bowser_Jr."]
+    },
+    {
+      "category": "boss",
+      "name": "Wonder Bowser Jr. — Sunbaked Desert Palace",
+      "detail": "Third Bowser Jr. fight, in World 4. Arena partially fills with water and features bouncing water bubbles. Reward: a Royal Seed.",
+      "trackable": "Course marked cleared on world map; Royal Seed added.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Wonder_Bowser_Jr."]
+    },
+    {
+      "category": "boss",
+      "name": "Wonder Bowser Jr. — Deep Magma Bog Palace",
+      "detail": "Fourth Bowser Jr. fight, in World 6. He creates fake clones of himself (Ludwig-like tactic). Reward: a Royal Seed.",
+      "trackable": "Course marked cleared on world map; Royal Seed added.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Wonder_Bowser_Jr."]
+    },
+    {
+      "category": "systems_note",
+      "name": "Only 4 of the 6 numbered worlds have a Bowser Jr. palace boss fight",
+      "detail": "Shining Falls' Royal Seed is obtained at the 'Royal Seed Mansion' course (no boss fight found in sources), and Fungi Mines' Royal Seed is obtained at 'Operation Poplin Rescue' / 'Operation Pop-In Rescue' (also no confirmed boss fight). Only Pipe-Rock Plateau, Fluff-Puff Peaks, Sunbaked Desert, and Deep Magma Bog have confirmed Bowser Jr. palace battles. This means a trophy premised on '6 castle bosses' would be wrong — there are 4 Bowser Jr. fights, not 6.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Royal_Seed", "https://www.mariowiki.com/Pipe-Rock_Plateau_Palace"]
+    },
+    {
+      "category": "boss",
+      "name": "Castle Bowser (final boss) — The Final Battle! Bowser's Rage Stage",
+      "detail": "Located in Petal Isles. Bowser has fused with the Flower Kingdom's castle (Castle Bowser) using a Wonder Flower at the start of the game, after being invited by Prince Florian. The final battle is framed as a rhythm/concert-style spectacle and reportedly combines multiple previously-seen Wonder Effects across its phases. A minor Wonder Bowser Jr. appearance occurs at the stage's start alongside two Goombas before the main Bowser fight. Defeating Bowser separates him, the Koopa Clown Car, and the Flower Castle, restoring the kingdom. Reward: final Royal Seed (7th).",
+      "trackable": "Clearing this stage awards the first of six 'Completion' medals shown on the save file at the file-select screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Castle_Bowser", "https://www.mariowiki.com/Wonder_Bowser_Jr.", "https://www.mariowiki.com/Completion"]
+    },
+    {
+      "category": "story_item",
+      "name": "Royal Seeds (7 total)",
+      "detail": "Larger, crown-topped versions of Wonder Seeds; one per numbered world (6) plus one from Petal Isles/Bowser himself (7th, awarded after defeating Castle Bowser). Used narratively to remove the Cloud Piranha Plants guarding Castle Bowser and, combined, to separate Bowser from the fused Flower Castle at the end.",
+      "trackable": "Not confirmed whether a dedicated Royal Seed counter/UI exists outside of the item being required to progress; likely visible as an inventory/collection item but exact UI unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Royal_Seed"]
+    },
+    {
+      "category": "story_milestone",
+      "name": "Story setup: Prince Florian invitation and Bowser's castle fusion",
+      "detail": "Mario and friends are invited to the Flower Kingdom by Prince Florian; Bowser arrives, uses a Wonder Flower to fuse with Florian's castle, creating 'Castle Bowser' and unleashing chaos across the kingdom.",
+      "trackable": "Delivered via opening cutscene; not a trackable stat.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Super_Mario_Bros._Wonder"]
+    },
+    {
+      "category": "story_milestone",
+      "name": "Ending / post-credits scene",
+      "detail": "After the credits roll following Castle Bowser's defeat, a post-credits scene shows Kamek attempting to fly off with both Bowser and Bowser Jr. in the Koopa Clown Car; the combined weight is too much, and Kamek crashes them into nearby hills near the Flower Castle, played for comedy.",
+      "trackable": "One-time cutscene; completion is recorded via the first Completion medal on the save file.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.youtube.com/watch?v=HKZwEworeqA", "https://www.mariowiki.com/Super_Mario_Bros._Wonder"]
+    },
+    {
+      "category": "special_world",
+      "name": "Special World — access and structure",
+      "detail": "An optional, harder bonus world unlocked by finding a Propeller Flower secret exit hidden in each of the 6 numbered worlds plus Petal Isles (7 entrances total, one per world/hub). It is NOT gated by a raw Wonder Seed count threshold — access is per-world via secret exits, not a global seed tally. Reported total of 10 main Special World courses (one 'Special' remix per source world) plus 3 additional standalone challenge courses: 'The Semifinal Test: Piranha Plant Reprise,' 'The Final Test: Wonder Gauntlet,' and 'The Final-Final Test: Badge Marathon.' The Special World is not required to clear the main story but is required for 100% completion (its Wonder Seeds count toward the seed-collection medal).",
+      "trackable": "World map shows Special World entrances/courses once unlocked; completion tracked via course-clear marks and the Wonder Seed/badge completion medals.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Special_World", "https://www.videogameschronicle.com/guide/mario-bros-wonder-special-world/"]
+    },
+    {
+      "category": "special_world",
+      "name": "Special World reward badge",
+      "detail": "Completing all courses in the Special World reportedly awards a badge named 'Sound Off?'",
+      "trackable": "Badge appears in the Badge collection/selection menu.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://sportskeeda.com articles (aggregated via search, not directly fetched)"]
+    },
+    {
+      "category": "wonder_flower_moment",
+      "name": "Boss-fight Wonder Flower transformations",
+      "detail": "Each Bowser Jr. palace fight is preceded by/tied to a Wonder Flower effect that transforms Bowser Jr. into a 'Wonder' form with reality-warping powers unique to that stage (size-changing in Pipe-Rock Plateau; ice/honey terrain shifts in Fluff-Puff Peaks; rising water in Sunbaked Desert; self-cloning in Deep Magma Bog). These are boss-specific Wonder Effects rather than the Elephant Fruit power-up; no source found tying Elephant Fruit specifically to a mandatory boss/story beat.",
+      "trackable": "n/a — cutscene/gameplay effect, not a counted collectible.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Wonder_Bowser_Jr."]
+    },
+    {
+      "category": "completion_tracking",
+      "name": "Six Completion Medals on save file",
+      "detail": "The save file (file-select screen) displays up to six medals representing different completion axes: (1) clearing Story Mode by beating Castle Bowser/'The Final Battle! Bowser's Rage Stage' and watching credits, (2) collecting all Wonder Seeds, (3) collecting all 10-Flower Coins, (4) grabbing the top of every Goal Pole, (5) obtaining all badges, (6) obtaining all standees. Earning all six medals changes the title screen to a darkened/alternate variant.",
+      "trackable": "Displayed directly on the save file at the file-select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Completion"]
+    },
+    {
+      "category": "collectible_total",
+      "name": "Total Wonder Seeds",
+      "detail": "Community sources give a total figure around 225 Wonder Seeds across the game (most levels award 2, some 3, one per course guaranteed for completion/rescuing a Poplin). This number could not be verified against an official/primary source and conflicts with an older commonly-cited community figure of ~208-209; treat the exact total as unconfirmed.",
+      "trackable": "n/a (see trackableStats)",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Wonder_Seed"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Story Mode clear (defeating Castle Bowser + credits)", "where": "Awards the first of 6 Completion medals shown on the save file at the file-select screen", "confidence": "medium" },
+    { "stat": "Total Wonder Seeds collected (out of ~225, figure unconfirmed precisely)", "where": "Per-course seed icons on course-clear screen; aggregate count contributes to a Completion medal on the file-select screen", "confidence": "medium" },
+    { "stat": "10-Flower Coins collected", "where": "Per-course collectible; contributes to a Completion medal on file-select screen", "confidence": "medium" },
+    { "stat": "Goal Pole top-grabs", "where": "Per-course flagpole result; contributes to a Completion medal on file-select screen", "confidence": "medium" },
+    { "stat": "Badges obtained (out of 24 per one source)", "where": "Badge menu; contributes to a Completion medal on file-select screen", "confidence": "low" },
+    { "stat": "Standees obtained", "where": "Standee collection screen; contributes to a Completion medal on file-select screen", "confidence": "low" },
+    { "stat": "Royal Seeds obtained (out of 7)", "where": "Likely tracked as required story items gating Castle Bowser access; exact UI display not confirmed", "confidence": "low" },
+    { "stat": "World map course-completion checkmarks per world", "where": "World map screen for each of the 6 worlds, Petal Isles, and Special World", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    {
+      "note": "The Nintendo Switch 2 Edition + Meetup in Bellabel Park (released March 26, 2026) appears to leave the original 6-world + Petal Isles + Special World campaign structurally unchanged; the base game is also playable on original Switch hardware if the cartridge/edition is inserted, per community summary of the Mario Wiki page.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Bellabel Park is a new, separate hub/area added in the Switch 2 Edition (not integrated into the core 6-world story progression), featuring the Koopalings as a new threat, multiplayer co-op/competitive attractions, and 'Brigade Tent' levels described as remixed versions of existing levels, one per world, each hiding a Koopaling. This could introduce new optional Koopaling boss encounters distinct from the base campaign's Bowser Jr. fights — worth flagging for the systems/side-content scout since it is NOT part of the original mandatory campaign.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch 2 Edition reportedly increases output to up to 1080p handheld / 4K docked at up to 60 FPS (exact frame rate for the original 6-world campaign specifically, versus Bellabel Park multiplayer modes, not separately confirmed).",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "Exact per-world course counts are inconsistent between sources (one source: 20/17/10/18/11/15/19/10 for the 8 areas; another: 22/22/13/25/14/21/22/11) — could not resolve which is accurate. A trophy referencing 'clear all X courses in World Y' should not rely on either without further verification.",
+    "Exact total Wonder Seed count is uncertain: community figure of 225 could not be cross-verified against a primary/official Nintendo source or a second independent count; an older community figure (~208) also circulates.",
+    "Could not confirm the exact secret-exit level name required to unlock each of the 7 Special World entrances (only Pipe-Rock Plateau's 'Bulrush Express' and Petal Isles' 'Wiggler Race – Spelunking!' were found; the other 5 were not confirmed).",
+    "Could not confirm whether the Special World has exactly 10 or 11 total courses — sources disagree (10 main + 1 'WONDER?' level in one source, vs. 11 courses total including a Poplin house in another, vs. a flat '10 courses' claim elsewhere).",
+    "Could not confirm the exact number of total badges (one source claims 24) or find an authoritative source for this figure specific to the base campaign vs. the Switch 2 Edition additions.",
+    "Could not confirm whether Royal Seeds have a dedicated on-screen counter/collection UI, or whether the game only gates progress on them behind the scenes.",
+    "Could not confirm exact detail of the 'Sound Off?' badge reward for Special World completion — sourced from a single aggregated search result, not directly fetched/verified.",
+    "Could not verify whether Elephant Fruit (Elephant Mario) transformation is tied to any specific mandatory/story level, versus being a general power-up available throughout regular courses. No source connected it to a boss fight or story beat.",
+    "Could not verify exact frame rate (30/60fps) for the base 6-world campaign specifically on Nintendo Switch 2 versus the newly added Bellabel Park multiplayer content — only a general resolution claim (1080p handheld / 4K docked) was found.",
+    "Did not find confirmation of any alternate/multiple endings — all evidence points to a single fixed ending and post-credits scene, but this is based on limited sourcing (one video source, one paraphrased wiki summary)."
+  ]
+}

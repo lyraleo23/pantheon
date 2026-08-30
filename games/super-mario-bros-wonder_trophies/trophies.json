@@ -1,0 +1,402 @@
+{
+  "game": {
+    "title": "Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park",
+    "slug": "super-mario-bros-wonder",
+    "code": "SMBW",
+    "targetPlatform": "Nintendo Switch 2",
+    "mode": "genesis",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "genre": "Platformer",
+    "releaseYear": 2023,
+    "estimatedDifficulty": 3,
+    "estimatedHours": "15-20h for the base list, +5-8h for the Meetup in Bellabel Park pack",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — Nintendo Switch/Switch 2 have no native achievement system and Super Mario Bros. Wonder has never released on any platform that has one, so no port source exists. Target SKU is 'Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park' (worldwide March 26, 2026), which bundles the original 2023 campaign with new Switch 2-exclusive content. Several factual figures are only medium/low-confidence community estimates that could not be cross-verified against an official Nintendo source (total Wonder Seed count, exact per-world course counts, exact combined badge total for the Switch 2 Edition, exact Toad Brigade rank ladder) — no trophy description states these exact numbers; every collection trophy instead points to the game's own medal/checkmark tracking, which is confirmed to exist regardless of the precise underlying count. A community-sourced claim of a 7th save-file medal for Bellabel Park completion (found only in a single unverified forum thread) was deliberately excluded per user confirmation during the dossier checkpoint — too weak a source to build a trophy on. A checkpoint decision initially placed the Koopaling/Brigade Tent boss encounters in the base list, on the assumption they were reachable from the base-game world map independent of Bellabel Park. Two audit rounds corrected this: round 1 found Ludwig alone requires Bellabel Park; round 2 found that entering Bellabel Park is itself the prerequisite that unlocks all Brigade Tents (the opening cutscene for all seven Koopalings plays on first entering the park), so every Koopaling encounter — not just Ludwig's — depends on owning the paid content. All Koopaling-related trophies (first defeat, full sweep, Bellabel Flower recovery, remixed rematches) now live exclusively in the 'Meetup in Bellabel Park' DLC block; the base Platinum rests only on content confirmed free of Bellabel Park (the four Wonder Bowser Jr. palaces and Castle Bowser). A second audit round also found that a trophy for 'Rosalina & Co-Star Luma using Joy-Con 2 mouse controls' described a joint control state that does not exist — Rosalina is a standalone playable character and Co-Star Luma is a separate second-player assist slot, never combined the way the trophy described — so that trophy was removed rather than risk a second inaccurate rewrite; the Switch 2 Edition's roster/control additions are still represented indirectly through the game's other multiplayer and mechanic trophies. SMBW-022's ('Sound Off', formerly SMBW-024) verification checks the 24 base badges directly via the Badge menu rather than the save-file Badge medal, since it's unconfirmed whether that medal's threshold changed to include the Switch 2 Edition's new Dual/Support badges. No permanently missable content was found — all courses, bosses, and shops remain replayable/revisitable at any time. The DLC pack requires the paid Switch 2 Edition or its separate Upgrade Pack; it is not available to owners of the original 2023 Switch cartridge without upgrading."
+  },
+  "trophies": [
+    {
+      "id": "SMBW-001",
+      "name": "Petals of Adventure",
+      "description": "Complete your first course in the Flower Kingdom.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The course is marked cleared on the world map after reaching the Goal Pole.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-002",
+      "name": "Effect in Wonder",
+      "description": "Touch a Wonder Flower and survive its Wonder Effect for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The course's Wonder Seed is awarded on the results screen after the Wonder Effect sequence ends.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-003",
+      "name": "Suited for Adventure",
+      "description": "Equip a Badge for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Badge menu shows a non-default Badge equipped before starting a course.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-004",
+      "name": "Poplin Patronage",
+      "description": "Buy an item from a Poplin Shop.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "The purchased item is added to your inventory or Badge collection, and the shop marks it as bought.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-005",
+      "name": "Trunk Call",
+      "description": "Clear a course while transformed by an Elephant Fruit.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Elephant transformation icon is active on-screen during play, and the course is subsequently cleared.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-006",
+      "name": "Untouchable",
+      "description": "Clear a course playing as Nabbit or a Yoshi, who take no damage from enemies or hazards.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The course-clear results screen confirms completion with Nabbit or a Yoshi as the active character.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-007",
+      "name": "Better Together",
+      "description": "Clear a course in local multiplayer with at least one other player.",
+      "tier": "bronze",
+      "type": "multiplayer",
+      "verification": "The course-clear results screen shows two or more human-controlled characters finishing together.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-008",
+      "name": "The Road Less Traveled",
+      "description": "Find your first secret exit.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "A previously locked course unlocks on the world map, and the discovering course's checkmark now includes the secret-exit requirement.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-009",
+      "name": "Say Cheese",
+      "description": "Obtain your first Standee.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "A Standee appears in your Standee inventory after a Poplin Shop purchase.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-010",
+      "name": "Hide and Seek Champion",
+      "description": "Find every Wonder Token in a Search Party course.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "The course's Wonder Seed is awarded on the results screen once all scattered Wonder Tokens are found.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-011",
+      "name": "Quick Study",
+      "description": "Clear a Break Time! bonus course.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The Break Time! course shows a checkmark on the Courses list.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-012",
+      "name": "Junior Trouble",
+      "description": "Defeat Bowser Jr. at Pipe-Rock Plateau Palace, your first Wonder Bowser Jr. encounter.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Pipe-Rock Plateau Palace is marked cleared on the world map and its Royal Seed is added.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-013",
+      "name": "Kingdom Completionist",
+      "description": "Earn a full checkmark on every course of any single world, by collecting all its Wonder Seeds and Flower Coins and touching every Goal Pole top.",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "Every course icon in that world shows the full green checkmark on the Courses list screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-014",
+      "name": "Junior League",
+      "description": "Defeat all four Wonder Bowser Jr. palace bosses: Pipe-Rock Plateau, Fluff-Puff Peaks, Sunbaked Desert, and Deep Magma Bog.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "All four palace courses show as cleared on the world map, with their Royal Seeds collected.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-015",
+      "name": "Something Special",
+      "description": "Discover a secret exit that opens the way into the Special World.",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "The Special World becomes visible and selectable on the world map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-016",
+      "name": "Flagpole Virtuoso",
+      "description": "Touch the top of the Goal Pole in every course in the game.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The Goal Pole medal appears on the save file at the file-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-017",
+      "name": "Currency of the Kingdom",
+      "description": "Collect every 10-Flower Coin in the game.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The 10-Flower Coin medal appears on the save file at the file-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-018",
+      "name": "The Whole Gang",
+      "description": "Obtain every Standee in the game.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Standee medal appears on the save file at the file-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-019",
+      "name": "The Flower Kingdom Restored",
+      "description": "Defeat Castle Bowser at The Final Battle! Bowser's Rage Stage and complete the story.",
+      "tier": "gold",
+      "type": "story",
+      "verification": "The Story Clear medal appears on the save file at the file-select screen once the credits roll.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-020",
+      "name": "Gauntlet Runner",
+      "description": "Clear The Final Test: Wonder Gauntlet in the Special World.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The Final Test: Wonder Gauntlet course shows as cleared on the Special World map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-021",
+      "name": "Every Last Seed",
+      "description": "Collect every Wonder Seed in the game.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Wonder Seed medal appears on the save file at the file-select screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-022",
+      "name": "Sound Off",
+      "description": "Obtain all 24 badges from the original campaign, including the one earned by clearing the hidden Final-Final Test: Badge Marathon course.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The Badge menu shows no locked badges remaining among the original 24 base-game badges (Action, Boost, and Expert categories).",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "SMBW-023",
+      "name": "The Flower Kingdom's True Wonder",
+      "description": "Earn every other trophy in the base game.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "Meetup in Bellabel Park",
+      "trophies": [
+        {
+          "id": "SMBWBBP-001",
+          "name": "Welcome to Bellabel Park",
+          "description": "Enter Bellabel Park for the first time.",
+          "tier": "bronze",
+          "type": "exploration",
+          "verification": "The Bellabel Park hub loads after entering through its entrance in Pipe-Rock Plateau.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-002",
+          "name": "Camp Recruit",
+          "description": "Clear your first Toad Brigade Training Camp challenge.",
+          "tier": "bronze",
+          "type": "challenge",
+          "verification": "The challenge is marked cleared in the Training Camp challenge list and Bellabel Water is added to your total.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-003",
+          "name": "Green Thumb",
+          "description": "Water a Sprout in Bellabel Park until it blooms.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Sprout blooms and yields a reward (a Dual Badge, Poplin Band instrument, or Flower).",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-004",
+          "name": "Park Playdate",
+          "description": "Complete an Attraction Central or Game Room Plaza attraction with at least one other player, local or online.",
+          "tier": "bronze",
+          "type": "multiplayer",
+          "verification": "The attraction's results screen shows the match completed with two or more players.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-005",
+          "name": "Double Trouble",
+          "description": "Obtain your first Dual Badge.",
+          "tier": "bronze",
+          "type": "collection",
+          "verification": "A Dual Badge appears in the Badge menu.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-006",
+          "name": "Tent Raid",
+          "description": "Defeat your first Koopaling at a Brigade Tent challenge, unlocked after entering Bellabel Park.",
+          "tier": "bronze",
+          "type": "boss",
+          "verification": "The Brigade Tent course is marked cleared on the world map after the Koopaling is defeated.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-007",
+          "name": "Full Marks",
+          "description": "Clear at least one Toad Brigade Training Camp challenge at every star-difficulty rating, from 1 to 5 stars.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "Each difficulty tier from 1 to 5 stars shows at least one cleared challenge in the Training Camp challenge list.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-008",
+          "name": "Petal Thief's Due",
+          "description": "Recover your first Bellabel Flower from a defeated Koopaling.",
+          "tier": "silver",
+          "type": "collection",
+          "verification": "A Bellabel Flower is added to your collection after defeating a Koopaling.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-009",
+          "name": "Brigade Sweep",
+          "description": "Defeat all seven Koopalings, including Ludwig's encounter inside Bellabel Park.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "All seven Bellabel Flowers are reflected in your collection after every Koopaling is defeated.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-010",
+          "name": "Rematch Ready",
+          "description": "Defeat your first remixed Koopaling, unlocked in the Toad Brigade Training Camp after Ludwig falls.",
+          "tier": "silver",
+          "type": "boss",
+          "verification": "The remixed Koopaling challenge is shown as cleared among the Toad Brigade Training Camp challenges.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SMBWBBP-011",
+          "name": "Grand Reopening",
+          "description": "Defeat all seven remixed Koopalings in the Toad Brigade Training Camp.",
+          "tier": "gold",
+          "type": "boss",
+          "verification": "All seven remixed Koopaling challenges are shown as cleared among the Toad Brigade Training Camp challenges.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    }
+  ]
+}

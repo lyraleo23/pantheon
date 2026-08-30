@@ -1,0 +1,80 @@
+{
+  "game": "Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park",
+  "platform": "Nintendo Switch 2",
+  "mode": "genesis",
+  "scoutSources": ["dossier_scout_a.json (campaign)", "dossier_scout_b.json (collectibles/side content)", "dossier_scout_c.json (systems/RNG/Bellabel Park)"],
+  "summary": {
+    "campaign": {
+      "structure": "6 numbered worlds (Pipe-Rock Plateau, Fluff-Puff Peaks, Shining Falls, Sunbaked Desert, Fungi Mines, Deep Magma Bog) + Petal Isles hub + optional Special World.",
+      "bosses": "Only 4 of 6 worlds have a Bowser Jr. palace boss (Pipe-Rock Plateau, Fluff-Puff Peaks, Sunbaked Desert, Deep Magma Bog). Shining Falls and Fungi Mines award their Royal Seed via non-boss courses. Final boss: Castle Bowser at 'The Final Battle! Bowser's Rage Stage' in Petal Isles.",
+      "royalSeeds": "7 total (one per numbered world + one from Bowser), gate access to Castle Bowser.",
+      "specialWorld": "Unlocked per-world via hidden Propeller Flower secret exits (NOT a seed-count threshold). ~10-11 courses including 'The Final Test: Wonder Gauntlet' and secret 'The Final-Final Test: Badge Marathon' (unlocks only after 100%-checkmarking every course in the game; rewards the 'Sound Off?' badge)."
+    },
+    "collectiblesAndCompletion": {
+      "wonderSeeds": "225 total (community figure, medium/low confidence, not officially confirmed).",
+      "flowerCoins": "3 large '10-Flower Coins' per course.",
+      "secretExits": "7 total in the whole game.",
+      "badges": "24 in the base game (9 Action, 11 Boost, 4 Expert).",
+      "standees": "144 total (12 characters x 12 poses each); revival item in multiplayer, bought randomly from Poplin Shops.",
+      "poplinShops": "11 Poplin Shops + 1 Special World Standee Shop.",
+      "sixMedals": "Save-file medals for: (1) beat the game/credits, (2) all Wonder Seeds, (3) all Flower Coins, (4) all Goal Pole tops, (5) all Badges, (6) all Standees. All six -> alternate title screen."
+    },
+    "systems": {
+      "characters": "Mario, Luigi, Peach, Daisy, 3 Toad colors, Nabbit, 3 Yoshi colors (base). Nabbit/Yoshis take no damage but can't transform via power-ups.",
+      "wonderEffects": "Fixed per course, NOT randomized.",
+      "noPercentStat": "No numeric completion percentage anywhere — only the discrete medals."
+    },
+    "bellabelPark": {
+      "premise": "New hub added in the Switch 2 Edition: an ancient park-shaped ruin in the Flower Kingdom, discovered by Captain Toad, accessed via an entrance in Pipe-Rock Plateau. Paid content bundled in the Switch 2 Edition / Upgrade Pack, not free to existing owners.",
+      "structure": "23 attractions: 17 Local Multiplayer Plaza (7 co-op + 10 competitive, up to 4 players/GameShare) + 6 Game Room Plaza (up to 8 local wireless / 12 online).",
+      "trainingCamp": "Camp Central: 74 Toad Brigade Training Camp challenges (1-5 star), solo-capable, earns 'Bellabel Water' currency, drives a rank progression (Aspiring Brigade Member -> ... -> Legendary Explorer, exact ladder uncertain).",
+      "sprouts": "31 sprouts total, watered with Bellabel Water for randomized rewards (Dual Badges, Poplin Band instruments, Greeting/Decorative Flowers) from a shared pool — this is a genuine RNG-gated but bounded system (pool exhausts, then only cosmetic filler drops).",
+      "newBadges": "16-18 Dual Badges (exact count disputed between scouts) + 3 Support Badges (Fruit Lover, Life Booster, Zero Damage) + 'All Flower Power' (reward for beating all 7 Koopalings). Combined total reported as ~42, arithmetic doesn't perfectly reconcile.",
+      "koopalingBosses": "7 new Koopaling boss courses reportedly added to the WORLD MAP (not just inside Bellabel Park), unlocked via 'Brigade Tent' icons on base-game world map. This is a significant, only medium-confidence claim that would mean Bellabel Park content extends into the main campaign map, not just the separate hub.",
+      "newCharacters": "Rosalina & Co-Star Luma (playable, uses Joy-Con 2 mouse controls), Recruit Poplin, Brigade Blue Toad (NPCs)."
+    }
+  },
+  "conflicts": [
+    {
+      "topic": "Exact per-world course counts",
+      "claimA": "20/17/10/18/11/15/19/10 (one source, scout A)",
+      "claimB": "22/22/13/25/14/21/22/11 (another source, scout A)",
+      "resolution": "Unresolved — do not build trophies on exact per-world course counts."
+    },
+    {
+      "topic": "Total Wonder Seed count",
+      "claimA": "225 (scouts A, B, C all cite this)",
+      "claimB": "~208-209 (older community figure, scout A)",
+      "resolution": "225 is the more frequently cited and consistent figure across independent scouts; treat as medium confidence and avoid a trophy that states the exact number in its description."
+    },
+    {
+      "topic": "Base-game + Switch 2 Edition badge total",
+      "claimA": "24 base + 16 Dual + 3 Support = ~42 or 43 (scout B, category sum mismatch)",
+      "claimB": "24 base + 18 Dual + 3 Support + 1 (All Flower Power) = different total (scout C)",
+      "resolution": "Unresolved exact count. Do not build a trophy that names an exact combined badge number for the Switch 2 Edition; 'all badges' as a medal-based trophy is safe since the game itself tracks it, a numeric claim in the description is not."
+    },
+    {
+      "topic": "Existence of a 7th save-file medal for Bellabel Park",
+      "claimA": "Exists — ties to Koopaling missions, Training Camp challenges, Poplin reports, Poplin Band, decor purchases (scout C, single GameFAQs forum thread, low confidence)",
+      "claimB": "No mention of a 7th medal from scouts A or B, who found only the base 6 medals",
+      "resolution": "NOT verified by any wiki/official source, only a forum paraphrase. Too risky to build a trophy on a medal that may not exist. Recommend treating Bellabel Park completion as tracked by the game's individual systems (Koopaling clears, Training Camp rank, Sprout rewards) rather than asserting a numbered medal exists."
+    },
+    {
+      "topic": "Do the 7 new Koopaling bosses live on the base-game world map or purely inside Bellabel Park?",
+      "claimA": "Base-game world map, via 'Brigade Tent' icons, one per Koopaling (scout C, medium confidence)",
+      "claimB": "Scout A (campaign specialist) found no evidence of this and described the core 6-world story as structurally unchanged, treating Bellabel Park as a separate hub",
+      "resolution": "This materially changes whether Koopaling fights count as 'base game' or 'Bellabel Park DLC' content for Rule 14 purposes. Needs user confirmation before design."
+    }
+  ],
+  "gaps": [
+    "No official Nintendo source for exact Wonder Seed total, exact per-world course counts, exact Dual Badge count, or the 7th-medal claim.",
+    "No confirmed UI screen name/location for: Standee collection screen, Bellabel Water counter, Sprout-growth counter, Royal Seed counter.",
+    "Unconfirmed whether Bellabel Park's 23 attractions have any persistent per-attraction completion tracking (high scores, clear counts) versus being purely session-based.",
+    "Unconfirmed whether solo play is possible for any Attraction Central / Game Room Plaza minigame (only Training Camp confirmed solo-capable).",
+    "Toad Brigade rank ladder naming/order not fully cross-confirmed.",
+    "Two review sources (TechRadar, NintendoLife patch notes) could not be fetched and may hold more detail."
+  ],
+  "missables": [
+    "None found that are permanently missable — courses are replayable, and within a single course run collecting the 3rd Flower Coin without touching the Wonder Flower just requires a replay to also get that course's Wonder Seed (not a permanent loss)."
+  ]
+}
