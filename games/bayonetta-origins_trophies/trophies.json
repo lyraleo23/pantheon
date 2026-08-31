@@ -1,0 +1,252 @@
+{
+  "game": {
+    "title": "Bayonetta Origins: Cereza and the Lost Demon",
+    "slug": "bayonetta-origins",
+    "code": "BYOR",
+    "targetPlatform": "Nintendo Switch",
+    "mode": "genesis",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "genre": "Action-Adventure / Metroidvania",
+    "releaseYear": 2023,
+    "estimatedDifficulty": 4,
+    "estimatedHours": "15-20h",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode — Bayonetta Origins is a Nintendo Switch console exclusive with no PC/PlayStation/Xbox release, so there is no native achievement list to port. No DLC was ever released (a single 1.0.0 build). No content is permanently missable — full backtracking is supported via Fast Travel (unlocked in Chapter 5) and save points. Research surfaced several disputed exact counts that this list deliberately avoids stating: Remembrances (15 across three location-guide sources vs. 12 in a costume-list source) and total costume count (14 vs. 15). Every full-collection trophy for these systems is instead verified through the specific milestone costume the game itself grants for completing that system (e.g., 'Younger Days' for all Remembrances), which sidesteps the disputed numbers entirely — the reward existing at all confirms the game tracks completion internally, regardless of which exact total is correct. The exact total count of individual Vitality Petals was never found by any source, so only an intro-level 'first Vitality Blossom' trophy was built, not a full-collection one. An audit pass also caught a dossier error carried from scouting: the Chapter 3 boss is Fomhorach, the Stalwart Guardian — 'White Wolf' is a guide character who leads Cereza to that fight, not a boss itself; trophies BYOR-006 and BYOR-010 were corrected accordingly. Similarly, 'Forest's Hero' is the name of the final Remembrance unlocked by rescuing every Wisp, not a secret area, and the actual reward costume for that milestone is 'An Elegant Swan' — BYOR-016's verification was corrected to match. Per user confirmation at the dossier checkpoint, the post-game 'Jeanne's Tale' trophy (BYOR-020) deliberately avoids naming its secret final boss or revealing its crossover twist with Bayonetta 3, per Rule 16."
+  },
+  "trophies": [
+    {
+      "id": "BYOR-001",
+      "name": "A Helping Hand",
+      "description": "Rescue your first Wisp.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The 'Helped Wisps' menu shows one Wisp recorded as rescued.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-002",
+      "name": "Old Pages",
+      "description": "Read your first Journal entry.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "A new entry appears in the in-game Archives menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-003",
+      "name": "A Fading Memory",
+      "description": "Discover your first Remembrance.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "Interacting with a blue butterfly landmark plays a memory vignette and records it as found.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-004",
+      "name": "Into the Faerie Maze",
+      "description": "Complete your first Tír Na Nóg challenge.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "The Tír Na Nóg room shows a cleared state after finishing its objective.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-005",
+      "name": "Blossoming",
+      "description": "Earn your first Vitality Blossom.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "Cereza's maximum health visibly increases by one segment on the status display.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-006",
+      "name": "Wood and Claw",
+      "description": "Defeat Fomhorach, the Stalwart Guardian, and gain Cheshire's first elemental form.",
+      "tier": "bronze",
+      "type": "boss",
+      "verification": "Wood Cheshire becomes selectable in the elemental-form menu after the fight.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-007",
+      "name": "Open Road",
+      "description": "Unlock Fast Travel.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "A Fast Travel option appears at save points on the map.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-008",
+      "name": "Brewer's Start",
+      "description": "Craft your first Concoction.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "A crafted Concoction appears in the item inventory.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-009",
+      "name": "New Look",
+      "description": "Unlock a costume beyond Cereza's and Cheshire's default outfits.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "A new outfit becomes selectable in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-010",
+      "name": "Elemental Arsenal",
+      "description": "Defeat all four Elemental Core bosses: Fomhorach, Amadán Dubh, Jabberwock, and Púca.",
+      "tier": "silver",
+      "type": "boss",
+      "verification": "All four elemental Cheshire forms (Wood, Stone, Water, Fire) are unlocked and selectable.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-011",
+      "name": "Elements United",
+      "description": "Reach Cheshire's Unbound Form at the Forbidden Altar.",
+      "tier": "silver",
+      "type": "story",
+      "verification": "Cheshire's Unbound Form becomes available in the elemental-form menu after the Forbidden Altar encounter.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-012",
+      "name": "A Pesky Demon",
+      "description": "Max out Cereza's skill tree.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The 'A Pesky Demon' costume unlocks in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-013",
+      "name": "A Blundering Witch",
+      "description": "Max out Cheshire's skill tree.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The 'A Blundering Witch' costume unlocks in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-014",
+      "name": "Written in Ink",
+      "description": "Read every Journal scattered through Avalon Forest.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Archives menu shows no missing Journal entries.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-015",
+      "name": "Younger Days",
+      "description": "Discover every Remembrance in Avalon Forest.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The 'Younger Days' costume unlocks in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-016",
+      "name": "Forest's Hero",
+      "description": "Rescue every Wisp in Avalon Forest.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The final Remembrance, 'Forest's Hero,' becomes available, and the 'An Elegant Swan' costume unlocks in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-017",
+      "name": "Wonderland Achieved",
+      "description": "Master every Tír Na Nóg challenge room: earn a Gold ranking on every timed trial and open every treasure chest.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Both the 'Cereza in Wonderland' and 'A Mad Hatter' costumes unlock in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-018",
+      "name": "A Witch Is Born",
+      "description": "Face down the one behind it all and complete the main story.",
+      "tier": "gold",
+      "type": "story",
+      "verification": "The credits roll after Chapter 13: A Witch Is Born This Night, and a story-completion costume unlocks in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-019",
+      "name": "Observer of Time",
+      "description": "Beat the game on Forbidden Tale difficulty.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The 'Observer of Time' costume unlocks in the Costumes menu after completing a playthrough on Forbidden Tale.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-020",
+      "name": "The Truth Beyond",
+      "description": "Complete Jeanne's Tale and witness the game's true ending.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "Jeanne's Tale is marked complete from the Extras menu, and new costumes unlock in the Costumes menu.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "BYOR-021",
+      "name": "A Legend Begins",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ]
+}

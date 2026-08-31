@@ -1,0 +1,154 @@
+{
+  "game": "Bayonetta Origins: Cereza and the Lost Demon",
+  "platform": "Nintendo Switch",
+  "passType": "follow-up (targeted gap-filling)",
+  "toolingNote": "WebSearch tool budget was exhausted for the whole session before this pass started (0 calls available). Direct WebFetch was blocked (403/402/404) on most major outlets (IGN, Polygon, Eurogamer, GameFAQs, Fandom wiki direct, Nintendo Life direct, Reddit direct, Google/Bing/DuckDuckGo/Brave/Mojeek/Startpage direct search pages). Workaround: routing WebFetch requests through the r.jina.ai read-proxy (https://r.jina.ai/<url>) successfully bypassed most blocks, including rendering DuckDuckGo HTML search results and the Bayonetta Fandom wiki's MediaWiki API/search. This is how the majority of findings below were sourced. Reddit remained blocked even via proxy; those findings rely on DuckDuckGo-cached snippets of Reddit/Famiboards threads, which is weaker sourcing than reading the full thread.",
+  "facts": [
+    {
+      "topic": "completion tracker (Q1 - highest priority)",
+      "finding": "The game DOES track an internal completion percentage, displayed on the save file / file-select menu. Multiple independent community threads (3 separate Reddit threads + 1 Famiboards forum thread, found independently via search) describe it consistently: it aggregates collectibles (Vitality Petals/Blossoms), Wisps rescued, Tir Na Nog time-trial clears (medal ranking may matter), and story progress including the post-game Jeanne's Tale chapter. One commenter: 'Rewards cap at 99% game completion + doing the extra post-game chapter... Full completion is 97%. There is a reward for each part of the 97% either in the form of lore, an in-game powerup, an icon on your save profile, or a cosmetic.' A Famiboards player: 'the time trials do add completion percentage.' Community reports also describe the counter as buggy/uncertain at the top end (players stuck at 97-99% despite apparently collecting everything; suspicion that one Vitality Petal slot may be uncollectible/bugged).",
+      "confidence": "medium",
+      "source": "https://www.reddit.com/r/Bayonetta/comments/12131au/is_there_a_reward_for_100_completion/ ; https://www.reddit.com/r/Bayonetta/comments/11vkv3n/so_does_anyone_know_how_to_100_origins/ ; https://www.reddit.com/r/Bayonetta/comments/12ycg11/help_with_bayo_origins_100/ ; https://famiboards.com/threads/bayonetta-origins-discussion-thread.5792/page-2 (all read via cached search snippets/jina proxy, not full official confirmation)",
+      "notes": "This is the single most important unresolved-then-resolved fact of the pass. Confidence is medium rather than high only because sourcing is community-thread snippets, not an official manual, patch note, or a guide author explicitly screenshotting the file-select percentage. Strongly recommend a scout or the design team try to find one clean screenshot/video of the save-select screen showing the % to upgrade this to high confidence before building a '100%' trophy around it. The reported instability (stuck at 97-99%, a possibly-uncollectible item) is itself a critical design risk for any trophy tied to hitting exactly 100%."
+    },
+    {
+      "topic": "Avalon Forest area structure (Q2)",
+      "finding": "Avalon Forest is documented (Bayonetta Fandom wiki) as comprising 18 distinct named sub-areas: Whispering Path (tutorial, inaccessible after leaving until the game's end), Jade Hill (central hub), Leafy Nook, Lake Nimueh, Sunspeckled Grove (largest area, houses Wood Core), Chalkroot Hollow, Faerieland Tower, The Watchtower, Forgotten Knoll, Windy Knot, Giant's Basin, Wyvern Falls (Water Core), Ashenbark Woods, Púca's Fortress (Fire Core), Sunkissed Shore, Forbidden Grounds, Overgrown Shrine, Altar of the Faerie King.",
+      "trackable": "No dedicated 'area completion %' menu was found/confirmed. The Journals archive and Wisps 'Helped' list are tracked in-game (see below); a generic map screen exists but no source confirms per-area percentage display.",
+      "confidence": "medium",
+      "source": "https://bayonetta.fandom.com/wiki/Avalon_Forest (read via r.jina.ai proxy)"
+    },
+    {
+      "topic": "chapter structure (Q2 related)",
+      "finding": "The main story is divided into 13 numbered chapters, plus a Prologue and Epilogue, plus a separate unlockable secret/bonus chapter referred to as 'Jeanne's Tale' (accessed from the main menu Extras after completing the game).",
+      "confidence": "medium",
+      "source": "https://www.chaptercheats.com/cheat/switch/588989/bayonetta-origins-cereza-and-the-lost-demon/hint/183528 ; https://bayonetta.fandom.com/wiki/Walkthrough (via r.jina.ai)"
+    },
+    {
+      "topic": "Vitality Petals / Vitality Blossoms (Q3)",
+      "finding": "Confirmed item names are 'Vitality Petals' and 'Vitality Blossoms' — there is NO separate item called 'Petal Fragments' found anywhere (Fandom wiki full-text search for 'Petal Fragment' returned zero results). Mechanic: collecting 5 Vitality Petals automatically creates 1 Vitality Blossom, which permanently increases Cereza's max HP (functions like a Zelda Heart Piece / Heart Container). Separately, some Vitality Blossoms are awarded directly (not built from petals) as rewards for defeating certain story bosses and for reaching Wisp-rescue reward tiers. Petals are primarily found in Tir Na Nog challenge-room chests and as Wisp-rescue rewards.",
+      "trackable": "No confirmed dedicated in-game counter screen showing 'X/Y Vitality Petals found' was located; however, the save-file completion percentage (see above) reportedly factors these in, and current max HP is presumably visible on the HUD/status screen (not independently confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "source": "https://bayonetta.fandom.com/wiki/Items_(Bayonetta_Origins) (via r.jina.ai) ; https://finalweapon.net/2023/04/08/bayonetta-origins-vitality-petals-guide/ ; touriantourist.blogspot.com review (DDG snippet)"
+    },
+    {
+      "topic": "Bloom Pendant (Q3)",
+      "finding": "COULD NOT CONFIRM. Exhaustive search (Fandom wiki full-text search API returned zero hits for both 'Bloom Pendant' and 'pendant' apart from an unrelated cross-game 'Accessories' article; no guide site, review, or forum thread found anywhere in this pass mentions 'Bloom Pendant') found no evidence this item exists under that name in Bayonetta Origins. Recommend treating 'Bloom Pendant' as an unconfirmed/likely-incorrect term. The closest real analogues are: (a) Vitality Blossoms (the actual HP-up item awarded per elemental-core-boss/story-boss defeat in some cases), or (b) Remembrances (see below), or (c) it may be confused with a different game entirely.",
+      "confidence": "high (confidence that the term does NOT appear, not confidence in what it 'really' is)",
+      "source": "Fandom wiki MediaWiki search API (srsearch=Bloom Pendant -> empty array; srsearch=pendant -> only 'Accessories', a cross-series page with no Origins-specific content), plus multiple DuckDuckGo searches turning up nothing"
+    },
+    {
+      "topic": "Elemental Cores (Q3)",
+      "finding": "Confirmed: exactly 4 Elemental Cores — Wood Core, Stone Core, Water Core, Fire Core. Each is obtained from a dedicated shrine/boss encounter and grants Cheshire a new elemental form/ability (Wood: tongue-grapple hooks; Stone: powerful stomp; Water: squirt water & swim; Fire: fireballs that melt ice). Associated bosses per wiki: Wood Core tied to a boss called 'White Wolf' (described as a guide/non-defeated encounter, needs verification), Stone/Water Cores tied to repeat battles with 'Jabberwock', Fire Core is the 'final elemental challenge' fought against 'Púca'. Once all four cores are absorbed, Cheshire can access 'Unbound Form' combining all four elemental powers.",
+      "confidence": "high (core count/names), medium (specific boss-to-core mapping)",
+      "source": "https://bayonetta.fandom.com/wiki/Cheshire_(demon) (via r.jina.ai) ; https://bayonetta.fandom.com/wiki/Bayonetta_Origins:_Cereza_and_the_Lost_Demon"
+    },
+    {
+      "topic": "Bloom Pendant vs 4-per-boss theory (Q3)",
+      "finding": "The task's premise that there are 4 Bloom Pendants 'one per Elemental Core boss' could not be verified anywhere and appears to conflate/confuse the (confirmed) 4 Elemental Cores with a nonexistent separate pendant item. Recommend dropping 'Bloom Pendant' from trophy design unless a primary source turns up.",
+      "confidence": "low (this is an inference, not a positive finding)",
+      "source": "n/a — absence of evidence, see Bloom Pendant entry above"
+    },
+    {
+      "topic": "Journals (lore collectible system, Q3)",
+      "finding": "Journals are a confirmed lore-collectible system. The Bayonetta Fandom wiki states there are 48 total Journals split across 6 categories of 8 entries each: Biologist's Journal, The Wisp Weekly, A Faerie's Research Log, Ignis' Journal, Faerie Kingdom History, Umbran Apprentice Diary. Collecting all 48 unlocks the 'Accurser of Love' costume for Cheshire. HOWEVER a second guide (Samurai Gamers) was AI-summarized as listing 'approximately 60' entries across the same category names — this is a real discrepancy between sources that could not be resolved in this pass; the 48 figure (6x8, precise and structured) is more likely correct but is not certain.",
+      "trackable": "CONFIRMED in-game tracker: Journals collected are viewable anytime via the in-game menu under 'Archives'.",
+      "missable": false,
+      "confidence": "medium (existence/tracker: high; exact total 48: medium due to conflicting secondary source)",
+      "source": "https://bayonetta.fandom.com/wiki/Journals (via r.jina.ai) ; https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-journals-list-and-locations/"
+    },
+    {
+      "topic": "Remembrances (a second, distinct lore-collectible system, Q3)",
+      "finding": "Remembrances are a separate collectible category from Journals — NOT the 'Verse pages' the task speculated about, but a real, confirmed system. They are memory-fragment vignettes found at special landmarks marked by blue butterfly circles in the world. Total confirmed: 15 Remembrances. Collecting all 15 unlocks the 'Younger Days' costume for Cereza (this is a different costume from the Journals' Cheshire reward). No 'hard' gameplay reward beyond the cosmetic. They appear to be catalogued in a 'Remembrances archive' menu, though no source explicitly confirmed an X/15 on-screen counter.",
+      "trackable": "Likely tracked via a 'Remembrances archive' menu (referenced by guide authors organizing by 'as they appear in your archive'), but exact UI display not independently confirmed.",
+      "missable": false,
+      "confidence": "high (count of 15 and existence, corroborated by 2 independent outlets); medium (exact tracker UI)",
+      "source": "https://www.yardbarker.com/video_games/articles/bayonetta_origins_cereza_and_the_lost_demon_all_15_remembrances/s1_17144_41159399 ; https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-remembrance-location-guide/ ; https://gamerant.com/bayonetta-origins-cereza-and-the-lost-demon-remembrance-locations-where-map-younger-days-costume/"
+    },
+    {
+      "topic": "Wisps (rescue/companion collectible system)",
+      "finding": "Confirmed: 42 Wisps total to rescue across Avalon Forest, organized under an NPC named Colm (a Wisp who acts as an informal community leader and publishes an in-fiction newsletter, 'The Wisp Weekly', referenced by the Journals category of the same name). Rescuing wisps grants tiered rewards (8 tiers) including Moon Pearls, Vitality Petals, Onyx Roses, Avalon Drops, and an Inferno Fruit; the final tier grants a Remembrance plus the 'Elegant Swan' outfit.",
+      "trackable": "CONFIRMED: there is a 'Helped Wisps' menu listing rescued wisps in order, and the map shows a blue prompt over the 'Forgotten Knoll' area whenever a new reward tier unlocks.",
+      "missable": false,
+      "confidence": "high (count corroborated by 2 independent sources: a YouTube guide titled 'All 42 Wisps' and TheGamer's written guide stating '42 Wisps to find'; tracker confirmed by TheGamer)",
+      "source": "https://www.thegamer.com/bayonetta-origins-cerza-and-the-lost-demon-wisp-locations-rewards-guide/ ; https://www.youtube.com/watch?v=hsZ85cPUf7M ; https://bayonetta.fandom.com/wiki/Colm"
+    },
+    {
+      "topic": "Tir Na Nog dungeons (Q4)",
+      "finding": "Tír Na Nóg are optional-but-sometimes-mandatory challenge rooms (the game's equivalent of Bayonetta 1-3's Alfheim/Muspelheim/Niflheim trials), triggered via cracked-vortex portals in the world. They test combat/puzzle skills and reward crafting/upgrade materials (Onyx Rose, Avalon Drop), potions, and Vitality Petals. They are replayable afterward at a 'sanctuary' specifically to chase better completion times (gold/platinum-style medal rankings were referenced by a community source, unconfirmed officially). EXACT TOTAL COUNT COULD NOT BE CONFIRMED. One guide (Samurai Gamers) implied roughly one per chapter across chapters 2 through 13 (documenting one example, 'Eerie Light' in Chapter 2/Jade Hill, and marking the rest 'to be confirmed' at time of writing), suggesting a ballpark of 12-13 total, but no source gave a definitive final number.",
+      "trackable": "Time-trial completion is reported by a community forum post to factor into the save-file completion percentage ('the time trials do add completion percentage'), but no dedicated in-game 'X/N Tir Na Nog cleared' counter screen was confirmed.",
+      "missable": false,
+      "confidence": "low-medium (existence/mechanics: high; exact total count: low — this is a real gap)",
+      "source": "https://bayonetta.fandom.com/wiki/T%C3%ADr_Na_N%C3%B3g (via r.jina.ai) ; https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-tir-na-nog-challenges-list-and-locations/ ; https://www.gfinityesports.com/article/bayonetta-origins-cereza-and-the-lost-demon-tir-na-nog-levels ; https://famiboards.com/threads/bayonetta-origins-discussion-thread.5792/page-2"
+    },
+    {
+      "topic": "Missable content / free backtracking (Q5)",
+      "finding": "The game supports free backtracking to previously visited areas via 'lantern save points,' explicitly to allow players to mop up missed collectibles after gaining new Cheshire elemental abilities — standard Metroidvania convention, consistent with 'nothing permanently missable.' One caveat: the tutorial area 'Whispering Path' is described by the wiki as 'inaccessible after leaving until the game's end,' implying at least one area is gated for most of the run (though presumably revisitable, not permanently lost). No other explicitly time-limited/one-shot content was found.",
+      "missable": false,
+      "confidence": "medium",
+      "source": "https://www.siliconera.com/what-does-beating-bayonetta-origins-unlock-new-game-plus-jeanne/ ; https://bayonetta.fandom.com/wiki/Avalon_Forest"
+    },
+    {
+      "topic": "New Game+ (Q6)",
+      "finding": "CONFIRMED ABSENT. A Siliconera article explicitly states: 'While there's no \"new game plus,\" beating Bayonetta Origins does unlock a number of things like a Jeanne's Tale side story.' This directly resolves the prior pass's open question.",
+      "confidence": "high",
+      "source": "https://www.siliconera.com/what-does-beating-bayonetta-origins-unlock-new-game-plus-jeanne/"
+    },
+    {
+      "topic": "Post-game unlocks upon clearing the story (Q6/Q7 related)",
+      "finding": "Beating the game for the first time creates a 'Clear Save' that unlocks: (1) all previously-earned costumes usable from the start of a new save/replay, (2) the Jeanne's Tale side-story chapter, (3) the 'Forbidden Tale' hard-mode difficulty option becomes selectable normally (see difficulty entry). Total costume count reported: 9 outfits for Cereza and 5 for Cheshire (14 total); at least one Cereza costume, 'The Right Eye,' is specifically awarded for completing the main game.",
+      "confidence": "medium (single AI-summarized source, not independently cross-checked)",
+      "source": "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/post-game-unlockables-guide-7/"
+    },
+    {
+      "topic": "Jeanne bonus scenario (Q7)",
+      "finding": "Named 'Jeanne's Tale.' Accessed via the main menu's Extras section after completing the main story. It is a secret/bonus chapter set in an icy cave in which Jeanne joins Cereza to fight a boss named 'He Who Affirms All Phenomena.' It uses auto-save at certain points rather than the main game's manual/lantern save system. Exact length (playtime) could not be confirmed in this pass; no source gave a runtime estimate. Could not confirm whether it has its own dedicated collectibles separate from the main game's systems, or whether there is more than one ending to the overall game (only one ending was described: Cereza defeats Morgana and leaves the forest, with the Jeanne's Tale epilogue occurring afterward as bonus content, not as an alternate ending).",
+      "confidence": "medium (existence/setup: medium-high, corroborated by wiki + 2 guide sites); low (exact length, collectibles, multiple-endings question — unconfirmed)",
+      "source": "https://bayonetta.fandom.com/wiki/Bayonetta_(character)/Bayonetta_Origins (via r.jina.ai) ; https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/post-game-unlockables-guide-7/"
+    },
+    {
+      "topic": "Difficulty system (Q8)",
+      "finding": "CONFIRMED: by default the game does NOT use named difficulty tiers. Instead there is a granular 'Game Help Settings' menu (accessed via + button > System > Options > Game Help Settings) with independent sliders/toggles: Damage Taken (Normal/Less/None), Magic Usage (Normal/Always Full), Bind Combo execution method (Hold-Release or Tap), Enemy Strength (Normal/Weak/Pushover), Witch Pulse prompts (Manual or Automatic — i.e. an auto-QTE assist), and Guiding Lights (On/Off). A guide explicitly calls this system 'more like a cheat menu than standard game difficulty settings.' HOWEVER, there IS one genuine named hard-mode tier: 'Forbidden Tale' difficulty, which disables the Game Help Settings menu entirely, increases enemy count, and increases enemy damage output. Forbidden Tale is normally unlocked only after completing the story once (see post-game unlocks), but can also be unlocked immediately from the very start via a secret button code (Up Up Down Down Left Right... specifically: Up, Down, Left, Right, X, B, Y, A) entered at the main menu, revealed by director Abebe Tinari in a post-launch video.",
+      "confidence": "high",
+      "source": "https://primagames.com/tips/bayonetta-origins-cereza-and-the-lost-demon-difficulty-settings-guide (via r.jina.ai) ; https://www.nintendolife.com/news/2023/04/random-unlock-bayonetta-origins-highest-difficulty-with-a-platinum-code (via r.jina.ai) ; corroborated by DuckDuckGo-indexed Destructoid and Nintendo Everything articles on the same 'Forbidden Tale' cheat code"
+    },
+    {
+      "topic": "difficulty design implication for trophies",
+      "finding": "Because Forbidden Tale is a genuine named hardest-difficulty tier (not just an assist toggle), a 'complete the game on hardest difficulty' trophy IS designable in the traditional sense — but designers should note it can be unlocked via a secret code without ever beating the game normally, so a trophy would need to require actually completing a playthrough while Forbidden Tale is active, not merely toggling it on.",
+      "confidence": "medium",
+      "source": "same as difficulty system entry above"
+    },
+    {
+      "topic": "Elemental Core reward/crafting currencies (systems context)",
+      "finding": "Two skill-tree currency pairs exist: Onyx Roses + Moon Pearls (used to teach Cereza new/powerful skills) and Avalon Drops + Inferno Fruits (used to teach Cheshire new/powerful skills). These are consumed in a Skill Tree menu, not counted as fixed-total collectibles in the way Journals/Remembrances/Wisps are — no evidence of a fixed cap or 'find all X' structure for these currencies.",
+      "confidence": "medium",
+      "source": "https://bayonetta.fandom.com/wiki/Items_(Bayonetta_Origins) (via r.jina.ai)"
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Save-file completion percentage (aggregates collectibles, wisps, time trials, story/post-game progress)", "where": "Save file / file-select menu", "confidence": "medium", "notes": "Community-reported, not officially documented; reported to sometimes cap below 100% due to bugs." },
+    { "stat": "Journals collected (out of 48, disputed vs ~60)", "where": "In-game menu > Archives", "confidence": "medium" },
+    { "stat": "Wisps rescued (out of 42), with 8 reward tiers", "where": "'Helped Wisps' menu; map shows a prompt over Forgotten Knoll when a new tier unlocks", "confidence": "high" },
+    { "stat": "Remembrances collected (out of 15)", "where": "Likely a 'Remembrances archive' menu; exact UI unconfirmed", "confidence": "low-medium" },
+    { "stat": "Tir Na Nog challenges cleared, and clear-time rank (gold/platinum medals referenced but unconfirmed officially)", "where": "Unconfirmed dedicated screen; reported to feed the overall completion percentage", "confidence": "low" },
+    { "stat": "Vitality Petals/Blossoms collected (max HP upgrades)", "where": "Unconfirmed dedicated counter; presumably reflected in a status/stats screen showing current max HP", "confidence": "low" },
+    { "stat": "Costumes unlocked (14 total: 9 Cereza + 5 Cheshire)", "where": "Costumes menu", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "No PC/PlayStation/Xbox release exists; Switch is the only platform, so no version-comparison content applies.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not find a screenshot, video, or official source directly showing the save-file completion percentage screen — its existence is corroborated by 3+ independent community threads but not by any primary/official source. This is the highest-priority remaining gap given how load-bearing it is.",
+    "Exact total number of Tir Na Nog challenge rooms is unconfirmed — estimated at roughly 12-13 (one per chapter, chapters 2-13) but no source states a definitive final count.",
+    "Exact total for Journals is disputed between two sources: 48 (Fandom wiki, 6 categories x 8) vs. an AI-paraphrased 'approximately 60' from Samurai Gamers. Needs a source giving an explicit, unambiguous number.",
+    "Exact total number of individual Vitality Petals (as distinct from the derived Vitality Blossoms) was not found anywhere; guides describe locations piecemeal ('25+ locations') without a final sum.",
+    "Could not confirm whether 'Bloom Pendant' exists under any name in this game — treat as unconfirmed/likely non-existent per this pass's research.",
+    "Could not confirm exact length (playtime) of the Jeanne's Tale bonus chapter, nor whether it has any dedicated collectibles of its own.",
+    "Could not confirm whether the game has more than one possible ending (only one ending — defeating Morgana — was found in any source); the Jeanne's Tale epilogue appears to be additive post-game content, not a branching alternate ending.",
+    "Could not confirm the exact boss-to-Elemental-Core mapping with full certainty (a single wiki source names 'White Wolf' for Wood, 'Jabberwock' for Stone/Water, 'Púca' for Fire) — worth a second source before naming these in trophy text.",
+    "Could not confirm whether Tir Na Nog time-trial rankings use a 'gold/platinum medal' system officially, or whether that's community terminology; also could not confirm what reward, if any, exists for clearing all Tir Na Nog rooms as a set.",
+    "Reddit was completely inaccessible throughout this pass (both direct and via proxy), so all Reddit-sourced findings rely on secondhand DuckDuckGo-cached snippets rather than full thread context — these should be treated as lower-confidence than a normal community-source citation.",
+    "Could not verify the difficulty-menu findings against an official Nintendo/PlatinumGames source (only third-party guide sites); the Nintendo eShop page itself only shows a generic 'Choose your difficulty' tag with no elaboration."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "beat": "general (mode-selection + campaign/systems/collectibles)",
+  "game": "Bayonetta Origins: Cereza and the Lost Demon",
+  "platform": "Nintendo Switch (and Nintendo Switch 2 via compatibility)",
+  "modeRecommendation": {
+    "mode": "genesis",
+    "justification": "No Steam, PC, PlayStation, or Xbox release of Bayonetta Origins: Cereza and the Lost Demon could be found. Wikipedia and Metacritic both list the game as Nintendo Switch only, and the official Nintendo eShop product page lists platforms as 'Nintendo Switch' and 'Nintendo Switch 2' only (the latter almost certainly meaning Switch 2 backward-compatibility/re-listing, not a distinct enhanced port). Steam store search for 'Bayonetta Origins' returns no matching store page (only unrelated Platinum/Nintendo titles). Web searches for Steam/Xbox achievements or PlayStation trophies for this specific title returned zero results specific to Origins — all such hits resolved instead to the original 2009 Bayonetta (which does have Steam/Xbox pages, a different game). Nintendo Switch has no native achievement/trophy system, and no exception was found for this title (no eShop-level challenge/badge system, no third-party achievement overlay). Therefore this must be built as Genesis Mode with no nativeAchievements to port.",
+    "confidence": "high",
+    "sourcesChecked": [
+      "en.wikipedia.org/wiki/Bayonetta_Origins:_Cereza_and_the_Lost_Demon",
+      "metacritic.com/game/bayonetta-origins-cereza-and-the-lost-demon",
+      "nintendo.com official Switch eShop product page",
+      "store.steampowered.com search for 'Bayonetta Origins' (no result)",
+      "Bing search attempts for 'Bayonetta Origins' + trophy/achievement/Steam/Xbox (only returned pages for the unrelated original Bayonetta)"
+    ]
+  },
+  "nativeAchievements": [],
+  "findings": [
+    {
+      "category": "release",
+      "name": "Nintendo Switch exclusive release",
+      "detail": "Released March 17, 2023, developed by PlatinumGames, published by Nintendo, exclusively for Nintendo Switch. No PC/Steam/PlayStation/Xbox version exists as of this research (Aug 2026). Official Nintendo eShop listing also shows 'Nintendo Switch 2' as a supported platform, which is understood to be a backward-compatibility/re-listing rather than a distinct enhanced version — no Switch 2-specific patch notes or enhanced-edition details were found.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Metacritic", "Nintendo.com official product page"]
+    },
+    {
+      "category": "structure",
+      "name": "Avalon Forest (single connected world, not discrete numbered chapters)",
+      "detail": "The game takes place in a single continuous 'Avalon Forest' explored in a Metroidvania-style fashion, with save points and 'challenge rooms' connecting different sub-areas. The game reportedly opens with roughly an hour-long tutorial section before opening up into freer exploration. Progression gates areas behind new Cheshire abilities/elemental forms, requiring backtracking once new powers are acquired.",
+      "trackable": "A map screen exists (referenced by reviewers navigating without a minimap), but it is unconfirmed whether it displays a numeric completion count per area.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Destructoid review (fetched)", "GamePressure database entry (fetched)"]
+    },
+    {
+      "category": "structure",
+      "name": "Tir na nÓg dungeons",
+      "detail": "Special 'distortions created by the faeries' found within Avalon Forest, described as dungeon-like challenge spaces requiring the player to defeat enemies under specific conditions or solve specific puzzles.",
+      "trackable": "Unconfirmed whether there is a count/log of these.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["NoisyPixel review (fetched)"]
+    },
+    {
+      "category": "systems",
+      "name": "Dual-character control (Cereza + Cheshire)",
+      "detail": "Player controls Cereza (left stick/side) and Cheshire (right stick/side) simultaneously and independently, each mapped to one Joy-Con side. Cereza casts binding spells and uses 'Witch Pulse' to transform environments/dispel illusions; Cheshire (a demon bound to a plush toy) fights physically and toggles between 'Unleashed' (large combat form) and 'Hug' (plush form Cereza carries/throws for puzzles and traversal) modes. Cheshire cannot die outright but depletes a magic gauge and must be recalled to Cereza to recharge.",
+      "trackable": "n/a (core mechanic, not a collectible/counter)",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Wikipedia", "Nintendo.com official product page", "NoisyPixel review"]
+    },
+    {
+      "category": "systems",
+      "name": "Elemental Cores",
+      "detail": "Collectible/destructible objects scattered through the forest. Destroying them upgrades Cheshire's combat abilities, unlocks new elemental forms/abilities, and opens previously inaccessible areas. NoisyPixel's review states there are four Elemental Cores tied to four boss fights, each yielding a 'Bloom Pendant' (health-container upgrade) upon defeat.",
+      "trackable": "Likely tracked via the skill-tree/upgrade menu, but an explicit progress counter (e.g., 'X/4 destroyed') was not confirmed in any source.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia", "NoisyPixel review"]
+    },
+    {
+      "category": "systems",
+      "name": "Skill Tree / upgrade materials",
+      "detail": "Separate skill trees exist for Cereza and Cheshire, unlocked using collected materials. Named currencies/materials identified by NoisyPixel: Onyx Roses and Avalon Drops (primary upgrade currencies) and Inferno Fruits and Moon Pearls (secondary materials required alongside currency for some skills).",
+      "trackable": "Presumed visible as counters in the skill-tree/upgrade menu, but this was not explicitly confirmed by a source screenshot or description.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["NoisyPixel review", "Destructoid review (confirms 'a skill tree for each character')"]
+    },
+    {
+      "category": "collectible",
+      "name": "Petal Fragments",
+      "detail": "Collectible items compared by a reviewer to Zelda's Heart Pieces (i.e., partial items that combine into a full upgrade, likely to health or a related stat). Exact total count could not be found in any accessible source.",
+      "trackable": "Unconfirmed whether the game shows a running count/total collected.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["NoisyPixel review"]
+    },
+    {
+      "category": "collectible",
+      "name": "Vitality Petals",
+      "detail": "Official Nintendo eShop description lists 'Vitality Petals' as items that increase Cereza's/the party's maximum health, found as 'hidden treasures throughout Avalon Forest.'",
+      "trackable": "Unconfirmed tracker/count.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Nintendo.com official product page"]
+    },
+    {
+      "category": "collectible",
+      "name": "Bloom Pendants",
+      "detail": "Obtained upon defeating each of the four Elemental Core bosses; function as health containers/upgrades.",
+      "trackable": "Likely visible as increased max-HP in the status/menu screen; explicit numeric tracker unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["NoisyPixel review"]
+    },
+    {
+      "category": "collectible",
+      "name": "'Memory Glimmer' / 'Verse' lore pages (unconfirmed name)",
+      "detail": "Could NOT confirm the existence, exact name, or count of a lore-collectible system matching the names 'Memory Glimmer' or 'Verse' pages suggested in the brief. No source (official page, Wikipedia, or the three full reviews retrieved) mentioned collectible lore/text pages under these or similar names. This may be a misremembered detail, or may refer to something in-game not covered by the sources found (e.g., cutscene/story unlocks, a 'storybook' recap screen, or codex entries).",
+      "trackable": "Unknown — could not confirm.",
+      "missable": null,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "systems",
+      "name": "Difficulty options (accessibility-slider style rather than named tiers)",
+      "detail": "According to one review (NoisyPixel), the game does not use traditional named difficulty tiers (Easy/Normal/Hard). Instead it offers granular, independently adjustable options: damage dealt/received modifiers, a simplified-attack option for Cheshire, and an auto-prompt option for Witch Pulse dance/QTE-style sequences.",
+      "trackable": "These are settings, not trackable progress; a trophy tied to 'complete on hardest difficulty' may not be well-formed here since there may be no single 'hardest' preset — only individually tunable sliders. Needs verification before building a difficulty-based trophy.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["NoisyPixel review"]
+    },
+    {
+      "category": "postgame",
+      "name": "Jeanne bonus scenario",
+      "detail": "Wikipedia states a 'bonus post-game scenario featuring Jeanne' unlocks after completing the main story. No further detail (length, objectives, or whether it has its own collectibles/ending) was found in any source retrieved.",
+      "trackable": "Unknown.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Wikipedia"]
+    },
+    {
+      "category": "systems",
+      "name": "New Game+",
+      "detail": "Could not confirm whether New Game+ exists. Not mentioned in Wikipedia's gameplay/reception summary, nor in the Destructoid or NoisyPixel reviews retrieved.",
+      "trackable": "n/a",
+      "missable": null,
+      "confidence": "low",
+      "sources": []
+    },
+    {
+      "category": "systems",
+      "name": "Downtime / safe segments as Cereza only",
+      "detail": "GamePressure's database description notes the game includes 'separate segments of downtime during which we play only as Cereza (mostly in safe areas devoid of enemies),' distinct from the combined dual-character exploration/combat segments.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["GamePressure.com"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Skill tree upgrade currencies (Onyx Roses, Avalon Drops, Inferno Fruits, Moon Pearls)", "where": "Presumed shown in the skill-tree/upgrade menu; not explicitly confirmed by a source", "confidence": "low" },
+    { "stat": "Max health increases from Vitality Petals / Bloom Pendants", "where": "Presumed reflected in a status/HP menu; explicit numeric collectible counter not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    {
+      "note": "Official Nintendo eShop listing shows the game available on both 'Nintendo Switch' and 'Nintendo Switch 2' — this is most likely a backward-compatibility listing rather than a distinct enhanced Switch 2 edition. No patch notes, resolution/framerate improvements, or Switch 2-exclusive features were found in any source checked.",
+      "confidence": "low"
+    },
+    {
+      "note": "No Steam/PC, PlayStation, or Xbox version exists, so there is no native achievement/trophy list to port from any platform; this must be a Genesis Mode build.",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Could not confirm the exact total count of Petal Fragments, Bloom Pendants, Vitality Petals, or any skill-tree material — no guide site with exact numbers was accessible (GameFAQs, IGN, Fandom wiki, TrueAchievements, PSNProfiles, Fextralife, NintendoLife, Polygon, IGN, Eurogamer, TheGamer, GameRant, ScreenRant, StrategyWiki, Twinfinite all returned 403/404/paywall errors or DNS failures during this research pass).",
+    "Could not confirm or deny the existence of a 'Memory Glimmer' or 'Verse pages' lore-collectible system as referenced in the assignment brief — this specific name was not found in any retrievable source and may be misremembered or refer to an unconfirmed mechanic.",
+    "Could not confirm whether the game has a New Game+ mode.",
+    "Could not confirm the exact number of named forest areas/regions/chapters (only that it is a single connected Avalon Forest with sub-areas, not a discrete numbered chapter select).",
+    "Could not confirm whether the game has a completion-percentage counter, bestiary/codex, or quest log of any kind.",
+    "Could not confirm any missable content — genre conventions (Metroidvania-style backtracking, per GamePressure) suggest most content may remain accessible for cleanup after the main story, but this is an inference, not a confirmed fact.",
+    "Could not confirm the exact number/names of endings, or whether multiple endings exist beyond the single confirmed post-game Jeanne bonus scenario.",
+    "Could not confirm exact game length in hours from any source retrieved.",
+    "Could not access many major guide/wiki/trophy-tracking sites (IGN, Polygon, Eurogamer, TheGamer, GameRant, ScreenRant, Fandom/bayonetta.fandom.com, Fextralife, GameFAQs, NintendoLife, TrueAchievements, PSNProfiles, StrategyWiki, Twinfinite) due to 403/404/DNS/paywall errors during this research session; a follow-up pass with different tooling/access may surface the missing exact counts.",
+    "WebSearch tool was unavailable for this entire task (session budget exhausted before first query could run) and Bing-via-WebFetch returned stale/irrelevant cached results regardless of query, so research relied entirely on direct WebFetch of specific known URLs — coverage is narrower than normal as a result."
+  ]
+}

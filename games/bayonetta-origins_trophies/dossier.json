@@ -1,0 +1,61 @@
+{
+  "game": "Bayonetta Origins: Cereza and the Lost Demon",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "scoutSources": ["dossier_scout_a.json (campaign)", "dossier_scout_b.json (collectibles/side content)", "dossier_scout_c.json (systems)"],
+  "summary": {
+    "campaign": {
+      "structure": "13 numbered chapters in a single continuous 'Avalon Forest', Metroidvania-style, opening with a long tutorial. No confirmed separate Prologue/Epilogue menu entries (likely folded into Chapter 1).",
+      "elementalCoreBosses": "Exactly 4, each unlocking a Cheshire elemental form: White Wolf (Wood, Ch3), Amadán Dubh (Stone, Ch5, 'the Faerie Jester'), Jabberwock (Water, Ch7, widely cited as the hardest fight), Púca (Fire, Ch10, 'Faerie King', summons Affinity).",
+      "unboundForm": "Ch11 'The Forbidden Altar': after all 4 cores are collected, Cheshire gains 'Unbound Form' (all elements at once), used against a figure named Lukaon (nature/role not fully clarified — possibly an ally, not a villain).",
+      "finalBoss": "Chapter 13 'A Witch Is Born This Night': Morgana. Cereza unlocks Witch Time for the first time to defeat her. Single fixed main-story ending — Cheshire returns to Inferno, time-skip to Cereza's future as Bayonetta.",
+      "trueEnding": "Post-game 'Jeanne's Tale' (Extras menu, after all 13 chapters, ~1 hour, no collectibles): Jeanne + her demon Charles fight 'the Affirmer of Phenomena', revealed to be Singularity from Bayonetta 3. Multiple outlets frame this as the game's real/true ending. Rewards 3 costumes (Jeanne, Arch Eve Origin, Charles) that also change movesets when equipped in a main-campaign replay."
+    },
+    "collectiblesAndCompletion": {
+      "journals": "48 total lore entries, viewable anytime in an 'Archives' menu. High confidence, corroborated by 5 sources.",
+      "wisps": "42 total rescues, tracked via a 'Helped Wisps' menu across 8 reward tiers; rescuing all 42 unlocks a secret area 'Forest's Hero'.",
+      "remembrances": "UNRESOLVED COUNT: 15 (three independent location-guide sources) vs. 12 (one costume-list source, tied to the 'Younger Days' unlock). Both a real system (memory vignettes at landmark locations), but exact total in dispute.",
+      "vitalityPetals": "5 combine into 1 Vitality Blossom (permanent max-HP increase). Exact total count of individual petals never found by any source across two research passes.",
+      "tirNaNog": "37 challenge rooms (puzzle/combat/timed trials), roughly half mandatory to progress. Two separate completion tracks: clearing every timed trial with a Gold ranking ('Cereza in Wonderland' costume), and opening every treasure chest across all rooms ('A Mad Hatter' costume) — these costume unlocks serve as clean verification without needing the raw 37 number to be exact.",
+      "skillTrees": "Separate trees for Cereza (Onyx Roses + Moon Pearls) and Cheshire (Avalon Drops + Inferno Fruits). Maxing each tree unlocks a dedicated costume ('A Pesky Demon' / 'A Blundering Witch') — a clean, numbers-free verification hook.",
+      "costumes": "Count also disputed: 9 Cereza + 5 Cheshire = 14 (one source) vs. 10 Cereza + 5 Cheshire = 15 (a second, more detailed source with explicit per-costume unlock conditions). The DETAILED unlock-condition mapping (which costume ties to which milestone) is corroborated and far more useful for trophy design than the raw total."
+    },
+    "systems": {
+      "difficulty": "No traditional Easy/Normal/Hard. Instead: 'Game Help Settings' accessibility sliders (damage taken, enemy strength, auto-prompts, etc.) PLUS a genuine named hardest tier, 'Forbidden Tale', which disables all Game Help Settings and increases enemy count/damage. Beating the game on Forbidden Tale awards a dedicated 'Observer of Time' costume — proof this is a real, discretely-tracked, fair, verifiable difficulty trophy (Rule 11 satisfied, unlike Bayonetta 3's equivalent).",
+      "newGamePlus": "Confirmed absent (two independent sources).",
+      "missables": "None confirmed. Full backtracking supported via Fast Travel (unlocked Ch5) and lantern save points; standard Metroidvania design.",
+      "rng": "No confirmed RNG systems — all chest contents, wisp rewards, and crafting recipes use fixed, guide-documented quantities.",
+      "completionPercentage": "Community-reported (4 independent forum/community sources across two passes) save-file completion percentage exists, but with NO primary/official source, and reportedly can cap at 97-99% due to a possibly bugged item slot. Too risky to build a '100% completion' trophy directly on this stat.",
+      "dlc": "None found. Single 1.0.0 build per the Switch update tracker; no amiibo support."
+    }
+  },
+  "conflicts": [
+    {
+      "topic": "Remembrances total count",
+      "claimA": "15 (three independent location-guide sources: Yardbarker, TheGamer, GameRant)",
+      "claimB": "12 (one costume-list source, tied to the 'Younger Days' costume condition)",
+      "resolution": "Unresolved. Recommend the 'collect all Remembrances' trophy use the 'Younger Days' costume unlock as its verification instead of stating a number — sidesteps the dispute entirely."
+    },
+    {
+      "topic": "Total costume count",
+      "claimA": "14 total: 9 Cereza + 5 Cheshire",
+      "claimB": "15 total: 10 Cereza + 5 Cheshire",
+      "resolution": "Unresolved, and not load-bearing — no trophy should state a total costume count; individual milestone costumes are used as verification anchors instead."
+    },
+    {
+      "topic": "Exact Vitality Petal total",
+      "claimA": "Never stated in any source (only the 5-petals-per-Blossom ratio is confirmed)",
+      "claimB": "N/A",
+      "resolution": "No 'collect all Vitality Petals' trophy — an intro-level 'earn your first Vitality Blossom' trophy is safe since it doesn't require the total."
+    }
+  ],
+  "gaps": [
+    "No primary/official source confirms the save-file completion-percentage screen — community-corroborated only, and reportedly buggy (caps below 100%). Avoid a trophy tied directly to this percentage.",
+    "Lukaon's exact narrative role (ally vs. minor antagonist) in Chapter 11 is unclear.",
+    "No confirmed on-screen UI format for the Remembrances archive or skill-tree currency counters (though tree completion is confirmed trackable via costume unlocks).",
+    "The two 'Memory Glimmer'/'Verse pages' and 'Bloom Pendant' terms from an early pass were investigated across two separate research passes and confirmed NOT to exist — Journals and Remembrances are the real lore systems; Elemental Cores are the real 'core' items."
+  ],
+  "missables": [
+    "None found. Full backtracking supported via Fast Travel and save points; no collectible or content is described as permanently lost."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "beat": "progression systems, trackable statistics, missable content, RNG systems, version differences",
+  "game": "Bayonetta Origins: Cereza and the Lost Demon",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "systems",
+      "name": "Difficulty: 'Game Help Settings' sliders + named 'Forbidden Tale' hard mode",
+      "detail": "By default the game has no traditional Easy/Normal/Hard tiers. Instead a 'Game Help Settings' menu (+ button > System > Options > Game Help Settings) offers independently adjustable options: Damage Taken (Normal/Less/None), Magic Usage (Normal/Always Full), Bind Combo input method (Hold-Release or Tap), Enemy Strength (Normal/Weak/Pushover), Witch Pulse prompts (Manual or Automatic assist), and Guiding Lights (On/Off). HOWEVER a genuine named hardest-difficulty tier does exist: 'Forbidden Tale.' Selecting it disables the entire Game Help Settings menu, increases enemy count, and increases enemy damage. Forbidden Tale unlocks normally only after completing the story once, but can also be entered from the very start via a secret main-menu button code (Up, Down, Left, Right, X, B, Y, A), revealed post-launch by director Abebe Tinari. Beating the game while on Forbidden Tale awards a dedicated costume, 'Observer of Time,' confirming the game internally tracks 'completed a playthrough on this difficulty' as a discrete, rewarded state.",
+      "trackable": "Forbidden Tale completion is confirmed trackable via the 'Observer of Time' costume unlock (Costumes menu). The Game Help Settings sliders are not progress trackers, just accessibility options.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://primagames.com/tips/bayonetta-origins-cereza-and-the-lost-demon-difficulty-settings-guide",
+        "https://www.nintendolife.com/news/2023/04/random-unlock-bayonetta-origins-highest-difficulty-with-a-platinum-code",
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-costumes-list-2/ (Observer of Time reward confirms Forbidden Tale is a completable, rewarded difficulty state)"
+      ]
+    },
+    {
+      "category": "systems",
+      "name": "New Game+ does not exist",
+      "detail": "Confirmed absent. A Siliconera article states explicitly: 'While there's no \"new game plus,\" beating Bayonetta Origins does unlock a number of things like a Jeanne's Tale side story.' Corroborated by a second outlet (Gfinity) describing post-game as unlocking new difficulty options and cosmetics rather than a save-carryover replay mode, and by general web-search consensus. What replaces NG+ functionally is: (1) Forbidden Tale difficulty becoming selectable for a fresh playthrough, and (2) all previously-unlocked costumes remaining available on a new playthrough.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.siliconera.com/what-does-beating-bayonetta-origins-unlock-new-game-plus-jeanne/",
+        "https://www.gfinityesports.com/article/bayonetta-origins-cereza-and-the-lost-demon-post-game"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "No confirmed permanently missable content",
+      "detail": "The game supports free backtracking to previously visited areas via lantern save points, and Fast Travel unlocks during Chapter 5 ('The Mad Circus'), specifically enabling players to return and mop up collectibles (Journals, Wisps, Remembrances, Vitality Petals, Tir Na Nog chests) missed earlier after gaining new Cheshire elemental abilities. This is standard Metroidvania design and no source described any collectible, boss, or piece of content as permanently lost if skipped. One caveat: the tutorial area 'Whispering Path' is described by the Bayonetta Fandom wiki as inaccessible again 'until the game's end' — this is a temporary lock, not a confirmed permanent loss, but it was never independently re-verified in this pass whether any collectible sits in that area that would be delayed rather than missed.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gamerant.com/bayonetta-origins-cereza-and-the-lost-demon-fast-travel-how-to-unlock-use/",
+        "https://bayonetta.fandom.com/wiki/Avalon_Forest",
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-collectibles-list-and-guides/ (no collectible described as missable; items only 'hide' or require abilities, not time-limited)"
+      ]
+    },
+    {
+      "category": "systems",
+      "name": "Skill trees are completable, tracked states (via costume rewards), but no confirmed numeric currency HUD counter",
+      "detail": "Cereza and Cheshire each have separate skill trees spent using currencies: Onyx Roses + Moon Pearls (Cereza) and Avalon Drops + Inferno Fruits (Cheshire). Fully unlocking Cereza's tree awards the costume 'A Pesky Demon'; fully unlocking Cheshire's tree awards 'A Blundering Witch.' This proves the game internally tracks 100%-skill-tree-completion as a discrete flag. However, no source found confirms a visible numeric counter (e.g., 'x/y Onyx Roses held') anywhere in the UI — a third-party UI-archival site (Game UI Database) lists a 'Stats and Resources' screenshot category for this game, which strongly suggests some resource/currency display screen exists, but its exact contents could not be read (page blocked most automated access, only category labels were retrievable).",
+      "trackable": "Skill tree 100% completion is trackable indirectly via the 'A Pesky Demon' / 'A Blundering Witch' costume unlocks (Costumes menu). A live currency-count display is plausible (per 'Stats and Resources' UI category) but NOT independently confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-costumes-list-2/",
+        "https://www.gameuidatabase.com/gameData.php?id=2342 (category labels only, exact screen contents unreadable)"
+      ]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Save-file / overall completion percentage",
+      "detail": "Community reports (multiple independent Reddit threads plus a Famiboards forum thread, cited in the prior research pass) describe an internal completion percentage shown on the save-file/file-select screen, aggregating collectibles, Wisps, Tir Na Nog clears, and story progress including Jeanne's Tale. This pass adds one weak corroborating data point: a fan-made 'save file modding tool' on GameBanana is specifically named '100% Save File Modding Tool,' implying the save format contains an editable completion-percentage field (its detailed description could not be retrieved, so this is circumstantial support, not confirmation). No official/primary source (patch notes, manual, dev statement) was found stating this feature exists in so many words.",
+      "trackable": "Reported to appear on the save file / file-select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gamebanana.com/tools/13176",
+        "(carried forward from prior pass) reddit.com/r/Bayonetta threads on 100% completion; famiboards.com Bayonetta Origins discussion thread"
+      ]
+    },
+    {
+      "category": "rng",
+      "name": "No confirmed RNG-dependent systems (loot, chest contents, drops)",
+      "detail": "Extensive searching found no evidence of randomized chest contents, randomized enemy drops, or a gacha/lottery/shop-roulette system anywhere in the game. Guide sites (TheGamer, GameRant, Samurai Gamers) document exact, fixed contents for individual Tir Na Nog chests and per-tier Wisp rewards, which is only possible to write as a guide if those rewards are deterministic/fixed rather than randomized. The crafting/'Concoctions' system (Healing Tonic, Blast Cocktail, Purple Butterfly Potion, Demonic Mist) uses fixed, exact ingredient quantities (e.g., Mandragora Root x5, Baked Gecko x15, Unicorn Horn x10) rather than probabilistic outcomes. No source mentioned drop-rate percentages, critical-hit chance, or any probability-based mechanic in combat.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/crafting-list-concoctions/",
+        "https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-tir-na-nog-collectible-locations-guide/",
+        "(absence-of-evidence across all searches for 'gacha', 'lottery', 'random drop', 'RNG')"
+      ]
+    },
+    {
+      "category": "playable-character",
+      "name": "Jeanne (and Charles) playable via 'Jeanne's Tale' post-game chapter",
+      "detail": "After completing all 13 main chapters (on any difficulty), a secret post-game chapter called 'Jeanne's Tale' unlocks, accessed from the main menu Extras/relevant prompt. It is a short (~1 hour, vs. ~15 hours for the main campaign), fully linear chapter with NO collectibles, pitting Jeanne (with her demon companion 'Charles,' a red Cheshire-equivalent) against a final boss called 'the Affirmer of Phenomena' / 'He Who Affirms All Phenomena' (revealed to be Singularity, the antagonist of Bayonetta 3). Defeating this boss unlocks the game's 'true ending.' Controls reuse the exact same dual-side Joy-Con layout as Cereza+Cheshire. Jeanne's Thorn Bind spell differs mechanically from Cereza's: it has a single cooldown meter that grows with use, can bind multiple enemies at once with a larger AoE (trade-off: longer cooldown), letting Charles combo multiple bound enemies. Charles can switch between all four Elemental Core forms and Hug/Unleashed modes freely during the chapter, same as Cheshire.",
+      "trackable": "Jeanne's Tale completion is confirmed via costume unlocks (see below) and is required to see the game's true ending.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-jeannes-tale-guide-walkthrough/",
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/how-to-play-as-jeanne/",
+        "https://www.inverse.com/gaming/bayonetta-origins-true-ending-unlock-secret-jeannes-tale",
+        "https://screenrant.com/how-to-unlock-play-jeanne-bayonetta-origins/"
+      ]
+    },
+    {
+      "category": "playable-character",
+      "name": "Jeanne/Charles also playable as alternate movesets on Cereza/Cheshire in the main campaign",
+      "detail": "Completing Jeanne's Tale unlocks three costumes: 'Jeanne' and 'Arch Eve Origin' (for Cereza), and 'Charles' (for Cheshire). Equipping the 'Jeanne' costume on Cereza and the 'Charles' costume on Cheshire changes their moves/mechanics to Jeanne's and Charles's respective abilities (as described above) during a replay of the main 13-chapter campaign — i.e., Jeanne is playable as a full alternate moveset for the main game, not just in the standalone bonus chapter. 'Arch Eve Origin' is a cosmetic-only skin depicting Cereza as her Bayonetta 3 appearance and does not change moveset (distinguishing it from the 'Jeanne' costume).",
+      "trackable": "Costume unlock state tracked in the Costumes menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://screenrant.com/how-to-unlock-play-jeanne-bayonetta-origins/",
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-costumes-list-2/"
+      ]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Costume unlocks as proxy completion markers (full list, with corrected/updated counts)",
+      "detail": "A consolidated costume list (single source, cross-checked partially against prior pass) gives 10 Cereza costumes and 5 Cheshire costumes (15 total, revising the prior pass's '14 total / 9+5' figure). Cereza: A Brave Witch (default), A Brave Witch - New Chapter Hairstyle (complete standard difficulty), The Right Eye (complete standard difficulty), An Elegant Swan (all 42 Wisps), Cereza in Wonderland (Gold ranking on ALL Tir Na Nog Time Trials), A Pesky Demon (all Cereza skills), Younger Days (all 12 Remembrances), Observer of Time (beat Forbidden Tale), Arch Eve Origin (clear Jeanne's Tale), Jeanne (clear Jeanne's Tale). Cheshire: The Lost Demon (default), Accurser of Love (all 48 Journals), A Mad Hatter (open all Tir Na Nog chests), A Blundering Witch (all Cheshire skills), Charles (clear Jeanne's Tale). This single source is the strongest evidence yet of a real Gold-medal time-trial ranking system for Tir Na Nog (via 'Cereza in Wonderland').",
+      "trackable": "Costumes menu shows locked/unlocked state for each, functioning as de facto completion-percentage milestones for several systems that otherwise lack a numeric on-screen counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-costumes-list-2/"
+      ]
+    },
+    {
+      "category": "collectible-count-conflict",
+      "name": "Remembrances total: 12 vs. 15 (unresolved conflict)",
+      "detail": "This pass's costume-list source states there are exactly 12 Remembrances ('Younger Days' unlocks at all 12). The prior research pass found 15 Remembrances corroborated by three separate outlets (Yardbarker, TheGamer, GameRant location guides). These two figures directly conflict and could not be reconciled in this pass. Wisps (42) and Journals (48) are NOT in conflict — both this pass and the prior pass agree on those numbers from independent sources, raising them to high confidence.",
+      "trackable": "n/a",
+      "missable": null,
+      "confidence": "low",
+      "sources": [
+        "https://samurai-gamers.com/bayonetta-origins-cereza-and-the-lost-demon/all-costumes-list-2/ (says 12)",
+        "(prior pass) yardbarker.com, thegamer.com, gamerant.com Remembrance location guides (say 15)"
+      ]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Save-file/overall completion percentage", "where": "Save file / file-select screen", "confidence": "medium" },
+    { "stat": "Journals collected (48 total)", "where": "In-game menu > Archives", "confidence": "high" },
+    { "stat": "Wisps rescued (42 total, 8 reward tiers)", "where": "'Helped Wisps' menu; map prompt over Forgotten Knoll when a tier unlocks", "confidence": "high" },
+    { "stat": "Remembrances collected (12 or 15, sources conflict)", "where": "Presumed Remembrances archive menu; exact UI unconfirmed", "confidence": "low" },
+    { "stat": "Tir Na Nog challenges opened/cleared, and Gold-medal time-trial ranking per challenge", "where": "No confirmed dedicated numeric counter screen; tracked indirectly via 'A Mad Hatter' (open all) and 'Cereza in Wonderland' (Gold on all) costume unlocks", "confidence": "medium" },
+    { "stat": "Cereza skill tree completion (100%)", "where": "Skill tree menu; completion confirmed indirectly via 'A Pesky Demon' costume unlock", "confidence": "medium" },
+    { "stat": "Cheshire skill tree completion (100%)", "where": "Skill tree menu; completion confirmed indirectly via 'A Blundering Witch' costume unlock", "confidence": "medium" },
+    { "stat": "Forbidden Tale difficulty clear", "where": "Tracked via 'Observer of Time' costume unlock", "confidence": "high" },
+    { "stat": "Costumes unlocked (15 total: 10 Cereza + 5 Cheshire)", "where": "Costumes menu", "confidence": "medium" },
+    { "stat": "Skill-tree currency amounts (Onyx Roses, Avalon Drops, Inferno Fruits, Moon Pearls)", "where": "Possibly a 'Stats and Resources' UI screen (per Game UI Database category label); exact display not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Bayonetta Origins: Cereza and the Lost Demon has no PC/PlayStation/Xbox release; Nintendo Switch is the only platform (Switch 2 listing is backward-compatibility, not a distinct version), so no cross-version content differences apply to progression, stats, missables, or RNG.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Remembrances total is disputed between 12 (this pass, single costume-list source) and 15 (prior pass, three independent location-guide sources). Needs a tie-breaking source, ideally the Bayonetta Fandom wiki's dedicated Remembrances page (not yet fetched directly in either pass).",
+    "No primary/official source (patch notes, developer statement, or a directly-viewed screenshot) confirms the save-file completion percentage — it remains corroborated only by community threads and one circumstantial GameBanana tool name.",
+    "Could not read the actual contents of the Game UI Database's 'Stats and Resources' screenshot category (site blocked automated access beyond category labels), so it is unconfirmed whether skill-tree currencies (Onyx Roses, Avalon Drops, Inferno Fruits, Moon Pearls) are shown as live numeric counters anywhere, or only consumed silently at the point of spending.",
+    "Exact total number of Tir Na Nog challenge rooms/dungeons is still unconfirmed by any source in either pass (prior pass estimated ~12-13 by inference only).",
+    "Could not confirm whether the game shows a per-area map completion percentage (only an overall save-file percentage is reported); no source described a per-region breakdown screen.",
+    "Absence of RNG systems is an absence-of-evidence finding, not a positive statement from a developer or manual — no source explicitly says 'this game has no randomized drops,' it is inferred from guides documenting fixed exact contents everywhere and no probability language appearing anywhere in reviews or guides searched.",
+    "Could not confirm whether the 'Whispering Path' tutorial area (locked again after leaving until the game's end, per the Fandom wiki) contains any collectible that would be delayed until endgame rather than immediately collectible — this affects optimal 100%-run routing but not whether anything is permanently missable.",
+    "Could not verify Jeanne's Tale playtime beyond a single rounded '~1 hour' estimate from one outlet (Inverse); no second source with an independent time estimate was found.",
+    "The costume total of 15 (10 Cereza + 5 Cheshire) comes from a single AI-summarized guide page and was not cross-checked against a second full costume list; treat exact costume count/names as medium rather than high confidence pending a second source."
+  ]
+}

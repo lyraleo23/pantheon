@@ -1,0 +1,154 @@
+{
+  "beat": "campaign",
+  "game": "Bayonetta Origins: Cereza and the Lost Demon",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "13 main story chapters (no separate numbered Prologue in chapter-select lists)",
+      "detail": "The main campaign is divided into 13 numbered chapters: 1. Trial of the Full Moon, 2. Into the Unknown, 3. The First Elemental Core, 4. Cereza's Resolve (split into Part One/Part Two by at least one guide), 5. The Mad Circus, 6. Fear and Frustration, 7. Nest of the Wyrm, 8. Torn, 9. Alone Again, 10. The King's Entrance, 11. The Forbidden Altar, 12. For a Friend, 13. A Witch Is Born This Night. A prior research pass claimed an additional separate 'Prologue' and 'Epilogue' framing these 13 chapters, but the fullest chapter-list guide found in this pass (TheGamer's complete walkthrough table of contents) begins at Chapter 1 with no distinct Prologue/Epilogue entries — this is a real discrepancy, likely because the opening hour-long tutorial is folded into Chapter 1 rather than being a separate menu entry.",
+      "trackable": "Chapter/checkpoint progress is used for guide navigation; whether the game itself displays a chapter-select or chapter-complete screen with numbering was not directly confirmed by a screenshot in this pass (inherited gap from prior pass).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-complete-guide-walkthrough/", "https://nintendosmash.com/ (chapter walkthrough series)"]
+    },
+    {
+      "category": "boss",
+      "name": "White Wolf",
+      "detail": "Guards the Wood Shrine / Wood Core. Encountered in Chapter 3 ('The First Elemental Core'). Defeating/resolving this encounter yields the Wood Core, granting Cheshire his first elemental form (Wood Cheshire: tongue-grapple/wood attacks).",
+      "trackable": "Elemental Core acquisition presumably reflected in the skill/ability menu (Wood Cheshire becomes selectable); no explicit boss-log/bestiary confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["GameLuster boss guides", "TheGamer Chapter 3 walkthrough", "Bayonetta Fandom wiki (Cheshire demon page)"]
+    },
+    {
+      "category": "boss",
+      "name": "Amadán Dubh (\"the Faerie Jester\")",
+      "detail": "Guards the Stone Shrine / Stone Core, fought in Chapter 5 ('The Mad Circus') at 'Amadan's Big Top.' Two-phase fight (rolling ball phase, then pillar-hopping/cannon phase). Defeating him grants the Stone Core and Stone Cheshire form (transforms into stone, performs a powerful ground-pound stomp).",
+      "trackable": "Same as above — no explicit boss-log confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-amadan-dubh-boss-battle-strategy-guide/", "https://gameluster.com/bayonetta-origins-cereza-amadan-dubh-the-faerie-jester-boss-guide/", "https://bayonetta.fandom.com/wiki/Am%C3%A1d%C3%A1n_Dubh"]
+    },
+    {
+      "category": "boss",
+      "name": "Jabberwock",
+      "detail": "A dragon guarding the Water Shrine / Water Core, fought (twice within the same encounter/chapter) in Chapter 7 ('Nest of the Wyrm'). Widely cited by reviewers/guides as the most difficult and highest-attempt-count boss in the game, with four combat phases. Defeating it grants the Water Core and Water Cheshire form (water-stream attack/propulsion, swimming).",
+      "trackable": "n/a beyond ability unlock.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-jabberwock-boss-battle-strategy-guide/", "https://gameluster.com/bayonetta-origins-cereza-jabberwock-the-faerie-dragon-boss-guide/", "https://nintendosmash.com/bayonetta-origins-cereza-and-the-lost-demon-how-to-defeat-jabberwock/"]
+    },
+    {
+      "category": "boss",
+      "name": "Púca (self-proclaimed \"Faerie King\"), summons Affinity",
+      "detail": "Guards the Fire Core within Púca's Fortress, fought in Chapter 10 ('The King's Entrance'). Also referred to in some guides as 'King Puca.' The fight involves Púca's angelic summon, Affinity. Defeating him grants the Fire Core and Fire Cheshire form (fireballs that melt ice barriers, scorch enemies) — the fourth and final individual elemental form.",
+      "trackable": "n/a beyond ability unlock.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gameluster.com/bayonetta-origins-cereza-boss-guide-elemental-fire-core-how-beat-puca-affinity/", "https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-king-puca-affinity-boss-fight-guide/", "https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-chapter-10-walkthrough-the-kings-entrance/"]
+    },
+    {
+      "category": "systems",
+      "name": "Confirmed: exactly 4 Elemental Cores, each tied to one boss",
+      "detail": "The 4-Elemental-Core structure from the prior pass is confirmed and now fully named: Wood Core (White Wolf, Ch.3), Stone Core (Amadán Dubh, Ch.5), Water Core (Jabberwock, Ch.7), Fire Core (Púca, Ch.10). No fifth core or fifth boss of this class was found in any source.",
+      "trackable": "Presumed reflected via the elemental-form selection menu (each form becomes usable once its Core is destroyed); no dedicated 'X/4 cores' counter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["Cross-referenced across GameLuster, TheGamer, NintendoSmash, and Bayonetta Fandom wiki boss guides"]
+    },
+    {
+      "category": "story milestone",
+      "name": "Cheshire Unbound Form",
+      "detail": "In Chapter 11 ('The Forbidden Altar'), after all 4 Elemental Cores have been collected, Cheshire combines all four elemental powers to transform into 'Unbound Form,' gaining golden adornments and access to attacks from all four elements at will, plus a mist-based dodge and a dark-vortex tail attack (visually similar to his Bayonetta 3 appearance). This form is used against a boss/character named Lukaon in the same chapter.",
+      "trackable": "Presumed a permanent late-game ability from this point on; no separate counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-chapter-11-forbidden-altar-walkthrough/", "https://bayonetta.fandom.com/wiki/Cheshire_(demon)"]
+    },
+    {
+      "category": "boss",
+      "name": "Lukaon",
+      "detail": "Fought/encountered in Chapter 11 ('The Forbidden Altar'), the chapter where Cheshire gains Unbound Form; Lukaon regenerates health during the fight, requiring the player to out-damage the regen using Unbound Form. Cereza is described as saying farewell to Lukaon prior to the final confrontation with Morgana, suggesting Lukaon is a faerie-world ally/figure rather than the final villain. Exact nature (ally boss/trial vs. antagonist) not fully clarified by sources found.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-chapter-11-forbidden-altar-walkthrough/", "search-engine AI synopsis of ending referencing 'farewell to Lukaon'"]
+    },
+    {
+      "category": "boss",
+      "name": "Morgana (main story final boss)",
+      "detail": "Fought in Chapter 13, 'A Witch Is Born This Night' (the final numbered chapter). Morgana, having blamed Cereza for her son's fate, turns on her; encouraged by Cheshire, Cereza unlocks Witch Time for the first time (saying 'Let's dance' for the first time) and uses it to defeat Morgana, destroying her Umbran Watch. Morgana's soul is dragged into Inferno. This is the climax of the main 13-chapter story — the moment Cereza crosses the threshold into becoming a true Umbra Witch.",
+      "trackable": "Story/cutscene milestone, not a counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.svg.com/1276775/bayonetta-origins-ending-explained/", "https://www.inverse.com/gaming/bayonetta-origins-ending-is-the-franchises-emotional-high-point", "https://www.youtube.com/watch?v=1D549L2QWV0 (titled 'Final Boss Fight Morgana Vs Cereza Chapter 13')", "en.wikipedia.org"]
+    },
+    {
+      "category": "ending",
+      "name": "Main story ending (Chapter 13 conclusion)",
+      "detail": "After defeating Morgana, Cereza says farewell to Lukaon, and Cheshire returns to Inferno, parting ways with Cereza. The game closes with a time-skip/montage implying Cereza's transformation over the following years into the adult witch Bayonetta. Only one main-story ending was found in any source — no branching/alternate main-story endings were identified.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.svg.com/1276775/bayonetta-origins-ending-explained/", "https://www.inverse.com/gaming/bayonetta-origins-ending-is-the-franchises-emotional-high-point"]
+    },
+    {
+      "category": "postgame",
+      "name": "Jeanne's Tale (secret/bonus chapter, the game's \"true ending\")",
+      "detail": "Unlocked from the title screen's 'Extras' menu after completing all 13 main-story chapters (roughly a 15-hour main campaign per one source). Jeanne's Tale is a self-contained, roughly 1-hour bonus chapter played as Jeanne, accompanied by a Red Cheshire named 'Charles' (using a stronger version of Thorn Bind, with a longer cooldown than the main game's Cheshire). It culminates in a boss fight against 'the Affirmer of Phenomena,' who is revealed to be Singularity, the antagonist from Bayonetta 3 — this fight forces the player to also face reprises of bosses defeated earlier in the main story, and denies healing. Singularity offers to spare Jeanne if she abandons Cereza; she refuses, and after Cereza's intervention they defeat him together. Multiple outlets (Inverse, ScreenRant) frame this as the game's actual/true ending, distinct from and additional to the Chapter 13 Morgana ending, tying directly into the broader Bayonetta franchise timeline. Reward: three new costumes plus the secret-ending cutscene.",
+      "trackable": "Presumably flagged as completed via the Extras menu / save file; explicit UI not confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.inverse.com/gaming/bayonetta-origins-true-ending-unlock-secret-jeannes-tale", "https://screenrant.com/how-to-unlock-true-final-boss-bayonetta-origins/", "https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-jeannes-tale-guide-walkthrough/"]
+    },
+    {
+      "category": "structure",
+      "name": "Named sub-areas of Avalon Forest",
+      "detail": "Per the Bayonetta Fandom wiki's Avalon Forest article (inherited/re-confirmed from prior pass, not independently re-verified this pass), 18 named sub-areas exist within the single connected world: Whispering Path (tutorial area, inaccessible after leaving until the game's end), Jade Hill (central hub), Leafy Nook, Lake Nimueh, Sunspeckled Grove (largest area; houses the Wood Core), Chalkroot Hollow, Faerieland Tower, The Watchtower, Forgotten Knoll, Windy Knot, Giant's Basin, Wyvern Falls (Water Core), Ashenbark Woods, Púca's Fortress (Fire Core), Sunkissed Shore, Forbidden Grounds, Overgrown Shrine, Altar of the Faerie King. Note: this pass could not find a second independent source confirming the exact list of 18, though the area names individually recur across multiple chapter-walkthrough titles (e.g. Jade Hill, Púca's Fortress).",
+      "trackable": "No per-area completion percentage confirmed; a world map exists for navigation.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bayonetta.fandom.com/wiki/Avalon_Forest (from prior pass, via r.jina.ai proxy)"]
+    },
+    {
+      "category": "collectible/structure",
+      "name": "Tír Na Nóg challenge dungeons — total count",
+      "detail": "TheGamer's dedicated Tír Na Nóg locations guide states there are 37 Tír Na Nóg challenges total, of which 'only about half' are story-related/mandatory (implying roughly 18-19 are required to progress and roughly 18-19 are optional, requiring backtracking to find — notably significant backtracking after Chapter 11). Challenge types include puzzle trials, combat trials, and specialty trials (time limits, no-damage runs, escort missions). This 37 figure is a firmer, more specific number than the prior pass's rough 12-13 estimate and should supersede it — but it comes from a single guide source and was not independently cross-confirmed by a second outlet in this pass.",
+      "trackable": "Completing trials rewards Vitality Petals; completing all 37 plus earning Platinum times on select timed trials unlocks a unique Cheshire costume (per the same source) — this implies some kind of completion tracking exists for both the 37-count and per-trial time rankings, though no explicit on-screen 'X/37' counter was directly confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-tir-na-nog-collectible-locations-guide/"]
+    },
+    {
+      "category": "systems",
+      "name": "Tír Na Nóg reward structure detail",
+      "detail": "Completing a Tír Na Nóg trial rewards a Vitality Petal (5 petals = 1 Vitality Blossom = +1 max HP segment for Cereza). A special reward — a unique Cheshire costume — is tied to completing all 37 trials AND achieving Platinum time rank on a subset of timed trials specifically.",
+      "trackable": "Costume unlock implies the game tracks both trial completion and per-trial time-rank (medal) status somewhere, likely the Tír Na Nóg selection menu itself showing best time/rank per cleared trial.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-origins-cereza-and-the-lost-demon-tir-na-nog-collectible-locations-guide/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Chapter progress (13 main chapters)", "where": "Inferred from guide structure; explicit in-game chapter-select/complete screen not screenshotted or confirmed in this pass", "confidence": "low" },
+    { "stat": "Elemental Cores destroyed (4 total: Wood/Stone/Water/Fire)", "where": "Presumed reflected via elemental-form unlocks in the ability/skill menu; no explicit '0/4 cores' counter confirmed", "confidence": "medium" },
+    { "stat": "Tír Na Nóg trials cleared (37 total) and per-trial time rank (medal, up to Platinum)", "where": "Likely the Tír Na Nóg selection/replay menu (a 'sanctuary' where trials can be replayed for better times per prior pass); explicit on-screen counter not directly confirmed this pass", "confidence": "medium" },
+    { "stat": "Overall save-file completion percentage (inherited from prior pass, unresolved)", "where": "Save file / file-select menu; still not confirmed via an official/primary source, only community threads", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Nintendo Switch is the only platform (previously confirmed, not re-verified this pass). No campaign-content differences by platform/version were found.", "confidence": "high" },
+    { "note": "Discrepancy found: prior research pass described the story as 'Prologue + 13 chapters + Epilogue'; this pass's most complete chapter-list source (TheGamer) lists only Chapters 1-13 with no separate Prologue/Epilogue menu entries, suggesting the opening tutorial is likely part of Chapter 1 rather than a distinct Prologue slot. Not fully resolved — could not find an in-game menu screenshot to settle this.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the game displays an explicit in-game chapter-select screen/numbering to the player (vs. this being purely a guide-author convention for organizing walkthroughs) — matters for any 'complete Chapter X' trophy wording.",
+    "Could not independently cross-confirm the 37 total Tír Na Nóg count with a second source; only one guide (TheGamer) gives this specific figure, superseding the prior pass's vaguer 12-13 estimate but still resting on a single source.",
+    "Could not confirm the exact nature of Lukaon (ally, faerie-world figure, or minor antagonist) or the full context of the Chapter 11 fight involving Lukaon and Cheshire's newly gained Unbound Form.",
+    "Could not obtain a second independent source verifying the complete 18-area list of Avalon Forest sub-areas (only the Bayonetta Fandom wiki, carried over from the prior pass).",
+    "Could not confirm whether the main story (Chapters 1-13) has any branching or alternate endings beyond the single Morgana-defeat ending; all sources describe only one main-story conclusion.",
+    "Could not find a definitive, official (developer/publisher-stated) total playtime figure for either the main story or Jeanne's Tale specifically — the ~15 hours (main story) and ~1 hour (Jeanne's Tale) figures each come from a single secondary source (Inverse; ScreenRant/Inverse) and were not cross-confirmed by a second outlet.",
+    "Could not confirm whether completing Jeanne's Tale (the 'true ending') is required for, or separate from, the previously-reported save-file completion percentage capping around 97-99% — i.e. whether skipping Jeanne's Tale caps a player's completion percentage below 100% by design.",
+    "Did not re-verify the previously-flagged open question of whether 'Bloom Pendant' exists as a real item name (prior pass concluded it likely does not exist under that name) — this beat's sources did not surface the term either, consistent with the prior pass's conclusion that it should be dropped from trophy design.",
+    "Could not confirm whether the Amadán Dubh, Jabberwock, or Púca boss fights are each fought exactly once, or (as with Jabberwock, confirmed fought twice within Chapter 7) potentially reprised elsewhere in the story or in Jeanne's Tale (Jeanne's Tale is stated to force refights of 'bosses you defeated along Cereza's journey', but which specific bosses reprise was not itemized in any source found)."
+  ]
+}
