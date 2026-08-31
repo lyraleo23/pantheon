@@ -1,0 +1,130 @@
+{
+  "beat": "systems",
+  "game": "Bayonetta 3",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "difficulty ladder",
+      "name": "Casual / Standard / Expert / Non-Stop ∞ Climax",
+      "detail": "Four difficulty tiers, easiest to hardest: Casual ('for those simply looking to enjoy the story'; scores not uploaded to rankings), Standard (default/recommended, 'traditional' experience), Expert ('for veterans of hardcore action'), and Non-Stop ∞ Climax (colloquially 'Infinite Climax') - the 'ultimate combat experience' with drastically tougher, stun-resistant enemies. Non-Stop ∞ Climax unlocks after clearing the story once on ANY difficulty (including Casual).",
+      "trackable": "Difficulty is selected from a 'Difficulty Select' menu (press + at the Chapter Select screen). No numeric completion percentage is tied to difficulty, but which difficulties have been cleared per chapter may be implied by medal records (unconfirmed).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://samurai-gamers.com/bayonetta-3/game-difficulty-guide-6/", "https://gamertweak.com/unlock-non-stop-climax-difficulty-bayonetta-3/", "https://screenrant.com/how-to-unlock-infinite-climax-difficulty-mode-bayonetta-3/", "https://twinfinite.net/guides/how-to-change-difficulty-in-bayonetta-3/ (via search snippet)"]
+    },
+    {
+      "category": "difficulty mechanic",
+      "name": "Difficulty is changeable per-chapter, not locked to a continuous playthrough",
+      "detail": "Unlike Bayonetta 1 and 2, difficulty in Bayonetta 3 can be changed at any time from the Chapter Select screen's menu (press +), not just at a New Game start. This applies to Casual/Standard/Expert and, once unlocked, very likely to Non-Stop ∞ Climax as well (multiple sources describe switching among 'casual, standard, and expert' freely and describe Infinite Climax as unlocked in the same Difficulty Select menu, implying the same free-switching applies to it).",
+      "trackable": "Not explicitly confirmed whether the game records/displays 'this chapter cleared on Non-Stop ∞ Climax' anywhere.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://twinfinite.net/guides/how-to-change-difficulty-in-bayonetta-3/ (via search snippet)", "https://www.destructoid.com/closer-look-at-bayonetta-3-gameplay-easy-automatic-how-to-difficulty-settings/"],
+      "notes": "IMPORTANT for trophy design: a 'beat the game on Non-Stop ∞ Climax' trophy likely does NOT require an unbroken single continuous playthrough at that difficulty - a player could plausibly clear chapters individually at that difficulty via Chapter Select after initially finishing the story on Casual. Could not find a source that explicitly confirms or denies whether the game tracks a per-chapter 'highest difficulty cleared' flag, which would be needed to verify a 'full game on hardest difficulty' trophy is legitimately completable/verifiable rather than gameable via easier settings for most of the run."
+    },
+    {
+      "category": "ranking system",
+      "name": "Verse medal ranks: Bronze / Silver / Gold / Platinum / Pure Platinum",
+      "detail": "The classic Bayonetta verse-rank system carries over into Bayonetta 3. After each Verse (combat encounter within a chapter), the game grades performance and awards a medal. Pure Platinum requires clearing the verse quickly, with big combos, and taking ZERO damage (even one point of damage caps the result at regular Platinum). A chapter's overall grade is derived by tallying medals across all its verses.",
+      "trackable": "Confirmed a post-verse completion screen shows the medal earned, per Scout D's Chapter 9 walkthrough source (enemy health bars + point-threshold challenges). Whether chapter select displays the CUMULATIVE/BEST medal per verse or per chapter (so a player can check 'did I get Pure Platinum on all verses' without replaying) was NOT independently confirmed this pass.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://twinfinite.net/guides/how-to-increase-battle-score-get-pure-platinum-medals-in-bayonetta-3/ (via search synthesis)", "https://gamefaqs.gamespot.com/boards/228821-bayonetta-3/80213449 (thread titled 'Clear Medals')"],
+      "notes": "The 'Stone' rank (lowest tier in Bayonetta 1, given for dying 5+ times in a chapter) could NOT be confirmed to exist in Bayonetta 3 specifically - all Bayonetta-3-specific sources found only mention Bronze/Silver/Gold/Platinum/Pure Platinum (5 tiers, not 6). Treat 'Stone' as unconfirmed/possibly not present in BY3; do not assume the 6-tier BY1/2 system carried over unchanged."
+    },
+    {
+      "category": "collectible / secret boss",
+      "name": "Medallion Shards (Blue Medallion) -> secret chapter 'The Artifact Unleashed' -> boss 'Golem'",
+      "detail": "CONFIRMED (this corrects an earlier low-confidence flag from a prior research pass). Four Medallion Shard fragments are hidden as unassuming/depowered treasure boxes across the campaign: in Chapter 1 (after Verse 1), Chapter 4 (after Verse 1, near sun/moon pillars), Chapter 7 (Ginnungagap portal zone), and Chapter 10 (after Verse 2, inside a breakable stone tower). Collecting all 4 assembles the Blue Medallion and unlocks a secret extra chapter, 'The Artifact Unleashed,' accessible via a green icon on the Chapter Select map. It contains a single-verse boss fight against a shapeshifting 'prismatic Golem' (mimics previously seen enemies + laser attacks). Reward: one full Witch Heart and one complete Moon Pearl.",
+      "trackable": "A green icon appears on the Chapter Select map once all 4 shards are collected, functioning as a visible unlock indicator (same pattern as the red Phenomenal Remnant icon).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-extra-chapter-the-artifact-unleashed-guide-walkthrough/", "https://screenrant.com/where-to-find-medallion-shards-locations-bayonetta-3/", "https://www.gameskinny.com/tips/bayonetta-3-where-to-find-all-blue-medallion-shards/", "https://nintendosmash.com/bayonetta-3-how-to-unlock-golem-secret-boss/", "https://www.gamepur.com/guides/where-to-find-all-medallion-shards-in-bayonetta-3", "https://www.neoseeker.com/bayonetta-3/walkthrough/The_Artifact_Unleashed"],
+      "notes": "Not permanently missable: shards are found in main-story chapters (1, 4, 7, 10) which remain replayable via Chapter Select indefinitely."
+    },
+    {
+      "category": "missable content",
+      "name": "No permanently missable content identified",
+      "detail": "Every collectible/challenge system checked this pass (Umbran Tears of Blood, Bewitchments, Card Packs, Figure Boxes, Medallion Shards) is located within main-story chapters, and chapters are confirmed replayable via Chapter Select at any time after first completion, including after finishing the whole game. No source found describing a point-of-no-return that locks a player out of any collectible, side mission, or optional boss.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["General search synthesis on chapter replay ('upon completing a chapter, players will be able to replay it at any time via the Chapter Select screen')", "Scout D dossier (Umbran Tears: 'Chapters can be replayed to pick up missed tears')"],
+      "notes": "This is an absence-of-evidence conclusion, not an explicit official statement that 'nothing is missable.' Recommend against building any 'permanently missable collectible' trophy for this game; series precedent (BY1/BY2) also had no permanently missable content once chapter select unlocks."
+    },
+    {
+      "category": "trackable stats",
+      "name": "No overall save-file / menu completion percentage found",
+      "detail": "Despite dedicated searching (including community 100%-save-file discussions on GBAtemp and Speedrun.com), no source describes a single aggregate completion percentage number anywhere in Bayonetta 3's UI. What DOES exist: per-chapter Bewitchment checklist (5 per chapter), per-chapter Umbran Tear of Blood indicator (3 per chapter, shown via icon), and presumably a Gallery menu tracking unlocked Card Pack / Figure Box art (not confirmed to show a numeric counter). Community members on GBAtemp explicitly discuss NOT having a true 100% save file readily available, suggesting completion is tracked player-side (via wikis) rather than via an official percentage.",
+      "trackable": "No aggregate percentage confirmed anywhere. Only itemized per-chapter checklists (Bewitchments, Umbran Tears) are confirmed to be displayed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gbatemp.net/threads/bayonetta-3-save.621155/ (via search synthesis)", "https://gbatemp.net/threads/does-someone-have-a-bayonetta-3-save-100-save-file.621012/", "https://www.speedrun.com/bayonetta/forums/nj0ep"],
+      "notes": "This remains the single most load-bearing gap for 'collect everything'-style trophies: without an in-game aggregate tracker, any 100%-completion trophy must be built from the sum of separately-tracked per-chapter checklists (Bewitchments + Umbran Tears), not a single UI number."
+    },
+    {
+      "category": "playable characters",
+      "name": "Bayonetta, Viola, Jeanne (3 total)",
+      "detail": "Bayonetta and Viola are both playable across the main 14-chapter campaign (specific chapter-by-chapter split not fully itemized this pass, but Viola is confirmed to play a substantial portion). Jeanne is playable DURING the campaign only in limited contexts: her four numbered 'Side Mission' 2D stealth-action chapters, Phenomenal Remnant challenge chapters, and specific special encounters (e.g., fights against Rodin or the secret Golem boss). After completing the main story once (on ANY difficulty, including Casual), Jeanne is unlocked as a full playable character from the Main Menu and can play through the ENTIRE main story campaign as her, not just her side-content segments.",
+      "trackable": "Character select is available from the Main Menu post-completion; no separate per-character completion tracker confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.newsweek.com/bayonetta-3-all-playable-characters-1755518", "https://gamertweak.com/unlock-jeanne-bayonetta-3/ (via search synthesis)", "https://screenrant.com/how-to-unlock-jeanne-bayonetta-3/", "https://gamerant.com/how-to-unlock-play-as-jeanne-in-bayonetta-3/"],
+      "notes": "Character-specific mechanic difference (from prior pass, still reliable): Viola cannot trigger Witch Time via a standard last-second dodge like Bayonetta; she must use a parry mechanic instead. This is directly relevant to any 'trigger Witch Time as Viola' trophy wording."
+    },
+    {
+      "category": "currency / trackable stats",
+      "name": "Three on-screen currencies: Halos, Orbs, (Homunculus) Seeds",
+      "detail": "Bayonetta 3 displays three distinct currencies simultaneously in the top-right of the HUD: Halos (now a rarity, used exclusively for cosmetic items - found in hidden Verses vs. Angels or hidden in world objects), Orbs (earned via Combo Points in battle, used to level up Infernal Demons), and Seeds/Homunculus Seeds (the main currency, dropped by Homunculi enemies, used to buy items/accessories/weapons at Rodin's shop). All three totals are visible on-screen during gameplay at all times.",
+      "trackable": "All three currency totals are displayed persistently on the HUD (top-right corner), not hidden in a submenu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Search synthesis citing Samurai Gamers 'Seed Farming Guide', Inverse Halo farm guide, Gamer Journalist 'How to Find Halos'"],
+      "notes": "Good candidate basis for a 'max out a currency' or 'reach X total' trophy since it's persistently visible, though exact HUD confirmation via direct screenshot/video was not independently done this pass (medium confidence)."
+    },
+    {
+      "category": "RNG systems",
+      "name": "No confirmed randomized loot/drop-rate system",
+      "detail": "Treasure chests found across chapters appear to have FIXED, guide-documented contents (Broken Witch Hearts, Broken Moon Pearls, Golden LP record fragments at specific locations) rather than randomized loot tables - consistent with the franchise's history of hand-placed, skill-based progression rather than RNG loot. Currency drops (Halos/Orbs/Seeds) from enemies appear to scale with combo performance rather than random chance. No gacha-style mechanic was found for the 'Card Pack' collectible name notwithstanding - Card Packs are fixed world-placed collectibles unlocking specific Gallery art, not randomized packs.",
+      "trackable": "n/a - no RNG system to track",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["Search synthesis across Nintendolife/Sportskeeda treasure chest guides, TheGamer/Nintendolife Card Pack guides"],
+      "notes": "This is an absence-of-evidence finding, not a confirmed statement from a developer or comprehensive systems guide that 'there is no RNG in this game.' Recommend treating any trophy requiring RNG luck (e.g., 'get a rare drop') as unsupported by current evidence - the game appears to have essentially no relevant RNG systems for trophy design purposes."
+    },
+    {
+      "category": "postgame content",
+      "name": "Platinum Ticket / Devil Rodin superboss (carried over from prior pass, re-confirmed relevant)",
+      "detail": "Post-game, spending 999,999 Homunculus Seeds on the 'Platinum Ticket' triggers a fight against Rodin at full power ('Devil Rodin'), described by at least one source as the toughest boss in the game. The 'Climax Earring' accessory (80,000 Seeds) grants infinite magic/Rage meter but disables score tracking while equipped - directly relevant to trophy design since equipping it would break any medal-rank-based trophy conditions.",
+      "trackable": "Presumably tracked via the accessories/shop menu (owned vs. not owned), not independently re-confirmed this pass.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Carried from prior pass: https://gamerjournalist.com/bayonetta-3-all-post-game-unlockables/"],
+      "notes": "Re-flagging because it's highly relevant to trophy design guardrails: any trophy requiring a Platinum/Pure Platinum medal must explicitly exclude runs with the Climax Earring equipped, since that accessory is documented to disable scoring."
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-chapter Bewitchment checklist (5 per chapter)", "where": "Chapter Select screen", "confidence": "high" },
+    { "stat": "Per-chapter Umbran Tears of Blood collection (3 per chapter: Cat/Crow/Toad)", "where": "Red icon on Chapter Select map once all 3 collected per chapter", "confidence": "high" },
+    { "stat": "Per-verse medal rank (Bronze/Silver/Gold/Platinum/Pure Platinum)", "where": "Post-verse completion screen; persistence/visibility on Chapter Select not independently confirmed this pass", "confidence": "medium" },
+    { "stat": "Medallion Shard collection (4 total, Blue Medallion)", "where": "Green icon appears on Chapter Select map once all 4 collected, unlocking 'The Artifact Unleashed'", "confidence": "high" },
+    { "stat": "Halos / Orbs / Homunculus Seeds currency totals", "where": "Persistent HUD display, top-right corner during gameplay", "confidence": "medium" },
+    { "stat": "Overall save-file completion percentage", "where": "NOT CONFIRMED to exist anywhere in the UI", "confidence": "medium" },
+    { "stat": "Card Pack collection count (41 total per one source)", "where": "Presumably a Gallery menu; numeric counter display not confirmed", "confidence": "low" },
+    { "stat": "Figure Box collection count (43 total per one source)", "where": "Presumably a Gallery menu; numeric counter display not confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "No Nintendo Switch 2-specific patch, edition, or exclusive content for Bayonetta 3 could be confirmed (absence of evidence, not confirmed absence).", "confidence": "low" },
+    { "note": "Update 1.2 removed the 'Tricolored Keys' requirement for unlocking the 'Old Picture Book' secret Bayonetta Origins preview chapter; on current-patch copies, only purchase from Rodin's shop after reaching 'The Gates of Hell' is required. Tricolored Keys should be treated as obsolete for trophy design.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm whether Non-Stop ∞ Climax difficulty clears are tracked per-chapter (i.e., whether the game can verify 'the whole campaign was cleared on hardest difficulty' as opposed to a player mixing difficulties across chapters via the free difficulty-switching feature). This is critical for designing any hardest-difficulty completion trophy safely.",
+    "Could not confirm whether the classic 6-tier 'Stone' rank exists in Bayonetta 3 specifically; all BY3-specific sources found only reference 5 tiers (Bronze/Silver/Gold/Platinum/Pure Platinum), suggesting Stone may not exist in this entry, but no source explicitly denies it either.",
+    "Could not confirm whether Chapter Select displays a persistent/retained best-medal-per-verse or best-medal-per-chapter indicator (vs. only showing the result once, on the post-verse screen). This determines whether a 'Pure Platinum on every verse' trophy is checkable by the player without a spreadsheet.",
+    "Could not confirm exact total count of 'Witch Trials' (post-game escalating combat challenge series).",
+    "Could not independently verify the Card Pack (41) and Figure Box (43) counts beyond the single TheGamer source already cited in a prior pass; the '12 chapters' figure for Card Packs versus the game's 14 total chapters remains an unresolved discrepancy.",
+    "Could not confirm exact HUD layout/currency display via a direct screenshot or video source this pass; currency-display claim rests on a search-engine synthesis of guide sites rather than a directly fetched, single authoritative source.",
+    "Could not find any developer statement or comprehensive systems breakdown explicitly ruling out RNG mechanics; the 'no RNG' conclusion is inferred from absence of evidence in loot/treasure-chest guides, not a positive confirmation.",
+    "Multiple candidate source pages (Twinfinite Jeanne/difficulty guides, GameFAQs threads, GBAtemp threads, Bayonetta Fandom wiki) returned HTTP 403 when fetched directly this pass; all findings sourced from these come via WebSearch synthesis snippets rather than direct page reads, which is somewhat less reliable than a full-page fetch."
+  ]
+}

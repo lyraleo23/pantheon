@@ -1,0 +1,174 @@
+{
+  "game": "Bayonetta 3",
+  "platform": "Nintendo Switch",
+  "passType": "follow-up (Scout D)",
+  "facts": [
+    {
+      "topic": "Completion tracker - Bewitchments",
+      "finding": "The Chapter Select screen displays, per chapter, which of the chapter's 5 Bewitchments (challenge objectives) have been obtained and which are still missing. Confirmed by TheGamer's Chapter 10 walkthrough: 'the chapter selection screen' where players can 'see which Bewitchments you still need to obtain.' Chapters 10-12 each have exactly 5 Bewitchments and 3 Umbran Tears of Blood.",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-10-cover-of-night-walkthrough/ ; https://www.thegamer.com/bayonetta-3-chapter-12-the-edge-of-madness-walkthrough/",
+      "notes": "Real, player-visible per-chapter checklist - strong candidate for a 'complete all Bewitchments' or 'find all Umbran Tears' trophy design. No numeric overall-game percentage was confirmed."
+    },
+    {
+      "topic": "Completion tracker - Umbran Tears of Blood / Phenomenal Remnant unlock icon",
+      "finding": "Each main chapter (all but the very last) hides 3 Umbran Tears of Blood: a Cat Tear, a Crow Tear, and a Toad Tear (held by familiars). Once all 3 are collected for a chapter, a red diamond/red icon appears on that chapter's entry in the Chapter Select Menu, denoting the chapter's Phenomenal Remnant challenge is now unlocked. Chapters can be replayed to pick up missed tears.",
+      "confidence": "high",
+      "source": "https://gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them/ ; https://segmentnext.com/bayonetta-3-phenomenal-remnants/ ; https://www.polygon.com/guides/23426846/bayonetta-3-umbran-tear-locations-where-to-find/ (title/snippet only, page itself blocked)",
+      "notes": "Second, independent, per-chapter completion indicator (binary unlocked/not), confirmed by two sources describing the same red icon."
+    },
+    {
+      "topic": "Umbran Tears of Blood confirmed returning collectible",
+      "finding": "Umbran Tears of Blood (the Bayonetta 1/2 cat/crow/toad familiar-chase collectible) DOES return in Bayonetta 3, in the same 3-per-chapter format as prior games, and serves the same gating function (unlocking the Alfheim/Muspelheim-equivalent challenge room, now called Phenomenal Remnant).",
+      "confidence": "high",
+      "source": "https://www.polygon.com/guides/23426846/bayonetta-3-umbran-tear-locations-where-to-find/ (snippet) ; https://gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them/ ; TheGamer chapter 10/11/12 walkthroughs",
+      "notes": "There is no SEPARATE, more populous collectible playing the Umbran Tears role; Umbran Tears of Blood themselves are that collectible, just renamed the destination challenge to 'Phenomenal Remnant' instead of Alfheim."
+    },
+    {
+      "topic": "Phenomenal Remnant - official term confirmed",
+      "finding": "'Phenomenal Remnant' is confirmed as the correct, official in-game term (appears in UI, per multiple independent guide sites including IGN's dedicated wiki page titled 'Bayonetta 3 Phenomenal Remnants Guide', CBR, SegmentNext, VG247, Neoseeker, Gamer Journalist, and Polygon). These are secret/optional chapters existing in parallel to the 14 main story chapters.",
+      "confidence": "high",
+      "source": "https://www.ign.com/wikis/bayonetta-3/Bayonetta_3_Phenomenal_Remnants_Guide ; https://www.cbr.com/bayonetta-3-phenomenal-remnants-unlock-guide-nintendo/ ; https://segmentnext.com/bayonetta-3-phenomenal-remnants/ ; https://www.vg247.com/bayonetta-3-full-list-of-bewitchments-every-chapter-phenomenal-remnant ; https://www.neoseeker.com/bayonetta-3/walkthrough/Phenomenal_Remnant_1 ; https://gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them/",
+      "notes": "Titles/URLs gathered via Brave search; several of the underlying pages themselves were blocked (403/paywall) but titles+snippets from 7 independent outlets agree."
+    },
+    {
+      "topic": "Phenomenal Remnant - total count",
+      "finding": "There are 14 Phenomenal Remnants total - one corresponding to each of the game's 14 main story chapters. The 14th (final) one auto-unlocks after completing the main story rather than requiring tear collection. Remnants can be tackled as Bayonetta, Viola, or (post-game) Jeanne.",
+      "confidence": "high",
+      "source": "https://www.cbr.com/bayonetta-3-phenomenal-remnants-unlock-guide-nintendo/ ; https://gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them/",
+      "notes": "Also confirms the main campaign has exactly 14 chapters, corroborated independently by TheGamer's numbered chapter walkthroughs going up to at least Chapter 12."
+    },
+    {
+      "topic": "Phenomenal Remnant - challenge types and rewards",
+      "finding": "Remnant challenges rotate through three categories: timed hidden-item collection trials, timed enemy-group elimination trials, and one-on-one boss battles; the final two remnants (13 and 14) are both boss battles. Rewards include Full Witch Hearts, Full Moon Pearls, unique accessories/weapons, and Infernal Demons (Alraune, Alruna, Kraken, Cassiopeia mentioned as remnant-associated demons/weapons).",
+      "confidence": "medium",
+      "source": "https://www.cbr.com/bayonetta-3-phenomenal-remnants-unlock-guide-nintendo/ ; https://segmentnext.com/bayonetta-3-phenomenal-remnants/",
+      "notes": "Two sources broadly agree but differ slightly on which rewards go with which chapters; exact per-chapter reward mapping unconfirmed."
+    },
+    {
+      "topic": "Card Packs collectible",
+      "finding": "41 Card Packs total, spread across (per the guide) 12 chapters. Collecting them unlocks new art in the game's Gallery. No in-game numeric tracker/counter location was confirmed.",
+      "confidence": "medium",
+      "source": "https://www.thegamer.com/bayonetta-3-card-pack-location-guide/",
+      "notes": "Single source. The '12 chapters' figure is odd given the game has 14 chapters - could mean card packs only appear in 12 of them, or the guide is incomplete."
+    },
+    {
+      "topic": "Figure Box collectible",
+      "finding": "43 Figure Boxes exist across the game's chapters and side missions. They unlock behind-the-scenes/making-of art in the Gallery. Explicitly described as optional.",
+      "confidence": "medium",
+      "source": "https://www.thegamer.com/bayonetta-3-figure-box-location-guide/",
+      "notes": "Single source; guide itself flags a numbering inconsistency (a Chapter 11 box mislabeled 42 instead of 43). No confirmation of an in-game completion percentage/counter UI for figure boxes, though a Gallery menu almost certainly exists."
+    },
+    {
+      "topic": "Bewitchments - per-chapter challenge collectible",
+      "finding": "Each main chapter contains exactly 5 'Bewitchments' - optional in-level challenge objectives (examples from Chapter 10: 'Step on 10 fallen glass shards', 'Climb the stone tower', 'Travel through Ginnungagap without falling', 'Defeat 3 small Golems', 'Avoid getting hit by Strider inside his special field'). A 'selection screen' shows which Bewitchments have been obtained per chapter.",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-10-cover-of-night-walkthrough/ ; https://www.thegamer.com/bayonetta-3-chapter-11-a-familiar-dance-walkthrough/ ; https://www.thegamer.com/bayonetta-3-chapter-12-the-edge-of-madness-walkthrough/",
+      "notes": "Third distinct trackable-collectible system with confirmed per-chapter tracking UI. 14 chapters x 5 Bewitchments = 70 total if the rate holds throughout (only directly verified for chapters 10, 11, 12)."
+    },
+    {
+      "topic": "Medallion Shards / Golem boss - UNABLE TO CONFIRM, likely inaccurate",
+      "finding": "Extensive search (Brave, Bing, exact-phrase queries) turned up zero relevant results for 'Medallion Shard' in connection with Bayonetta 3 - only unrelated companies named 'Medallion.' No guide, wiki, or article confirms this item or an associated Golem boss fight exists. Golems DO appear as a regular enemy type (Chapter 10 Bewitchment: 'Defeat 3 small Golems'), which may be the source of confusion.",
+      "confidence": "low",
+      "source": "Negative result across Brave and Bing search; absence in Gamer Journalist's dedicated accessories/effects and post-game unlockables articles",
+      "notes": "Recommend treating the prior pass's 'Medallion Shards / 4 total / unlocks optional Golem boss' claim as UNVERIFIED and likely misremembered or conflated. Do not build a trophy on it without further confirmation."
+    },
+    {
+      "topic": "Boss list - Chapter 9 (Learning to Fly)",
+      "finding": "Bosses: Volutus and Cumulonimbus (each with three health bars). Chapter has 10 verses. Combat challenges require point thresholds (e.g. gather 4,000 combo points in Verse 3).",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-9-learning-to-fly-walkthrough/",
+      "notes": "End-of-chapter-9 demon rewards Malphas and Baal (per Gamer Journalist's weapons/demons guide) are presumably tied to defeating Volutus and Cumulonimbus respectively, but this 1:1 mapping is not independently confirmed."
+    },
+    {
+      "topic": "Boss list - Chapter 10 (Cover of Night)",
+      "finding": "Bosses: Murus (Verse 3), Opacus (Verse 5), and Strider as the chapter's final boss (four health bars). 8 verses total, spanning Thule, Ginnungagap, and Paris.",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-10-cover-of-night-walkthrough/",
+      "notes": "Strider matches a boss name from the prior pass's editorial list, now confirmed placed in Chapter 10 as the chapter-ending (mandatory, story-critical) boss."
+    },
+    {
+      "topic": "Boss list - Chapter 11 (A Familiar Dance)",
+      "finding": "Bosses/major encounters: Virga (Verse 1, laser attacks, returning enemy), Grace/Glory/Acceptance (Verse 2, angelic trio), Nimbostratus (Verse 4, tower-like), Cumulonimbus (Verse 7, reappearance), Rosa (Verse 8, Umbran Witch, three health bars, summons doors), Umbran Clock Tower (Verse 9, four-sectioned boss with timed vulnerability windows; final verse splits into a side-scrolling section plus the tower confrontation). 9 verses total, 5 Bewitchments, 3 Umbran Tears.",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-11-a-familiar-dance-walkthrough/",
+      "notes": "Confirms and locates the prior pass's 'Rosa/Umbran Clock Tower' finding as two separate consecutive bosses (Rosa Verse 8, then Umbran Clock Tower Verse 9), both mandatory chapter-ending fights. Cumulonimbus is fought more than once across the game (Ch9, Ch11, and again as the Side Mission 2 boss)."
+    },
+    {
+      "topic": "Boss list - Chapter 12 (The Edge of Madness)",
+      "finding": "Bosses: Castellanus (Verse 1), Valiance (Verse 3, three health bars), Duplicatus (Verse 4, self-duplicating enemy), French Bayonetta / Bayonetta B3 (Verse 8, wields the Abracadabra weapon and summons the demon Mictlantecuhtli during the fight), Baal Zebul (Verse 9, fought as a rhythm-based challenge rather than traditional combat). 9 verses total, 5 Bewitchments, 3 Umbran Tears.",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-12-the-edge-of-madness-walkthrough/",
+      "notes": "'Baal Zebul' appears to be this boss's full/proper name (prior pass shortened it to 'Baal'). The demon 'Baal' obtained per the weapons/demons guide at 'End of Chapter 9' may reflect a naming inconsistency between sources, or Baal Zebul (Ch12 boss) and demon Baal (Ch9 reward) could be distinct entities - unconfirmed which is correct."
+    },
+    {
+      "topic": "Boss/demon rewards - other chapters",
+      "finding": "Chapter 2 ending grants weapon G-Pillar / demon Gomorrah. Chapter 3 ending (fighting a 'counterpart') grants Ignis Araneae Yo-Yo / demon Phantasmaranae. Chapter 6 ending grants Dead End Express / demon War Train Gouon. Chapter 9 ending grants both Simoon/Malphas and Ribbit Libido-BZ55/Baal. Chapter 11 ending grants Tartarus / demon Umbran Clock Tower. Chapter 12 ending grants Abracadabra / demon Mictlantecuhtli. Post-main-story grants Cruel Altea / demon Labolas. Chapter 3 Umbran Tears unlock Alruna/Alraune. Chapter 14's Phenomenal Remnant grants Cassiopeia/Kraken. A secret post-game Rodin boss fight (requires the 'Platinum Ticket', 999,999 Homonculus Seeds) grants Devil Rodin - described as 'the toughest boss in the game.'",
+      "confidence": "medium",
+      "source": "https://gamerjournalist.com/how-to-unlock-all-weapons-and-demons-in-bayonetta-3/ ; https://gamerjournalist.com/bayonetta-3-all-post-game-unlockables/",
+      "notes": "Gives demon/weapon names tied to specific chapters but NOT the actual boss enemy names fought in chapters 1, 2, 3, 4, 5, 6, 7, 8, 13, and 14 (only demon/weapon reward names known for 2, 3, 6). Rodin/Devil Rodin is a strong candidate for a superboss/secret-boss trophy - explicitly called the toughest fight in the game, fully optional, gated behind a huge currency cost."
+    },
+    {
+      "topic": "Boss list - gaps",
+      "finding": "Could not confirm exact boss names for Chapters 1, 4, 5, 6, 7, 8, 13, and 14 despite multiple attempts. Could not confirm placement of 'Kraken', 'Iridescent', or the three-part 'Cirrostratus/Cirrocumulus/Stratocumulus' fight referenced by the prior pass's single editorial source - these may be real but their chapter locations and mandatory/optional status remain unverified this pass.",
+      "confidence": "low",
+      "source": "n/a (gap)",
+      "notes": "A further pass fetching TheGamer's Chapter 1-8 and 13-14 walkthrough pages (if exact URL slugs can be found) would likely resolve this - the site clearly has a full walkthrough series (e.g. /bayonetta-3-chapter-11-a-familiar-dance-walkthrough/), but this pass could not enumerate all chapter title slugs."
+    },
+    {
+      "topic": "Jeanne's side chapters - optional/mandatory status",
+      "finding": "Confirmed OPTIONAL. TheGamer's guides explicitly label these 'Side Mission' content ('Jeanne's Spy Action Chapter[s]'). Side Mission 1 unlocks during the main campaign while Bayonetta and Viola pursue Chaos Gears (no boss fight; stealth rescue of Dr. Sigurd). Side Mission 2 ('The Lynx Strikes') unlocks before Chapter 7 and ends with a boss fight against Cumulonimbus. Side Mission 3 ('High Stakes') requires progressing through 'a few main chapters' first; boss is a large Homunculus fought on/around a moving elevator. Side Mission 4 ('The Doctor Is Out') is the final side mission, unlocked after Side Mission 3, and ends with a boss fight (unnamed boss, weakened partway through by ally Dr. Sigurd).",
+      "confidence": "high",
+      "source": "https://www.thegamer.com/bayonetta-3-side-mission-1-guide-walkthrough/ ; https://www.thegamer.com/bayonetta-3-side-mission-2-guide-walkthrough/ ; https://www.thegamer.com/bayonetta-3-side-mission-3-guide-walkthrough/ ; https://www.thegamer.com/bayonetta-3-side-mission-4-guide-walkthrough/",
+      "notes": "Numbered separately (Side Mission 1-4) from the 14 main chapters, reinforcing they sit outside the mandatory critical path. Task brief's name 'The Crimson Shadow' for Side Mission 1 was not independently confirmed (source only calls it 'Jeanne's Spy Action Chapter 1'); High Stakes = Side Mission 3, The Doctor Is Out = Side Mission 4, The Lynx Strikes = Side Mission 2 all match the brief."
+    },
+    {
+      "topic": "Hardest difficulty - exact name",
+      "finding": "The hardest difficulty is officially named 'Non-Stop ∞ Climax' (the infinity symbol is part of the on-screen name), colloquially called 'Infinite Climax' by players/press. It unlocks after clearing the game on Expert difficulty. Direct quote: \"Clear the game on Expert difficulty and left wanting? ... see if you can surmount Infinite Climax difficulty, or to use the proper nomenclature, 'Non-Stop ∞ Climax.'\"",
+      "confidence": "high",
+      "source": "https://gamerjournalist.com/bayonetta-3-all-post-game-unlockables/",
+      "notes": "Resolves the prior pass's naming ambiguity in favor of 'Non-Stop ∞ Climax' over 'Infinite Climax' or 'Non-Stop Infinite Climax.' Single source, but explicit about being the 'proper nomenclature.' Full difficulty ladder (names below Expert) NOT confirmed this pass."
+    },
+    {
+      "topic": "Verse rank system (Stone/Bronze/Silver/Gold/Platinum/Pure Platinum) - carryover unconfirmed",
+      "finding": "Confirmed that chapters are structured into numbered 'Verses' (8-10 per chapter observed) and that a 'completion screen' appears after clearing a verse, with enemy health bars and point-threshold challenges (e.g. '4,000 combo points'). No source found this pass explicitly names or confirms the specific Stone/Bronze/Silver/Gold/Platinum/Pure Platinum 6-tier rank system carrying over verbatim from Bayonetta 1/2.",
+      "confidence": "low",
+      "source": "https://www.thegamer.com/bayonetta-3-chapter-9-learning-to-fly-walkthrough/ (verse/completion-screen structure only)",
+      "notes": "Given the series' strong consistency (both Bayonetta 1 and 2 used this exact rank system), it is plausible it carries over, but this must be treated as unverified recall rather than a confirmed fact."
+    },
+    {
+      "topic": "Ending - single fixed ending vs. Normal/True Ending branch",
+      "finding": "Wikipedia's plot summary describes ONE fixed main-story ending: Bayonetta defeats Singularity (revealed to be an artificial human, Sigurd, from the Alphaverse) with help from Viola, Luka, and alternate-universe Bayonettas; Bayonetta's soul is separated from her body and taken to Inferno by Luka; a post-credits scene shows Viola defeating Dark Eve, inheriting the 'Bayonetta' title, and starting school in New York. No branching ending is described. Separately, an 'Old Picture Book' is a purchasable item (Rodin's shop) that unlocks a bonus secret chapter previewing 'Bayonetta Origins: Cereza and The Lost Demon' - originally gated behind finding 3 'Tricolored Keys' across chapters, simplified in update 1.2 to just requiring purchase after reaching 'The Gates of Hell.'",
+      "confidence": "medium",
+      "source": "https://en.wikipedia.org/wiki/Bayonetta_3 ; https://www.thegamer.com/bayonetta-3-updates-secret-chapter-cereza-and-the-lost-demon-preview/",
+      "notes": "Strongly suggests the 'Normal Ending vs. True Ending' YouTube title referenced in the brief conflated the main story ending with this separate Old Picture Book / Bayonetta Origins preview bonus content, NOT a real narrative branch. This is an inference, not direct confirmation - no source explicitly addressed a 'True Ending' term."
+    },
+    {
+      "topic": "Tricolored Keys collectible (pre-patch 1.2, now obsolete)",
+      "finding": "Prior to update 1.2, unlocking the Old Picture Book secret chapter required finding 3 'Tricolored Keys' hidden across different main chapters, in addition to purchasing the Old Picture Book from Rodin's shop. Post-1.2, this requirement was removed - the book can be bought directly once the player reaches 'The Gates of Hell.'",
+      "confidence": "medium",
+      "source": "https://www.thegamer.com/bayonetta-3-updates-secret-chapter-cereza-and-the-lost-demon-preview/",
+      "notes": "Version/patch difference relevant to trophy design: on current-patch Switch copies, Tricolored Keys are effectively obsolete/no longer required, so a trophy built around finding them would only make sense targeting pre-1.2 behavior - not realistic for a live trophy list. Recommend excluding from trophy design."
+    },
+    {
+      "topic": "Post-game unlockables summary",
+      "finding": "Post-game unlocks include: Jeanne as a fully playable character (same core moveset as Bayonetta with cosmetic/weapon differences), the 'Climax Earring' accessory (80,000 Homonculus Seeds - infinite magic/Rage meter, but disables score tracking while equipped), the 'Platinum Ticket' (999,999 Seeds - triggers a fight against Rodin at full power, called the toughest boss in the game), and 'Witch Trials' (a series of escalating combat challenges with monetary rewards).",
+      "confidence": "high",
+      "source": "https://gamerjournalist.com/bayonetta-3-all-post-game-unlockables/",
+      "notes": "Witch Trials appear to be a distinct system from Phenomenal Remnants - both are post/mid-game challenge content but not confirmed to be the same thing. Total count of Witch Trials not found this pass."
+    }
+  ],
+  "gaps": [
+    "No source found confirming an overall save-file completion PERCENTAGE for Bayonetta 3. Per-chapter tracking exists for Bewitchments (5/chapter) and Umbran Tears of Blood (3/chapter, shown via red icon on Chapter Select), but no evidence of a single aggregate number anywhere in the UI.",
+    "Card Pack (41) and Figure Box (43) counts came from single sources each (TheGamer) and were not cross-verified; the Gallery menu that presumably displays unlocked art was not confirmed to show a numeric/percentage counter.",
+    "Boss names for Chapters 1, 4, 5, 6, 7, 8, 13, and 14 remain unconfirmed (only demon/weapon rewards known for chapters 2, 3, 6; full boss names confirmed only for chapters 9, 10, 11, 12).",
+    "'Medallion Shards' and an associated 'Golem' superboss could not be confirmed by any source and are flagged as likely inaccurate/misremembered from the prior pass.",
+    "Full difficulty ladder (all tier names between Easy/Normal/Hard and Expert/Non-Stop Infinity Climax) not confirmed - only 'Expert' and 'Non-Stop Infinity Climax' were named by a source.",
+    "The Stone/Bronze/Silver/Gold/Platinum/Pure Platinum verse-rank system's exact carryover from Bayonetta 1/2 to Bayonetta 3 was not confirmed by any source this pass (verse structure and post-verse completion screens ARE confirmed, but not the specific rank tier names).",
+    "The 'Normal Ending vs. True Ending' terminology from a YouTube title was not directly resolved - inferred (medium confidence) to refer to the main ending vs. the unrelated Old Picture Book/Bayonetta Origins bonus content, but not explicitly confirmed by any source addressing that specific video or terminology.",
+    "Total number of 'Witch Trials' (post-game challenge series) not found.",
+    "Whether Side Mission 1 has an official subtitle (e.g. 'The Crimson Shadow' as referenced in the task brief) was not confirmed - the only source found referred to it generically as 'Jeanne's Spy Action Chapter 1.'",
+    "Could not access Bayonetta Fandom wiki (persistent HTTP 402 across all URL forms including the MediaWiki API), IGN.com (blocked at domain level by the fetch tool), Polygon, VG247, GameFAQs, Eurogamer, or Archive.org/Wayback Machine at all during this pass - these would likely have filled several of the above gaps if accessible.",
+    "WebSearch tool was completely unavailable this entire pass (session budget exhausted at 200/200 before this pass began). Brave search via WebFetch worked briefly (yielded the best results of any method) then became persistently rate-limited (HTTP 429) for the remainder of the session. Bing search via WebFetch returned generic/irrelevant results that appeared to ignore query specifics. DuckDuckGo and Yandex were blocked by CAPTCHA walls; Startpage, Mojeek, Qwant, and Archive.org were unreachable."
+  ]
+}

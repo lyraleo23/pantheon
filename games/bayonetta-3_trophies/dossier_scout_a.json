@@ -1,0 +1,266 @@
+{
+  "beat": "campaign",
+  "game": "Bayonetta 3",
+  "platform": "Nintendo Switch",
+  "findings": [
+    {
+      "category": "structure",
+      "name": "Overall campaign structure",
+      "detail": "Full order: 'Records of Time: Phenomenal Affirmation' (opening, non-numbered) -> 'Prologue: A Chaotic Encounter' (non-numbered, 3 verses) -> Chapter 1 through Chapter 14 (numbered), with 4 optional Jeanne 'Side Mission' chapters interspersed between main chapters. Adding these up (1 opening + 1 prologue + 14 chapters + 4 side missions = 20) matches a source describing the game as having '20 total chapters' in its menu/chapter list.",
+      "trackable": "Chapter Select menu lists all of these as separate entries.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://sirusgaming.com/bayonetta-3-chapter-list-how-many-chapters/", "https://gamerant.com/bayonetta-3-chapter-list/", "search snippet referencing 'Records of Time – Phenomenal Affirmation is listed as the opening chapter in Bayonetta 3's 20 total chapters'"]
+    },
+    {
+      "category": "structure",
+      "name": "Records of Time: Phenomenal Affirmation (opening segment)",
+      "detail": "A playable prologue-before-the-Prologue: depicts an alternate-universe Bayonetta fighting Singularity and being killed, while Viola watches and inherits the last of her power. Functions as a narrative/tutorial cold-open distinct from 'Prologue: A Chaotic Encounter'.",
+      "trackable": "Appears as its own entry in Chapter Select, replayable.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["YouTube video titles/descriptions (multiple channels) for 'Bayonetta 3 - Opening Scene - Records of Time Phenomenal Affirmation'"]
+    },
+    {
+      "category": "structure",
+      "name": "Prologue: A Chaotic Encounter (full structure)",
+      "detail": "3 verses. Verse 1: opening combat aboard a cruiser. Verse 2: opening battle establishing Infernal Demon power. Verse 3: the Kraken boss fight, played in two phases — first phase with Jeanne's assistance, second phase without her (a scripted narrative beat), after which Jeanne rejoins. This chapter answers gap #5 from the prior pass: yes, a Prologue exists as content separate from Chapter 1, and it is where the game's first real boss fight (Kraken) occurs.",
+      "trackable": "Has its own Bewitchments (a dedicated guide page exists for 'All Bewitchments (Prologue - A Chaotic Encounter)'), confirming the challenge-tracking system extends to the Prologue, though the exact Bewitchment count for the Prologue was not directly confirmed (5, matching main chapters, is a plausible but unverified guess).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.neoseeker.com/bayonetta-3/walkthrough/Prologue_-_A_Chaotic_Encounter (via search snippet)", "https://primagames.com/tips/how-to-unlock-kraken-in-bayonetta-3-answered", "https://screenrant.com/how-to-unlock-kraken-bayonetta-3/", "https://attackofthefanboy.com/guides/how-to-unlock-kraken-in-bayonetta-3/"]
+    },
+    {
+      "category": "boss",
+      "name": "Kraken",
+      "detail": "GAP #3 RESOLVED: Kraken IS a real boss, confirmed by four independent sources. It is the first true boss fight of the game, fought in Verse 3 of the Prologue ('A Chaotic Encounter'), not in the 'opening boss' vague placement guessed by the prior pass's single editorial source. Two large tentacles act as anchors while remaining arms attack; second phase occurs without Jeanne's help. Notably easy/low health pool by design (early-game boss).",
+      "trackable": "Defeating it is required to progress the Prologue.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://primagames.com/tips/how-to-unlock-kraken-in-bayonetta-3-answered", "https://screenrant.com/how-to-unlock-kraken-bayonetta-3/", "https://attackofthefanboy.com/guides/how-to-unlock-kraken-in-bayonetta-3/", "Neoseeker Prologue walkthrough (via search snippet)"]
+    },
+    {
+      "category": "boss",
+      "name": "Iridescent (Iridescent Core / Arch-Iridescent)",
+      "detail": "GAP #3 RESOLVED: 'Iridescent' IS a real boss line, confirmed as the Chapter 3 ('A Sinking Feeling') boss, fought in two named stages: 'Iridescent Core' then 'Arch-Iridescent'. This corrects the prior pass's vague placement ('multi-stage Japan/Tokyo boss chase') to a specific chapter number.",
+      "trackable": "Chapter 3 boss; chapter has 8 verses, 5 Bewitchments, 3 Umbran Tears of Blood (Cat/Frog/Crow).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-3-a-sinking-feeling-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Cirrostratus, Cirrocumulus, and Stratocumulus",
+      "detail": "GAP #3 RESOLVED (with a correction): This three-part fight IS real, but the third name from the prior pass's list was slightly garbled — the correct sequence is Cirrostratus + Cirrocumulus (a paired 'Heavy Tandem Combat Unit', fought together on a giant scale-shaped arena, Chapter 9 Verse 12) followed immediately by Stratocumulus (Chapter 9 Verse 13), a fusion boss born when Cirrostratus absorbs the remains of Cirrocumulus and an entity called 'Jeanne β3'. The Stratocumulus fight is a large-scale kaiju battle where the player switches control between two summoned Infernal Demons, The Phantom and Malphas, on a timer (visuals suggest a countdown of 300 seconds before 'The Phantom's cores overheat and explode'). Cirrostratus, Cirrocumulus, and Cumulonimbus also reappear as summoned adds during the Chapter 14 final battle (Verse 2, against 'Singularity Balance').",
+      "trackable": "All three are mandatory story bosses within Chapter 9 ('Learning to Fly').",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://sirusgaming.com/bayonetta-3-walkthrough-chapter-9-learning-to-fly/", "search snippet citing Bayonetta Fandom wiki pages for Cirrocumulus/Cirrostratus/Stratocumulus", "YouTube 'Bayonetta 3 Boss 19 - Cirrostratus & Cirrocumulus' / 'Boss 20 - Stratocumulus' sequential numbering"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 9 boss roster correction (Volutus does NOT belong here)",
+      "detail": "The prior pass (scout D) reported Chapter 9's bosses as 'Volutus and Cumulonimbus'. This pass found Volutus is actually the Chapter 5 ('Hot Pursuit') boss instead — described there as 'a huge, fiery variant of an Asperatus'. Chapter 9's actual boss sequence is: Cumulonimbus (Verse 10) -> Cirrostratus & Cirrocumulus (Verse 12) -> Stratocumulus (Verse 13). Volutus was not found anywhere in the Chapter 9 walkthrough content that was fetched. Recommend treating the prior pass's Ch9=Volutus claim as superseded/incorrect.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-5-hot-pursuit-walkthrough/", "https://sirusgaming.com/bayonetta-3-walkthrough-chapter-9-learning-to-fly/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 1: Scrambling for Answers — no distinctly named boss",
+      "detail": "GAP #1 (partial): Chapter 1 appears to be a tutorial-style chapter with no single named 'boss' encounter with its own health bar. It features enemy-type encounters (Stratus, Cavum, Floccus, Asperatus, Affinity), a Gomorrah demon-slave chase sequence, and a QTE after an Asperatus fight, but no boss name distinct from these enemy-type names was found in the walkthrough content retrieved.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-1-scrambling-for-answers-guide-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 2: City on Fire — bosses",
+      "detail": "GAP #1 RESOLVED: Asperatus (Verse 6), then 'Twilight Wanderer: Strider' (Verse 8, final encounter) — this is Strider's FIRST appearance in the game, and per the source it is NOT winnable/defeatable at this point ('hard to beat the first time... cannot be defeated by Bayonetta during this chapter'), functioning as a scripted/unwinnable story boss. Chapter has 8 verses, 5 Bewitchments, 3 Umbran Tears (Cat/Frog/Crow).",
+      "trackable": "Verse completion screen; chapter select Bewitchment/Tear tracking.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-2-city-on-fire-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 3: A Sinking Feeling — bosses",
+      "detail": "See 'Iridescent' finding above. 8 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-3-a-sinking-feeling-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 4: Worlds Apart — boss",
+      "detail": "GAP #1 RESOLVED: Cumulonimbus is the sole named boss (first defeatable appearance of this recurring enemy — it later returns in Chapters 9, 11, 13, and as the Side Mission 2 boss). Described using 'stomp and swipe attacks, and a series of laser attacks.' 8 verses, 5 Bewitchments, 3 Umbran Tears. NOTE: chapter title appears as both 'Worlds Apart' (no apostrophe, per chapter-list sources) and 'World's Apart' (with apostrophe, per one walkthrough page title) — spelling not fully reconciled.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-4-worlds-apart-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 5: Hot Pursuit — boss",
+      "detail": "GAP #1 RESOLVED: Volutus, described as 'a huge, fiery variant of an Asperatus' that is 'fast and hits hard'. This is Volutus's actual chapter placement (correcting the prior pass's Chapter 9 attribution). 9 verses, 5 Bewitchments, 3 Umbran Tears. Chapter is largely a Viola-focused introduction (per earlier background: 'it's finally time for Viola to shine').",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-5-hot-pursuit-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 6: Off the Rails — bosses",
+      "detail": "GAP #1 RESOLVED: Virga (Verse 1, first appearance of this recurring dragon-type boss, later reappears in Chapter 11), then Pyrocumulus ('joins the party' in Verse 9), then a train sequence (Verse 10), then Arch-Pyrocumulus as the final boss (Verse 11). 11 verses total, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-6-off-the-rails-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 7: Burning Sands — boss",
+      "detail": "GAP #1 RESOLVED: Strider (second appearance — 'time to fight Strider once again'), serving as the tutorial fight for Viola's powered-up Faerie form. This is the first fight where Strider is actually defeatable. 11 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-7-burning-sands-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 8: A Croaking Chorus — bosses",
+      "detail": "GAP #1 RESOLVED: A five-part boss gauntlet in order: Castellanus (first appearance — reappears in Chapter 12 Verse 1), Grace and Glory (a duo, 'hit very hard, inflict fire and electric damage' — note this is a 2-member duo here, vs. the 3-member 'Grace/Glory/Acceptance' trio later in Chapter 11), Baal (described as 'the reflection of the infernal demon Baal', an enemy encounter, distinct from Chapter 12's differently-named finale boss 'Baal Zebul'), Jeanne (an alternate-universe/reflection Jeanne fought as a boss, using a magic staff with long-ranged melee attacks), and finally Murus ('a sturdy enemy' that 'hits like a truck with its wing axes' — first appearance; Murus reappears in Chapter 10 Verse 3). 7 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-8-a-croaking-chorus-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 9: Learning to Fly — full boss sequence (corrected)",
+      "detail": "Cumulonimbus (Verse 10, 3rd appearance) -> Cirrostratus & Cirrocumulus tandem fight (Verse 12) -> Stratocumulus (Verse 13, final boss, kaiju-scale fusion fight using The Phantom/Malphas demon-switching mechanic, ~300 second timer). See correction note above regarding Volutus not belonging to this chapter.",
+      "trackable": "Prior pass (scout D) additionally reported 10 verses total and a 4,000-combo-point challenge in Verse 3 — this pass's source (Sirus Gaming) implies at least 13 verses given fights placed at Verse 10/12/13; verse-count discrepancy between sources not reconciled.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://sirusgaming.com/bayonetta-3-walkthrough-chapter-9-learning-to-fly/", "https://www.thegamer.com/bayonetta-3-chapter-9-learning-to-fly-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 10: Cover of Night — bosses (carried forward, previously confirmed)",
+      "detail": "Murus (Verse 3, 2nd appearance), Opacus (Verse 5), Strider (final boss, 3rd appearance, four health bars). 8 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": "Chapter select Bewitchment/Tear tracking.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-10-cover-of-night-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 11: A Familiar Dance — bosses (carried forward, previously confirmed)",
+      "detail": "Virga (Verse 1, 2nd appearance), Grace/Glory/Acceptance (Verse 2, angelic trio — note this trio has a 3rd member 'Acceptance' not present in the Chapter 8 duo), Nimbostratus (Verse 4), Cumulonimbus (Verse 7, 4th appearance), Rosa (Verse 8, Umbran Witch, three health bars, summons doors), Umbran Clock Tower (Verse 9, final, four-sectioned boss with timed vulnerability windows). 9 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-11-a-familiar-dance-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 12: The Edge of Madness — bosses (carried forward, previously confirmed)",
+      "detail": "Castellanus (Verse 1, 2nd appearance), Valiance (Verse 3, three health bars), Duplicatus (Verse 4, self-duplicating enemy), French Bayonetta / Bayonetta B3 (Verse 8, wields Abracadabra weapon, summons demon Mictlantecuhtli), Baal Zebul (Verse 9, final, fought as a rhythm-based challenge rather than traditional combat). 9 verses, 5 Bewitchments, 3 Umbran Tears.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-12-the-edge-of-madness-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 13: Kingdom of One — bosses",
+      "detail": "GAP #1 RESOLVED: Only 3 verses (shortest main chapter found). Verse 1: a mob fight (Lacunosus, Nebulosus, Pannus) plus a jellyfish-type enemy encounter per one source. Verse 2: Aureole, described as 'a huge fortress'-type homunculus boss fought using the Madama Butterfly demon, with an eye-stalk phase, that then summons three Cumulonimbus adds (5th appearance of Cumulonimbus). Verse 3 (final): Luka in his 'Strider' transformed form (three health bars, 'quick and agile') followed immediately by Dark Adam, described as 'the shadow counterpart to Strider' with a special wide-range attack. 5 Bewitchments, 3 Umbran Tears (Cat/Frog/Crow) per one source.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-13-kingdom-of-one-walkthrough/", "https://sirusgaming.com/bayonetta-3-walkthrough-chapter-13-kingdom-of-one/"]
+    },
+    {
+      "category": "boss",
+      "name": "Chapter 14: The Single Truth — final boss sequence (GAP #4 RESOLVED)",
+      "detail": "The finale opens with a cutscene: Bayonetta, Luka, and Viola are trapped in the Alphaverse; Luka sacrifices himself to send Bayonetta and Viola home. Verse 1: a 'rock-paper-scissors' kaiju battle — Sin Gomorrah (Bayonetta's summoned demon) vs. 'Singularity Chaos', using a Slam/Block/Bite counter system (Slam beats Bite, Bite beats Block, Block beats Slam). Verse 2: 'Singularity Balance', who summons adds including Cumulonimbus, Cirrostratus, Cirrocumulus, and Cavum enemies. Verse 3: 'Singularity Definition', a multi-phase fight fought first by the current Bayonetta, then (after she is wounded) by Bayonetta from the original Bayonetta game aided by the Bayonetta from Bayonetta 2, then by Bayonetta 3's Bayonetta again empowered by 'the power of the three Umbra Witches from the main games' performing a triple Climax; Luka then rejoins to help finish off the villain and its decoy copies. Verse 4 (mid-credits): Viola fights Dark Eve as 'a rite of passage'. Verses 5-8 occur during the credits as a series of short recreated mini-battles from earlier in the game, each still counting toward the chapter's performance/verse score.",
+      "trackable": "Completing this chapter awards the 'See the end of Bayonetta's story' Bewitchment.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://sirusgaming.com/bayonetta-3-walkthrough-chapter-14-the-single-truth/", "https://www.thegamer.com/bayonetta-3-chapter-14-the-single-truth-walkthrough/ (synthesized)"]
+    },
+    {
+      "category": "ending",
+      "name": "Single fixed main ending, no branch (carried forward from scout D)",
+      "detail": "There is one fixed narrative ending: Bayonetta defeats Singularity/Sigurd with help from Viola, Luka, and alternate-universe Bayonettas; her soul is separated from her body and taken to Inferno by Luka. Mid/post-credits: Viola defeats Dark Eve as a 'rite of passage', inherits the Bayonetta title, and the epilogue shows her starting school in New York. No branching choice produces a different main-story outcome. A prior pass's reference to a YouTube 'Normal Ending vs. True Ending' is most likely conflating this fixed ending with the separate, optional 'Old Picture Book' bonus secret chapter (a Bayonetta Origins teaser), not a real narrative branch.",
+      "trackable": "Story completion flag unlocks Non-Stop (Infinite) Climax difficulty and post-game content (Jeanne playable, Witch Trials, Platinum Ticket Rodin fight).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Bayonetta_3", "https://sirusgaming.com/bayonetta-3-walkthrough-chapter-14-the-single-truth/", "https://sirusgaming.com/bayonetta-3-ending/", "https://gamepur.com/guides/the-bayonetta-3-ending-controversy-explained"]
+    },
+    {
+      "category": "side content",
+      "name": "Jeanne Side Missions (carried forward from scout D, confirmed optional)",
+      "detail": "4 optional Jeanne 'Side Mission' chapters, numbered separately from the 14 main chapters, confirming they sit outside the mandatory critical path: Side Mission 1 (unlocks during main campaign; stealth rescue of Dr. Sigurd; no boss fight; official subtitle 'The Crimson Shadow' NOT independently confirmed — TheGamer's guide only calls it 'Jeanne's Spy Action Chapter 1'), Side Mission 2 'The Lynx Strikes' (unlocks before Chapter 7; boss: Cumulonimbus, its 2nd appearance), Side Mission 3 'High Stakes' (unlocks after progressing several main chapters; boss: a large unnamed Homunculus fought on/around a moving elevator), Side Mission 4 'The Doctor Is Out' (final side mission; boss: unnamed, weakened partway through by ally Dr. Sigurd).",
+      "trackable": "Appear as separate entries in Chapter Select.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/bayonetta-3-side-mission-1-guide-walkthrough/", "https://www.thegamer.com/bayonetta-3-side-mission-2-guide-walkthrough/", "https://www.thegamer.com/bayonetta-3-side-mission-3-guide-walkthrough/", "https://www.thegamer.com/bayonetta-3-side-mission-4-guide-walkthrough/"]
+    },
+    {
+      "category": "boss",
+      "name": "Recurring bosses across the campaign (cross-chapter pattern)",
+      "detail": "Several bosses recur multiple times across different chapters, which matters for any 'defeat X' trophy since it must specify which encounter/chapter is meant: Strider appears in Ch.2 (unwinnable intro), Ch.7 (first winnable fight), Ch.10 (final boss, 4 health bars), and Ch.13 (as Luka's transformed Strider form). Cumulonimbus appears in Ch.4 (first winnable), Ch.9 (Verse 10), Ch.11 (Verse 7), Ch.13 (as adds during the Aureole fight), and as the Side Mission 2 boss. Castellanus appears in Ch.8 and Ch.12 (Verse 1). Murus appears in Ch.8 (final) and Ch.10 (Verse 3). Virga appears in Ch.6 (Verse 1) and Ch.11 (Verse 1).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Aggregated from individual chapter walkthrough findings above (TheGamer, Sirus Gaming)"]
+    },
+    {
+      "category": "structure",
+      "name": "Chapter title spot-check against 'best bosses' article claims",
+      "detail": "The prior pass's single 'best bosses' editorial source claimed boss locations 'Egypt' and 'China' etc. for some fights; this pass could not independently reconcile which chapter maps to which real-world-styled setting (Tokyo/Japan for Ch.1-3 is reasonably well supported by chapter dialogue references to Shibuya/Shinjuku; Ch.6 and Ch.7-8 settings were not independently confirmed as China/Egypt respectively this pass, though Ch.7's 'Burning Sands' title and Cairo/desert references in its walkthrough snippet strongly suggest an Egypt-styled setting for Ch.7-8).",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.thegamer.com/bayonetta-3-chapter-1-scrambling-for-answers-guide-walkthrough/", "https://www.thegamer.com/bayonetta-3-chapter-2-city-on-fire-walkthrough/", "https://www.thegamer.com/bayonetta-3-chapter-7-burning-sands-walkthrough/"]
+    },
+    {
+      "category": "systems",
+      "name": "Phenomenal Remnant overlap note (not this scout's beat)",
+      "detail": "Per the brief: 'Phenomenal Remnant' secret optional chapters (14 total, one per main chapter, the 14th auto-unlocking after story completion) are being researched separately. Campaign-relevant overlap found: the per-chapter Umbran Tears of Blood (3 per chapter: Cat/Crow/Toad or Cat/Frog/Crow depending on source wording) gate access to each chapter's Phenomenal Remnant, and chapters are freely replayable via Chapter Select to pick up missed Tears — meaning Umbran Tears do NOT appear to be permanently missable within a save file. Not independently re-verified this pass beyond confirming replayability is implied by the per-chapter walkthroughs listing Tears as a normal collectible alongside Bewitchments.",
+      "trackable": "Red icon on Chapter Select entry once all 3 tears for a chapter are collected (per scout D's prior finding).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["Carried forward from dossier_scout_d.json prior pass"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Per-chapter Bewitchments (5 optional challenge objectives per main chapter, confirmed also to exist for the Prologue)", "where": "Chapter Select screen shows which Bewitchments are obtained/missing per chapter entry", "confidence": "high" },
+    { "stat": "Per-chapter Umbran Tears of Blood (3 per chapter: Cat, Frog/Crow, Toad — naming varies slightly by source)", "where": "Chapter Select screen; a red diamond icon appears on a chapter's entry once all 3 are collected, denoting its Phenomenal Remnant is unlocked", "confidence": "high" },
+    { "stat": "Per-verse ranking/score (combo, damage taken, time), likely with a top 'Pure Platinum' tier", "where": "Verse results/completion screen after each combat encounter", "confidence": "medium" },
+    { "stat": "Halos (in-game currency) balance", "where": "HUD and Rodin's shop screens", "confidence": "medium" },
+    { "stat": "Overall chapter completion (cleared vs. not cleared)", "where": "Chapter Select menu", "confidence": "high" },
+    { "stat": "Difficulty-mode completion flag (Non-Stop Infinite Climax unlock)", "where": "Difficulty Select menu, available after any story completion", "confidence": "high" },
+    { "stat": "Overall save-file completion percentage", "where": "NOT CONFIRMED anywhere in the UI — no source found describing an aggregate completion percentage screen", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Bayonetta 3 is a Nintendo Switch console exclusive; no other platform release exists (pre-confirmed, not re-verified this pass).", "confidence": "high" },
+    { "note": "The hardest difficulty's exact on-screen name is 'Non-Stop ∞ Climax' (infinity symbol used in the actual UI text), colloquially called 'Infinite Climax'; it unlocks after clearing the game on Expert (per scout D's prior pass finding, carried forward, not re-verified this pass).", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Chapter 1 ('Scrambling for Answers') has no confirmed named boss with a health bar — it may genuinely lack one (tutorial-style chapter) or the walkthrough source simply didn't call one out distinctly; this should be spot-checked in-game before assuming no Chapter 1 boss trophy is possible.",
+    "Total verse count for Chapter 9 is inconsistent between sources (scout D's prior pass said 10 verses; this pass's Sirus Gaming source implies at least 13 verses given fights placed at Verses 10, 12, and 13). Not reconciled.",
+    "Chapter title spelling ambiguity: 'Worlds Apart' vs 'World's Apart' for Chapter 4 — not reconciled between chapter-list sources and the individual walkthrough page title.",
+    "Official subtitle 'The Crimson Shadow' for Jeanne Side Mission 1 remains unconfirmed; the only accessible source (TheGamer) calls it generically 'Jeanne's Spy Action Chapter 1'.",
+    "Could not confirm which real-world-styled setting (Tokyo/Japan, China, Egypt, France, etc.) corresponds to which exact chapter range beyond reasonably inferring Ch.1-3 = Tokyo/Japan (Shibuya/Shinjuku referenced) and Ch.7-8 likely = Egypt/Cairo (desert/Cairo referenced in Ch.7's summary). Chapters 5-6, 9, and 11-13's real-world setting analogues were not independently confirmed this pass.",
+    "Could not access the Bayonetta Fandom wiki directly (persistent HTTP 402 errors) or Neoseeker directly (HTTP 403) — all Neoseeker and Fandom-derived facts in this dossier come from third-party search-engine snippets quoting those pages, not direct page fetches, so exact wording/details could not be independently double-checked against the primary source.",
+    "Did not confirm whether the Prologue and/or 'Records of Time: Phenomenal Affirmation' opening segment have their own Umbran Tears of Blood or Phenomenal Remnant, or whether they count toward any overall completion tracking alongside the 14 main chapters.",
+    "Could not confirm an in-game overall save-file completion percentage screen exists anywhere — if one does not exist, any '100% complete the campaign' trophy would need to be defined in terms of the sub-systems that DO have trackers (Bewitchments + Umbran Tears + Phenomenal Remnants) rather than a single number.",
+    "Boss health-bar counts (e.g., 'three health bars', 'four health bars') were reported inconsistently/sparsely across chapters — only spot-confirmed for a handful of bosses (Rosa: 3, Umbran Clock Tower: 4 sections, Valiance: 3, Strider in Ch.10: 4, Luka/Strider in Ch.13: 3). Not systematically confirmed for every boss.",
+    "A YouTube playlist sequentially numbers bosses up to at least 'Boss 20' (Stratocumulus), implying a canonical full boss list of ~20+ exists, but this pass did not enumerate the complete numbered list — a full authoritative boss count for the entire campaign (mandatory + optional + side-mission bosses combined) remains unconfirmed."
+  ]
+}

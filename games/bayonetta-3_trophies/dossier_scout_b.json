@@ -1,0 +1,205 @@
+{
+  "beat": "collectibles, side content, secret areas, minigames, post-game content, costumes/unlockables, DLC",
+  "game": "Bayonetta 3",
+  "platform": "Nintendo Switch",
+  "researchNote": "This is a consolidated final pass, superseding two earlier partial passes (dossier_scout_b original + dossier_scout_d follow-up), whose findings were folded in here after cross-verification. Earlier concern that 'Medallion Shards' was a fabricated/misremembered term is RESOLVED: it is real, now confirmed by 5+ independent sources (ScreenRant, GameSkinny, Attack of the Fanboy, Gamepur, NoviceGamerGuides).",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "Umbran Tears of Blood (Cat / Crow / Toad)",
+      "detail": "Returning series collectible. Each of the first 13 main chapters hides exactly 3 tears (one Cat, one Crow, one Toad), each held/guarded by a familiar creature — 39 total across the campaign. The 14th (final) chapter has no tears; its Phenomenal Remnant auto-unlocks after the story instead.",
+      "trackable": "A red diamond/icon appears on a chapter's entry in the Chapter Select menu once all 3 of that chapter's tears have been collected, denoting its Phenomenal Remnant is now unlocked. This is a per-chapter binary indicator, not a running numeric counter of tears collected.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them", "segmentnext.com/bayonetta-3-phenomenal-remnants", "videogamesblogger.com/2022/10/28/bayonetta-3-collectibles.htm", "thegamer.com chapter 10/11/12 walkthroughs"]
+    },
+    {
+      "category": "challenge_room",
+      "name": "Phenomenal Remnant",
+      "detail": "Official in-game term (confirmed via IGN wiki page title, CBR, SegmentNext, Neoseeker, Gamer Journalist) for the series' Alfheim/Muspelheim-equivalent optional challenge stages. 14 total, one per main chapter. Unlocked by collecting that chapter's 3 Umbran Tears of Blood (the final, 14th Remnant auto-unlocks after finishing the story). Challenge types rotate between timed hidden-item collection, timed enemy-elimination, and boss battles (the 13th and 14th Remnants are both boss fights). Can be attempted as Bayonetta, Viola, or (post-game) Jeanne. Rewards include Full Witch Hearts, Full Moon Pearls, unique accessories/weapons, and Infernal Demons.",
+      "trackable": "Accessed via Chapter Select; unlock state shown per-chapter via the red-icon indicator described above. No aggregate 'X/14 Remnants cleared' counter confirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["ign.com/wikis/bayonetta-3/Bayonetta_3_Phenomenal_Remnants_Guide", "cbr.com/bayonetta-3-phenomenal-remnants-unlock-guide-nintendo", "segmentnext.com/bayonetta-3-phenomenal-remnants", "gamerjournalist.com/bayonetta-3-what-are-phenomenal-remnants-and-how-to-unlock-them"]
+    },
+    {
+      "category": "collectible",
+      "name": "Bewitchments — per-chapter optional challenge objectives",
+      "detail": "Confirmed exact structure and grand total: 14 main chapters x 5 Bewitchments each = 70, plus 14 Phenomenal Remnants x 3 each = 42, plus 4 side missions x 5 each = 20, plus the Prologue x 5 = 5. GRAND TOTAL = 137 Bewitchments. This is a flat rate (5 per main chapter, not variable) confirmed across chapters 10, 11, 12 directly by TheGamer's walkthroughs and corroborated by this independent breakdown. Examples of objectives: 'Step on 10 fallen glass shards,' 'Defeat 3 small Golems,' 'Taunt an enemy,' 'Avoid Kraken's ink.' Completing all Bewitchments in a chapter grants no tangible in-game reward beyond a completion notification — described by one guide as being its own 'kind of trophy.'",
+      "trackable": "The Chapter Select screen shows, per chapter, which of that chapter's Bewitchments have been obtained vs. still missing (confirmed directly by TheGamer's Chapter 10 walkthrough text). This is a real per-chapter checklist UI. HOWEVER, no aggregate/overall Bewitchment completion percentage or running total (e.g. '137/137') was found anywhere — only the per-chapter breakdown is shown.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gameskinny.com/tips/bayonetta-3-how-to-get-all-bewitchments", "thegamer.com/bayonetta-3-chapter-10-cover-of-night-walkthrough", "thegamer.com/bayonetta-3-chapter-11-a-familiar-dance-walkthrough", "thegamer.com/bayonetta-3-chapter-12-the-edge-of-madness-walkthrough", "attackofthefanboy.com/guides/all-bewitchments-in-bayonetta-3 (search snippet corroboration)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Medallion Shards",
+      "detail": "Real collectible, now cross-verified by 5+ independent sources (ScreenRant, GameSkinny, Attack of the Fanboy, Gamepur, NoviceGamerGuides), reversing an earlier pass's 'unverifiable' flag. Exactly 4 Medallion Shards exist, scattered across 4 different story chapters, each hidden inside a stone relic that must be destroyed. Also referred to as fragments of a 'Blue Medallion.' Collecting all 4 reforms the medallion and unlocks a secret optional boss fight against the Golem — a returning boss enemy from Bayonetta 1 and Bayonetta 2 — accessible afterward via Chapter Select.",
+      "trackable": "No in-game numeric shard counter confirmed by any source; framed purely as an exploration/hunt with guides providing exact relic locations.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["screenrant.com/where-to-find-medallion-shards-locations-bayonetta-3", "gameskinny.com/tips/bayonetta-3-where-to-find-all-blue-medallion-shards", "attackofthefanboy.com/guides/where-to-find-medallion-shards-in-bayonetta-3", "gamepur.com/guides/where-to-find-all-medallion-shards-in-bayonetta-3", "novicegamerguides.com/guides/bayonetta-3-how-to-get-medallion-shards"]
+    },
+    {
+      "category": "collectible",
+      "name": "Card Packs",
+      "detail": "41 Card Packs total per one dedicated location guide (TheGamer), unlocking new illustrated art in the in-game Gallery. A second guide (SegmentNext) only documents 23 packs across chapters 1-8, but that guide is explicitly partial/incomplete (does not cover chapters 9-14), so it does not contradict the 41 total — it simply corroborates that packs are distributed unevenly per chapter (observed range 1-6 per chapter in the partial breakdown) rather than a flat rate.",
+      "trackable": "Unlocks art in the Gallery menu; no numeric/percentage completion counter for Card Packs specifically was confirmed by any source, though the Gallery presumably shows locked/unlocked thumbnails.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["thegamer.com/bayonetta-3-card-pack-location-guide", "segmentnext.com/bayonetta-3-card-packs (partial, corroborating but incomplete)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Figure Boxes",
+      "detail": "Total count NOT fully resolved — conflicting figures across sources. TheGamer's dedicated guide states 43 (with a self-acknowledged numbering error: a Chapter 11 box mislabeled 42 instead of 43). A separate guide (Attack of the Fanboy, via search snippet) implies 46 across all chapters and side missions. These were not reconciled this pass. Figure Boxes appear as a floating item in a transparent bubble and unlock 'making of'/behind-the-scenes art in the Gallery.",
+      "trackable": "Unlocks art in the Gallery menu; no numeric/percentage completion counter for Figure Boxes specifically was confirmed.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["thegamer.com/bayonetta-3-figure-box-location-guide (43, with noted labeling error)", "attackofthefanboy.com/guides (46, via search snippet only, page not directly fetched)"]
+    },
+    {
+      "category": "gallery",
+      "name": "Gallery menu — existence confirmed, completion tracker NOT confirmed",
+      "detail": "A Gallery menu exists (per Game UI Database and multiple collectible guides) that unlocks art via Card Packs and Figure Boxes, and separately holds a 3D model viewer, sound/music player, and photo mode. No source found explicitly describing a numeric or percentage completion tracker within the Gallery (e.g. 'X/41 Card Packs found').",
+      "trackable": null,
+      "missable": false,
+      "confidence": "low",
+      "sources": ["gameuidatabase.com/gameData.php?id=1564 (title/summary only, page fetch blocked)"]
+    },
+    {
+      "category": "side_content",
+      "name": "Witch Trials",
+      "detail": "Exactly 3 Witch Trials exist, unlocked as post-game content after completing the main story. Each Trial is composed of multiple increasingly difficult Verses; players must clear all Verses of a given Trial in a single continuous attempt to be credited with beating it. Playable as Bayonetta, Viola, or Jeanne. Unlocked/started by visiting Viola's room and throwing a dart at a circular 'Witch Trial' sticker on the wall. Rewards are cosmetic: Trial 1 grants the 'Little Angels White Shirt,' Trial 2 the 'Little Angels Black Shirt,' Trial 3 the 'Nintendo Switch Shirt' (all appear to be Viola-room or costume cosmetic items rather than weapons/gear).",
+      "trackable": "No in-game completion tracker/counter was found for Witch Trials specifically; treated as a 3-item checklist implicitly tracked by whether each reward shirt has been obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["segmentnext.com/bayonetta-3-witch-trials", "gamerjournalist.com/bayonetta-3-all-post-game-unlockables"]
+    },
+    {
+      "category": "side_content",
+      "name": "Jeanne's Side Missions (4 total)",
+      "detail": "4 optional side missions, numbered separately from the 14 main chapters and confirmed non-mandatory. Side Mission 1 unlocks mid-campaign (stealth rescue of Dr. Sigurd, no boss). Side Mission 2 ('The Lynx Strikes') unlocks before Chapter 7, ends in a boss fight against Cumulonimbus. Side Mission 3 ('High Stakes') requires progressing several main chapters first, boss is a large Homunculus on a moving elevator. Side Mission 4 ('The Doctor Is Out') is the final one, unlocked after Side Mission 3, ends in an unnamed boss fight. Each Side Mission also contains its own 5 Bewitchments (per the 137-total breakdown above).",
+      "trackable": "Presumably tracked via a mission-select or chapter-select-adjacent menu (not independently confirmed which screen).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["thegamer.com/bayonetta-3-side-mission-1-guide-walkthrough", "thegamer.com/bayonetta-3-side-mission-2-guide-walkthrough", "thegamer.com/bayonetta-3-side-mission-3-guide-walkthrough", "thegamer.com/bayonetta-3-side-mission-4-guide-walkthrough"]
+    },
+    {
+      "category": "secret_content",
+      "name": "Bayonetta Origins teaser (hidden playable preview) / Super Mirror 0 secret outfit",
+      "detail": "A hidden secret chapter previews the spin-off 'Bayonetta Origins: Cereza and the Lost Demon.' Unlocked by purchasing the 'Old Picture Book' from Rodin's Treasures (4,100 Halos) after reaching the Gates of Hell hub, post-story. Pre-patch 1.2.0, additionally required finding 3 'Tricolored Keys' hidden in Chapters I, IV, and XIII; patch 1.2.0 (Jan 2023) removed this requirement, auto-granting keys so the book can now be bought directly. Inside the secret chapter, performing a magic spell on three red flowers then backtracking to a fork in the path reveals a secret chest containing the 'Super Mirror 0' (secret Cereza) outfit, purchasable afterward from Rodin's Treasures for 100 Halos.",
+      "trackable": "Currency-gated (Halos) purchase in Rodin's Treasures shop; not confirmed to have a dedicated completion flag beyond owning the item.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gamepur.com/guides/how-to-unlock-the-bayonetta-origins-teaser-in-bayonetta-3", "gamepur.com/news/bayonetta-3-patch-1-2-0-makes-viola-stronger-and-a-stubborn-easter-egg-easier-to-find", "screenrant.com/how-to-unlock-equip-new-outfits-rodin-bayonetta-3", "sportskeeda.com/esports/bayonetta-3-unlocking-outfits-first-two-games"]
+    },
+    {
+      "category": "costume",
+      "name": "Bayonetta's costumes (8 total, incl. default)",
+      "detail": "Default: Super Mirror 3. Purchasable from Rodin's Treasures for 4,000 Halos each: Super Mirror B1, B2, B3, B4 (culturally-themed designs — Japanese street culture, Chinese, Egyptian, French). Super Mirror (classic Bayonetta 1 look) and Super Mirror 2 (Bayonetta 2 look) are also 4,000 Halos each, OR free/discounted if the Switch has matching Bayonetta/Bayonetta 2 save data present (save-transfer bonus). Super Mirror 0 (secret Cereza outfit) is the hidden reward described above, 100 Halos after finding the secret chest.",
+      "trackable": "Costumes tab in the pause menu (press the '−' button, navigate with L/R to the Costumes tab); requires beating the game once to access on any level replay.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["primagames.com/tips/all-bayonetta-3-outfits-showcase (search snippet)", "samurai-gamers.com/bayonetta-3/all-costumes-list", "segmentnext.com/bayonetta-3-outfits (search snippet)", "screenrant.com/how-to-unlock-equip-new-outfits-rodin-bayonetta-3"]
+    },
+    {
+      "category": "costume",
+      "name": "Viola's costumes (~10 total, incl. default)",
+      "detail": "Default outfit plus around 8-9 additional cat-themed t-shirt designs (named variants like Stake Cat, Shock Cat, Spike Cat, Bleed Cat in different colors) and a 'Hiyoko-Chan' t-shirt. Most purchasable from Rodin's Treasures; at least one (Stake Cat T-Shirt, White) unlocks specifically after beating the game rather than being purchasable pre-completion. Exact total (9 vs 10) not perfectly reconciled between sources.",
+      "trackable": "Same Costumes tab as Bayonetta.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["samurai-gamers.com/bayonetta-3/all-costumes-list"]
+    },
+    {
+      "category": "costume",
+      "name": "Jeanne's costumes — only 1 exists",
+      "detail": "Jeanne has a single default outfit and no alternate costumes, unlike Bayonetta and Viola. (Jeanne herself is a post-game-unlocked playable character, separate from any costume system — see post_game finding below.)",
+      "trackable": "Same Costumes tab.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["samurai-gamers.com/bayonetta-3/all-costumes-list"]
+    },
+    {
+      "category": "post_game",
+      "name": "Post-game unlockables summary",
+      "detail": "After completing the main story: (1) Jeanne becomes a fully playable character with her own moveset. (2) The 'Climax Earring' accessory (80,000 Homonculus Seeds) grants infinite magic/Rage meter but disables score tracking while equipped. (3) The 'Platinum Ticket' (999,999 Homonculus Seeds) triggers an optional fight against Rodin at full power ('Devil Rodin'), explicitly called the toughest boss in the game. (4) Witch Trials (3, detailed above) become available. (5) Free replay of all 14 chapters via Chapter Select, needed to mop up Umbran Tears, Card Packs, Figure Boxes, and Medallion Shards missed on the first run.",
+      "trackable": "Homonculus Seed currency total is presumably shown wherever currency is displayed (shop/pause menu); not independently confirmed which exact screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gamerjournalist.com/bayonetta-3-all-post-game-unlockables"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Difficulty modes, including hardest tier",
+      "detail": "Standard-launch difficulties include at least Casual, Standard/Normal, and Expert, changeable at any time. The hardest difficulty is officially named 'Non-Stop ∞ Climax' (displayed with an infinity symbol; colloquially 'Infinite Climax'), which unlocks after clearing the game on Expert. Full difficulty ladder between the lowest tier and Expert not fully enumerated by any source found.",
+      "trackable": "Difficulty select menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["gamerjournalist.com/bayonetta-3-all-post-game-unlockables", "gamepressure.com/games/bayonetta-3"]
+    },
+    {
+      "category": "minigame",
+      "name": "Genre-shifting non-combat sequences (confirmed variety)",
+      "detail": "Multiple reviews confirm the campaign includes: a side-scrolling shoot-em-up sequence; a web-swinging chase sequence; at least one operatic rhythm-game boss fight (matches the previously-identified Chapter 12 boss 'Baal Zebul,' described elsewhere as 'fought as a rhythm-based challenge'); a kaiju-scale 'rock-paper-scissors' sequence; a side-scrolling fighting-game-style sequence featuring two kaiju battling in Tokyo; and stealth/side-scrolling sections playable as Jeanne (criticized by several reviewers as dull/repetitive). A large-scale dragon-mount 'water-skiing' sequence was also previously noted.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["techraptor.net/gaming/reviews/bayonetta-3-review", "videogameschronicle.com/review/bayonetta-3", "thejimquisition.com/post/bayonetta-3-a-nier-fall-review", "gameluster.com/review-bayonetta-3-a-threequel-without-equal (aggregated via search)"]
+    },
+    {
+      "category": "dlc",
+      "name": "No DLC exists — confirmed via official patch history",
+      "detail": "Reviewed the complete official Switch software update history: v1.0.0 (launch, Oct 21 2022), v1.1.0 (Oct 27 2022 — added Naive Angel Mode toggle from game start, online score/ranking uploads, balance changes), v1.2.0 (Jan 10-11 2023 — combat/Viola adjustments, Niflheim Mode difficulty reduction, made Tricolored Keys automatic). None of the three updates added paid DLC, a story expansion, new costumes, or new modes. No paid or free DLC of any kind was found referenced by any source (guides, news outlets, or the developer). This upgrades the prior pass's low-confidence 'no DLC found' to a well-supported conclusion based on the full official patch record, though absence-of-announcement is still not a 100%-certain negative.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["perfectly-nintendo.com/bayonetta-3-switch-software-updates (full patch notes)", "gameranx.com/updates/id/396128/article/is-bayonetta-3-getting-dlc"]
+    },
+    {
+      "category": "version_feature",
+      "name": "No amiibo support (unlike Bayonetta 2)",
+      "detail": "Confirmed via multiple outlets that Bayonetta 3 dropped amiibo support entirely, despite Bayonetta 2's Switch port having extensive amiibo-based costume/weapon unlocks. No amiibo-locked content exists to worry about for trophy completability.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "high",
+      "sources": ["apptrigger.com/2022/10/29/bayonetta-3-amiibo-nintendo", "touchtapplay.com/does-bayonetta-3-have-amiibo-support-answered"]
+    },
+    {
+      "category": "special_edition",
+      "name": "Trinity Masquerade Edition — physical-only bonuses, no exclusive in-game content",
+      "detail": "Retail-only special edition (select retailers + My Nintendo Store) containing a 200-page artbook and three reversible game-case sleeves (one per mainline game) forming a panoramic image when combined. No exclusive in-game costumes, cosmetics, or digital content confirmed bundled with this edition — bonuses are physical-only.",
+      "trackable": null,
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["gamepur.com/guides/whats-included-in-bayonetta-3-trinity-masquerade-edition-answered"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Bewitchments (per-chapter checklist)", "where": "Chapter Select menu shows which of a chapter's Bewitchments are obtained vs. missing, per chapter. No aggregate 137-total counter confirmed anywhere.", "confidence": "high" },
+    { "stat": "Umbran Tears of Blood / Phenomenal Remnant unlock state", "where": "Red icon on a chapter's Chapter Select entry once all 3 tears for that chapter are collected (binary per chapter, not a running tear count).", "confidence": "high" },
+    { "stat": "Card Packs / Figure Boxes collected", "where": "Presumably reflected by which art pieces are unlocked in the Gallery menu, but no numeric/percentage counter within the Gallery was confirmed by any source.", "confidence": "low" },
+    { "stat": "Medallion Shards collected", "where": "No in-game counter confirmed; purely exploration-driven per available guides.", "confidence": "low" },
+    { "stat": "Homonculus Seeds (currency for Climax Earring / Platinum Ticket)", "where": "Presumably shown in shop/pause-menu currency display; exact screen not confirmed.", "confidence": "low" },
+    { "stat": "Witch Trials cleared (of 3)", "where": "No dedicated tracker found; inferable only from which reward shirts have been obtained.", "confidence": "low" },
+    { "stat": "Costumes owned", "where": "Costumes tab in the pause menu (press '−', navigate with L/R), accessible after first completing the story.", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Bayonetta 3 is Nintendo Switch exclusive with no other platform to compare against.", "confidence": "high" },
+    { "note": "Patch 1.2.0 (Jan 2023) changed the Bayonetta Origins teaser / Super Mirror 0 unlock from a missable hidden-key hunt (Tricolored Keys in Chapters I, IV, XIII) to an automatic grant after reaching Gates of Hell — current live version is not missable. Any trophy design should assume post-1.2.0 behavior.", "confidence": "medium" },
+    { "note": "No amiibo support exists in Bayonetta 3, unlike Bayonetta 2's Switch port — no amiibo-gated content to account for.", "confidence": "high" },
+    { "note": "No paid or free DLC was ever released for Bayonetta 3, per the complete official patch history (v1.0.0 through v1.2.0).", "confidence": "high" }
+  ],
+  "gaps": [
+    "Figure Box total count is unresolved: TheGamer states 43 (with a self-acknowledged off-by-one labeling error), while another source implies 46. Could not reconcile; recommend NOT building an exact-count trophy on this number without further verification, or phrasing any such trophy around 'collect Figure Boxes' without a hard number if the platinum/completion design requires precision.",
+    "Could not confirm any numeric or percentage completion tracker exists anywhere in the game for Card Packs, Figure Boxes, Medallion Shards, or an aggregate Bewitchment total (137). The only confirmed trackers are: (a) per-chapter Bewitchments checklist on Chapter Select, (b) per-chapter Umbran-Tears-collected red icon on Chapter Select, (c) the Costumes tab showing owned costumes. This significantly constrains what 'the game shows the player their progress' for trophy design — collectible-count trophies for Card Packs/Figure Boxes/Medallion Shards would rely on the player's own tracking or a wiki, not an in-game display.",
+    "Could not confirm whether the Gallery menu itself displays any lock/unlock grid or percentage (only that it exists and stores Card Pack/Figure Box art, per Game UI Database summary and collectible guides).",
+    "Exact total costume counts for Bayonetta (7 vs 8, sources conflict slightly on framing) and Viola (9 vs 10) are not perfectly reconciled between the two sources found; Jeanne's single-costume status is confirmed by only one source.",
+    "Could not confirm exact per-chapter Card Pack distribution for chapters 9-14 (only chapters 1-8 confirmed via a partial guide); the 41-chapter total itself comes from a single dedicated source (TheGamer) and was not independently re-derived chapter-by-chapter for the full game.",
+    "Could not confirm whether Witch Trials verses count/difficulty scale is fixed or whether there's a hidden 4th trial; 3 is corroborated by two sources but neither is a primary/official source.",
+    "Could not confirm the full difficulty ladder below Expert (i.e., whether 'Casual' and 'Standard' are the only two tiers below Expert, or if there are more, e.g. a separate 'Easy Automatic' mode as seen in past Bayonetta games).",
+    "Could not access Bayonetta Fandom wiki at all (persistent HTTP 402 across the entire research session, including a dedicated Bewitchments page and a dedicated Witch Trials walkthrough page) — this is likely the single best potential source for exact, complete, chapter-by-chapter collectible tables and was never reachable.",
+    "The claim (from an earlier partial pass) that Bayonetta can equip 4 weapons at once (one per limb) and has more than 5 total unlockable weapons was not re-verified this pass; this falls more under a 'combat/systems' beat than collectibles, so was not prioritized, but flagging that the full Bayonetta weapon roster and count remains unconfirmed."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "game": "Bayonetta 3",
+  "platform": "Nintendo Switch",
+  "mode": "genesis",
+  "scoutSources": ["dossier_scout_a.json (campaign)", "dossier_scout_b.json (collectibles/side content)", "dossier_scout_c.json (systems)"],
+  "summary": {
+    "campaign": {
+      "structure": "Opening cinematic 'Records of Time: Phenomenal Affirmation' -> 'Prologue: A Chaotic Encounter' (3 verses, first boss: Kraken) -> Chapters 1-14 -> 4 optional Jeanne 'Side Missions' interspersed. Chapter Select lists ~20 entries total.",
+      "bosses": "Confirmed per-chapter boss list for all 14 chapters plus Prologue (see findings). Notable recurring bosses: Strider (Ch2 unwinnable intro, Ch7 first winnable, Ch10 final w/ 4 health bars, Ch13 as Luka's transformed form), Cumulonimbus (Ch4, 9, 11, 13, Side Mission 2), Castellanus (Ch8, Ch12). Chapter 1 has no distinctly named boss (tutorial-style) — treat as a real gap, not a trophy target.",
+      "finalBoss": "Chapter 14 'The Single Truth': multi-verse gauntlet ending in 'Singularity Definition', resolved via a triple Climax using Bayonetta 1/2/3's Bayonettas together. Single fixed ending — no branching.",
+      "sideMissions": "4 optional Jeanne Side Missions, fully outside the critical path, each with 5 Bewitchments."
+    },
+    "collectiblesAndCompletion": {
+      "umbranTearsOfBlood": "3 per chapter (Cat/Crow/Toad) across the first 13 chapters = 39 total; gate each chapter's 'Phenomenal Remnant' optional challenge stage (14 total, last auto-unlocks after story). Tracked via a red icon per chapter on Chapter Select once all 3 are found.",
+      "bewitchments": "5 per main chapter (14x5=70) + 3 per Phenomenal Remnant (14x3=42) + 5 per Side Mission (4x5=20) + 5 for the Prologue = 137 total. Tracked via a per-chapter obtained/missing checklist on Chapter Select. No aggregate 137-counter exists anywhere.",
+      "medallionShards": "4 shards (Ch1, Ch4, Ch7, Ch10) reassemble the 'Blue Medallion', unlocking secret chapter 'The Artifact Unleashed' (green icon on Chapter Select) and a boss fight against Golem. Confirmed real by 5+ independent sources after an earlier pass wrongly flagged it as fabricated.",
+      "cardPacksAndFigureBoxes": "Card Packs: 41 total (single dedicated source). Figure Boxes: total UNRESOLVED — 43 (with an acknowledged off-by-one label error) vs. 46 in a second source. Both unlock Gallery art; no numeric/percentage tracker confirmed for either in the Gallery menu.",
+      "witchTrials": "3 total, post-game, unlocked via a dart-throw in Viola's room. Reward: 3 cosmetic shirts. No in-game counter beyond owning the shirts.",
+      "costumes": "Costumes tab in pause menu. Bayonetta ~8 (incl. secret 'Super Mirror 0' from the Bayonetta Origins teaser chest), Viola ~9-10, Jeanne 1 only (exact totals not perfectly reconciled between two sources)."
+    },
+    "systems": {
+      "difficulty": "Casual / Standard / Expert / Non-Stop ∞ Climax (colloquially 'Infinite Climax'). Unlocks after clearing story on ANY difficulty. IMPORTANT: difficulty is freely switchable per-chapter via Chapter Select's Difficulty Select menu, not locked to a continuous playthrough, and no source confirms the game tracks 'this chapter cleared on Non-Stop ∞ Climax' per chapter — a 'beat the full campaign on hardest difficulty' trophy would not be reliably verifiable/fair (Rule 11).",
+      "verseRanks": "Bronze/Silver/Gold/Platinum/Pure Platinum (5 tiers) confirmed; the classic 6-tier 'Stone' rank not confirmed to exist in BY3. Pure Platinum requires zero damage taken. Not confirmed whether Chapter Select retains a persistent per-verse/per-chapter best-medal record (only a post-verse results screen is confirmed) — a 'Pure Platinum on every verse in the game' trophy would be very hard for a player to self-verify without a spreadsheet.",
+      "playableCharacters": "Bayonetta, Viola (both in the 14-chapter campaign), Jeanne (limited to Side Missions/Remnants during the campaign; fully playable through the whole campaign after first story clear, on any difficulty).",
+      "currencies": "Halos (cosmetics), Orbs (demon leveling), Homunculus Seeds (main shop currency) — all three shown persistently on HUD.",
+      "postgame": "Platinum Ticket (999,999 Seeds) triggers optional 'Devil Rodin' superboss, described as the toughest fight in the game. Climax Earring (80,000 Seeds) grants infinite magic but DISABLES score tracking while equipped — must be excluded from any medal-rank trophy's conditions.",
+      "missables": "None found. All chapters (main, Prologue, Side Missions, Phenomenal Remnants, Medallion-Shard secret chapter) are freely replayable via Chapter Select at any time, including post-game.",
+      "dlc": "None. Confirmed via the complete official patch history (v1.0.0, v1.1.0, v1.2.0) — no paid or free DLC was ever released. No amiibo support (dropped from Bayonetta 2)."
+    }
+  },
+  "conflicts": [
+    {
+      "topic": "Figure Box total count",
+      "claimA": "43, with an acknowledged off-by-one labeling error (TheGamer)",
+      "claimB": "46 (a second source, via search snippet only)",
+      "resolution": "Unresolved. No trophy should state an exact Figure Box total; a full-collection Figure Box trophy is also risky since no in-game aggregate tracker was found at all — recommend a modest 'find your first Figure Box' trophy only, no 'collect them all' trophy."
+    },
+    {
+      "topic": "Chapter 9 verse count",
+      "claimA": "10 verses (prior pass)",
+      "claimB": "At least 13 verses, given confirmed fights placed at Verses 10, 12, 13 (this pass)",
+      "resolution": "Not design-relevant — no trophy references an exact verse count for any chapter."
+    },
+    {
+      "topic": "Whether Non-Stop ∞ Climax completion is a fair, verifiable full-campaign trophy",
+      "claimA": "Since difficulty can be freely switched per chapter and no per-chapter 'cleared on hardest' flag is confirmed, a full-campaign clear on this difficulty can't be verified as genuine by the player or an outside observer, and could be gamed by switching difficulty only briefly.",
+      "claimB": "N/A — no scout argued the opposite; this is a design-judgment flag, not a factual disagreement.",
+      "resolution": "Recommend building the trophy around unlocking Non-Stop ∞ Climax (clearing the story once, on any difficulty) rather than completing the entire campaign on it, per Rule 11's fairness/verifiability requirement. Needs user confirmation."
+    }
+  ],
+  "gaps": [
+    "No overall save-file completion percentage exists anywhere in the UI — only per-chapter Bewitchment/Umbran-Tear checklists, the Costumes tab, and per-collectible unlock icons (red/green on Chapter Select) serve as trackers.",
+    "No numeric/percentage tracker confirmed for Card Packs, Figure Boxes, or Medallion Shards specifically — Medallion Shards at least have the green Chapter Select icon as a binary indicator; Card Packs/Figure Boxes have neither a counter nor an icon confirmed.",
+    "Full difficulty ladder below Expert not itemized beyond Casual/Standard/Expert naming.",
+    "Chapter 1's boss (if any) remains unconfirmed.",
+    "Exact Bayonetta/Viola costume totals not perfectly reconciled between sources."
+  ],
+  "missables": [
+    "None found. Every chapter and secret/side chapter is freely replayable via Chapter Select at any time."
+  ]
+}
