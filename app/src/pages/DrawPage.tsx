@@ -1,11 +1,18 @@
 import { useMemo, useState } from 'react'
-import type { Tier, TrophyList } from '../data/types'
+import type { Tier, TrophyList, TrophyType } from '../data/types'
 import { loadCatalog, loadGame } from '../data/catalog'
 import { useAsync } from '../hooks/useAsync'
 import { toggleTrophy, useGameProgress, useProgress } from '../store/progress'
-import { collectPending, type PendingItem } from '../lib/pending'
+import {
+  collectPending,
+  filterPending,
+  DEFAULT_FILTERS,
+  PLATFORMS,
+  type DrawFilters,
+  type PendingItem,
+} from '../lib/pending'
 import { DRAW_TARGETS, draw, randomSeed, todaySeed, type DrawResult } from '../lib/draw'
-import { TIER_ICON, TIER_LABEL } from '../lib/labels'
+import { TIER_ICON, TIER_LABEL, TYPE_LABEL } from '../lib/labels'
 import { progress as makeProgress } from '../lib/stats'
 import { ProgressBar } from '../components/ProgressBar'
 import { TrophyRow } from '../components/TrophyRow'
@@ -30,7 +37,9 @@ interface StoredResult {
 }
 
 interface StoredDraw {
+  /** Já vem com os filtros dobrados dentro — ver `effectiveSeed`. */
   seed: string
+  filters: DrawFilters
   results: StoredResult[]
 }
 
@@ -40,15 +49,18 @@ function loadStored(): StoredDraw | null {
     if (!raw) return null
     const parsed = JSON.parse(raw) as Partial<StoredDraw>
     if (typeof parsed.seed !== 'string' || !Array.isArray(parsed.results)) return null
+    // Registro gravado antes dos filtros existirem: descartado, não quebra.
+    if (!parsed.filters || typeof parsed.filters !== 'object') return null
     return parsed as StoredDraw
   } catch {
     return null
   }
 }
 
-function saveStored(seed: string, results: DrawResult[]) {
+function saveStored(seed: string, filters: DrawFilters, results: DrawResult[]) {
   const stored: StoredDraw = {
     seed,
+    filters,
     results: results.map((r) => ({
       tier: r.tier,
       available: r.available,
@@ -78,6 +90,22 @@ function resolvePick(lists: TrophyList[], pick: StoredPick): PendingItem | null 
   return null
 }
 
+/** Liga/desliga um valor numa seleção múltipla de chips. */
+function toggleIn<T>(list: T[], value: T): T[] {
+  return list.includes(value) ? list.filter((v) => v !== value) : [...list, value]
+}
+
+/** Quantos filtros saíram do padrão — vira o contador no botão. */
+function countActive(f: DrawFilters): number {
+  return (
+    Number(f.dlc !== DEFAULT_FILTERS.dlc) +
+    Number(f.startedOnly) +
+    Number(f.missable) +
+    Number(f.types.length > 0) +
+    Number(f.platforms.length > 0)
+  )
+}
+
 /** Uma linha do sorteio: o troféu em si é fixo, mas obtido/revelado é ao vivo. */
 function DrawRow({ item }: { item: PendingItem }) {
   const progress = useGameProgress(item.game.slug)
@@ -103,34 +131,55 @@ export function DrawPage() {
   const [seed, setSeed] = useState<string>(() => todaySeed())
   const isDaily = seed === todaySeed()
 
+  // Os filtros fazem parte do sorteio do dia: sem reidratar daqui, um F5
+  // devolveria o sorteio salvo sob filtro como se fosse o sorteio sem filtro.
+  const [filters, setFilters] = useState<DrawFilters>(() => loadStored()?.filters ?? DEFAULT_FILTERS)
+  const [showFilters, setShowFilters] = useState(false)
+  const activeCount = countActive(filters)
+
+  // Os filtros entram na semente em vez de virar mais um campo a comparar: de
+  // uma vez só invalidam o sorteio salvo (mexeu no filtro, re-sorteia) e fazem
+  // as escolhas variarem entre conjuntos de filtros, porque `hash` usa a semente.
+  const filterKey = [
+    filters.dlc ? 'd' : '',
+    filters.startedOnly ? 's' : '',
+    filters.missable ? 'm' : '',
+    [...filters.types].sort().join(','),
+    [...filters.platforms].sort().join(','),
+  ].join('|')
+  const effectiveSeed = `${seed}#${filterKey}`
+
   // Só a semente do dia é salva. Um sorteio avulso nunca grava por cima dela —
   // senão "novo sorteio" e depois "voltar pro de hoje" perderia de vista o que
   // já tinha sido marcado no sorteio original do dia.
-  const results = useMemo(() => {
-    if (!data) return []
+  const { results, poolSize } = useMemo(() => {
+    if (!data) return { results: [] as DrawResult[], poolSize: 0 }
 
     if (isDaily) {
       const stored = loadStored()
-      if (stored && stored.seed === seed) {
-        return stored.results.map((r) => ({
+      if (stored && stored.seed === effectiveSeed) {
+        const restored = stored.results.map((r) => ({
           tier: r.tier,
           available: r.available,
           items: r.picks
             .map((p) => resolvePick(data, p))
             .filter((item): item is PendingItem => item !== null),
         }))
+        return {
+          results: restored,
+          poolSize: restored.reduce((sum, r) => sum + r.available, 0),
+        }
       }
-
-      const pending = collectPending(data, state.games)
-      const fresh = draw(pending, seed)
-      saveStored(seed, fresh)
-      return fresh
     }
 
-    const pending = collectPending(data, state.games)
-    return draw(pending, seed)
+    const pool = filterPending(collectPending(data, state.games), filters, state.games)
+    const fresh = draw(pool, effectiveSeed)
+    if (isDaily) saveStored(effectiveSeed, filters, fresh)
+    return { results: fresh, poolSize: pool.length }
+    // `state.games` fica de fora de propósito: marcar um troféu não pode
+    // remontar o sorteio de hoje. Os filtros entram via `effectiveSeed`.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data, seed])
+  }, [data, effectiveSeed])
 
   const total = results.reduce((sum, r) => sum + r.items.length, 0)
   const done = results.reduce(
@@ -140,6 +189,13 @@ export function DrawPage() {
     0,
   )
   const overall = makeProgress(done, total)
+
+  // Só os tipos que existem entre os pendentes viram chip — mesmo critério dos
+  // tiers em Pendentes. O pool sem filtro é barato e não alimenta o sorteio.
+  const allPending = collectPending(data ?? [], state.games)
+  const typesPresentes = (Object.keys(TYPE_LABEL) as TrophyType[]).filter((t) =>
+    allPending.some((i) => i.trophy.type === t),
+  )
 
   return (
     <>
@@ -174,7 +230,74 @@ export function DrawPage() {
                   ↺ Sorteio de hoje
                 </button>
               )}
+              <button
+                type="button"
+                className="btn btn--ghost"
+                onClick={() => setShowFilters(!showFilters)}
+                aria-expanded={showFilters}
+              >
+                ⚙️ Filtros{activeCount > 0 && ` (${activeCount})`}
+              </button>
             </div>
+
+            {showFilters && (
+              <div className="stack" style={{ marginTop: 12 }}>
+                <div className="chip-grid">
+                  <button
+                    type="button"
+                    className={filters.dlc ? 'chip-option is-active' : 'chip-option'}
+                    onClick={() => setFilters({ ...filters, dlc: !filters.dlc })}
+                    aria-pressed={filters.dlc}
+                  >
+                    📦 DLC
+                  </button>
+                  <button
+                    type="button"
+                    className={filters.startedOnly ? 'chip-option is-active' : 'chip-option'}
+                    onClick={() => setFilters({ ...filters, startedOnly: !filters.startedOnly })}
+                    aria-pressed={filters.startedOnly}
+                  >
+                    🎮 Iniciados
+                  </button>
+                  <button
+                    type="button"
+                    className={filters.missable ? 'chip-option is-active' : 'chip-option'}
+                    onClick={() => setFilters({ ...filters, missable: !filters.missable })}
+                    aria-pressed={filters.missable}
+                  >
+                    ⚠️ Perdíveis
+                  </button>
+                </div>
+
+                <div className="chip-grid">
+                  {typesPresentes.map((value) => (
+                    <button
+                      key={value}
+                      type="button"
+                      className={filters.types.includes(value) ? 'chip-option is-active' : 'chip-option'}
+                      onClick={() => setFilters({ ...filters, types: toggleIn(filters.types, value) })}
+                      aria-pressed={filters.types.includes(value)}
+                    >
+                      {TYPE_LABEL[value]}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="chip-grid">
+                  {PLATFORMS.map(({ id, label }) => (
+                    <button
+                      key={id}
+                      type="button"
+                      className={filters.platforms.includes(id) ? 'chip-option is-active' : 'chip-option'}
+                      onClick={() => setFilters({ ...filters, platforms: toggleIn(filters.platforms, id) })}
+                      aria-pressed={filters.platforms.includes(id)}
+                    >
+                      🕹️ {label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {total > 0 && (
               <section className="card" style={{ marginTop: 12 }}>
@@ -207,9 +330,13 @@ export function DrawPage() {
 
         {!loading && !error && total === 0 && (
           <div className="empty">
-            <div className="empty__icon">💎</div>
-            <p className="empty__title">Nada pendente</p>
-            <p className="hint">Você conquistou tudo que há para conquistar.</p>
+            <div className="empty__icon">{poolSize === 0 && activeCount > 0 ? '🔍' : '💎'}</div>
+            <p className="empty__title">
+              {poolSize === 0 && activeCount > 0 ? 'Nenhum troféu com esses filtros' : 'Nada pendente'}
+            </p>
+            {activeCount === 0 && (
+              <p className="hint">Você conquistou tudo que há para conquistar.</p>
+            )}
           </div>
         )}
 
