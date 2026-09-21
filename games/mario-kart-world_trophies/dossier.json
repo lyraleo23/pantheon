@@ -1,0 +1,40 @@
+{
+  "game": "Mario Kart World",
+  "platform": "Nintendo Switch 2",
+  "mode": "genesis",
+  "researchDate": "2026-09-20",
+  "buildPatchPinned": "v1.8.0 (Sept 10, 2026 update)",
+  "entryGate": {
+    "conclusion": "Genesis Mode confirmed",
+    "reasoning": "Mario Kart World is a Nintendo Switch 2-exclusive title (June 5, 2025), with no release on Steam, PlayStation, Xbox, or original Switch. Nintendo Switch 2 has no system-wide achievement/trophy system (Nintendo of America VP Bill Trinen confirmed this directly). No native achievement list exists anywhere for this game."
+  },
+  "scouts": ["dossier_scout_a.json (campaign/modes)", "dossier_scout_b.json (collectibles/side content)", "dossier_scout_c.json (progression/systems/RNG)"],
+  "keyFacts": {
+    "modes": ["Grand Prix (8 cups, 32 course-slots)", "Knockout Tour (12 rallies as of v1.8.0, grown from 8 at launch)", "VS Race", "Time Trial", "Free Roam (open world)", "Battle Mode (8 courses, 3 game types)", "Online Play (Race/Knockout Tour/Battle/Friends)"],
+    "grandPrix": "7 base cups + hidden Special Cup (unlocked via gold/1st overall in all 7). Special Cup contains Rainbow Road (otherwise unavailable) and triggers the game's ending/credits on completion.",
+    "engineClasses": "50cc, 100cc, 150cc, and Mirror Mode. No 200cc exists as of v1.8.0.",
+    "mirrorModeUnlock": "Compound requirement (converging across scouts): 3rd place/clear or better in all Grand Prix cups (incl. Special Cup) and all Knockout Tour rallies at 150cc, plus 10 P-Switch missions + 10 Peach Medallions + 10 ?-Panels in Free Roam, then replay the Special Cup. This is treated as the game's true 'hardest difficulty' unlock.",
+    "roster": "50 racers (32 default + 7 via Grand Prix cup clears + 11 via permanent Kamek mid-race transformation unlocks tied to specific courses).",
+    "vehicles": "40 vehicles (21 karts/11 bikes/6 trikes/2 mobiles), unlocked via coin thresholds (~every 100 coins, all unlocked at ~3,000 lifetime coins). No swappable parts — customization is via a 1,056-sticker system instead.",
+    "freeRoamCollectibles": "394 P-Switches (short timed missions), 200 Peach Medallions, 150 ?-Panels (across 29 of 30 courses). Post-1.2.0 patch, the Free Roam map shows per-category discovery and marks a category complete.",
+    "costumes": "Unlocked via 'Dash Food' at Yoshi's Diners in Free Roam. Total count conflicts: 103 vs 127 across sources.",
+    "stickerMilestones": "225 of the 1,056 stickers are awarded for crossing lifetime-stat thresholds (coins, distance driven, glide distance, tricks, races) — confirms the game internally tracks these stats and surfaces a notification on threshold crossing, even though no dedicated 'stats screen' was confirmed.",
+    "battleMode": "8 courses, 3 game types: Balloon Battle, Coin Runners, Bob-omb Blast (added via update 1.6.0).",
+    "bosses": "None found — consistent with the racing genre and every prior Mario Kart entry.",
+    "onlineSystem": "VR (Versus Rating) starting at 3000, tracked separately per online mode (Race/Knockout Tour/Battle/Friends). Servers confirmed operational as of Sept 2026.",
+    "missables": "None found — all collectibles and unlocks appear permanently available via Free Roam replay at any time.",
+    "dlc": "No paid DLC as of Sept 2026. Two free content updates (July 2026, Sept 9 2026) added Knockout Tour rallies, 10 classic SNES courses as standalone VS Race selections, Spectator Mode, and Photo Mode stickers.",
+    "hiddenContent": "Easter egg: driving into the stained-glass Peach window atop Peach Stadium unlocks a mirrored version of the Free Roam world (Super Mario 64 reference)."
+  },
+  "conflicts": [
+    "Total unique Grand Prix courses: 29 vs 30 (some courses like Peach Stadium and Crown City appear twice under different cups with remixed layouts).",
+    "Costume/outfit total count: 103 (unlockable only) vs 127 (including defaults).",
+    "Exact Mirror Mode unlock wording: 'gold/1st in all 7 base cups' (Special Cup prerequisite) vs '3rd place or better across all 8 cups + all Knockout Tour rallies' (Mirror Mode's own checklist) — likely two distinct, compatible gates rather than a contradiction, but not confirmed end-to-end from one authoritative source."
+  ],
+  "gaps": [
+    "No confirmed dedicated lifetime stats/profile screen (total races, win rate, distance) beyond the 225 threshold-crossing sticker notifications — cumulative trophies should rely on the sticker-notification confirmation, not an assumed stats screen.",
+    "Knockout Tour rally count is a live-service moving target (8 at launch → 12 as of v1.8.0, Sept 2026) — a 'clear every rally' trophy should be scoped/noted as pinned to this patch.",
+    "Exact star-rank grading criteria (what earns 1 vs 2 vs 3 stars) not fully sourced.",
+    "No official item-probability table for RNG-relevant items (Kamek, Coin Shell, Blue Shell)."
+  ]
+}

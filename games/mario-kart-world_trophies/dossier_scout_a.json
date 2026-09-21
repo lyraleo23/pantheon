@@ -1,0 +1,231 @@
+{
+  "beat": "campaign",
+  "game": "Mario Kart World",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "mode_structure",
+      "name": "Grand Prix — 8 cups total",
+      "detail": "Grand Prix has 8 cups: 7 base cups available from the start (Mushroom Cup, Flower Cup, Star Cup, Shell Cup, Banana Cup, Leaf Cup, Lightning Cup) plus a hidden 8th, the Special Cup, unlocked afterward. Each cup contains 4 courses (32 course-slots total across all 8 cups). The first race of each cup is a traditional multi-lap race; the remaining 3 races in a cup are 'Intermission'-style point-to-point routes connecting one course to the next, ending with a lap of the destination course.",
+      "trackable": "Cup select screen shows locked/unlocked cups and a trophy (bronze/silver/gold) plus 1-3 star rank per cup per engine class once cleared.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_World", "https://game8.co/games/Mario-Kart-World/archives/524280", "https://www.nintendolife.com/guides/mario-kart-world-complete-course-list-every-track"]
+    },
+    {
+      "category": "mode_structure",
+      "name": "Special Cup unlock requirement",
+      "detail": "The Special Cup unlocks after earning a gold trophy (1st place overall, i.e., best combined placement across all 4 races) in all 7 base cups. Star rank (1-3 stars) is NOT required to unlock it — only finishing 1st overall. Contains Acorn Heights, Mario Circuit (SNES remake), a third layout of Peach Stadium, and Rainbow Road (Rainbow Road itself is otherwise unavailable elsewhere until this cup is cleared).",
+      "trackable": "Cup appears in the Grand Prix cup-select list once unlocked; a cutscene plays on unlock.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/guides/mario-kart-world-complete-course-list-every-track", "https://gamerant.com/mario-kart-world-rainbow-road-special-cup-secret-unlock/"]
+    },
+    {
+      "category": "ending",
+      "name": "Ending / credits roll",
+      "detail": "Completing the Special Cup (any placement, any engine class) triggers an ending cutscene followed by the end credits. This is the closest thing Mario Kart World has to a story 'ending.'",
+      "trackable": "One-time cutscene + credits sequence; no explicit in-game 'story complete' flag found beyond the Special Cup being marked cleared.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.youtube.com/watch?v=WKl0XgTyod0", "https://www.mariowiki.com/Special_Cup"]
+    },
+    {
+      "category": "course_count_conflict",
+      "name": "Total unique courses vs. course-slots (32 slots, ~29-30 unique courses)",
+      "detail": "Grand Prix has 32 course-slots (8 cups x 4), but some individual courses appear twice in different cups with different layouts/reverse routing — e.g., Peach Stadium appears in both the Shell Cup and the Special Cup, and Crown City appears in both the Mushroom Cup and Shell Cup. One source (Game8) counted 29 distinct base courses given this overlap. Total unique course count as of launch could not be pinned to a single authoritative number — estimates range from 29 to 30 depending on whether repeated-but-remixed courses are counted once or twice.",
+      "trackable": "n/a — structural fact, not a counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/523459", "https://www.nintendolife.com/guides/mario-kart-world-complete-course-list-every-track"]
+    },
+    {
+      "category": "course_provenance",
+      "name": "New vs. returning ('remake') courses",
+      "detail": "Of the launch course roster, roughly 14 courses are described as inspired by/remakes of past Mario Kart entries (e.g., Desert Hills and Airship Fortress from MK DS, Wario Stadium and Choco Mountain from MK64, Shy Guy Bazaar and Wario Shipyard from MK7, Sky-High Sundae from MK8 Deluxe, Moo Moo Meadows and Toad's Factory from MK Wii, Koopa Troopa Beach and Mario Circuit/Bowser's Castle reimagined from Super Mario Kart), with the remainder being new to Mario Kart World (e.g., Mario Bros. Circuit, Crown City, Whistlestop Summit, DK Spaceport, DK Pass, Starview Peak, Faraway Oasis, Peach Stadium, Peach Beach, Salty Salty Speedway, Dino Dino Jungle, Great ? Block Ruins, Cheep Cheep Falls, Dandelion Depths, Boo Cinema, Dry Bones Burnout, Acorn Heights).",
+      "trackable": "n/a — course-select screen shows names but does not label 'new' vs 'returning.'",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/523459"]
+    },
+    {
+      "category": "mode_structure",
+      "name": "Knockout Tour — rally structure",
+      "detail": "Knockout Tour is a single-player and multiplayer elimination mode using 'rallies' instead of cups. Each rally strings together 6 courses/routes into one continuous race with 24 racers; at set checkpoints the bottom 4 (slowest) racers are eliminated, narrowing the field until the final 4 race the last stretch. Items and coins carry over for the whole rally since there are no breaks between segments.",
+      "trackable": "Rally select screen shows completion/star rank per rally, similar to Grand Prix cups.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://mariokart.fandom.com/wiki/Knockout_Tour", "https://game8.co/games/Mario-Kart-World/archives/524285"]
+    },
+    {
+      "category": "mode_structure",
+      "name": "Knockout Tour rally count and post-launch additions",
+      "detail": "At launch (June 2025) there were 8 rallies: Golden, Ice, Moon, Spiny, Cherry, Acorn, Cloud, and Heart Rally. Two more (Drill Rally, Boomerang Rally) were added via a free update (v1.7.0), and two more (Propeller Rally, Turnip Rally) via v1.8.0, bringing the total to 12 rallies as of that update. Community sources (as of the update reporting) indicated up to 4 additional rallies were planned for the future (potential total of 16), but this is unconfirmed/forward-looking and should not be treated as final.",
+      "trackable": "Rally select screen lists all currently available rallies.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Rally_(event)"]
+    },
+    {
+      "category": "version_specific",
+      "name": "Rally roster is a live-service/updated feature — patch version matters for trophy design",
+      "detail": "Because Knockout Tour rally count has grown from 8 (launch) to 12 (as of v1.8.0) via free content updates, and more may be added, any trophy referencing 'complete all Knockout Tour rallies' is version-dependent. The exact patch version installed at time of trophy-list build should be confirmed before finalizing a specific count.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Rally_(event)"]
+    },
+    {
+      "category": "race_mode",
+      "name": "VS Race and Time Trials",
+      "detail": "VS Race is the standard customizable single-race mode (choose course, CC class, rules, CPU count) confirmed to exist alongside Grand Prix and Knockout Tour. Time Trials exist as a mode for solo lap-time attempts on individual courses (staple series mode); specific Mario Kart World details on Time Trial rewards (e.g., staff ghosts, medal thresholds) were not deeply verified in this pass.",
+      "trackable": "Time Trial best-time/ghost data saved per course, viewable in the Time Trial menu.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_World"]
+    },
+    {
+      "category": "engine_class",
+      "name": "Engine classes: 50cc, 100cc, 150cc, and Mirror Mode — NO 200cc",
+      "detail": "Mario Kart World launched with only 50cc, 100cc, and 150cc engine classes, plus unlockable Mirror Mode. Unlike Mario Kart 8/8 Deluxe, there is confirmed to be NO 200cc class at launch; the producer left open the possibility of adding larger engine classes in a future update, but none was confirmed as of the sources checked.",
+      "trackable": "Engine class selector on the mode-select screen shows available classes.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2025/06/mario-kart-world-doesnt-include-a-200cc-difficulty-mode", "https://game8.co/games/Mario-Kart-World/archives/527063"]
+    },
+    {
+      "category": "engine_class",
+      "name": "Mirror Mode unlock — multi-step requirement",
+      "detail": "Mirror Mode unlocks via a compound requirement: place 3rd or better (bronze trophy minimum) in all 7 base Grand Prix cups AND complete all 8 launch Knockout Tour rallies at 150cc (placement doesn't strictly matter for the rallies per some sources — merely finishing/being eliminated counts), PLUS in Free Roam collect at least 10 P-Switch mission completions, 10 Peach Medallions, and 10 ? Panels, THEN clear/replay the Special Cup once more. Completing this triggers a post-credits cutscene confirming the unlock. Sources differ slightly on whether the GP requirement is 'gold trophy' (1st) as needed to unlock Special Cup in the first place, vs. '3rd place or better' cited specifically for the Mirror Mode checklist — likely the Special Cup's own prerequisite (gold on all 7) is a subset/superset of the Mirror Mode requirement; exact precise wording not fully reconciled between sources.",
+      "trackable": "Engine class selector shows Mirror Mode once unlocked; a checklist-style unlock is not directly displayed to the player in one place, making this an obscure/discoverable unlock.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://kotaku.com/mario-kart-world-switch-2-mirror-mode-unlock-free-roam-1851784857", "https://www.nintendolife.com/guides/mario-kart-world-how-to-unlock-mirror-mode", "https://www.gamerguides.com/mario-kart-world/guide/getting-started/unlocks/how-to-unlock-mirror-mode"]
+    },
+    {
+      "category": "systems",
+      "name": "Star Rank / Trophy system per cup and rally",
+      "detail": "Each cleared Grand Prix cup or Knockout Tour rally is graded per engine class: a trophy tier (bronze/silver/gold, based on overall placement) plus a 1-3 star rank (based on performance quality, e.g. no falling off, coins collected, etc. — exact star criteria not verified). Mario Kart World has a retroactive ranking feature: achieving 3 stars at a higher CC (e.g. 150cc) will retroactively grant 3-star status at lower CCs (50cc/100cc) for that same cup if not already achieved; the reverse (lower CC 3-star not overwriting a worse higher-CC result) does not happen. Mirror Mode's max star rank also retroactively grants max stars to 50/100/150cc.",
+      "trackable": "Cup/rally select screen displays trophy + star rank per engine class directly.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://kotaku.com/mario-kart-world-three-star-gold-trophies-rewards-star-ranking-mirror-mode-2000614601"]
+    },
+    {
+      "category": "completion_state",
+      "name": "'100% Clear' composite completion concept",
+      "detail": "A community-defined (not necessarily an in-game explicit label) '100% Clear' state is described as: unlocking Mirror Mode, unlocking all characters, unlocking all outfits and vehicles, collecting all Free Roam collectibles (P-Switches/Peach Medallions/?-Panels), collecting all stickers, and earning all Cup and Rally stars (max star rank in every cup and rally, across all engine classes implied). No single in-game percentage meter confirmed; this appears to be a checklist assembled by guide sites rather than a displayed number.",
+      "trackable": "No single unified % meter confirmed; multiple separate menus (cup select, character roster, sticker book, Free Roam map) each track their own sub-piece.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/527583"]
+    },
+    {
+      "category": "roster",
+      "name": "Character roster — 50 racers total",
+      "detail": "50 playable racers total: 32 available by default, 7 unlocked by clearing specific Grand Prix cups (CC/placement does not matter, only clearing), and 11 unlocked via mid-race Kamek item transformations tied to specific courses (touching the transformed racer once for a course locks it in permanently as unlocked for future selection). Cup-to-character unlock mapping: Flower Cup -> Daisy, Star Cup -> Rosalina, Lightning Cup -> Bowser Jr., Mushroom Cup -> Donkey Kong, Shell Cup -> Lakitu, Leaf Cup -> King Boo, Banana Cup -> Birdo. (32+7+11 = 50, consistent across sources.)",
+      "trackable": "Character select screen shows locked/unlocked racers directly (silhouette vs. available).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/523457", "https://www.mariowiki.com/Mario_Kart_World", "https://www.gamesradar.com/games/super-mario/mario-kart-world-roster-character-list/"]
+    },
+    {
+      "category": "roster",
+      "name": "Kamek transformation mechanic",
+      "detail": "The Kamek item (a purple crystal-ball power-up) appears in races, typically to racers ranked around 4th-10th place; when used/triggered it transforms the racer into a random unlocked-or-unlockable character. Touching specific in-race objects/hazards on certain courses while under a Kamek transformation permanently unlocks that character for future use (e.g., Whistlestop Summit -> Spike, Dandelion Depths -> Swoop, Boo Cinema -> Peepa, DK Spaceport -> Chargin' Chuck, Airship Fortress -> Rocky Wrench, Cheep Cheep Falls -> Coin Coffer, Peach Beach -> Cataquack, Koopa Troopa Beach -> Dolphin, Faraway Oasis -> Conkdor, Mario Circuit -> Pianta). This is an unusual, game-specific unlock method not seen in prior Mario Kart entries.",
+      "trackable": "Character select screen updates once unlocked; no separate 'Kamek transformations found' counter confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/523457"]
+    },
+    {
+      "category": "vehicles",
+      "name": "Vehicle roster — 40 vehicles, no traditional part-customization",
+      "detail": "40 vehicles total: 21 karts, 11 bikes, 6 trikes (called 'ATVs' in some sources), and 2 'mobiles' (e.g. unconventional vehicles). This yields 6,120 possible character-vehicle combinations (50 characters x ~122... actually reported directly as 6,120 total, source-stated). Unlike MK8/8DX, there is no separate wheels/glider part system — vehicles are unlocked as whole units (via Grand Prix/Knockout Tour clears, Free Roam exploration, or other conditions per guide sites, not independently deep-verified here).",
+      "trackable": "Vehicle select screen shows locked/unlocked vehicles.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_World"]
+    },
+    {
+      "category": "vehicles",
+      "name": "Sticker-based vehicle customization — 1,056 stickers",
+      "detail": "Vehicle customization in Mario Kart World is done via stickers/decals placed on a designated spot on the vehicle (marked by checkered flags in the vehicle icon), NOT via swappable parts (no separate wheels/glider stat system like MK8). There are 1,056 total stickers, with 39 available from the start; the rest are unlocked through various objectives (Free Roam exploration, P-Switch missions, race performance, etc. — exact per-sticker unlock conditions not deeply verified here, likely Scout B's beat).",
+      "trackable": "Sticker book / collection menu tracks total stickers owned out of the full set.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/List_of_stickers_in_Mario_Kart_World", "https://www.gamereactor.eu/mario-kart-world-sticker-guide-complete-the-collection-1555073/"]
+    },
+    {
+      "category": "boss_content",
+      "name": "No boss fights or boss-like encounters found",
+      "detail": "No source found any boss fight, arena battle, or boss-like structured encounter in Mario Kart World (mandatory or optional). This is consistent with the racing-game genre and every other mainline Mario Kart entry. Knockout Tour's elimination structure is competitive against other racers, not a scripted boss. Treat 'no bosses' as the working assumption, but this is an absence-of-evidence conclusion rather than an explicit official statement that none exist.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Mario_Kart_World", "https://mariokart.fandom.com/wiki/Knockout_Tour"]
+    },
+    {
+      "category": "free_roam",
+      "name": "Free Roam — connected open-world traversal structure",
+      "detail": "Free Roam is an open-world exploration mode (solo or multiplayer) set on a single connected continent containing all of the game's courses linked by roads/highways, off-road terrain, and other traversable paths. Players can drive continuously from the northernmost course (Acorn Heights) to the southernmost (Dino Dino Jungle) without loading screens between courses. NPCs (Toads, vehicles/buses/trucks) populate the roads. No combat/boss content in Free Roam — it is purely exploration/traversal plus discoverable missions and collectibles (collectibles beat covered by another scout).",
+      "trackable": "A world map overlay is available showing the player's position and discovered points of interest.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.gamespot.com/articles/mario-kart-worlds-vibes-based-free-roam-is-perfect/1100-6532586/", "https://www.dexerto.com/wikis/mario-kart-world/free-roam-guide/"]
+    },
+    {
+      "category": "free_roam",
+      "name": "Free Roam day-night cycle",
+      "detail": "Free Roam has a dynamic ~24-minute real-time day-night cycle divided into 4 periods: roughly 14 minutes of daytime, 2 minutes of sunset, 6 minutes of nighttime, and 2 minutes of sunrise. Some courses/routes play in different fixed rotations depending on whether it is day or night, meaning the set of traversable connector-routes changes over the course of the cycle.",
+      "trackable": "Time-of-day is visually apparent (lighting) but no explicit clock/timer UI confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dexerto.com/wikis/mario-kart-world/free-roam-guide/", "https://www.mariowiki.com/Mario_Kart_World"]
+    },
+    {
+      "category": "free_roam",
+      "name": "P-Switch missions in Free Roam (structural note, not full collectible detail)",
+      "detail": "Free Roam contains 394 P-Switches scattered across the open world; interacting with one starts a short timed challenge/mission (objectives include mini-races, reaching a goal ring, collecting Blue Coins, etc., reminiscent of Mario Kart DS's Missions mode). Completing a mission typically rewards a sticker. Full collectible-count detail (P-Switches, Peach Medallions x200, ?-Panels x150) is flagged here only for context — treat as the collectibles/side-content scout's primary beat, not fully verified by this report.",
+      "trackable": "Free Roam menu/map likely shows P-Switch mission completion count; exact UI element not independently confirmed by this scout.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.gamesradar.com/games/super-mario/mario-kart-world-p-switch-locations/", "https://game8.co/games/Mario-Kart-World/archives/524298"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Grand Prix cup trophy tier (bronze/silver/gold) per cup per engine class", "where": "Grand Prix cup-select screen", "confidence": "high" },
+    { "stat": "Grand Prix cup star rank (1-3 stars) per cup per engine class, with retroactive carry-over from higher CC/Mirror Mode to lower CC", "where": "Grand Prix cup-select screen", "confidence": "medium" },
+    { "stat": "Knockout Tour rally completion/trophy/star rank per rally", "where": "Knockout Tour rally-select screen", "confidence": "medium" },
+    { "stat": "Character roster unlocked (out of 50)", "where": "Character select screen (locked characters shown as silhouettes)", "confidence": "high" },
+    { "stat": "Vehicle roster unlocked (out of 40)", "where": "Vehicle select screen", "confidence": "medium" },
+    { "stat": "Stickers collected (out of 1,056)", "where": "Sticker book / collection menu", "confidence": "high" },
+    { "stat": "Mirror Mode unlocked (boolean)", "where": "Engine class selector shows Mirror Mode as an available option once unlocked", "confidence": "high" },
+    { "stat": "Time Trial best times / ghost data per course", "where": "Time Trial mode menu", "confidence": "low" }
+  ],
+  "versionNotes": [
+    {
+      "note": "Mario Kart World is a live-service-style title that has received content updates post-launch (June 5, 2025). Knockout Tour rallies grew from 8 at launch to 12 as of update v1.8.0 (Drill Rally and Boomerang Rally added in v1.7.0; Propeller Rally and Turnip Rally added in v1.8.0). Community reporting suggested up to 4 more rallies were planned (potential future total of 16), but this is forward-looking and unconfirmed. A trophy list built around 'complete all Knockout Tour rallies' must pin to a specific patch version and re-verify the current count close to build time, since this beat's research (Sept 2026) may already be stale relative to the live version.",
+      "confidence": "medium"
+    },
+    {
+      "note": "200cc engine class does not exist in Mario Kart World as of the sources checked (only 50cc/100cc/150cc/Mirror Mode). The producer left open the possibility of a future update adding larger engine classes, so this should be re-verified at build time in case a 200cc mode was added between this research date and trophy list construction.",
+      "confidence": "medium"
+    },
+    {
+      "note": "No platform version differences to report — Mario Kart World is a Nintendo Switch 2 exclusive title (does not appear on original Switch), so there is no cross-platform content-parity concern for this beat.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Could not fully reconcile the exact Mirror Mode unlock requirement wording — one source describes '3rd place or better in all 8 Cups and Knockout Tours' while another (for Special Cup unlock specifically) describes 'gold trophy/1st place in all 7 base cups.' These may be two different, compatible requirements (Special Cup needs gold on the 7 base cups; Mirror Mode's checklist separately only needs 3rd+ across all 8 cups including Special Cup, plus all Knockout Tour rallies), but this was not confirmed with a single authoritative source walking through the full unlock chain end-to-end.",
+      "Could not confirm whether the 'complete all Knockout Tour rallies' portion of the Mirror Mode requirement needs all 8 launch rallies specifically, or all rallies present at the time of unlocking (i.e., whether it scales with post-launch additions like Drill/Boomerang/Propeller/Turnip Rally).",
+    "Could not independently verify Time Trial mode's specific mechanics in Mario Kart World (staff ghosts, medal/rank thresholds, whether it covers all courses including Free Roam routes) — flagged as low confidence and worth a follow-up pass if Time Trials become a trophy candidate.",
+    "Could not confirm exact vehicle unlock conditions for all 40 vehicles (which are default vs. earned via GP/Knockout Tour/Free Roam, and by what specific criteria) — only the total count and category breakdown (21 karts/11 bikes/6 trikes/2 mobiles) was confirmed.",
+    "Could not confirm precise star-rank grading criteria (what specifically earns 1 vs 2 vs 3 stars in a cup/rally) beyond 'performance quality' — exact rules (e.g., no falls, item usage, coin count) not sourced.",
+    "Could not confirm whether an explicit numeric '100% completion' percentage is displayed anywhere in-game (save file, pause menu, etc.) — all references found were guide-site checklists rather than confirmed in-game UI.",
+    "Full detail on Free Roam collectibles (394 P-Switches, 150 ?-Panels, 200 Peach Medallions) is only lightly touched here for structural context — this is properly the side-content/collectibles scout's beat and should not be treated as fully verified by this report.",
+    "Did not find confirmation of whether the total unique course count is best reported as 29, 30, or another figure — sources conflict due to courses like Peach Stadium and Crown City appearing twice with different layouts under different cups. A trophy referencing 'play/complete every course' needs this resolved against the exact build/patch version at design time.",
+    "Could not verify whether additional cups, courses, or rallies were added after v1.8.0 that might further change these counts by the time this dossier is used — recommend a freshness check against the current patch notes immediately before trophy design."
+  ]
+}

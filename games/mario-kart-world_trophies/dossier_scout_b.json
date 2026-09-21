@@ -1,0 +1,198 @@
+{
+  "beat": "side_content",
+  "game": "Mario Kart World",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "collectible",
+      "name": "P Switches (Free Roam missions)",
+      "detail": "394 total P Switches scattered across the connected open world. Activating one starts a short mission (collect blue coins in a time limit, perform a trick for height/distance, grind rails/ropes, navigate obstacles, drive a hijacked truck/boat/helicopter, etc.). 6 of them reportedly require advanced techniques such as Wall Runs or Rail Rides.",
+      "trackable": "Free Roam map shows locations of P Switches you have already found (not unfound ones); as of the 1.2.0 update the on-screen counter for a category turns gold/changes color once all of that type are collected. Players can also fast-travel to and replay found P Switches.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/guides/mario-kart-world-all-p-switch-locations", "https://game8.co/games/Mario-Kart-World/archives/524298", "https://www.mariowiki.com/List_of_Mario_Kart_World_missions", "https://www.videogameschronicle.com/news/the-latest-mario-kart-world-update-makes-tracking-its-open-world-collectibles-easier/ (via search snippet)"]
+    },
+    {
+      "category": "collectible",
+      "name": "Peach Medallions",
+      "detail": "200 large gold coin collectibles scattered through Free Roam. Each grants a sticker when collected.",
+      "trackable": "Same map/counter tracking system as P Switches (locations of found ones shown, counter changes when category complete).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/526844", "https://www.mariowiki.com/Peach_Medallion", "https://game8.co/games/Mario-Kart-World/archives/524223"]
+    },
+    {
+      "category": "collectible",
+      "name": "? Panels (Question Panels)",
+      "detail": "150 total, distributed across 29 of the game's 30 courses (most circuits have 5, Crown City has 10; Rainbow Road has none). Activating a panel awards a sticker usable for kart customization.",
+      "trackable": "Free Roam map shows per-course activated-panel counts; can check progress per circuit.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Mario-Kart-World/archives/526846", "https://www.nintendolife.com/guides/mario-kart-world-all-question-panel-locations"]
+    },
+    {
+      "category": "systems",
+      "name": "Sticker collection (kart customization)",
+      "detail": "1,056 total stickers exist. Kart/bike part customization from prior games was removed; stickers (one displayed at a time) are the visual customization system instead. Breakdown per Super Mario Wiki: 39 available from the start, 46 unlocked on first Special Cup race, 394 from P Switch missions, 200 from Peach Medallions, 150 from ? Panels, 1 from a Nabbit-related Free Roam challenge, 1 from the Chargin' Chuck shell-hit challenge, and 225 from gameplay milestone thresholds (see stats finding below).",
+      "trackable": "In-game sticker book/collection menu (per Dexerto/Game8 sticker guides); a specific single sticker is equipped on the kart at a time.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/List_of_stickers_in_Mario_Kart_World", "https://www.dexerto.com/wikis/mario-kart-world/stickers/", "https://game8.co/games/Mario-Kart-World/archives/527049"]
+    },
+    {
+      "category": "systems",
+      "name": "Gameplay milestone stickers (tracked lifetime stats)",
+      "detail": "225 stickers are awarded for crossing lifetime-stat thresholds: total coins collected (tiers up to 30,000), total distance driven (tiers up to 5,000 km), total gliding distance (tiers up to 200 km), total tricks performed (tiers up to 30,000), and total races completed (tiers up to 500). A notification appears when a threshold is crossed.",
+      "trackable": "Confirmed the game tracks these stats internally (threshold pop-ups on crossing), per VULKK and Super Mario Wiki. Could not confirm a dedicated stats-summary screen showing exact running totals at any time -- gap noted below.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://vulkk.com/2025/08/10/how-stats-work-in-mario-kart-world/ (via search snippet)", "https://www.mariowiki.com/List_of_stickers_in_Mario_Kart_World"]
+    },
+    {
+      "category": "customization",
+      "name": "Costumes / outfits via Yoshi's Diners",
+      "detail": "Character costumes are unlocked by eating 'Dash Food' from Yoshi's Diners and food trucks/stalls scattered in Free Roam. The specific food/location determines the costume received (e.g., Boo Cinema area gives horror-themed outfits like Vampire Waluigi). Sources conflict on the exact total: one report says 103 unlockable outfits, another says 127 total costumes including default outfits.",
+      "trackable": "Outfit/costume selection menu presumably shows owned costumes per character (not independently confirmed).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.pockettactics.com/mario-kart-world/unlockables", "https://gamerant.com/mario-kart-world-unlock-everything-all-karts-costumes-characters-tracks/", "https://www.gamesradar.com/games/super-mario/all-mario-kart-world-outfits-costumes-food-locations/"]
+    },
+    {
+      "category": "unlockable",
+      "name": "Kart/vehicle unlocks via coins",
+      "detail": "40 total vehicles. Players start with 11; the remaining 29 unlock automatically every 100 coins earned (coins from Free Roam, Grand Prix, Knockout Tour), with all vehicles unlocked once lifetime coin total reaches 3,000.",
+      "trackable": "Vehicle select screen shows locked/unlocked vehicles; unlock notifications appear at each 100-coin threshold.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.pockettactics.com/mario-kart-world/unlockables", "https://www.gamereactor.eu/mario-kart-world-a-guide-to-unlocking-all-the-40-vehicles-1556443/", "https://mariopartylegacy.com/guides/mario-kart-world/unlockable-karts-vehicles"]
+    },
+    {
+      "category": "unlockable",
+      "name": "Character unlocks (Grand Prix + Kamek transformation)",
+      "detail": "Characters unlock two ways: (1) completing a Grand Prix cup for the first time unlocks an associated character (e.g., Rosalina, Donkey Kong); (2) getting hit by an opponent's Kamek item transforms the player into a random NPC character (e.g., Fish Bone, Peepa, Chargin' Chuck) tied to the course/location, permanently unlocking that character. Chargin' Chuck specifically requires being Kamek-transformed while racing DK Spaceport per one guide.",
+      "trackable": "Character select screen shows locked vs unlocked roster.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.pockettactics.com/mario-kart-world/unlockables", "https://game8.co/games/Mario-Kart-World/archives/526457", "https://mariopartylegacy.com/guides/mario-kart-world/unlockable-characters-outfits"]
+    },
+    {
+      "category": "secret",
+      "name": "Chargin' Chuck shell challenge",
+      "detail": "Non-playable Chargin' Chucks ride Standard Bikes around Free Roam; one drops Item Boxes containing Green Shells behind him. Hitting him with a shell while he evades completes the challenge and (first time) awards a sticker.",
+      "trackable": "Sticker awarded/logged in sticker collection on first completion.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.mariowiki.com/Chargin'_Chuck", "https://www.youtube.com/watch?v=aKzKz0LAZ5M"]
+    },
+    {
+      "category": "secret",
+      "name": "Nabbit-related Free Roam sticker",
+      "detail": "Super Mario Wiki lists a distinct sticker for 'catching Nabbit' in Free Roam, separate from Nabbit being an already-unlocked playable NPC driver. Could not fully reconcile whether this is a discrete catch-a-fleeing-Nabbit minigame event or relates to something else -- flagged as a minor discrepancy between sources.",
+      "trackable": "Sticker awarded on completion, per sticker list.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.mariowiki.com/List_of_stickers_in_Mario_Kart_World", "https://en.wikipedia.org/wiki/Nabbit (context)"]
+    },
+    {
+      "category": "secret",
+      "name": "Mirror Mode unlock and hidden mirrored Free Roam map",
+      "detail": "Per an official Nintendo of Japan clarification, Mirror Mode unlocks by meeting ALL of: (1) completing every Grand Prix cup and every Knockout Tour rally at 150cc, (2) completing at least 10 P Switch missions, (3) activating at least 10 ? Panels, (4) collecting at least 10 Peach Medallions -- then replaying the Special Cup at 150cc triggers a cutscene unlocking the mode. Separately, as an easter egg, driving into the large stained-glass Peach window atop Peach Stadium grants access to a mirrored version of the Free Roam world (a nod to Super Mario 64's secret level entries).",
+      "trackable": "Mode appears as a selectable difficulty/variant once unlocked; no separate counter found for the easter-egg mirrored Free Roam access.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://mariopartylegacy.com/guides/mario-kart-world/unlockable-courses-mirror-mode", "https://gamerant.com/mario-kart-world-easter-egg-mirror-free-roam-map/", "https://thereformedgamers.com/2025/06/09/mario-kart-worlds-hidden-easter-egg-unlocks-mirrored-free-roam-map-via-peachs-castle/"]
+    },
+    {
+      "category": "secret",
+      "name": "Hidden classic-track easter eggs in Free Roam",
+      "detail": "Ghost versions/echoes of classic SNES-era tracks are findable as physical locations within the Free Roam open world, including Choco Island 1 (near Choco Mountain), Koopa Beach 1 (near Koopa Troopa Beach), and Ghost Valley 1/2/3 (docks/boardwalk outside Boo Cinema). Note: as of the September 9, 2026 free update, 10 classic Super Mario Kart courses were also made officially playable as standalone VS Race selections (see DLC/update note) -- unclear if these are the same physical locations or a separate systemic addition.",
+      "trackable": "Not clearly trackable as a discrete collectible; appears to be exploration flavor content.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/mario-kart-world-classic-mario-kart-tracks-hidden/", "https://www.watchmojo.com/articles/hidden-secrets-in-mario-kart-worlds-free-roam-mode"]
+    },
+    {
+      "category": "minigame",
+      "name": "Hide and seek (community activity, not an official mode)",
+      "detail": "Free Roam supports open online exploration with friends, and players have used it to informally play hide-and-seek. Search results found no evidence of an official, developer-defined 'Hide and Seek' game mode with rules, scoring, or menu entry -- this appears to be emergent player behavior, not a built-in mode.",
+      "trackable": "N/A -- not an official trackable mode.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.youtube.com/watch?v=1OgpnAeYOxY", "https://www.gamespot.com/articles/mario-kart-worlds-free-roam-mode-features-missions-hidden-collectibles-and-more-1100-6530931/"]
+    },
+    {
+      "category": "mode",
+      "name": "Battle Mode",
+      "detail": "Confirmed to exist. Takes place on 8 dedicated Battle Courses: 6 based on existing race tracks, 1 returning N64 battle course, and 1 brand-new course (course selection occurs in Free Roam for some variants). Game types include Balloon Battle (5 balloons each, most balloons popped by time limit wins), Coin Runners (collect and hold coins, score = coins held at time limit), and Bob-omb Blast (collect bob-ombs from item boxes, up to 10 held at once, explode instantly on ground contact, throw distance tied to button hold duration).",
+      "trackable": "Battle results/scores shown post-match; unclear if lifetime Battle stats are tracked separately from the milestone stat system.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.dexerto.com/wikis/mario-kart-world/battle-mode-guide/", "https://game8.co/games/Mario-Kart-World/archives/527829", "https://www.nintendolife.com/news/2025/04/mario-kart-world-brings-back-another-fan-favourite-mode"]
+    },
+    {
+      "category": "mode",
+      "name": "\"Rally\" terminology -- clarification (not a separate elimination mode)",
+      "detail": "'Rally' is NOT a standalone battle-like mode. It is the term for individual routes within Knockout Tour mode: a rally is a multi-checkpoint event across 6 courses (vs. Grand Prix's 4) where 24 racers start, the slowest racers are eliminated at each checkpoint (not just last place), and the final 4 racers compete in a last lap on the final course. Achieving 3 stars in a rally requires passing every checkpoint in 1st place. Two new Knockout Tour rally routes, 'Propeller Rally' and 'Turnip Rally,' were added in the September 9, 2026 free update.",
+      "trackable": "Per-rally star rating (up to 3 stars) tracked and displayed, likely in a Knockout Tour selection/results screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.mariowiki.com/Rally_(event)", "https://mariokart.fandom.com/wiki/Knockout_Tour", "https://www.nintendo.com/us/whatsnew/mario-kart-world-adds-snes-courses-and-knockout-tour-routes-in-a-free-update/", "https://gameinformer.com/2026/07/01/mario-kart-world-update-adds-new-knockout-tour-routes-and-stickers-for-photo-mode"]
+    },
+    {
+      "category": "feature",
+      "name": "Photo Mode",
+      "detail": "Accessed via the minus (-) button; available in singleplayer modes and Free Roam. Features include Zoom, 90-degree Tilt (clockwise/counter-clockwise), Focus (background blur), Frames, Pose (character/vehicle-specific poses), Expression (character-specific, compatible with any pose), and Face Camera (character looks at camera). The July 2026 update reportedly added new stickers usable within/related to Photo Mode.",
+      "trackable": "Not a collectible system itself; screenshots can be saved/shared. No indication of a Photo Mode-specific completion tracker.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/mario-kart-world-how-to-use-photo-mode-screenshot/", "https://www.mariowiki.com/Photo_Mode", "https://gameinformer.com/2026/07/01/mario-kart-world-update-adds-new-knockout-tour-routes-and-stickers-for-photo-mode"]
+    },
+    {
+      "category": "dlc",
+      "name": "No paid DLC announced as of September 2026",
+      "detail": "As of the reporting found (through the September 9, 2026 Nintendo Direct), no paid DLC/expansion has been announced for Mario Kart World. All post-launch content released so far has been free updates.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/mario-kart-world-update-confirmed-nintendo-direct/", "https://mariopartylegacy.com/guides/mario-kart-world/dlc-updates-list"]
+    },
+    {
+      "category": "dlc",
+      "name": "September 9, 2026 free update -- classic SNES courses + Knockout Tour routes + Spectator Mode",
+      "detail": "Free update released same-day as a Nintendo Direct announcement on September 9, 2026. Added: 10 classic Super Mario Kart (SNES) courses as standalone, selectable VS Race courses (previously only present as hidden/echo content in Free Roam); 2 new Knockout Tour rally routes, 'Propeller Rally' and 'Turnip Rally'; and a Spectator Mode for watching friends play online or via LAN.",
+      "trackable": "New courses appear in VS Race course select; new rallies appear in Knockout Tour route select.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2026/09/mario-kart-world-goes-retro-in-new-free-update-launching-today", "https://www.nintendo.com/my/news/article/2R4QbOHyCQDj4eqiA8q4j1", "https://insider-gaming.com/mario-kart-world-free-update-revealed-at-nintendo-direct/"]
+    },
+    {
+      "category": "dlc",
+      "name": "July 1, 2026 free update -- earlier Knockout Tour routes and Photo Mode stickers",
+      "detail": "An earlier free update (per Game Informer, dated July 1, 2026) added new Knockout Tour routes and new stickers tied to Photo Mode. Exact route names not confirmed in this search pass.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://gameinformer.com/2026/07/01/mario-kart-world-update-adds-new-knockout-tour-routes-and-stickers-for-photo-mode"]
+    },
+    {
+      "category": "completion",
+      "name": "Community-defined \"100% completion\" scope",
+      "detail": "Community guides define 100% completion as: unlocking Mirror Mode, all characters, all outfits, and all vehicles; collecting all Free Roam collectibles (394 P Switches, 150 ? Panels, 200 Peach Medallions, plus Yoshi's Diner outfit food items); and earning 3 Stars on all Grand Prix cups and Knockout Tour rallies in both 150cc and Mirror Mode. One source explicitly states the game 'lacks any in-game tracking system' for an overall 100% completion percentage, which conflicts with the confirmed per-category counters added in the 1.2.0 patch -- likely this source predates that patch or refers specifically to the absence of a single unified percentage stat rather than per-category counts.",
+      "trackable": "No confirmed single unified 100%-completion percentage stat; per-category counters (P Switches, Peach Medallions, ? Panels) do exist post-1.2.0.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://exionvault.com/mario-kart-world-100-completion/", "https://game8.co/games/Mario-Kart-World/archives/527583", "https://listium.com/@jaxon/137954/mario-kart-world-100-checklist"]
+    }
+  ],
+  "gaps": [
+    "Could not confirm the exact total costume/outfit count -- sources conflict between 103 (unlockable only) and 127 (including defaults).",
+    "Could not confirm the exact location/UI of a lifetime-stats summary screen (coins, distance, tricks, races) beyond threshold-crossing pop-up notifications.",
+    "Could not confirm whether there is a single unified '100% completion' percentage displayed anywhere in-game; evidence suggests only per-category collectible counters exist (post-1.2.0 patch), not an aggregate percentage.",
+    "Could not verify the exact nature of the 'Nabbit capture' sticker distinct from Nabbit's default unlocked status as an NPC driver.",
+    "Could not confirm exact names/details of the July 1, 2026 Knockout Tour routes added in that free update.",
+    "Could not determine whether Peach Medallions, P Switches, or ? Panels are missable in any permanent sense (e.g., tied to a limited-time event) -- available evidence suggests all are permanently present and re-collectible via Free Roam at any time, but this was not explicitly stated by any source.",
+    "Could not confirm whether Battle Mode results/stats feed into the same lifetime milestone-stat system used for Free Roam/VS Race, or are tracked separately.",
+    "Did not find confirmation of a discrete 'hide and seek' mode with official rules -- treated as unconfirmed/community-only.",
+    "Could not access official Nintendo Life costume-unlock guide directly (403 error); costume details relied on secondary aggregator sources."
+  ]
+}

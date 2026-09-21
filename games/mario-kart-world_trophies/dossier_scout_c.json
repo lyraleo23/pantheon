@@ -1,0 +1,191 @@
+{
+  "beat": "systems",
+  "game": "Mario Kart World",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "platform",
+      "name": "Genesis Mode confirmed - no native achievement/trophy list exists",
+      "detail": "Mario Kart World is a Nintendo Switch 2 exclusive released June 5, 2025. No evidence found of a Steam, PlayStation, or Xbox release, and no plans for one. Nintendo Switch 2 has no system-wide achievement/trophy system; Nintendo of America VP Bill Trinen explicitly confirmed 'Nope' when asked about achievements for Switch 2. A minor unrelated exception exists (Nintendo Switch Online 'DK Challenge' event cards, and achievements for BOTW/TOTK via the Nintendo App) but these do not apply to Mario Kart World, which has no in-game or platform-level achievement list.",
+      "trackable": "N/A - confirms Genesis Mode is the correct build type for this game.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.shacknews.com/article/143808/nintendo-switch-2-achievement-trophy",
+        "https://kotaku.com/switch-2-nintendo-no-achievements-trophies-xbox-steam-1851775079",
+        "https://www.mariowiki.com/Mario_Kart_(Nintendo_Switch_2)",
+        "https://en.wikipedia.org/wiki/Mario_Kart_World"
+      ]
+    },
+    {
+      "category": "progression",
+      "name": "Grand Prix / Knockout Tour Trophy + Star Rank system",
+      "detail": "Completing a 4-race Grand Prix cup (or Knockout Tour) awards a Bronze/Silver/Gold trophy based on overall placement (1st/2nd/3rd or lower), plus 0-3 stars based on total points earned across the 4 races (54 pts = 1 star, 57 = 2 stars, 60 = 3 stars/full gold with 1st in every race). Trophy icons are shown on the Grand Prix cup-select menu next to each cup, reflecting the player's best result. If a lower CC class earns a better trophy than a higher CC class, the display shows the better result; playing a higher CC class first auto-completes trophies for lower classes only if performance carries over (best result retained per cup, not per CC specifically per some sources - see gap).",
+      "trackable": "Displayed as an icon (bronze/silver/gold cup with 0-3 stars) next to each cup on the Grand Prix/Knockout Tour selection menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gamerant.com/mario-kart-world-grand-prix-how-get-three-stars-rank-gold-trophy/",
+        "https://kotaku.com/mario-kart-world-three-star-gold-trophies-rewards-star-ranking-mirror-mode-2000614601"
+      ]
+    },
+    {
+      "category": "progression",
+      "name": "Mirror Mode unlock requirements",
+      "detail": "To unlock Mirror Mode, players must: get 3rd place or better in all 8 Cups/Knockout Tours, complete 10 P-Switch missions, collect 10 Peach Medallions, find 10 '?' Panels in Free Roam, then complete the Special Cup one more time. Mirror Mode plays at 150cc with the map flipped along the Y-axis. There is no 200cc class in Mario Kart World as of the most recent checked update (1.8.0, Sept 10 2026); engine classes are 50cc, 100cc, 150cc, and 150cc Mirror.",
+      "trackable": "Unlock requirements/progress toward P-Switch missions, Peach Medallions, and ? Panels are tracked in Free Roam menus/map; cup completion tracked via the trophy display.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://nintendowire.com/guides/how-to-unlock-mirror-mode-in-mario-kart-world/",
+        "https://mariopartylegacy.com/guides/mario-kart-world/unlockable-courses-mirror-mode",
+        "https://game8.co/games/Mario-Kart-World/archives/527063"
+      ]
+    },
+    {
+      "category": "online system",
+      "name": "Player Rating (VR) system",
+      "detail": "Online rating starts at 3000 for new players and adjusts after every race based on placement (1st place typically earns several hundred points; last place earns only a few dozen). Below ~7000 rating, players almost always gain points regardless of placement; above that threshold, gains shrink and losses for poor placement become possible, making high-end climbing harder. Rating is tracked SEPARATELY for each of the four online modes: Race, Knockout Tour, Battle, and Friends (private online play). Some players report unclear/inconsistent point losses even on 1st-place finishes, suggesting an additional 'skill-based' evaluation factor beyond simple placement, but this is not officially documented in detail by Nintendo.",
+      "trackable": "Rating number is displayed next to each online mode in the Online Play menu, and next to each player's name in post-race results screens.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gamerant.com/mario-kart-world-online-numbers-player-rating-versus-rank-explained-mkw/",
+        "https://gamerant.com/mario-kart-world-losing-vr-points-after-winning/",
+        "https://bo3.gg/games/articles/what-do-the-online-play-numbers-mean-in-mario-kart-world"
+      ]
+    },
+    {
+      "category": "online system",
+      "name": "Online modes: Race, Knockout Tour, Battle, Friends",
+      "detail": "Four online modes exist. Race = standard single races with VR change. Knockout Tour = continuous multi-track race with 5 checkpoints where the bottom 4 racers are eliminated at each checkpoint if below the cutoff placement. Battle = Balloon Battle, Coin Runners, and Bob-omb Blast (Bob-omb Blast added in update 1.6.0). Friends = private online play with 1-2 people per Switch console joining others over internet.",
+      "trackable": "Mode selection and VR shown in Online Play menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendo.com/us/gaming-systems/switch-2/featured-games/mario-kart-world/modes/",
+        "https://kotaku.com/mario-kart-worlds-update-knockout-tour-team-battles-2000662201"
+      ]
+    },
+    {
+      "category": "server status",
+      "name": "Online servers operational as of September 2026",
+      "detail": "As of the most recent check (September 2026), Mario Kart World online servers are reported operational with no widespread outage. Occasional individual connection errors (e.g. Error Code 2321-4608) occur but are described as normal transient issues, not a service shutdown. This is distinct from Mario Kart Tour (mobile), which IS being shut down permanently on September 29-30, 2026 - that shutdown does NOT affect Mario Kart World.",
+      "trackable": "N/A - relevant to Rule 13 (long-term achievability of online-dependent trophies).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.destructoid.com/are-mario-kart-world-servers-down-how-to-check-server-status/",
+        "https://status.technobezz.com/mario-kart-world",
+        "https://www.videogameschronicle.com/news/mario-kart-tour-is-being-permanently-shut-down-and-features-disabled/"
+      ]
+    },
+    {
+      "category": "item system",
+      "name": "New/unique items in Mario Kart World",
+      "detail": "28 total items in the game. Notable new items include: Hammer, Dash Food (grants a speed burst; for characters with costume variants, eating it can also transform the character into a random costume - and if that costume was not previously unlocked, it is PERMANENTLY unlocked), Ice Flower, Coin Shell, and Kamek (transforms racers ahead of the user into random creatures temporarily). Coin Box produces coins on button press plus a slight speed boost. Returning items include Banana, Super Star, and Spiny (Blue) Shell.",
+      "trackable": "Costume unlocks via Dash Food are tracked in the costume/outfit selection menu (shows locked/unlocked state per character).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gamesradar.com/games/super-mario/all-mario-kart-world-items-and-what-they-do/",
+        "https://gamerant.com/all-items-mario-kart-world-every-item-new-items-mkw/",
+        "https://www.dexerto.com/wikis/mario-kart-world/mario-kart-world-items-list/"
+      ]
+    },
+    {
+      "category": "item system",
+      "name": "Position-based item rubber-banding (RNG)",
+      "detail": "Items are distributed based on race position similar to older Mario Kart games (pre-8-style position-based tables rather than fully randomized): racers in the back get stronger items (e.g., Bullet Bill-tier), leaders get defensive/weak items (single Banana/Shell). Analysis suggests a player in 5th place in MK World receives item power roughly equivalent to what a 10th-place racer got in Mario Kart Wii, indicating a more aggressive catch-up mechanic than prior entries. No official Nintendo-published probability table found; specific percentages are not confirmed. No confirmed direct equivalent of the 'Lucky Seven' item was found for Mario Kart World specifically.",
+      "trackable": "Not directly trackable/displayed to the player as a stat; itself not a counter, just underlying game mechanics. Relevant for RNG-based trophy design caution.",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://nintendosoup.com/in-depth-analysis-reveals-how-mario-kart-worlds-item-system-works/"
+      ]
+    },
+    {
+      "category": "trackable stat",
+      "name": "Coin count and kart unlocks",
+      "detail": "Coins are collected during VS Race, Grand Prix, and Free Roam. A new kart body is unlocked at coin thresholds (approx. every 100 coins per some sources, others cite 100-200 coin increments), with all karts unlockable at roughly 3,000 total coins collected (lifetime, not per-race).",
+      "trackable": "Coin total and kart unlock progress are shown in the kart selection/garage menu.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gamerant.com/mario-kart-world-unlock-all-karts-stats/"
+      ]
+    },
+    {
+      "category": "trackable stat",
+      "name": "No confirmed dedicated lifetime stats page (races played, win rate, distance, total coins)",
+      "detail": "Could not confirm a dedicated in-game 'Profile' or 'Stats' screen showing cumulative lifetime statistics such as total races played, win/loss record, total distance driven, or lifetime coins collected. Free Roam collectibles (stickers, Peach Medallions, ? Panels, P-Switch missions) do have per-item completion tracking on the map (added via a post-launch update that put discovered collectibles on the map), but this is collectible-completion tracking, not a general play-stats counter. Community members on GameFAQs explicitly noted the lack of comprehensive stat tracking at launch.",
+      "trackable": "Unconfirmed - could not verify a stats/profile screen exists showing lifetime play totals.",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/507486-mario-kart-world/81001797",
+        "https://www.resetera.com/threads/new-mario-kart-world-update-adds-discovered-collectibles-to-map-in-free-roam-and-allows-friends-to-join-knockout-tour-online.1306068/"
+      ]
+    },
+    {
+      "category": "time trial",
+      "name": "Time Trial ghost data and Staff Ghosts",
+      "detail": "Time Trial mode supports viewing/racing against Nintendo Staff Ghosts (available without NSO subscription). With an active Nintendo Switch Online subscription, players can download other players' ghost data from online rankings to race against. Unlike some prior Mario Kart entries, there is NO reward (in-game unlock/item) for beating all Nintendo Staff Ghosts in Mario Kart World.",
+      "trackable": "Personal best times per track are saved and shown in the Time Trial mode course-select screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://game8.co/games/Mario-Kart-World/archives/527934",
+        "https://game8.co/games/Mario-Kart-World/archives/527531"
+      ]
+    },
+    {
+      "category": "missable content",
+      "name": "No confirmed missable/limited-time content",
+      "detail": "Found no evidence of limited-time events, seasonal exclusives, or permanently-missable content in Mario Kart World's normal single-player/offline progression. All costume unlocks (103 outfits via Dash Food at Yoshi's Diners/food trucks) and collectibles (Peach Medallions, ? Panels, P-Switch missions) appear to be permanently available via Free Roam replay at any time, with no reported deadline. This differs from Mario Kart Tour (a separate, unrelated mobile game) which has rotating/limited-time tour content and is being shut down entirely on Sept 29-30, 2026.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://game8.co/games/Mario-Kart-World/archives/523461",
+        "https://www.nintendolife.com/guides/mario-kart-world-all-costume-unlocks-and-complete-outfit-list"
+      ]
+    },
+    {
+      "category": "difficulty",
+      "name": "CC classes as difficulty scaling (Rule 11 relevance)",
+      "detail": "Engine classes function as the game's difficulty scaling: 50cc (easiest/slowest), 100cc, 150cc (hardest standard class), and 150cc Mirror Mode (unlocked after significant completion requirements - see Mirror Mode finding). There is no 200cc class as of the most recently checked patch (1.8.0, Sept 10 2026); Nintendo's producer has not ruled out adding it in a future update but it is unconfirmed/unreleased. This means any 'hardest difficulty' trophy should target 150cc (or Mirror Mode as the true hardest unlockable class), NOT 200cc.",
+      "trackable": "CC class selectable from Grand Prix/VS Race setup screen; trophies/stars tracked per class as described above.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://nintendoeverything.com/mario-kart-world-doesnt-have-a-200cc-mode-but-producer-not-ruling-out-future-update/",
+        "https://game8.co/games/Mario-Kart-World/archives/527063"
+      ]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Grand Prix / Knockout Tour Trophy (Bronze/Silver/Gold) + Star Rank (0-3 stars) per cup", "where": "Cup selection menu icon", "confidence": "medium" },
+    { "stat": "Online Player Rating (VR), tracked separately per online mode (Race/Knockout Tour/Battle/Friends)", "where": "Online Play menu and post-race results screen", "confidence": "high" },
+    { "stat": "Total coins collected (lifetime, drives kart unlocks)", "where": "Kart/garage selection menu", "confidence": "medium" },
+    { "stat": "Time Trial best times per course", "where": "Time Trial course-select screen", "confidence": "medium" },
+    { "stat": "Free Roam collectibles found (Peach Medallions, ? Panels, P-Switch missions) per region", "where": "Free Roam map (post-update: discovered collectibles shown on map)", "confidence": "medium" },
+    { "stat": "Costume/outfit unlock state per character (103 total outfits)", "where": "Character costume selection menu", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Mario Kart World is Nintendo Switch 2 exclusive; no release on Steam, PlayStation, Xbox, or original Switch confirmed. This is a Genesis Mode build (no native trophy/achievement list exists anywhere for this game).", "confidence": "high" },
+    { "note": "Nintendo Switch 2 has no system-wide/native achievement or trophy system as of September 2026 (confirmed by Nintendo of America VP Bill Trinen). Unrelated exceptions exist for NSO event cards and BOTW/TOTK Nintendo App achievements, but neither applies to Mario Kart World.", "confidence": "high" },
+    { "note": "Battle mode's Bob-omb Blast variant was added via post-launch update 1.6.0, not present at launch alongside Balloon Battle and Coin Runners.", "confidence": "medium" },
+    { "note": "200cc engine class is NOT in the game as of update 1.8.0 (Sept 10, 2026); only 50cc/100cc/150cc/150cc-Mirror exist. Do not design a 200cc-based trophy.", "confidence": "medium" },
+    { "note": "A post-launch update added a feature showing discovered Free Roam collectibles directly on the map, improving completionist trackability versus launch state.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not confirm whether Mario Kart World has a dedicated lifetime stats/profile screen (total races played, win/loss record, total distance driven, lifetime coins). This is critical: if no such counter is displayed, trophies based on cumulative race counts or distance driven should NOT be designed, per the ruleset's requirement that the game must display the tracked stat.",
+    "Could not find an official Nintendo-published item probability table for Mario Kart World (unlike prior games which have documented tables on Mario Wiki). Percentages for rare items (e.g., Spiny/Blue Shell, Kamek, Coin Shell) are unconfirmed.",
+    "Could not confirm whether trophies for Grand Prix cups are tracked independently per CC class (i.e., does a 150cc gold trophy separately register from a 50cc gold trophy, or does only the single best result show?) - sources suggest only the best result displays per cup, which may mean per-CC-class completion isn't separately trackable in the UI.",
+    "Could not verify exact coin thresholds for kart unlocks (100 vs 100-200 coin increments; total needed for all karts cited as ~3,000 coins from a single source only).",
+    "Could not confirm a specific Mario Kart World equivalent to the 'Lucky Seven' item, or verify a definitive complete item list count beyond one source's claim of 28 items.",
+    "Could not confirm whether the VR/rating system has a maximum rank tier name (e.g., 'Grand Star' rank) or whether reaching certain VR thresholds unlocks any in-game reward or badge.",
+    "Did not deeply verify P-Switch mission total count or Peach Medallion total count (likely covered by the side-content scout beat) - flagging only their relevance to Mirror Mode unlock as a systems-level gate."
+  ]
+}
