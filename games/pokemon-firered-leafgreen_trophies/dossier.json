@@ -1,0 +1,122 @@
+{
+  "game": "Pokémon FireRed and Pokémon LeafGreen",
+  "targetPlatform": "Nintendo Switch 2",
+  "mode": "genesis",
+  "modeRationale": "No Nintendo platform has a native achievement/trophy system (confirmed for Switch/Switch 2). FireRed/LeafGreen have never shipped on a platform with native achievements (GBA cartridge only, no Steam/PS/Xbox release). No native list exists anywhere to port from.",
+  "platformVerification": {
+    "summary": "Pokémon FireRed and Pokémon LeafGreen released digitally as two separate SKUs on both Nintendo Switch and Nintendo Switch 2 on February 27, 2026 (Pokémon Day, 30th anniversary), $19.99 each, digital-only, no physical release. Confirmed via Nintendo's own 'What's New' page plus GameInformer, TechRadar, Nintendo Life, 9to5toys. NOT part of the Nintendo Switch Online GBA app/subscription library — a deliberate standalone release per Nintendo (Nintendo Life interview).",
+    "confidence": "high (Nintendo's own announcement page cited by 2 of 3 scouts)",
+    "contentChanges": "Reported as otherwise content-identical to the 2004 GBA original. Confirmed genuine changes: (1) GBA Link Cable/Wireless Adapter trading & link battles replaced by Switch local wireless, LOCAL-ONLY — no online multiplayer/trading at all, even on Switch 2; (2) Mystic Ticket and Aurora Ticket (Navel Rock/Ho-Oh+Lugia, Birth Island/Deoxys) are now auto-granted after the first Champion win, instead of requiring historical real-world event distribution. Mew's Old Sea Map event was NOT added — Mew remains unobtainable. No new story content, areas, or difficulty options reported.",
+    "confidenceNote": "All Switch-specific mechanical claims rest on secondary gaming press (Serebii, VGC, NintendoLife, TechRadar, GameRant, PokeCommunity), not an official Nintendo patch-notes document. Treat as medium confidence."
+  },
+  "campaign": {
+    "gymLeaders": [
+      {"order": 1, "name": "Brock", "city": "Pewter City", "type": "Rock", "badge": "Boulder Badge"},
+      {"order": 2, "name": "Misty", "city": "Cerulean City", "type": "Water", "badge": "Cascade Badge"},
+      {"order": 3, "name": "Lt. Surge", "city": "Vermilion City", "type": "Electric", "badge": "Thunder Badge"},
+      {"order": 4, "name": "Erika", "city": "Celadon City", "type": "Grass", "badge": "Rainbow Badge"},
+      {"order": "5/6 (either order)", "name": "Koga", "city": "Fuchsia City", "type": "Poison", "badge": "Soul Badge"},
+      {"order": "5/6 (either order)", "name": "Sabrina", "city": "Saffron City", "type": "Psychic", "badge": "Marsh Badge"},
+      {"order": 7, "name": "Blaine", "city": "Cinnabar Island", "type": "Fire", "badge": "Volcano Badge"},
+      {"order": 8, "name": "Giovanni", "city": "Viridian City", "type": "Ground", "badge": "Earth Badge", "note": "Also the Team Rocket boss; final Team Rocket confrontation."}
+    ],
+    "eliteFour": ["Lorelei (Ice)", "Bruno (Fighting/Rock)", "Agatha (Ghost/Poison)", "Lance (Dragon)"],
+    "champion": "The rival, 'Blue' by default English name (anime: Gary). Team is starter-counter themed incl. Pidgeot, Alakazam, Rhydon, levels ~58-63 (exact roster not independently cross-verified against one authoritative source — low-medium confidence on exact composition).",
+    "rivalBattles": "8 encounters: Pallet Town (mandatory), Route 22 pre-Viridian-Forest (optional), Cerulean City (mandatory), SS Anne (mandatory per most sources; one claims skippable via a traded Cut-Pokémon — unverified, do not rely on this), Pokémon Tower (mandatory), Silph Co. (mandatory), Route 22 rematch before League (mandatory), Pokémon League/Champion (mandatory, final). No in-game rival-battle counter exists.",
+    "teamRocketStoryline": [
+      "Mt. Moon — first appearance, fossil theft, weak grunts. Mandatory.",
+      "Rocket Hideout under Celadon Game Corner — first Giovanni fight, yields Silph Scope. Mandatory.",
+      "Pokémon Tower, Lavender Town — rescue Mr. Fuji, yields Poké Flute. Mandatory.",
+      "Silph Co., Saffron City — building takeover, second Giovanni fight, yields Master Ball. Mandatory.",
+      "Viridian City Gym — Giovanni as final Gym Leader AND final main-story Team Rocket boss; he quits after this loss. Mandatory (8th badge)."
+    ],
+    "cinnabarMansion": "LOW CONFIDENCE / UNCONFIRMED: one scout could not confirm whether Cinnabar Island Mansion has an active Team Rocket combat encounter in FRLG, or is purely exploratory/lore (burned Mewtwo research notes). Treat as optional exploration/lore content, not a combat story beat, unless re-verified.",
+    "seviiIslandsRocketReturns": "FireRed/LeafGreen-exclusive post-League subplot (absent from original Red/Blue/Yellow): Rocket hideout on One Island (Mt. Ember, searching for the Ruby), kidnapping/rescue of Lostelle in Berry Forest (Three Island), climax at a Rocket Warehouse in Five Isle Meadow (Five Island) recovering the Sapphire from Admins/a Scientist. The antagonist's name ('Gideon') appeared in only one low-quality source — DO NOT use this name in any trophy text.",
+    "legendaryBirds": [
+      {"name": "Articuno", "location": "Seafoam Islands", "level": 50, "requires": "Surf + Strength", "missable": true, "confidence": "medium"},
+      {"name": "Zapdos", "location": "Power Plant (via Surf from Route 10)", "level": 50, "requires": "Surf only — easiest of the three", "missable": true, "confidence": "medium"},
+      {"name": "Moltres", "location": "Mt. Ember, One Island (Sevii Islands — note this is a FRLG-specific placement, effectively post-game-adjacent rather than pre-League)", "level": 50, "requires": "Surf + Strength + Rock Smash, after Blaine + meeting Bill", "missable": true, "confidence": "medium"}
+    ],
+    "mewtwo": {
+      "location": "Cerulean Cave",
+      "level": 70,
+      "unlock": "Beat Elite Four + obtain National Pokédex (60+ species registered) + complete Sevii Islands Ruby/Sapphire quest to repair Celio's Network Machine, which physically opens the Route 4 cave entrance.",
+      "CONFLICT": "Scouts disagree on whether delivering only the Sapphire, or both Ruby AND Sapphire, is required to unlock the cave. One source says Sapphire only; another/synthesized source says both gems. UNRESOLVED — do not hard-code a specific gem requirement into trophy text; phrase verification around 'completing the Sevii Islands Network Machine questline' instead."
+    },
+    "ending": "Single ending only: defeating the Champion triggers Hall of Fame registration + credits (no branching). Hall of Fame is a persistent record screen of registered teams; unclear if it increments per repeat clear (gap)."
+  },
+  "collectiblesAndSideContent": {
+    "kantoDex": "151 numbered slots, but Mew (#151) is not obtainable through any normal/legitimate method on this release (no Old Sea Map / Faraway Island event added for Switch). 150/150 is the realistic completion target. A cosmetic Kanto Dex Diploma is viewable at Celadon Mansion for catching 150 — purely cosmetic, no gameplay effect.",
+    "nationalDex": "386 species total, unlocked after registering 60 Kanto species + beating the Elite Four. CONFIRMED IMPOSSIBLE to complete on this Switch release: ~166 species historically required trading from Ruby/Sapphire/Emerald/GameCube-era games, and this release has no online trading or bridge to those games (no Pokémon HOME integration confirmed at launch). Do NOT design a National Dex completion trophy.",
+    "seviiIslands": {
+      "overview": "9-island archipelago exclusive to FireRed/LeafGreen (absent from original Red/Blue): One through Seven Island, plus event-locked Navel Rock and Birth Island. Reached via Seagallop Ferry after Blaine (6th gym) + meeting Bill/Celio.",
+      "gating": "Tri-Pass (One-Three Island) available early. Rainbow Pass (Four-Seven Island) requires Elite Four + National Dex + retrieving the Ruby from Mt. Ember.",
+      "content": "Team Rocket Returns subplot (see campaign). Berry Forest (Three Island) — maze with regenerating wild berries (Oran, Persim, Pinap, Aspear, Bluk, Wepear, Cheri), also where Lostelle is rescued. Trainer Tower (near Seven Island) — post-game battle facility, 4 modes (Single/Double/Mixed/Knockout), each first clear gives a unique evolution item (Up-Grade/Dragon Scale/King's Rock/Metal Coat per one source, mode-mapping not independently cross-confirmed). English release has no e-Reader support (Japan-only feature), fixed 4 floors — a claim that Switch bumped this to 8 floors is single-source and unverified, treat as false until confirmed."
+    },
+    "safariZone": "Fuchsia City. Catch-only (Bait/Rock mechanic, no battling). Notable rarities: Chansey, Kangaskhan, Tauros, Dratini (fishing), and version-exclusive Scyther (FireRed)/Pinsir (LeafGreen) — also independently purchasable at the Game Corner. The sole source of a Lucky Egg is a wild Safari Zone Chansey holding one (community-estimated low odds, not officially quantified — avoid hard-coding a percentage in any trophy).",
+    "gameCorner": "Celadon City. Only minigame: slot machines (gambling for Coins, exchanged for prizes). No Voltorb Flip (that's a HeartGold/SoulSilver feature, confirmed absent here). Coins are directly purchasable with Pokédollars, so a coin/purchase-threshold trophy avoids relying on slot RNG. Version-exclusive prize Pokémon: Scyther (FireRed, 5500 coins) vs Pinsir (LeafGreen, 2500 coins) — independently corroborates the wild-encounter version split.",
+    "bugCatchingContest": "CONFIRMED ABSENT. This is a Johto (Gold/Silver/Crystal/HGSS) National Park feature — FireRed/LeafGreen has no National Park and no Bug-Catching Contest. Do not reference it.",
+    "dodrioBerryPicking": "Minigame at the Two Island Joyful Game Corner. Historically required the GBA Wireless Adapter + 3-5 linked players each with a Dodrio — i.e. genuinely multiplayer-dependent, not solo-playable even on original hardware. On Switch this would map to local wireless with other physical consoles present.",
+    "moveTutors": "15 total across Kanto + Sevii Islands, each teaches one move once per save for free (Mega Punch, Mega Kick, Seismic Toss, Rock Slide, Counter, Softboiled, Mimic, Thunder Wave, Substitute, Dream Eater, Metronome, Double-Edge, Explosion, Body Slam, Swords Dance).",
+    "fanClub": "Vermilion City Fan Club Chairman gives a Bike Voucher (free Bicycle from the Cerulean Bike Shop) after a one-time dialogue.",
+    "dlc": "None exists or ever existed for this game, on any platform, confirmed by both historical record and the 2026 rerelease being a complete standalone package."
+  },
+  "progressionStatsAndMissables": {
+    "trackableStats": [
+      "Badge Case / Trainer Card front — 8 badges, play time, trainer ID (money-on-card unconfirmed)",
+      "Pokédex Seen/Owned counters — Kanto regional dex and National dex, viewable any time in the Pokédex menu; Oak also gives milestone rating dialogue",
+      "Trainer Card back — Hall of Fame Debut date, Link Battles count, Pokémon Trades count, Union Trades/Battles, Battle Points, Berry Crush participation (several of these reflect legacy GBA Wireless Adapter / Pokémon Emerald-shared features; behavior on Switch's local-wireless reimplementation not independently confirmed)",
+      "Trainer Stars (medium confidence, single source family) — awarded for: first Champion win; 200 Pokémon Jump + 200 Dodrio Berry Picking; Kanto Dex complete (minus Mew); National Dex complete (minus Mythicals). Exact total star count (4 vs 5) unconfirmed.",
+      "Coin Case balance (Game Corner)"
+    ],
+    "versionExclusivePokemon": {
+      "fireRed": "Ekans, Oddish, Psyduck, Growlithe, Shellder, Scyther families (medium confidence; some aggregator lists fold in evolutions/baby forms not independently 'exclusive' as wild encounters — re-verify exact base-species list before finalizing trophy wording)",
+      "leafGreen": "Sandshrew, Vulpix, Bellsprout, Slowpoke, Staryu, Magmar, Pinsir families (same caveat as above)",
+      "corroboration": "Independently confirmed via Game Corner prize differences: Scyther=FireRed, Pinsir=LeafGreen."
+    },
+    "missables": [
+      "Starter choice (Bulbasaur/Charmander/Squirtle) — the other two require trading with a second physical console; this release has no online trading, so a solo player locks them out permanently.",
+      "Fossil choice at Mt. Moon (Helix→Omanyte vs Dome→Kabuto) — picking one forecloses the other for that save.",
+      "Gift Eevee (Celadon Mansion, Lv.25) — one-time.",
+      "Gift Lapras (Silph Co., Lv.25, after the rival battle there) — one-time.",
+      "Two single-encounter wild Snorlax (Route 12 and Route 16) — if fainted without catching, gone for that save (medium confidence on exact non-respawn rule for this remake specifically).",
+      "9 fixed one-time in-game NPC trades (Mr. Mime for Abra, Nidoran-M/F swap, Nidorino/Nidorina swap, Lickitung for Golduck, Jynx for Poliwhirl, Farfetch'd for Spearow, Seel for Ponyta, Electrode for Raichu, Tangela for Venonat) — several (Mr. Mime, Jynx, Farfetch'd, Lickitung) are otherwise very hard/impossible to get any other way, making them de facto required stops for Pokédex completion. Exact route numbers have minor source disagreement on 1-2 entries."
+    ],
+    "multiplayerDependentContent": "Trade-evolutions (Kadabra→Alakazam, Machoke→Machamp, Graveler→Golem, Haunter→Gengar), the two non-chosen starters, and Dodrio Berry Picking all require a second physical Switch/Switch 2 console with a second copy of the game and a second player, over LOCAL WIRELESS ONLY (no online trading/battling exists on this release at all, even on Switch 2). Per Rule 13, no trophy should require these.",
+    "rng": {
+      "shinyOdds": "1/8192, no Shiny Charm or odds-boost exists in this generation — too rare for a fair trophy.",
+      "criticalCapture": "Does not exist in Generation III mechanics (introduced Gen IV) — do not design around this.",
+      "gameCornerSlots": "RNG-based, but coins are directly purchasable with money, so a coin-threshold trophy is not meaningfully RNG-gated.",
+      "safariZoneRares": "Layered RNG (catch factor + flee chance + base rarity) for species like Chansey/Kangaskhan/Dratini/Tauros; exact encounter rates not quantified by research — flagged as a possible excessive-RNG risk if a trophy demands one specific rare species rather than 'a' Safari Zone catch."
+    }
+  },
+  "conflicts": [
+    {
+      "topic": "Cerulean Cave / Mewtwo unlock requirement",
+      "claimA": "Only the Sapphire must be delivered to Celio.",
+      "claimB": "Both the Ruby and Sapphire must be delivered.",
+      "resolution": "Unresolved. Trophy verification text will describe the broader Sevii Islands Network Machine questline rather than naming a specific gem count."
+    },
+    {
+      "topic": "Trainer Tower floor count on Switch",
+      "claimA": "4 floors (matches original English GBA release, no e-Reader).",
+      "claimB": "Switch version expanded it to 8 floors (single unverified source).",
+      "resolution": "Treating claim A (4 floors, unchanged) as correct; claim B explicitly flagged low-confidence/unverified by the scout who found it."
+    },
+    {
+      "topic": "Rocket Warehouse antagonist name",
+      "claimA": "Referred to in some aggregator sources as 'Gideon'.",
+      "claimB": "Name not present in official/primary sources.",
+      "resolution": "Will not use this name in any trophy text; refer to the encounter generically (Team Rocket Admins/the Rocket Warehouse boss)."
+    }
+  ],
+  "gaps": [
+    "No official Nintendo patch-notes/press-kit document found enumerating every Switch-version change — all mechanical claims about the rerelease rest on secondary gaming press.",
+    "Champion (Blue)'s exact 6-Pokémon roster and levels not confirmed against one authoritative source.",
+    "Whether Hall of Fame entries increment on repeat clears is unconfirmed.",
+    "Whether a numeric Pokédex completion percentage is displayed anywhere beyond Seen/Owned counts and Oak's dialogue is unconfirmed (appears not to exist).",
+    "Exact Safari Zone encounter rates for rare species not quantified.",
+    "Whether Pokémon HOME connectivity is live, partially live, or absent at launch is unconfirmed (appears to be absent).",
+    "Whether Mystery Gift/Wonder Card support exists on this release at all is unconfirmed."
+  ]
+}

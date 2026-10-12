@@ -1,0 +1,242 @@
+{
+  "beat": "campaign",
+  "game": "Pokémon FireRed and Pokémon LeafGreen",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "platform_availability",
+      "name": "Switch / Switch 2 release confirmed",
+      "detail": "Pokémon FireRed and Pokémon LeafGreen released digitally on Nintendo Switch and Nintendo Switch 2 on February 27, 2026 (Pokémon Day, tied to the franchise's 30th anniversary), announced via a Pokémon Presents on the same day. Each version is sold separately for $19.99. Digital-only, no physical release. These are NOT part of the Nintendo Switch Online classic-games subscription (NSO GBA app) — Nintendo explicitly stated they chose a standalone paid release instead ('We Thought It Would Be Fun' interview, Nintendo Life). The releases appear to be the same GBA-era game content; the main stated change is using Switch/Switch 2 native wireless connectivity for trading/battling instead of the GBA Wireless Adapter/Link Cable. No new content, remaster visuals, or gameplay changes were reported in coverage reviewed.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gameinformer.com/2026/02/20/pokemon-firered-and-leafgreen-are-coming-to-switch-switch-2-digitally-next-week",
+        "https://www.nintendolife.com/news/2026/02/we-thought-it-would-be-fun-nintendo-explains-why-pokemon-firered-and-leafgreen-arent-on-switch-online",
+        "https://checkpointgaming.net/news/2026/02/pokemon-firered-and-leafgreen-are-heading-to-nintendo-switch-2/",
+        "https://9to5toys.com/2026/02/20/pokemon-firered-leafgreen-announced-switch-2/"
+      ]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Brock",
+      "detail": "Pewter City Gym, Rock-type. 1st badge: Boulder Badge.",
+      "trackable": "Badge Case (menu item showing all 8 badges obtained).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour", "https://www.serebii.net/fireredleafgreen/gyms.shtml"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Misty",
+      "detail": "Cerulean City Gym, Water-type. 2nd badge: Cascade Badge.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Lt. Surge",
+      "detail": "Vermilion City Gym, Electric-type. 3rd badge: Thunder Badge.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Erika",
+      "detail": "Celadon City Gym, Grass-type. 4th badge: Rainbow Badge.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Koga",
+      "detail": "Fuchsia City Gym, Poison-type. Badge: Soul Badge. Koga and Sabrina (Saffron) can be challenged in either order relative to each other.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour", "https://www.thegamer.com/pokemon-firered-leafgreen-gym-leaders-ranked/"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Sabrina",
+      "detail": "Saffron City Gym, Psychic-type. Badge: Marsh Badge. Can be fought before or after Koga.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Blaine",
+      "detail": "Cinnabar Island Gym, Fire-type. Badge: Volcano Badge.",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour"]
+    },
+    {
+      "category": "gym_leader",
+      "name": "Giovanni",
+      "detail": "8th and final Gym: Viridian City Gym, Ground-type. Badge: Earth Badge. This is also the final main-story Giovanni encounter as Team Rocket boss; after this defeat he announces he is abandoning Team Rocket (though the organization persists post-game in Sevii Islands content, see versionNotes).",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemondb.net/firered-leafgreen/gymleaders-elitefour", "https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "boss_sequence",
+      "name": "Elite Four + Champion (Pokémon League, Indigo Plateau)",
+      "detail": "Order: 1) Lorelei (Ice-type) 2) Bruno (Fighting/Rock-type) 3) Agatha (Ghost/Poison-type, uses Gengar/Golbat/Haunter/Arbok) 4) Lance (Dragon-type) 5) Champion — the player's rival, named 'Blue' by default in the English localization (anime counterpart Gary), who has already defeated the Elite Four and awaits as Champion. His team is starter-counter themed and includes Pidgeot, Alakazam, Rhydon, and whichever starter counters the player's choice, around level 58-63.",
+      "trackable": "Hall of Fame registration occurs automatically on Champion victory; not a numeric counter but a one-time story flag/cutscene.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/elitefour.shtml", "https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/The_Elite_Four", "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)/FireRed_and_LeafGreen"]
+    },
+    {
+      "category": "rival_battle",
+      "name": "Rival battles (full list)",
+      "detail": "8 distinct rival encounters across the game, in order: 1) Pallet Town (right after picking starter) — mandatory; 2) Route 22 (first encounter, before Viridian Forest) — optional; 3) Cerulean City (after Nugget Bridge Team Rocket encounter) — mandatory; 4) SS Anne — reported as skippable in some guides if the player already has a traded Pokémon that knows Cut, though most sources list this as a standard mandatory beat along the main path; 5) Pokémon Tower, Lavender Town — mandatory; 6) Silph Co., Saffron City (7th floor) — mandatory; 7) Route 22 rematch (just before entering Indigo Plateau) — mandatory, required to proceed to the Pokémon League; 8) Pokémon League (Champion battle) — mandatory, final story battle. Additional rematches exist post-game once the Sevii Islands are unlocked.",
+      "trackable": "No explicit in-game rival-battle counter found; progress is implicit via story flags/location.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/585783", "https://www.serebii.net/fireredleafgreen/rival.shtml"]
+    },
+    {
+      "category": "team_rocket_beat",
+      "name": "Mt. Moon",
+      "detail": "First Team Rocket appearance; grunts stealing fossils, generally weak Pokémon (Zubat, Rattata). Mandatory story beat on the path to Cerulean City.",
+      "trackable": "No dedicated counter; story-flagged.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "team_rocket_beat",
+      "name": "Rocket Hideout (under Celadon Game Corner)",
+      "detail": "Underground base beneath the Celadon City Game Corner. Player navigates warp-panel floors down to B4F to confront Giovanni for the first time; defeating him yields the Silph Scope. Mandatory to progress toward Lavender Town's Pokémon Tower questline.",
+      "trackable": "Story-flagged; Silph Scope appears in Bag/Key Items.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "team_rocket_beat",
+      "name": "Pokémon Tower (Lavender Town)",
+      "detail": "Team Rocket grunts killed a Cubone's mother (implied) and are terrorizing the tower; Mr. Fuji has been kidnapped. Using the Silph Scope reveals a disguised Rocket grunt as the 'ghost' (actually a grieving Marowak in some lore interpretations / a Rocket member in disguise per this walkthrough source). After defeating the ghost and Rocket grunts, Mr. Fuji is freed and gives the Poké Flute, needed to wake Snorlax blocking routes. Mandatory.",
+      "trackable": "Story-flagged; Poké Flute in Key Items.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "team_rocket_beat",
+      "name": "Silph Co. (Saffron City) takeover",
+      "detail": "After defeating Koga (Fuchsia Gym), the sleeping guard at Silph Co. can be bypassed. Team Rocket has taken over the building in a hostile takeover attempt to steal technology (the Master Ball). A Card Key obtained on an early floor unlocks doors building-wide. The rival (Blue) is also fought here (floor 7 per one source). On the top floor, the player battles Giovanni, who is attempting to steal the Master Ball; his defeat ends the Silph Co. crisis and Team Rocket withdraws from the building. Mandatory — required before Gym challenge of Sabrina/overall story progress to Viridian.",
+      "trackable": "Story-flagged; Master Ball is given to the player as a reward after the building is cleared.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml", "https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Silph_Co."]
+    },
+    {
+      "category": "team_rocket_beat",
+      "name": "Giovanni final confrontation — Viridian City Gym",
+      "detail": "Giovanni is revealed as the Viridian Gym Leader (8th Gym). Defeating him here both awards the Earth Badge and is his final main-story Team Rocket boss appearance; he announces he is quitting Team Rocket. Mandatory (required for all 8 badges / Elite Four access).",
+      "trackable": "Badge Case.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "optional_content",
+      "name": "Cinnabar Island Mansion",
+      "detail": "Pokémon Mansion on Cinnabar Island contains burned research notes referencing Mewtwo's creation (lore tie-in) and various trainers/items; it is NOT a Team Rocket combat storyline beat in FireRed/LeafGreen the way Mt. Moon/Rocket Hideout/Silph Co./Pokémon Tower are. Exploring it is optional/side content (useful for TMs and lore, not gated story progress). Flagging uncertainty: could not confirm any explicit Team Rocket grunt battles stationed there in FRLG as part of a 'mansion' story beat — this may be conflating with Red/Blue/Yellow's lab notes.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["low confidence - not independently verified this session"]
+    },
+    {
+      "category": "postgame_team_rocket",
+      "name": "Sevii Islands Team Rocket resurgence (FireRed/LeafGreen exclusive)",
+      "detail": "Expanded/new Team Rocket subplot exclusive to FireRed/LeafGreen (not in original Red/Blue/Yellow), set in the post-League Sevii Islands: rogue Rocket members on Mt. Ember (One Island) searching for the Ruby (defeating them gives first warehouse password); Rocket members harassing wild Pokémon on Four Island near Icefall Cave before fleeing to Five Island; an agent stealing the Sapphire in Dotted Hole (Six Island), giving the second password; final confrontation in a Rocket Warehouse on Five Island against two Admins and a Scientist named Gideon using machine-themed Pokémon. Defeating Gideon ends Team Rocket for good in-game. This entire arc is optional post-game content but is required if the player wants the Ruby and Sapphire to give to Celio in order to access Cerulean Cave/Mewtwo (see Mewtwo entry).",
+      "trackable": "Story-flagged; Ruby/Sapphire appear in Key Items once obtained.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/fireredleafgreen/teamrocket.shtml"]
+    },
+    {
+      "category": "legendary_encounter",
+      "name": "Articuno",
+      "detail": "Located deep in Seafoam Islands (accessible from Fuchsia City area / near Cinnabar via Route 20). Level 50, Ice/Flying. Requires Surf and Strength to solve boulder/ice puzzles to reach it; accessible after progressing past Koga/Fuchsia Gym. Optional legendary, available within the base Kanto story (not post-League gated).",
+      "trackable": "Appears once as a single wild encounter; caught/not-caught status reflected in Pokédex (seen/owned).",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://retrododo.com/how-to-get-every-legendary-in-pokemon-firered-leafgreen/"]
+    },
+    {
+      "category": "legendary_encounter",
+      "name": "Zapdos",
+      "detail": "Located in the Power Plant, reached by surfing down the river near the Route 10 Pokémon Center. Level 50, Electric/Flying. Only requires Surf — described by guides as the easiest of the three birds to reach. Optional, available within base story (does not require post-League access).",
+      "trackable": "Pokédex seen/owned flag.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://retrododo.com/how-to-get-every-legendary-in-pokemon-firered-leafgreen/"]
+    },
+    {
+      "category": "legendary_encounter",
+      "name": "Moltres",
+      "detail": "Located atop Mt. Ember on One Island (Sevii Islands) — meaning it is technically post-main-story/Sevii-Islands-gated rather than pre-League in FireRed/LeafGreen, unlike the original Red/Blue where it was in the base Kanto map (Mt. Ember doesn't exist in original R/B; original had it elsewhere — flagging this as a FRLG-specific change, see versionNotes). Level 50, Fire/Flying. Requires Surf, Strength, Rock Smash; must have defeated Blaine and spoken to Bill first.",
+      "trackable": "Pokédex seen/owned flag.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://retrododo.com/how-to-get-every-legendary-in-pokemon-firered-leafgreen/"]
+    },
+    {
+      "category": "legendary_encounter",
+      "name": "Mewtwo (Cerulean Cave)",
+      "detail": "Level 70, Psychic-type, found deep within Cerulean Cave. Unlock requirements per multiple sources: (1) defeat the Elite Four/become Champion, (2) obtain the National Pokédex (requires having registered/caught a threshold number of Pokémon species — sources vary between 'register 60 species' as the trigger for Oak to upgrade to National Dex), and (3) complete the post-game Sevii Islands quest to recover the Ruby and/or Sapphire gem(s) and deliver them to Celio on One Island so he can repair the Network Machine — this is what physically unblocks the cave entrance on Route 4. Some sources describe needing only the Sapphire, others describe both Ruby and Sapphire; this discrepancy is unresolved and flagged as a gap. Surf, Strength, and Rock Smash are needed to navigate the cave's interior.",
+      "trackable": "Pokédex seen/owned flag; National Dex unlock itself is a visible milestone (Pokédex app changes from Kanto-only to National).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://retrododo.com/how-to-get-every-legendary-in-pokemon-firered-leafgreen/", "https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Cerulean_Cave", "https://guidestrats.com/pokemon-frlg-unlock-cerulean-cave/"]
+    },
+    {
+      "category": "ending",
+      "name": "Single ending — Hall of Fame",
+      "detail": "There is only one ending: defeating the Champion (rival Blue) at the Pokémon League triggers automatic entry into the Hall of Fame and a credits sequence. The credits depict the player leaving Indigo Plateau, Professor Oak and Blue, and show box-art recreations of the player's final-form starter (Charizard/Venusaur/Blastoise) and Pikachu. No branching endings exist; the credits/Hall of Fame sequence replays every time the player enters the Hall of Fame thereafter (e.g., after additional Champion defenses). Story continues post-credits into the Sevii Islands content.",
+      "trackable": "Hall of Fame is itself a persistent record screen (lists every team the player has registered there) — this could be a trackable 'Hall of Fame entries' stat.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Hall_of_Fame"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Badge Case — 8 Gym Badges", "where": "Pause menu > Badges; also displayed on the Trainer Card", "confidence": "high" },
+    { "stat": "Pokédex seen/owned counts (Kanto regional dex, then National Dex after upgrade)", "where": "Pokédex menu; summary numbers shown on the Pokédex main screen", "confidence": "high" },
+    { "stat": "Pokédex rating from Professor Oak (text evaluation at milestones of Pokémon owned, e.g. 10/20/30/40/50/60+)", "where": "Triggered by talking to Prof. Oak in his Lab / via Oak's Aides dialogue", "confidence": "medium" },
+    { "stat": "Hall of Fame entries (record of each successful Champion-defeat team)", "where": "Hall of Fame record accessible in-game after first victory", "confidence": "medium" },
+    { "stat": "Trainer Card stats (e.g., time played, trainer ID) — does NOT appear to show a quest/story completion percentage", "where": "Start menu > Trainer Card", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "FireRed/LeafGreen add an entirely new post-game region (the Sevii Islands) absent from original Red/Blue/Yellow, which hosts an expanded Team Rocket subplot (Mt. Ember, Icefall Cave/Four Island, Dotted Hole/Six Island, Rocket Warehouse/Five Island with Admins and 'Gideon') not present in the Game Boy originals.", "confidence": "medium" },
+    { "note": "Moltres's location was moved to Mt. Ember on One Island (Sevii Islands) in FireRed/LeafGreen, which may put it functionally later/more post-game-adjacent than in the original Kanto games — flagged as unconfirmed relative to original R/B/Y bird placement since this scout did not independently verify the original games' Moltres location this session.", "confidence": "low" },
+    { "note": "Switch/Switch 2 release (Feb 27, 2026) is reported as content-equivalent to the GBA original with only connectivity/wireless-trading changes noted in coverage; no sources reviewed mention new story content, difficulty options, or altered endings for this rerelease. This should be treated as provisional since this scout did not find an official Nintendo press kit or patch notes, only secondary press coverage.", "confidence": "medium" },
+    { "note": "These titles are NOT included in the Nintendo Switch Online + Expansion Pack Game Boy Advance app library; they are standalone $19.99 digital purchases, per Nintendo's own stated reasoning in a Nintendo Life interview.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not find an official Nintendo/Game Freak press release or patch notes for the Switch/Switch 2 release confirming whether ANY new features (e.g., quality-of-life changes, achievements/trophy-like systems, Switch 2-specific enhancements such as higher resolution, GameChat support, or mouse/HD rumble use) were added. All information comes from secondary gaming-press coverage of a presumed February 2026 Pokémon Presents.",
+    "Could not fully resolve whether Cerulean Cave/Mewtwo requires delivering only the Sapphire, or both the Ruby and Sapphire, to Celio — sources disagree (retrododo says Sapphire only; another summarized source says both Ruby and Sapphire). This directly affects any trophy tied to the Mewtwo encounter's prerequisites and should be re-verified against a primary strategy guide or Bulbapedia (Bulbapedia itself returned HTTP 403 and could not be fetched directly this session).",
+    "Could not confirm whether the game displays any overall 'story completion percentage' or quest log UI — no source indicated such a feature exists; Pokédex completion and Badge Case appear to be the only visible progress trackers for story-adjacent goals.",
+    "Could not verify in detail whether the Cinnabar Island Mansion contains an active Team Rocket combat encounter/boss in FireRed/LeafGreen specifically, or whether it is purely exploratory/lore content (burned Mewtwo research notes). Treated as low confidence/unconfirmed.",
+    "Did not independently verify the exact level/team composition of the Champion's (Blue's) Pokémon team at the Pokémon League beyond examples found (Pidgeot, Alakazam, Rhydon, starter-counter) — exact full 6-Pokémon roster and levels not confirmed with a single authoritative source this session.",
+    "Did not verify whether the SS Anne rival battle is truly skippable via a traded Pokémon with Cut, or whether this is community lore/misremembering; flagged as medium/low confidence and worth re-checking before building a 'defeat your rival every time' trophy.",
+    "Did not check whether National Pokédex unlock threshold is exactly 60 species across all sources — one community answer says 'register 60 species', but this was not cross-checked against a primary strategy wiki this session.",
+    "Did not research whether Mew is obtainable in the base game via any legitimate in-game method on FireRed/LeafGreen (historically Mew required external distribution events); flagging since this wasn't explicitly covered by the assignment but is adjacent to 'optional legendary encounters' and downstream designers may ask about it."
+  ]
+}

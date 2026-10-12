@@ -1,0 +1,283 @@
+{
+  "beat": "progression/stats/missables/RNG/version-diffs",
+  "game": "Pokémon FireRed and Pokémon LeafGreen",
+  "platform": "Nintendo Switch 2",
+  "findings": [
+    {
+      "category": "release-verification",
+      "name": "Switch/Switch 2 release is real and confirmed",
+      "detail": "Pokémon FireRed and LeafGreen released digitally on Nintendo Switch AND Nintendo Switch 2 on February 27, 2026, announced at the Pokémon Day 30th Anniversary Pokémon Presents. $19.99 each, sold as two separate SKUs (no bundle found), digital-only, no physical release found. Confirmed by Nintendo's own 'What's New' announcement page plus multiple outlets (GameInformer, TechRadar, Nintendo Life).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendo.com/us/whatsnew/pokemon-firered-version-and-pokemon-leafgreen-version-are-coming-to-nintendo-switch-in-multiple-languages/", "https://gameinformer.com/2026/02/20/pokemon-firered-and-leafgreen-are-coming-to-switch-switch-2-digitally-next-week", "https://www.techradar.com/gaming/its-official-pokemon-firered-and-leafgreen-are-coming-to-switch-and-switch-2-but-not-in-the-way-you-might-think"]
+    },
+    {
+      "category": "stat",
+      "name": "Trainer Card front face",
+      "detail": "Shows trainer name, trainer ID number, badge count/badges earned, and total play time. Does not clearly show money (money appears in the field status bar during play, not confirmed to be on the Trainer Card itself).",
+      "trackable": "Trainer Card, accessible from the Start menu at any time.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/fireredleafgreen/trainercard.shtml"]
+    },
+    {
+      "category": "stat",
+      "name": "Trainer Card back face",
+      "detail": "Records Hall of Fame Debut (date of first Elite Four/Champion clear), Link Battles count, Pokémon Trades count, Union Trades and Battles, Battle Points won, and Berry Crush participation. Several of these (Union Room, Berry Crush) were historically tied to the GBA Wireless Adapter feature set shared with Pokémon Emerald.",
+      "trackable": "Trainer Card back page.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/fireredleafgreen/trainercard.shtml"]
+    },
+    {
+      "category": "stat",
+      "name": "Trainer Stars",
+      "detail": "Up to several stars can be earned on the Trainer Card for: (1) defeating the Pokémon League Champion for the first time; (2) scoring 200 jumps in the Pokémon Jump minigame AND collecting 200 berries in Dodrio Berry Picking; (3) completing the Kanto Pokédex except Mew; (4) completing the National Pokédex except all Mythical Pokémon. Exact number/arrangement of stars (commonly cited as up to 5) could not be independently cross-verified beyond this one source family.",
+      "trackable": "Visible as stars on the Trainer Card.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.psypokes.com/forums/viewtopic.php?p=438387", "https://www.neoseeker.com/forums/6963/t454526-5-trainer-stars/"]
+    },
+    {
+      "category": "stat",
+      "name": "Pokédex Seen/Caught counters",
+      "detail": "Standard Pokédex screen tracks number of species Seen and number Owned/Caught, viewable at any time from the Pokédex menu.",
+      "trackable": "Pokédex summary screen.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Completing_the_Pok%C3%A9dex"]
+    },
+    {
+      "category": "collectible-count",
+      "name": "Kanto Pokédex catchable total = 150 (not 151)",
+      "detail": "The Kanto Dex nominally runs #001-#151, but #151 Mew is NOT obtainable through normal gameplay in FireRed/LeafGreen (historically required an event-distributed Old Sea Map item). The Kanto Pokédex Certificate is awarded for catching 150 (Mew excluded).",
+      "trackable": "Pokédex completion is checkable via the Seen/Owned counter; the Kanto Dex Certificate is viewable at Celadon City Mansion (certificate itself has no gameplay effect, purely cosmetic).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/583960", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/583945"]
+    },
+    {
+      "category": "collectible-count",
+      "name": "National Pokédex is 386 entries but NOT completable on Switch version",
+      "detail": "The National Dex Certificate requires catching 380 of 386 (excluding Mew, Ho-Oh, Lugia, Jirachi, Deoxys, Celebi). However, on the Switch/Switch 2 version there is no way to trade with Pokémon Ruby/Sapphire/Emerald/FireRed-LeafGreen-era GameCube games (those run on obsolete hardware with no bridge), meaning roughly 166 species are reported as unobtainable. This makes National Dex completion impossible on the 2026 rerelease as currently released, pending any future Pokémon HOME integration.",
+      "trackable": "Pokédex Seen/Owned counter; National Dex unlock requires catching 60+ species and either talking to Oak or visiting the Sevii Islands.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-firered-leafgreen-missing-gen-3-national-dex/", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/584419"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "FireRed-exclusive Pokémon",
+      "detail": "Reported exclusive line-up for FireRed: Ekans/Arbok, Oddish/Gloom/Vileplume (and Bellossom), Psyduck/Golduck, Growlithe/Arcanine, Shellder/Cloyster, Scyther (and Scizor), Electabuzz/Elekid, Wooper/Quagsire, Murkrow, Qwilfish, Delibird, Skarmory. NOTE: this list should be checked against the original Gen 3 canonical split before building trophies — some of these (Scizor, Elekid, Qwilfish, Murkrow, Delibird, Skarmory, Wooper/Quagsire, Bellossom) are evolution/baby-Pokémon additions that may require breeding/trading-with-item rather than being directly 'catchable' as that species in the wild; the underlying encounter-exclusive species are the base forms.",
+      "trackable": "Version exclusivity is enforced by which Pokémon appear as wild encounters; not separately tracked by a UI counter beyond the Pokédex.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemondb.net/firered-leafgreen/exclusive", "https://www.serebii.net/fireredleafgreen/exclusives.shtml", "https://www.thegamer.com/pokemon-firered-leafgreen-version-exclusives/"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "LeafGreen-exclusive Pokémon",
+      "detail": "Reported exclusive line-up for LeafGreen: Sandshrew/Sandslash, Vulpix/Ninetales, Bellsprout/Weepinbell/Victreebel, Slowpoke/Slowbro (and Slowking), Staryu/Starmie, Magmar/Magby, Pinsir, Marill/Azumarill (and Azurill), Misdreavus, Sneasel, Remoraid/Octillery, Mantine. This is the mirror set to the FireRed list above and carries the same caveat about base-species vs. evolution/baby forms.",
+      "trackable": "Same as above — enforced by wild encounter tables, visible only via Pokédex seen/caught state.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemondb.net/firered-leafgreen/exclusive", "https://www.serebii.net/fireredleafgreen/exclusives.shtml"]
+    },
+    {
+      "category": "version-exclusive",
+      "name": "Game Corner version-exclusive purchases confirm Scyther=FireRed, Pinsir=LeafGreen",
+      "detail": "Celadon Game Corner coin-prize Pokémon differ by version: FireRed offers Abra (180 coins), Dratini (2,800), Porygon (9,999), Scyther (5,500). LeafGreen offers Abra (120), Dratini (4,600), Porygon (6,500), Pinsir (2,500). This independently corroborates the Scyther/Pinsir version split found via wild encounters.",
+      "trackable": "Game Corner prize counter / coin case balance shown in menu.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.switchbladegaming.com/pokemon/firered-game-corner/", "https://www.serebii.net/fireredleafgreen/gamecorner.shtml"]
+    },
+    {
+      "category": "missable",
+      "name": "Starter Pokémon choice",
+      "detail": "Player picks one of Bulbasaur, Charmander, or Squirtle near the start; the other two are not obtainable in-game through any single-player means — only via trading with another player's save. On the Switch/Switch 2 version, trading requires local wireless with a second system running the game (no online trading), so a solo player permanently locks out the other two starters for that save.",
+      "trackable": "Not separately tracked beyond Pokédex Owned flag for that species.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://www.thegamer.com/pokemon-firered-leafgreen-complete-special-evolutions-how-to-get-guide/", "https://www.techradar.com/gaming/you-can-catch-deoxys-ho-oh-and-lugia-in-pokemon-firered-and-leafgreen-for-switch-and-switch-2-but-what-about-mew"]
+    },
+    {
+      "category": "missable",
+      "name": "Fossil choice (Helix vs. Dome)",
+      "detail": "After defeating Super Nerd Miguel in Mt. Moon, the player chooses one of two fossils — Helix Fossil (revives into Omanyte) or Dome Fossil (revives into Kabuto). Taking one permanently forecloses the other for that save (same mechanic in both FireRed and LeafGreen, not version-exclusive).",
+      "trackable": "Not separately tracked beyond Pokédex Owned flag.",
+      "missable": true,
+      "confidence": "high",
+      "sources": ["https://deltiasgaming.com/pokemon-firered-and-leafgreen-all-gift-pokemon-and-where-to-get-them/", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/583454"]
+    },
+    {
+      "category": "missable",
+      "name": "Gift Eevee (Celadon Mansion)",
+      "detail": "A one-time gift Eevee (Lv. 25) is available on an upper floor of the Celadon City Mansion. Single acquisition per save; not version-exclusive per sources found.",
+      "trackable": "Not separately tracked beyond Pokédex.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://deltiasgaming.com/pokemon-firered-and-leafgreen-all-gift-pokemon-and-where-to-get-them/"]
+    },
+    {
+      "category": "missable",
+      "name": "Gift Lapras (Silph Co.)",
+      "detail": "A one-time gift Lapras (Lv. 25) is given by a Silph Co. employee on an upper floor, obtainable after the rival battle inside Silph Co. during the Team Rocket takeover story beat. Single acquisition per save; not version-exclusive per sources found.",
+      "trackable": "Not separately tracked beyond Pokédex.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://deltiasgaming.com/pokemon-firered-and-leafgreen-all-gift-pokemon-and-where-to-get-them/", "https://www.pokecommunity.com/threads/silph-co-lapras-in-firered-leafgreen.172014/"]
+    },
+    {
+      "category": "missable",
+      "name": "Two wild Snorlax encounters (Route 12 and Route 16)",
+      "detail": "Each Snorlax is a single, non-respawning stationary wild encounter blocking a route until dealt with (requires Poké Flute to wake). If the Snorlax faints in battle without being caught, that specific encounter is gone forever with no second chance (there is one Snorlax per route, not per version — same in FireRed and LeafGreen).",
+      "trackable": "Pokédex Seen/Owned flag only.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["training-recall - needs independent confirmation of exact route numbers and the single-encounter rule for the FRLG remake specifically"]
+    },
+    {
+      "category": "rng-trade-evolution",
+      "name": "Trade-evolution Pokémon require a second physical Switch system",
+      "detail": "Machoke→Machamp, Graveler→Golem, Kadabra→Alakazam, and Haunter→Gengar all still require trading to another save file to evolve. On the Switch/Switch 2 rerelease, trading uses built-in local wireless instead of a GBA Link Cable/Wireless Adapter, but it is explicitly LOCAL ONLY — there is no online trading. A solo player with only one system and one copy cannot trigger these evolutions at all without a second console and a second person.",
+      "trackable": "Not separately tracked; would show as Pokédex Owned for the evolved form.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://thegamehaus.com/pokemon/how-to-evolve-graveler-in-pokemon-firered-leafgreen-nintendo-switch/2026/02/27/", "https://gamerant.com/pokemon-firered-leafgreen-trade-evolutions/"]
+    },
+    {
+      "category": "version-diff-target-platform",
+      "name": "No online connectivity on Switch/Switch 2 rerelease",
+      "detail": "Multiple reviews state the Switch rerelease supports only local wireless (console-to-console in physical proximity) for trading and link battles — there is no online multiplayer/trading, even on Switch 2. This is a significant change in practice from the original GBA (which could trade via Link Cable with another GBA, or wirelessly with the GBA Wireless Adapter accessory to other local players) and differs from how most modern Switch online games work.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://daily.pokecommunity.com/2026/02/22/the-pokemon-firered-and-leafgreen-release-has-a-few-headscratchers/", "https://gamerant.com/pokemon-firered-leafgreen-trade-evolutions/"]
+    },
+    {
+      "category": "version-diff-target-platform",
+      "name": "Mystic Ticket and Aurora Ticket auto-granted after first Champion defeat",
+      "detail": "On the Switch/Switch 2 rerelease, defeating the Champion for the first time automatically grants the Mystic Ticket (unlocks Navel Rock, home to Lugia and Ho-Oh) and the Aurora Ticket (unlocks Birth Island, home to Deoxys). On the original GBA cartridge, these items were never built into retail code for North America/most regions and were only obtainable via limited-time real-world event distributions (e.g., Pokémon Colosseum bonus discs, special Nintendo events) — making this a genuine new convenience added for the rerelease, not present on the original hardware without the historical event.",
+      "trackable": "Item in Bag (Key Items pocket); eventual catch reflected in Pokédex.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/news/2026/02/psa-pokemon-firered-and-leafgreen-switch-version-gives-you-the-mystic-ticket-and-aurora-ticket", "https://www.techradar.com/gaming/you-can-catch-deoxys-ho-oh-and-lugia-in-pokemon-firered-and-leafgreen-for-switch-and-switch-2-but-what-about-mew"]
+    },
+    {
+      "category": "version-diff-target-platform",
+      "name": "Mew remains unobtainable on the Switch/Switch 2 rerelease",
+      "detail": "Unlike Ho-Oh/Lugia/Deoxys, Mew is NOT made available by the rerelease. The Old Sea Map item needed to reach Faraway Island (where Mew is found) was a Japan/Taiwan-only 2005 event distribution and has not been added to the Switch version as of the sources checked (shortly after Feb 2026 launch). This means Mew is not realistically obtainable through any means on this release, and the Kanto Dex Certificate explicitly excludes Mew from its requirement for this reason.",
+      "trackable": "Pokédex Seen/Owned flag would simply never flip for Mew.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://tech.yahoo.com/gaming/articles/went-looking-mew-pok-mon-010000092.html", "https://www.techradar.com/gaming/you-can-catch-deoxys-ho-oh-and-lugia-in-pokemon-firered-and-leafgreen-for-switch-and-switch-2-but-what-about-mew"]
+    },
+    {
+      "category": "version-diff-target-platform",
+      "name": "No prior official Virtual Console / Wii U / 3DS Ambassador rerelease found",
+      "detail": "Search did not surface any confirmed prior official rerelease of FireRed/LeafGreen specifically (not to be confused with original Pokémon Red/Blue/Green, which WAS part of the 3DS Virtual Console Ambassador program in 2011). Nintendo's own announcement explicitly frames the Feb 2026 Switch/Switch 2 release as the first time in '20+ years' these specific GBA titles have been made available again, implying no Wii U Virtual Console GBA release existed for these titles (Wii U never got a public GBA Virtual Console service at all, to my knowledge — flagging this as unconfirmed/low confidence and worth double-checking before asserting it in a trophy).",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.nintendo.com/us/whatsnew/pokemon-firered-version-and-pokemon-leafgreen-version-are-coming-to-nintendo-switch-in-multiple-languages/"]
+    },
+    {
+      "category": "version-diff-content",
+      "name": "Switch rerelease is otherwise content-identical to the GBA original",
+      "detail": "Reviews describe the rerelease as having 'zero new features or quality-of-life updates' beyond control remapping for Switch, a widely-reported bug fix, one content censor change (unspecified in sources — likely a Gen-standard localization tweak), and the auto-granted event tickets noted above. No new areas, Pokémon, or story content were found.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://daily.pokecommunity.com/2026/02/22/the-pokemon-firered-and-leafgreen-release-has-a-few-headscratchers/"]
+    },
+    {
+      "category": "rng",
+      "name": "Shiny Pokémon odds",
+      "detail": "Base shiny encounter rate is 1/8192 per generated Pokémon, with no Shiny Charm or odds-boosting mechanic available in Generation III. No source found suggesting the Switch rerelease changed this rate.",
+      "trackable": "No in-game shiny counter exists; a shiny is only identifiable by its sparkle animation/different color and cry pitch on encounter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://rotomlabs.net/firered-leafgreen/shiny-rates"]
+    },
+    {
+      "category": "rng",
+      "name": "No critical capture mechanic",
+      "detail": "Critical Capture (a chance for a Poké Ball to immediately succeed without the normal shake animation) was introduced in Generation IV (Diamond/Pearl/Platinum) and is not present in Generation III mechanics, which FireRed/LeafGreen use. Recommend NOT designing a 'critical capture' trophy for this game.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["training-recall, not independently re-verified this session via search"]
+    },
+    {
+      "category": "rng",
+      "name": "Celadon Game Corner slots (gambling)",
+      "detail": "Slot-machine minigame requiring a Coin Case (obtained from an NPC in Celadon). Bet 1-3 coins per spin; coins are purchasable with in-game money (50 coins for 1,000 Pokédollars, 500 coins for 10,000 Pokédollars) removing most 'grind' if the player has money, which is itself easy to farm. Winning combinations (e.g., three 7s for 300 coins) are RNG-based but the ability to buy coins directly with money makes any 'earn N coins' trophy achievable without relying purely on slot RNG — a reasonable low-RNG-pain trophy candidate would be tied to a coin/money threshold or a specific Game Corner purchase rather than requiring a specific slot outcome.",
+      "trackable": "Coin Case balance is shown in the Bag/Key Items or via a counter at the Game Corner counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.switchbladegaming.com/pokemon/firered-game-corner/", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/584800"]
+    },
+    {
+      "category": "rng",
+      "name": "Safari Zone catch mechanics",
+      "detail": "Generation III Safari Zone uses a 'catch factor' starting at 100/1275 of a species' catch rate, modified by Bait (halves the factor, makes Pokémon 'eating' for 1-5 turns) or Rocks (doubles the factor, makes Pokémon 'angry' for 1-5 turns), and Pokémon can flee each turn regardless. Rare Safari species cited: Chansey, Kangaskhan, Tauros, Scyther/Pinsir (version-exclusive), Dratini. This is a layered RNG system (catch factor + flee chance + base rarity) that could support a 'catch a specific rare Safari Zone Pokémon' trophy, but true random-rare species (Chansey, Kangaskhan, Dratini, Tauros) carry real risk of being an excessively RNG-heavy ask depending on encounter rate, which was not separately quantified in sources found.",
+      "trackable": "Pokédex Owned flag only; no explicit Safari-Zone-specific counter found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone", "https://www.dragonflycave.com/mechanics/gen-i-safari-zone/"]
+    },
+    {
+      "category": "in-game-trade",
+      "name": "Nine fixed in-game NPC trades",
+      "detail": "Reported full list: Mr. Mime for Abra (Route 2); Nidoran-M for Nidoran-F or vice versa (Route 5); Nidorino for Nidorina or vice versa (Route 11); Lickitung for Golduck (Route 18); Jynx for Poliwhirl (Cerulean City); Farfetch'd for Spearow (Vermilion City); Seel for Ponyta (Cinnabar Island Lab); Electrode for Raichu (Cinnabar Island Lab); Tangela for Venonat (Cinnabar Island Lab). Each is a one-time, non-repeatable NPC trade requiring the player to have bred/caught the specific requested species first; several (Mr. Mime, Jynx, Farfetch'd, Lickitung) are otherwise hard/impossible to get any other way in-game, making them de facto mandatory stops for Pokédex completion. Exact route numbers for a couple of entries (Route 5 vs other route for Nidoran trade) were inconsistent across snippets and should be double-checked against a primary source before being used verbatim in a trophy description.",
+      "trackable": "Not separately tracked beyond Pokédex Owned flags.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/fireredleafgreen/trades.shtml", "https://bulbapedia.bulbagarden.net/wiki/List_of_in-game_trade_Pok%C3%A9mon_in_Pok%C3%A9mon_FireRed_and_LeafGreen"]
+    },
+    {
+      "category": "collectible",
+      "name": "Pokédex Diploma / National Dex Diploma are purely cosmetic",
+      "detail": "A Diploma for completing the regional (Kanto) Pokédex can be viewed in the Celadon City Mansion; a National Dex Diploma is given by Professor Oak in Pallet Town. Per GameFAQs Q&A, the Diploma 'does nothing at all' — it has no gameplay effect, it's just a viewable certificate. Good candidate for a 'completion' trophy flavor but confirm there is no additional reward layered on top in the rerelease.",
+      "trackable": "Viewable object at a fixed map location (Mansion) and via Oak dialogue (National).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamefaqs.gamespot.com/gba/918915-pokemon-firered-version/answers/194988-what-does-the-diploma-do"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex Seen count", "where": "Pokédex menu", "confidence": "high" },
+    { "stat": "Pokédex Owned/Caught count", "where": "Pokédex menu", "confidence": "high" },
+    { "stat": "Badge count", "where": "Trainer Card front", "confidence": "medium" },
+    { "stat": "Play time", "where": "Trainer Card front", "confidence": "medium" },
+    { "stat": "Hall of Fame entries (first clear recorded; unclear if repeat clears increment a counter)", "where": "Trainer Card back", "confidence": "medium" },
+    { "stat": "Link Battles count", "where": "Trainer Card back", "confidence": "medium" },
+    { "stat": "Pokémon Trades count", "where": "Trainer Card back", "confidence": "medium" },
+    { "stat": "Trainer Stars (League win, minigame totals, Kanto Dex, National Dex)", "where": "Trainer Card", "confidence": "medium" },
+    { "stat": "Coin Case balance (Game Corner coins)", "where": "Bag/Key Items, Game Corner counter", "confidence": "medium" },
+    { "stat": "Money/Pokédollars", "where": "Likely shown on field status display, NOT confirmed to be on Trainer Card itself", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "FireRed and LeafGreen split version-exclusive Pokémon roughly along the lines reported (Ekans/Oddish/Psyduck/Growlithe/Shellder/Scyther family for FireRed vs. Sandshrew/Vulpix/Bellsprout/Slowpoke/Staryu/Magmar/Pinsir family for LeafGreen), independently corroborated by the Game Corner's version-specific coin prices for Scyther (FireRed) and Pinsir (LeafGreen). The full exclusive lists including evolution/baby forms should be cross-checked against Bulbapedia's dedicated version-exclusive page before finalizing exact trophy wording, since some aggregator lists may have folded in evolutions that aren't themselves separately 'exclusive' wild encounters.", "confidence": "medium" },
+    { "note": "The Switch/Switch 2 rerelease (Feb 27, 2026) is local-wireless-only for trading/battling with zero online multiplayer support, even on Switch 2 hardware.", "confidence": "medium" },
+    { "note": "The rerelease auto-grants the Mystic Ticket and Aurora Ticket after the first Champion win, making Lugia, Ho-Oh, and Deoxys obtainable in a normal playthrough for the first time without a real-world event — a genuine addition versus the original 2004 GBA cartridges.", "confidence": "medium" },
+    { "note": "Mew remains unobtainable on the rerelease; no evidence of an added distribution method as of the sources checked (shortly post-launch, Feb-Mar 2026).", "confidence": "medium" },
+    { "note": "National Pokédex completion (386 species) is reported as impossible on the Switch rerelease because ~166 species that previously required trading with Ruby/Sapphire/Emerald/GameCube-era games have no bridge to the new release. Any 'complete the Pokédex' trophy should target the 150-species Kanto Dex (Mew excluded), not the National Dex.", "confidence": "medium" },
+    { "note": "Could not confirm a prior official Wii U Virtual Console or 3DS Ambassador rerelease of FireRed/LeafGreen specifically; Nintendo's own messaging implies this Feb 2026 release is the first in 20+ years, suggesting no such prior official rerelease exists (distinct from the original Red/Blue/Green, which did appear in the 2011 3DS Ambassador program).", "confidence": "low" },
+    { "note": "Could not confirm whether the current Switch version includes Pokémon HOME connectivity at launch; one source suggested it 'may be coming' but is not live as checked.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not confirm whether the Trainer Card displays total money/Pokédollars earned (vs. just current balance elsewhere in the UI).",
+    "Could not fully verify the exact number and precise unlock conditions of all Trainer Stars (sources agree on 4 named conditions but commonly reference 'up to 5 stars'; the 5th condition is unconfirmed).",
+    "Could not independently confirm the exact route numbers for all 9 in-game NPC trades against a single authoritative source (serebii vs. aggregator summaries showed minor inconsistency on 1-2 entries).",
+    "Could not verify whether Hall of Fame entry count increments every time the Elite Four/Champion is beaten again (NG+/postgame rematches), or only records the first clear.",
+    "Could not confirm the full, exact version-exclusive Pokémon list against Bulbapedia's dedicated page directly (that page returned a 403 error on fetch); relied on secondary aggregator sources (PokemonDB, Serebii search snippets, TheGamer) which agree loosely but were not cross-checked line-by-line.",
+    "Could not confirm whether the two wild Snorlax encounters (Route 12, Route 16) are truly non-respawning single encounters in this specific remake, or whether they can be re-triggered after leaving the route and returning (this is the standard Gen 3 behavior from memory but not re-verified via search this session — flagged low confidence).",
+    "Could not confirm what the 'content censor addition' mentioned in post-launch reviews actually consists of — no source specified the change.",
+    "Could not find a confirmed quantified Safari Zone encounter rate (e.g., % chance per step of seeing Chansey/Dratini) to assess whether a 'catch a specific rare Safari Zone Pokémon' trophy would cross into excessive-RNG-waiting territory.",
+    "Could not confirm whether Pokémon HOME or any other cloud-transfer-out feature is live at launch, partially live, or planned; one source vaguely referenced a 'Pokemon Cloud app' for transferring caught Pokémon out, but this was not corroborated by a second source.",
+    "Did not verify Mystery Gift support (Wonder Card distribution) exists at all on this rerelease; no source directly confirmed or denied it."
+  ]
+}

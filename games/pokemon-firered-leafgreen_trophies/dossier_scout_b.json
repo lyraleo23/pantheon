@@ -1,0 +1,203 @@
+{
+  "beat": "collectibles, side quests, secret areas, minigames, post-game, DLC",
+  "game": "Pokémon FireRed and Pokémon LeafGreen",
+  "platform": "Nintendo Switch / Switch 2 (2026 standalone eShop re-release)",
+  "findings": [
+    {
+      "category": "pokedex",
+      "name": "Kanto Pokédex (regional)",
+      "detail": "151 species in the Kanto Pokédex. Mew (#151) is explicitly NOT obtainable in-game under normal play — in the original GBA release it required the Japan-only 'Old Sea Map' Mystery Gift event to reach Faraway Island; this was never released in English. Completing the regional dex is defined by the game as catching the other 150.",
+      "trackable": "Pokédex menu (Seen/Own per entry) and Professor Oak's Pokédex rating dialogue, which states exact 'POKéMON seen' / 'POKéMON owned' counts.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Completing_the_Pok%C3%A9dex", "https://pokemondb.net/pokedex/game/firered-leafgreen"]
+    },
+    {
+      "category": "pokedex",
+      "name": "National Pokédex",
+      "detail": "Unlocked after registering 60 unique species in the Kanto Dex AND beating the Elite Four; Professor Oak then upgrades the Kanto Dex to the National Dex (386 total species across Gen 1-3). Only a subset of the additional ~60+ non-Kanto species are actually catchable in FRLG itself (mostly evolutions obtainable via stones/trade/level-up, plus a handful of Sevii Islands-exclusive species); the rest require trading from Ruby/Sapphire/Emerald.",
+      "trackable": "National Dex view in the Pokédex menu; Oak's rating dialogue also reports National Dex seen/own numbers.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.cbr.com/pokemon-firered-and-leafgreen-how-to-get-national-pokedex/", "https://gamerant.com/pokemon-firered-leafgreen-missing-gen-3-national-dex/"]
+    },
+    {
+      "category": "pokedex",
+      "name": "Mew availability on Switch/Switch 2 re-release",
+      "detail": "Confirmed via post-launch (Feb 27, 2026) coverage: Mew remains unobtainable in the Switch version. There is no in-game location, no post-game unlock, and no built-in event trigger added for Mew. This is unlike Lugia/Ho-Oh/Deoxys, which WERE given a built-in unlock (see Mystic/Aurora Ticket finding below).",
+      "trackable": "N/A — not obtainable, so dex completion should be designed around 150/151 (national dex completion still capped below 386 without external trading, which Switch version does not support online).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://tech.yahoo.com/gaming/articles/went-looking-mew-pok-mon-010000092.html", "https://www.pokemoncoders.com/how-to-get-mew-pokemon-firered-and-leafgreen-switch/"]
+    },
+    {
+      "category": "post-game region",
+      "name": "Sevii Islands — overview",
+      "detail": "Major post-game/midgame region exclusive to FireRed/LeafGreen (not in original Red/Blue). Archipelago of 9 islands: One Island, Two Island, Three Island, Four Island, Five Island, Six Island, Seven Island, plus two event-locked islands Navel Rock and Birth Island. Reached via Seagallop Ferry from Vermilion City after defeating Blaine (6th Gym) and meeting Bill, who introduces Celio.",
+      "trackable": "Town map / Pokédex region flags; no explicit 'islands visited' counter found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokemaps.net/games/frlg/sevii-islands", "https://www.dragonflycave.com/kanto/sevii-islands-walkthrough/"]
+    },
+    {
+      "category": "post-game region",
+      "name": "Tri-Pass / Rainbow Pass gating",
+      "detail": "Tri-Pass (given by Celio at One Island's Pokémon Network Center) grants ferry access to One, Two, and Three Island — available right after Blaine/reaching the islands. Rainbow Pass (which replaces the Tri-Pass) grants access to Four, Five, Six, and Seven Island, and requires: (1) defeating the Elite Four, (2) obtaining the National Pokédex from Oak (60 registered Kanto species + Elite Four), and (3) retrieving the Ruby from the bottom of Mt. Ember (One Island) and giving it to Celio.",
+      "trackable": "Item bag (Tri-Pass/Rainbow Pass are key items).",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://guidestrats.com/pokemon-frlg-rainbow-pass/", "https://bulbapedia.bulbagarden.net/wiki/Rainbow_Pass"]
+    },
+    {
+      "category": "post-game region",
+      "name": "Network Machine / Ruby & Sapphire gems",
+      "detail": "The Ruby (Mt. Ember, One Island) and Sapphire (recovered from Team Rocket's warehouse, Five Island) are given to Celio to complete the Pokémon Network Center's 'Network Machine,' which enables trading/battling with Pokémon Ruby, Sapphire, Emerald, Colosseum and XD. IMPORTANT CLARIFICATION: these gems are NOT related to any Celebi distribution event — the task brief's mention of 'Ruby/Sapphire for a Celebi event' appears to conflate two unrelated things. No evidence found of an official Celebi distribution built into FireRed/LeafGreen specifically (the only Celebi-FRLG items found in research were unofficial/bootleg reproduction services, not legitimate Nintendo events).",
+      "trackable": "Not applicable for a counter; Network Machine state is a flag, and on Switch it is moot since cross-cartridge GBA trading isn't natively supported (see versionNotes).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Sapphire_(item)", "https://pokemondb.net/pokebase/145598/can-trade-between-ruby-sapphire-emerald-firered-leafgreen"]
+    },
+    {
+      "category": "side quest",
+      "name": "Team Rocket Returns (Sevii Islands subplot)",
+      "detail": "Team Rocket re-emerges on the Sevii Islands. Key beats: a hidden Rocket hideout on One Island (password-gated); the kidnapping/rescue of Lostelle (the Two Island Game Corner owner's daughter) from a wild Hypno inside Berry Forest on Three Island, for which she rewards the player an Iapapa Berry; and the climax at the Rocket Warehouse in the Five Isle Meadow on Five Island, where Team Rocket (led by a Scientist/Admin, sometimes named 'Gideon' in community sources — name NOT confirmed via official source) steals the Sapphire, which must be reclaimed by defeating the Grunts/Admins inside.",
+      "trackable": "Story flags only; no quest log in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Rocket_Warehouse", "https://bulbapedia.bulbagarden.net/wiki/Lostelle"]
+    },
+    {
+      "category": "secret area",
+      "name": "Berry Forest (Three Island)",
+      "detail": "A maze-like forest area with regenerating hidden Berry items — confirmed renewable, not a one-time collectible. Reported berries found there: Oran, Persim, Pinap, Aspear, Bluk, Wepear, Cheri. Also the site of the Lostelle rescue subplot.",
+      "trackable": "No in-game Berry Forest-specific counter found; berries tracked only via Bag inventory.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Berry_Forest", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/583902"]
+    },
+    {
+      "category": "secret area",
+      "name": "Trainer Tower",
+      "detail": "Post-game battle facility located just north of Seven Island (Sevii Islands). Four battle modes: Single, Double, Mixed (Multi), and Knockout. First-time clear of each mode awards a one-of-a-kind evolution item — community sources list these as Up-Grade (Single), Dragon Scale (Double), King's Rock (Mixed), Metal Coat (Knockout), though exact mode-to-item mapping could not be cross-confirmed against a second independent source (flagged below). In the original Japanese GBA release this was e-Reader compatible (scanning Pokémon Battle-e cards could expand it from 4 to up to 8 floors with custom trainers); international GBA releases (including English FireRed/LeafGreen) shipped without e-Reader support, using a fixed set of default trainers instead on 4 floors.",
+      "trackable": "In-tower records/floor-clear state; no explicit 'completion %' found.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Trainer_Tower", "https://www.serebii.net/fireredleafgreen/trainertower.shtml"]
+    },
+    {
+      "category": "safari zone",
+      "name": "Safari Zone (Fuchsia City)",
+      "detail": "Catch-only zone (no battling to weaken Pokémon — uses Bait/Rock mechanic instead of normal Pokéballs/Safari Balls). Divided into Areas (commonly described as North/East/West plus water areas). Notable exclusives found there: Chansey, Kangaskhan, Tauros, Dratini/Dragonair (via fishing), plus a version-exclusive Scyther (FireRed) or Pinsir (LeafGreen) — these two are ALSO separately purchasable at the Celadon Game Corner (confirmed: both methods exist, not mutually exclusive).",
+      "trackable": "No Safari Zone-specific counter; Pokédex records catches as normal.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemondb.net/location/kanto-safari-zone", "https://game8.co/games/Pokemon-FireRed-LeafGreen/archives/583955"]
+    },
+    {
+      "category": "side quest",
+      "name": "Pokémon Fan Club (Vermilion City)",
+      "detail": "The Fan Club Chairman, after a long monologue about his favorite Pokémon (Rapidash), gives the player a Bike Voucher, redeemable at the Cerulean City Bike Shop for a free Bicycle (doubles overworld movement speed).",
+      "trackable": "One-time key item; not counted anywhere.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://gamerant.com/pokemon-firered-leafgreen-free-bicycle-bike-voucher-frlg/"]
+    },
+    {
+      "category": "minigame/side content",
+      "name": "Celadon Game Corner — slot machine (only minigame in the main Celadon casino)",
+      "detail": "Slot-machine gambling is the sole minigame at the Celadon Game Corner; player buys/wins Coins (via Coin Case, obtained from a retired gambler NPC in the restaurant below the Game Corner) and exchanges them for prizes. NOTE: Voltorb Flip is a Pokémon HeartGold/SoulSilver (Gen IV remake) minigame and does NOT exist in FireRed/LeafGreen — confirmed absent here.",
+      "trackable": "Coin Case tracks current Coins (visible in Bag/Key Items); no win/loss counter found.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.serebii.net/fireredleafgreen/gamecorner.shtml", "https://gamerant.com/pokemon-firered-leafgreen-frlg-coin-case-celadon-game-corner-prizes/"]
+    },
+    {
+      "category": "minigame/side content",
+      "name": "Celadon Game Corner prize list (version-exclusive costs)",
+      "detail": "Pokémon prizes differ by version and cost: FireRed — Abra 180, Clefairy 500, Dratini 2800, Scyther 5500, Porygon 9999 coins. LeafGreen — Abra 120, Clefairy 750, Pinsir 2500, Dratini 4600, Porygon 6500 coins. TM prizes cost the same both versions: TM13 Ice Beam 4000, TM23 Iron Tail 3500, TM24 Thunderbolt 4000, TM30 Shadow Ball 4500, TM35 Flamethrower 4000 coins. Other prizes: Smoke Ball, Miracle Seed, Charcoal, Mystic Water, Yellow Flute.",
+      "trackable": "N/A (purchase list); Porygon/Scyther/Pinsir acquisition trackable via Pokédex.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.poketools.com/firered/game-corner", "https://www.switchbladegaming.com/pokemon/firered-game-corner/"]
+    },
+    {
+      "category": "minigame",
+      "name": "Bug-Catching Contest — CONFIRMED NOT PRESENT in FireRed/LeafGreen",
+      "detail": "The task brief asked about a Bug-Catching Contest at the National Park; research confirms this feature belongs to Pokémon Gold/Silver/Crystal and HeartGold/SoulSilver (Johto region's National Park), and does NOT exist in FireRed/LeafGreen (Kanto). FRLG has no National Park and no Bug-Catching Contest. Any trophy referencing this should be dropped.",
+      "trackable": "N/A — feature absent.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Bug-Catching_Contest", "https://pokemondb.net/pokebase (search synthesis)"]
+    },
+    {
+      "category": "minigame",
+      "name": "Dodrio Berry Picking (Joyful Game Corner, Two Island)",
+      "detail": "A rhythm/catching minigame at the Two Island Joyful Game Corner that originally required the GBA Wireless Adapter and 3–5 linked players, each with a Dodrio in their party, catching falling Berries (purple=slow/low value, green=medium, gold=fast/high value). This is multiplayer-dependent and was NOT playable solo on original GBA hardware.",
+      "trackable": "In-minigame score only; no persistent high-score tracker confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/Dodrio_Berry_Picking"]
+    },
+    {
+      "category": "move tutors",
+      "name": "Move Tutors — full list (15 total)",
+      "detail": "Each tutor teaches a specific move exactly once per save file, for free. Locations/moves found: Mega Punch (Route 4, Blackbelt), Mega Kick (Route 4, Blackbelt), Seismic Toss (Pewter Museum back room, via Cut), Rock Slide (Rock Tunnel, near Lavender exit), Counter (Celadon Dept. Store 3F), Softboiled (Celadon pond, via Surf), Mimic (Saffron, Copycat — requires giving her a Poké Doll first), Thunder Wave (Saffron/Silph Co. 2F), Substitute (Fuchsia, near Safari Zone entrance), Dream Eater (Viridian, pond via Surf to Route 22), Metronome (Cinnabar Research Lab), Double-Edge (Victory Road, near exit), Explosion (Sevii Islands — Mt. Ember), Body Slam (Sevii Islands — Four Island), Swords Dance (Sevii Islands — Seven Island pier).",
+      "trackable": "No in-game tutor-use counter found; only trackable indirectly via which moves a given Pokémon knows.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-firered-leafgreen-all-move-tutors-locations/"]
+    },
+    {
+      "category": "held item",
+      "name": "Lucky Egg (held item, Safari Zone Chansey)",
+      "detail": "The ONLY source of a Lucky Egg in FireRed/LeafGreen is catching a wild Chansey in the Fuchsia Safari Zone that happens to be holding one. Community-sourced odds cited: Chansey itself has a low Safari Zone appearance rate (cited ~4% in one specific area) and a separately low catch rate (catch rate stat of 30), and only ~5% of Chansey encountered hold the Lucky Egg. Effect: +150% EXP gained by holder. This is a strong 'rare item hunt' candidate — numbers are single-source community estimates, treat exact percentages as low confidence even though the general fact (Safari Zone Chansey is the only source) is corroborated by multiple guides.",
+      "trackable": "Not tracked by any UI counter; player must manually confirm via Pokémon summary screen held item.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://gamerant.com/pokemon-firered-leafgreen-lucky-egg-chansey-location-frlg/", "https://guidestrats.com/pokemon-frlg-lucky-eggs/"]
+    },
+    {
+      "category": "key item / event unlock",
+      "name": "Mystic Ticket & Aurora Ticket — SWITCH-EXCLUSIVE CHANGE",
+      "detail": "Major platform-specific finding. On original GBA FireRed/LeafGreen, the Mystic Ticket (unlocks Navel Rock, home to level-70 Ho-Oh and level-70 Lugia) and Aurora Ticket (unlocks Birth Island, home to Deoxys) were ONLY obtainable via real-world Nintendo distribution events / Mystery Gift, making them effectively unobtainable for most players. On the Nintendo Switch re-release (Feb 27, 2026), BOTH tickets are automatically added to the player's Key Items after defeating the Elite Four and entering the Hall of Fame — no external event needed. This makes Ho-Oh, Lugia, and Deoxys all catchable through normal play on Switch for the first time. Multiple independent outlets (Serebii, VGC, NintendoSoup, My Nintendo News) confirm this.",
+      "trackable": "Key Items bag; Pokédex capture flag for Ho-Oh/Lugia/Deoxys.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://x.com/SerebiiNet/status/2027436478591103269", "https://www.videogameschronicle.com/news/pokemon-firered-and-leafgreen-on-nintendo-switch-lets-players-claim-previously-event-only-items/", "https://nintendosoup.com/pokemon-firered-leafgreen-switch-version-includes-mystic-ticket-and-aurora-ticket/"]
+    },
+    {
+      "category": "DLC",
+      "name": "No DLC / expansion content",
+      "detail": "No downloadable content, expansion pass, or paid add-on content was found for FireRed/LeafGreen historically (GBA) or for the 2026 Switch/Switch 2 re-release. The Switch version is a standalone paid digital release ($19.99/£16.99), NOT part of the Nintendo Switch Online subscription/Classics catalogue, and ships with the tickets/connectivity changes noted elsewhere in this dossier built directly into the base game — not sold separately.",
+      "trackable": "N/A",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.rpgsite.net/news/19685-pokemon-leafgreen-firered-switch-eshop-release-date-listing-price-preorder-home", "https://gonintendo.com/contents/57996-pokemon-firered-leafgreen-will-not-be-offered-through-the-switch-online-gba-nintendo"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokédex Seen / Own counts (regional Kanto Dex and National Dex separately)", "where": "Pokédex menu (per-entry Seen/Caught marks) and Professor Oak's Pokédex rating dialogue, which states the exact numbers", "confidence": "high" },
+    { "stat": "Coins in Coin Case", "where": "Bag/Key Items screen; also shown at Game Corner counter", "confidence": "high" },
+    { "stat": "Badges obtained", "where": "Trainer card / badge case", "confidence": "high" },
+    { "stat": "Trainer Tower clear state per mode", "where": "In-tower NPC dialogue tracks first-clear rewards; no explicit visible numeric 'record' counter confirmed from research", "confidence": "low" },
+    { "stat": "Items collected (Berry Forest, hidden items, etc.)", "where": "Bag inventory only — no location-specific 'items found here' counter confirmed", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Switch/Switch 2 re-release (Feb 27, 2026) automatically grants the Mystic Ticket and Aurora Ticket after the Hall of Fame, making Ho-Oh, Lugia, and Deoxys catchable through normal play — these were real-world-event-only on original GBA cartridges. This is the single biggest post-game/collectible change for this platform and should drive at least one trophy design.", "confidence": "high" },
+    { "note": "Mew remains unobtainable on Switch/Switch 2 — no equivalent built-in fix was added for the Old Sea Map/Faraway Island event. Any 'complete the Pokédex' trophy should target 150 (Kanto) rather than 151, and should account for the fact that full National Dex (386) is not achievable solo without GBA-to-Switch trading hardware (see next note).", "confidence": "medium" },
+    { "note": "GBA Game Link Cable / Wireless Adapter features (trading, linked battles, Union Room, Dodrio Berry Picking minigame) are reimplemented on Switch via built-in local wireless only, supporting up to 4 other players in a 'Pokémon Wireless Club.' Online/internet play is explicitly NOT supported — any multiplayer-dependent trophy requires local wireless with a second physical Switch/Switch 2 and copy of the game (or a third-party GBA link adapter like RetroSync/GB-Link, which are unofficial hardware, not guaranteed), making such trophies effectively 2-console-dependent.", "confidence": "medium" },
+    { "note": "Trainer Tower's e-Reader card support (Japan-only on original GBA) is absent from the English Switch release just as it was absent from the English GBA release; a secondary claim that the Switch version increased the default floor count from 4 to 8 was found in only one synthesized search result and could not be cross-confirmed — treat as unverified.", "confidence": "low" },
+    { "note": "Sevii Islands, Safari Zone, Game Corner, Move Tutors, Berry Forest, and Trainer Tower are all original FireRed/LeafGreen content (added vs. Red/Blue) and appear intact in the Switch release per all located coverage; no reports of any of this content being cut for Switch were found.", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not find an official/primary source (patch notes, Nintendo press material) for the Switch re-release enumerating ALL gameplay changes; most findings above about Switch-specific changes come from gaming press (Serebii, VGC, NintendoSoup, TechRadar, GameRant) rather than Nintendo/Game Freak directly. Treat Switch-specific mechanical claims as medium confidence pending an official source.",
+    "Could not confirm the exact name of the Team Rocket boss/admin at the Five Island Rocket Warehouse ('Gideon' appeared in only one synthesized search result, not corroborated independently) — do not use this name in a trophy without further verification.",
+    "Could not independently verify the Trainer Tower mode-to-reward-item mapping (Up-Grade/Dragon Scale/King's Rock/Metal Coat) against a second primary source; only one source was fetched successfully (Bulbapedia access was blocked by 403 errors during this research session).",
+    "Could not confirm whether the Switch version displays any numeric/percentage Pokédex completion indicator beyond Oak's rating dialogue and the per-entry Seen/Own marks (e.g., no evidence found of a dedicated 'X% complete' readout).",
+    "Could not confirm exact number of Safari Zone Pokémon species total or an exhaustive area-by-area list beyond the partial breakdown found (North/East/West areas plus water areas); sources disagreed slightly on area names.",
+    "Could not fully verify whether the Switch Trainer Tower floor count is 4 or 8 by default (see versionNotes) — single unverified source.",
+    "Could not confirm an official, Nintendo-sanctioned Celebi distribution event for FireRed/LeafGreen specifically (only unofficial reproduction/bootleg distribution services were found); recommend NOT designing any trophy around a Celebi event for this game.",
+    "Did not deep-dive the complete TM/HM list or full held-item list beyond Lucky Egg and Trainer Tower evolution items, since the brief's 'notable' items (Lucky Egg, Game Corner TMs, Trainer Tower items) were prioritized — a full TM/HM inventory was out of scope for time but can be pulled from Bulbapedia/Serebii if needed (both sites exist but Bulbapedia blocked direct fetch in this session).",
+    "Could not verify whether the Berry Forest / Route 23 hidden berries respawn on a timer or only once per save-reset — described by sources as 'regenerating' but exact respawn trigger (new day, re-entering area, etc.) not confirmed."
+  ]
+}
