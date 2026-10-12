@@ -1,0 +1,185 @@
+{
+  "beat": "connected-games-roster-and-history",
+  "game": "Pokémon HOME",
+  "platform": "Nintendo Switch / Switch 2",
+  "findings": [
+    {
+      "category": "connected-game",
+      "name": "Pokémon: Let's Go, Pikachu! / Pokémon: Let's Go, Eevee!",
+      "detail": "Connected since Pokémon HOME's global launch on February 12, 2020 (surprise early access Feb 11). Pokémon can move back and forth between the two Let's Go games via HOME. However, once a Pokémon originally from Let's Go is moved onward into a newer-generation game (Sword/Shield, BDSP, Legends Arceus, Scarlet/Violet, etc.), it can never be returned to a Let's Go save — the forward move is permanent.",
+      "trackable": "Not directly trackable as a 'connected games' counter; HOME shows each Pokémon's origin game on its details page.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Pok%C3%A9mon_Bank", "https://press.pokemon.com/en/POKEMON-HOME-TO-LAUNCH-IN-FEBRUARY-2020", "https://www.nintendolife.com/guides/pokemon-home-explained-how-to-transfer-all-pokemon-to-and-from-pokemon-home"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Sword / Pokémon Shield",
+      "detail": "Connected since Pokémon HOME's global launch on February 12, 2020. Full bidirectional deposit/withdraw support.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://en-americas-support.nintendo.com/app/answers/detail/a_id/48787/~/which-games-are-compatible-with-pok%C3%A9mon-home", "https://press.pokemon.com/en/POKEMON-HOME-TO-LAUNCH-IN-FEBRUARY-2020"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Bank (Nintendo 3DS)",
+      "detail": "Not a Switch game, but counts as a connected 'game' bridging older-generation Pokémon into HOME since HOME's Feb 2020 launch. Transfer is strictly one-way: once a Pokémon leaves Pokémon Bank for HOME it can never be sent back to Pokémon Bank or to any 3DS title. Note: Pokémon Bank itself is scheduled to end service on February 25, 2027 (per Nintendo support article found in search), which may be relevant to the base-list-vs-DLC decision since this bridge has a published end date.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://support.pokemon.com/hc/en-us/articles/360039030852-Can-I-move-Pok%C3%A9mon-from-Nintendo-3DS-Pok%C3%A9mon-titles-to-Pok%C3%A9mon-HOME-using-Pok%C3%A9mon-Bank-And-if-so-can-I-move-them-back-to-Pok%C3%A9mon-Bank-afterward"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon GO",
+      "detail": "GO Transporter feature launched November 11, 2020, allowing Pokémon GO players to send Pokémon to HOME. This connectivity is on the MOBILE version of Pokémon HOME, not the Nintendo Switch app directly (per Nintendo's official compatibility list, which separates 'console version' compatible games from 'mobile device version' compatible GO). Once a Pokémon reaches HOME's cloud storage it is then available for withdrawal into any compatible Switch game, so Switch players benefit from GO transfers indirectly even though the Switch HOME app itself doesn't talk to GO.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/GO_Transporter", "https://en-americas-support.nintendo.com/app/answers/detail/a_id/48787/~/which-games-are-compatible-with-pok%C3%A9mon-home"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Brilliant Diamond / Pokémon Shining Pearl",
+      "detail": "Connected May 18, 2022 via Pokémon HOME version 2.0.0 (simultaneous with Legends: Arceus). Full bidirectional deposit/withdraw. Only Pokémon species in BDSP's National Pokédex (Gen 1-4 availability) can be imported into BDSP; no newer species.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2022/05/pokemon-homes-diamond-and-pearl-and-legends-arceus-compatibility-update-now-live", "https://www.siliconera.com/pokemon-home-update-adds-legends-arceus-and-bdsp-support/"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Legends: Arceus",
+      "detail": "Connected May 18, 2022 via Pokémon HOME version 2.0.0 (simultaneous with BDSP). Bidirectional. Pokémon imported into Legends: Arceus from BDSP/Sword-Shield appear inside Strange Balls regardless of original ball used.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.nintendolife.com/news/2022/05/pokemon-homes-diamond-and-pearl-and-legends-arceus-compatibility-update-now-live", "https://www.siliconera.com/pokemon-home-update-adds-legends-arceus-and-bdsp-support/"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Scarlet / Pokémon Violet",
+      "detail": "Connected May 30, 2023 (staggered rollout reported as May 30-31) via Pokémon HOME version 3.0.0. This update also allowed roaming-form Gimmighoul to move from Pokémon GO into Scarlet/Violet via HOME. Only Pokémon that can appear in Scarlet/Violet can be moved in.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokejungle.net/2023/05/18/pokemon-home-3-0-0-brings-scarlet-violet-compatibility-more/", "https://www.nintendo.com/us/whatsnew/pokemon-home-can-now-be-linked-with-pokemon-scarlet-and-pokemon-violet/", "https://www.resetera.com/threads/pok%C3%A9mon-home-compatability-with-scarlet-violet-arrives-may-30th-to-31st-staggered-release.720592/"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Legends: Z-A (and Pokémon Legends: Z-A – Nintendo Switch 2 Edition)",
+      "detail": "Pokémon Legends: Z-A released October 2025. HOME connectivity went live April 2, 2026, via Pokémon HOME version 4.0.0 (confirmed live first in Japan on that date per one source). Significant one-way restriction: Pokémon CANNOT be transferred from Legends Z-A back to any previous title in the series. If a Pokémon from an older game is transferred INTO Legends Z-A, it can no longer be sent to any previous game afterward (permanent forward-only lock, same pattern as the Let's Go-to-newer-game rule). Players also receive free Level 5 Alpha starters as a reward for linking their save to HOME. There is some light source conflict on exact announcement vs go-live date (one Nintendo Life article from Sept 2025 says connectivity was 'scheduled for 2026'; other sources confirm April 2, 2026 as the live date) — treat April 2, 2026 as medium-high confidence, not fully certain to the day.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/news/2025/09/pokemon-legends-z-a-and-pokemon-home-connectivity-scheduled-for-2026", "https://screenrant.com/pokemon-legends-za-home-transfers-new-games-problem/", "https://legends.pokemon.com/en-us/news/pokemon-home-connectivity", "https://thegamehaus.com/pokemon-legends-z-a/does-pokemon-legends-z-a-connect-to-pokemon-home/2025/10/18/"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon FireRed Version / Pokémon LeafGreen Version (Nintendo Switch re-release)",
+      "detail": "These are NOT the original GBA games — they are eShop-exclusive Nintendo Switch re-releases that launched February 27, 2026 (announced at a Pokémon Presents tied to the franchise's 30th Anniversary). Pokémon HOME connectivity for these Switch versions went live in October 2026 (one source pins it to October 7, 2026). IMPORTANT RESTRICTION: this connection is confirmed ONE-WAY — Pokémon can be deposited FROM FireRed/LeafGreen INTO HOME, but Pokémon CANNOT be withdrawn back out of HOME into these games. This is the clearest one-way-only case in the whole roster and should be flagged heavily for trophy design (no 'send Pokémon back' trophy is possible for this title). A tie-in reward: completing the FireRed/LeafGreen Switch Pokédex grants a Celebi via Mystery Gift/gift delivered through the mobile HOME app.",
+      "trackable": "Not applicable for withdrawal since it's deposit-only.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.pokemon.com/us/news/pokemon-firered-version-and-pokemon-leafgreen-version-link-with-pokemon-home-this-october", "https://gonintendo.com/contents/63777-pokemon-firered-version-and-pokemon-leafgreen-version-link-with-pokemon-home-october", "https://mynintendonews.com/2026/10/07/pokemon-home-now-compatible-with-fire-red-and-leaf-green-patch-notes/", "https://famiboards.com/threads/pok%C3%A9mon-home-compatibility-coming-to-pok%C3%A9mon-firered-and-leafgreen-re-releases-in-october-2026.18354/"]
+    },
+    {
+      "category": "connected-game",
+      "name": "Pokémon Champions",
+      "detail": "Released April 8, 2026 on Nintendo Switch, Nintendo Switch 2, and mobile. IMPORTANT CAVEAT FOR DOWNSTREAM DESIGN: Pokémon Champions is a free-to-start, battle/tournament-focused spin-off (competitive simulator), NOT a traditional core-series RPG with its own region/story/Pokédex in the usual sense. It connects to HOME (link initiated from inside the HOME app, both console and mobile versions), allowing Pokémon to be sent as 'visitors' to Champions and back to HOME. Only Pokémon species/forms actually implemented in Champions can be moved there. Because of its different structure (no exploration, no regional Pokédex to 'complete' the way mainline games have), it likely should NOT be treated identically to Sword/Shield-style 'core series mainline' entries for per-game DLC pack purposes — flagging this classification ambiguity explicitly since the task description grouped it loosely with 'core-series' titles.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.pokemon.com/us/news/pokemon-champions-releases-on-nintendo-switch-and-nintendo-switch-2-on-april-8-2026", "https://www.gamesradar.com/games/pokemon/link-pokemon-champions-and-home/", "https://beebom.com/how-to-link-pokemon-champions-to-pokemon-home/"]
+    },
+    {
+      "category": "distribution-exclusive",
+      "name": "Shiny Meloetta (HOME-exclusive distribution)",
+      "detail": "Announced October 18, 2024. Awarded to any HOME account that completes the Paldea, Kitakami, and Blueberry Academy Pokédex within Pokémon HOME (i.e., Scarlet/Violet + both DLC areas' dex entries logged in HOME).",
+      "trackable": "Regional Pokédex completion is tracked within the Pokémon HOME app's own Pokédex screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://pokemongohub.net/post/sword-shield/pokemon-home-exclusive-shiny-distributions/"]
+    },
+    {
+      "category": "distribution-exclusive",
+      "name": "Shiny Manaphy (HOME-exclusive distribution)",
+      "detail": "Live as of January 28, 2025, worldwide, no announced end date. Reward for completing the Sinnoh Pokédex (from Brilliant Diamond/Shining Pearl Pokémon deposited in HOME) within the HOME app.",
+      "trackable": "Regional Pokédex completion tracked in HOME's Pokédex screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.siliconera.com/pokemon-home-shiny-manaphy-and-enamorus-distribution-starts/", "https://nintendoeverything.com/pokemon-home-offering-shiny-manaphy-shiny-enamorus/"]
+    },
+    {
+      "category": "distribution-exclusive",
+      "name": "Shiny Enamorus (HOME-exclusive distribution)",
+      "detail": "Live as of January 28, 2025, worldwide, no announced end date. Reward for completing the Hisui Pokédex (from Legends: Arceus Pokémon deposited in HOME) within the HOME app.",
+      "trackable": "Regional Pokédex completion tracked in HOME's Pokédex screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.siliconera.com/pokemon-home-shiny-manaphy-and-enamorus-distribution-starts/", "https://screenrant.com/pokemon-home-how-to-get-shiny-enamorus-manaphy/"]
+    },
+    {
+      "category": "distribution-exclusive",
+      "name": "Shiny Volcanion (HOME-exclusive distribution)",
+      "detail": "First-ever Shiny Volcanion release (previously Shiny-locked since its Gen 6 debut in Omega Ruby/Alpha Sapphire ~10 years prior). Distribution active as of April 2026. Requires completing the Lumiose Pokédex, Hyperspace Lumiose Pokédex, and Mega Pokédex within Pokémon HOME, with all qualifying Pokémon originating from Pokémon Legends: Z-A, including the Mega Dimension DLC. No known end date as of research.",
+      "trackable": "Pokédex completion (three separate dex lists) tracked in HOME's Pokédex screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://x.com/SerebiiNet/status/2048643572279222492", "https://www.vice.com/en/article/pokemon-releases-shiny-volcanion-for-the-first-time-in-10-years/", "https://nintendosoup.com/pokemon-home-shiny-volcanion-distribution-now-live/"]
+    },
+    {
+      "category": "distribution-exclusive",
+      "name": "Celebi via FireRed/LeafGreen Switch Pokédex completion",
+      "detail": "Players who complete the Pokédex in the Switch re-releases of FireRed/LeafGreen receive a Mythical Celebi as a gift delivered on the MOBILE version of Pokémon HOME specifically (not stated to be on console version). Tied to the October 2026 connectivity update.",
+      "trackable": "In-game Pokédex completion tracked by FireRed/LeafGreen itself; delivery mechanism is HOME mobile gift system.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://mynintendonews.com/2026/10/07/pokemon-home-now-compatible-with-fire-red-and-leaf-green-patch-notes/"]
+    },
+    {
+      "category": "mechanic",
+      "name": "GO Transporter restrictions and limitations",
+      "detail": "GO Transporter is strictly one-way (GO -> HOME only; cannot send Pokémon from HOME back into GO). Up to 25 Pokémon can be sent per batch, and a new batch cannot be sent until the pending one is received into HOME. Uses an energy-cost system (max 10,000 energy cap); Shiny and high-CP Pokémon cost more energy, and Mythical/Legendary/Shiny Pokémon over roughly 1001 CP cannot be transferred because the cost would exceed the cap. Pokémon that CANNOT be sent via GO Transporter at all: Spinda, favorited Pokémon, current Buddy Pokémon, Pokémon defending Gyms, costumed Pokémon, Shadow Pokémon, Mega-Evolved Pokémon, Gigantamax Pokémon (only base Dynamax is allowed through), Pokémon caught via GO Safari Balls, and Hyper-Trained Pokémon. Lucky and Purified statuses are stripped upon transfer (the Pokémon can still transfer, but loses that status). Legendary/Mythical Pokémon sent to HOME via GO Transporter (except Meltan and Melmetal) can only be withdrawn into a core-series game if that specific species/form has already been registered in or obtained in that game's Pokédex.",
+      "trackable": "Not applicable / mechanic-level restriction, not a progress counter.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://bulbapedia.bulbagarden.net/wiki/GO_Transporter", "https://screenrant.com/pokemon-go-home-transfer-cost-mythic-legendary-price/", "https://www.vintageisthenewold.com/faq/can-you-transfer-shadow-pokemon-to-home"]
+    },
+    {
+      "category": "premium-feature",
+      "name": "Pokémon HOME Premium Plan — storage increase to 9,000 (October 2026)",
+      "detail": "As of the October 2026 update (the same update that added FireRed/LeafGreen connectivity), Premium Plan subscribers' deposit box capacity increased from 6,000 to 9,000 Pokémon, at no extra subscription cost. Basic (free) plan remains capped at 30 Pokémon deposit capacity. This storage bump is tied to the same update as FireRed/LeafGreen connectivity but is a general Premium feature, not exclusive to any one connected game.",
+      "trackable": "Storage usage (X / capacity) is shown in the HOME box/storage UI.",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://pokequery.com/news/2026/08/pokemon-home-premium-plan-gets-3-000-more-storage-slots-in-october-2026-update", "https://www.shanethegamer.com/news/pokemon-homes-october-update-boosts-premium-storage-to-9000-adds-firered-leafgreen-link/"]
+    },
+    {
+      "category": "premium-feature",
+      "name": "Other Premium Plan features (general, not tied to a single connected game)",
+      "detail": "Premium-only: ability to move Pokémon from Pokémon Bank (Basic users cannot use Bank->HOME at all), up to 10 Pokémon placed in Wonder Box simultaneously (vs 3 for Basic), up to 3 Pokémon placed in GTS simultaneously (vs 1 for Basic), ability to both host AND participate in Room Trade (Basic can only participate), access to the 'Judge' IV-checking function, and up to 1,000 medals held (vs 30 for Basic). Pricing found: $2.99/1 month, $4.99/3 months, $15.99/12 months (USD, as reported by one source — not cross-verified against a second independent source).",
+      "trackable": "Medal count is shown in a dedicated Medals screen; Wonder Box/GTS/Room Trade slot limits are visible in their respective UI screens.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/pokemonhome/subscription.shtml", "https://lionadegames.com/how-much-is-pokemon-home/"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Pokémon HOME's own regional/special Pokédex completion (per-dex, e.g. Paldea, Kitakami, Blueberry Academy, Sinnoh, Hisui, Lumiose, Hyperspace Lumiose, Mega dex)", "where": "Pokédex tab within the HOME app itself, separate from any single game's in-game Pokédex", "confidence": "high" },
+    { "stat": "Total Pokémon stored / storage capacity used (e.g., out of 30 Basic or up to 9,000 Premium as of Oct 2026)", "where": "Box/storage overview screen in HOME", "confidence": "high" },
+    { "stat": "Medal count", "where": "Dedicated Medals screen in HOME (up to 30 visible for Basic, up to 1,000 for Premium per one source — not independently cross-verified)", "confidence": "medium" },
+    { "stat": "Judge (IV check) usage", "where": "Per-Pokémon detail screen, Premium only", "confidence": "medium" },
+    { "stat": "Each Pokémon's origin game / game history", "where": "Individual Pokémon's details/memo page in HOME shows where it currently/originally came from", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Pokémon GO connectivity (GO Transporter) is only available through the MOBILE version of the Pokémon HOME app, not directly through the Nintendo Switch console app, per Nintendo's own compatible-games breakdown which lists GO separately under 'mobile device version.' Switch players still benefit because HOME's cloud storage is shared across console and mobile logins to the same account.", "confidence": "high" },
+    { "note": "Pokémon FireRed/LeafGreen (Switch) is confirmed deposit-only into HOME — no withdrawal path back into these games exists as of the October 2026 connectivity update. This is the most restrictive of any connection in the roster and should be treated carefully in trophy design (no 'send to FireRed/LeafGreen' achievement is currently possible).", "confidence": "high" },
+    { "note": "Pokémon Legends: Z-A has a unique forward-lock: Pokémon cannot move from Z-A back to any previous title, and any Pokémon moved INTO Z-A from an older title becomes permanently unable to return to that older title. This differs from the Sword/Shield-era rule only in degree, not in kind, but is explicitly reconfirmed for Z-A by multiple 2025-2026 sources.", "confidence": "medium" },
+    { "note": "Pokémon Champions, while HOME-connected, is structurally a battle/tournament spin-off rather than a traditional explorable 'core series' RPG — flagging this because the original task brief grouped it loosely alongside mainline games, which may not match how it should be scoped for a per-game DLC pack.", "confidence": "high" },
+    { "note": "Pokémon Bank's connectivity bridge to HOME is scheduled to end service February 25, 2027, per a Nintendo/Pokémon support article turned up in search. This is outside the stated October 2026 'as of' window but is close enough that it may affect long-term list design (a bridge that is about to close).", "confidence": "medium" }
+  ],
+  "gaps": [
+    "Could not fully independently verify Pokémon HOME Premium Plan pricing ($2.99/$4.99/$15.99) against a second fully independent authoritative source (e.g., the official Nintendo eShop/App Store listing) — only found via secondary blog aggregator (lionadegames) and Serebii subscription page.",
+    "Could not confirm the exact day Pokémon Legends: Z-A HOME connectivity went live with full certainty — sources conflict between 'scheduled for 2026' (Sept 2025 Nintendo Life piece) and a specific 'April 2, 2026' date from other write-ups; treating April 2, 2026 as the best available date but flagging it as medium confidence.",
+    "Could not confirm whether Pokémon Champions counts toward the task's 'core-series' definition in the way the game's own box art/marketing frames it — Pokémon Company materials describe it as a new type of Pokémon game distinct from mainline RPGs; this is a classification call for the design team, not a pure fact gap.",
+    "Could not find any evidence of a paid DLC/expansion/add-on specifically for the Pokémon HOME app itself beyond the Free (Basic) vs Premium Plan subscription split. No one-time-purchase content, cosmetic packs, or box-theme DLC store was found in searches. Treat 'no HOME-specific paid DLC beyond Premium subscription' as the working assumption, but this is an absence-of-evidence conclusion, not a confirmed negative from an official FAQ.",
+    "Could not find explicit, dedicated documentation of 'box customization themes/backgrounds' as a distinct feature separate from the standard per-game-origin color/type coding in HOME's storage UI. One search suggested box backgrounds tied to origin games (Sword/Shield, BDSP, Legends Arceus, Let's Go) exist, but I could not find a canonical/official list of exact theme names or confirm whether these are unlockable/customizable versus purely cosmetic/automatic based on a Pokémon's origin game. This needs a dedicated follow-up search or in-app verification before any box-theme-related trophy is designed.",
+    "Did not find confirmation of whether Pokémon Scarlet/Violet's own DLC (The Teal Mask / The Indigo Disk / Kitakami / Blueberry Academy) changed HOME connectivity rules in any additional way beyond what's already captured (e.g., whether DLC-exclusive Pokémon have extra HOME restrictions). This may be covered by another scout's beat (systems/DLC) rather than mine.",
+    "No second independent source was found to corroborate the 'October 7, 2026' specific day for FireRed/LeafGreen HOME connectivity beyond the two blog-style sources (mynintendonews, gonintendo) plus the official pokemon.com news post (which states 'this October' without the specific day in the snippet I retrieved) — day-level date confidence is medium, month-level (October 2026) confidence is high.",
+    "Could not verify whether Pokémon Legends: Z-A – Nintendo Switch 2 Edition is a free upgrade/separate SKU, or how it's distinguished from the base Switch version for HOME connectivity purposes (i.e., does it connect as the same compatibility entry or a separate one). Treat as a single combined entry unless a downstream check clarifies otherwise."
+  ]
+}

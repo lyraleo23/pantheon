@@ -1,0 +1,491 @@
+{
+  "game": {
+    "title": "Pokémon HOME",
+    "slug": "pokemon-home",
+    "code": "PHOME",
+    "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+    "mode": "genesis",
+    "developer": "Game Freak / The Pokémon Company",
+    "publisher": "Nintendo / The Pokémon Company",
+    "genre": "Cloud Storage / Companion Service App",
+    "releaseYear": 2020,
+    "estimatedDifficulty": 2,
+    "estimatedHours": "Ongoing service app with no fixed completion time; this list reflects the app's state as of the October 2026 (v4.1.0) update. The base list is a few hours of setup against any one owned connected game; each DLC pack scales with whichever connected games you actually own.",
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "notes": "Genesis Mode. Switch has no platform-level achievement system, and no evidence was found of Game Center/Google Play Games achievement integration for HOME on mobile either — this is an absence-of-evidence conclusion (medium confidence), not an explicit official denial. Scope decisions made at the research checkpoint: (1) A LARGE share of HOME's feature set — all trading (GTS, Wonder Box, Room Trade, Friend Trade), the friend list, mobile's reward-bearing 'Challenges' and 'Medals' systems, and Battle Data — is confirmed MOBILE-APP-ONLY and does not exist on the Nintendo Switch build at all, per Nintendo's own support FAQ. No trophy anywhere in this list requires any of these. (2) All Premium Plan-gated content (the Judge/IV-checker function, Pokémon Bank transfer, storage above the Basic Plan's 30-Pokémon cap, and the higher Wonder Box/GTS/Room Trade limits) is deliberately excluded from every trophy, base or DLC, so that the Platinum never requires a paid subscription — the same principle this project applies to online-service dependencies under Rule 13, extended here to a recurring-payment gate rather than a server dependency. (3) A full National Pokédex (1,025 species) completion trophy was deliberately NOT built: like the National Dex problem already identified for this project's FireRed/LeafGreen Switch list, completing it requires owning and trading across virtually every mainline Pokémon game plus the mobile-only trading suite, making it unreasonable under Rule 20. The base list instead uses partial milestones (30/100/150 species registered) that are genuinely trackable and achievable, and each DLC pack's Pokédex trophy is scoped to that one game's own regional dex instead. (4) Several HOME-exclusive Mystery Gift rewards tied to regional-dex completion (Shiny Manaphy, Enamorus, Keldeo, Volcanion, the Legends Z-A starter trio) had conflicting research on whether they are currently live or already expired as of October 2026 — every regional-dex trophy in this list is therefore worded around the Pokédex completion itself (a stable, confirmed, in-app fact) rather than asserting the bonus gift is currently claimable. (5) Pokémon Champions, Pokémon Bank, and Pokémon GO are explicitly out of scope at the user's direction: Champions is a battle/tournament spin-off with no exploration or regional Pokédex of its own, unlike the other seven connected games, so it gets no DLC pack; Bank (a one-way legacy 3DS bridge sunsetting Feb 2027) and GO (whose transporter lives on the mobile app, not Switch) are mentioned here for context only, with no trophies built around either. (6) FRLGH-004 (the Celebi gift) is included despite requiring the companion mobile app for delivery — the qualifying action happens on Switch, but the gift itself is mobile-only — because this project's precedent (Pokémon Brilliant Diamond, Pokémon Legends: Arceus) already discloses rather than silently excludes this kind of external dependency; it is clearly flagged in that trophy's notes. A first-draft trophy for the Legends: Z-A Alpha starter trio Mystery Gift was removed after audit: unlike Celebi, that gift's current live/expired status is itself disputed in research (see dossier conflicts), so rather than layer a mobile-dependency disclosure on top of an unresolved availability question, it was dropped entirely — the Legends: Z-A pack rests on its two unambiguous hooks (first transfer, Research Tasks, regional dex) instead. (7) Every DLC pack in this list is intentionally thin (3-4 trophies) relative to the validator's 5-trophy guidance: HOME's actual game-specific hooks are limited to a confirmed, small set of real mechanics (first transfer, that game's 20-task Research Task set, that game's regional Pokédex reward, and at most one further confirmed quirk unique to that connection) — inflating any pack further would mean inventing content the research never found, which Rules 1-2 forbid."
+  },
+  "trophies": [
+    {
+      "id": "PHOME-001",
+      "name": "A New Address",
+      "description": "Complete first-time setup and receive the free Pikachu waiting in your Basic Box.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "Completing the setup flow deposits the free Pikachu into the Basic Box.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-002",
+      "name": "First Delivery",
+      "description": "Send a Pokémon from a connected Nintendo Switch game into Pokémon HOME for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Pokémon appears in a HOME box with that game listed as its origin.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-003",
+      "name": "Back Into the Field",
+      "description": "Send a Pokémon from Pokémon HOME into a connected Nintendo Switch game for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Pokémon appears in that game's party or boxes after the transfer.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-004",
+      "name": "Basic Box, Fully Stocked",
+      "description": "Fill the Basic Box to its 30-Pokémon capacity.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The Basic Box storage screen shows 30/30.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-005",
+      "name": "First Field Report",
+      "description": "Clear your first Research Task by depositing the species it asks for.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The task's silhouette reveals as completed in its Research Task list.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-006",
+      "name": "Points Well Spent",
+      "description": "Convert HOME Points into Battle Points for the first time.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Battle Points total in a connected game increases after the conversion.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-007",
+      "name": "A Growing Archive",
+      "description": "Register 30 different species in HOME's National Pokédex.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The National Pokédex's registered-species count reaches 30.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-008",
+      "name": "Two Worlds, One Box",
+      "description": "Deposit Pokémon originally obtained from 2 different connected games.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The individual origin-game details of your boxed Pokémon confirm two distinct source games.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-009",
+      "name": "Seen Across Time",
+      "description": "Register a regional-variant form (such as an Alolan or Galarian form) in the National Pokédex.",
+      "tier": "bronze",
+      "type": "collection",
+      "verification": "The variant form's entry appears registered, distinct from its base-region counterpart.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-010",
+      "name": "Of Two Minds",
+      "description": "Register a Gigantamax form in the National Pokédex, or a Mega Evolution form obtained using a Mega Stone in Legends: Z-A.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The Gigantamax or Mega Evolution entry appears registered, distinct from the Pokémon's standard form.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-011",
+      "name": "A Larger Archive",
+      "description": "Register 100 different species in HOME's National Pokédex.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "The National Pokédex's registered-species count reaches 100.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-012",
+      "name": "A Home for Every Journey",
+      "description": "Deposit Pokémon originally obtained from 4 different connected games.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "Four distinct origin games are represented among the Pokémon in your boxes.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-013",
+      "name": "A Complete Archive",
+      "description": "Register 150 different species in HOME's National Pokédex.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "The National Pokédex's registered-species count reaches 150.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "PHOME-014",
+      "name": "Archive of a Trainer's Life",
+      "description": "Deposit Pokémon originally obtained from all 7 connected core-series games.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "All seven origin games are represented among the Pokémon in your boxes.",
+      "missable": false,
+      "secret": false,
+      "origin": "original",
+      "notes": "Requires owning and having played each of the seven connected core-series games (Let's Go Pikachu/Eevee, Sword/Shield, Brilliant Diamond/Shining Pearl, Legends Arceus, Scarlet/Violet, Legends Z-A, and the FireRed/LeafGreen Switch re-release) — an external ownership dependency beyond Pokémon HOME itself, included because uniting a player's whole Pokémon history across the series is HOME's core identity."
+    },
+    {
+      "id": "PHOME-015",
+      "name": "Welcome HOME",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All other trophies earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "dlc": [
+    {
+      "name": "Pokémon: Let's Go, Pikachu! / Let's Go, Eevee!",
+      "trophies": [
+        {
+          "id": "LGPE-001",
+          "name": "First Steps Into the Cloud",
+          "description": "Send a Pokémon originally from Let's Go, Pikachu! or Let's Go, Eevee! into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Let's Go, Pikachu! or Let's Go, Eevee!.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "LGPE-002",
+          "name": "Partners Reunited",
+          "description": "Move a Pokémon between a Let's Go, Pikachu! save and a Let's Go, Eevee! save via HOME.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon appears in the second save's party or boxes after the HOME transfer.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "LGPE-003",
+          "name": "Kanto, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Let's Go Kanto set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Let's Go Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "LGPE-004",
+          "name": "Kanto's Keeper",
+          "description": "Complete the Let's Go Kanto Pokédex within HOME using Pokémon originally obtained in Let's Go, Pikachu! or Let's Go, Eevee!.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Let's Go Kanto Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon Sword / Pokémon Shield",
+      "trophies": [
+        {
+          "id": "SWSH-001",
+          "name": "A Galar Welcome",
+          "description": "Send a Pokémon originally from Sword or Shield into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Sword or Shield.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SWSH-002",
+          "name": "Galar, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Galar set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Galar Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SWSH-003",
+          "name": "Champion of the Archive",
+          "description": "Complete the Galar Pokédex, including the Isle of Armor and Crown Tundra, within HOME using Pokémon originally obtained in Sword or Shield.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Galar Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon Brilliant Diamond / Pokémon Shining Pearl",
+      "trophies": [
+        {
+          "id": "BDSP-001",
+          "name": "A Sinnoh Welcome",
+          "description": "Send a Pokémon originally from Brilliant Diamond or Shining Pearl into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Brilliant Diamond or Shining Pearl.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "BDSP-002",
+          "name": "Sinnoh, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Sinnoh set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Sinnoh Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "BDSP-003",
+          "name": "Keeper of Sinnoh",
+          "description": "Complete the Sinnoh Pokédex within HOME using Pokémon originally obtained in Brilliant Diamond or Shining Pearl.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Sinnoh Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon Legends: Arceus",
+      "trophies": [
+        {
+          "id": "PLA-001",
+          "name": "A Hisui Welcome",
+          "description": "Send a Pokémon originally from Legends: Arceus into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Legends: Arceus.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PLA-002",
+          "name": "Into a Strange Ball",
+          "description": "Move a Pokémon from another connected game into Legends: Arceus via HOME and have it converted into a Strange Ball on arrival.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The transferred Pokémon's ball design shows as a Strange Ball once inside Legends: Arceus.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PLA-003",
+          "name": "Hisui, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Hisui set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Hisui Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PLA-004",
+          "name": "Keeper of Hisui",
+          "description": "Complete the Hisui Pokédex within HOME using Pokémon originally obtained in Legends: Arceus.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Hisui Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon Scarlet / Pokémon Violet",
+      "trophies": [
+        {
+          "id": "SV-001",
+          "name": "A Paldea Welcome",
+          "description": "Send a Pokémon originally from Scarlet or Violet into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Scarlet or Violet.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SV-002",
+          "name": "Paldea, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Paldea set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Paldea Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "SV-003",
+          "name": "Keeper of Paldea",
+          "description": "Complete the Paldea Pokédex, including the Kitakami and Blueberry Academy additions, within HOME using Pokémon originally obtained in Scarlet or Violet.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Paldea Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon Legends: Z-A",
+      "trophies": [
+        {
+          "id": "PLZA-001",
+          "name": "A Lumiose Welcome",
+          "description": "Send a Pokémon originally from Legends: Z-A into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as Legends: Z-A.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PLZA-002",
+          "name": "Kalos, Fully Logged",
+          "description": "Complete all 20 Research Tasks in the Kalos set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Kalos Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "PLZA-003",
+          "name": "Keeper of Lumiose",
+          "description": "Complete the Lumiose Pokédex, including the Hyperspace Lumiose and Mega Pokédex additions, within HOME using Pokémon originally obtained in Legends: Z-A.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The Lumiose Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        }
+      ]
+    },
+    {
+      "name": "Pokémon FireRed / Pokémon LeafGreen (Nintendo Switch)",
+      "trophies": [
+        {
+          "id": "FRLGH-001",
+          "name": "One Way to the Cloud",
+          "description": "Send a Pokémon originally from the Nintendo Switch re-release of FireRed or LeafGreen into HOME for the first time.",
+          "tier": "bronze",
+          "type": "mechanic",
+          "verification": "The Pokémon's origin game shows as FireRed or LeafGreen.",
+          "missable": false,
+          "secret": false,
+          "origin": "original",
+          "notes": "This connection is confirmed deposit-only as of the October 2026 update — Pokémon sent to HOME from these games cannot currently be withdrawn back into them."
+        },
+        {
+          "id": "FRLGH-002",
+          "name": "Kanto, Fully Logged Again",
+          "description": "Complete all 20 Research Tasks in the Kanto (FireRed/LeafGreen) set.",
+          "tier": "silver",
+          "type": "challenge",
+          "verification": "All 20 tasks in the Kanto (FireRed/LeafGreen) Research Task list show as completed.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "FRLGH-003",
+          "name": "Keeper of Kanto, Remastered",
+          "description": "Complete the FireRed/LeafGreen Kanto Pokédex within HOME using Pokémon originally obtained in that re-release.",
+          "tier": "gold",
+          "type": "collection",
+          "verification": "The FireRed/LeafGreen Kanto Pokédex screen shows 100% completion with its crown icon.",
+          "missable": false,
+          "secret": false,
+          "origin": "original"
+        },
+        {
+          "id": "FRLGH-004",
+          "name": "A Mythical Reunion",
+          "description": "Receive the Celebi granted for completing the Kanto Pokédex in the Nintendo Switch re-release of FireRed or LeafGreen.",
+          "tier": "silver",
+          "type": "postgame",
+          "verification": "Celebi appears in the mobile Pokémon HOME app's gift box after claiming.",
+          "missable": false,
+          "secret": false,
+          "origin": "original",
+          "notes": "The qualifying Pokédex completion happens in the Switch game, but this specific gift is delivered only through the companion mobile Pokémon HOME app — claiming it requires also running that app, a dependency beyond the Switch app alone."
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

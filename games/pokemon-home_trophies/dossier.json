@@ -1,0 +1,88 @@
+{
+  "game": "Pokémon HOME",
+  "targetPlatform": "Nintendo Switch / Nintendo Switch 2",
+  "mode": "genesis",
+  "modeRationale": "No platform has native achievements for this app: Nintendo Switch has no platform-level achievement system at all; no evidence found of Game Center (iOS) or Google Play Games (Android) achievement integration for Pokémon HOME on mobile (absence-of-evidence, medium confidence, no explicit official denial found). HOME's own internal checklists (Switch 'Research Tasks', mobile 'Challenges'/'Medals') are in-app completionist systems, not OS-level achievement APIs, so they don't trigger the entry gate — they're source material, not a competing native list.",
+  "criticalPlatformSplit": {
+    "summary": "This is the single most important fact for design. A large share of Pokémon HOME's feature set is MOBILE-APP-ONLY and does not exist on the Nintendo Switch build at all — confirmed directly via Nintendo's own support FAQ ('The ability to trade Pokémon is only available in the smart device version of Pokémon HOME').",
+    "switchOnly": ["Deposit/withdraw to/from compatible Switch games (Let's Go, Sword/Shield, BDSP, Legends Arceus, Scarlet/Violet, Legends Z-A, FireRed/LeafGreen)", "Pokémon Bank transfer (Premium)", "Research Tasks checklist (140 tasks, 7 sets of 20, no in-app reward)", "Judge function (Premium, IV checker)", "HOME Points → BP/LP conversion", "National + regional Pokédex tracking (shared with mobile)"],
+    "mobileOnly": ["All trading: GTS, Wonder Box, Room Trade, Friend Trade", "Friend list / 'Your Room' social features (not linked to Switch system friends)", "Challenges (mobile's reward-bearing checklist — gives stickers/backgrounds, unlike Switch's reward-less Research Tasks)", "Medals (real-world event collectibles, v3.3.0+)", "Mystery Gift reception for several gifts (even some earned via a Switch action — see Celebi gotcha below)", "Battle Data (ranked battle stats)", "Pokémon GO's GO Transporter connection (GO talks to the mobile HOME app, not the Switch app, though the cloud storage is shared)"],
+    "implication": "No base-list trophy can require trading, friends, Challenges, Medals, or Battle Data if the list targets the Switch/Switch 2 app. Any trophy touching one of these must either be dropped or explicitly disclosed as requiring the companion mobile app, the way this project discloses other external dependencies (Rule 13)."
+  },
+  "coreSwitchSystems": {
+    "storage": "Basic/free Plan: 1 box ('Basic Box'), 30 Pokémon cap. Premium Plan: 9,000 Pokémon across ~300 boxes as of the October 7, 2026 update (v4.1.0) — raised from 6,000/200 boxes at no price change. First login grants a free Pikachu.",
+    "pokedex": "HOME keeps its own National Pokédex (species registered the moment one is deposited — binary registered/not, no seen/owned split) plus per-regional-dexes (Kanto/Let's Go, Kanto/FireRed-LeafGreen, Galar+DLC, Sinnoh, Hisui, Paldea+DLC, Kalos/Legends Z-A), each only counting Pokémon natively obtained in that specific game. Current National Dex stands at 1,025 species (medium confidence denominator, since it shifts whenever a new game connects). Progress shown via bar + crown icon at 100%; exact numeric percentage display not confirmed.",
+    "pokedexRewards": {
+      "national100percent": "Original Color (gold/red) Magearna — unique to this gift, availability window as of Oct 2026 not freshly confirmed (medium confidence it's still live).",
+      "regional": [
+        {"dex": "Kanto (Let's Go Pikachu/Eevee)", "reward": "Shiny Meltan"},
+        {"dex": "Galar + Isle of Armor + Crown Tundra (Sword/Shield)", "reward": "Shiny Keldeo"},
+        {"dex": "Sinnoh (Brilliant Diamond/Shining Pearl)", "reward": "Shiny Manaphy"},
+        {"dex": "Hisui (Legends Arceus)", "reward": "Shiny Enamorus"},
+        {"dex": "Paldea + Kitakami + Blueberry Academy (Scarlet/Violet + DLC)", "reward": "Shiny Meloetta"},
+        {"dex": "Lumiose + Hyperspace Lumiose + Mega (Legends Z-A + Mega Dimension DLC)", "reward": "Shiny Volcanion (first-ever Shiny release of this species)"}
+      ],
+      "confidence": "medium per reward — corroborated by Pokémon.com/Bulbagarden press coverage, but exact current live/expired status of each as of Oct 2026 has some source conflict (see conflicts)."
+    },
+    "researchTasks": "Switch-exclusive checklist, the Switch counterpart to mobile's Challenges. 7 sets × 20 tasks = 140 total as of the Oct 2026 update: Kanto/Let's Go, Kanto/FireRed-LeafGreen (new), Galar/Sword-Shield, Sinnoh/BDSP, Hisui/Legends Arceus, Paldea/Scarlet-Violet, Kalos/Legends Z-A. Each task requires depositing a specific species natively obtained in that game (wrong-origin same-species does not count). No in-app reward. Not confirmed whether an aggregate 'X/140' counter displays anywhere, or only per-task/per-set state — treat as a real risk for Rule 1 verification wording.",
+    "judge": "IV-checking tool, Premium Plan only, accessed by pressing Y twice on a Pokémon.",
+    "homePoints": "Passive currency (~1 point/31 Pokémon stored/night), convertible 30:1 to Battle Points in linked Switch games. Viewable via a 'P' icon."
+  },
+  "connectedGames": [
+    {"game": "Pokémon Let's Go, Pikachu!/Eevee!", "connected": "Feb 12, 2020 (HOME launch)", "direction": "bidirectional (but a Pokémon sent onward to a newer game can never return)", "confidence": "high"},
+    {"game": "Pokémon Sword/Shield", "connected": "Feb 12, 2020 (HOME launch)", "direction": "bidirectional", "confidence": "high"},
+    {"game": "Pokémon Brilliant Diamond/Shining Pearl", "connected": "May 18, 2022 (v2.0.0)", "direction": "bidirectional", "confidence": "high"},
+    {"game": "Pokémon Legends: Arceus", "connected": "May 18, 2022 (v2.0.0)", "direction": "bidirectional", "confidence": "high"},
+    {"game": "Pokémon Scarlet/Violet", "connected": "May 30-31, 2023 (v3.0.0)", "direction": "bidirectional", "confidence": "high"},
+    {"game": "Pokémon Legends: Z-A (+ Switch 2 Edition)", "connected": "April 2, 2026 (v4.0.0)", "direction": "forward-lock only — a Pokémon moved INTO Z-A can never return to any earlier title, and Z-A-native Pokémon can't move to earlier titles at all", "confidence": "medium (exact day)"},
+    {"game": "Pokémon FireRed/LeafGreen (Switch re-release)", "connected": "October 2026, ~Oct 7 (v4.1.0)", "direction": "ONE-WAY, DEPOSIT ONLY — confirmed no withdrawal path back into these games exists", "confidence": "high (month), medium (exact day)"},
+    {"game": "Pokémon Bank (Nintendo 3DS, not a Switch title)", "connected": "since HOME launch, Feb 2020", "direction": "one-way (Bank→HOME only)", "note": "Bridges pre-Switch generations. Pokémon Bank itself is scheduled to end service Feb 25-26, 2027 — a real, near-term deadline for any trophy built on this bridge.", "confidence": "high"},
+    {"game": "Pokémon GO", "connected": "Nov 11, 2020 (GO Transporter)", "direction": "one-way (GO→HOME only), MOBILE APP SIDE ONLY — not the Switch app", "note": "Heavily restricted: 25/batch, energy-cost cap, many exclusions (Shadow, Mega, Gmax, Buddy, Gym-defenders, costumed, Hyper-Trained, Safari-Ball-caught pre-Oct-2026). Not something a Switch-only trophy can be built around.", "confidence": "high"},
+    {"game": "Pokémon Champions", "connected": "April 8, 2026, via in-app link (both console and mobile)", "direction": "round-trip 'visitor' system, not a normal deposit/withdraw", "note": "CLASSIFICATION FLAG: this is a battle/tournament spin-off (competitive simulator) with no exploration or regional Pokédex of its own — structurally unlike the mainline RPGs. Both scouts independently flagged this as not fitting the 'core-series DLC pack' mold cleanly. Needs a human decision on whether it gets its own DLC pack or is left out.", "confidence": "high"}
+  ],
+  "homeExclusiveDistributions": {
+    "ongoing": [
+      {"gift": "Hidden Ability Galar starters (Grookey/Scorbunny/Sobble)", "condition": "deposit a Pokémon originally from Sword/Shield", "status": "no end date"},
+      {"gift": "Free Pikachu", "condition": "first app launch", "status": "ongoing"},
+      {"gift": "Celebi", "condition": "complete the Kanto Pokédex in the Switch FireRed/LeafGreen re-release", "status": "announced Oct 7 2026, live from Oct 26 2026, no stated expiration", "CRITICAL_GOTCHA": "The qualifying action (Pokédex completion) happens on Switch, but the gift itself is delivered ONLY through the mobile HOME app — a Switch-only player (no mobile install) cannot actually claim it despite having earned it."}
+    ],
+    "expiredDoNotUse": ["Shiny Zeraora (Jun-Jul 2020)", "GMax Bulbasaur/Squirtle (Jun 2021)", "launch gifts Pichu/Rotom/Eevee (Feb 2020)", "Shiny Meloetta original window (ended Oct 16 2024 — note the Shiny Meloetta regional-dex-completion reward may be a SEPARATE, still-ongoing mechanic per Scout B; this specific dated window is the one confirmed expired)"],
+    "conflictedStatus": ["Shiny Manaphy", "Shiny Enamorus", "Shiny Keldeo", "Legends Z-A alpha starter trio (Chikorita/Tepig/Totodile)", "Shiny Volcanion"],
+    "conflictNote": "Scout C found sources describing several 2025-2026 regional-dex-completion shiny gifts as having specific expiry dates already passed, while Scout A/B found other sources describing the same gifts as live/retroactive with no end date. UNRESOLVED — design should avoid committing to a specific gift being 'currently claimable' without hedging, or should frame regional-dex-completion trophies around the Pokédex completion itself (clearly real and ongoing) rather than the gift's live status (uncertain)."
+  },
+  "subscriptionGate": {
+    "basic": "30 Pokémon storage, Wonder Box x3 (mobile), GTS x1 (mobile), Room Trade participate-only (mobile), no Pokémon Bank transfer, no Judge function, 30 medals (mobile)",
+    "premium": "9,000 Pokémon storage (300 boxes), Wonder Box x10 (mobile), GTS x3 (mobile), Room Trade host+participate (mobile), Pokémon Bank transfer enabled, Judge function enabled, 1,000 medals (mobile)",
+    "pricing": "$2.99/1mo, $4.99/3mo, $15.99/12mo (medium confidence, single-source)"
+  },
+  "conflicts": [
+    {
+      "topic": "Research Tasks aggregate counter",
+      "claimA": "Only per-task/per-set silhouette-reveal state is shown.",
+      "claimB": "An aggregate 'X/140' summary might exist.",
+      "resolution": "Unresolved. Any Research-Task trophy should verify against per-set completion (which is confirmed to exist) rather than assert an unconfirmed aggregate counter."
+    },
+    {
+      "topic": "Regional-dex-completion shiny gifts (Manaphy/Enamorus/Keldeo/Volcanion/Z-A starter trio) — currently live or already expired?",
+      "claimA": "No end date, retroactive, still claimable (Scout A/B).",
+      "claimB": "Specific expiry dates already passed as of Oct 2026 (Scout C).",
+      "resolution": "Unresolved. Design should anchor trophies on the Pokédex completion itself (confirmed, stable) and treat the gift as a bonus the description can mention without guaranteeing current claimability."
+    },
+    {
+      "topic": "National Pokédex 100%-completion Magearna gift — currently live?",
+      "claimA": "Ongoing since 2020, no confirmed end date.",
+      "claimB": "Historically had a ~1-month claim window after completion; current Oct 2026 status not freshly confirmed.",
+      "resolution": "Unresolved. Same treatment as above — anchor on the completion fact, not the gift's live status."
+    }
+  ],
+  "gaps": [
+    "No confirmed aggregate Research Task completion percentage/counter UI.",
+    "No confirmed exact current National Dex denominator as displayed inside HOME specifically (vs. the general 'official' 1,025 species figure).",
+    "No confirmed box wallpaper/theme customization feature within HOME itself.",
+    "No confirmed lifetime 'Pokémon transferred' counter.",
+    "Conflicting info on several 2025-2026 Mystery Gift live/expired statuses (see conflicts).",
+    "Pokémon Champions' classification as a DLC-pack candidate is a human judgment call, not a fact gap — flagged for the checkpoint.",
+    "Pokémon HOME achievement-integration absence is medium confidence (absence-of-evidence, not an explicit official denial).",
+    "No Switch 2-specific HOME feature differences found; treated as functionally identical to Switch 1."
+  ]
+}

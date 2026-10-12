@@ -1,0 +1,203 @@
+{
+  "beat": "progression systems, trackable in-game statistics, missable content, RNG systems, and version/platform differences",
+  "game": "Pokémon HOME",
+  "platform": "Nintendo Switch / Switch 2",
+  "findings": [
+    {
+      "category": "platform-difference-trading",
+      "name": "Trading is mobile-only — NOT available on Nintendo Switch",
+      "detail": "Official Nintendo support FAQ states: 'The ability to trade Pokémon is only available in the smart device version of Pokémon HOME.' This covers all four trade methods: GTS (Global Trade System), Wonder Box, Room Trade, and Friend Trade. Confirmed by Nintendo's own FAQ page and corroborated by multiple outlets (SlashGear, TheGamer, iMore) going back to the 2020 launch, and nothing found suggests this changed since.",
+      "trackable": "N/A on Switch — the feature does not exist on Switch at all, so no trade-count trophy can be built against the Switch build.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://en-americas-support.nintendo.com/app/answers/detail/a_id/48803/~/pok%C3%A9mon-home-faq",
+        "https://www.slashgear.com/pokemon-home-prices-and-a-stunner-detail-no-trades-with-switch-28607858/",
+        "https://www.thegamer.com/pokemon-home-complete-trading-guide/"
+      ]
+    },
+    {
+      "category": "platform-difference-other",
+      "name": "Additional console vs. mobile feature splits",
+      "detail": "Per Nintendo's official comparison page (a_id/48799): Console-only — Pokémon Bank transfer, move compatibility with mainline Switch titles (Sword/Shield, Let's Go, BDSP, Legends: Arceus, Scarlet/Violet, Legends: Z-A, FireRed/LeafGreen), changing a Pokémon's moves, converting HOME Points to BP/LP, Judge function (Premium-gated on both, but only usable where relevant data applies). Mobile-only — Trading (see above), Battle Data check, Mystery Gift reception, Challenges/Medals (stickers), News check. Both versions share Pokémon GO transfers and sending Pokémon to visit Pokémon Champions.",
+      "trackable": "Not applicable directly, but defines which stat-tracking screens exist per platform.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://en-americas-support.nintendo.com/app/answers/detail/a_id/48799"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Research Tasks (Nintendo Switch version checklist)",
+      "detail": "Switch-exclusive feature (mobile has the analogous but separate 'Challenges' system). As of the October 2026 update (v4.1.0, which added FireRed/LeafGreen support), there are 140 total Research Tasks: 20 per region across 7 sets — Kanto (Let's Go Pikachu/Eevee), Kanto (FireRed/LeafGreen, added Oct 2026), Galar (Sword/Shield), Sinnoh (BDSP), Hisui (Legends: Arceus), Paldea (Scarlet/Violet), and Kalos (Legends: Z-A). Each task is completed by depositing specific named Pokémon species into HOME boxes; tasks display as a 'Who's That Pokémon'-style silhouette that reveals once completed.",
+      "trackable": "Displayed as a checklist menu in the Switch app (per game/region), accessible from the Pokémon menu; players can filter box search by 'Origin Mark' to find Pokémon that clear pending tasks. Could not confirm whether the UI shows an explicit numeric/percentage completion count — only that individual tasks show complete/incomplete state.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/researchtasks.shtml",
+        "https://www.thegamer.com/pokemon-home-how-to-complete-switch-research-tasks/"
+      ]
+    },
+    {
+      "category": "trackable-stat-caveat",
+      "name": "Research Tasks give no reward",
+      "detail": "Per TheGamer's guide (written before the FireRed/LeafGreen update, so may not reflect the very newest tasks), Research Tasks give no in-game reward for completion — purely a completionist checklist.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.thegamer.com/pokemon-home-how-to-complete-switch-research-tasks/"]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "National Pokédex seen/registered tracking",
+      "detail": "HOME maintains a National Pokédex screen tracking which species (including forms, regional variants, Mega Evolutions, Gigantamax forms, and shiny status) have been registered by depositing a Pokémon of that species at least once. Includes filters/sorting and shows total registered species count.",
+      "trackable": "Pokédex tab in-app; shows a running total of registered species. Could NOT confirm the exact current denominator (total possible dex entries) as it changes with each new compatible game added (most recently FireRed/LeafGreen and Legends Z-A in 2026), nor could I confirm an exact separate 'shiny registered' numeric counter distinct from the regular dex — multiple sources mention shiny forms are tracked within the same Pokédex UI (shown via a toggle/indicator per entry) rather than a standalone shiny counter.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex_(HOME)",
+        "https://www.serebii.net/pokemonhome/features.shtml"
+      ]
+    },
+    {
+      "category": "trackable-stat",
+      "name": "Box/storage usage count",
+      "detail": "The app shows Pokémon stored relative to the plan's capacity. Free/Basic plan: 30 Pokémon max. Premium plan: was 6,000 Pokémon (across 200 boxes of 30 slots), increased to 9,000 as part of the October 2026 (v4.1.0) update — confirmed by Serebii, PLDH, and multiple news outlets, with the Pokémon Company stating the Premium price is not changing.",
+      "trackable": "Box view in-app shows how many of each box's 30 slots are filled; a totals/summary screen is widely referenced but exact wording/location not independently confirmed via screenshot-level source in this research pass.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendolife.com/news/2026/08/pokemon-home-october-premium-plan-update-expands-storage-capacity-to-9000-pokemon",
+        "https://x.com/SerebiiNet/status/2087889770164666479",
+        "https://x.com/PLDHnet/status/2087927371492217006"
+      ]
+    },
+    {
+      "category": "subscription-gate",
+      "name": "Free (Basic) Plan vs. Premium Plan feature gate — confirmed current list",
+      "detail": "Per official Nintendo support (a_id/48800) and corroborated by Serebii: Storage — Basic 30 / Premium 9,000 (updated Oct 2026, previously 6,000). Wonder Box simultaneous deposits — Basic 3 / Premium 10. GTS simultaneous listings — Basic 1 / Premium 3. Room Trade — Basic can only participate / Premium can host and participate. Pokémon Bank transfer — Basic: no / Premium: yes. Judge function (IV checker) — Basic: no / Premium: yes. Friend Trade daily limit (10/day) applies equally to both plans, per TheGamer's trading guide.",
+      "trackable": "Plan status and remaining limits are shown contextually in the relevant trade/judge menus.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://en-americas-support.nintendo.com/app/answers/detail/a_id/48800",
+        "https://www.serebii.net/pokemonhome/subscription.shtml"
+      ]
+    },
+    {
+      "category": "subscription-pricing",
+      "name": "Premium Plan pricing (Nintendo eShop, as last confirmed)",
+      "detail": "1 month: $2.99 USD / £2.69 / €2.99. 3 months: $4.99 USD / £4.49 / €4.99. 12 months: $15.99 USD / £14.39 / €15.99. Mobile (iOS/Android) store pricing varies by region/platform and was not fully confirmed. The Pokémon Company stated Premium pricing is unchanged by the October 2026 storage increase.",
+      "trackable": "n/a (storefront, not in-game)",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.serebii.net/pokemonhome/subscription.shtml"]
+    },
+    {
+      "category": "achievement-integration",
+      "name": "No native platform achievement/trophy integration found",
+      "detail": "Searched directly for Game Center (iOS) and Google Play Games Services (Android) achievement integration for Pokémon HOME. Found no evidence of either. The App Store listing for Pokémon HOME does not mention Game Center support, achievements, or leaderboards anywhere in its description or metadata. HOME's own internal progression systems (Switch 'Research Tasks' and mobile 'Challenges'/stickers) are self-contained in-app checklists, not OS-level achievement/trophy integrations, and do not interact with Nintendo Switch's (non-existent, since Switch itself has no native trophy system) or any external achievement service.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://apps.apple.com/us/app/id1485352913", "general web search — no contradicting source found"]
+    },
+    {
+      "category": "rng-system",
+      "name": "Wonder Box — the one RNG-driven mechanic within HOME",
+      "detail": "Wonder Box trades deposited Pokémon anonymously and randomly with other players worldwide (like 'Wonder Trade'), taking about 1 hour per trade. This is mobile-only (per the platform-difference finding above) and is the only mechanic within HOME itself that is explicitly randomized/RNG-based — it is not a gacha/loot-box reward system, just random trade-partner matching. No other gacha-like reward mechanic was found within HOME.",
+      "trackable": "Pending/completed Wonder Box trades are shown in a queue in the app (mobile only).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.thegamer.com/pokemon-home-complete-trading-guide/"]
+    },
+    {
+      "category": "missable-content-expired",
+      "name": "Expired, time-limited Mystery Gift distributions (no longer obtainable)",
+      "detail": "Confirmed-expired past distributions include: Shiny Zeraora (one-week window, June 30–July 6, 2020); Gigantamax-capable Bulbasaur & Squirtle (June 17–30, 2021); launch gifts Pichu/Rotom/Eevee (February 2020, ~1 month windows); Shiny Meloetta (ended Oct 16, 2024, required completing Paldea/Kitakami/Blueberry Academy Pokédexes); Shiny Enamorus, Shiny Manaphy, Shiny Keldeo (Jan–Feb 2025 windows — note: one search result flagged a possible no-end-date Shiny Manaphy tied to Sinnoh Pokédex completion starting Jan 28, 2025, which CONFLICTS with another result calling it expired — see gaps); Chikorita/Tepig/Totodile alpha trio (tied to Legends: Z-A HOME transfer promo, appears to have had an April 2, 2026 cutoff per one source, though another source describes it as an ongoing first-time-transfer bonus with Legends: Z-A support added Oct 2026 — CONFLICTING, see gaps); Shiny Volcanion (ended April 27, 2026 per one source).",
+      "trackable": "n/a — gone, no in-game record of having missed them beyond possibly already owning the Pokémon.",
+      "missable": true,
+      "confidence": "low",
+      "sources": ["https://www.serebii.net/pokemonhome/giftpokemon.shtml"]
+    },
+    {
+      "category": "ongoing-content-not-missable",
+      "name": "Current/ongoing Mystery Gifts (no end date, as of October 2026)",
+      "detail": "Hidden Ability Galar starters (Grookey/Scorbunny/Sobble) — no end date, requires depositing a Pokémon originally from Sword/Shield. Mobile-exclusive starter gifts (Bulbasaur/Charmander/Squirtle with Hidden Abilities) on first mobile app load. A free Pikachu waiting in the box on first app launch. Celebi — announced Oct 7, 2026, available starting Oct 26, 2026, no expiration stated; obtained by completing the Kanto Pokédex in the Switch versions of FireRed/LeafGreen, but the gift itself is delivered only in the MOBILE version of HOME (cross-version requirement — flag for trophy design, since a Switch-only player cannot claim it without also running the mobile app).",
+      "trackable": "Appears as an uncollected gift in the relevant gift/mailbox menu (platform depends on gift).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/giftpokemon.shtml",
+        "https://nintendoeverything.com/pokemon-home-details-pokemon-firered-and-leafgreen-support-celebi-reward-for-completing-the-pokedex-more/"
+      ]
+    },
+    {
+      "category": "version-note",
+      "name": "October 2026 update (v4.1.0) summary",
+      "detail": "Rolled out on/around Oct 7, 2026. Adds: Pokémon FireRed & LeafGreen (Switch) compatibility and linked Celebi distribution; transfer support for Pokémon GO Safari Ball catches (ball converts to a 'Strange Ball' on arrival); Premium Plan storage increase from 6,000 to 9,000 Pokémon at no extra subscription cost; a new 20-task FireRed/LeafGreen Research Task set on Switch (bringing the total to 140 across 7 sets).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.nintendolife.com/news/2026/08/pokemon-home-october-premium-plan-update-expands-storage-capacity-to-9000-pokemon",
+        "https://www.serebii.net/pokemonhome/researchtasks.shtml"
+      ]
+    },
+    {
+      "category": "version-note",
+      "name": "Pokémon Legends: Z-A connectivity (v4.0.0, late 2025/2026)",
+      "detail": "A separate earlier update (v4.0.0) added Pokémon Legends: Z-A and Pokémon Champions connectivity, plus a new Kalos Research Task set on Switch, and Latin American Spanish localization. Pokémon befriended in Legends: Z-A can be moved to HOME and brought forward into Legends: Z-A again, but NOT back out to older games once brought into Z-A (one-way lock on that specific friendship-transfer path) — a missable/one-way state worth flagging, though it concerns the source games rather than HOME's own trophy-relevant counters.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://nintendoeverything.com/pokemon-home-4-0-0-update-released-support-for-pokemon-legends-z-a-and-pokemon-champions-added-patch-notes/"]
+    },
+    {
+      "category": "platform-note",
+      "name": "Nintendo Switch 2 — no HOME-specific exclusive features found",
+      "detail": "Pokémon HOME runs on Switch 2 with behavior described as consistent with the Nintendo Switch version (same app, no Switch 2-exclusive HOME features identified). Nintendo's support site has a separate article addressing functional differences specifically between the Switch 2 Japanese-language system and the Switch 2 multi-language system, but this is a regional/language nuance, not a general Switch vs. Switch 2 feature gap — content not fetched in full, flagged as a gap.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://app-ph.pokemon-support.com/hc/en-us/articles/47661118919961"]
+    },
+    {
+      "category": "upcoming-deadline",
+      "name": "Pokémon Bank service end date — relevant context, not itself a HOME feature",
+      "detail": "Pokémon Bank (3DS) is reported to end service on February 26, 2027. After that date, the Bank → HOME transfer pathway (a Premium-only HOME feature) will no longer function. This is a looming deadline for any trophy concept built around 'transfer from Pokémon Bank,' since that capability itself will become permanently unavailable after Feb 2027.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://finalboss.io/pokemon-homes-9000-slot-upgrade-has-a-critical-bank-deadline"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Box/storage usage (Pokémon stored vs. plan cap: 30 Basic / 9,000 Premium as of Oct 2026)", "where": "Box browsing screen in-app", "confidence": "high" },
+    { "stat": "National Pokédex registered species count (includes forms/Mega/Gigantamax; shiny status shown per entry)", "where": "Pokédex tab", "confidence": "medium" },
+    { "stat": "Research Tasks completion state, 140 total across 7 region sets (Switch version)", "where": "Research Tasks checklist menu, per game/region", "confidence": "medium" },
+    { "stat": "Mobile 'Challenges' completion (separate system from Switch Research Tasks, rewards stickers/wallpaper)", "where": "Mobile app Challenges menu — NOT present on Switch", "confidence": "medium" },
+    { "stat": "Judge function IV display per individual Pokémon (Premium only)", "where": "Pokémon detail/Judge screen", "confidence": "high" },
+    { "stat": "HOME Points balance and BP/LP conversion", "where": "Points/conversion menu", "confidence": "low — existence confirmed, exact display format not verified" },
+    { "stat": "Battle Data (ranked battle stats/usage rankings)", "where": "Mobile-only Battle Data menu", "confidence": "low — existence referenced by multiple sources but exact metrics shown not verified" },
+    { "stat": "Friend Trade daily cap (10/day) and GTS/Wonder Box slot counts", "where": "Shown contextually within the relevant trade menu (mobile only)", "confidence": "medium" }
+  ],
+  "versionNotes": [
+    { "note": "Trading (GTS, Wonder Box, Room Trade, Friend Trade) is mobile-only; the Nintendo Switch version cannot trade at all. This is the single most important platform fact for trophy design on this project.", "confidence": "high" },
+    { "note": "Switch-exclusive 'Research Tasks' (140 total, no reward) vs. mobile-exclusive 'Challenges' (reward: stickers/wallpaper) are two separate, non-overlapping checklist systems — do not conflate them.", "confidence": "medium" },
+    { "note": "Mystery Gift reception is mobile-only per Nintendo's official difference page, yet at least one 2026 gift (Chikorita/Tepig/Totodile trio) is earned by an action performed on Switch (transferring from Legends: Z-A) but delivered into the mobile app's gift box — meaning a Switch-only (no mobile app) player cannot actually claim it.", "confidence": "medium" },
+    { "note": "Switch 2 runs the same HOME app as Switch 1 with no identified Switch 2-exclusive features; a Nintendo support article exists specifically about Switch 2 Japanese-language vs multi-language system differences, not fully reviewed (gap).", "confidence": "low" },
+    { "note": "Premium storage capacity changed from 6,000 to 9,000 Pokémon in the October 2026 (v4.1.0) update at no extra cost — any trophy referencing 'fill your boxes' must use the current 9,000 figure, not the older 6,000 figure still cited on some cached support pages.", "confidence": "high" }
+  ],
+  "gaps": [
+    "Could not get a clean, direct quote/screenshot-level confirmation of exactly how box-fill totals and Pokédex seen/owned counts are worded and displayed on-screen (e.g., exact UI label, whether a single summary screen exists showing all stats at once).",
+    "Could not confirm whether Research Tasks show an aggregate numeric/percentage completion count anywhere, or only per-task complete/incomplete state.",
+    "Could not confirm the exact current National Pokédex denominator (total possible species/forms trackable) as of October 2026, since it changes with each newly linked game (FireRed/LeafGreen and Legends Z-A were both just added).",
+    "Could not confirm whether HOME tracks a distinct 'total Shiny Pokémon stored' numeric counter separate from the per-species shiny-registered flag in the Pokédex.",
+    "Could not confirm an in-app 'friends count' or 'trade count' statistic display — only that Friend Trade exists with a 10/day cap; no evidence found either way of a lifetime trade counter.",
+    "Conflicting source information on the exact status/dates of several 2025–2026 Mystery Gifts (Shiny Manaphy, the Chikorist/Tepig/Totodile trio, Shiny Volcanion) — some sources imply no end date, others imply a specific cutoff already passed. Needs a direct check of Serebii's live gift page or official Pokemon.com news at build time, since these are moving targets this close to 'today'.",
+    "Could not verify exact HOME Points earning/spending mechanics or whether its balance is prominently displayed as a trackable stat vs. a background currency.",
+    "Could not verify Battle Data's exact displayed metrics (what specifically is shown — win/loss record, usage stats, rank) since it is mobile-only and I could not get hands-on/screenshot-level sourcing.",
+    "Did not find a single authoritative, current, dated source explicitly stating 'Pokémon HOME has zero achievement/trophy integration on any platform' — this is an absence-of-evidence conclusion from search coverage (App Store listing silence + no contradicting source), not a direct confirmation from Nintendo/Pokémon Company, so treat as medium rather than high confidence.",
+    "Did not independently verify Google Play Store listing (only Apple App Store) for Google Play Games Services achievement integration — recommend a direct Play Store listing check at build time if feasible."
+  ]
+}
