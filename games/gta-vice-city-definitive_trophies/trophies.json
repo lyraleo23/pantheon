@@ -1,0 +1,396 @@
+{
+  "game": {
+    "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
+    "mode": "port",
+    "sourcePlatform": "PlayStation 4/5",
+    "developer": "Grapeshot Games / Rockstar Games",
+    "publisher": "Rockstar Games",
+    "genre": "Open-world action",
+    "releaseYear": 2021,
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+    "slug": "gta-vice-city-definitive",
+    "code": "GTAVCDE",
+    "nativeCount": 34,
+    "estimatedDifficulty": 4,
+    "estimatedHours": "25-30h",
+    "notes": "Port Mode from the PS4/PS5 list (34 trophies: 1 Platinum, 5 Gold, 9 Silver, 19 Bronze). City Sleuth tier conflicts between sources (Gold on gtabase, Silver on PowerPyx); Gold kept because it is the only assignment consistent with the 5/9/19 totals. Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. Take the Cannoli requires patch 1.02 or later."
+  },
+  "trophies": [
+    {
+      "id": "GTAVCDE-001",
+      "name": "Legal Counsel",
+      "description": "Complete 'Riot'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Riot' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Legal Counsel"
+    },
+    {
+      "id": "GTAVCDE-002",
+      "name": "Iron-y",
+      "description": "Kill the property developer with a Golf Club during 'Four Iron'. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The developer dies to a Golf Club hit before Mission Passed.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Iron-y"
+    },
+    {
+      "id": "GTAVCDE-003",
+      "name": "Chopper'd Up",
+      "description": "In 'Demolition Man', kill every hostile using the RC chopper's blades. ⚠️ MISSABLE",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Every hostile on each floor is killed by the RC chopper before the bombs are planted, and Mission Passed appears.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Chopper'd Up"
+    },
+    {
+      "id": "GTAVCDE-004",
+      "name": "Life of the Party",
+      "description": "Complete 'All Hands On Deck!'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'All Hands On Deck!' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Life of the Party"
+    },
+    {
+      "id": "GTAVCDE-005",
+      "name": "South American Connection",
+      "description": "Complete 'Supply & Demand'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Supply & Demand' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "South American Connection"
+    },
+    {
+      "id": "GTAVCDE-006",
+      "name": "Salutations My Little Friend",
+      "description": "Use the M4 to take out Diaz during 'Rub Out'. ⚠️ MISSABLE",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Diaz dies to M4 fire before Mission Passed.",
+      "missable": true,
+      "secret": true,
+      "origin": "native-playstation",
+      "originId": "Salutations My Little Friend"
+    },
+    {
+      "id": "GTAVCDE-007",
+      "name": "Not my First Time",
+      "description": "Complete 'G-Spotlight' without falling from the rooftops. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "Tommy reaches the final rooftop without falling and the mission passes.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Not my First Time"
+    },
+    {
+      "id": "GTAVCDE-008",
+      "name": "Big Heat from Little Havana",
+      "description": "Complete 'Trojan Voodoo'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Trojan Voodoo' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Big Heat from Little Havana"
+    },
+    {
+      "id": "GTAVCDE-009",
+      "name": "Chauffeur",
+      "description": "Complete 'Publicity Tour'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Publicity Tour' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Chauffeur"
+    },
+    {
+      "id": "GTAVCDE-010",
+      "name": "Tommy Two-Wheels",
+      "description": "Complete 'Hog Tied'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Hog Tied' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Tommy Two-Wheels"
+    },
+    {
+      "id": "GTAVCDE-011",
+      "name": "Mischief Managed",
+      "description": "Complete 'Keep Your Friends Close...'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Keep Your Friends Close...' ends and the credits roll.",
+      "missable": false,
+      "secret": true,
+      "origin": "native-playstation",
+      "originId": "Mischief Managed"
+    },
+    {
+      "id": "GTAVCDE-012",
+      "name": "Gun for Hire",
+      "description": "Complete every assassination contract: Road Kill, Waste the Wife, Autocide, Check Out at the Check In and Loose Ends.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "All five contract missions show Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Gun for Hire"
+    },
+    {
+      "id": "GTAVCDE-013",
+      "name": "Running Rampant",
+      "description": "Complete Vigilante level 12 in a single run.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The on-screen Vigilante level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Running Rampant"
+    },
+    {
+      "id": "GTAVCDE-014",
+      "name": "Somebody Call the Wambulance?",
+      "description": "Complete Paramedic level 12 in a single run.",
+      "tier": "gold",
+      "type": "sidequest",
+      "verification": "The on-screen Paramedic level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Somebody Call the Wambulance?"
+    },
+    {
+      "id": "GTAVCDE-015",
+      "name": "Just Like the Real Thing",
+      "description": "Win the RC Bandit Race.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The RC Bandit Race ends with a first-place result.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Just Like the Real Thing"
+    },
+    {
+      "id": "GTAVCDE-016",
+      "name": "Keepie-Uppy Okie Dokie",
+      "description": "Score 5 with the Keepie-Uppy beach ball.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The on-screen Keepie-Uppy score reaches 5.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Keepie-Uppy Okie Dokie"
+    },
+    {
+      "id": "GTAVCDE-017",
+      "name": "Street Legend",
+      "description": "Win all six street races: Terminal Velocity, Ocean Drive, Border Run, Capital Cruise, Tour! and V.C. Endurance.",
+      "tier": "silver",
+      "type": "minigame",
+      "verification": "Each race ends with a first-place result.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "GTAVCDE-018",
+      "name": "Neon Arena",
+      "description": "Win the Hotring, Bloodring and Dirtring events at the Hyman Memorial Stadium (events run 20:00-00:00 in-game and rotate daily).",
+      "tier": "silver",
+      "type": "minigame",
+      "verification": "Each stadium event ends with its first-place / event-won result screen.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    },
+    {
+      "id": "GTAVCDE-019",
+      "name": "Grand Theft Auto",
+      "description": "Deliver every wanted vehicle to the Sunshine Autos import garage.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Every vehicle on all Sunshine Autos lists is marked delivered at the garage.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Grand Theft Auto"
+    },
+    {
+      "id": "GTAVCDE-020",
+      "name": "Greasy Palms",
+      "description": "Use a police bribe to reduce your wanted level.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "A wanted star disappears from the HUD as the bribe is collected.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Greasy Palms"
+    },
+    {
+      "id": "GTAVCDE-021",
+      "name": "Catch Me if You Can",
+      "description": "Reach a six-star wanted level.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Six wanted stars are lit on the HUD.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Catch Me if You Can"
+    },
+    {
+      "id": "GTAVCDE-022",
+      "name": "Bull in a China Shop",
+      "description": "Cause $1,000,000 in property damage.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The property damage row in Pause > Stats reads $1,000,000 or more.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Bull in a China Shop"
+    },
+    {
+      "id": "GTAVCDE-023",
+      "name": "I'm Famous!",
+      "description": "Earn the 'Stuff of Legends' media attention rank.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The best media attention row in Pause > Stats reads 'Stuff of Legends'.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "I'm Famous!"
+    },
+    {
+      "id": "GTAVCDE-024",
+      "name": "Bloodstained Hands",
+      "description": "Earn the 'Butcher' criminal rating.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Pause > Stats shows the criminal rating title 'Butcher' or higher.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Bloodstained Hands"
+    },
+    {
+      "id": "GTAVCDE-025",
+      "name": "Take the Cannoli",
+      "description": "Earn the 'Godfather' criminal rating.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "Pause > Stats shows the criminal rating title 'Godfather' (100,000 rating threshold since patch 1.02; keep the game updated).",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Take the Cannoli"
+    },
+    {
+      "id": "GTAVCDE-026",
+      "name": "Done it All",
+      "description": "Earn 100% completion.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "Pause > Stats shows 100% completion.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Done it All"
+    },
+    {
+      "id": "GTAVCDE-027",
+      "name": "The Vercetti Empire",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "excluded": [
+    {
+      "originId": "Kingpin",
+      "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
+      "rule": 18
+    },
+    {
+      "originId": "Born in the 80's",
+      "reason": "Listen to every radio station — the game does not record which stations were heard.",
+      "rule": 1
+    },
+    {
+      "originId": "Don't Need Roads",
+      "reason": "Hit max speed in a Deluxo — there is no speedometer to confirm the condition; arbitrary action.",
+      "rule": 1
+    },
+    {
+      "originId": "Point A to Point B",
+      "reason": "Cumulative 25 taxi passengers — no confirmed in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "High Quality H2O",
+      "reason": "Cumulative 10 fires — no confirmed in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Pie Guy",
+      "reason": "Cumulative 10 pizza deliveries — no confirmed in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Vice City Mogul",
+      "reason": "Own 10 properties - no owned-property counter confirmed and sources disagree on what counts as a property (15/17/18).",
+      "rule": 2
+    },
+    {
+      "originId": "One is Better Than Two",
+      "reason": "30-second wheelie - no confirmed on-screen wheelie timer in the Definitive Edition.",
+      "rule": 1
+    },
+    {
+      "originId": "City Sleuth",
+      "reason": "100 hidden packages - no confirmed running package count; packages remain required by Done it All (100%).",
+      "rule": 1
+    },
+    {
+      "originId": "Daredevil",
+      "reason": "36 unique jumps — per-jump bonus shown but no confirmed running total; jumps remain required by the 100% trophy.",
+      "rule": 1
+    }
+  ]
+}

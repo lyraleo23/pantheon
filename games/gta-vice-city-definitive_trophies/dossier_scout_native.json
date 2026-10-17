@@ -1,0 +1,67 @@
+{
+  "beat": "native list",
+  "game": "Grand Theft Auto: Vice City - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (native list taken from PS4/PS5)",
+  "findings": [
+    {"category": "totals", "name": "PS4/PS5 trophy totals", "detail": "34 trophies: 1 Platinum, 5 Gold, 9 Silver, 19 Bronze (PowerPyx, Sportskeeda via search snippet). Tier assignment per trophy in gtabase reproduces exactly 1/5/9/19.", "missable": false, "confidence": "medium", "sources": ["https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/", "https://www.gtabase.com/gta-vice-city/achievements-trophies-list-definitive-edition"]},
+    {"category": "missable", "name": "Four missable trophies", "detail": "Iron-y (mission Four Iron), Not my First Time (G-Spotlight), Salutations My Little Friend (Rub Out), Chopper'd Up (Demolition Man). PowerPyx says nothing needed for 100% completion is missable.", "missable": true, "confidence": "medium", "sources": ["https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"]},
+    {"category": "note", "name": "Cheats disable trophies", "missable": false, "confidence": "medium", "sources": ["PowerPyx"]},
+    {"category": "note", "name": "Take the Cannoli", "detail": "PowerPyx: obtainable from patch 1.02 onward (implies bug/unobtainable earlier).", "missable": false, "confidence": "low", "sources": ["PowerPyx"]},
+    {"category": "note", "name": "Platinum Kingpin", "detail": "Requires all other 33 trophies, including Done it All (100% completion).", "missable": false, "confidence": "medium", "sources": ["PowerPyx"]}
+  ],
+  "nativeList": [
+    {"name": "Kingpin", "description": "Unlock all trophies.", "tier": "Platinum", "confidence": "medium"},
+    {"name": "Born in the 80's", "description": "Listen to all music stations at least once.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Running Rampant", "description": "Complete Vigilante mission level 12.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Iron-y", "description": "Kill the property developer with a Golf Club during 'Four Iron'.", "tier": "Silver", "confidence": "high"},
+    {"name": "Not my First Time", "description": "Complete mission 'G-Spotlight' without falling from the rooftops.", "tier": "Silver", "confidence": "high"},
+    {"name": "One is Better Than Two", "description": "Perform a 30 second wheelie.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Point A to Point B", "description": "Drop off 25 passengers driving the taxi.", "tier": "Silver", "confidence": "medium"},
+    {"name": "High Quality H2O", "description": "Extinguish 10 fires.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Pie Guy", "description": "Deliver 10 pizzas.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Bull in a China Shop", "description": "Cause $1,000,000 in property damage.", "tier": "Bronze", "confidence": "high"},
+    {"name": "Vice City Mogul", "description": "Own 10 properties.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Salutations My Little Friend", "description": "Use the M4 to take out Diaz during the mission 'Rub Out'.", "tier": "Gold", "confidence": "high"},
+    {"name": "Catch Me if You Can", "description": "Achieve a six-star wanted level.", "tier": "Bronze", "confidence": "high"},
+    {"name": "Somebody Call the Wambulance?", "description": "Complete Paramedic Mission level 12.", "tier": "Gold", "confidence": "medium"},
+    {"name": "Greasy Palms", "description": "Use a police bribe to reduce your wanted level.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Just Like the Real Thing", "description": "Win the RC Bandit Race.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Keepie-Uppy Okie Dokie", "description": "Earn a high score of 5 with the Keepie-Uppy Beach Ball.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Gun for Hire", "description": "Complete all assassination contracts.", "tier": "Bronze", "confidence": "high"},
+    {"name": "I'm Famous!", "description": "Earn the Stuff of Legends media attention rank.", "tier": "Bronze", "confidence": "high"},
+    {"name": "Don't Need Roads", "description": "Hit max speed in a Deluxo.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Daredevil", "description": "Complete 36 unique jumps.", "tier": "Silver", "confidence": "high"},
+    {"name": "Legal Counsel", "description": "Complete the 'Riot' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Life of the Party", "description": "Complete the 'All Hands on Deck!' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "South American Connection", "description": "Complete the 'Supply & Demand' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Big Heat from Little Havana", "description": "Complete the 'Trojan Voodoo' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Chauffeur", "description": "Complete the 'Publicity Tour' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Tommy Two-Wheels", "description": "Complete the 'Hog Tied' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Grand Theft Auto", "description": "Retrieve every wanted vehicle at Sunshine Autos Import Garage.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Bloodstained Hands", "description": "Earn the Butcher criminal rating.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Take the Cannoli", "description": "Earn the Godfather criminal rating.", "tier": "Silver", "confidence": "high"},
+    {"name": "Mischief Managed", "description": "Complete the 'Keep Your Friends Close...' mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Chopper'd Up", "description": "Kill all hostile NPCs during the mission 'Demolition Man' using the RC chopper's blades.", "tier": "Gold", "confidence": "high"},
+    {"name": "City Sleuth", "description": "Find 100 hidden packages.", "tier": "Gold (gtabase) or Silver (PowerPyx) - CONFLICT", "confidence": "low"},
+    {"name": "Done it All", "description": "Earn 100% completion.", "tier": "Gold", "confidence": "medium"}
+  ],
+  "trackableStats": [
+    {"stat": "Hidden packages found (of 100)", "where": "Game stats screen (Pause > Stats) - standard Vice City behaviour; not verified in this research", "confidence": "low"},
+    {"stat": "Completion percentage", "where": "Stats screen; the Done it All trophy keys off it. Not verified in this research", "confidence": "low"}
+  ],
+  "versionNotes": [
+    {"note": "Xbox/PS shared list is 33 achievements/trophies + PS-only Platinum Kingpin = 34 on PlayStation. Xbox has the same 33 (gtabase gives Gamerscore summing to 1000), no Platinum. Names/descriptions are identical across Xbox and PS in sources; only Platinum differs.", "confidence": "medium"},
+    {"note": "GTABase and GameRevolution's leak list 9 further entries (Put 'Em Up: Knock off 15 stores; Offender: Attain 50 wanted stars; Retro Lewk: Wear every outfit at least once; Scouring the City: Find 50 hidden packages; Break it Up: Cause $500,000 in property damage; Target Practice: Land 50 headshots; Prime Real Estate: Purchase all properties; Vice Vice Baby: Complete the Cherry Popper dealer subgame; Baked Distractions: Hijack the tank without alerting the army first, during 'Sir, Yes Sir!'). GTABase describes these as Rockstar Social Club accomplishments, not trophies. They are NOT in PowerPyx's 34-trophy list, so treat as non-native. GTABase's assignment of exactly these 9 as Social Club is inferred.", "confidence": "medium"},
+    {"note": "Tiers on gtabase are derived from Xbox Gamerscore values; PS tiers matched Xbox bands, and the per-tier counts (5 Gold, 9 Silver, 19 Bronze) match PowerPyx totals. Per-trophy PS tiers were not directly confirmed on PSNProfiles (403).", "confidence": "medium"},
+    {"note": "Switch 2 has no native achievements; this is a PS-derived reference list only. No Switch 2 version-specific differences were researched.", "confidence": "high"}
+  ],
+  "gaps": [
+    "PSNProfiles returned 403 and Sportskeeda 405, so the per-trophy PS tier was not confirmed from a primary PS tracker; tiers rely on gtabase (inferred from Xbox points) and partially on PowerPyx (12 trophies).",
+    "City Sleuth tier conflict: PowerPyx Silver vs gtabase Gold. gtabase's set matches the 1/5/9/19 totals, but PowerPyx's own stated golds (Salutations, Chopper'd Up) would then need three more golds, so not resolvable here.",
+    "Small description wording variants exist ('30 second' vs '30-second'; 'Find 100 Hidden Packages' vs 'hidden packages'; 'Done it All' with/without period). Punctuation is from PowerPyx.",
+    "Did not verify whether the game displays hidden package count or % completion in-game stats (believed yes from original game).",
+    "Did not check trueachievements/truetrophies/playstationtrophies.org directly.",
+    "Whether the 9 extra entries are real in-game Social Club accomplishments was not independently confirmed.",
+    "Take the Cannoli patch 1.02 note: unclear whether it is fixed on all current versions."
+  ]
+}

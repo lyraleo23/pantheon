@@ -1,0 +1,922 @@
+{
+  "game": "Grand Theft Auto: Vice City - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (Switch version via backward compatibility; no native Switch 2 edition found, medium/low)",
+  "mode": "port",
+  "sourcePlatform": "PlayStation 4/5",
+  "mergedFrom": [
+    "dossier_scout_a.json",
+    "dossier_scout_b.json",
+    "dossier_scout_c.json",
+    "dossier_scout_native.json"
+  ],
+  "entryGate": "Switch/Switch 2 have no native achievement system (confirmed by scouts). No source shows Social Club accomplishments on Switch (low). Gate passes.",
+  "nativeList": {
+    "summary": "PS4/PS5 list, 34 trophies (1P/5G/9S/19B per PowerPyx). Xbox: same 33 minus Platinum. 9 extra entries (Put Em Up, Offender, Retro Lewk, Scouring the City, Break it Up, Target Practice, Prime Real Estate, Vice Vice Baby, Baked Distractions) are Social Club accomplishments per native scout.",
+    "entries": [
+      {
+        "name": "Kingpin",
+        "description": "Unlock all trophies.",
+        "tier": "Platinum",
+        "confidence": "medium"
+      },
+      {
+        "name": "Born in the 80's",
+        "description": "Listen to all music stations at least once.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Running Rampant",
+        "description": "Complete Vigilante mission level 12.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Iron-y",
+        "description": "Kill the property developer with a Golf Club during 'Four Iron'.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Not my First Time",
+        "description": "Complete mission 'G-Spotlight' without falling from the rooftops.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "One is Better Than Two",
+        "description": "Perform a 30 second wheelie.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Point A to Point B",
+        "description": "Drop off 25 passengers driving the taxi.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "High Quality H2O",
+        "description": "Extinguish 10 fires.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Pie Guy",
+        "description": "Deliver 10 pizzas.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Bull in a China Shop",
+        "description": "Cause $1,000,000 in property damage.",
+        "tier": "Bronze",
+        "confidence": "high"
+      },
+      {
+        "name": "Vice City Mogul",
+        "description": "Own 10 properties.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Salutations My Little Friend",
+        "description": "Use the M4 to take out Diaz during the mission 'Rub Out'.",
+        "tier": "Gold",
+        "confidence": "high"
+      },
+      {
+        "name": "Catch Me if You Can",
+        "description": "Achieve a six-star wanted level.",
+        "tier": "Bronze",
+        "confidence": "high"
+      },
+      {
+        "name": "Somebody Call the Wambulance?",
+        "description": "Complete Paramedic Mission level 12.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "Greasy Palms",
+        "description": "Use a police bribe to reduce your wanted level.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Just Like the Real Thing",
+        "description": "Win the RC Bandit Race.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Keepie-Uppy Okie Dokie",
+        "description": "Earn a high score of 5 with the Keepie-Uppy Beach Ball.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Gun for Hire",
+        "description": "Complete all assassination contracts.",
+        "tier": "Bronze",
+        "confidence": "high"
+      },
+      {
+        "name": "I'm Famous!",
+        "description": "Earn the Stuff of Legends media attention rank.",
+        "tier": "Bronze",
+        "confidence": "high"
+      },
+      {
+        "name": "Don't Need Roads",
+        "description": "Hit max speed in a Deluxo.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Daredevil",
+        "description": "Complete 36 unique jumps.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Legal Counsel",
+        "description": "Complete the 'Riot' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Life of the Party",
+        "description": "Complete the 'All Hands on Deck!' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "South American Connection",
+        "description": "Complete the 'Supply & Demand' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Big Heat from Little Havana",
+        "description": "Complete the 'Trojan Voodoo' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Chauffeur",
+        "description": "Complete the 'Publicity Tour' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Tommy Two-Wheels",
+        "description": "Complete the 'Hog Tied' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Grand Theft Auto",
+        "description": "Retrieve every wanted vehicle at Sunshine Autos Import Garage.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Bloodstained Hands",
+        "description": "Earn the Butcher criminal rating.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Take the Cannoli",
+        "description": "Earn the Godfather criminal rating.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Mischief Managed",
+        "description": "Complete the 'Keep Your Friends Close...' mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Chopper'd Up",
+        "description": "Kill all hostile NPCs during the mission 'Demolition Man' using the RC chopper's blades.",
+        "tier": "Gold",
+        "confidence": "high"
+      },
+      {
+        "name": "City Sleuth",
+        "description": "Find 100 hidden packages.",
+        "tier": "Gold (gtabase) or Silver (PowerPyx) - CONFLICT",
+        "confidence": "low"
+      },
+      {
+        "name": "Done it All",
+        "description": "Earn 100% completion.",
+        "tier": "Gold",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "switchDifferences": [
+    "Gyro aiming and touch controls.",
+    "Launch performance poor; later patches (incl. Nov 2024 Classic Lighting update) reached Switch.",
+    "No content differences vs PS/Xbox found."
+  ],
+  "definitiveEditionChanges": [
+    "Some licensed songs removed.",
+    "Analog steering removed.",
+    "Mid-mission checkpoints and instant retry added.",
+    "Cheats disable trophies on PS/Xbox (irrelevant on Switch)."
+  ],
+  "conflicts": [
+    "City Sleuth tier: Gold (gtabase, fits 5/9/19 totals) vs Silver (PowerPyx).",
+    "Xbox list size: scout B says 43 incl. Put Em Up etc.; native scout and scout C say 33, the 9 extras being Social Club-only.",
+    "Finale asset gating: five assets (gta.wiki/TheGamer) vs six-seven incl. Malibu (third guide).",
+    "Story mission total: 38 / ~40 / 22 across gta.wiki pages.",
+    "Asset missions: 19 vs 17 listed vs 20 (PowerPyx per-property).",
+    "Property total: 17 (PowerPyx) / 18 (gtabase) / 15 listed.",
+    "Licensed songs removed: ~15 vs 8."
+  ],
+  "gaps": [
+    "Stats screen beyond completion %, criminal rating, media attention, property damage unconfirmed.",
+    "Mission replay availability for 4 missable mission trophies.",
+    "Outfit count / tracking.",
+    "Switch/Switch 2 accomplishments."
+  ],
+  "campaign": [
+    {
+      "category": "mission_chain",
+      "name": "Introduction",
+      "detail": "In The Beginning... ; An Old Friend (phone call from Sonny Forelli).",
+      "trackable": "Stats screen completion %",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Ken Rosenberg",
+      "detail": "The Party; Back Alley Brawl; Jury Fury; Riot. Riot is his final mission (trophy Legal Counsel).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Avery Carrington",
+      "detail": "Four Iron; Demolition Man; Two Bit Hit. Per gta.wiki 100% page these 3 plus All Hands On Deck are NOT required for story progress but ARE required for 100%.",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://gta.wiki/w/100%25_Completion_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Juan Cortez",
+      "detail": "Treacherous Swine; Mall Shootout; Guardian Angels (opens Starfish Island); Sir, Yes Sir!; All Hands On Deck! (final Cortez mission, trophy Life of the Party).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Ricardo Diaz",
+      "detail": "The Chase; Phnom Penh '86 (opens Vice City mainland); The Fastest Boat; Supply & Demand (trophy South American Connection).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Kent Paul / Lance Vance",
+      "detail": "Death Row (Kent Paul); Rub Out (Lance Vance; rewards the Vercetti Estate).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Vercetti Estate missions (Tommy)",
+      "detail": "Shakedown; Bar Brawl; Cop Land. Shakedown unlocks the asset-purchase system (assets purchasable afterwards). Cop Land makes the Estate generate income.",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Umberto Robina",
+      "detail": "Stunt Boat Challenge; Cannon Fodder; Naval Engagement; Trojan Voodoo (final; trophy Big Heat from Little Havana).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Auntie Poulet",
+      "detail": "Juju Scramble; Bombs Away!; Dirty Lickin's.",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Love Fist",
+      "detail": "Love Juice; Psycho Killer; Publicity Tour (final; trophy Chauffeur).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Mitch Baker",
+      "detail": "Alloy Wheels of Steel; Messing with the Man; Hog Tied (final; trophy Tommy Two-Wheels).",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Print Works (final arc)",
+      "detail": "Print Works asset missions: Spilling the Beans; Hit the Courier; then Cap the Collector (first mission of final arc). Print Works costs $70,000 (console price per TheGamer), north of Starfish Island on second island.",
+      "trackable": "Stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.thegamer.com/grand-theft-auto-gta-vice-city-unlock-final-mission-guide/"
+      ]
+    },
+    {
+      "category": "final_mission",
+      "name": "Keep Your Friends Close...",
+      "detail": "Final story mission, given to Tommy Vercetti. Starts at Vercetti Estate; requires at least $1,000 on hand or an error appears. Defend safe from mafia attackers, Lance Vance betrays Tommy, kill Lance on the roof, kill Sonny Forelli in the foyer. Reward $30,000 + Micro SMG; unlocks a Hunter at Fort Baxter Air Base (and at an Ocean Beach helipad if all 100 hidden packages collected). Trophy Mischief Managed (completion of this mission). Ending: Ken reappears, Tommy says no more trouble from up north; story complete.",
+      "trackable": "Story complete; stats completion %",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Keep_Your_Friends_Close",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/",
+        "https://www.thegamer.com/grand-theft-auto-gta-vice-city-unlock-final-mission-guide/"
+      ]
+    },
+    {
+      "category": "gating",
+      "name": "Final-mission unlock requirements (Cap the Collector)",
+      "detail": "Print Works is mandatory (high agreement). Cap the Collector requires Cop Land + Hit the Courier + 'five necessary assets completed' (gta.wiki). TheGamer: Vercetti Estate missions all done + Print Works + five other properties (cheap suggestion: Boatyard $10k Checkpoint Charlie; Cherry Popper $20k 50 deals in one session; Pole Position Club $30k spend $300 on dances; Kaufman Cabs $40k its missions; Sunshine Autos $50k steal listed cars). Another source says 6 assets (7 with Estate) and says Malibu Club + Print Works mandatory. SOURCES CONFLICT on exact count and on Malibu Club. gta.wiki 100% page says Phil's Place does not count toward the story asset requirement. Hyman Memorial Stadium etc. not assets.",
+      "trackable": "Not confirmed that the game displays a counter of completed assets; stats screen completion % only.",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://gta.wiki/w/Cap_the_Collector",
+        "https://www.thegamer.com/grand-theft-auto-gta-vice-city-unlock-final-mission-guide/",
+        "search result summary of unlock guides"
+      ]
+    },
+    {
+      "category": "asset_missions",
+      "name": "Asset mission lines",
+      "detail": "Boatyard: Checkpoint Charlie. Cherry Popper Ice Cream Factory: Distribution. Pole Position Club: Club Pole Position. Sunshine Autos: Import Garage. InterGlobal Film Studio: Recruitment Drive, Dildo Dodo, Martha's Mug Shot, G-Spotlight. Kaufman Cabs: V.I.P., Friendly Rivalry, Cabmaggedon. Malibu Club: No Escape?, The Shootist, The Driver, The Job. Phil Cassidy: Gun Runner, Boomshine Saigon. Print Works: Spilling the Beans, Hit the Courier. Vercetti Estate: Shakedown, Bar Brawl, Cop Land. Note: gta.wiki page intro says 19 asset missions but lists 17 (excluding Print Works/Estate counting).",
+      "trackable": "Property count visible? PowerPyx: 17 total properties (7 safehouses + assets); 'Vice City Mogul' trophy = own 10 properties.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "missable_mission_trophies",
+      "name": "Mission-specific missable trophies in the DE list",
+      "detail": "Iron-y (Four Iron: kill developer with golf club); Not my First Time (G-Spotlight: clear all PCJ-600 rooftop jumps without falling); Salutations My Little Friend (Rub Out: kill Diaz with M4); Chopper'd Up (Demolition Man: kill all 17 hostiles with RC chopper blades across 4 floors). Mission ends on kill, so save before.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    }
+  ],
+  "sideContent": [
+    {
+      "category": "collectible",
+      "name": "Hidden Packages",
+      "detail": "100 total: Vice City Beach 45, Prawn Island 5, Starfish Island 5, Vice City Mainland 45. $100 each; $100,000 bonus for the 100th (GTAIntel, original-game guide).",
+      "trackable": "Not confirmed where DE Stats menu shows it. Achievements 'Scouring the City!' (50) and 'City Sleuth' (100) exist on Xbox/PC.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "reward",
+      "name": "Hidden Package milestone rewards",
+      "detail": "Per each 10: 10 body armor, 20 chainsaw, 30 Python, 40 flamethrower, 50 sniper (name varies by source), 60 minigun, 70 rocket launcher, 80 Sea Sparrow, 90 Rhino, 100 Hunter + $100,000. Spawn at safehouses (Ocean View Hotel, Vercetti Estate, Hyman Condo); Hunter/cash reportedly at Fort Baxter. Details differ between sources.",
+      "trackable": "unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "web search summary of progameguides/sportskeeda (pages not fetched, one 403)"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Rampages",
+      "detail": "35 total: Vice City Beach 17, Starfish Island 1, Vice City Mainland 17.",
+      "trackable": "Stats menu location unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "GIGA checklist per search summary"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Unique Stunt Jumps",
+      "detail": "36 total: Vice City Beach 18, Prawn Island 1, Starfish Island 1, Vice City Mainland 16. Trophy/achievement 'Daredevil' = all 36.",
+      "trackable": "Stats menu location unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Store robberies",
+      "detail": "15 stores for 100%. Achievement 'Put 'Em Up' = knock off 15 stores (Xbox/PC list; not in PS 34-trophy list).",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Vehicle missions (Vigilante, Paramedic, Firefighter, Pizza Boy, Taxi Driver)",
+      "detail": "100% needs Vigilante L12, Paramedic L12, Firefighter L12 each in one go; Pizza Boy L10 in one go; Taxi 100 total fares (not one sitting). Rewards: Vigilante 150 armor, Pizza Boy 150 health, Paramedic unlimited sprint, Firefighter fireproof. Trophies: Running Rampant (Vig L12), Somebody Call the Wambulance? (Para L12), Point A to Point B (25 fares), High Quality H2O (10 fires), Pie Guy (10 pizzas).",
+      "trackable": "Level/fares shown in-mission; Stats menu unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Sunshine Autos Import/Export",
+      "detail": "4 lists (Street, Expensive, Sports, Unique Cars), 24 vehicles total. Trophy 'Grand Theft Auto' = all. Deluxo unlocks after first list.",
+      "trackable": "List shown at the garage; stats unconfirmed.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/",
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Off-road missions",
+      "detail": "4: PCJ Playground, Cone Crazy, Trial by Dirt, Test Track.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "RC missions",
+      "detail": "3: RC Bandit Race, RC Baron Race, RC Raider Pickup. Trophy 'Just Like the Real Thing' = win RC Bandit Race.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Street Races",
+      "detail": "6: Terminal Velocity, Ocean Drive, Border Run, Capital Cruise, Tour!, V.C. Endurance; must win each.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Hyman Memorial Stadium",
+      "detail": "3: Hotring, Bloodring, Dirtring. Daily rotation, only startable 20:00-00:00 in-game.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "side",
+      "name": "Chopper Checkpoints",
+      "detail": "4: Ocean Beach, Vice Point, Little Haiti, Downtown. First three unlock after 'Rub Out', fourth after 'G-Spotlight'.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "asset",
+      "name": "Asset missions",
+      "detail": "20 missions across properties: Boatyard 1 (Checkpoint Charlie), Cherry Popper 1 (Distribution, 50 ice creams), InterGlobal Studios 4, Kaufman Cabs 3, Malibu Club 4, Phil's Place 2, Print Works 2, Vercetti Estate 3, plus Sunshine Autos 4 lists and Pole Position Club ($300 on dance rooms). Assassinations 5: Road Kill, Waste the Wife, Autocide, Check Out at the Check In, Loose Ends (trophy Gun for Hire).",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "misc",
+      "name": "Rifle Range / Safehouses / Properties",
+      "detail": "Rifle Range score >=45. Buy all 7 safehouses (~$41,500). Trophy Vice City Mogul = own 10 properties; Xbox 'Prime Real Estate' = all properties.",
+      "trackable": "unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_Vice_City"
+      ]
+    },
+    {
+      "category": "reward",
+      "name": "100% completion reward",
+      "detail": "Max health/armor 200, refilled ammo, double vehicle strength, Frankie outfit, up to 3 bodyguards at Vercetti Estate (GTAIntel: $2,000 each, infinite ammo). Achievement 'Done it All'.",
+      "trackable": "Completion % shown in Stats (standard in series; not confirmed for DE by fetched sources).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://gtaintel.com/news/vice-city-100-percent-completion-guide"
+      ]
+    },
+    {
+      "category": "stat-trophy",
+      "name": "Other stat-based achievements",
+      "detail": "Bull in a China Shop $1,000,000 damage; Break it Up $500,000; Offender 50 wanted stars; Target Practice 50 headshots; Retro Lewk wear every outfit; Bloodstained Hands (Butcher, 10,000 criminal rating); Take the Cannoli (Godfather, 100,000, needs patch 1.02+); I'm Famous (Stuff of Legends media rank 1,600+); One is Better Than Two (30s wheelie); Keepie-Uppy Okie Dokie (beach ball 5); Born in the 80's (all 9 radio stations). Several appear only in the Xbox/PC 43-list.",
+      "trackable": "Criminal rating, media attention and damage reported as pause-menu stats in sources (tips say pause to pop trophy).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_Vice_City",
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "category": "achievement-list",
+      "name": "Console achievement/trophy list (PS/Xbox)",
+      "detail": "PS: 34 trophies (1 Plat Kingpin, 5 Gold, 9 Silver, 19 Bronze). Xbox: 33 achievements, 1000G. gta.wiki: 33 gameplay + 43 Social Club entries, 9 Social Club-exclusive. gtabase lists 43 entries (Plat + 42). Counts disagree between sources.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/",
+        "https://gtaintel.com/news/vice-city-definitive-edition-vs-original",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_Vice_City",
+        "https://www.gtabase.com/gta-vice-city/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "achievement-names",
+      "name": "Gtabase list (includes Social Club-only likely)",
+      "detail": "Born in the 80's (listen to every radio station), Running Rampant (Vigilante lvl 12), Iron-y, Not my First Time, One is Better Than Two (30s wheelie), Point A to Point B (25 taxi fares), High Quality H2O (10 fires), Pie Guy (10 pizzas), Bull in a China Shop ($1,000,000 property damage), Vice City Mogul (own 10 properties), Salutations My Little Friend, Catch Me if You Can (6 stars), Somebody Call the Wambulance? (Paramedic lvl 12), Greasy Palms (bribe), Just Like the Real Thing (RC Bandit race), Keepie-Uppy Okie Dokie (score 5), Gun for Hire (all assassinations), I'm Famous! (Stuff of Legends), Don't Need Roads (Deluxo max speed), Daredevil (36 jumps), Legal Counsel (Riot), Life of the Party (All Hands on Deck!), South American Connection (Supply & Demand), Big Heat from Little Havana (Trojan Voodoo), Chauffeur (Publicity Tour), Tommy Two-Wheels (Hog Tied), Grand Theft Auto (all Sunshine Autos wanted vehicles), Bloodstained Hands (Butcher), Take the Cannoli (Godfather), Mischief Managed (Keep Your Friends Close...), Chopper'd Up (Demolition Man), City Sleuth (100 packages), Done it All (100%), Put 'Em Up (15 stores), Offender (50 wanted starts), Retro Lewk (wear every outfit), Scouring the City! (50 packages), Break it Up ($500,000 damage), Target Practice (50 headshots), Prime Real Estate (all properties), Vice Vice Baby (Cherry Popper dealer subgame), Baked Distractions (hijack tank without alerting army, Sir Yes Sir!). Which of these are on PS vs only Social Club is NOT confirmed (powerpyx PS list of 34 does not include Baked Distractions per a commenter).",
+      "trackable": "Many map to Stats screen values",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-vice-city/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Four mission-specific trophies",
+      "detail": "Iron-y (kill property developer with golf club, Four Iron), Not my First Time (G-Spotlight without falling from rooftops), Salutations My Little Friend (kill Diaz with M4 in Rub Out), Chopper'd Up (kill all hostile NPCs in Demolition Man with RC chopper blades). Mission ends instantly on target death. Replayable via mission replay normally in GTA games (replay availability not confirmed here).",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-vice-city-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "100% completion items are not missable",
+      "detail": "Both guides state nothing needed for 100% is missable; all can be done after credits.",
+      "trackable": "Completion % on stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gtaintel.com/news/vice-city-100-percent-completion-guide",
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "progression",
+      "name": "100% completion components",
+      "detail": "20 story missions, 20 asset missions across 10 properties + 4 Sunshine Autos import lists + Pole Position Club $300 dance room, 13 gang missions, 5 assassinations, 5 vehicle missions (Firefighter/Paramedic/Vigilante/Pizza Boy level 10, 100 taxi fares), 4 off-road, 3 RC, 6 street races, 3 stadium events, 4 chopper checkpoints, 35 rampages, 36 unique jumps, 100 hidden packages, rifle range 45+, all 7 safehouses, all 15 stores robbed. (Original-game Rockstar page lists different counts, e.g. 21 story missions.)",
+      "trackable": "Completion % on stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://gtaintel.com/news/vice-city-100-percent-completion-guide",
+        "https://support.rockstargames.com/articles/3HYqnUoR8fjHGGg9NdTbzm/gta-vice-city-ps2-100-completion"
+      ]
+    },
+    {
+      "category": "assets",
+      "name": "Purchasable assets and income",
+      "detail": "Per gtabase (price / income per day): Viceport Boatyard $10,000 / $2,000; Cherry Popper Ice Cream Factory $20,000 / $3,000; Pole Position Club $30,000 / $4,000; Kaufman Cabs $40,000 / $5,000; Sunshine Autos $50,000 / $1,500-9,000; InterGlobal Studios $60,000 / $7,000; Print Works $70,000 / $8,000; Malibu Club $120,000 / $10,000. Vercetti Estate free after Rub Out ($5,000/day listed). Phil's Place not purchasable (after The Job). Assets available after Shakedown. 8 purchasable assets = $400,000. Income per day figures are single-source and unverified; revenue starts once the asset's missions are done and is collected at the property.",
+      "trackable": "Property purchases tracked toward completion; Mogul/Prime Real Estate need own-count",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-vice-city/properties/",
+        "https://gtaintel.com/news/vice-city-100-percent-completion-guide"
+      ]
+    },
+    {
+      "category": "safehouses",
+      "name": "Safehouses",
+      "detail": "Gtabase: 9 total, 7 purchasable ($41,500 total): Ocean View Hotel (free), Vercetti Estate (free), 3321 Vice Point $2,500, Links View Apartment $6,000, El Swanko Casa $8,000, 1102 Washington Street $3,000, Ocean Heights Apartment $7,000, Skumole Shack $1,000, Hyman Condo $14,000. Note: that list shows 7 priced entries, consistent with 7 purchasable. 5 on first island, 2 on second (powerpyx). Property count for Vice City Mogul/Prime Real Estate: powerpyx says 17 purchasable properties, gtabase says 18 - listed items sum to 15. UNRESOLVED.",
+      "trackable": "Not confirmed where owned count is displayed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-vice-city/properties/",
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "outfits",
+      "name": "Outfits",
+      "detail": "Frankie outfit unlocked at Vercetti Estate at 100% completion. Total outfit count NOT found. Achievement Retro Lewk (wear every outfit at least once) listed on gtabase only.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/",
+        "https://www.gtabase.com/gta-vice-city/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Hidden packages, rampages, jumps, stores",
+      "detail": "100 hidden packages ($100 each, final adds $100,000 -> $110,000 total per one source); 35 rampages; 36 unique stunt jumps; 15 stores robbed.",
+      "trackable": "Completion %; likely counted on stats screen",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gtaintel.com/news/vice-city-100-percent-completion-guide",
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "rng",
+      "name": "RNG notes",
+      "detail": "No strongly RNG-gated items found. Bloodring described as 'a little random' due to AI cars. Criminal rating/media attention accumulate from play. Checkpoint Charlie boatyard revenue duplication glitch reported (may be patched).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://powerpyx.com/gta-vice-city-definitive-100-completion-guide-checklist/"
+      ]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Completion percentage",
+      "where": "Stats screen, visible at any time (PowerPyx); also shown on save file",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Criminal rating (top), Best Media Attention (bottom), property damage",
+      "where": "Stats screen",
+      "confidence": "medium"
+    },
+    {
+      "stat": "100% completion contents: story missions (22 listed on gta.wiki), asset missions (22), gang (15), assassination (5), side missions (30), 100 hidden packages, 35 rampages, 36 unique jumps, 7 safehouses, 15 stores robbed",
+      "where": "gta.wiki 100% page; in-game stats shows %",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Properties owned (17 total: 7 safehouses + assets) for Vice City Mogul (10)",
+      "where": "Unconfirmed whether a counter is displayed",
+      "confidence": "low"
+    },
+    {
+      "stat": "Criminal rating (Butcher/Godfather) and media attention rank",
+      "where": "Implied by trophy guide (pause menu stats); exact screen not fetched",
+      "confidence": "low"
+    },
+    {
+      "stat": "Overall completion percentage",
+      "where": "Stats menu (series standard); not confirmed for DE by fetched pages",
+      "confidence": "low"
+    },
+    {
+      "stat": "Completion percentage",
+      "where": "Stats screen (pause menu)",
+      "confidence": "high"
+    },
+    {
+      "stat": "Criminal rating (Butcher at 10,000; Godfather at 100,000 after Patch 1.02, formerly 1,000,000)",
+      "where": "Stats screen",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Media attention (Stuff of Legends needs 1,600+) - highest level in one rampage/spree",
+      "where": "Stats screen",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Property damage ($1,000,000 for Bull in a China Shop)",
+      "where": "Stats screen",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Wanted starts, headshots, longest wheelie, hidden packages found, stores robbed, rampages, unique jumps (inferred as stats since achievements use them)",
+      "where": "Stats screen presumably; not verified. Full stats list NOT obtained.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Hidden packages found (of 100)",
+      "where": "Game stats screen (Pause > Stats) - standard Vice City behaviour; not verified in this research",
+      "confidence": "low"
+    },
+    {
+      "stat": "Completion percentage",
+      "where": "Stats screen; the Done it All trophy keys off it. Not verified in this research",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "DE fixed subtitles in Keep Your Friends Close intro ($20 million corrected to match audio $3 million; Lance line capitalization). Achievement 'Mischief Managed' is DE-only per gta.wiki; 100% completion trophy 'Done it All' PS4/DE only.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Prices quoted (Print Works $70,000 etc.) are from the original console/PC; mobile is 50% cheaper. Not verified that DE prices are unchanged.",
+      "confidence": "low"
+    },
+    {
+      "note": "No Switch-specific campaign differences found; trophy/achievement structure for the Switch version not verified (Switch has no trophies; list from PS version).",
+      "confidence": "low"
+    },
+    {
+      "note": "PowerPyx guide is for PS4/PS5/Xbox/PC; no source found covering Switch-specific differences. PS list has 34 trophies; Social Club/Xbox list has 43 achievements (extra: Scouring the City!, Put 'Em Up, Break it Up, Prime Real Estate, Offender, Retro Lewk, Target Practice, Baked Distractions, etc.). Switch has no trophy system of its own; what Switch 2 offers is unknown.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Comments report possible Checkpoint Charlie 99% bug and Fidelity-mode crash; Boatyard glitch reportedly patched. Unverified.",
+      "confidence": "low"
+    },
+    {
+      "note": "Cheats disable trophies/achievements (PowerPyx).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch/Switch 2 achievements: NOT confirmed. Rockstar advertised Social Club 'Accomplishments' for the Trilogy; Nintendo has no native achievement system. Console lists are only documented for PlayStation (trophies) and Xbox (achievements). Gta.wiki says 43 Social Club achievements exist, 9 Social Club-exclusive; whether Switch players can earn/see them is unconfirmed.",
+      "confidence": "low"
+    },
+    {
+      "note": "No native Switch 2 edition or upgrade found. Switch 2 plays the Switch version via backward compatibility per Sportskeeda (secondary source: Rockstar titles absent from Nintendo's issue list). A gtaboom article corrected itself in Oct 2026 saying absence from that list does not by itself confirm full compatibility. A review claims locked 30fps and faster loads on Switch 2 (unverified).",
+      "confidence": "low"
+    },
+    {
+      "note": "Switch launched with poor performance (frame drops); Nov 2024 patch covered Switch too. Classic Lighting Mode added in Nov 12, 2024 update. Switch has gyro aiming and touch controls.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch physical re-release (full game on cartridge, ~ $30 MSRP) in 2025.",
+      "confidence": "low"
+    },
+    {
+      "note": "Radio: about 15 licensed songs removed vs original (licensing lapses), per gtaintel; other source claims 8. Named: Billie Jean, Wanna Be Startin' Somethin', Bark at the Moon, Running with the Night; artists Kate Bush, Gary Numan, Quiet Riot, ABC, The Buggles, Herbie Hancock, Joe Jackson, Afrika Bambaataa, The Fixx, Aneka, Sigue Sigue Sputnik. Rockstar said lists match the 2014 re-release. Matters for 'Born in the 80's' only if stations affected (stations remain).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Other DE changes: analog steering removed; GTA V-style controls, weapon wheel, GPS, mid-mission checkpoints and instant retry added; Unreal Engine.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Cheats disable trophies/achievements; no difficulty settings; Take the Cannoli requires Patch 1.02+ (threshold lowered to 100,000). Some trophies only pop after pausing.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Xbox/PS shared list is 33 achievements/trophies + PS-only Platinum Kingpin = 34 on PlayStation. Xbox has the same 33 (gtabase gives Gamerscore summing to 1000), no Platinum. Names/descriptions are identical across Xbox and PS in sources; only Platinum differs.",
+      "confidence": "medium"
+    },
+    {
+      "note": "GTABase and GameRevolution's leak list 9 further entries (Put 'Em Up: Knock off 15 stores; Offender: Attain 50 wanted stars; Retro Lewk: Wear every outfit at least once; Scouring the City: Find 50 hidden packages; Break it Up: Cause $500,000 in property damage; Target Practice: Land 50 headshots; Prime Real Estate: Purchase all properties; Vice Vice Baby: Complete the Cherry Popper dealer subgame; Baked Distractions: Hijack the tank without alerting the army first, during 'Sir, Yes Sir!'). GTABase describes these as Rockstar Social Club accomplishments, not trophies. They are NOT in PowerPyx's 34-trophy list, so treat as non-native. GTABase's assignment of exactly these 9 as Social Club is inferred.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Tiers on gtabase are derived from Xbox Gamerscore values; PS tiers matched Xbox bands, and the per-tier counts (5 Gold, 9 Silver, 19 Bronze) match PowerPyx totals. Per-trophy PS tiers were not directly confirmed on PSNProfiles (403).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch 2 has no native achievements; this is a PS-derived reference list only. No Switch 2 version-specific differences were researched.",
+      "confidence": "high"
+    }
+  ],
+  "scoutGaps": {
+    "a": [
+      "Story mission total conflicts: gta.wiki says 38 story missions (86 missions total incl. 19 asset, 6 racing, 5 phone, 3 stadium, 4 off-road, 3 RC, 1 Sparrow, 7 side) but its list shows ~40 titles including Print Works and finale. Exact total unconfirmed; the 22 listed in the 100% page is a different grouping.",
+      "Exact set and count of assets required to unlock Cap the Collector is NOT settled (5 vs 6 vs 7 incl. Estate; Malibu Club required or not). Do not build a trophy on this number.",
+      "Could not confirm whether the game displays a count of story missions completed or a list of assets completed; only overall completion % and property stats confirmed.",
+      "Did not verify mission order within gang chains or that Rub Out is Lance Vance's contact versus Diaz target; names from a single wiki page (medium).",
+      "Did not confirm Definitive Edition-specific mission changes (e.g., checkpoints/retry) or Switch 2 specifics.",
+      "Did not verify 22 'story missions' number in 100% list or Hyman Memorial Stadium/others (side beat)."
+    ],
+    "b": [
+      "Could not confirm where DE Stats menu displays each count (packages, rampages, jumps, robberies, fares, etc.) or the in-game completion percentage.",
+      "Package milestone rewards are from search summaries; sniper rifle name and exact spawn locations conflict. Progameguides returned 403.",
+      "No Switch/Switch 2-specific content or achievement info found.",
+      "Whether ice cream/Phil's/Malibu/Print Works/Kaufman missions are exactly the counts listed was single-source (PowerPyx)."
+    ],
+    "c": [
+      "Exact full contents of the Stats screen (all rows) not obtained.",
+      "Whether Switch or Switch 2 has any achievement system (Social Club or otherwise) not confirmed.",
+      "Whether there is any official Switch 2 enhancement; only backward compat inferred from secondary sources.",
+      "Total outfit count and where each is obtained not found; whether the game shows outfit-worn progress unknown.",
+      "Property count discrepancy for Vice City Mogul/Prime Real Estate (17 vs 18 vs 15 listed).",
+      "Asset income figures single-source.",
+      "Which of the gtabase 43 entries are console trophies vs Social Club-only not resolved.",
+      "Exact count of songs removed (15 vs 8) unresolved; mission replay availability for missable trophies unconfirmed."
+    ],
+    "native": [
+      "PSNProfiles returned 403 and Sportskeeda 405, so the per-trophy PS tier was not confirmed from a primary PS tracker; tiers rely on gtabase (inferred from Xbox points) and partially on PowerPyx (12 trophies).",
+      "City Sleuth tier conflict: PowerPyx Silver vs gtabase Gold. gtabase's set matches the 1/5/9/19 totals, but PowerPyx's own stated golds (Salutations, Chopper'd Up) would then need three more golds, so not resolvable here.",
+      "Small description wording variants exist ('30 second' vs '30-second'; 'Find 100 Hidden Packages' vs 'hidden packages'; 'Done it All' with/without period). Punctuation is from PowerPyx.",
+      "Did not verify whether the game displays hidden package count or % completion in-game stats (believed yes from original game).",
+      "Did not check trueachievements/truetrophies/playstationtrophies.org directly.",
+      "Whether the 9 extra entries are real in-game Social Club accomplishments was not independently confirmed.",
+      "Take the Cannoli patch 1.02 note: unclear whether it is fixed on all current versions."
+    ]
+  }
+}
