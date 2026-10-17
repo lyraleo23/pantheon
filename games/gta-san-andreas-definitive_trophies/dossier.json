@@ -1,0 +1,909 @@
+{
+  "game": "Grand Theft Auto: San Andreas - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (Switch version via backward compatibility; no native Switch 2 edition found, medium/low)",
+  "mode": "port",
+  "sourcePlatform": "PlayStation 4/5",
+  "mergedFrom": [
+    "dossier_scout_a.json",
+    "dossier_scout_b.json",
+    "dossier_scout_c.json",
+    "dossier_scout_native.json"
+  ],
+  "entryGate": "Switch/Switch 2 have no native achievement system (confirmed by scouts). No source shows Social Club accomplishments on Switch (low). Gate passes.",
+  "nativeList": {
+    "summary": "PS4/PS5 list, 35 trophies (1P/5G/8S/21B, totals high). Xbox: same 34 minus Platinum, 1000G. 13 extra entries (Sticky Fingers, 81 Years Too Late, Get a Pump, ...) are Social Club accomplishments.",
+    "entries": [
+      {
+        "name": "Getting Started",
+        "description": "Complete Big Smoke.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "With Extra Dip",
+        "description": "Buy 8 meals from Cluckin' Bell throughout the game.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "The End of the Line",
+        "description": "Complete End of the Line.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Hoopin' it Up",
+        "description": "Score at least 30 points in the basketball mini-game.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "A Legitimate Business",
+        "description": "Export all three car lists.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "I'll Have Two Number 9s",
+        "description": "Reach maximum weight.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "The American Dream",
+        "description": "Purchase any house.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Pay 'n' Spray",
+        "description": "Use a Pay 'n' Spray with a wanted level.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Bike or Biker",
+        "description": "Complete either the BMX or NRG challenge.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Who Needs Directions?",
+        "description": "Find Mike Toreno without any of the referenced locations during Mike Toreno.",
+        "tier": "Bronze",
+        "confidence": "medium",
+        "missable": true
+      },
+      {
+        "name": "Liberty City State of Mind",
+        "description": "Complete the Saint Mark's Bistro mission.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Swiss Army Strife",
+        "description": "Max all weapon skills.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "School's Out",
+        "description": "Fully complete a vehicle school.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Horror of the Santa Maria",
+        "description": "Drown.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "They Can't Stop All of Us",
+        "description": "Sneak into the underground base without setting off the alarm above ground during Black Project.",
+        "tier": "Gold",
+        "confidence": "medium",
+        "missable": true
+      },
+      {
+        "name": "Smooth Moves",
+        "description": "Perform a perfect dance routine.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "What the City Needs",
+        "description": "Complete 12 levels of Vigilante.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Savior",
+        "description": "Complete 12 levels of Paramedic.",
+        "tier": "Silver",
+        "confidence": "medium",
+        "note": "PowerPyx spells it 'Saviour'; GTABase/GTA Wiki 'Savior'. Spelling unresolved."
+      },
+      {
+        "name": "Rescue a Kitten Too?",
+        "description": "Complete 12 levels of Firefighter.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Yes I Speak English",
+        "description": "Complete 50 fares in the Taxi Driver side mission (PowerPyx wording: Reach 50 fares in Taxi Mode).",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Lucky Spinner",
+        "description": "Win at least $1,000 in a single spin of the Wheel of Fortune.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "What happens in Las Venturas...",
+        "description": "Complete Yay Ka-Boom-Boom.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "All Dressed Up for San Fierro",
+        "description": "Complete The Green Sabre.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Not a Player",
+        "description": "Go on at least one date with every potential girlfriend.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "What are the Odds",
+        "description": "Win a race in Inside Track betting.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Double or Nothin'",
+        "description": "Put all your money or the maximum bet on red or black and win.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Assassin",
+        "description": "Stealth kill all enemies in the mission Madd Dogg's Rhymes.",
+        "tier": "Bronze",
+        "confidence": "medium",
+        "missable": true
+      },
+      {
+        "name": "Original Gangster",
+        "description": "Reach maximum respect.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Today Was a Good Day",
+        "description": "Go 24 hours (in game) without breaking the law, being wanted, killing or harming anyone.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "Public Enemy No. 1",
+        "description": "Reach six wanted stars.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Chick Magnet",
+        "description": "Achieve maximum sex appeal.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Ain't Nothing But a G Thing",
+        "description": "Own all gang warfare turfs, properties and have $1,000,000.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "Remastered",
+        "description": "Earn 100% completion.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "...Here we go again",
+        "description": "Start a new game after getting 100% on a save file.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "I Ain't No Buster",
+        "description": "Unlock all trophies.",
+        "tier": "Platinum",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "switchDifferences": [
+    "Gyro aiming and touch controls.",
+    "Launch performance poor; later patches (incl. Nov 2024 Classic Lighting update) reached Switch.",
+    "No content differences vs PS/Xbox found."
+  ],
+  "definitiveEditionChanges": [
+    "Some licensed songs removed.",
+    "Analog steering removed.",
+    "Mid-mission checkpoints and instant retry added.",
+    "Cheats disable trophies on PS/Xbox (irrelevant on Switch)."
+  ],
+  "conflicts": [
+    "Story mission count: 90/98/100/101/104/105 across sources.",
+    "Unique stunt jumps required for 100%: no (PowerPyx, Sportskeeda) vs yes (gtaintel).",
+    "Race tournament count: 19 vs 16 (PowerPyx self-contradiction).",
+    "Paramedic trophy spelling: 'Saviour' (PowerPyx) vs 'Savior' (gtabase, gta.wiki).",
+    "Songs cut: 17 vs 21."
+  ],
+  "gaps": [
+    "Stats screen collectible counters (tags/snapshots/horseshoes/oysters/jumps), turf count, girlfriend %, unconfirmed in DE.",
+    "Stat max values/decay rules.",
+    "Mission replay: scout C says missions cannot be replayed (single source).",
+    "Switch/Switch 2 accomplishments."
+  ],
+  "campaign": [
+    {
+      "category": "structure",
+      "name": "Los Santos (opening act)",
+      "detail": "gta.wiki lists 29 entries from In the Beginning to The Green Sabre: In the Beginning, Big Smoke, Sweet & Kendl, Ryder, Tagging Up Turf, Cleaning the Hood, Drive-Thru, Nines and AK's, Drive-By, Sweet's Girl, Cesar Vialpando, OG Loc, Running Dog, Wrong Side of the Tracks, Just Business, Home Invasion, Catalyst, Robbing Uncle Sam, High Stakes Low-Rider, Life's a Beach, Madd Dogg's Rhymes, Management Issues, House Party, Burning Desire, Gray Imports, Doberman, Los Sepulcros, Reuniting the Families, The Green Sabre. Ends with CJ leaving LS.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "structure",
+      "name": "Countryside / Badlands (Red County, Flint County, Whetstone)",
+      "detail": "gta.wiki lists 14: Badlands, First Date, Tanker Commander, Body Harvest, King in Exile, First Base, Local Liquor Store, Gone Courting, Against All Odds, Made in Heaven, Small Town Bank, Wu Zi Mu, Farewell My Love..., Are You Going to San Fierro? Several (Catalina, The Truth, Woozie) are interleaved with the SF/Desert arcs, so the arc order is not strictly separate. The gta.wiki list does not mark which are optional.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas"
+      ]
+    },
+    {
+      "category": "structure",
+      "name": "San Fierro",
+      "detail": "gta.wiki lists 26: Wear Flowers in Your Hair, 555 We Tip, Deconstruction, Air Raid, Supply Lines..., New Model Army, Back to School (Driving School), Photo Opportunity, Jizzy, T-Bone Mendez, Mike Toreno, Mountain Cloud Boys, Ran Fa Li, Lure, Amphibious Assault, The Da Nang Thang, Outrider, Snail Trail, Ice Cold Killa, Pier 69, Toreno's Last Flight, Yay Ka-Boom-Boom, Zeroing In, Test Drive, Customs Fast Track, Puncture Wounds. Plot: CJ wins a garage (Doherty), tracks Loco Syndicate leader Mike Toreno, who is a government agent. NOTE: Yay Ka-Boom-Boom is listed by gta.wiki under San Fierro; Wikipedia/PowerPyx tie it to the Triad/Wu Zi Mu line and it unlocks Las Venturas and the Freight Train tasks.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+      ]
+    },
+    {
+      "category": "structure",
+      "name": "Desert (Tierra Robada, Bone County)",
+      "detail": "gta.wiki lists 9: Monster, Highjack, Interdiction, Verdant Meadows, Learning to Fly, N.O.E., Stowaway, Black Project, Green Goo. Mike Toreno line. Learning to Fly requires bronze in all flight school lessons (per PowerPyx).",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "structure",
+      "name": "Las Venturas",
+      "detail": "gta.wiki lists 18: Fender Ketchup, Explosive Situation, You've Had Your Chips, Don Peyote, Architectural Espionage, Key to Her Heart, Dam and Blast, Cop Wheels, Up Up and Away!, Intensive Care, The Meat Business, Fish in a Barrel, Madd Dogg, Freefall, Misappropriation, High Noon, Saint Mark's Bistro, Breaking the Bank at Caligula's. CJ becomes casino co-owner, plans robbery of Mafia-run casino (heist = Architectural Espionage through Breaking the Bank at Caligula's), saves Madd Dogg from suicide (mission Madd Dogg) and becomes his manager. Saint Mark's Bistro is the Liberty City-themed mafia mission (has an achievement).",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+      ]
+    },
+    {
+      "category": "structure",
+      "name": "Return to Los Santos",
+      "detail": "gta.wiki lists 9: A Home in the Hills, Vertical Bird, Home Coming, Cut Throat Business, Beat Down on B Dup, Grove 4 Life, Riot, Los Desperados, End of the Line. Tenpenny acquittal triggers citywide riot.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+      ]
+    },
+    {
+      "category": "mission",
+      "name": "End of the Line (final mission)",
+      "detail": "CJ finds Big Smoke's hideout (Smoke's Crack Palace) and kills him. Tenpenny arrives, takes the money, escapes via explosion, flees in a fire truck chased by CJ and Sweet, crashes off a bridge above Grove Street and dies; riot ends. Credits follow (achievement 'Time to Kill' for watching them is Social Club/PC-type).",
+      "trackable": "Mission completion counted in stats/percentage; achievement 'The End of the Line' exists on DE (Xbox/PS/PC list).",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_San_Andreas"
+      ]
+    },
+    {
+      "category": "mission",
+      "name": "Story-related achievements with mission-specific conditions (DE list)",
+      "detail": "Getting Started (complete Big Smoke); Assassin (stealth-kill every enemy in Madd Dogg's Rhymes); All Dressed Up for San Fierro (complete The Green Sabre); Who Needs Directions? (find Toreno in the Mike Toreno mission without relying on the referenced locations); What happens in Las Venturas... (complete Yay Ka-Boom-Boom); They Can't Stop All of Us (Black Project: reach the underground base without triggering the above-ground alarm); Liberty City State of Mind (complete Saint Mark's Bistro); The End of the Line (complete End of the Line). Green Goo has no listed dedicated achievement.",
+      "trackable": "Not applicable (mission-specific)",
+      "missable": "Mission-specific ones (Assassin, Who Needs Directions?, They Can't Stop All of Us) must be done on the first attempt or retried via Replay Mission; replay availability not confirmed.",
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_San_Andreas"
+      ]
+    },
+    {
+      "category": "count",
+      "name": "Story mission count",
+      "detail": "SOURCES DISAGREE. PowerPyx (DE 100% guide): 98 story missions required + 26 asset missions. gta.wiki: stated total 101 but its own section counts sum to 105 (29+14+26+9+18+9), likely including Driving School/Pier 69/etc. Sportskeeda: 101 incl. opening, or 100; one source 90 main missions. Do NOT use a single number in a trophy without in-game confirmation.",
+      "trackable": "Stats screen shows 'Missions Completed' (see gaps).",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://gta.wiki/w/Missions_in_GTA_San_Andreas",
+        "https://sportskeeda.com/gta/how-many-missions-gta-san-andreas-a-beginner-s-guide-complete-game-100"
+      ]
+    },
+    {
+      "category": "milestone",
+      "name": "100% completion requirements (non-story)",
+      "detail": "PowerPyx: 26 asset missions (Courier 3, Trucking 8, Quarry 7, Zero RC 3, Wang Cars 4, Valet 1); vehicle challenges 3 (BMX, NRG-500, Chiliad); vehicle missions 6 (Firefighter, Paramedic, Vigilante, Pimping, Freight Train, Taxi 50 fares); race tournaments (intro says 19, race section says 16 - inconsistent); 6 checkpoint races; 4 stadium events; 33 vehicle school lessons; 100 tags; 50 snapshots; 50 horseshoes; 50 oysters; 3 export lists of 10 cars; 4 shooting range challenges; 24 properties + 5 hotel suites; 3 gyms. Not required: 70 unique jumps, girlfriends, turf takeover. Guide says nothing for 100% is missable.",
+      "trackable": "Overall percent in Stats menu (user reports).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "milestone",
+      "name": "Remastered / ...Here we go again",
+      "detail": "Remastered: reach 100% completion (100G Gold). ...Here we go again: start a new game after reaching 100% on a save.",
+      "trackable": "Completion percent in Stats.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_San_Andreas"
+      ]
+    },
+    {
+      "category": "milestone",
+      "name": "Ain't Nothing But a G Thing",
+      "detail": "Own all gang turfs and properties and have $1,000,000 (Gold). Late-game; turf war is not needed for percentage but needed for this achievement.",
+      "trackable": "Unknown",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_San_Andreas"
+      ]
+    }
+  ],
+  "sideContent": [
+    {
+      "category": "collectible",
+      "name": "Gang Tags (graffiti)",
+      "detail": "100, all in Los Santos. Required for 100%. Reward: weapons at Grove Street (Tec-9, AK-47, sawn-off, Molotovs per PowerPyx).",
+      "trackable": "Not confirmed which Stats screen shows a tag count.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Snapshots",
+      "detail": "50, San Fierro. Required for 100%. Only the floating icon needs photographing. Reward: weapons plus $100,000 (PowerPyx).",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Horseshoes",
+      "detail": "50, Las Venturas. Required for 100%. Reward: weapons plus $100,000. One source says they max Luck, which is unverified.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://gtaintel.com/news/san-andreas-collectibles-guide"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Oysters",
+      "detail": "50, underwater across the map. Required for 100%. Reward: $100,000, lung capacity, sex appeal. Sources disagree on the perk wording.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://gtaintel.com/news/san-andreas-collectibles-guide"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Unique Stunt Jumps",
+      "detail": "70 total, $500 each. NOT required for 100% per PowerPyx and Sportskeeda. One weaker source (gtaintel) says required.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://www.sportskeeda.com/gta/gta-san-andreas-100-completion-checklist-guide-2023"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Story and asset missions",
+      "detail": "98 story missions. 26 asset missions: Courier 3, Trucking 8, Quarry 7, Zero RC 3 ($30,000), Wang Cars 4 ($50,000), Valet level 5 (must wear Valet outfit).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Vehicle challenges",
+      "detail": "BMX: 19 checkpoints (cycling skill over 20%). NRG-500: 18 checkpoints. Chiliad Challenge: 3 routes, daytime 07:00-18:00, cycling over 40%.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Vehicle missions",
+      "detail": "Firefighter, Paramedic, Vigilante: level 12 in one go. Pimping: level 10 in one go. Freight: level 2. Taxi: 50 fares total (not one go).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Races and stadium events",
+      "detail": "Race tournaments: 1st in all 19 (LS 9, SF 6, LV 4; the PowerPyx page also says 16 once, inconsistent). Checkpoint races: 6 at LV airport. Stadium: 8-Track 1st (20% driving skill), Blood Bowl, Dirt Track 1st (Mon/Wed only), Kickstart 26+ points (not Mon/Wed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Vehicle schools",
+      "detail": "Bronze minimum counts: Driving 12, Boat 5, Bike 6, Flying 10 (33 lessons). Silver/gold not required, only unlock vehicles. Trophy-style achievement 'School's Out' = fully complete one school.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Misc 100% items",
+      "detail": "Export/Import: 3 lists of 10 cars (up to $1,444,000). Shooting range: 4 challenges in one session. Properties: 24 plus 5 hotel suites = 29, $879,000. Gyms: all 3 moves from each of 3 trainers (needs 35%+ muscle).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "100% requirements",
+      "name": "Not required for 100%",
+      "detail": "70 unique jumps, girlfriends at 100%, taking all gang turfs, silver/gold school medals. Also not mentioned as required: burglary, casino, Chiliad beyond routes, Bigfoot.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "100% reward",
+      "name": "100% completion rewards",
+      "detail": "$1,000,000, ammo refill, double vehicle strength (per PowerPyx), Hydra on Sweet's roof, Rhino under Grove Street bridge, plus 'Remastered' achievement/trophy (100 pts in GTABase list).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "existing achievements",
+      "name": "Existing DE achievement list (side-content related)",
+      "detail": "Remastered; ...Here we go again (new game after 100%); A Legitimate Business (3 export lists); School's Out; What the City Needs / Savior / Rescue a Kitten Too? (12 levels); Yes I Speak English (50 taxi fares); Bike or Biker (BMX or NRG); Not a Player (date every potential girlfriend); Ain't Nothing But a G Thing (own all turfs + properties + $1,000,000); Sticky Fingers ($10,000 burglary); Lucky Spinner; What are the Odds (Inside Track); Double or Nothin'; Today Was a Good Day; 81 Years Too Late (24h on foot hunting Bigfoot); Freight Date; Get a Pump; Beat the Cock; Metrosexual ($6,969); Represent; High As a Kite; Lots of Guns; Swiss Army Strife; Chick Magnet; Smooth Moves; The American Dream; I'll Have Two Number 9s; With Extra Dip. Useful for avoiding duplicates. No collectible-count achievement was listed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "category": "stat",
+      "name": "Respect",
+      "detail": "Raised by missions and gang territory wins; caps number of recruitable homies (up to 7). Maxing it grants the 'Original Gangster' achievement/trophy.",
+      "trackable": "Stats menu (progress bar per stat, per one weaker source). Max-respect trophy is listed as 'Original Gangster'.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gtaintel.com/news/san-andreas-cj-stats-explained",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Sex Appeal",
+      "detail": "Raised by clothes, haircuts, tattoos, and the car CJ arrives in (lowriders/sports cars best). Collecting all 50 Oysters maxes it. 'Chick Magnet' = max sex appeal. One source says 100% muscle hurts sex appeal; another says muscle/fat do not affect it (sources conflict).",
+      "trackable": "Stats screen (unconfirmed exact layout).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap",
+        "https://gtaintel.com/news/san-andreas-cj-stats-explained",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Fat",
+      "detail": "Raised by eating at fast food (approx light 0, low ~1%, medium ~2%, high ~3.5%); lowered by running/gym machines. 'I'll Have Two Number 9s' = reach max fat via large meals.",
+      "trackable": "Stats screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gtaintel.com/news/san-andreas-cj-stats-explained",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Muscle",
+      "detail": "Gyms and running/swimming/cycling. Needs >=35% for gym trainers to fight you. Each gym teaches 3 fighting moves. 'Get a Pump' = one barbell curl or bench press at any gym. Muscle burns off if fat is zero and CJ stops eating.",
+      "trackable": "Stats screen; gym moves learned are NOT shown in stats menu (per a PowerPyx comment).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/",
+        "https://gtaintel.com/news/san-andreas-cj-stats-explained",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Stamina and Lung Capacity",
+      "detail": "Stamina by swimming/running/cycling/gym; lung capacity by underwater swimming. Collecting all 50 Oysters maxes lung capacity. Burglar side mission giving infinite stamina is single-source claim.",
+      "trackable": "Stats screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gtaintel.com/news/san-andreas-cj-stats-explained",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Weapon skills",
+      "detail": "'Swiss Army Strife' requires maxing all 10 eligible weapon skills to Hitman (PowerPyx); gtabase says 'all weapon skills'. Each Ammu-Nation shooting challenge gives 200 skill in its weapon.",
+      "trackable": "Stats screen (skill levels).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "stat",
+      "name": "Vehicle skills (driving, bike, cycling, flying, boat) and schools",
+      "detail": "Cycling skill >20% for BMX challenge (60%+ recommended, 'Bike or Biker'), >40% for Chiliad Challenge. Driving skill >=20% for 8-Track. 100% requires bronze in Driving School (12 lessons), Boat School (5), Bike School (6), Flying School (10; bronze done during 'Learning to Fly').",
+      "trackable": "Stats screen for skill percentages; school medals appear in school menus.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Collectibles (required for 100%)",
+      "detail": "100 Gang Tags (Los Santos), 50 Snapshots (San Fierro), 50 Horseshoes (Las Venturas), 50 Oysters (underwater). Rewards: tags unlock weapons at Johnson House; snapshots weapons at Doherty Garage + $100,000; horseshoes weapons at Four Dragons Casino + $100,000; oysters $100,000 + max lung + girlfriends date regardless of appearance. Note: 70 Unique Jumps are NOT required for 100%.",
+      "trackable": "Stats screen collectible counters (assumed from original; DE-specific display not confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "completion",
+      "name": "100% completion ('Remastered')",
+      "detail": "Requires 98 Story Missions and 26 Asset Missions plus other items. Reward: $1,000,000, full ammo, Hydra at Sweet's house, Rhino under Grove Street bridge, and the 'Remastered' trophy. Users report getting stuck at 99.47% (unbought Palomino Creek property, unfinished Chiliad Challenge race, Blood Bowl, Millie heist) - unverified.",
+      "trackable": "Stats menu shows completion percentage (implied by user reports of 99.47%).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Who Needs Directions? (Mike Toreno mission)",
+      "detail": "Drive to Easter Basin Airport in San Fierro ignoring hints. Missable per PowerPyx. Missions cannot be replayed (GamerGuides).",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap",
+        "https://www.gamerguides.com/grand-theft-auto-san-andreas-the-definitive-edition/xbox-achievements/roadmap"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "They Can't Stop All of Us (Black Project mission)",
+      "detail": "Infiltrate underground base without triggering the above-ground alarm; pops after mission end. Missable.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Assassin (Madd Dogg's Rhymes mission)",
+      "detail": "Stealth-kill every guard in the mansion section unseen; pops on leaving mansion. Missable.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Gang territories lost after leaving Los Santos",
+      "detail": "All held turfs are lost when first leaving Los Santos; after 'Home Coming' they must be recaptured. 53 turfs total. 'Ain't Nothing But a G Thing' requires all turfs, all properties, and $1,000,000. Capturing turfs early is wasted effort. Turfs are NOT required for 100% completion.",
+      "trackable": "Map shows turf ownership; exact turf counter unconfirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "girlfriend",
+      "name": "Girlfriends / 'Not a Player'",
+      "detail": "6 potential girlfriends per PowerPyx. Trophy pops when the 6th date starts. Dating Katie Zhan lets you keep weapons on death. Girlfriend relationships to 100% not required for 100% completion.",
+      "trackable": "Girlfriend percentages in Stats screen (original game feature; DE not confirmed).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "rng",
+      "name": "Gambling achievements",
+      "detail": "Lucky Spinner: win $1,000+ on one Wheel of Fortune spin (max bet $10). What are the Odds: win one Inside Track race (save before betting). Double or Nothin': bet table max on red/black at roulette until win. All save-scumming friendly.",
+      "trackable": "Gambling skill listed in stats (gtaintel); no per-bet counter confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "challenge",
+      "name": "Today Was a Good Day",
+      "detail": "Go 24 in-game hours without breaking the law, being wanted, or harming anyone.",
+      "trackable": "none known",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    },
+    {
+      "category": "achievement-list",
+      "name": "48 achievements (full list)",
+      "detail": "Per gta.wiki: Getting Started, With Extra Dip, The End of the Line, Hoopin' it Up, A Legitimate Business, I'll Have Two Number 9s, The American Dream, Pay 'n' Spray, Bike or Biker, Who Needs Directions?, Liberty City State of Mind, Swiss Army Strife, School's Out, Horror of the Santa Maria, They Can't Stop All of Us, Smooth Moves, What the City Needs, Savior, Rescue a Kitten Too?, Yes I Speak English, Lucky Spinner, What happens in Las Venturas..., All Dressed Up for San Fierro, Not a Player, What are the Odds, Double or Nothin', Assassin, Original Gangster, Today Was a Good Day, Public Enemy No. 1, Chick Magnet, Ain't Nothing But a G Thing, Remastered, ...Here we go again, I Ain't No Buster, Sticky Fingers, 81 Years Too Late, Get a Pump, Beat the Cock, Metrosexual, Where'd He Go?, High As a Kite, Represent, Assert Yourself Next Time, Serial Offender, Freight Date, Time to Kill, Lots of Guns. Split across platforms: 35 PlayStation trophies (1 Plat/5 Gold/8 Silver/21 Bronze), 34 Xbox achievements, 13 extra Rockstar Social Club accomplishments (PC) = 48 total.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_San_Andreas",
+        "https://www.gtabase.com/gta-san-andreas/achievements-trophies-list-definitive-edition",
+        "https://www.powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"
+      ]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Percentage completed (100% flag)",
+      "where": "Stats menu (Pause > Stats), per commenters on PowerPyx; people report values like 99.47% and 96.79% in the DE, confirming a numeric percent exists",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Missions completed counter",
+      "where": "Believed to be in Stats (original game shows 'Missions Completed'); not verified for DE",
+      "confidence": "low"
+    },
+    {
+      "stat": "Overall completion percentage",
+      "where": "Pause menu > Stats (Stats screen). Reader comment says it shows overall % but not gym moves or Chiliad times.",
+      "confidence": "low"
+    },
+    {
+      "stat": "Per-stat progress bars (respect, sex appeal, muscle, fat, stamina, lung capacity, skills)",
+      "where": "Pause menu > Stats (one weak source, gtaintel/generic; consistent with original game)",
+      "confidence": "low"
+    },
+    {
+      "stat": "Overall completion percentage",
+      "where": "Stats menu (implied by PowerPyx user reports of being stuck at 99.47%)",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Gym moves learned and Chiliad Challenge times",
+      "where": "NOT shown in Stats menu (PowerPyx user comment)",
+      "confidence": "low"
+    },
+    {
+      "stat": "Completion percentage (drives 'Remastered')",
+      "where": "In-game stats/pause menu (original SA feature; not re-verified in this scout)",
+      "confidence": "low"
+    },
+    {
+      "stat": "Respect, fat, sex appeal, weapon skills, vigilante/paramedic/firefighter levels, taxi fares",
+      "where": "Stats menu in original game (not re-verified here)",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "Achievement list differs per platform: Xbox/PlayStation/PC DE have 34-35 achievements/trophies (1 Platinum 'I Ain't No Buster'), and PC adds 13 Rockstar Social Club-only accomplishments (48 total per gta.wiki). Switch has no in-system achievements/trophies as far as searched; not explicitly confirmed. A Switch 2 upgrade/edition was NOT found in search.",
+      "confidence": "low"
+    },
+    {
+      "note": "DE added mission-specific achievement conditions (stealth kills, alarm avoidance, finding Toreno) not in the 2004 original.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch version launched 11 Nov 2021 (Trilogy), with gyro aiming and touchscreen support.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch has no native trophy system; the lists above are Xbox/PlayStation/Social Club style. Cheats disable achievements/trophies on PS/Xbox/PC. Whether the Switch version has any in-game achievement tracking was NOT confirmed.",
+      "confidence": "low"
+    },
+    {
+      "note": "Switch version has gyro aiming and touch controls; heavier performance/visual downgrade than PS4. Reader comment mentions a Switch-specific gym-training bug (unverified).",
+      "confidence": "low"
+    },
+    {
+      "note": "Latest Switch patch found is 1.0.7 (Perfectly Nintendo); notes cover stability and mission fixes only.",
+      "confidence": "medium"
+    },
+    {
+      "note": "No native Nintendo Switch achievement system exists, and no source found says the Switch version has any achievements/trophies/Social Club accomplishments. Rockstar's 2021 release said updated Achievements/Trophies exist for the trilogy and that PC gets additional Social Club accomplishments; Switch version feature list names only gyro aiming and touch screen. Treat Switch having ZERO in-game achievements as likely but UNCONFIRMED.",
+      "confidence": "low"
+    },
+    {
+      "note": "No Switch 2 Edition of the GTA Trilogy found as of Oct 2026. Switch 2 runs the original Switch release via backward compatibility (Sportskeeda: Rockstar titles incl. the Trilogy work; claims steadier 30fps, faster loading, 720p - single secondary source). Red Dead Redemption got a dedicated Switch 2 version in Dec 2025 but not the Trilogy. Nintendo's own eShop page lists no Switch 2 Edition.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch-specific: gyro aiming and touch screen camera/menu support. Launch Switch version had very poor performance (VGC 2/5, ~20fps dips); Nintendo Life later checked patch improvements (conclusion not read).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Local 2-player co-op from the original console versions was removed in the DE (Den of Geek, Cheat Code Central, Sportskeeda).",
+      "confidence": "high"
+    },
+    {
+      "note": "Songs cut from DE radio: counts disagree - 17 (Nintendo Wire/GTAIntel) vs 21 (Sportskeeda). Cuts largely predate the DE (rights lapsed in earlier releases). Cut music reportedly remained on disk in PC files (unverified).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Interiors: original reportedly 150+ hidden interiors vs ~33 in DE (single source, GTAIntel, suspect). Some cheats dropped. Some haircut options missing. Analog steering removed, fewer civilians/vehicles. Weapons are kept after death. Mid-mission checkpoint restart added.",
+      "confidence": "low"
+    },
+    {
+      "note": "PowerPyx recommends Performance mode over Fidelity because some cutscenes may crash in Fidelity (PS-focused; Switch has no such modes presumably).",
+      "confidence": "low"
+    },
+    {
+      "note": "Cheats disable trophies/achievements (PowerPyx).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Xbox list is the same 34 achievements as PS minus the Platinum (no platinum on Xbox). Xbox gamerscore per GTABase/GTA Wiki: 34 entries totalling 1000 (GTABase lists values: 10,5,25,15,40,25,15,15,20,40,25,50,40,5,40,10,40,45,40,45,10,25,25,25,10,25,25,35,45,25,25,50,100,25). Total 35 on PS, 34 on Xbox.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Social Club has 13 additional 'accomplishments' (Sticky Fingers, 81 Years Too Late, Get a Pump, Beat the Cock, Metrosexual, Where'd He Go?, High As a Kite, Represent, Assert Yourself Next Time, Serial Offender, Freight Date, Time to Kill, Lots of Guns) that are NOT trophies/achievements. GTABase's '48' count includes them.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Per PowerPyx: no save transfer from original/other versions on PS4/PS5.",
+      "confidence": "low"
+    },
+    {
+      "note": "Switch/Switch 2 versions have no native trophies; PS list is the reference.",
+      "confidence": "medium"
+    }
+  ],
+  "scoutGaps": {
+    "a": [
+      "Could not confirm exact story mission count; sources give 90, 98, 100, 101, 104, 105. Section counts from gta.wiki sum to 105.",
+      "Could not confirm what the Stats menu displays in DE beyond a completion percent (missions completed counter, per-category counts unverified).",
+      "Could not retrieve the percentage weighting breakdown (fandom blocked 402).",
+      "Could not confirm any Switch/Switch 2 achievement system; no source found for Switch 2 edition.",
+      "Could not confirm whether DE has a mission replay feature that allows retrying the three conditional achievement missions, or whether they are missable.",
+      "Could not determine which Countryside missions are optional (Sportskeeda says 14 optional of 100 but gave no list).",
+      "Could not confirm whether gta.wiki's arc grouping (e.g. Yay Ka-Boom-Boom under San Fierro) matches in-game gating; Wikipedia only gives a summary.",
+      "Race tournament count inconsistent within PowerPyx (19 vs 16).",
+      "Green Goo, Don Peyote, Breaking the Bank at Caligula's details not verified beyond mission names."
+    ],
+    "b": [
+      "Could not confirm where the in-game Stats menu shows tags, snapshots, horseshoes, oysters, unique stunt jumps counts (sections and exact labels). Original game stats page shows 'Tags Sprayed', 'Snapshots Taken', 'Horseshoes Collected', 'Oysters Found', 'Unique Stunt Jumps' (recalled, low).",
+      "StrategyWiki checklist returned 403; reliant on PowerPyx alone for 100% details (single source).",
+      "Did not confirm gang territory total, girlfriend list, burglary/ valet/ trucking details beyond PowerPyx, casino stats, or gang-war count.",
+      "Did not confirm the Switch version differs in collectible counts or has any exclusive/missing content.",
+      "Whether 'double vehicle strength' reward is accurate (original game gave this? unverified).",
+      "Rewards for tags/snapshots/horseshoes/oysters: exact weapon lists vary in sources; PowerPyx table merged."
+    ],
+    "c": [
+      "Could NOT confirm whether the Switch version has any in-game achievements, or whether Social Club accomplishments sync on Switch. Needs an authoritative source (Rockstar Support / Switch player reports).",
+      "Could NOT confirm if a native Switch 2 Edition exists; none found (searched up to Oct 2026). Compat claims are from secondary sources.",
+      "Did not obtain the exact layout of the DE Stats menu (which stats shown, counters for tags/snapshots/horseshoes/oysters, turfs owned, girlfriend percentages). Original SA shows these; DE unverified.",
+      "Girlfriend count: PowerPyx says 6 dates for the trophy; original game has 6 (Denise, Michelle, Helena, Barbara, Katie, Millie). Names not confirmed here.",
+      "Max values for each stat (e.g. exact respect/sex appeal thresholds) and decay rules not confirmed.",
+      "Whether gambling skill is displayed in the DE Stats menu not confirmed.",
+      "Count of missable story missions beyond the 3 trophy ones, and other lost content after story points (besides turfs) not researched in depth.",
+      "Gta.fandom and GamerGuides/PushSquare pages returned errors, so no wiki cross-check of stats."
+    ],
+    "native": [
+      "psnprofiles, truetrophies, trueachievements, playstationtrophies.org, gamerguides, progameguides all returned 403 or were not retrieved; PS list built from PowerPyx (tier totals, missables), GTABase and GTA Wiki (per-entry tiers). Descriptions came through a summarizing fetch, so wording may be lightly paraphrased; treat exact punctuation as unverified.",
+      "Per-trophy tiers rely on GTABase/GTA Wiki; they match PowerPyx totals 1/5/8/21 and the 4 Gold + 2 Bronze tiers PowerPyx names explicitly, but PS-specific tiers were not seen on a PS-native site.",
+      "Savior vs Saviour spelling unresolved.",
+      "Whether the game displays a completion percentage and other stat counters was not verified in this pass.",
+      "The 3 missable trophies: whether mission replay can re-earn them was not verified.",
+      "Differences in descriptions between Xbox and PS lists could not be checked on Xbox-native sites."
+    ]
+  }
+}

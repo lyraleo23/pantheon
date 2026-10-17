@@ -1,0 +1,66 @@
+{
+  "beat": "native list",
+  "game": "Grand Theft Auto: San Andreas - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (native source: PS4/PS5 trophies, cross-checked with Xbox)",
+  "tierTotals": {"platinum": 1, "gold": 5, "silver": 8, "bronze": 21, "total": 35, "confidence": "high", "note": "PowerPyx states 1/5/8/21 = 35; my own tally of GTABase per-entry tiers independently gives the same totals."},
+  "nativeList": [
+    {"name": "Getting Started", "description": "Complete Big Smoke.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "With Extra Dip", "description": "Buy 8 meals from Cluckin' Bell throughout the game.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "The End of the Line", "description": "Complete End of the Line.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Hoopin' it Up", "description": "Score at least 30 points in the basketball mini-game.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "A Legitimate Business", "description": "Export all three car lists.", "tier": "Silver", "confidence": "medium"},
+    {"name": "I'll Have Two Number 9s", "description": "Reach maximum weight.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "The American Dream", "description": "Purchase any house.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Pay 'n' Spray", "description": "Use a Pay 'n' Spray with a wanted level.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Bike or Biker", "description": "Complete either the BMX or NRG challenge.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Who Needs Directions?", "description": "Find Mike Toreno without any of the referenced locations during Mike Toreno.", "tier": "Bronze", "confidence": "medium", "missable": true},
+    {"name": "Liberty City State of Mind", "description": "Complete the Saint Mark's Bistro mission.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Swiss Army Strife", "description": "Max all weapon skills.", "tier": "Gold", "confidence": "medium"},
+    {"name": "School's Out", "description": "Fully complete a vehicle school.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Horror of the Santa Maria", "description": "Drown.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "They Can't Stop All of Us", "description": "Sneak into the underground base without setting off the alarm above ground during Black Project.", "tier": "Gold", "confidence": "medium", "missable": true},
+    {"name": "Smooth Moves", "description": "Perform a perfect dance routine.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "What the City Needs", "description": "Complete 12 levels of Vigilante.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Savior", "description": "Complete 12 levels of Paramedic.", "tier": "Silver", "confidence": "medium", "note": "PowerPyx spells it 'Saviour'; GTABase/GTA Wiki 'Savior'. Spelling unresolved."},
+    {"name": "Rescue a Kitten Too?", "description": "Complete 12 levels of Firefighter.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Yes I Speak English", "description": "Complete 50 fares in the Taxi Driver side mission (PowerPyx wording: Reach 50 fares in Taxi Mode).", "tier": "Silver", "confidence": "medium"},
+    {"name": "Lucky Spinner", "description": "Win at least $1,000 in a single spin of the Wheel of Fortune.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "What happens in Las Venturas...", "description": "Complete Yay Ka-Boom-Boom.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "All Dressed Up for San Fierro", "description": "Complete The Green Sabre.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Not a Player", "description": "Go on at least one date with every potential girlfriend.", "tier": "Silver", "confidence": "medium"},
+    {"name": "What are the Odds", "description": "Win a race in Inside Track betting.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Double or Nothin'", "description": "Put all your money or the maximum bet on red or black and win.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Assassin", "description": "Stealth kill all enemies in the mission Madd Dogg's Rhymes.", "tier": "Bronze", "confidence": "medium", "missable": true},
+    {"name": "Original Gangster", "description": "Reach maximum respect.", "tier": "Silver", "confidence": "medium"},
+    {"name": "Today Was a Good Day", "description": "Go 24 hours (in game) without breaking the law, being wanted, killing or harming anyone.", "tier": "Gold", "confidence": "medium"},
+    {"name": "Public Enemy No. 1", "description": "Reach six wanted stars.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Chick Magnet", "description": "Achieve maximum sex appeal.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "Ain't Nothing But a G Thing", "description": "Own all gang warfare turfs, properties and have $1,000,000.", "tier": "Gold", "confidence": "medium"},
+    {"name": "Remastered", "description": "Earn 100% completion.", "tier": "Gold", "confidence": "medium"},
+    {"name": "...Here we go again", "description": "Start a new game after getting 100% on a save file.", "tier": "Bronze", "confidence": "medium"},
+    {"name": "I Ain't No Buster", "description": "Unlock all trophies.", "tier": "Platinum", "confidence": "medium"}
+  ],
+  "findings": [
+    {"category": "missable", "name": "Three missable trophies", "detail": "Who Needs Directions? (Mike Toreno mission), They Can't Stop All of Us (Black Project), Assassin (Madd Dogg's Rhymes). Missions are replayable via mission replay, but PowerPyx says 100% checklist has nothing missable for 100%.", "missable": true, "confidence": "medium", "sources": ["https://powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap", "https://www.powerpyx.com/gta-san-andreas-definitive-100-completion-guide-checklist/"]},
+    {"category": "rule", "name": "Cheats disable trophies", "detail": "Per PowerPyx, cheats disable all trophies in this version.", "missable": false, "confidence": "medium", "sources": ["https://powerpyx.com/gta-san-andreas-definitive-edition-trophy-guide-roadmap"]},
+    {"category": "stat", "name": "Gang tags", "detail": "100 tag locations (PowerPyx tag guide); first 6 auto-collected in Tagging Up Turf.", "missable": false, "confidence": "low", "sources": ["PowerPyx search snippet only"]}
+  ],
+  "trackableStats": [
+    {"stat": "Completion percentage (drives 'Remastered')", "where": "In-game stats/pause menu (original SA feature; not re-verified in this scout)", "confidence": "low"},
+    {"stat": "Respect, fat, sex appeal, weapon skills, vigilante/paramedic/firefighter levels, taxi fares", "where": "Stats menu in original game (not re-verified here)", "confidence": "low"}
+  ],
+  "versionNotes": [
+    {"note": "Xbox list is the same 34 achievements as PS minus the Platinum (no platinum on Xbox). Xbox gamerscore per GTABase/GTA Wiki: 34 entries totalling 1000 (GTABase lists values: 10,5,25,15,40,25,15,15,20,40,25,50,40,5,40,10,40,45,40,45,10,25,25,25,10,25,25,35,45,25,25,50,100,25). Total 35 on PS, 34 on Xbox.", "confidence": "medium"},
+    {"note": "Social Club has 13 additional 'accomplishments' (Sticky Fingers, 81 Years Too Late, Get a Pump, Beat the Cock, Metrosexual, Where'd He Go?, High As a Kite, Represent, Assert Yourself Next Time, Serial Offender, Freight Date, Time to Kill, Lots of Guns) that are NOT trophies/achievements. GTABase's '48' count includes them.", "confidence": "medium"},
+    {"note": "Per PowerPyx: no save transfer from original/other versions on PS4/PS5.", "confidence": "low"},
+    {"note": "Switch/Switch 2 versions have no native trophies; PS list is the reference.", "confidence": "medium"}
+  ],
+  "gaps": [
+    "psnprofiles, truetrophies, trueachievements, playstationtrophies.org, gamerguides, progameguides all returned 403 or were not retrieved; PS list built from PowerPyx (tier totals, missables), GTABase and GTA Wiki (per-entry tiers). Descriptions came through a summarizing fetch, so wording may be lightly paraphrased; treat exact punctuation as unverified.",
+    "Per-trophy tiers rely on GTABase/GTA Wiki; they match PowerPyx totals 1/5/8/21 and the 4 Gold + 2 Bronze tiers PowerPyx names explicitly, but PS-specific tiers were not seen on a PS-native site.",
+    "Savior vs Saviour spelling unresolved.",
+    "Whether the game displays a completion percentage and other stat counters was not verified in this pass.",
+    "The 3 missable trophies: whether mission replay can re-earn them was not verified.",
+    "Differences in descriptions between Xbox and PS lists could not be checked on Xbox-native sites."
+  ]
+}

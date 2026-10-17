@@ -1,0 +1,418 @@
+{
+  "game": {
+    "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
+    "mode": "port",
+    "sourcePlatform": "PlayStation 4/5",
+    "developer": "Grapeshot Games / Rockstar Games",
+    "publisher": "Rockstar Games",
+    "genre": "Open-world action",
+    "releaseYear": 2021,
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+    "slug": "gta-san-andreas-definitive",
+    "code": "GTASADE",
+    "nativeCount": 35,
+    "estimatedDifficulty": 5,
+    "estimatedHours": "60-80h",
+    "notes": "Port Mode from the PS4/PS5 list (35 trophies: 1 Platinum, 5 Gold, 8 Silver, 21 Bronze). The paramedic trophy name is spelled 'Savior' (gtabase/gta.wiki; PowerPyx has 'Saviour'). Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. CJ's attribute bars (fat, respect, sex appeal) and weapon skill levels are read from the Stats menu (medium confidence, accepted at checkpoint). Collectibles (tags, snapshots, horseshoes, oysters) have no dedicated trophy: no counter is confirmed and Remastered (100%) already requires them. Ain't Nothing But a G Thing is a judgment call kept on the strength of the territory map, the game's own turf display. Local 2-player co-op from the original release is absent from the Definitive Edition; no trophy references it. Gang turfs captured early are lost when CJ first leaves Los Santos and must be retaken after the return, which is why Ain't Nothing But a G Thing is effectively post-story. Validator warning on Bike or Biker is a false positive: it is a single run whose checkpoints are shown on screen, not a cumulative total."
+  },
+  "trophies": [
+    {
+      "id": "GTASADE-001",
+      "name": "Getting Started",
+      "description": "Complete 'Big Smoke'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Big Smoke' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Getting Started"
+    },
+    {
+      "id": "GTASADE-002",
+      "name": "All Dressed Up for San Fierro",
+      "description": "Complete 'The Green Sabre'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'The Green Sabre' shows Mission Passed.",
+      "missable": false,
+      "secret": true,
+      "origin": "native-playstation",
+      "originId": "All Dressed Up for San Fierro"
+    },
+    {
+      "id": "GTASADE-003",
+      "name": "Who Needs Directions?",
+      "description": "In 'Mike Toreno', find Toreno without using any of the referenced locations. ⚠️ MISSABLE",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "CJ drives straight to Toreno at Easter Basin without first visiting any location the mission points out, and Mission Passed appears.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Who Needs Directions?"
+    },
+    {
+      "id": "GTASADE-004",
+      "name": "Assassin",
+      "description": "Stealth-kill every enemy in 'Madd Dogg's Rhymes'. ⚠️ MISSABLE",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "No guard spots CJ, and every guard in the mansion dies to a stealth kill before Mission Passed.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Assassin"
+    },
+    {
+      "id": "GTASADE-005",
+      "name": "What happens in Las Venturas...",
+      "description": "Complete 'Yay Ka-Boom-Boom'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Yay Ka-Boom-Boom' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "What happens in Las Venturas..."
+    },
+    {
+      "id": "GTASADE-006",
+      "name": "They Can't Stop All of Us",
+      "description": "During 'Black Project', reach the underground base without setting off the alarm above ground. ⚠️ MISSABLE",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "CJ enters the underground base with no alarm triggered on the surface.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "They Can't Stop All of Us"
+    },
+    {
+      "id": "GTASADE-007",
+      "name": "Breaking the Bank",
+      "description": "Complete 'Breaking the Bank at Caligula's'.",
+      "tier": "silver",
+      "type": "story",
+      "verification": "'Breaking the Bank at Caligula's' shows Mission Passed.",
+      "missable": false,
+      "secret": true,
+      "origin": "original"
+    },
+    {
+      "id": "GTASADE-008",
+      "name": "Liberty City State of Mind",
+      "description": "Complete 'Saint Mark's Bistro'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Saint Mark's Bistro' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Liberty City State of Mind"
+    },
+    {
+      "id": "GTASADE-009",
+      "name": "The End of the Line",
+      "description": "Complete 'End of the Line'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'End of the Line' ends and the credits roll.",
+      "missable": false,
+      "secret": true,
+      "origin": "native-playstation",
+      "originId": "The End of the Line"
+    },
+    {
+      "id": "GTASADE-010",
+      "name": "The American Dream",
+      "description": "Purchase any house.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The purchased property becomes a save point marked on the map.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "The American Dream"
+    },
+    {
+      "id": "GTASADE-011",
+      "name": "Pay 'n' Spray",
+      "description": "Use a Pay 'n' Spray while wanted.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The wanted stars disappear from the HUD as the car leaves the Pay 'n' Spray.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Pay 'n' Spray"
+    },
+    {
+      "id": "GTASADE-012",
+      "name": "Public Enemy No. 1",
+      "description": "Reach a six-star wanted level.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Six wanted stars are lit on the HUD.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Public Enemy No. 1"
+    },
+    {
+      "id": "GTASADE-013",
+      "name": "I'll Have Two Number 9s",
+      "description": "Reach maximum fat.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Fat bar in the Stats menu is full and CJ is visibly at his heaviest.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "I'll Have Two Number 9s"
+    },
+    {
+      "id": "GTASADE-014",
+      "name": "Chick Magnet",
+      "description": "Reach maximum sex appeal.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Sex Appeal bar in the Stats menu is full.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Chick Magnet"
+    },
+    {
+      "id": "GTASADE-015",
+      "name": "Original Gangster",
+      "description": "Reach maximum respect.",
+      "tier": "silver",
+      "type": "mechanic",
+      "verification": "The Respect bar in the Stats menu is full.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Original Gangster"
+    },
+    {
+      "id": "GTASADE-016",
+      "name": "Swiss Army Strife",
+      "description": "Max out every weapon skill.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Every weapon skill in the Stats menu shows the top 'Hitman' level.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Swiss Army Strife"
+    },
+    {
+      "id": "GTASADE-017",
+      "name": "Hoopin' it Up",
+      "description": "Score at least 30 points in the basketball minigame.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The on-screen basketball score reaches 30.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Hoopin' it Up"
+    },
+    {
+      "id": "GTASADE-018",
+      "name": "Smooth Moves",
+      "description": "Perform a perfect dance routine.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The dance minigame's on-screen rating marks the routine as perfect.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Smooth Moves"
+    },
+    {
+      "id": "GTASADE-019",
+      "name": "Bike or Biker",
+      "description": "Complete either the BMX Challenge or the NRG-500 Challenge.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The challenge ends with its completion message after the last checkpoint.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Bike or Biker"
+    },
+    {
+      "id": "GTASADE-020",
+      "name": "What are the Odds",
+      "description": "Win a race in Inside Track betting.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The Inside Track result screen pays out on your horse.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "What are the Odds"
+    },
+    {
+      "id": "GTASADE-021",
+      "name": "Double or Nothin'",
+      "description": "Put all your money or the table maximum on red or black at roulette and win.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The roulette result pays out on the maximum bet.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Double or Nothin'"
+    },
+    {
+      "id": "GTASADE-022",
+      "name": "School's Out",
+      "description": "Pass every lesson of one vehicle school with at least a bronze medal.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The school's lesson board shows a medal on every lesson.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "School's Out"
+    },
+    {
+      "id": "GTASADE-023",
+      "name": "A Legitimate Business",
+      "description": "Export every vehicle on all three export lists.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The final export of the third list completes with its payout and completion message.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "A Legitimate Business"
+    },
+    {
+      "id": "GTASADE-024",
+      "name": "What the City Needs",
+      "description": "Complete Vigilante level 12 in a single run.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The on-screen Vigilante level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "What the City Needs"
+    },
+    {
+      "id": "GTASADE-025",
+      "name": "Savior",
+      "description": "Complete Paramedic level 12 in a single run.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The on-screen Paramedic level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Savior"
+    },
+    {
+      "id": "GTASADE-026",
+      "name": "Rescue a Kitten Too?",
+      "description": "Complete Firefighter level 12 in a single run.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The on-screen Firefighter level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Rescue a Kitten Too?"
+    },
+    {
+      "id": "GTASADE-027",
+      "name": "Not a Player",
+      "description": "Go on at least one date with every potential girlfriend: Denise, Michelle, Helena, Katie, Barbara and Millie.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Each of the six girlfriends has started a date with CJ; the six are named, so the checklist needs no counter.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Not a Player"
+    },
+    {
+      "id": "GTASADE-028",
+      "name": "Ain't Nothing But a G Thing",
+      "description": "Own every gang territory and property, and hold $1,000,000.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "The pause map shows every gang territory in Grove Street green, every purchasable property has been bought (each becomes a save point), and the HUD shows $1,000,000 or more.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Ain't Nothing But a G Thing"
+    },
+    {
+      "id": "GTASADE-029",
+      "name": "Remastered",
+      "description": "Earn 100% completion.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "Pause > Stats shows 100% completion.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Remastered"
+    },
+    {
+      "id": "GTASADE-030",
+      "name": "Grove Street for Life",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "excluded": [
+    {
+      "originId": "I Ain't No Buster",
+      "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
+      "rule": 18
+    },
+    {
+      "originId": "With Extra Dip",
+      "reason": "Cumulative 8 Cluckin' Bell meals — no in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Horror of the Santa Maria",
+      "reason": "Drown — arbitrary action with no experiential value.",
+      "rule": 10
+    },
+    {
+      "originId": "Today Was a Good Day",
+      "reason": "24 in-game hours without crime or harming anyone — the game does not track the clean streak.",
+      "rule": 1
+    },
+    {
+      "originId": "...Here we go again",
+      "reason": "Start a new game after 100% — arbitrary action that discards the completed save.",
+      "rule": 10
+    },
+    {
+      "originId": "Yes I Speak English",
+      "reason": "50 taxi fares accumulated across sessions - no confirmed fare counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Lucky Spinner",
+      "reason": "Win $1,000+ on one $10 Wheel of Fortune spin — needs the rare top payout; low-probability luck pushes save-reload loops.",
+      "rule": 21
+    }
+  ]
+}
