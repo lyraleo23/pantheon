@@ -1,0 +1,39 @@
+{
+  "beat": "collectibles_side_content",
+  "game": "Grand Theft Auto III - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (Switch version)",
+  "findings": [
+    {"category":"collectible","name":"Hidden Packages","detail":"100 total. Every 10 collected spawns a pickup at safehouses: 10 Pistol, 20 Uzi, 30 Grenades, 40 Shotgun, 50 Body Armor, 60 Molotov Cocktails, 70 AK-47, 80 Sniper Rifle, 90 M16, 100 Rocket Launcher + $1,000,000. Required for 100%.","trackable":"Presumed in Stats menu (not directly confirmed in this research).","missable":false,"confidence":"high","sources":["https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition","https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"]},
+    {"category":"collectible","name":"Rampages","detail":"20 total, all required for 100%. Failing one moves it to a secondary location. Timed (2 min) kill challenges. Gangs becoming hostile later makes them harder.","trackable":"UNCONFIRMED. A PowerPyx commenter claims rampages are not shown in Stats.","missable":false,"confidence":"high","sources":["https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/","https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III"]},
+    {"category":"collectible","name":"Unique Stunt Jumps","detail":"20 total: 8 Portland, 4 Staunton Island, 8 Shoreside Vale. Required for 100%.","trackable":"Unconfirmed where shown.","missable":false,"confidence":"high","sources":["https://gameplay.tips/guides/gta-3-100-all-hidden-package-stunt-rc-rampage-missions-and-body-armor-locations.html","https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"]},
+    {"category":"side_activity","name":"Firefighter","detail":"60 fires total (20 per island) for 100%. Extinguish 15 in one attempt is a separate PS trophy ('Splish Splash'). Reward claimed: flamethrower (PowerPyx).","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"side_activity","name":"Paramedic","detail":"Reach level 12 for 100%. Level 8: health pickup at safehouses; Level 12: infinite sprint; 78 patients: adrenaline pickup (gtabase only).","trackable":"Level shown in-game during mission","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"side_activity","name":"Vigilante","detail":"60 criminals total (20 per island) for 100%. Reward: 6 police bribes at safehouses after 20 per island (gtabase wording).","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"side_activity","name":"Taxi Driver","detail":"100 fares. Reward: Borgnine Taxi spawn at Borgnine Taxis.","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"side_activity","name":"Off-road missions (4)","detail":"A Ride in the Park, Gripped!, Multistorey Mayhem, Patriot Playground.","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase"]},
+    {"category":"side_activity","name":"RC missions (4)","detail":"Via TOYZ vans. Only one car needed per mission. Required for 100%.","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"side_activity","name":"Pay phone missions (17)","detail":"Portland: 8 (El Burro 'Turismo' etc. and Marty Chonks); Staunton: 4 (King Courtney, ends 'Kingdom Come'); Shoreside Vale: 5 (D-Ice). Marty Chonks phone has no blip, outside his Trenton factory, rings 9:00-19:00.","trackable":"Unconfirmed","missable":true,"confidence":"medium","sources":["gtabase"]},
+    {"category":"side_activity","name":"Import/Export lists (3)","detail":"Three vehicle lists across garages (Portland Docks x2, Pike Creek / Shoreside Vale; sources inconsistent on garage naming). Completing all three lets you import any vehicle free. Required for 100%. Exact vehicle lists NOT collected. Delivering 10 Securicars to Portland Harbor garage is not required for 100%.","trackable":"Unconfirmed","missable":false,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"completion","name":"100% completion composition","detail":"Per PowerPyx: 48 story missions, 17 pay phone, 4 off-road, 4 RC, 4 vehicle (Paramedic/Firefighter/Vigilante/Taxi), 3 import/export lists, 20 rampages, 20 unique jumps, 100 packages. gtabase says 50 story missions; conflict (48 vs 50).","trackable":"Pause menu Stats shows overall completion percentage (gtabase).","missable":true,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"missable","name":"Story-order missables","detail":"Finish all Joey and Luigi missions before 'Last Requests' (Salvatore); all Kenji missions before 'Waka-Gashira Wipeout!'; Asuka through 'Two-Faced Tanner' before 'Grand Theft Aero'. Gangs turn hostile later making collectibles harder. D-Ice phone missions removing Purple Nines persists into new playthrough (glitch; delete saves).","trackable":"n/a","missable":true,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"bug","name":"Is That All You've Got? glitch","detail":"If 'Kingdom Come' is the last remaining item, 100% trophy may not unlock despite stats showing 100%. Leave another objective last. Reported on PS; Switch status unknown.","trackable":"n/a","missable":true,"confidence":"medium","sources":["gtabase","powerpyx"]},
+    {"category":"trophy_context","name":"Related PS/Xbox achievements (collectible-linked)","detail":"Liberty City Secrets (100 packages), Wheels Up (20 unique jumps), Wreckless Driving (perfect insane stunt), Instigator (10 rampages), Blood in the Streets (all 20 rampages) [Xbox/Social Club list], Man Toyz (4 RC), Where To? (100 fares), Playing Doctor (paramedic L12 in one sitting), Splish Splash (15 fires in one attempt), Going Rogue (15 criminals in one vigilante attempt), Furious First Responder (complete Paramedic, Firefighter, Vigilante). PowerPyx lists 29 PS trophies; gta.wiki says 43 other Social Club achievements on DE.","trackable":"n/a","missable":false,"confidence":"medium","sources":["https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III","https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"]}
+  ],
+  "trackableStats": [
+    {"stat":"Overall completion percentage","where":"Pause Menu > Stats","confidence":"medium"},
+    {"stat":"Rampages completed","where":"Reportedly NOT shown in Stats (commenter claim)","confidence":"low"}
+  ],
+  "versionNotes": [
+    {"note":"No Switch-specific differences in these collectibles were found; sources cover PS/Xbox/PC DE generally. Counts (100/20/20) match the original game.","confidence":"medium"},
+    {"note":"Frequent crashes reported in DE; save often.","confidence":"medium"}
+  ],
+  "gaps": [
+    "Which Stats-menu lines exist for packages, jumps, rampages, fires, criminals, fares, patients: not confirmed. Only an overall completion percentage is claimed.",
+    "Whether the Switch version has any different counts or glitches: unconfirmed.",
+    "Exact Import/Export vehicle lists and garage names: not collected (sources disagree on naming).",
+    "Story mission count: 48 (PowerPyx) vs 50 (gtabase) conflict.",
+    "Per-island package and rampage counts not collected.",
+    "Switch has no trophies natively; mapping of PS list to Switch 2 is not verified.",
+    "Flamethrower reward for firefighting is from one source only; Vigilante bribe detail from gtabase only."
+  ]
+}

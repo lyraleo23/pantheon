@@ -1,0 +1,802 @@
+{
+  "game": "Grand Theft Auto III - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (Switch version via backward compatibility; no native Switch 2 edition found, medium/low)",
+  "mode": "port",
+  "sourcePlatform": "PlayStation 4/5",
+  "mergedFrom": [
+    "dossier_scout_a.json",
+    "dossier_scout_b.json",
+    "dossier_scout_c.json",
+    "dossier_scout_native.json"
+  ],
+  "entryGate": "Switch/Switch 2 have no native achievement system (confirmed by scouts). No source shows Social Club accomplishments on Switch (low). Gate passes.",
+  "nativeList": {
+    "summary": "PS4/PS5 list, 29 trophies (1P/6G/11S/11B, totals high). Xbox: same 28 minus Platinum, 1000G. 15 extra entries quoted by gtabase/gta.wiki are Rockstar Social Club accomplishments, NOT native.",
+    "entries": [
+      {
+        "name": "King of Liberty City",
+        "description": "Unlock all trophies.",
+        "tier": "Platinum",
+        "confidence": "high"
+      },
+      {
+        "name": "First Day on the Job",
+        "description": "Complete 'Luigi's Girls'.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Without a Scratch",
+        "description": "Deliver Mike Lips' car without a scratch on first attempt.",
+        "tier": "Gold",
+        "confidence": "high"
+      },
+      {
+        "name": "Escape Artist",
+        "description": "Use 20 police bribes.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Disposing of the Evidence",
+        "description": "Crush a car at the junkyard.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Mob Boss",
+        "description": "Keep the two mafia members alive during 'Triads and Tribulations'.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Street Sweeper",
+        "description": "Waste 100 gang members.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Planned Ahead",
+        "description": "Take out Chunky Lee Chong with a car rigged with a bomb.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Got This Figured Out",
+        "description": "Use a coach to pick up all 8 prostitutes in the mission 'The Fuzz Ball'.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "By a Mile",
+        "description": "Complete the 'Turismo' race in under 180 seconds.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Wreckless Driving",
+        "description": "Perform a perfect insane stunt.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Wheels Up",
+        "description": "Complete 20 unique jumps.",
+        "tier": "Gold",
+        "confidence": "high"
+      },
+      {
+        "name": "Come Out to Play-y-y-y",
+        "description": "Kill 25 gang members with melee weapons / fists.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Where To?",
+        "description": "Complete 100 taxi fares.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Liberty City Minute",
+        "description": "Survive with less than 10 hp for 1 minute.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "Full Artillery",
+        "description": "Use every weapon in the game at least once.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "A Marked Man",
+        "description": "Complete 'Last Requests'.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Offshore Delivery",
+        "description": "Complete 'A Drop in the Ocean'.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Not So Fast",
+        "description": "Complete 'The Exchange'.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "A Gift from the King",
+        "description": "Complete the 'Kingdom Come' mission.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Man Toyz",
+        "description": "Complete every RC Toyz mission.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Splish Splash",
+        "description": "Extinguish 15 fires during a single Fire Truck mission.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Playing Doctor",
+        "description": "Complete Paramedic level 12.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Going Rogue",
+        "description": "Kill 15 criminals during one Vigilante mission.",
+        "tier": "Silver",
+        "confidence": "high"
+      },
+      {
+        "name": "Dirty Money",
+        "description": "Amass a fortune of $1,000,000.",
+        "tier": "Silver",
+        "confidence": "medium"
+      },
+      {
+        "name": "Right-hand Man",
+        "description": "Earn a criminal rating of 2,500.",
+        "tier": "Bronze",
+        "confidence": "medium"
+      },
+      {
+        "name": "Furious First Responder",
+        "description": "Complete Paramedic, Firefighter, Vigilante.",
+        "tier": "Gold",
+        "confidence": "high"
+      },
+      {
+        "name": "Liberty City Secrets",
+        "description": "Collect 100 hidden packages.",
+        "tier": "Gold",
+        "confidence": "medium"
+      },
+      {
+        "name": "Is That All You've Got?",
+        "description": "Achieve 100% completion.",
+        "tier": "Gold",
+        "confidence": "high"
+      }
+    ]
+  },
+  "switchDifferences": [
+    "Gyro aiming and touch controls.",
+    "Launch performance poor; later patches (incl. Nov 2024 Classic Lighting update) reached Switch.",
+    "No content differences vs PS/Xbox found."
+  ],
+  "definitiveEditionChanges": [
+    "Some licensed songs removed.",
+    "Analog steering removed.",
+    "Mid-mission checkpoints and instant retry added.",
+    "Cheats disable trophies on PS/Xbox (irrelevant on Switch)."
+  ],
+  "conflicts": [
+    "Story mission count: 48 vs 50 (scout B) vs 50/51 incl. Introduction (scout A).",
+    "'Ransom' giver: Catalina (gta.wiki) vs Asuka (grandtheftwiki).",
+    "'Without a Scratch' car: Mike Lips' car (PowerPyx) vs Mike Forelli's Idaho (gta.wiki).",
+    "Rampages tracked in Stats: one commenter says no (low)."
+  ],
+  "gaps": [
+    "Stats screen per-item counters (packages, jumps, rampages, fares, bribes, gang kills) unconfirmed; only completion % and Criminal Rating sourced.",
+    "Whether Switch exposes Social Club accomplishments (probably not).",
+    "Full list of 10 order-missable missions.",
+    "Per-trophy tiers not seen on a PSN-native page (15 of 28 rest on gtabase only)."
+  ],
+  "campaign": [
+    {
+      "category": "structure",
+      "name": "Total story missions",
+      "detail": "50 storyline missions (Give Me Liberty through The Exchange). Wiki lists 51 entries if the Introduction cutscene is counted. Portland 22 + Intro (23 entries), Staunton Island 27, Shoreside Vale 1. Total 75 'missions' including 17 phone, 4 off-road, 4 RC (the 4 vehicle sub-missions are separate).",
+      "trackable": "Unconfirmed that a story-mission counter is displayed (see gaps).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.grandtheftwiki.com/Missions_in_GTA_III",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Portland - intro",
+      "detail": "Introduction, Give Me Liberty, Luigi's Girls (no external giver)",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.grandtheftwiki.com/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Portland - Luigi Goterelli (4)",
+      "detail": "Don't Spank Ma Bitch Up, Drive Misty For Me, Pump-Action Pimp, The Fuzz Ball",
+      "missable": true,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Portland - Joey Leone (6)",
+      "detail": "Mike Lips Last Lunch, Farewell 'Chunky' Lee Chong, Van Heist, Cipriani's Chauffeur, Dead Skunk in the Trunk, The Getaway",
+      "missable": true,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Portland - Toni Cipriani / Salvatore Leone / 8-Ball",
+      "detail": "Toni: Taking Out the Laundry, The Pick-Up, Salvatore's Called a Meeting. Salvatore: Chaperone. Toni: Triads and Tribulations, Blow Fish. Salvatore: Cutting the Grass, Bomb Da Base: Act I. 8-Ball: Bomb Da Base: Act II. Salvatore: Last Requests (unlocks Staunton Island; Claude escapes with Maria and Asuka).",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.grandtheftwiki.com/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Staunton Island - Asuka Kasen (5, then 3-4 later)",
+      "detail": "First: Sayonara Salvatore, Under Surveillance, Paparazzi Purge, Payday For Ray, Two-Faced Tanner. Later: Bait, Espresso-2-Go!, S.A.M. (Ransom giver: gta.wiki says Catalina; grandtheftwiki grouped it under Asuka).",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III",
+        "https://www.grandtheftwiki.com/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Staunton Island - Kenji Kasen (5)",
+      "detail": "Kanbu Bust-out, Grand Theft Auto, Deal Steal, Shima, Smack Down",
+      "missable": true,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Staunton Island - Ray Machowski (5, then 1)",
+      "detail": "Silence the Sneak, Arms Shortage, Evidence Dash, Gone Fishing, Plaster Blaster; later Marked Man",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Staunton Island - Donald Love (7)",
+      "detail": "Liberator, Waka-Gashira Wipeout!, A Drop in the Ocean, Grand Theft Aero, Escort Service, Decoy, Love's Disappearance",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "mission_chain",
+      "name": "Shoreside Vale - Catalina (1)",
+      "detail": "The Exchange is the ONLY story mission on Shoreside Vale and the final mission. Kingdom Come, Uzi Rider, Bling-bling Scramble, Gangcar Round-up (King Courtney) and Uzi Money, Toyminator, Rigged to Blow, Bullion Run, Rumble (D-Ice) are phone missions, not story.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "final_mission",
+      "name": "The Exchange",
+      "detail": "Claude collects ransom for kidnapped Maria, Catalina double-crosses him and flees with money; Claude escapes the Cartel stronghold, rescues Maria, shoots down Catalina's getaway helicopter. Maria is then silenced by a gunshot (ambiguous who fired).",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+        "https://gta.wiki/w/Missions_in_GTA_III"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "10 missable missions (order dependent)",
+      "detail": "Finish Joey's and Luigi's missions before Last Requests; finish Kenji Kasen missions before Waka-Gashira Wipeout!; finish Two-Faced Tanner before Grand Theft Aero. Side content also gets harder as gangs turn hostile.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "completion",
+      "name": "100% completion",
+      "detail": "Requires 50 story missions, 17 phone missions (El Burro, Marty Chonks, King Courtney, D-Ice), 4 vehicle missions (Firefighter 60 fires, Paramedic level 12, Taxi 100 fares, Vigilante 60 criminals), 4 off-road, 4 RC, 3 Import/Export lists, 20 rampages, 20 unique stunt jumps, 100 hidden packages. Existing trophy/achievement 'Is That All You've Got?' awards 100%.",
+      "trackable": "Pause menu > Stats",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    }
+  ],
+  "sideContent": [
+    {
+      "category": "collectible",
+      "name": "Hidden Packages",
+      "detail": "100 total. Every 10 collected spawns a pickup at safehouses: 10 Pistol, 20 Uzi, 30 Grenades, 40 Shotgun, 50 Body Armor, 60 Molotov Cocktails, 70 AK-47, 80 Sniper Rifle, 90 M16, 100 Rocket Launcher + $1,000,000. Required for 100%.",
+      "trackable": "Presumed in Stats menu (not directly confirmed in this research).",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition",
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Rampages",
+      "detail": "20 total, all required for 100%. Failing one moves it to a secondary location. Timed (2 min) kill challenges. Gangs becoming hostile later makes them harder.",
+      "trackable": "UNCONFIRMED. A PowerPyx commenter claims rampages are not shown in Stats.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III"
+      ]
+    },
+    {
+      "category": "collectible",
+      "name": "Unique Stunt Jumps",
+      "detail": "20 total: 8 Portland, 4 Staunton Island, 8 Shoreside Vale. Required for 100%.",
+      "trackable": "Unconfirmed where shown.",
+      "missable": false,
+      "confidence": "high",
+      "sources": [
+        "https://gameplay.tips/guides/gta-3-100-all-hidden-package-stunt-rc-rampage-missions-and-body-armor-locations.html",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Firefighter",
+      "detail": "60 fires total (20 per island) for 100%. Extinguish 15 in one attempt is a separate PS trophy ('Splish Splash'). Reward claimed: flamethrower (PowerPyx).",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Paramedic",
+      "detail": "Reach level 12 for 100%. Level 8: health pickup at safehouses; Level 12: infinite sprint; 78 patients: adrenaline pickup (gtabase only).",
+      "trackable": "Level shown in-game during mission",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Vigilante",
+      "detail": "60 criminals total (20 per island) for 100%. Reward: 6 police bribes at safehouses after 20 per island (gtabase wording).",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Taxi Driver",
+      "detail": "100 fares. Reward: Borgnine Taxi spawn at Borgnine Taxis.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Off-road missions (4)",
+      "detail": "A Ride in the Park, Gripped!, Multistorey Mayhem, Patriot Playground.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "RC missions (4)",
+      "detail": "Via TOYZ vans. Only one car needed per mission. Required for 100%.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Pay phone missions (17)",
+      "detail": "Portland: 8 (El Burro 'Turismo' etc. and Marty Chonks); Staunton: 4 (King Courtney, ends 'Kingdom Come'); Shoreside Vale: 5 (D-Ice). Marty Chonks phone has no blip, outside his Trenton factory, rings 9:00-19:00.",
+      "trackable": "Unconfirmed",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "gtabase"
+      ]
+    },
+    {
+      "category": "side_activity",
+      "name": "Import/Export lists (3)",
+      "detail": "Three vehicle lists across garages (Portland Docks x2, Pike Creek / Shoreside Vale; sources inconsistent on garage naming). Completing all three lets you import any vehicle free. Required for 100%. Exact vehicle lists NOT collected. Delivering 10 Securicars to Portland Harbor garage is not required for 100%.",
+      "trackable": "Unconfirmed",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "completion",
+      "name": "100% completion composition",
+      "detail": "Per PowerPyx: 48 story missions, 17 pay phone, 4 off-road, 4 RC, 4 vehicle (Paramedic/Firefighter/Vigilante/Taxi), 3 import/export lists, 20 rampages, 20 unique jumps, 100 packages. gtabase says 50 story missions; conflict (48 vs 50).",
+      "trackable": "Pause menu Stats shows overall completion percentage (gtabase).",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Story-order missables",
+      "detail": "Finish all Joey and Luigi missions before 'Last Requests' (Salvatore); all Kenji missions before 'Waka-Gashira Wipeout!'; Asuka through 'Two-Faced Tanner' before 'Grand Theft Aero'. Gangs turn hostile later making collectibles harder. D-Ice phone missions removing Purple Nines persists into new playthrough (glitch; delete saves).",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "bug",
+      "name": "Is That All You've Got? glitch",
+      "detail": "If 'Kingdom Come' is the last remaining item, 100% trophy may not unlock despite stats showing 100%. Leave another objective last. Reported on PS; Switch status unknown.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "gtabase",
+        "powerpyx"
+      ]
+    },
+    {
+      "category": "trophy_context",
+      "name": "Related PS/Xbox achievements (collectible-linked)",
+      "detail": "Liberty City Secrets (100 packages), Wheels Up (20 unique jumps), Wreckless Driving (perfect insane stunt), Instigator (10 rampages), Blood in the Streets (all 20 rampages) [Xbox/Social Club list], Man Toyz (4 RC), Where To? (100 fares), Playing Doctor (paramedic L12 in one sitting), Splish Splash (15 fires in one attempt), Going Rogue (15 criminals in one vigilante attempt), Furious First Responder (complete Paramedic, Firefighter, Vigilante). PowerPyx lists 29 PS trophies; gta.wiki says 43 other Social Club achievements on DE.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III",
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "category": "progression",
+      "name": "100% completion requirements",
+      "detail": "50 story missions (Give Me Liberty to The Exchange); 17 pay phone missions (8 Portland, 4 Staunton, 5 Shoreside); Firefighter 60 fires (20 per island); Paramedic level 12; Taxi 100 fares; Vigilante 60 criminals (20 per island); 4 Off-Road challenges (A Ride in the Park, Gripped!, Multistorey Mayhem, Patriot Playground); 4 RC Toyz missions; 3 Import/Export lists (Portland Garage, Portland Crane, Shoreside Garage); 20 Rampages; 20 Unique Stunt Jumps; 100 Hidden Packages.",
+      "trackable": "Completion percentage on Pause > Stats screen (first line per PowerPyx/Steam post).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition",
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "progression",
+      "name": "Not required for 100%",
+      "detail": "Criminal rating 2,500 / 5,000 and delivering 10 Securicars to Portland Harbor Garage are not part of 100%.",
+      "trackable": "Criminal Rating is shown at top of Stats screen.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Order-dependent story missions (10 missable missions)",
+      "detail": "GTABase says 10 missable missions exist but does not list them. Ordering rules: finish all Joey and Luigi missions before 'Last Requests' (Salvatore); finish all Kenji Kasen missions before 'Waka-Gashira Wipeout!' (Donald Love); finish 'Two-Faced Tanner' before 'Grand Theft Aero'. PowerPyx also mentions Asuka's missions ordering.",
+      "trackable": "Missing missions show against completion % in Stats.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition",
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "category": "missable",
+      "name": "Mission-specific trophies (PowerPyx: missable)",
+      "detail": "Without a Scratch (Mike Lips' car, first attempt, no damage); Mob Boss (both mafia survive Triads and Tribulations); Planned Ahead (Chunky Lee Chong killed with bomb-rigged car); Got This Figured Out (all 8 prostitutes picked up by coach in The Fuzz Ball); 100% trophy glitchable.",
+      "trackable": "No counter; mission replay availability is not confirmed.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://www.gtabase.com/gta-3/achievements-trophies-list-definitive-edition"
+      ]
+    },
+    {
+      "category": "bug",
+      "name": "Kingdom Come last-item bug",
+      "detail": "If pay phone mission 'Kingdom Come' is the last 100% item, 'Is That All You've Got?' may not unlock despite 100% in stats. Do it earlier.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "high",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "bug",
+      "name": "Purple Nines disappear after D-Ice pay phone missions / Rumble",
+      "detail": "After D-Ice's phone missions (GTABase says after 'Rumble'), Purple Nines vanish; this reportedly carries over to new playthroughs and can block Uzi Money / 100%. Keep an earlier save.",
+      "trackable": "n/a",
+      "missable": true,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "rng",
+      "name": "RNG / luck-dependent items",
+      "detail": "Wreckless Driving (perfect insane stunt) may not happen naturally and one commenter reported it not popping; Paramedic level 12 depends on civilian spawns and timers. Reader reports (unverified): a stunt jump done during a mission may not count as a unique jump; one player's rampage tally stuck at 18/20.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "low",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://www.gtabase.com/gta-3/guides/gta-iii-100-completion-guide-checklist-definitive-edition"
+      ]
+    },
+    {
+      "category": "achievements",
+      "name": "Official PS/Xbox achievement list (28 + platinum)",
+      "detail": "28 achievements/trophies totalling 1000 G, plus PS5-only platinum 'King of Liberty City' (gta.wiki says PS4 original had 29; DE has 28 plus platinum on PS5 only). Count-based ones: Escape Artist (20 bribes), Street Sweeper (100 gang kills), Wheels Up (20 unique jumps), Come Out to Play-y-y-y (25 melee gang kills), Where To? (100 fares), Liberty City Minute (under 10 HP for 1 min), Full Artillery (every weapon used once), Dirty Money ($1,000,000), Right-hand Man (rating 2,500), Liberty City Secrets (100 packages), Is That All You've Got? (100%), Splish Splash (15 fires in one Fire Truck mission), Going Rogue (15 criminals in one Vigilante mission), Playing Doctor (Paramedic 12). Mission ones: First Day on the Job, A Marked Man, Offshore Delivery, Not So Fast, A Gift from the King, Man Toyz, By a Mile (Turismo under 180s), Disposing of the Evidence, Furious First Responder.",
+      "trackable": "Most map to Stats screen lines but only completion %, criminal rating confirmed.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/achievements-trophies-list-definitive-edition",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III"
+      ]
+    },
+    {
+      "category": "achievements",
+      "name": "Rockstar Social Club accomplishments (15 exclusive)",
+      "detail": "Got Any Stories, Old Man?; Talks a Lot (all phone missions); Blood in the Streets (all 20 rampages); Instigator (10 rampages); Chasing Paper ($500k); Am Walkin' Here (die by being run over); Hunting Season (destroy 5 helicopters); Repeat Offender (busted 20 times); Cheaters Do Prosper! (blow up 2,000 cars); Play Fetch; Pest Control; Relief Pitcher (20 fires one mission); Like a Boss (rating 5,000); Fare Game (pick up Curly Bob in Taxi during Cutting the Grass); Recycler (crush 25 cars). Total 44 on Social Club (gta.wiki). Which platforms receive these is NOT confirmed.",
+      "trackable": "Not confirmed in-game; tracked on Social Club site.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.gtabase.com/gta-3/achievements-trophies-list-definitive-edition",
+        "https://gta.wiki/w/Achievements_and_Trophies_in_GTA_III"
+      ]
+    },
+    {
+      "category": "systems",
+      "name": "Cheats disable trophies/achievements",
+      "detail": "Unlike the 2015 PS4 port, DE disables achievements/trophies when cheats are used (PlayStation/Xbox reports). Use a separate save.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/",
+        "https://www.giga.de/tipp/gta-3-definitive-edition-alle-trophaeen-erfolge-100-checkliste/"
+      ]
+    },
+    {
+      "category": "systems",
+      "name": "No difficulty settings; single playthrough",
+      "detail": "Story ~10 hours; platinum estimated 20-25 hours (PowerPyx). Frequent crashes reported, save often.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": [
+        "https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"
+      ]
+    }
+  ],
+  "trackableStats": [
+    {
+      "stat": "Completion percentage / progress toward 100%",
+      "where": "Pause Menu > Stats (Steam user says first line)",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Overall completion percentage",
+      "where": "Pause Menu > Stats",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Rampages completed",
+      "where": "Reportedly NOT shown in Stats (commenter claim)",
+      "confidence": "low"
+    },
+    {
+      "stat": "Completion percentage",
+      "where": "Pause menu > Stats (first line)",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Criminal Rating",
+      "where": "Top of Stats screen (PowerPyx)",
+      "confidence": "medium"
+    },
+    {
+      "stat": "Rampages (count)",
+      "where": "A commenter says rampages do NOT appear in Stats though required for 100%; unverified. Original game showed Rampages Passed",
+      "confidence": "low"
+    },
+    {
+      "stat": "Hidden packages, unique jumps, fares, etc.",
+      "where": "Original GTA III Stats showed these; DE Stats entry list NOT confirmed by any source reviewed",
+      "confidence": "low"
+    },
+    {
+      "stat": "Completion percentage (100% goal)",
+      "where": "In-game Stats screen (standard GTA III); not directly re-verified this run",
+      "confidence": "low"
+    }
+  ],
+  "versionNotes": [
+    {
+      "note": "No Switch-specific story differences found. Existing trophy/achievement for 100% is 'Is That All You've Got?'. A glitch: Purple Nines absence after 'Rumble' can carry over and block 100% (PC reports); 'Kingdom Come' as last objective may fail to trigger the achievement.",
+      "confidence": "low"
+    },
+    {
+      "note": "No Switch-specific differences in these collectibles were found; sources cover PS/Xbox/PC DE generally. Counts (100/20/20) match the original game.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Frequent crashes reported in DE; save often.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Switch has no native achievement/trophy system. Rockstar release text mentions 'updated Achievements, Trophies' generally and Social Club accomplishments, but no source confirms Switch gets either. One article (Gaming Nexus) frames Social Club accomplishments as a PC feature. Treat Switch achievement support as UNCONFIRMED, likely none.",
+      "confidence": "low"
+    },
+    {
+      "note": "No Nintendo Switch 2 Edition of the Trilogy found. One retailer listing claims Switch 2 compatibility (backward compatibility, locked 30fps, faster loads) - weak, unverified. Treat as Switch 1 game running on Switch 2 via backward compatibility.",
+      "confidence": "low"
+    },
+    {
+      "note": "Switch launched Nov 11, 2021 digitally; physical release Feb 11, 2022 (initially requiring download; later reprint reportedly without). Switch version has gyro aiming, touchscreen camera/menu controls. Launch performance was heavily criticised (VGC, TechRadar, Nintendo Life 4/10).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Update 1.112-era patch (restored sky/clouds/fog) shipped on PS5, Xbox Series, PC first; Switch patch was pending per Pocket Tactics. Switch lags other platforms in patches; current Switch patch level not confirmed.",
+      "confidence": "low"
+    },
+    {
+      "note": "Original 2015 PS4 GTA III had 29 trophies; was delisted/replaced by DE on Nov 11 2021. DE has 17 new achievements/trophies vs that port per GTABase.",
+      "confidence": "low"
+    },
+    {
+      "note": "Platinum 'King of Liberty City' is PlayStation-only. Social Club version requires all other 43 in the same playthrough.",
+      "confidence": "low"
+    },
+    {
+      "note": "The 29-entry PlayStation list (28 + Platinum) is the Definitive Edition list. GTABase/gta.wiki also list 15 extra 'Social Club' accomplishments (#30-44: Got Any Stories, Old Man?; Talks a Lot; Blood in the Streets; Instigator; Chasing Paper; Am Walkin' Here; Hunting Season; Repeat Offender; Cheaters Do Prosper!; Play Fetch; Pest Control; Relief Pitcher; Like a Boss; Fare Game; Recycler). These are NOT PSN trophies and have no tier; they inflate the '44 total' quoted by some sites. PowerPyx confirms only 29 trophies on PlayStation.",
+      "confidence": "high"
+    },
+    {
+      "note": "The old 2015 PS4 GTA III port had its own 29-trophy list; it is a different list (gta.wiki: Splish Splash and Going Rogue then required 20, now 15; 'Population Control' and 'Where we're going, we don't need roads' were dropped; 'If You Ain't Cheatin', You Ain't Tryin'' renamed 'Cheaters Do Prosper!' and moved to Social Club).",
+      "confidence": "medium"
+    },
+    {
+      "note": "Platinum 'King of Liberty City' is PlayStation-only; Xbox and Switch have no equivalent natively. On Social Club it requires all other 43 accomplishments in one playthrough.",
+      "confidence": "medium"
+    },
+    {
+      "note": "Digital PS4/PS5 version is cross-buy eligible; physical disc is not (PowerPyx). Estimated 4/10 difficulty, 20-25 hours.",
+      "confidence": "medium"
+    }
+  ],
+  "scoutGaps": {
+    "a": [
+      "Could not confirm the Stats screen shows a count of story missions passed (a Steam user says Stats shows 'principal missions missing' after ending, suggesting a separate story counter, unverified).",
+      "Did not verify the Switch version specifically, nor which of the 10 missable missions are which.",
+      "Ransom giver conflict: gta.wiki says Catalina, grandtheftwiki groups under Asuka.",
+      "Whether Introduction counts as mission: 50 vs 51 depends on source; 3djuegos/bloxodes give different totals (68, 89) due to counting side missions.",
+      "Did not confirm the Definitive Edition retained mission names/order exactly (assumed unchanged)."
+    ],
+    "b": [
+      "Which Stats-menu lines exist for packages, jumps, rampages, fires, criminals, fares, patients: not confirmed. Only an overall completion percentage is claimed.",
+      "Whether the Switch version has any different counts or glitches: unconfirmed.",
+      "Exact Import/Export vehicle lists and garage names: not collected (sources disagree on naming).",
+      "Story mission count: 48 (PowerPyx) vs 50 (gtabase) conflict.",
+      "Per-island package and rampage counts not collected.",
+      "Switch has no trophies natively; mapping of PS list to Switch 2 is not verified.",
+      "Flamethrower reward for firefighting is from one source only; Vigilante bribe detail from gtabase only."
+    ],
+    "c": [
+      "Exact line items on the DE Stats screen (kills, distance, wanted stats) were not confirmed; only completion % and criminal rating are sourced. Needs a screenshot/video check.",
+      "Whether Rampages, packages, jumps count appear on the Stats screen in DE is unverified (one commenter says rampages do not).",
+      "Whether Switch (or Switch 2 running it) supports any achievements or Social Club accomplishments is unconfirmed.",
+      "No Switch 2 edition found; Switch 2 backward compat claim only from a retailer listing.",
+      "Current Switch patch version and whether it matches PS/Xbox/PC not confirmed.",
+      "List of the 10 missable missions not obtained.",
+      "Content cut in DE vs original GTA III (e.g. radio/music, cheats, features) not confirmed; the search returned nothing relevant (VGC feature list and Gematsu pages returned 403).",
+      "Whether missions can be replayed/retried after failure for first-attempt trophies not checked.",
+      "Rampage count shown as 20 total; DE original had 20 rampages per sources, no conflict found."
+    ],
+    "native": [
+      "PSNProfiles, TrueTrophies, TrueAchievements and playstationtrophies.org pages were not retrieved; tiers rest on GTABase (+PowerPyx partial/totals), not a direct PSN trophy page.",
+      "Exact description wording comes from PowerPyx quotes (likely copied from PSN); not verified against the PSN store/psnprofiles. Minor punctuation may differ.",
+      "Gamerscore values rest on a single source (GTABase); no Xbox-specific page retrieved.",
+      "Not confirmed whether the in-game Stats screen displays progress counters for bribes, taxi fares, gang kills, melee kills, cars crushed, unique jumps.",
+      "'Without a Scratch': PowerPyx says Mike Lips' car, gta.wiki says Mike Forelli's Idaho; mission is likely 'Mike Lips Last Lunch'-adjacent ('Bomb Da Base'? unverified) so mission name unconfirmed.",
+      "Whether Switch (2) version Social Club accomplishments are exposed at all was not researched."
+    ]
+  }
+}

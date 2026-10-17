@@ -1,0 +1,300 @@
+{
+  "game": {
+    "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
+    "mode": "port",
+    "sourcePlatform": "PlayStation 4/5",
+    "developer": "Grapeshot Games / Rockstar Games",
+    "publisher": "Rockstar Games",
+    "genre": "Open-world action",
+    "releaseYear": 2021,
+    "listVersion": "1.0",
+    "rulesetVersion": "2.0",
+    "status": "approved",
+    "title": "Grand Theft Auto III – The Definitive Edition",
+    "slug": "gta-iii-definitive",
+    "code": "GTA3DE",
+    "nativeCount": 29,
+    "estimatedDifficulty": 4,
+    "estimatedHours": "20-25h",
+    "notes": "Port Mode from the PS4/PS5 list (29 trophies: 1 Platinum, 6 Gold, 11 Silver, 11 Bronze). Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. Count of 18 and a light bronze share follow from filtering five counter-based bronzes; the list still covers every island arc, Paramedic, RC Toyz and full 100%. The Platinum inherits the 100% trophy's missable risk. Known bug: leaving 'Kingdom Come' as the last 100% item has been reported to stop 100% registering on other platforms — clear it early. Import/Export is covered only through the 100% trophy: no in-game list-completion display was confirmed. Complete pass was run: the Switch version has no exclusive content, and the one original addition (Import/Export lists) was dropped in audit for lack of a confirmed display, so the only original entry is the Platinum."
+  },
+  "trophies": [
+    {
+      "id": "GTA3DE-001",
+      "name": "First Day on the Job",
+      "description": "Complete 'Luigi's Girls'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Luigi's Girls' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "First Day on the Job"
+    },
+    {
+      "id": "GTA3DE-002",
+      "name": "Disposing of the Evidence",
+      "description": "Crush a car at the junkyard car crusher.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The car is visibly lifted into the crusher and destroyed, paying out cash.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Disposing of the Evidence"
+    },
+    {
+      "id": "GTA3DE-003",
+      "name": "Wreckless Driving",
+      "description": "Perform a Perfect Insane Stunt.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The on-screen stunt bonus message names an Insane Stunt rated perfect and the bonus cash is paid; easiest off the larger stunt ramps.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Wreckless Driving"
+    },
+    {
+      "id": "GTA3DE-004",
+      "name": "Without a Scratch",
+      "description": "On your first attempt at 'Mike Lips Last Lunch', take Mike Forelli's car to the bomb shop and back to where you found it without a scratch. A checkpoint reload or retry forfeits the first attempt. ⚠️ MISSABLE",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Mission Passed appears without failing or restarting the mission, with the car returned undamaged.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Without a Scratch"
+    },
+    {
+      "id": "GTA3DE-005",
+      "name": "Planned Ahead",
+      "description": "In \"Farewell 'Chunky' Lee Chong\", take out Chunky Lee Chong with a car rigged with a bomb. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "Chunky dies in the car-bomb explosion before Mission Passed.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Planned Ahead"
+    },
+    {
+      "id": "GTA3DE-006",
+      "name": "Mob Boss",
+      "description": "Keep both mafia members alive during 'Triads and Tribulations'. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "Both mafia escorts are still alive when Mission Passed appears.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Mob Boss"
+    },
+    {
+      "id": "GTA3DE-007",
+      "name": "Got This Figured Out",
+      "description": "In 'The Fuzz Ball', use a coach to pick up all 8 girls. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "All 8 girls board the coach and the mission passes.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Got This Figured Out"
+    },
+    {
+      "id": "GTA3DE-008",
+      "name": "A Marked Man",
+      "description": "Complete 'Last Requests'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Last Requests' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "A Marked Man"
+    },
+    {
+      "id": "GTA3DE-009",
+      "name": "Offshore Delivery",
+      "description": "Complete 'A Drop in the Ocean'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'A Drop in the Ocean' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Offshore Delivery"
+    },
+    {
+      "id": "GTA3DE-010",
+      "name": "Not So Fast",
+      "description": "Complete 'The Exchange'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'The Exchange' ends and the credits roll.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Not So Fast"
+    },
+    {
+      "id": "GTA3DE-011",
+      "name": "A Gift from the King",
+      "description": "Complete the 'Kingdom Come' pay phone mission.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "'Kingdom Come' shows Mission Passed.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "A Gift from the King"
+    },
+    {
+      "id": "GTA3DE-012",
+      "name": "Man Toyz",
+      "description": "Complete every RC Toyz mission.",
+      "tier": "silver",
+      "type": "minigame",
+      "verification": "Each RC Toyz mission ends with a passed result.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Man Toyz"
+    },
+    {
+      "id": "GTA3DE-013",
+      "name": "Playing Doctor",
+      "description": "Complete Paramedic level 12 in a single run.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "The on-screen Paramedic level reaches 12 in a single run.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Playing Doctor"
+    },
+    {
+      "id": "GTA3DE-014",
+      "name": "Dirty Money",
+      "description": "Amass $1,000,000.",
+      "tier": "silver",
+      "type": "mechanic",
+      "verification": "The HUD money counter shows $1,000,000 or more.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Dirty Money"
+    },
+    {
+      "id": "GTA3DE-015",
+      "name": "Right-hand Man",
+      "description": "Earn a Criminal Rating of 2,500.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Pause > Stats shows a Criminal Rating of 2,500 or higher.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Right-hand Man"
+    },
+    {
+      "id": "GTA3DE-016",
+      "name": "Liberty City Secrets",
+      "description": "Collect all 100 Hidden Packages.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "Progress shows as a new weapon pickup at your safehouse every 10 packages, and the Pause > Stats completion percentage rises with each package; the 100th pays the $1,000,000 bonus.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Liberty City Secrets"
+    },
+    {
+      "id": "GTA3DE-017",
+      "name": "Is That All You've Got?",
+      "description": "Achieve 100% completion. ⚠️ MISSABLE - finish every contact's missions before advancing the story past them; skipped story missions cannot be recovered.",
+      "tier": "gold",
+      "type": "postgame",
+      "verification": "Pause > Stats shows 100% completion.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Is That All You've Got?"
+    },
+    {
+      "id": "GTA3DE-018",
+      "name": "King of the Concrete Jungle",
+      "description": "Earn every other trophy.",
+      "tier": "platinum",
+      "type": "challenge",
+      "verification": "All base-game trophies show as earned.",
+      "missable": false,
+      "secret": false,
+      "origin": "original"
+    }
+  ],
+  "excluded": [
+    {
+      "originId": "King of Liberty City",
+      "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
+      "rule": 18
+    },
+    {
+      "originId": "Escape Artist",
+      "reason": "Cumulative 20 police bribes — no confirmed in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Street Sweeper",
+      "reason": "Cumulative 100 gang members wasted — no confirmed in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Come Out to Play-y-y-y",
+      "reason": "Cumulative 25 melee gang kills — no in-game counter.",
+      "rule": 2
+    },
+    {
+      "originId": "Full Artillery",
+      "reason": "Use every weapon at least once — the game does not record which weapons were used.",
+      "rule": 1
+    },
+    {
+      "originId": "Liberty City Minute",
+      "reason": "Survive under 10 HP for one minute — arbitrary action with no in-game timer.",
+      "rule": 10
+    },
+    {
+      "originId": "By a Mile",
+      "reason": "'Turismo' under 180 seconds — the race does not confirmably display an elapsed time; also missable.",
+      "rule": 1
+    },
+    {
+      "originId": "Wheels Up",
+      "reason": "20 unique jumps — the game shows a per-jump bonus but no confirmed running total; jumps remain required by the 100% trophy.",
+      "rule": 1
+    },
+    {
+      "originId": "Where To?",
+      "reason": "100 taxi fares — cumulative total not confirmed on screen; fares remain required by the 100% trophy.",
+      "rule": 2
+    },
+    {
+      "originId": "Furious First Responder",
+      "reason": "Complete Paramedic, Firefighter and Vigilante - Firefighter and Vigilante completion rests on 60-fire and 60-criminal totals with no confirmed counter; Paramedic level 12 kept separately as Playing Doctor.",
+      "rule": 2
+    },
+    {
+      "originId": "Splish Splash",
+      "reason": "15 fires in one Fire Truck run — no confirmed per-run counter; covered by Furious First Responder.",
+      "rule": 2
+    },
+    {
+      "originId": "Going Rogue",
+      "reason": "15 criminals in one Vigilante run — no confirmed per-run counter; covered by Furious First Responder.",
+      "rule": 2
+    }
+  ]
+}

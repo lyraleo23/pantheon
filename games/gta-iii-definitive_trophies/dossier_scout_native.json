@@ -1,0 +1,94 @@
+{
+  "beat": "native list",
+  "game": "Grand Theft Auto III - The Definitive Edition",
+  "platform": "Nintendo Switch 2 (native source: PlayStation PS4/PS5)",
+  "nativeList": [
+    {"name":"King of Liberty City","description":"Unlock all trophies.","tier":"Platinum","confidence":"high"},
+    {"name":"First Day on the Job","description":"Complete 'Luigi's Girls'.","tier":"Bronze","confidence":"medium"},
+    {"name":"Without a Scratch","description":"Deliver Mike Lips' car without a scratch on first attempt.","tier":"Gold","confidence":"high"},
+    {"name":"Escape Artist","description":"Use 20 police bribes.","tier":"Bronze","confidence":"medium"},
+    {"name":"Disposing of the Evidence","description":"Crush a car at the junkyard.","tier":"Bronze","confidence":"medium"},
+    {"name":"Mob Boss","description":"Keep the two mafia members alive during 'Triads and Tribulations'.","tier":"Silver","confidence":"high"},
+    {"name":"Street Sweeper","description":"Waste 100 gang members.","tier":"Bronze","confidence":"medium"},
+    {"name":"Planned Ahead","description":"Take out Chunky Lee Chong with a car rigged with a bomb.","tier":"Silver","confidence":"high"},
+    {"name":"Got This Figured Out","description":"Use a coach to pick up all 8 prostitutes in the mission 'The Fuzz Ball'.","tier":"Silver","confidence":"high"},
+    {"name":"By a Mile","description":"Complete the 'Turismo' race in under 180 seconds.","tier":"Silver","confidence":"medium"},
+    {"name":"Wreckless Driving","description":"Perform a perfect insane stunt.","tier":"Bronze","confidence":"medium"},
+    {"name":"Wheels Up","description":"Complete 20 unique jumps.","tier":"Gold","confidence":"high"},
+    {"name":"Come Out to Play-y-y-y","description":"Kill 25 gang members with melee weapons / fists.","tier":"Bronze","confidence":"medium"},
+    {"name":"Where To?","description":"Complete 100 taxi fares.","tier":"Silver","confidence":"high"},
+    {"name":"Liberty City Minute","description":"Survive with less than 10 hp for 1 minute.","tier":"Gold","confidence":"medium"},
+    {"name":"Full Artillery","description":"Use every weapon in the game at least once.","tier":"Bronze","confidence":"medium"},
+    {"name":"A Marked Man","description":"Complete 'Last Requests'.","tier":"Bronze","confidence":"medium"},
+    {"name":"Offshore Delivery","description":"Complete 'A Drop in the Ocean'.","tier":"Bronze","confidence":"medium"},
+    {"name":"Not So Fast","description":"Complete 'The Exchange'.","tier":"Bronze","confidence":"medium"},
+    {"name":"A Gift from the King","description":"Complete the 'Kingdom Come' mission.","tier":"Silver","confidence":"medium"},
+    {"name":"Man Toyz","description":"Complete every RC Toyz mission.","tier":"Silver","confidence":"high"},
+    {"name":"Splish Splash","description":"Extinguish 15 fires during a single Fire Truck mission.","tier":"Silver","confidence":"high"},
+    {"name":"Playing Doctor","description":"Complete Paramedic level 12.","tier":"Silver","confidence":"high"},
+    {"name":"Going Rogue","description":"Kill 15 criminals during one Vigilante mission.","tier":"Silver","confidence":"high"},
+    {"name":"Dirty Money","description":"Amass a fortune of $1,000,000.","tier":"Silver","confidence":"medium"},
+    {"name":"Right-hand Man","description":"Earn a criminal rating of 2,500.","tier":"Bronze","confidence":"medium"},
+    {"name":"Furious First Responder","description":"Complete Paramedic, Firefighter, Vigilante.","tier":"Gold","confidence":"high"},
+    {"name":"Liberty City Secrets","description":"Collect 100 hidden packages.","tier":"Gold","confidence":"medium"},
+    {"name":"Is That All You've Got?","description":"Achieve 100% completion.","tier":"Gold","confidence":"high"}
+  ],
+  "tierTotals": {
+    "total": 29,
+    "platinum": 1,
+    "gold": 6,
+    "silver": 11,
+    "bronze": 11,
+    "confidence": "high (PowerPyx summary counts match the per-trophy tiers from GTABase exactly)"
+  },
+  "findings": [
+    {
+      "category": "trophy-tiers",
+      "name": "Tier assignment source",
+      "detail": "Per-trophy tiers for all 28 non-platinum trophies come from GTABase (tier/points table). PowerPyx independently states tiers for 14 entries (Plat + Gold: Without a Scratch, Wheels Up, Furious First Responder, Liberty City Secrets, Is That All You've Got?; Silver: Mob Boss, Planned Ahead, Got This Figured Out, Man Toyz, Splish Splash, Playing Doctor, Going Rogue, Where To?) and its totals (1/6/11/11) match. Entries I rate medium have only the GTABase tier. PSNProfiles/TrueTrophies pages were not retrievable.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.gtabase.com/gta-3/achievements-trophies-list-definitive-edition","https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"]
+    },
+    {
+      "category": "missable",
+      "name": "Missable trophies",
+      "detail": "PowerPyx flags 5 as missable: Without a Scratch, Mob Boss, Planned Ahead, Got This Figured Out, Is That All You've Got? (the last is reported glitched; leaving 'Kingdom Come' as the final 100% item can stop it from popping).",
+      "trackable": "Game shows completion % in stats.",
+      "missable": true,
+      "confidence": "medium",
+      "sources": ["https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"]
+    },
+    {
+      "category": "rule",
+      "name": "Cheats disable trophies",
+      "detail": "Using cheats disables trophies in the Definitive Edition (unlike the old PS4 port).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.powerpyx.com/gta-3-definitive-edition-trophy-guide-roadmap/"]
+    }
+  ],
+  "xboxCrossCheck": {
+    "summary": "Xbox has 28 achievements totalling 1000 Gamerscore (no Platinum equivalent). Names and descriptions match the PlayStation list one-to-one for entries 1-28 per GTABase and gta.wiki. Gamerscore values (GTABase, no second source): First Day on the Job 15; Without a Scratch 40; Escape Artist 25; Disposing of the Evidence 15; Mob Boss 45; Street Sweeper 25; Planned Ahead 40; Got This Figured Out 45; By a Mile 30; Wreckless Driving 25; Wheels Up 50; Come Out to Play-y-y-y 25; Where To? 50; Liberty City Minute 50; Full Artillery 25; A Marked Man 25; Offshore Delivery 25; Not So Fast 25; A Gift from the King 25; Man Toyz 30; Splish Splash 30; Playing Doctor 35; Going Rogue 30; Dirty Money 30; Right-hand Man 25; Furious First Responder 55; Liberty City Secrets 60; Is That All You've Got? 100. Sum verified = 1000.",
+    "confidence": "medium"
+  },
+  "trackableStats": [
+    {"stat":"Completion percentage (100% goal)","where":"In-game Stats screen (standard GTA III); not directly re-verified this run","confidence":"low"}
+  ],
+  "versionNotes": [
+    {"note":"The 29-entry PlayStation list (28 + Platinum) is the Definitive Edition list. GTABase/gta.wiki also list 15 extra 'Social Club' accomplishments (#30-44: Got Any Stories, Old Man?; Talks a Lot; Blood in the Streets; Instigator; Chasing Paper; Am Walkin' Here; Hunting Season; Repeat Offender; Cheaters Do Prosper!; Play Fetch; Pest Control; Relief Pitcher; Like a Boss; Fare Game; Recycler). These are NOT PSN trophies and have no tier; they inflate the '44 total' quoted by some sites. PowerPyx confirms only 29 trophies on PlayStation.","confidence":"high"},
+    {"note":"The old 2015 PS4 GTA III port had its own 29-trophy list; it is a different list (gta.wiki: Splish Splash and Going Rogue then required 20, now 15; 'Population Control' and 'Where we're going, we don't need roads' were dropped; 'If You Ain't Cheatin', You Ain't Tryin'' renamed 'Cheaters Do Prosper!' and moved to Social Club).","confidence":"medium"},
+    {"note":"Platinum 'King of Liberty City' is PlayStation-only; Xbox and Switch have no equivalent natively. On Social Club it requires all other 43 accomplishments in one playthrough.","confidence":"medium"},
+    {"note":"Digital PS4/PS5 version is cross-buy eligible; physical disc is not (PowerPyx). Estimated 4/10 difficulty, 20-25 hours.","confidence":"medium"}
+  ],
+  "gaps": [
+    "PSNProfiles, TrueTrophies, TrueAchievements and playstationtrophies.org pages were not retrieved; tiers rest on GTABase (+PowerPyx partial/totals), not a direct PSN trophy page.",
+    "Exact description wording comes from PowerPyx quotes (likely copied from PSN); not verified against the PSN store/psnprofiles. Minor punctuation may differ.",
+    "Gamerscore values rest on a single source (GTABase); no Xbox-specific page retrieved.",
+    "Not confirmed whether the in-game Stats screen displays progress counters for bribes, taxi fares, gang kills, melee kills, cars crushed, unique jumps.",
+    "'Without a Scratch': PowerPyx says Mike Lips' car, gta.wiki says Mike Forelli's Idaho; mission is likely 'Mike Lips Last Lunch'-adjacent ('Bomb Da Base'? unverified) so mission name unconfirmed.",
+    "Whether Switch (2) version Social Club accomplishments are exposed at all was not researched."
+  ]
+}
