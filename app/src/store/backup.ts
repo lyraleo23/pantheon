@@ -82,6 +82,7 @@ export function parseBackup(text: string): ParsedBackup {
       earned: game.earned,
       startedAt: typeof game.startedAt === 'number' ? game.startedAt : undefined,
       revealSecrets: game.revealSecrets === true ? true : undefined,
+      shelf: game.shelf === 'main' || game.shelf === 'backlog' ? game.shelf : undefined,
     }
   }
 
@@ -94,7 +95,8 @@ export function parseBackup(text: string): ParsedBackup {
 export function summarise(state: ProgressState): { games: number; trophies: number } {
   const entries = Object.values(state.games)
   return {
-    games: entries.length,
+    // Jogo só com lista escolhida ou secretos revelados não tem troféu para contar.
+    games: entries.filter((game) => Object.keys(game.earned).length > 0).length,
     trophies: entries.reduce((sum, game) => sum + Object.keys(game.earned).length, 0),
   }
 }

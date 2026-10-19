@@ -390,6 +390,35 @@ h3 {
   color: var(--accent);
 }
 
+/* Escolhe qual lista se vê, não filtra: por isso não usa o visual de chip. */
+.segmented {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.segmented__option {
+  flex: 1;
+  min-height: 36px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.segmented__option.is-active {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
 /* --- Troféu ---------------------------------------------------------- */
 
 .trophy {
