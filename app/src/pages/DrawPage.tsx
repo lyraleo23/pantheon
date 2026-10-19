@@ -7,10 +7,10 @@ import {
   collectPending,
   filterPending,
   DEFAULT_FILTERS,
-  PLATFORMS,
   type DrawFilters,
   type PendingItem,
 } from '../lib/pending'
+import { PLATFORMS } from '../lib/platforms'
 import { DRAW_TARGETS, draw, randomSeed, todaySeed, type DrawResult } from '../lib/draw'
 import { TIER_ICON, TIER_LABEL, TYPE_LABEL } from '../lib/labels'
 import { progress as makeProgress } from '../lib/stats'
@@ -99,6 +99,7 @@ function toggleIn<T>(list: T[], value: T): T[] {
 function countActive(f: DrawFilters): number {
   return (
     Number(f.dlc !== DEFAULT_FILTERS.dlc) +
+    Number(f.backlog !== DEFAULT_FILTERS.backlog) +
     Number(f.startedOnly) +
     Number(f.missable) +
     Number(f.types.length > 0) +
@@ -133,7 +134,11 @@ export function DrawPage() {
 
   // Os filtros fazem parte do sorteio do dia: sem reidratar daqui, um F5
   // devolveria o sorteio salvo sob filtro como se fosse o sorteio sem filtro.
-  const [filters, setFilters] = useState<DrawFilters>(() => loadStored()?.filters ?? DEFAULT_FILTERS)
+  // O espalhamento cobre registro salvo antes de um filtro novo existir.
+  const [filters, setFilters] = useState<DrawFilters>(() => ({
+    ...DEFAULT_FILTERS,
+    ...loadStored()?.filters,
+  }))
   const [showFilters, setShowFilters] = useState(false)
   const activeCount = countActive(filters)
 
@@ -142,6 +147,7 @@ export function DrawPage() {
   // as escolhas variarem entre conjuntos de filtros, porque `hash` usa a semente.
   const filterKey = [
     filters.dlc ? 'd' : '',
+    filters.backlog ? 'b' : '',
     filters.startedOnly ? 's' : '',
     filters.missable ? 'm' : '',
     [...filters.types].sort().join(','),
@@ -152,30 +158,26 @@ export function DrawPage() {
   // Só a semente do dia é salva. Um sorteio avulso nunca grava por cima dela —
   // senão "novo sorteio" e depois "voltar pro de hoje" perderia de vista o que
   // já tinha sido marcado no sorteio original do dia.
-  const { results, poolSize } = useMemo(() => {
-    if (!data) return { results: [] as DrawResult[], poolSize: 0 }
+  const results = useMemo((): DrawResult[] => {
+    if (!data) return []
 
     if (isDaily) {
       const stored = loadStored()
       if (stored && stored.seed === effectiveSeed) {
-        const restored = stored.results.map((r) => ({
+        return stored.results.map((r) => ({
           tier: r.tier,
           available: r.available,
           items: r.picks
             .map((p) => resolvePick(data, p))
             .filter((item): item is PendingItem => item !== null),
         }))
-        return {
-          results: restored,
-          poolSize: restored.reduce((sum, r) => sum + r.available, 0),
-        }
       }
     }
 
     const pool = filterPending(collectPending(data, state.games), filters, state.games)
     const fresh = draw(pool, effectiveSeed)
     if (isDaily) saveStored(effectiveSeed, filters, fresh)
-    return { results: fresh, poolSize: pool.length }
+    return fresh
     // `state.games` fica de fora de propósito: marcar um troféu não pode
     // remontar o sorteio de hoje. Os filtros entram via `effectiveSeed`.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -250,6 +252,14 @@ export function DrawPage() {
                     aria-pressed={filters.dlc}
                   >
                     📦 DLC
+                  </button>
+                  <button
+                    type="button"
+                    className={filters.backlog ? 'chip-option is-active' : 'chip-option'}
+                    onClick={() => setFilters({ ...filters, backlog: !filters.backlog })}
+                    aria-pressed={filters.backlog}
+                  >
+                    📚 Incluir backlog
                   </button>
                   <button
                     type="button"
@@ -330,12 +340,27 @@ export function DrawPage() {
 
         {!loading && !error && total === 0 && (
           <div className="empty">
-            <div className="empty__icon">{poolSize === 0 && activeCount > 0 ? '🔍' : '💎'}</div>
-            <p className="empty__title">
-              {poolSize === 0 && activeCount > 0 ? 'Nenhum troféu com esses filtros' : 'Nada pendente'}
-            </p>
-            {activeCount === 0 && (
-              <p className="hint">Você conquistou tudo que há para conquistar.</p>
+            {allPending.length === 0 ? (
+              <>
+                <div className="empty__icon">💎</div>
+                <p className="empty__title">Nada pendente</p>
+                <p className="hint">Você conquistou tudo que há para conquistar.</p>
+              </>
+            ) : activeCount > 0 ? (
+              <>
+                <div className="empty__icon">🔍</div>
+                <p className="empty__title">Nenhum troféu com esses filtros</p>
+              </>
+            ) : (
+              // Filtros no padrão e pool vazio: só sobrou pendente no backlog.
+              <>
+                <div className="empty__icon">📚</div>
+                <p className="empty__title">Nada pendente na lista principal</p>
+                <p className="hint">
+                  O backlog fica fora do sorteio. Adicione um jogo à lista principal ou ligue
+                  “Incluir backlog” nos filtros.
+                </p>
+              </>
             )}
           </div>
         )}

@@ -12,12 +12,17 @@ import { useSyncExternalStore } from 'react'
 
 const KEY = 'pantheon-progress-v1'
 
+/** Lista principal (o que você está jogando) ou backlog (o resto). */
+export type Shelf = 'main' | 'backlog'
+
 export interface GameProgress {
   /** ID do troféu → quando foi obtido. IDs de DLC convivem aqui. */
   earned: Record<string, number>
   startedAt?: number
   /** Revelar todos os secretos deste jogo. */
   revealSecrets?: boolean
+  /** Escolha manual de lista. Sem ela, vale o padrão de `shelfOf`. */
+  shelf?: Shelf
 }
 
 export interface ProgressState {
@@ -107,6 +112,20 @@ export function toggleTrophy(slug: string, id: string) {
 
 export function setRevealSecrets(slug: string, reveal: boolean) {
   update(slug, (game) => ({ ...game, revealSecrets: reveal }))
+}
+
+/**
+ * A escolha manual sempre vence. Sem ela, jogo não iniciado mora no backlog e
+ * vai sozinho para a lista principal no primeiro troféu marcado. Mesmo critério
+ * de "iniciado" do filtro do sorteio: `startedAt`, que desmarcar não apaga.
+ */
+export function shelfOf(game: GameProgress): Shelf {
+  return game.shelf ?? (game.startedAt ? 'main' : 'backlog')
+}
+
+/** Só muda de lista: o progresso do jogo fica intacto. */
+export function setShelf(slug: string, shelf: Shelf) {
+  update(slug, (game) => ({ ...game, shelf }))
 }
 
 export function clearGame(slug: string) {

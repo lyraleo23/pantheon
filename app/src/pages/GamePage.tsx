@@ -3,7 +3,13 @@ import { Link, useParams } from 'react-router-dom'
 import { loadGame } from '../data/catalog'
 import type { Tier, Trophy } from '../data/types'
 import { useAsync } from '../hooks/useAsync'
-import { setRevealSecrets, toggleTrophy, useGameProgress } from '../store/progress'
+import {
+  setRevealSecrets,
+  setShelf,
+  shelfOf,
+  toggleTrophy,
+  useGameProgress,
+} from '../store/progress'
 import { getPrefs, STATUS_OPTIONS, type StatusFilter } from '../store/prefs'
 import { listStats, packProgress, platinumEarnedAt, platinumUnlocked } from '../lib/stats'
 import { TIERS, TIER_ICON, TIER_LABEL } from '../lib/labels'
@@ -38,6 +44,7 @@ export function GamePage() {
   const baseIds = trophies.filter((t) => t.tier !== 'platinum').map((t) => t.id)
   const platinumOn = platinumUnlocked(baseIds, progress.earned)
   const stats = listStats(trophies, progress.earned)
+  const shelf = shelfOf(progress)
   const hasSecrets =
     trophies.some((t) => t.secret) || (data?.dlc ?? []).some((p) => p.trophies.some((t) => t.secret))
 
@@ -135,6 +142,22 @@ export function GamePage() {
                 </span>
               )
             })}
+          </div>
+
+          <div className="row row--between row--wrap" style={{ marginTop: 12, gap: 8 }}>
+            {shelf === 'main' ? (
+              <span className="chip chip--accent">⭐ Lista principal</span>
+            ) : (
+              <span className="chip">📚 Backlog</span>
+            )}
+            {/* Trocar de lista não mexe no progresso: só onde o jogo aparece. */}
+            <button
+              type="button"
+              className="btn btn--sm"
+              onClick={() => setShelf(slug, shelf === 'main' ? 'backlog' : 'main')}
+            >
+              {shelf === 'main' ? 'Mover para o backlog' : 'Adicionar à lista principal'}
+            </button>
           </div>
         </section>
 
