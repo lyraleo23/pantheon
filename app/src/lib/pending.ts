@@ -63,15 +63,24 @@ export const DEFAULT_FILTERS: DrawFilters = {
   platforms: [],
 }
 
-/** Recorta o pool de pendentes conforme os filtros escolhidos no sorteio. */
+/**
+ * Recorta o pool de pendentes conforme os filtros escolhidos no sorteio.
+ * `items` é a saída inteira de `collectPending`, antes de qualquer recorte.
+ */
 export function filterPending(
   items: PendingItem[],
   filters: DrawFilters,
   games: Record<string, GameProgress>,
 ): PendingItem[] {
+  // Jogo sem pendente na lista base está platinado: mora em Concluídos, não no
+  // backlog, e o que sobra dele é DLC — que o filtro de DLC já controla.
+  const unfinished = new Set(items.filter((i) => !i.pack).map((i) => i.game.slug))
+  const inBacklog = (slug: string) =>
+    unfinished.has(slug) && shelfOf(games[slug] ?? EMPTY_GAME) === 'backlog'
+
   return items.filter((item) => {
     if (!filters.dlc && item.pack) return false
-    if (!filters.backlog && shelfOf(games[item.game.slug] ?? EMPTY_GAME) === 'backlog') return false
+    if (!filters.backlog && inBacklog(item.game.slug)) return false
     if (filters.missable && !item.trophy.missable) return false
     if (filters.startedOnly && !games[item.game.slug]?.startedAt) return false
     if (filters.types.length > 0 && !filters.types.includes(item.trophy.type)) return false

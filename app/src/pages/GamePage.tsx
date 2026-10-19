@@ -144,21 +144,28 @@ export function GamePage() {
             })}
           </div>
 
-          <div className="row row--between row--wrap" style={{ marginTop: 12, gap: 8 }}>
-            {shelf === 'main' ? (
-              <span className="chip chip--accent">⭐ Lista principal</span>
-            ) : (
-              <span className="chip">📚 Backlog</span>
-            )}
-            {/* Trocar de lista não mexe no progresso: só onde o jogo aparece. */}
-            <button
-              type="button"
-              className="btn btn--sm"
-              onClick={() => setShelf(slug, shelf === 'main' ? 'backlog' : 'main')}
-            >
-              {shelf === 'main' ? 'Mover para o backlog' : 'Adicionar à lista principal'}
-            </button>
-          </div>
+          {/* Platinado vai sozinho para Concluídos: não há lista para escolher. */}
+          {platinumOn ? (
+            <div className="row" style={{ marginTop: 12 }}>
+              <span className="chip chip--platinum">💎 Concluído</span>
+            </div>
+          ) : (
+            <div className="row row--between row--wrap" style={{ marginTop: 12, gap: 8 }}>
+              {shelf === 'main' ? (
+                <span className="chip chip--accent">⭐ Lista principal</span>
+              ) : (
+                <span className="chip">📚 Backlog</span>
+              )}
+              {/* Trocar de lista não mexe no progresso: só onde o jogo aparece. */}
+              <button
+                type="button"
+                className="btn btn--sm"
+                onClick={() => setShelf(slug, shelf === 'main' ? 'backlog' : 'main')}
+              >
+                {shelf === 'main' ? 'Mover para o backlog' : 'Adicionar à lista principal'}
+              </button>
+            </div>
+          )}
         </section>
 
         <div className="stack" style={{ marginTop: 14 }}>

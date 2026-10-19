@@ -400,15 +400,23 @@ h3 {
   background: var(--surface-2);
 }
 
+/* Rótulo em cima, contagem embaixo: três abas lado a lado cabem num celular. */
 .segmented__option {
   flex: 1;
-  min-height: 36px;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 2px;
   border: none;
   border-radius: 7px;
   background: transparent;
   color: var(--text-dim);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
+  line-height: 1.25;
   cursor: pointer;
   white-space: nowrap;
   -webkit-tap-highlight-color: transparent;
@@ -417,6 +425,16 @@ h3 {
 .segmented__option.is-active {
   background: var(--surface-3);
   color: var(--text);
+}
+
+.segmented__count {
+  color: var(--text-faint);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.segmented__option.is-active .segmented__count {
+  color: var(--accent);
 }
 
 /* --- Troféu ---------------------------------------------------------- */
