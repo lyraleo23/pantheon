@@ -4,9 +4,15 @@ import { loadCatalog } from '../data/catalog'
 import type { CatalogEntry } from '../data/types'
 import { useAsync } from '../hooks/useAsync'
 import { useProgress, shelfOf, EMPTY_GAME, type Shelf } from '../store/progress'
-import { catalogProgress, type Progress } from '../lib/stats'
+import { catalogProgress, platinumEarnedAt, type Progress } from '../lib/stats'
 import { PLATFORMS, matchesPlatforms } from '../lib/platforms'
 import { ProgressBar } from '../components/ProgressBar'
+
+/**
+ * Concluídos não é uma lista que se escolhe: o jogo platinado aparece lá sozinho
+ * e, se perder a Platina, volta para a principal ou o backlog, onde estava.
+ */
+type Tab = Shelf | 'done'
 
 type SortKey = 'progress' | 'title'
 
@@ -15,21 +21,20 @@ const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: 'title', label: 'A–Z' },
 ]
 
-const SHELF_OPTIONS: { value: Shelf; label: string }[] = [
+const TAB_OPTIONS: { value: Tab; label: string }[] = [
   { value: 'main', label: '⭐ Principal' },
   { value: 'backlog', label: '📚 Backlog' },
+  { value: 'done', label: '💎 Concluídos' },
 ]
 
 interface View {
-  shelf: Shelf
+  shelf: Tab
   sort: SortKey
   /** IDs de `PLATFORMS`. Vazio = todos. */
   platforms: string[]
-  /** Esconde os platinados. */
-  incompleteOnly: boolean
 }
 
-const DEFAULT_VIEW: View = { shelf: 'main', sort: 'progress', platforms: [], incompleteOnly: false }
+const DEFAULT_VIEW: View = { shelf: 'main', sort: 'progress', platforms: [] }
 
 /**
  * Abrir um jogo desmonta esta página: sem guardar a vista, voltar dele zeraria
@@ -43,12 +48,11 @@ function loadView(): View {
     if (!parsed || typeof parsed !== 'object') return DEFAULT_VIEW
     // Campo por campo: um valor que não reconhecemos volta ao padrão sozinho.
     return {
-      shelf: parsed.shelf === 'backlog' ? 'backlog' : 'main',
+      shelf: parsed.shelf === 'backlog' || parsed.shelf === 'done' ? parsed.shelf : 'main',
       sort: parsed.sort === 'title' ? 'title' : 'progress',
       platforms: Array.isArray(parsed.platforms)
         ? parsed.platforms.filter((id) => PLATFORMS.some((p) => p.id === id))
         : [],
-      incompleteOnly: parsed.incompleteOnly === true,
     }
   } catch {
     // Storage corrompido ou bloqueado não pode impedir a página de abrir.
@@ -56,29 +60,33 @@ function loadView(): View {
   }
 }
 
-/** Em andamento primeiro, depois os que nem começaram, e os platinados no fim. */
-function rank(progress: Progress): number {
-  if (progress.complete) return 2
-  return progress.earned > 0 ? 0 : 1
-}
-
 interface Item {
   entry: CatalogEntry
   progress: Progress
-  shelf: Shelf
+  tab: Tab
+  /** Quando a Platina acendeu. Só existe nos concluídos. */
+  completedAt?: number
 }
 
 function byTitle(a: Item, b: Item): number {
   return a.entry.title.localeCompare(b.entry.title, 'pt-BR')
 }
 
-/** Dentro de cada faixa de `rank`, o mais perto da Platina vem antes. */
+/**
+ * O mais perto da Platina vem antes. `earned` desempata o arredondamento: 1 de
+ * 300 dá 0%, e mesmo assim é um jogo em andamento, não um que nem começou.
+ */
 function byProgress(a: Item, b: Item): number {
   return (
-    rank(a.progress) - rank(b.progress) ||
     b.progress.percent - a.progress.percent ||
+    b.progress.earned - a.progress.earned ||
     byTitle(a, b)
   )
+}
+
+/** Nos concluídos todo mundo está em 100%: o progresso vira "a Platina mais recente". */
+function byCompletion(a: Item, b: Item): number {
+  return (b.completedAt ?? 0) - (a.completedAt ?? 0) || byTitle(a, b)
 }
 
 export function GamesPage() {
@@ -98,20 +106,24 @@ export function GamesPage() {
 
   const games: Item[] = (data?.games ?? []).map((entry) => {
     const game = state.games[entry.slug] ?? EMPTY_GAME
-    return { entry, progress: catalogProgress(entry, game), shelf: shelfOf(game) }
+    const progress = catalogProgress(entry, game)
+    if (!progress.complete) return { entry, progress, tab: shelfOf(game) }
+    return {
+      entry,
+      progress,
+      tab: 'done',
+      completedAt: platinumEarnedAt(entry.trophyIds, game.earned),
+    }
   })
 
   const platinums = games.filter((g) => g.progress.complete).length
   const earned = games.reduce((sum, g) => sum + g.progress.earned, 0)
   const total = games.reduce((sum, g) => sum + g.progress.total, 0)
 
-  const onShelf = games.filter((g) => g.shelf === view.shelf)
-  const visible = onShelf
-    .filter((g) => {
-      if (view.incompleteOnly && g.progress.complete) return false
-      return matchesPlatforms(g.entry.targetPlatform, view.platforms)
-    })
-    .sort(view.sort === 'title' ? byTitle : byProgress)
+  const onTab = games.filter((g) => g.tab === view.shelf)
+  const visible = onTab
+    .filter((g) => matchesPlatforms(g.entry.targetPlatform, view.platforms))
+    .sort(view.sort === 'title' ? byTitle : view.shelf === 'done' ? byCompletion : byProgress)
 
   // Só os consoles que algum jogo do catálogo tem viram chip.
   const platformsPresentes = PLATFORMS.filter((p) =>
@@ -153,7 +165,7 @@ export function GamesPage() {
         {!loading && !error && games.length > 0 && (
           <div className="stack">
             <div className="segmented">
-              {SHELF_OPTIONS.map(({ value, label }) => (
+              {TAB_OPTIONS.map(({ value, label }) => (
                 <button
                   key={value}
                   type="button"
@@ -161,7 +173,10 @@ export function GamesPage() {
                   onClick={() => patch({ shelf: value })}
                   aria-pressed={view.shelf === value}
                 >
-                  {label} · {games.filter((g) => g.shelf === value).length}
+                  <span>{label}</span>
+                  <span className="segmented__count">
+                    {games.filter((g) => g.tab === value).length}
+                  </span>
                 </button>
               ))}
             </div>
@@ -175,7 +190,7 @@ export function GamesPage() {
                   onClick={() => patch({ sort: value })}
                   aria-pressed={view.sort === value}
                 >
-                  {label}
+                  {value === 'progress' && view.shelf === 'done' ? 'Recentes' : label}
                 </button>
               ))}
             </div>
@@ -198,24 +213,22 @@ export function GamesPage() {
                   🕹️ {label}
                 </button>
               ))}
-              <button
-                type="button"
-                className={view.incompleteOnly ? 'chip-option is-active' : 'chip-option'}
-                onClick={() => patch({ incompleteOnly: !view.incompleteOnly })}
-                aria-pressed={view.incompleteOnly}
-              >
-                ⏳ Não concluídos
-              </button>
             </div>
           </div>
         )}
 
         {!loading && !error && games.length > 0 && visible.length === 0 && (
           <div className="empty">
-            {onShelf.length > 0 ? (
+            {onTab.length > 0 ? (
               <>
                 <div className="empty__icon">🔍</div>
                 <p className="empty__title">Nenhum jogo com esses filtros</p>
+              </>
+            ) : view.shelf === 'done' ? (
+              <>
+                <div className="empty__icon">💎</div>
+                <p className="empty__title">Nenhum jogo concluído ainda</p>
+                <p className="hint">Jogo platinado vem para cá sozinho.</p>
               </>
             ) : view.shelf === 'main' ? (
               <>
@@ -229,7 +242,7 @@ export function GamesPage() {
               <>
                 <div className="empty__icon">⭐</div>
                 <p className="empty__title">Backlog vazio</p>
-                <p className="hint">Todos os jogos estão na lista principal.</p>
+                <p className="hint">Nenhum jogo esperando a vez.</p>
               </>
             )}
           </div>
