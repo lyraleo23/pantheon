@@ -2,21 +2,21 @@
   "game": {
     "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
     "mode": "port",
-    "sourcePlatform": "PlayStation 4/5",
+    "sourcePlatform": "Rockstar Games Social Club (account-tracked; PS4/PS5 list plus Social Club-only accomplishments)",
     "developer": "Grapeshot Games / Rockstar Games",
     "publisher": "Rockstar Games",
     "genre": "Open-world action",
     "releaseYear": 2021,
-    "listVersion": "1.0",
-    "rulesetVersion": "2.0",
+    "listVersion": "2.0",
+    "rulesetVersion": "2.1",
     "status": "approved",
     "title": "Grand Theft Auto: Vice City – The Definitive Edition",
     "slug": "gta-vice-city-definitive",
     "code": "GTAVCDE",
-    "nativeCount": 34,
+    "nativeCount": 43,
     "estimatedDifficulty": 4,
     "estimatedHours": "25-30h",
-    "notes": "Port Mode from the PS4/PS5 list (34 trophies: 1 Platinum, 5 Gold, 9 Silver, 19 Bronze). City Sleuth tier conflicts between sources (Gold on gtabase, Silver on PowerPyx); Gold kept because it is the only assignment consistent with the 5/9/19 totals. Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. Take the Cannoli requires patch 1.02 or later."
+    "notes": "Mirror list (ruleset v2.1, Account-tracked achievements). The player confirmed on 2026-11-13 that their Rockstar Games Social Club account tracks this game's accomplishments for the Nintendo Switch version, so the Social Club page is the verification source for every entry, including counter-based ones the game itself does not display. Imported 1:1 at the player's request: the Social Club list has 43 entries (gta.wiki and gtabase agree on names and descriptions but may share lineage; socialclub.rockstargames.com was not reached directly, so confidence is medium) - the 33 PS4/PS5 gameplay trophies, the Platinum counterpart 'Kingpin' (replaced by Pantheon's own Platinum, Rule 18) and 9 Social Club-only accomplishments (origin native-other, tiers assigned under Rule 5). gta.wiki labels the 9 as Social Club-exclusive but one of its pages calls Retro Lewk a PS trophy; they are absent from the PS list, so they are tagged native-other. Filter (Rules 10, 20, 21) was waived by the player's choice; Prune found no entry clearly needing content missing on Switch (Deluxo for Don't Need Roads and the Cherry Popper subgame for Vice Vice Baby were not explicitly verified on Switch). City Sleuth tier: gtabase says Gold, PowerPyx Silver; Gold kept because gtabase's tiers match the PS 1/5/9/19 totals. 'Offender' reads 'Attain 50 wanted starts' in both sources - treated as a typo for stars. IDs 001-026 and the Platinum (027) are unchanged from v1.0 so recorded progress survives; restored and new entries take 028-045 in import order (restored console entries first, then Social Club-only). The two original v1.0 trophies (Street Legend, Neon Arena) are kept. The count exceeds Rule 4's 40-trophy reference because the mirror is 1:1. Mission-condition trophies stay flagged MISSABLE because mission replay is unconfirmed in the Definitive Edition. Take the Cannoli's Godfather threshold was reportedly lowered to 100,000 in patch 1.02; keep the Switch version updated. Cheats are reported to block achievements on other platforms; assume a cheat-free save."
   },
   "trophies": [
     {
@@ -311,7 +311,7 @@
       "description": "Earn the 'Godfather' criminal rating.",
       "tier": "silver",
       "type": "challenge",
-      "verification": "Pause > Stats shows the criminal rating title 'Godfather' (100,000 rating threshold since patch 1.02; keep the game updated).",
+      "verification": "Pause > Stats shows the criminal rating title 'Godfather' (the threshold was reportedly lowered in patch 1.02; keep the game updated); Your Rockstar Games Social Club profile lists it as unlocked for this game.",
       "missable": false,
       "secret": false,
       "origin": "native-playstation",
@@ -330,12 +330,228 @@
       "originId": "Done it All"
     },
     {
+      "id": "GTAVCDE-028",
+      "name": "Born in the 80's",
+      "description": "Listen to every music station at least once.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Born in the 80's"
+    },
+    {
+      "id": "GTAVCDE-029",
+      "name": "Don't Need Roads",
+      "description": "Hit max speed in a Deluxo.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Don't Need Roads"
+    },
+    {
+      "id": "GTAVCDE-030",
+      "name": "Point A to Point B",
+      "description": "Drop off 25 passengers driving the taxi.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Point A to Point B"
+    },
+    {
+      "id": "GTAVCDE-031",
+      "name": "High Quality H2O",
+      "description": "Extinguish 10 fires.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "High Quality H2O"
+    },
+    {
+      "id": "GTAVCDE-032",
+      "name": "Pie Guy",
+      "description": "Deliver 10 pizzas.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Pie Guy"
+    },
+    {
+      "id": "GTAVCDE-033",
+      "name": "Vice City Mogul",
+      "description": "Own 10 properties.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Vice City Mogul"
+    },
+    {
+      "id": "GTAVCDE-034",
+      "name": "One is Better Than Two",
+      "description": "Perform a 30-second wheelie.",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "The wheelie stunt bonus message shows the duration; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "One is Better Than Two"
+    },
+    {
+      "id": "GTAVCDE-035",
+      "name": "City Sleuth",
+      "description": "Find all 100 Hidden Packages.",
+      "tier": "gold",
+      "type": "collection",
+      "verification": "A reward spawns at the main safehouses every 10 packages, and the Pause > Stats completion percentage rises with each package; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "City Sleuth"
+    },
+    {
+      "id": "GTAVCDE-036",
+      "name": "Daredevil",
+      "description": "Complete 36 unique jumps.",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "Each unique jump shows the Unique Stunt Bonus message; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Daredevil"
+    },
+    {
+      "id": "GTAVCDE-037",
+      "name": "Put 'Em Up",
+      "description": "Knock off 15 stores.",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Put 'Em Up"
+    },
+    {
+      "id": "GTAVCDE-038",
+      "name": "Offender",
+      "description": "Attain 50 wanted stars (source text reads 'wanted starts'; whether it counts cumulatively is unconfirmed).",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Offender"
+    },
+    {
+      "id": "GTAVCDE-039",
+      "name": "Retro Lewk",
+      "description": "Wear every outfit in the game at least once.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Retro Lewk"
+    },
+    {
+      "id": "GTAVCDE-040",
+      "name": "Scouring the City!",
+      "description": "Find 50 Hidden Packages.",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "A reward spawns at the main safehouses every 10 packages; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Scouring the City!"
+    },
+    {
+      "id": "GTAVCDE-041",
+      "name": "Break it Up",
+      "description": "Cause $500,000 in property damage.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Pause > Stats shows the property damage total; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Break it Up"
+    },
+    {
+      "id": "GTAVCDE-042",
+      "name": "Target Practice",
+      "description": "Perform 50 headshots.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Target Practice"
+    },
+    {
+      "id": "GTAVCDE-043",
+      "name": "Prime Real Estate",
+      "description": "Purchase every property.",
+      "tier": "gold",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Prime Real Estate"
+    },
+    {
+      "id": "GTAVCDE-044",
+      "name": "Vice Vice Baby",
+      "description": "Complete the Cherry Popper dealer subgame.",
+      "tier": "silver",
+      "type": "minigame",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Vice Vice Baby"
+    },
+    {
+      "id": "GTAVCDE-045",
+      "name": "Baked Distractions",
+      "description": "During 'Sir, Yes Sir!', hijack the tank without alerting the army first. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "You enter the tank before any alarm is raised, then Mission Passed appears; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Baked Distractions"
+    },
+    {
       "id": "GTAVCDE-027",
       "name": "The Vercetti Empire",
       "description": "Earn every other trophy.",
       "tier": "platinum",
       "type": "challenge",
-      "verification": "All base-game trophies show as earned.",
+      "verification": "Every other trophy in this list is marked earned in Pantheon.",
       "missable": false,
       "secret": false,
       "origin": "original"
@@ -346,51 +562,6 @@
       "originId": "Kingpin",
       "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
       "rule": 18
-    },
-    {
-      "originId": "Born in the 80's",
-      "reason": "Listen to every radio station — the game does not record which stations were heard.",
-      "rule": 1
-    },
-    {
-      "originId": "Don't Need Roads",
-      "reason": "Hit max speed in a Deluxo — there is no speedometer to confirm the condition; arbitrary action.",
-      "rule": 1
-    },
-    {
-      "originId": "Point A to Point B",
-      "reason": "Cumulative 25 taxi passengers — no confirmed in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "High Quality H2O",
-      "reason": "Cumulative 10 fires — no confirmed in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Pie Guy",
-      "reason": "Cumulative 10 pizza deliveries — no confirmed in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Vice City Mogul",
-      "reason": "Own 10 properties - no owned-property counter confirmed and sources disagree on what counts as a property (15/17/18).",
-      "rule": 2
-    },
-    {
-      "originId": "One is Better Than Two",
-      "reason": "30-second wheelie - no confirmed on-screen wheelie timer in the Definitive Edition.",
-      "rule": 1
-    },
-    {
-      "originId": "City Sleuth",
-      "reason": "100 hidden packages - no confirmed running package count; packages remain required by Done it All (100%).",
-      "rule": 1
-    },
-    {
-      "originId": "Daredevil",
-      "reason": "36 unique jumps — per-jump bonus shown but no confirmed running total; jumps remain required by the 100% trophy.",
-      "rule": 1
     }
   ]
 }

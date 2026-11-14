@@ -2,21 +2,21 @@
   "game": {
     "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
     "mode": "port",
-    "sourcePlatform": "PlayStation 4/5",
+    "sourcePlatform": "Rockstar Games Social Club (account-tracked; PS4/PS5 list plus Social Club-only accomplishments)",
     "developer": "Grapeshot Games / Rockstar Games",
     "publisher": "Rockstar Games",
     "genre": "Open-world action",
     "releaseYear": 2021,
-    "listVersion": "1.0",
-    "rulesetVersion": "2.0",
+    "listVersion": "2.0",
+    "rulesetVersion": "2.1",
     "status": "approved",
     "title": "Grand Theft Auto III – The Definitive Edition",
     "slug": "gta-iii-definitive",
     "code": "GTA3DE",
-    "nativeCount": 29,
+    "nativeCount": 44,
     "estimatedDifficulty": 4,
     "estimatedHours": "20-25h",
-    "notes": "Port Mode from the PS4/PS5 list (29 trophies: 1 Platinum, 6 Gold, 11 Silver, 11 Bronze). Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. Count of 18 and a light bronze share follow from filtering five counter-based bronzes; the list still covers every island arc, Paramedic, RC Toyz and full 100%. The Platinum inherits the 100% trophy's missable risk. Known bug: leaving 'Kingdom Come' as the last 100% item has been reported to stop 100% registering on other platforms — clear it early. Import/Export is covered only through the 100% trophy: no in-game list-completion display was confirmed. Complete pass was run: the Switch version has no exclusive content, and the one original addition (Import/Export lists) was dropped in audit for lack of a confirmed display, so the only original entry is the Platinum."
+    "notes": "Mirror list (ruleset v2.1, Account-tracked achievements). The player confirmed on 2026-11-13 that their Rockstar Games Social Club account tracks this game's accomplishments for the Nintendo Switch version, so the Social Club page is the verification source for every entry, including counter-based ones the game itself does not display. Imported 1:1 at the player's request: the Social Club list has 44 entries (gta.wiki and gtabase agree on all names and descriptions; socialclub.rockstargames.com was not reached directly, so confidence is medium) - the 28 PS4/PS5 gameplay trophies, the Platinum counterpart 'King of Liberty City' (replaced by Pantheon's own Platinum, Rule 18) and 15 Social Club-only accomplishments (origin native-other, tiers assigned under Rule 5). Filter (Rules 10, 20, 21) was waived by the player's choice; Prune found no entry that needs content missing on Switch. IDs 001-017 and the Platinum (018) are unchanged from v1.0 so recorded progress survives; restored and new entries take 019-044 in import order (restored console entries first, then Social Club-only). The count exceeds Rule 4's 40-trophy reference because the mirror is 1:1. Mission-condition trophies stay flagged MISSABLE because mission replay is unconfirmed in the Definitive Edition. Known bug: leaving 'Kingdom Come' as the last 100% item has been reported to stop 100% registering - clear it early. Cheats are reported to block achievements on other platforms; assume a cheat-free save."
   },
   "trophies": [
     {
@@ -142,11 +142,11 @@
     {
       "id": "GTA3DE-011",
       "name": "A Gift from the King",
-      "description": "Complete the 'Kingdom Come' pay phone mission.",
+      "description": "Complete the 'Kingdom Come' pay phone mission. ⚠️ MISSABLE - as a precaution, finish it before the story moves past its contact.",
       "tier": "silver",
       "type": "sidequest",
       "verification": "'Kingdom Come' shows Mission Passed.",
-      "missable": false,
+      "missable": true,
       "secret": false,
       "origin": "native-playstation",
       "originId": "A Gift from the King"
@@ -224,12 +224,324 @@
       "originId": "Is That All You've Got?"
     },
     {
+      "id": "GTA3DE-019",
+      "name": "Escape Artist",
+      "description": "Use 20 police bribes.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Each bribe pickup lowers your wanted level by one star; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Escape Artist"
+    },
+    {
+      "id": "GTA3DE-020",
+      "name": "Street Sweeper",
+      "description": "Waste 100 gang members.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Street Sweeper"
+    },
+    {
+      "id": "GTA3DE-021",
+      "name": "Come Out to Play-y-y-y",
+      "description": "Kill 25 gang members with melee weapons or fists.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Come Out to Play-y-y-y"
+    },
+    {
+      "id": "GTA3DE-022",
+      "name": "Full Artillery",
+      "description": "Use every weapon in the game at least once.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Full Artillery"
+    },
+    {
+      "id": "GTA3DE-023",
+      "name": "Liberty City Minute",
+      "description": "Survive with less than 10 HP for one minute.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The health display on the HUD stays below 10; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Liberty City Minute"
+    },
+    {
+      "id": "GTA3DE-024",
+      "name": "By a Mile",
+      "description": "Complete the 'Turismo' race in under 180 seconds. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "challenge",
+      "verification": "'Turismo' shows Mission Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "By a Mile"
+    },
+    {
+      "id": "GTA3DE-025",
+      "name": "Wheels Up",
+      "description": "Complete 20 unique jumps.",
+      "tier": "gold",
+      "type": "exploration",
+      "verification": "Each unique jump shows the unique stunt bonus message; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Wheels Up"
+    },
+    {
+      "id": "GTA3DE-026",
+      "name": "Where To?",
+      "description": "Complete 100 taxi fares.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Where To?"
+    },
+    {
+      "id": "GTA3DE-027",
+      "name": "Furious First Responder",
+      "description": "Complete the Paramedic, Firefighter and Vigilante side missions.",
+      "tier": "gold",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Furious First Responder"
+    },
+    {
+      "id": "GTA3DE-028",
+      "name": "Splish Splash",
+      "description": "Extinguish 15 fires during a single Firefighter side mission.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Splish Splash"
+    },
+    {
+      "id": "GTA3DE-029",
+      "name": "Going Rogue",
+      "description": "Kill 15 criminals during one Vigilante side mission.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Going Rogue"
+    },
+    {
+      "id": "GTA3DE-030",
+      "name": "Got Any Stories, Old Man?",
+      "description": "Complete 'Cipriani's Chauffeur'. ⚠️ MISSABLE - it is part of Joey Leone's chain; finish Joey's and Luigi's missions before 'Last Requests'.",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "'Cipriani's Chauffeur' shows Mission Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Got Any Stories, Old Man?"
+    },
+    {
+      "id": "GTA3DE-031",
+      "name": "Talks a Lot",
+      "description": "Complete all pay phone missions. As a precaution, finish each pay phone chain before the story moves past its contact. ⚠️ MISSABLE",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Each pay phone mission shows Mission Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Talks a Lot"
+    },
+    {
+      "id": "GTA3DE-032",
+      "name": "Instigator",
+      "description": "Complete 10 rampages.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Each rampage ends with Rampage Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Instigator"
+    },
+    {
+      "id": "GTA3DE-033",
+      "name": "Blood in the Streets",
+      "description": "Pass all 20 rampages.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Each rampage ends with Rampage Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Blood in the Streets"
+    },
+    {
+      "id": "GTA3DE-034",
+      "name": "Chasing Paper",
+      "description": "Amass a fortune of $500,000.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The HUD money counter shows $500,000 or more; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Chasing Paper"
+    },
+    {
+      "id": "GTA3DE-035",
+      "name": "Am Walkin' Here",
+      "description": "Die from being run over.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Wasted screen follows being hit by a vehicle; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Am Walkin' Here"
+    },
+    {
+      "id": "GTA3DE-036",
+      "name": "Hunting Season",
+      "description": "Destroy five helicopters.",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Hunting Season"
+    },
+    {
+      "id": "GTA3DE-037",
+      "name": "Repeat Offender",
+      "description": "Get busted 20 times.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Repeat Offender"
+    },
+    {
+      "id": "GTA3DE-038",
+      "name": "Cheaters Do Prosper!",
+      "description": "Blow up 2,000 cars.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Cheaters Do Prosper!"
+    },
+    {
+      "id": "GTA3DE-039",
+      "name": "Play Fetch",
+      "description": "Complete the Portland Docks and Shoreside Vale import/export car lists.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Each delivered car is ticked off the list board at the garage; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Play Fetch"
+    },
+    {
+      "id": "GTA3DE-040",
+      "name": "Pest Control",
+      "description": "Deliver all emergency vehicles to the crane at the Portland Docks.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Pest Control"
+    },
+    {
+      "id": "GTA3DE-041",
+      "name": "Relief Pitcher",
+      "description": "Extinguish 20 fires during a single Firefighter mission.",
+      "tier": "gold",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Relief Pitcher"
+    },
+    {
+      "id": "GTA3DE-042",
+      "name": "Like a Boss",
+      "description": "Earn a Criminal Rating of 5,000 or higher.",
+      "tier": "silver",
+      "type": "mechanic",
+      "verification": "Pause > Stats shows a Criminal Rating of 5,000 or higher; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Like a Boss"
+    },
+    {
+      "id": "GTA3DE-043",
+      "name": "Fare Game",
+      "description": "Pick up Curly Bob in a taxi during 'Cutting the Grass'. ⚠️ MISSABLE",
+      "tier": "bronze",
+      "type": "challenge",
+      "verification": "Curly Bob gets into your taxi before Mission Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Fare Game"
+    },
+    {
+      "id": "GTA3DE-044",
+      "name": "Recycler",
+      "description": "Crush 25 cars.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Recycler"
+    },
+    {
       "id": "GTA3DE-018",
       "name": "King of the Concrete Jungle",
       "description": "Earn every other trophy.",
       "tier": "platinum",
       "type": "challenge",
-      "verification": "All base-game trophies show as earned.",
+      "verification": "Every other trophy in this list is marked earned in Pantheon.",
       "missable": false,
       "secret": false,
       "origin": "original"
@@ -240,61 +552,6 @@
       "originId": "King of Liberty City",
       "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
       "rule": 18
-    },
-    {
-      "originId": "Escape Artist",
-      "reason": "Cumulative 20 police bribes — no confirmed in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Street Sweeper",
-      "reason": "Cumulative 100 gang members wasted — no confirmed in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Come Out to Play-y-y-y",
-      "reason": "Cumulative 25 melee gang kills — no in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Full Artillery",
-      "reason": "Use every weapon at least once — the game does not record which weapons were used.",
-      "rule": 1
-    },
-    {
-      "originId": "Liberty City Minute",
-      "reason": "Survive under 10 HP for one minute — arbitrary action with no in-game timer.",
-      "rule": 10
-    },
-    {
-      "originId": "By a Mile",
-      "reason": "'Turismo' under 180 seconds — the race does not confirmably display an elapsed time; also missable.",
-      "rule": 1
-    },
-    {
-      "originId": "Wheels Up",
-      "reason": "20 unique jumps — the game shows a per-jump bonus but no confirmed running total; jumps remain required by the 100% trophy.",
-      "rule": 1
-    },
-    {
-      "originId": "Where To?",
-      "reason": "100 taxi fares — cumulative total not confirmed on screen; fares remain required by the 100% trophy.",
-      "rule": 2
-    },
-    {
-      "originId": "Furious First Responder",
-      "reason": "Complete Paramedic, Firefighter and Vigilante - Firefighter and Vigilante completion rests on 60-fire and 60-criminal totals with no confirmed counter; Paramedic level 12 kept separately as Playing Doctor.",
-      "rule": 2
-    },
-    {
-      "originId": "Splish Splash",
-      "reason": "15 fires in one Fire Truck run — no confirmed per-run counter; covered by Furious First Responder.",
-      "rule": 2
-    },
-    {
-      "originId": "Going Rogue",
-      "reason": "15 criminals in one Vigilante run — no confirmed per-run counter; covered by Furious First Responder.",
-      "rule": 2
     }
   ]
 }

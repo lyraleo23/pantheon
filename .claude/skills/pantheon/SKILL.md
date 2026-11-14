@@ -26,6 +26,7 @@ Before anything else, determine whether the **target platform's** version of the
 
 - Native achievements exist on the target platform → **stop**. Tell the user the native list already covers it. Do not build a list.
 - The gate is per game + platform. Hollow Knight has Steam achievements and none on Switch — valid on Switch, invalid on Steam.
+- Exception: achievements tracked only by a publisher account service (Rockstar Social Club, Ubisoft Connect…) do not block the gate — build a **mirror** list per the ruleset's *Account-tracked achievements* section.
 
 ### Step 1 — Mode selection
 
