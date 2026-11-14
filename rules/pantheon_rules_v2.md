@@ -1,6 +1,6 @@
 # 🏛️ Pantheon — Official Ruleset
 
-> **Version:** 2.0
+> **Version:** 2.1
 > **Supersedes:** Chaty Trophy System Rules v1.1
 > **Model:** Pantheon Model of Relevant Completion
 
@@ -39,6 +39,19 @@ The gate is evaluated per **game + platform pair**, never per game alone. A titl
 
 Port Mode is preferred whenever available. A native achievement list is verified ground truth and removes the largest source of error in list creation.
 
+### Account-tracked achievements (mirror exception)
+
+Some publishers track achievements through their own account service rather than the platform: Rockstar Games Social Club, Ubisoft Connect, EA app and similar. When the target platform's version has **no system-level achievements** but the publisher's account records them for that version, the entry gate does **not** block the game. It stays in Pantheon as a **mirror**, so the player keeps one record for every game.
+
+A mirror list follows Port Mode with these differences:
+
+- `sourcePlatform` names the account service, e.g. *Rockstar Games Social Club*. Entries that exist only on that service use `origin: native-other`.
+- The service's achievement page counts as verification under Rule 1. Counters the game itself does not display are therefore allowed, and Rules 2 and 9 do not apply to entries the service tracks.
+- **Filter** may be waived at the player's choice: the list may import every tracked entry 1:1, ignoring Rules 10, 20 and 21. Record that choice in `game.notes`.
+- **Prune** is still mandatory: an entry the target version cannot unlock is still impossible.
+- The Platinum remains Pantheon's own (Rules 18 and 23), and Rule 4's count range is a reference that a 1:1 mirror may exceed.
+- The player confirms that the service actually tracks the target version, and that confirmation is recorded in `game.notes`.
+
 ---
 
 ## 📜 Official Rules
@@ -55,6 +68,7 @@ When an objective is completed, there must be an objective way to confirm the co
 - A rank achieved.
 - A save-file record.
 - Information available in in-game menus or statistics.
+- An unlocked entry on a publisher account service that tracks this version (see *Account-tracked achievements*).
 
 The player must never be asked to manually track statistics the game itself does not record.
 
@@ -292,7 +306,7 @@ Every trophy records where it came from:
 | `native-steam` | Adapted from a Steam achievement |
 | `native-playstation` | Adapted from a PlayStation trophy |
 | `native-xbox` | Adapted from an Xbox achievement |
-| `native-other` | Adapted from another storefront or platform |
+| `native-other` | Adapted from another storefront, platform or publisher account service (e.g. Rockstar Games Social Club) |
 
 Entries adapted from a native list also record `origin_id` — the original achievement name — so any claim can be traced back to its source.
 

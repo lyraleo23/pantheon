@@ -2,21 +2,21 @@
   "game": {
     "targetPlatform": "Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)",
     "mode": "port",
-    "sourcePlatform": "PlayStation 4/5",
+    "sourcePlatform": "Rockstar Games Social Club (account-tracked; PS4/PS5 list plus Social Club-only accomplishments)",
     "developer": "Grapeshot Games / Rockstar Games",
     "publisher": "Rockstar Games",
     "genre": "Open-world action",
     "releaseYear": 2021,
-    "listVersion": "1.0",
-    "rulesetVersion": "2.0",
+    "listVersion": "2.0",
+    "rulesetVersion": "2.1",
     "status": "approved",
     "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
     "slug": "gta-san-andreas-definitive",
     "code": "GTASADE",
-    "nativeCount": 35,
+    "nativeCount": 48,
     "estimatedDifficulty": 5,
     "estimatedHours": "60-80h",
-    "notes": "Port Mode from the PS4/PS5 list (35 trophies: 1 Platinum, 5 Gold, 8 Silver, 21 Bronze). The paramedic trophy name is spelled 'Savior' (gtabase/gta.wiki; PowerPyx has 'Saviour'). Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. CJ's attribute bars (fat, respect, sex appeal) and weapon skill levels are read from the Stats menu (medium confidence, accepted at checkpoint). Collectibles (tags, snapshots, horseshoes, oysters) have no dedicated trophy: no counter is confirmed and Remastered (100%) already requires them. Ain't Nothing But a G Thing is a judgment call kept on the strength of the territory map, the game's own turf display. Local 2-player co-op from the original release is absent from the Definitive Edition; no trophy references it. Gang turfs captured early are lost when CJ first leaves Los Santos and must be retaken after the return, which is why Ain't Nothing But a G Thing is effectively post-story. Validator warning on Bike or Biker is a false positive: it is a single run whose checkpoints are shown on screen, not a cumulative total."
+    "notes": "Mirror list (ruleset v2.1, Account-tracked achievements). The player confirmed on 2026-11-13 that their Rockstar Games Social Club account tracks this game's accomplishments for the Nintendo Switch version, so the Social Club page is the verification source for every entry, including counter-based ones the game itself does not display. Imported 1:1 at the player's request: the Social Club list has 48 entries per gtabase, gta.wiki, a pre-release leak and a Steam thread (socialclub.rockstargames.com was not reached directly, so confidence is medium) - the 34 PS4/PS5 gameplay trophies, the Platinum counterpart 'I Ain't No Buster' (replaced by Pantheon's own Platinum, Rule 18; a Switch Social Club page may show 47 entries if it omits it) and 13 Social Club-only accomplishments (origin native-other, tiers assigned under Rule 5). Filter (Rules 10, 20, 21) was waived by the player's choice, so entries such as 'Today Was a Good Day', '...Here we go again', 'Horror of the Santa Maria' and 'Lucky Spinner' are back. Prune found no entry needing content missing on Switch. Sticky Fingers' amount is disputed ($10,000 per gta.wiki/gtabase vs $50,000 per the leak and Steam thread), so its description does not commit to a figure. IDs 001-029 and the Platinum (030) are unchanged from v1.0 so recorded progress survives; restored and new entries take 031-049 in import order (restored console entries first, then Social Club-only). The original v1.0 trophy Breaking the Bank is kept. The count exceeds Rule 4's 40-trophy reference because the mirror is 1:1. Mission-condition trophies stay flagged MISSABLE because mission replay is unconfirmed in the Definitive Edition. '...Here we go again' needs a new game after 100%: save the 100% file in a separate slot first. Cheats are reported to block achievements on other platforms; assume a cheat-free save."
   },
   "trophies": [
     {
@@ -49,7 +49,7 @@
       "description": "In 'Mike Toreno', find Toreno without using any of the referenced locations. ⚠️ MISSABLE",
       "tier": "bronze",
       "type": "challenge",
-      "verification": "CJ drives straight to Toreno at Easter Basin without first visiting any location the mission points out, and Mission Passed appears.",
+      "verification": "Mission Passed appears without CJ having visited any of the locations the mission points out; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
       "missable": true,
       "secret": false,
       "origin": "native-playstation",
@@ -61,7 +61,7 @@
       "description": "Stealth-kill every enemy in 'Madd Dogg's Rhymes'. ⚠️ MISSABLE",
       "tier": "bronze",
       "type": "challenge",
-      "verification": "No guard spots CJ, and every guard in the mansion dies to a stealth kill before Mission Passed.",
+      "verification": "Every enemy in the mansion dies to a stealth kill before Mission Passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
       "missable": true,
       "secret": false,
       "origin": "native-playstation",
@@ -165,7 +165,7 @@
     {
       "id": "GTASADE-013",
       "name": "I'll Have Two Number 9s",
-      "description": "Reach maximum fat.",
+      "description": "Reach maximum weight.",
       "tier": "bronze",
       "type": "mechanic",
       "verification": "The Fat bar in the Stats menu is full and CJ is visibly at his heaviest.",
@@ -367,12 +367,240 @@
       "originId": "Remastered"
     },
     {
+      "id": "GTASADE-031",
+      "name": "With Extra Dip",
+      "description": "Buy 8 meals from Cluckin' Bell.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "With Extra Dip"
+    },
+    {
+      "id": "GTASADE-032",
+      "name": "Horror of the Santa Maria",
+      "description": "Drown.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Wasted screen follows running out of breath underwater; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Horror of the Santa Maria"
+    },
+    {
+      "id": "GTASADE-033",
+      "name": "Today Was a Good Day",
+      "description": "Go 24 in-game hours without breaking the law, being wanted, killing or harming anyone.",
+      "tier": "gold",
+      "type": "challenge",
+      "verification": "The in-game clock on the HUD shows a full day has passed; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Today Was a Good Day"
+    },
+    {
+      "id": "GTASADE-034",
+      "name": "...Here we go again",
+      "description": "Start a new game after reaching 100% on a save file. Keep the 100% save in its own slot.",
+      "tier": "bronze",
+      "type": "postgame",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "...Here we go again"
+    },
+    {
+      "id": "GTASADE-035",
+      "name": "Yes I Speak English",
+      "description": "Complete 50 fares in the Taxi Driver side mission.",
+      "tier": "silver",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Yes I Speak English"
+    },
+    {
+      "id": "GTASADE-036",
+      "name": "Lucky Spinner",
+      "description": "Win at least $1,000 in a single spin of the Wheel of Fortune.",
+      "tier": "bronze",
+      "type": "minigame",
+      "verification": "The HUD money counter rises by $1,000 or more after one spin; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-playstation",
+      "originId": "Lucky Spinner"
+    },
+    {
+      "id": "GTASADE-037",
+      "name": "Sticky Fingers",
+      "description": "Earn money through burglary missions until the target is reached (sources cite $10,000 or $50,000).",
+      "tier": "bronze",
+      "type": "sidequest",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Sticky Fingers"
+    },
+    {
+      "id": "GTASADE-038",
+      "name": "81 Years Too Late",
+      "description": "Spend 24 hours on foot in the countryside looking for Bigfoot (sources do not say whether in-game or real time).",
+      "tier": "silver",
+      "type": "exploration",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "81 Years Too Late"
+    },
+    {
+      "id": "GTASADE-039",
+      "name": "Get a Pump",
+      "description": "Do a barbell curl or bench press at any gym.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The gym workout screen starts on the barbell or bench; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Get a Pump"
+    },
+    {
+      "id": "GTASADE-040",
+      "name": "Beat the Cock",
+      "description": "Win the Beat the Cock! marathon.",
+      "tier": "silver",
+      "type": "minigame",
+      "verification": "The marathon ends with you in first place; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Beat the Cock"
+    },
+    {
+      "id": "GTASADE-041",
+      "name": "Metrosexual",
+      "description": "Spend $6,969 on clothes, haircuts and tattoos.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Metrosexual"
+    },
+    {
+      "id": "GTASADE-042",
+      "name": "Where'd He Go?",
+      "description": "Escape the police 20 times using a Pay 'n' Spray.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Where'd He Go?"
+    },
+    {
+      "id": "GTASADE-043",
+      "name": "High As a Kite",
+      "description": "Fly as high as possible and hit the height limit.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "High As a Kite"
+    },
+    {
+      "id": "GTASADE-044",
+      "name": "Represent",
+      "description": "Buy a Grove Street tattoo.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Grove Street tattoo shows on CJ's body; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Represent"
+    },
+    {
+      "id": "GTASADE-045",
+      "name": "Assert Yourself Next Time",
+      "description": "Fail a mission.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "The Mission Failed screen appears; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Assert Yourself Next Time"
+    },
+    {
+      "id": "GTASADE-046",
+      "name": "Serial Offender",
+      "description": "Get arrested 50 times.",
+      "tier": "bronze",
+      "type": "mechanic",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Serial Offender"
+    },
+    {
+      "id": "GTASADE-047",
+      "name": "Freight Date",
+      "description": "Take the train between cities.",
+      "tier": "bronze",
+      "type": "exploration",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Freight Date"
+    },
+    {
+      "id": "GTASADE-048",
+      "name": "Time to Kill",
+      "description": "Watch the credits to the end. Do not skip them after the final story mission. ⚠️ MISSABLE",
+      "tier": "bronze",
+      "type": "story",
+      "verification": "The credits roll to the end without being skipped; Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": true,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Time to Kill"
+    },
+    {
+      "id": "GTASADE-049",
+      "name": "Lots of Guns",
+      "description": "Unlock all weapons (sources do not specify which weapon set counts).",
+      "tier": "silver",
+      "type": "collection",
+      "verification": "Your Rockstar Games Social Club profile lists it as unlocked for this game.",
+      "missable": false,
+      "secret": false,
+      "origin": "native-other",
+      "originId": "Lots of Guns"
+    },
+    {
       "id": "GTASADE-030",
       "name": "Grove Street for Life",
       "description": "Earn every other trophy.",
       "tier": "platinum",
       "type": "challenge",
-      "verification": "All base-game trophies show as earned.",
+      "verification": "Every other trophy in this list is marked earned in Pantheon.",
       "missable": false,
       "secret": false,
       "origin": "original"
@@ -383,36 +611,6 @@
       "originId": "I Ain't No Buster",
       "reason": "Native Platinum replaced by Pantheon's original thematic Platinum.",
       "rule": 18
-    },
-    {
-      "originId": "With Extra Dip",
-      "reason": "Cumulative 8 Cluckin' Bell meals — no in-game counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Horror of the Santa Maria",
-      "reason": "Drown — arbitrary action with no experiential value.",
-      "rule": 10
-    },
-    {
-      "originId": "Today Was a Good Day",
-      "reason": "24 in-game hours without crime or harming anyone — the game does not track the clean streak.",
-      "rule": 1
-    },
-    {
-      "originId": "...Here we go again",
-      "reason": "Start a new game after 100% — arbitrary action that discards the completed save.",
-      "rule": 10
-    },
-    {
-      "originId": "Yes I Speak English",
-      "reason": "50 taxi fares accumulated across sessions - no confirmed fare counter.",
-      "rule": 2
-    },
-    {
-      "originId": "Lucky Spinner",
-      "reason": "Win $1,000+ on one $10 Wheel of Fortune spin — needs the rare top payout; low-probability luck pushes save-reload loops.",
-      "rule": 21
     }
   ]
 }

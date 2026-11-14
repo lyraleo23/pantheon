@@ -1,8 +1,8 @@
 # Grand Theft Auto: Vice City – The Definitive Edition — Official Trophy List
 
 > **Platform:** Nintendo Switch 2 (Nintendo Switch version, via backward compatibility)  
-> **List version:** 1.0 · **Ruleset:** Pantheon v2.0  
-> **Build mode:** 🔁 Port — adapted from PlayStation 4/5  
+> **List version:** 2.0 · **Ruleset:** Pantheon v2.1  
+> **Build mode:** 🔁 Port — adapted from Rockstar Games Social Club (account-tracked; PS4/PS5 list plus Social Club-only accomplishments)  
 > **Status:** approved
 
 ## Game Info
@@ -15,8 +15,8 @@
 | **Release** | 2021 |
 | **Estimated difficulty** | 4/10 |
 | **Estimated time to Platinum** | 25-30h |
-| **Total** | 27 |
-| **Breakdown** | 🥉 15 · 🥈 7 · 🥇 4 · 💎 1 |
+| **Total** | 45 |
+| **Breakdown** | 🥉 23 · 🥈 15 · 🥇 6 · 💎 1 |
 
 ## ⚠️ Missable Trophies
 
@@ -26,6 +26,7 @@ Plan around these before they become unreachable.
 - `GTAVCDE-003` **Chopper'd Up** — In 'Demolition Man', kill every hostile using the RC chopper's blades. ⚠️ MISSABLE
 - `GTAVCDE-006` **Salutations My Little Friend** — Use the M4 to take out Diaz during 'Rub Out'. ⚠️ MISSABLE
 - `GTAVCDE-007` **Not my First Time** — Complete 'G-Spotlight' without falling from the rooftops. ⚠️ MISSABLE
+- `GTAVCDE-045` **Baked Distractions** — During 'Sir, Yes Sir!', hijack the tank without alerting the army first. ⚠️ MISSABLE
 
 ## Summary
 
@@ -57,6 +58,24 @@ Plan around these before they become unreachable.
 | `GTAVCDE-024` | Bloodstained Hands | 🥉 Bronze | Mechanic | — |
 | `GTAVCDE-025` | Take the Cannoli | 🥈 Silver | Challenge | — |
 | `GTAVCDE-026` | Done it All | 🥇 Gold | Post-Game | — |
+| `GTAVCDE-028` | Born in the 80's | 🥉 Bronze | Exploration | — |
+| `GTAVCDE-029` | Don't Need Roads | 🥉 Bronze | Mechanic | — |
+| `GTAVCDE-030` | Point A to Point B | 🥈 Silver | Side Quest | — |
+| `GTAVCDE-031` | High Quality H2O | 🥈 Silver | Side Quest | — |
+| `GTAVCDE-032` | Pie Guy | 🥉 Bronze | Side Quest | — |
+| `GTAVCDE-033` | Vice City Mogul | 🥉 Bronze | Mechanic | — |
+| `GTAVCDE-034` | One is Better Than Two | 🥈 Silver | Challenge | — |
+| `GTAVCDE-035` | City Sleuth | 🥇 Gold | Collection | — |
+| `GTAVCDE-036` | Daredevil | 🥈 Silver | Exploration | — |
+| `GTAVCDE-037` | Put 'Em Up | 🥉 Bronze | Side Quest | — |
+| `GTAVCDE-038` | Offender | 🥉 Bronze | Mechanic | — |
+| `GTAVCDE-039` | Retro Lewk | 🥈 Silver | Collection | — |
+| `GTAVCDE-040` | Scouring the City! | 🥈 Silver | Collection | — |
+| `GTAVCDE-041` | Break it Up | 🥉 Bronze | Mechanic | — |
+| `GTAVCDE-042` | Target Practice | 🥉 Bronze | Challenge | — |
+| `GTAVCDE-043` | Prime Real Estate | 🥇 Gold | Side Quest | — |
+| `GTAVCDE-044` | Vice Vice Baby | 🥈 Silver | Minigame | — |
+| `GTAVCDE-045` | Baked Distractions | 🥈 Silver | Challenge | ⚠️ **MISSABLE** |
 | `GTAVCDE-027` | The Vercetti Empire | 💎 Platinum | Challenge | — |
 
 ## Trophies
@@ -317,7 +336,7 @@ Earn the 'Godfather' criminal rating.
 
 **Tier:** 🥈 Silver · **Type:** Challenge · **Origin:** PlayStation — *Take the Cannoli*
 
-**How to verify:** Pause > Stats shows the criminal rating title 'Godfather' (100,000 rating threshold since patch 1.02; keep the game updated).
+**How to verify:** Pause > Stats shows the criminal rating title 'Godfather' (the threshold was reportedly lowered in patch 1.02; keep the game updated); Your Rockstar Games Social Club profile lists it as unlocked for this game.
 
 ---
 
@@ -331,36 +350,209 @@ Earn 100% completion.
 
 ---
 
+### `GTAVCDE-028` 🥉 Born in the 80's
+
+Listen to every music station at least once.
+
+**Tier:** 🥉 Bronze · **Type:** Exploration · **Origin:** PlayStation — *Born in the 80's*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-029` 🥉 Don't Need Roads
+
+Hit max speed in a Deluxo.
+
+**Tier:** 🥉 Bronze · **Type:** Mechanic · **Origin:** PlayStation — *Don't Need Roads*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-030` 🥈 Point A to Point B
+
+Drop off 25 passengers driving the taxi.
+
+**Tier:** 🥈 Silver · **Type:** Side Quest · **Origin:** PlayStation — *Point A to Point B*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-031` 🥈 High Quality H2O
+
+Extinguish 10 fires.
+
+**Tier:** 🥈 Silver · **Type:** Side Quest · **Origin:** PlayStation — *High Quality H2O*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-032` 🥉 Pie Guy
+
+Deliver 10 pizzas.
+
+**Tier:** 🥉 Bronze · **Type:** Side Quest · **Origin:** PlayStation — *Pie Guy*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-033` 🥉 Vice City Mogul
+
+Own 10 properties.
+
+**Tier:** 🥉 Bronze · **Type:** Mechanic · **Origin:** PlayStation — *Vice City Mogul*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-034` 🥈 One is Better Than Two
+
+Perform a 30-second wheelie.
+
+**Tier:** 🥈 Silver · **Type:** Challenge · **Origin:** PlayStation — *One is Better Than Two*
+
+**How to verify:** The wheelie stunt bonus message shows the duration; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-035` 🥇 City Sleuth
+
+Find all 100 Hidden Packages.
+
+**Tier:** 🥇 Gold · **Type:** Collection · **Origin:** PlayStation — *City Sleuth*
+
+**How to verify:** A reward spawns at the main safehouses every 10 packages, and the Pause > Stats completion percentage rises with each package; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-036` 🥈 Daredevil
+
+Complete 36 unique jumps.
+
+**Tier:** 🥈 Silver · **Type:** Exploration · **Origin:** PlayStation — *Daredevil*
+
+**How to verify:** Each unique jump shows the Unique Stunt Bonus message; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-037` 🥉 Put 'Em Up
+
+Knock off 15 stores.
+
+**Tier:** 🥉 Bronze · **Type:** Side Quest · **Origin:** Native — *Put 'Em Up*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-038` 🥉 Offender
+
+Attain 50 wanted stars (source text reads 'wanted starts'; whether it counts cumulatively is unconfirmed).
+
+**Tier:** 🥉 Bronze · **Type:** Mechanic · **Origin:** Native — *Offender*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-039` 🥈 Retro Lewk
+
+Wear every outfit in the game at least once.
+
+**Tier:** 🥈 Silver · **Type:** Collection · **Origin:** Native — *Retro Lewk*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-040` 🥈 Scouring the City!
+
+Find 50 Hidden Packages.
+
+**Tier:** 🥈 Silver · **Type:** Collection · **Origin:** Native — *Scouring the City!*
+
+**How to verify:** A reward spawns at the main safehouses every 10 packages; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-041` 🥉 Break it Up
+
+Cause $500,000 in property damage.
+
+**Tier:** 🥉 Bronze · **Type:** Mechanic · **Origin:** Native — *Break it Up*
+
+**How to verify:** Pause > Stats shows the property damage total; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-042` 🥉 Target Practice
+
+Perform 50 headshots.
+
+**Tier:** 🥉 Bronze · **Type:** Challenge · **Origin:** Native — *Target Practice*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-043` 🥇 Prime Real Estate
+
+Purchase every property.
+
+**Tier:** 🥇 Gold · **Type:** Side Quest · **Origin:** Native — *Prime Real Estate*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-044` 🥈 Vice Vice Baby
+
+Complete the Cherry Popper dealer subgame.
+
+**Tier:** 🥈 Silver · **Type:** Minigame · **Origin:** Native — *Vice Vice Baby*
+
+**How to verify:** Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+---
+
+### `GTAVCDE-045` 🥈 Baked Distractions
+
+During 'Sir, Yes Sir!', hijack the tank without alerting the army first. ⚠️ MISSABLE
+
+**Tier:** 🥈 Silver · **Type:** Challenge · **Origin:** Native — *Baked Distractions*
+
+**How to verify:** You enter the tank before any alarm is raised, then Mission Passed appears; Your Rockstar Games Social Club profile lists it as unlocked for this game.
+
+⚠️ **MISSABLE**
+
+---
+
 ### `GTAVCDE-027` 💎 The Vercetti Empire
 
 Earn every other trophy.
 
 **Tier:** 💎 Platinum · **Type:** Challenge
 
-**How to verify:** All base-game trophies show as earned.
+**How to verify:** Every other trophy in this list is marked earned in Pantheon.
 
 ---
 
 ## Excluded from the Native List
 
-10 native entries were deliberately dropped (Rule 22).
+1 native entries were deliberately dropped (Rule 22).
 
 | Native achievement | Reason | Rule |
 |---|---|---|
 | Kingpin | Native Platinum replaced by Pantheon's original thematic Platinum. | Rule 18 |
-| Born in the 80's | Listen to every radio station — the game does not record which stations were heard. | Rule 1 |
-| Don't Need Roads | Hit max speed in a Deluxo — there is no speedometer to confirm the condition; arbitrary action. | Rule 1 |
-| Point A to Point B | Cumulative 25 taxi passengers — no confirmed in-game counter. | Rule 2 |
-| High Quality H2O | Cumulative 10 fires — no confirmed in-game counter. | Rule 2 |
-| Pie Guy | Cumulative 10 pizza deliveries — no confirmed in-game counter. | Rule 2 |
-| Vice City Mogul | Own 10 properties - no owned-property counter confirmed and sources disagree on what counts as a property (15/17/18). | Rule 2 |
-| One is Better Than Two | 30-second wheelie - no confirmed on-screen wheelie timer in the Definitive Edition. | Rule 1 |
-| City Sleuth | 100 hidden packages - no confirmed running package count; packages remain required by Done it All (100%). | Rule 1 |
-| Daredevil | 36 unique jumps — per-jump bonus shown but no confirmed running total; jumps remain required by the 100% trophy. | Rule 1 |
 
 ## Notes
 
-Port Mode from the PS4/PS5 list (34 trophies: 1 Platinum, 5 Gold, 9 Silver, 19 Bronze). City Sleuth tier conflicts between sources (Gold on gtabase, Silver on PowerPyx); Gold kept because it is the only assignment consistent with the 5/9/19 totals. Conservative build at the player's request: the only in-game counters treated as confirmed are the Pause > Stats completion percentage plus the specific Stats rows the player accepted at checkpoint (Criminal Rating; Vice City media attention and property damage; San Andreas attribute bars and weapon skills) - those rows are medium-confidence, sourced from guides rather than a captured Definitive Edition screen; every native entry that depends on an unconfirmed cumulative counter was filtered (Rule 1-2). Several such activities remain covered implicitly by the 100% completion trophy, whose percentage IS shown in Stats. Mission-condition trophies are verified by what the player observes before the Mission Passed screen; mission replay for passed story missions is unconfirmed for the Definitive Edition (one guide says none exists), so those are flagged MISSABLE as the safe assumption. Story mission totals are disputed across sources, so no trophy cites a mission count. Social Club accomplishments quoted by gtabase/gta.wiki are not console-native and were not imported. The Switch has no native trophies, so cheats have no gating effect here; the list assumes a cheat-free save. Take the Cannoli requires patch 1.02 or later.
+Mirror list (ruleset v2.1, Account-tracked achievements). The player confirmed on 2026-11-13 that their Rockstar Games Social Club account tracks this game's accomplishments for the Nintendo Switch version, so the Social Club page is the verification source for every entry, including counter-based ones the game itself does not display. Imported 1:1 at the player's request: the Social Club list has 43 entries (gta.wiki and gtabase agree on names and descriptions but may share lineage; socialclub.rockstargames.com was not reached directly, so confidence is medium) - the 33 PS4/PS5 gameplay trophies, the Platinum counterpart 'Kingpin' (replaced by Pantheon's own Platinum, Rule 18) and 9 Social Club-only accomplishments (origin native-other, tiers assigned under Rule 5). gta.wiki labels the 9 as Social Club-exclusive but one of its pages calls Retro Lewk a PS trophy; they are absent from the PS list, so they are tagged native-other. Filter (Rules 10, 20, 21) was waived by the player's choice; Prune found no entry clearly needing content missing on Switch (Deluxo for Don't Need Roads and the Cherry Popper subgame for Vice Vice Baby were not explicitly verified on Switch). City Sleuth tier: gtabase says Gold, PowerPyx Silver; Gold kept because gtabase's tiers match the PS 1/5/9/19 totals. 'Offender' reads 'Attain 50 wanted starts' in both sources - treated as a typo for stars. IDs 001-026 and the Platinum (027) are unchanged from v1.0 so recorded progress survives; restored and new entries take 028-045 in import order (restored console entries first, then Social Club-only). The two original v1.0 trophies (Street Legend, Neon Arena) are kept. The count exceeds Rule 4's 40-trophy reference because the mirror is 1:1. Mission-condition trophies stay flagged MISSABLE because mission replay is unconfirmed in the Definitive Edition. Take the Cannoli's Godfather threshold was reportedly lowered to 100,000 in patch 1.02; keep the Switch version updated. Cheats are reported to block achievements on other platforms; assume a cheat-free save.
 
 ---
 
