@@ -1,0 +1,55 @@
+{
+  "verdict": "approve",
+  "confidence": "medium",
+  "findings": [
+    {
+      "id": "GTAVCDE-033",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "Verification claims 'Each purchased property becomes a save point with its own sign'. This is not reliably true: Vice City splits properties into safehouses (save points) and assets (businesses), and sources disagree on whether assets act as save points.",
+      "evidence": "Search of gtabase, PowerPyx and gtaintel shows the safehouse/asset split. One guide says assets can also save, others do not. The claim is unsupported by the dossier.",
+      "suggestion": "Drop the save-point claim. Verify through the Social Club entry or the property count in Pause > Stats."
+    },
+    {
+      "id": "GTAVCDE-035",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "'A new weapon pickup appears at your safehouse every 10 packages' is imprecise. The reward spawns at specific main safehouses (Ocean View Hotel, Vercetti Estate, Hyman Condo), not at whichever safehouse the player uses. Later tiers (80+) are vehicles. The same wording is reused in GTAVCDE-040.",
+      "evidence": "Search results (PowerPyx, progameguides, gtabase) list the three safehouses and vehicle rewards at the upper tiers.",
+      "suggestion": "Reword to 'a reward spawns at the main safehouses every 10 packages', or rely on the Pause > Stats package count."
+    },
+    {
+      "id": "GTAVCDE-038",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "Wording was edited rather than mirrored. 'Offender' adds 'in total' (the source says only 'Attain 50 wanted starts', which is a typo for stars). 'Running Rampant' (013) adds 'in a single run' to the source's 'Complete Vigilante mission level 12'.",
+      "evidence": "dossier_scout_socialclub.json gives the exact source wording for both. 'In total' makes Offender cumulative, which the source does not say. 'Single run' is the PS wording, so it may be correct, but the Social Club dossier does not confirm it.",
+      "suggestion": "Either keep the source wording or note in game.notes that the two phrases are interpretations. Offender's cumulative reading is unverified, so say so."
+    },
+    {
+      "id": "GTAVCDE-025",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "The verification states the 100,000 Godfather threshold since patch 1.02 as fact. The dossier rates this low-medium and marks Switch patch status unverified. game.notes hedges it ('reportedly') but the verification text does not.",
+      "evidence": "Dossier entry for Take the Cannoli: 'Threshold lowered to 100,000 in patch 1.02 (low-medium). Switch patch status unverified.'",
+      "suggestion": "Hedge the number in the verification text, or remove it and rely on the 'Godfather' title in Pause > Stats."
+    },
+    {
+      "id": "GTAVCDE-027",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "Platinum verification says 'All base-game trophies show as earned', but the Switch has no trophy screen. The only tracker is the Social Club page plus Pantheon's own record.",
+      "evidence": "Mirror exception: Switch has no system-level achievements. The Platinum is Pantheon's own (Rules 18 and 23).",
+      "suggestion": "Reword to 'Every other entry is marked complete in the Pantheon tracker'."
+    }
+  ],
+  "strengths": [
+    "1:1 import is complete. 33 console entries, 9 Social Club-only entries (8 are origin native-other, plus Baked Distractions) and Kingpin documented in `excluded`, which reconciles to the 43 source rows. The two Pantheon originals (Street Legend, Neon Arena) and the original Platinum are kept.",
+    "ID stability holds: 001-027 are preserved and 028-045 are appended in a documented order.",
+    "Console entry tiers match the dossier PS tiers, and the City Sleuth Gold-versus-Silver conflict is documented with a rationale.",
+    "The five mission-condition entries (Iron-y, Chopper'd Up, Salutations My Little Friend, Not my First Time, Baked Distractions) are all flagged missable.",
+    "The mirror-exception requirements are met. game.notes records the waived Filter, the player's confirmation that Social Club tracks this version, and the uncertain Prune candidates (Deluxo, Cherry Popper), and discloses that medium confidence rests on gta.wiki and gtabase. The Offender typo correction is also disclosed.",
+    "Mission names, race names and counters (36 jumps, 25 fares, 10 fires, 10 pizzas, 15 stores) match the dossier. Verification for Social Club-tracked counters correctly uses the Social Club page under the v2.1 exception."
+  ],
+  "summary": "The list is a faithful, complete 1:1 mirror of the Social Club source with stable IDs, correct tiers and missable flags, and notes that honestly disclose what could not be verified. The remaining issues are minor imprecisions in a few verification strings and two lightly edited descriptions, none of which block approval. Confidence is medium because the Social Club page itself was never reached and the descriptions rest on gta.wiki and gtabase, which may share lineage."
+}

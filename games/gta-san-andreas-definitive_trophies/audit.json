@@ -1,0 +1,26 @@
+{
+  "verdict": "approve",
+  "confidence": "medium",
+  "findings": [
+    {
+      "id": "GTASADE-007",
+      "severity": "minor",
+      "rule": 22,
+      "problem": "The original v1.0 entry 'Breaking the Bank' has no Social Club counterpart inside a 1:1 mirror.",
+      "evidence": "It is documented in game.notes and verified by the in-game Mission Passed screen, so it is honest. The Social Club page will not show it.",
+      "suggestion": "No change needed. Informational only."
+    }
+  ],
+  "strengths": [
+    "Round 1 fixes hold. GTASADE-003's verification no longer names a location and no longer points at the decoy. GTASADE-004 no longer adds an unsourced detection condition. GTASADE-013 is back to the source wording. GTASADE-038 and 049 state their source ambiguity. GTASADE-044's verification is now realistic.",
+    "The Platinum verification now points to the Pantheon tracker, which is honest.",
+    "No regressions. Tiers, missable flags, originIds and IDs (001-030, 031-049) are unchanged. The 1:1 import is complete: 34 console entries, 13 Social Club-only entries, and the Platinum counterpart excluded under Rule 18.",
+    "game.notes documents the Filter waiver, the Social Club confirmation, the prune result and the disputed Sticky Fingers amount."
+  ],
+  "summary": "All round 1 findings are resolved and nothing regressed. Confidence stays medium because the source list was never read directly from socialclub.rockstargames.com, and Switch Social Club syncing rests on the player's confirmation.",
+  "unverifiable": [
+    "ID stability against v1.0 (no git access)",
+    "Switch Social Club syncing (player-confirmed)",
+    "Exact Social Club wording, and whether the page shows 47 or 48 entries"
+  ]
+}
