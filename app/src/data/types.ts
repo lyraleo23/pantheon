@@ -95,6 +95,22 @@ export interface CatalogEntry {
   dlcTotal: number
 }
 
+/** `challenges/<AAAA-MM>.json`, escrito pelo agente pantheon-challenger. */
+export interface Challenge {
+  id: string
+  title: string
+  /** A regra em texto: o app não a interpreta, só exibe. */
+  condition: string
+  rationale?: string
+  /** AAAA-MM-DD, inclusivos. Só conta troféu obtido dentro da janela. */
+  start: string
+  end: string
+  levels: Record<ChallengeLevel, number>
+  pool: { slug: string; trophyId: string }[]
+}
+
+export type ChallengeLevel = 'mortal' | 'heroi' | 'divino'
+
 export interface Catalog {
   generatedAt: string
   games: CatalogEntry[]

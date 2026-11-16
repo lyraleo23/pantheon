@@ -5,6 +5,7 @@ import { GamePage } from './pages/GamePage'
 import { PendingPage } from './pages/PendingPage'
 import { DrawPage } from './pages/DrawPage'
 import { SettingsPage } from './pages/SettingsPage'
+import { ChallengesPage } from './pages/ChallengesPage'
 
 /**
  * HashRouter em vez de BrowserRouter: o GitHub Pages não reescreve rotas para
@@ -19,6 +20,7 @@ export function App() {
           <Route path="/jogo/:slug" element={<GamePage />} />
           <Route path="/sorteio" element={<DrawPage />} />
           <Route path="/pendentes" element={<PendingPage />} />
+          <Route path="/desafios" element={<ChallengesPage />} />
           <Route path="/ajustes" element={<SettingsPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
