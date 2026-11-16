@@ -1,0 +1,174 @@
+{
+  "beat": "systems / entry gate / version differences (Scout C)",
+  "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2 remake)",
+  "platform": "Nintendo Switch 2",
+  "researchDate": "2026-11-15",
+  "caveat": "Zelda Wiki (zeldawiki.wiki), Nintendo.com, nintendolife.com and gematsu.com returned 403/404 to fetch, so remake facts rest on guide/review sites (KeenGamer, FinalBoss.io, NintendoEverything, Bonus Action, RPGSite, VGC). Several search hits came from junk domains (notices.mce.ca.gov, berkeleyhistoricalsociety.org) and were ignored.",
+  "findings": [
+    {
+      "category": "entry-gate",
+      "name": "No system-level achievements on Switch 2",
+      "detail": "Nintendo (Bill Trinen) confirmed at Switch 2 launch window that the console has no achievement/trophy system. No source found saying this changed. Remake is Switch 2 exclusive (no other platform list exists).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "high",
+      "sources": ["https://www.videogameschronicle.com/news/switch-2-wont-have-achievements-nintendo-confirms/", "https://shacknews.com/article/143808/nintendo-switch-2-achievement-trophy", "https://www.gematsu.com/2026/09/the-legend-of-zelda-ocarina-of-time-remake-launches-november-5"]
+    },
+    {
+      "category": "tracking-system",
+      "name": "ZELDA NOTES (Nintendo Switch App) for Ocarina of Time",
+      "detail": "Day-one patch Version 1.1.1 (about 343 MB, Nov 4) enabled ZELDA NOTES. Off by default; toggle in game Options (right under amiibo connection) or from title screen. Needs Nintendo Switch App on phone, same Nintendo Account, game online. One source counts 11 OoT features; names seen: Map, Gossip Quests, Photo Studio, My Play Data, Global Play Data, Hall of Fallen Foes, Threads of Time, Play Ocarina, Ocarina of Time Quiz (2,000+ questions), Amiibo. Remaining features unnamed.",
+      "trackable": "Phone-app only, not on the Switch 2 itself. Map shows live completion percentage (only explored areas shown). NintendoEverything: Zelda Notes lets you check '100 percent completion status' from phone to find missed items.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bonus-action.com/guides/zelda-notes-ocarina-of-time-features-how-to-use/", "https://nintendoeverything.com/?p=928573", "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-gets-a-day-one-patch-on-Switch-2-adding-Zelda-Notes-support.1442297.0.html", "https://zeldauniverse.net/2026/09/10/zelda-notes-now-include-support-for-the-ocarina-of-time-remake/ (via search snippet)"]
+    },
+    {
+      "category": "tracking-system",
+      "name": "My Play Data (Zelda Notes) and Medals",
+      "detail": "Tracks in-game actions such as cutting grass or breaking pots. Bonus Action says the app has 'medals and achievements for stat milestones' and stat comparisons. In BotW/TotK, medals have four tiers (Bronze, Silver, Gold, Master). OoT medal list/count NOT found.",
+      "trackable": "Phone app only. Medal list for OoT unknown.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://bonus-action.com/guides/zelda-notes-ocarina-of-time-features-how-to-use/"]
+    },
+    {
+      "category": "tracking-system",
+      "name": "Today's Record (Zelda Notes)",
+      "detail": "Daily log of accomplishments with stats such as enemies defeated. Only one weak snippet and KeenGamer mention it; not on the Bonus Action feature list.",
+      "trackable": "Phone app only.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://www.keengamer.com/articles/features/ocarina-of-time-remake-vs-original-biggest-changes-and-new-player-tips/"]
+    },
+    {
+      "category": "tracking-system",
+      "name": "Gossip Quests (Zelda Notes)",
+      "detail": "Phone mini-quests: hint images point to in-game locations/NPCs, perform actions for points; points trade for soundtrack/ocarina music scores. Must open app near the object to record progress; needs Switch 2 and phone nearby.",
+      "trackable": "Points in app.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://bonus-action.com/guides/zelda-notes-ocarina-of-time-features-how-to-use/", "https://www.keengamer.com/articles/features/ocarina-of-time-remake-vs-original-biggest-changes-and-new-player-tips/"]
+    },
+    {
+      "category": "in-game-tracker",
+      "name": "Threads of Time",
+      "detail": "Pause-menu story tracker: illustrated tapestry, recap per completed chapter, shows current objective. Does NOT track optional items like Heart Pieces (FinalBoss). One source (GamesRadar-type snippet) described it as covering main and optional challenges 'in more detail'; conflicts with FinalBoss.",
+      "trackable": "Yes, in game pause menu (story only).",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://finalboss.io/zelda-oot-switch-2-hall-of-fallen-foes-fairy-lore-tapestry", "https://allthings.how/ocarina-of-time-remake-every-change-from-the-n64-original-switch-2/"]
+    },
+    {
+      "category": "in-game-tracker",
+      "name": "Hall of Fallen Foes",
+      "detail": "Replaces/stands in for 3DS Boss Challenge. Enter by choosing 'Go to sleep' in a green-glowing bed. KeenGamer unlock: clear Forest Temple as adult, return Master Sword to become child, talk to Kaepora Gaebora near Kakariko, then sleep in a green-glowing bed (e.g. Kakariko Grand Lodge). FinalBoss says a bed on Lake Hylia shore works (conflicting bed locations; unlock timing only from KeenGamer). Small statues log every defeated enemy type (description, locations, useful items); large statues = boss rematches with a timer; best time kept as Rematch Time on the statue. Trials: Spiritual Stones (Stone Statue: Queen Gohma, King Dodongo, Barinade); Five Sages (Silver Statue: Phantom Ganon, Volvagia, Morpha, Bongo Bongo, Twinrova); Hero of Time (Gold Statue: all prior plus Ganondorf and Ganon; requires finishing story). Clearing a trial adds a trophy to Link's bedroom in Kokiri Forest. Rewards cosmetic only; health carries over between fights in a trial; items restored on leaving. FinalBoss states no timer/records system is mentioned in its guide, which conflicts with KeenGamer.",
+      "trackable": "Yes, in-game: enemy statue collection, per-boss Rematch Time, trial trophies in bedroom. Also a Zelda Notes tile.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.keengamer.com/articles/guides/zelda-ocarina-of-time-how-to-unlock-the-hall-of-fallen-foes/", "https://finalboss.io/zelda-oot-switch-2-hall-of-fallen-foes-fairy-lore-tapestry", "https://nintendoeverything.com/?p=927345"]
+    },
+    {
+      "category": "collectible",
+      "name": "Gold Skulltulas: 100 total (56 overworld, 44 dungeon)",
+      "detail": "Per area: Kokiri Forest+Lost Woods 7; Hyrule Field+Castle 10; Kakariko+Death Mountain 16; Zora Region 8; Lake Hylia 5; Gerudo+Desert 10; first three dungeons (Deku Tree, Dodongo's Cavern, Jabu-Jabu) 13; later dungeons incl. Ice Cavern and Bottom of the Well 31. Five tokens changed vs N64: Zora's River, Lake Hylia (no longer night-only), Lon Lon Ranch (4 to 3) with Hyrule Field gaining one and the SE marsh grotto needing two visits, Water Temple, Deku Tree. House of Skulltula rewards per KeenGamer: 10 = Adult's Wallet; 20 = Echo Gem (replaces Stone of Agony); 30 = Giant's Wallet; 40 = 20 Bombchus; 50 = Piece of Heart; 100 = Gold Rupee (200 Rupees, repeatable). Some tokens age or time-of-day gated; none labeled permanently missable by KeenGamer. Total of 100 is consistent between KeenGamer and FinalBoss, but the 56/44 split and per-area numbers are a single source.",
+      "trackable": "KeenGamer: the map screen shows tokens found per area (not a single total). Not independently confirmed; the in-game token counter on the pause screen was not verified.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.keengamer.com/articles/guides/zelda-ocarina-of-time-remake-all-100-gold-skulltula-locations/", "https://finalboss.io/zelda-oot-switch-2-100-percent-completion-checklist"]
+    },
+    {
+      "category": "collectible",
+      "name": "Heart Pieces: 36; hearts max 20",
+      "detail": "FinalBoss: 3 starting hearts + 8 boss Heart Containers + 9 containers from 36 Heart Pieces = 20. Same as N64 math. Single source; not verified vs a remake item list.",
+      "trackable": "Unconfirmed whether remake shows a heart-piece counter beyond the pause-screen quarter-heart indicator.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://finalboss.io/zelda-oot-switch-2-100-percent-completion-checklist"]
+    },
+    {
+      "category": "collectible",
+      "name": "Other FinalBoss checklist counts",
+      "detail": "5 bottle slots; 12 songs (6 general, 6 warp); 6 Great Fairy rewards; 10 Magic Beans; 10 Big Poes (5 for final bottle, all 10 for 200-Rupee Gold Rupee as stated by FinalBoss). Biggoron trading sequence yields unbreakable Biggoron's Sword. Page says it does not mention any in-game completion percentage or tracker.",
+      "trackable": "Unknown in-game.",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://finalboss.io/zelda-oot-switch-2-100-percent-completion-checklist"]
+    },
+    {
+      "category": "rng",
+      "name": "Fishing Pond (Lake Hylia)",
+      "detail": "Child: Piece of Heart; adult: Golden Scale; Hylian Loach reported catchable in remake. Thresholds conflict: FinalBoss ~10 lb child / 13 lb adult; French guide says remake needs 50 cm or more (vs 10 lb original). Sinking Lure does not count for prizes. Fish size has randomness.",
+      "trackable": "No fishing record confirmed for remake (the original had one on the pond owner dialog).",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://finalboss.io/zelda-oot-switch-2-fishing-golden-scale", "https://www.gamingdeputy.com/france/zelda-ocarina-of-time-attraper-hylian-loach/"]
+    },
+    {
+      "category": "difficulty",
+      "name": "Master Quest not included at launch",
+      "detail": "Nintendo Everything: no Master Quest from the start or after beating the game; reviewer says remake 'isn't any more challenging than the original' and some puzzles simplified. 'Evidence' of Master Quest uncovered in files (dataminers), nothing announced. KeenGamer: no Hero Mode announced. Mirror mode not found in any remake source. No New Game Plus (Portuguese source).",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendoeverything.com/?p=928573", "https://www.keengamer.com/articles/features/ocarina-of-time-remake-vs-original-biggest-changes-and-new-player-tips/"]
+    },
+    {
+      "category": "missable",
+      "name": "Post-game save behavior",
+      "detail": "After credits, Continue loads the last manual save (before the final door/Ganon's Castle sequence); no post-clear save state, same as N64. Single Portuguese source (could not fetch) plus GameWith (original-game page). Remake-specific behavior unverified.",
+      "trackable": "Unknown whether a cleared-file marker shows.",
+      "missable": false,
+      "confidence": "low",
+      "sources": ["https://criticalhits.com.br/games/remake-de-ocarina-of-time-permite-continuar-apos-o-chefe-final/ (via search snippet)"]
+    },
+    {
+      "category": "feature",
+      "name": "Display modes and controls",
+      "detail": "Display modes: Standard (default), Pro (a little extra info), Master (hides all on-screen info). Targeting Hold/Toggle on ZL. Optional motion aiming, subtitles. Manual jump, sprint on roll button, free camera, horizontal item bar, real-time day/night indoors, full voice acting. Navi hints are pop-up. Microphone: hum or sing songs into Switch 2 mic; buttons still work for all songs; separate $49.99 ocarina accessory exists. Fairy thoughts feature. Conversation Log can be reread.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://nintendoeverything.com/?p=927345", "https://allthings.how/ocarina-of-time-remake-every-change-from-the-n64-original-switch-2/", "https://www.creativebloq.com/reviews/the-legend-of-zelda-ocarina-of-time-review-a-sublime-remake-that-enhances-and-enchants-in-equal-measure"]
+    },
+    {
+      "category": "feature",
+      "name": "amiibo",
+      "detail": "Young Link and Young Zelda amiibo unlock retro-themed masks (effect possibly cosmetic). Other amiibo not confirmed.",
+      "trackable": "n/a",
+      "missable": false,
+      "confidence": "medium",
+      "sources": ["https://www.nintendolife.com/guides/zelda-ocarina-of-time-amiibo-unlocks-support-switch-2 (via search snippet)", "https://finalboss.io/zelda-oot-switch-2-amiibo-rewards-retro-masks (via search snippet)"]
+    }
+  ],
+  "trackableStats": [
+    { "stat": "Map completion percentage and collectibles per area", "where": "Zelda Notes app (phone), Map feature; real-time. Gold Skulltula per-area counts reportedly on the in-game map screen (KeenGamer, single source)", "confidence": "medium" },
+    { "stat": "Story progress / chapter recaps", "where": "In-game pause menu, Threads of Time", "confidence": "medium" },
+    { "stat": "Enemy types defeated (statue entries)", "where": "In-game Hall of Fallen Foes; Zelda Notes tile", "confidence": "medium" },
+    { "stat": "Boss rematch best time and trial completion (trophies in Link's bedroom)", "where": "In-game, Hall of Fallen Foes statues; bedroom in Kokiri Forest", "confidence": "medium (KeenGamer only; FinalBoss silent)" },
+    { "stat": "Actions (grass cut, pots broken) and enemies defeated daily", "where": "Zelda Notes: My Play Data / Today's Record (phone only)", "confidence": "low" },
+    { "stat": "Medals", "where": "Zelda Notes, unconfirmed list for OoT", "confidence": "low" }
+  ],
+  "versionNotes": [
+    { "note": "Remake is Switch 2 exclusive; no other platform listed. Developed by Nintendo EPD Production Group No. 3.", "confidence": "high" },
+    { "note": "3DS Boss Challenge appears replaced by Hall of Fallen Foes (statue-based rematches with timer). Master Quest (present on 3DS) is absent at launch.", "confidence": "medium" },
+    { "note": "Gold Skulltula reward at 20 tokens is reportedly an 'Echo Gem' replacing the Stone of Agony; five token locations moved/changed (Lon Lon Ranch 4 to 3).", "confidence": "medium (single source)" },
+    { "note": "Fishing weight thresholds changed to length (50 cm) per one French guide; unconfirmed.", "confidence": "low" },
+    { "note": "A player.one article claims the remake 'removed secret content'; could not be fetched, contents unknown. Another source says many original secrets remain.", "confidence": "low" },
+    { "note": "Hero Mode, mirror mode: no remake source found; treat as absent/unconfirmed.", "confidence": "low" }
+  ],
+  "gaps": [
+    "Could not fetch Zelda Wiki Switch 2 page, Nintendo official page, Nintendo Life, Gematsu: no official first-party confirmation of features.",
+    "Whether the game itself shows a numeric heart-piece or Gold Skulltula total on the pause screen: not confirmed (only KeenGamer's per-area map claim).",
+    "Whether the game has an in-game completion percentage: only the Zelda Notes Map claims it; in-game display unconfirmed.",
+    "Whether Zelda Notes in OoT has medals, how many, and what conditions: unconfirmed. Whether Today's Record is real: only weak sources.",
+    "Whether the Zelda Notes app has its own 'achievements': Bonus Action says 'medals and achievements', and a 2025 VGC report mentions in-app achievement lists on Switch 2 Edition games; neither confirmed for OoT. This would NOT be a system-level list.",
+    "Hall of Fallen Foes unlock condition and bed locations conflict between sources; timer/records conflict.",
+    "Missable content: no remake-specific list found. Original N64 missables (Gold Skulltulas that required timing, e.g. kid-only/adult-only, Kakariko windmill/other) NOT verified for remake. Big Poe 10 count and Biggoron sequence timings not verified.",
+    "Fishing remake thresholds and whether fishing record is displayed unverified.",
+    "Quest Status pause screen details (does it show counts, e.g. Gold Skulltula count) not verified.",
+    "GameChat, Nintendo Switch Online, multiplayer features: nothing found; likely none.",
+    "Master Quest DLC rumor: only 'datamined' claim, unconfirmed.",
+    "Save slot count and cleared-file marker unverified."
+  ]
+}
