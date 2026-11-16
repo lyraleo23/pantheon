@@ -1,0 +1,21 @@
+{
+  "verdict": "approve",
+  "confidence": "medium",
+  "findings": [
+    {
+      "id": "GTA3DE-003",
+      "severity": "minor",
+      "rule": 1,
+      "problem": "Some verification text is partly unsourced and was deliberately left as v1.0 text. 003 adds 'easiest off the larger stunt ramps', 013 adds 'in a single run' to the source wording, and 016 claims the Stats completion percentage rises with each package.",
+      "evidence": "The dossier lists per-item Stats counters as unconfirmed. The Social Club clause keeps these non-blocking.",
+      "suggestion": "Optional: trim to sourced wording on a later pass."
+    }
+  ],
+  "strengths": [
+    "030 is now missable:true with a Joey-chain order warning, which fixes the earlier major finding.",
+    "011 is now flagged missable, consistent with 024 and 031. 023 and 025 verification text is softened, and the Platinum verification now points to the Pantheon tracker.",
+    "No regressions found. The 1:1 import is intact (28 console entries, 15 Social Club-only entries, Platinum 018). Names and tiers are unchanged and match the dossier, and the missable flags and provenance are consistent.",
+    "The mirror-exception notes (player confirmation, waived Filter, Prune result, Kingdom Come bug) are still present."
+  ],
+  "summary": "The round-1 major (030 missable flag) and the minor inconsistency (011) are fixed, with no regressions. Only a non-blocking minor on unsourced verification wording remains. Limits: the Social Club site was never checked directly (dossier is gta.wiki and gtabase at medium confidence), git ID stability for 001-018 against v1.0 is unchecked, and Switch tracking of Social Club accomplishments rests on the player's confirmation."
+}
