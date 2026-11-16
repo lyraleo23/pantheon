@@ -13,7 +13,8 @@ export default defineConfig(({ command, isPreview }) => ({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // Versão nova espera a pessoa tocar em "Atualizar" (components/UpdateBar).
+      registerType: 'prompt',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
         id: '.',

@@ -9,6 +9,7 @@
  * Emits:
  *   app/public/data/catalog.json        light index, loaded on startup
  *   app/public/data/games/<slug>.json   the full list, loaded on demand
+ *   app/public/data/challenges.json     every challenges/*.json, newest first
  *
  * Usage:
  *   node scripts/build-catalog.mjs
@@ -31,6 +32,7 @@ const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 const GAMES_DIR = join(ROOT, "games");
 const OUT_DIR = join(ROOT, "app", "public", "data");
 const OUT_GAMES_DIR = join(OUT_DIR, "games");
+const CHALLENGES_DIR = join(ROOT, "challenges");
 
 const TIERS = ["bronze", "silver", "gold", "platinum"];
 
@@ -80,6 +82,8 @@ function run() {
 
   const catalog = [];
   const seen = new Map();
+  // slug → every trophy ID in the list, DLC included. Challenges point here.
+  const ids = new Map();
 
   mkdirSync(OUT_GAMES_DIR, { recursive: true });
 
@@ -103,6 +107,8 @@ function run() {
       process.exit(1);
     }
     seen.set(slug, entry.name);
+
+    ids.set(slug, new Set([...data.trophies, ...(data.dlc ?? []).flatMap((p) => p.trophies)].map((t) => t.id)));
 
     writeFileSync(join(OUT_GAMES_DIR, `${slug}.json`), JSON.stringify(data));
     catalog.push(summarise(data));
@@ -128,6 +134,48 @@ function run() {
   const trophies = catalog.reduce((sum, g) => sum + g.total, 0);
   const dlc = catalog.reduce((sum, g) => sum + g.dlcTotal, 0);
   console.log(`\n  📦 catalog.json — ${catalog.length} games, ${trophies} trophies (+${dlc} DLC)`);
+
+  buildChallenges(ids);
+}
+
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * Challenges carry an explicit pool of trophies, chosen by the
+ * pantheon-challenger agent. The app never interprets the condition, so a pool
+ * entry that points nowhere has to fail here, not silently count as zero.
+ */
+function buildChallenges(ids) {
+  const challenges = [];
+  const files = existsSync(CHALLENGES_DIR)
+    ? readdirSync(CHALLENGES_DIR).filter((f) => f.endsWith(".json"))
+    : [];
+
+  for (const file of files) {
+    const c = JSON.parse(readFileSync(join(CHALLENGES_DIR, file), "utf8"));
+    const fail = (msg) => {
+      console.error(`  ❌ challenges/${file}: ${msg}`);
+      process.exit(1);
+    };
+
+    if (!c.id || !c.title || !DAY.test(c.start) || !DAY.test(c.end)) {
+      fail("needs id, title, start and end (YYYY-MM-DD)");
+    }
+    if (!c.pool?.length) fail("pool is empty");
+    const bad = c.pool.filter((p) => !ids.get(p.slug)?.has(p.trophyId));
+    if (bad.length) fail(`unknown trophies: ${bad.map((p) => `${p.slug}/${p.trophyId}`).join(", ")}`);
+
+    const { mortal, heroi, divino } = c.levels ?? {};
+    if (!(0 < mortal && mortal < heroi && heroi < divino && divino <= c.pool.length)) {
+      fail("levels must satisfy 0 < mortal < heroi < divino <= pool size");
+    }
+
+    challenges.push(c);
+    console.log(`  🎯 ${c.id} — ${c.title}, ${c.pool.length} trophies`);
+  }
+
+  challenges.sort((a, b) => b.start.localeCompare(a.start));
+  writeFileSync(join(OUT_DIR, "challenges.json"), JSON.stringify(challenges));
 }
 
 run();

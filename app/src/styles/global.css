@@ -663,6 +663,34 @@ h3 {
   color: var(--accent);
 }
 
+/* --- Aviso de versão nova ------------------------------------------- */
+
+/* Acima da barra de abas e abaixo dos modais: um modal aberto é o que a pessoa
+   está fazendo agora, e o aviso espera. */
+.update-bar {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: calc(var(--tabbar-h) + 10px + env(safe-area-inset-bottom));
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 588px;
+  margin: 0 auto;
+  padding: 8px 8px 8px 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+.update-bar__text {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 /* --- Modal ----------------------------------------------------------- */
 
 .modal-backdrop {

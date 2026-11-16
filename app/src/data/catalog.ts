@@ -1,4 +1,4 @@
-import type { Catalog, TrophyList } from './types'
+import type { Catalog, Challenge, TrophyList } from './types'
 
 // BASE_URL é '/' em dev e '/pantheon/' no GitHub Pages. Caminho absoluto sem
 // ele quebraria em produção; relativo quebraria nas rotas internas.
@@ -22,6 +22,16 @@ export function loadCatalog(): Promise<Catalog> {
     throw error
   })
   return catalogPromise
+}
+
+let challengesPromise: Promise<Challenge[]> | undefined
+
+export function loadChallenges(): Promise<Challenge[]> {
+  challengesPromise ??= fetchJson<Challenge[]>(`${DATA}challenges.json`).catch((error) => {
+    challengesPromise = undefined
+    throw error
+  })
+  return challengesPromise
 }
 
 export function loadGame(slug: string): Promise<TrophyList> {

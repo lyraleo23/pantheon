@@ -28,6 +28,8 @@
 
       "Write(games/**)",
       "Edit(games/**)",
+      "Write(challenges/**)",
+      "Edit(challenges/**)",
 
       "Bash(node scripts/validate.mjs:*)",
       "Bash(node scripts/render.mjs:*)",
