@@ -9,7 +9,7 @@
  * Emits:
  *   app/public/data/catalog.json        light index, loaded on startup
  *   app/public/data/games/<slug>.json   the full list, loaded on demand
- *   app/public/data/challenges.json     every challenges/*.json, newest first
+ *   app/public/data/challenges.json     every challenges/AAAA-MM-N.json, newest first
  *
  * Usage:
  *   node scripts/build-catalog.mjs
@@ -141,6 +141,13 @@ function run() {
 const DAY = /^\d{4}-\d{2}-\d{2}$/;
 
 /**
+ * A month holds up to this many challenges, each in challenges/AAAA-MM-N.json
+ * with N from 1 to the limit. Raising it is the only change a bigger month needs.
+ */
+const MAX_PER_MONTH = 3;
+const CHALLENGE_ID = /^(\d{4}-\d{2})-(\d+)$/;
+
+/**
  * Challenges carry an explicit pool of trophies, chosen by the
  * pantheon-challenger agent. The app never interprets the condition, so a pool
  * entry that points nowhere has to fail here, not silently count as zero.
@@ -161,6 +168,17 @@ function buildChallenges(ids) {
     if (!c.id || !c.title || !DAY.test(c.start) || !DAY.test(c.end)) {
       fail("needs id, title, start and end (YYYY-MM-DD)");
     }
+
+    // The slot number in the file name is what caps the month: two files can't
+    // share a name, so N in 1..MAX_PER_MONTH means at most that many per month.
+    const [, month, slot] = CHALLENGE_ID.exec(c.id) ?? [];
+    if (!month) fail(`id "${c.id}" must be AAAA-MM-N`);
+    if (file !== `${c.id}.json`) fail(`file name must be ${c.id}.json`);
+    if (!(Number(slot) >= 1 && Number(slot) <= MAX_PER_MONTH)) {
+      fail(`N must be 1 to ${MAX_PER_MONTH}: a month holds at most ${MAX_PER_MONTH} challenges`);
+    }
+    if (c.start.slice(0, 7) !== month) fail(`start ${c.start} is outside ${month}`);
+    if (c.end < c.start) fail("end is before start");
     if (!c.pool?.length) fail("pool is empty");
     const bad = c.pool.filter((p) => !ids.get(p.slug)?.has(p.trophyId));
     if (bad.length) fail(`unknown trophies: ${bad.map((p) => `${p.slug}/${p.trophyId}`).join(", ")}`);
@@ -174,7 +192,10 @@ function buildChallenges(ids) {
     console.log(`  🎯 ${c.id} — ${c.title}, ${c.pool.length} trophies`);
   }
 
-  challenges.sort((a, b) => b.start.localeCompare(a.start));
+  // Newest month first; inside a month, in slot order.
+  challenges.sort(
+    (a, b) => b.start.localeCompare(a.start) || a.id.localeCompare(b.id, "en", { numeric: true }),
+  );
   writeFileSync(join(OUT_DIR, "challenges.json"), JSON.stringify(challenges));
 }
 
