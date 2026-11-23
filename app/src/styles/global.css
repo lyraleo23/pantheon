@@ -553,6 +553,33 @@ h3 {
   font-size: 13px;
 }
 
+/* Ação discreta no fim da linha, como ignorar um troféu num desafio. */
+.trophy__aside {
+  flex: none;
+  align-self: center;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  margin-right: -6px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.trophy__aside:hover,
+.trophy__aside:focus-visible {
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+.trophy.is-muted {
+  opacity: 0.55;
+}
+
 .trophy__detail {
   padding: 0 12px 12px 52px;
   color: var(--text-dim);

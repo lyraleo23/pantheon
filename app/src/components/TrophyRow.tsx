@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import type { Trophy } from '../data/types'
 import { ORIGIN_LABEL, TIER_ICON, TIER_LABEL, TYPE_LABEL } from '../lib/labels'
 import { formatDate } from '../lib/format'
@@ -16,10 +16,23 @@ interface Props {
   reveal: boolean
   /** De onde o troféu veio, quando a linha aparece fora da página do jogo. */
   subtitle?: string
+  /** Ação extra no fim da linha, fora do alvo que abre o detalhe. */
+  aside?: ReactNode
+  /** Linha apagada: está ali só porque o jogador pediu para ver. */
+  muted?: boolean
   onToggle: () => void
 }
 
-export function TrophyRow({ trophy, earnedAt, derived, reveal, subtitle, onToggle }: Props) {
+export function TrophyRow({
+  trophy,
+  earnedAt,
+  derived,
+  reveal,
+  subtitle,
+  aside,
+  muted,
+  onToggle,
+}: Props) {
   // `null` = segue o padrão; o toque no corpo é que grava uma escolha manual.
   const [override, setOverride] = useState<boolean | null>(null)
   const [revealedHere, setRevealedHere] = useState(false)
@@ -39,7 +52,7 @@ export function TrophyRow({ trophy, earnedAt, derived, reveal, subtitle, onToggl
 
   return (
     <div
-      className={earned ? 'trophy is-earned' : 'trophy'}
+      className={['trophy', earned && 'is-earned', muted && 'is-muted'].filter(Boolean).join(' ')}
       style={{ ['--tier-color' as string]: `var(--${trophy.tier})` }}
     >
       <div className="trophy__head">
@@ -77,6 +90,8 @@ export function TrophyRow({ trophy, earnedAt, derived, reveal, subtitle, onToggl
             {trophy.secret && <span title="Secreto">🔒</span>}
           </span>
         </button>
+
+        {aside}
       </div>
 
       {open && (

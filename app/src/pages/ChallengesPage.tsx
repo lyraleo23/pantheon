@@ -1,18 +1,21 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { loadCatalog, loadChallenges, loadGame } from '../data/catalog'
-import type { Challenge, ChallengeLevel, TrophyList } from '../data/types'
+import type { Challenge, ChallengeLevel, Trophy, TrophyList } from '../data/types'
 import { useAsync } from '../hooks/useAsync'
 import {
   EMPTY_GAME,
   shelfOf,
+  toggleIgnored,
   toggleTrophy,
+  trophyKey,
   useProgress,
   type GameProgress,
   type ProgressState,
 } from '../store/progress'
 import { platinumUnlocked } from '../lib/stats'
 import { TrophyRow } from '../components/TrophyRow'
+import { EyeIcon, EyeOffIcon } from '../components/icons'
 
 const LEVELS: { key: ChallengeLevel; label: string; icon: string }[] = [
   { key: 'mortal', label: 'Mortal', icon: '🗿' },
@@ -236,31 +239,43 @@ function CurrentChallenge({
   const done = countDone(challenge, progress)
   const [from, to] = windowOf(challenge)
   const daysLeft = Math.ceil((to - Date.now()) / 86_400_000)
+  const [showIgnored, setShowIgnored] = useState(false)
+  const ignored = new Set(progress.challenges?.[challenge.id]?.ignored)
 
   // Agrupa o pool por jogo, na ordem do catálogo, para dar cara de "volte a este jogo".
   // Fica o que conta (obtido na janela, de qualquer lista) e o que dá para buscar
   // (pendente de jogo ativo). Obtido antes do início não volta a valer, e
-  // pendente de jogo no backlog não é indicado.
+  // pendente de jogo no backlog não é indicado. Pendente que o jogador ignorou
+  // sai das indicações e só volta à vista com "Mostrar ignorados".
   // Contando por jogo, o jogo que já valeu no mês não pede mais nada: só mostra o obtido.
   const counted = new Set(
     challenge.countBy === 'game' ? earnedInWindow(challenge, progress).map((p) => p.slug) : [],
   )
-  const groups = lists
-    .map((list) => {
-      const game = progress.games[list.game.slug] ?? EMPTY_GAME
-      const ids = new Set(challenge.pool.filter((p) => p.slug === list.game.slug).map((p) => p.trophyId))
-      const benched = ids.size > 0 && (onBacklog(list, game) || counted.has(list.game.slug))
-      const all = [...list.trophies, ...(list.dlc ?? []).flatMap((p) => p.trophies)]
-      const trophies = all.filter((t) => {
-        if (!ids.has(t.id)) return false
-        const at = game.earned[t.id]
-        return at === undefined ? !benched : at >= from && at < to
-      })
-      return { list, game, trophies }
-    })
-    .filter((g) => g.trophies.length > 0)
+  const all = lists.map((list) => {
+    const slug = list.game.slug
+    const game = progress.games[slug] ?? EMPTY_GAME
+    const ids = new Set(challenge.pool.filter((p) => p.slug === slug).map((p) => p.trophyId))
+    const benched = ids.size > 0 && (onBacklog(list, game) || counted.has(slug))
+    const rows: { trophy: Trophy; skipped: boolean }[] = []
+    for (const trophy of [...list.trophies, ...(list.dlc ?? []).flatMap((p) => p.trophies)]) {
+      if (!ids.has(trophy.id)) continue
+      const at = game.earned[trophy.id]
+      if (at !== undefined) {
+        if (at >= from && at < to) rows.push({ trophy, skipped: false })
+      } else if (!benched) {
+        rows.push({ trophy, skipped: ignored.has(trophyKey(slug, trophy.id)) })
+      }
+    }
+    return { list, game, rows }
+  })
 
-  const shown = groups.reduce((sum, g) => sum + g.trophies.length, 0)
+  const kept = all.filter((g) => g.rows.some((r) => !r.skipped))
+  const shown = kept.reduce((sum, g) => sum + g.rows.filter((r) => !r.skipped).length, 0)
+  const skipped = all.reduce((sum, g) => sum + g.rows.filter((r) => r.skipped).length, 0)
+  const listing = showIgnored && skipped > 0
+  const groups = all
+    .map((g) => ({ ...g, rows: listing ? g.rows : g.rows.filter((r) => !r.skipped) }))
+    .filter((g) => g.rows.length > 0)
 
   return (
     <section className="stack" style={{ marginBottom: 24 }}>
@@ -274,37 +289,85 @@ function CurrentChallenge({
             </p>
           )}
           <p className="hint" style={{ margin: '4px 0 0' }}>
-            {shown} troféus em {groups.length} {groups.length === 1 ? 'jogo ativo' : 'jogos ativos'} ·{' '}
+            {shown} troféus em {kept.length} {kept.length === 1 ? 'jogo ativo' : 'jogos ativos'} ·{' '}
             {daysLeft} {daysLeft === 1 ? 'dia restante' : 'dias restantes'}
           </p>
         </div>
         <LevelTrack challenge={challenge} done={done} />
       </div>
 
-      {groups.length === 0 && (
-        <div className="empty">
-          <div className="empty__icon">📚</div>
-          <p className="empty__title">Nenhum troféu deste desafio em jogos ativos</p>
-          <p className="hint">
-            O que falta está em jogos do backlog. Abra um e toque em “Adicionar à lista principal”.
-          </p>
+      {skipped > 0 && (
+        <div className="chip-grid">
+          <button
+            type="button"
+            className={listing ? 'chip-option is-active' : 'chip-option'}
+            onClick={() => setShowIgnored(!listing)}
+            aria-pressed={listing}
+          >
+            🙈 Mostrar ignorados · {skipped}
+          </button>
         </div>
       )}
 
-      {groups.map(({ list, game, trophies }) => (
+      {groups.length === 0 &&
+        (skipped > 0 ? (
+          <div className="empty">
+            <div className="empty__icon">🙈</div>
+            <p className="empty__title">Tudo o que sobrou foi ignorado</p>
+            <p className="hint">
+              Toque em “Mostrar ignorados” para trazer algum de volta, ou adicione um jogo do backlog à
+              lista principal.
+            </p>
+          </div>
+        ) : (
+          <div className="empty">
+            <div className="empty__icon">📚</div>
+            <p className="empty__title">Nenhum troféu deste desafio em jogos ativos</p>
+            <p className="hint">
+              O que falta está em jogos do backlog. Abra um e toque em “Adicionar à lista principal”.
+            </p>
+          </div>
+        ))}
+
+      {groups.map(({ list, game, rows }) => (
         <div key={list.game.slug} className="trophy-list">
           <h3 className="section-title">
             <Link to={`/jogo/${list.game.slug}`}>{list.game.title}</Link>
           </h3>
-          {trophies.map((t) => (
-            <TrophyRow
-              key={t.id}
-              trophy={t}
-              earnedAt={game.earned[t.id]}
-              reveal={game.revealSecrets ?? false}
-              onToggle={() => toggleTrophy(list.game.slug, t.id)}
-            />
-          ))}
+          {rows.map(({ trophy: t, skipped: off }) => {
+            const reveal = game.revealSecrets ?? false
+            const name = t.secret && !reveal ? 'troféu oculto' : t.name
+            return (
+              <TrophyRow
+                key={t.id}
+                trophy={t}
+                earnedAt={game.earned[t.id]}
+                reveal={reveal}
+                muted={off}
+                subtitle={off ? 'Ignorado neste desafio' : undefined}
+                aside={
+                  // Só o que falta se ignora: obtido na janela já conta e fica.
+                  game.earned[t.id] === undefined && (
+                    <button
+                      type="button"
+                      className="trophy__aside"
+                      onClick={() => {
+                        toggleIgnored(challenge.id, trophyKey(list.game.slug, t.id))
+                        // Devolveu o último: o botão some, e o próximo ignorado
+                        // não pode reaparecer já à vista.
+                        if (off && skipped === 1) setShowIgnored(false)
+                      }}
+                      aria-label={off ? `Voltar a indicar ${name}` : `Ignorar ${name} neste desafio`}
+                      title={off ? 'Voltar a indicar' : 'Ignorar neste desafio'}
+                    >
+                      {off ? <EyeIcon /> : <EyeOffIcon />}
+                    </button>
+                  )
+                }
+                onToggle={() => toggleTrophy(list.game.slug, t.id)}
+              />
+            )
+          })}
         </div>
       ))}
     </section>
