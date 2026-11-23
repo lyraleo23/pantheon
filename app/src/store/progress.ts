@@ -25,9 +25,26 @@ export interface GameProgress {
   shelf?: Shelf
 }
 
+/** O que o jogador decidiu sobre um desafio. Não mexe no progresso dos jogos. */
+export interface ChallengeProgress {
+  /**
+   * `slug/trophyId` que o jogador tirou das indicações deste desafio, por achar
+   * difícil ou longe demais. Vale só aqui: o troféu segue normal no jogo e em
+   * outros desafios, e conta se for obtido mesmo assim.
+   */
+  ignored: string[]
+}
+
 export interface ProgressState {
   version: 1
   games: Record<string, GameProgress>
+  /** Por id de desafio. Opcional: progresso salvo antes disso não tem. */
+  challenges?: Record<string, ChallengeProgress>
+}
+
+/** Chave de um troféu dentro de `ChallengeProgress.ignored`. */
+export function trophyKey(slug: string, trophyId: string): string {
+  return `${slug}/${trophyId}`
 }
 
 /** Referência estável: jogo nunca aberto não pode gerar objeto novo a cada render. */
@@ -43,7 +60,7 @@ function read(): ProgressState {
 
     const parsed = JSON.parse(raw) as Partial<ProgressState>
     if (!parsed || typeof parsed !== 'object' || !parsed.games) return EMPTY_STATE
-    return { version: 1, games: parsed.games }
+    return { version: 1, games: parsed.games, challenges: parsed.challenges }
   } catch {
     // Storage corrompido ou bloqueado não pode impedir o app de abrir.
     return EMPTY_STATE
@@ -126,6 +143,16 @@ export function shelfOf(game: GameProgress): Shelf {
 /** Só muda de lista: o progresso do jogo fica intacto. */
 export function setShelf(slug: string, shelf: Shelf) {
   update(slug, (game) => ({ ...game, shelf }))
+}
+
+/** Tira o troféu das indicações do desafio, ou devolve se já estava fora. */
+export function toggleIgnored(challengeId: string, key: string) {
+  const ignored = state.challenges?.[challengeId]?.ignored ?? []
+  const next = ignored.includes(key) ? ignored.filter((k) => k !== key) : [...ignored, key]
+  commit({
+    ...state,
+    challenges: { ...state.challenges, [challengeId]: { ignored: next } },
+  })
 }
 
 export function clearGame(slug: string) {

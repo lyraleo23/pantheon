@@ -1,4 +1,4 @@
-import { getState, type GameProgress, type ProgressState } from './progress'
+import { getState, type ChallengeProgress, type GameProgress, type ProgressState } from './progress'
 import { getPrefs, type Prefs } from './prefs'
 
 /**
@@ -86,9 +86,17 @@ export function parseBackup(text: string): ParsedBackup {
     }
   }
 
+  // Ignorados de desafio também são acessório: backup antigo não tem, e entrada
+  // estranha cai fora sem barrar o resto.
+  const challenges: Record<string, ChallengeProgress> = {}
+  for (const [id, challenge] of Object.entries(backup.progress?.challenges ?? {})) {
+    if (!Array.isArray(challenge?.ignored)) continue
+    challenges[id] = { ignored: challenge.ignored.filter((key) => typeof key === 'string') }
+  }
+
   // As preferências são acessório: `replacePrefs` descarta o que não reconhece,
   // então um arquivo sem elas — ou com lixo — importa o progresso do mesmo jeito.
-  return { progress: { version: 1, games: clean }, prefs: backup.prefs }
+  return { progress: { version: 1, games: clean, challenges }, prefs: backup.prefs }
 }
 
 /** Resumo mostrado na confirmação, antes de sobrescrever o que já existe. */
