@@ -183,13 +183,20 @@ function buildChallenges(ids) {
     const bad = c.pool.filter((p) => !ids.get(p.slug)?.has(p.trophyId));
     if (bad.length) fail(`unknown trophies: ${bad.map((p) => `${p.slug}/${p.trophyId}`).join(", ")}`);
 
+    // countBy "game" makes the levels count distinct games, so they cap at the
+    // number of games in the pool instead of the number of trophies.
+    const countBy = c.countBy ?? "trophy";
+    if (countBy !== "trophy" && countBy !== "game") fail(`countBy must be "trophy" or "game"`);
+    const games = new Set(c.pool.map((p) => p.slug)).size;
+    const cap = countBy === "game" ? games : c.pool.length;
     const { mortal, heroi, divino } = c.levels ?? {};
-    if (!(0 < mortal && mortal < heroi && heroi < divino && divino <= c.pool.length)) {
-      fail("levels must satisfy 0 < mortal < heroi < divino <= pool size");
+    if (!(0 < mortal && mortal < heroi && heroi < divino && divino <= cap)) {
+      fail(`levels must satisfy 0 < mortal < heroi < divino <= ${countBy === "game" ? "games" : "pool size"} (${cap})`);
     }
 
     challenges.push(c);
-    console.log(`  🎯 ${c.id} — ${c.title}, ${c.pool.length} trophies`);
+    const unit = countBy === "game" ? `, counted by game (${games} games)` : "";
+    console.log(`  🎯 ${c.id} — ${c.title}, ${c.pool.length} trophies${unit}`);
   }
 
   // Newest month first; inside a month, in slot order.
