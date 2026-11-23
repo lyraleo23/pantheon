@@ -427,6 +427,13 @@ h3 {
   color: var(--text);
 }
 
+/* Rótulo livre, como o título de um desafio: corta em reticências em vez de empurrar. */
+.segmented__label {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .segmented__count {
   color: var(--text-faint);
   font-size: 12px;

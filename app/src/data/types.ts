@@ -95,8 +95,12 @@ export interface CatalogEntry {
   dlcTotal: number
 }
 
-/** `challenges/<AAAA-MM>.json`, escrito pelo agente pantheon-challenger. */
+/**
+ * `challenges/<AAAA-MM>-<N>.json`, escrito pelo agente pantheon-challenger. Um
+ * mês comporta de 1 a 3 desafios; o limite é conferido em `build-catalog.mjs`.
+ */
 export interface Challenge {
+  /** `AAAA-MM-N`: o mês e a vaga dele (1, 2 ou 3). */
   id: string
   title: string
   /** A regra em texto: o app não a interpreta, só exibe. */
