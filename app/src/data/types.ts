@@ -110,6 +110,11 @@ export interface Challenge {
   start: string
   end: string
   levels: Record<ChallengeLevel, number>
+  /**
+   * O que os níveis contam. `trophy` (padrão): cada troféu do pool obtido.
+   * `game`: cada jogo distinto com ao menos um troféu do pool obtido.
+   */
+  countBy?: 'trophy' | 'game'
   pool: { slug: string; trophyId: string }[]
 }
 

@@ -41,13 +41,19 @@ function windowOf(c: Challenge): [number, number] {
   return [from, to]
 }
 
-/** Quantos troféus do pool foram obtidos dentro da janela. Antes dela não vale. */
-function countDone(c: Challenge, progress: ProgressState): number {
+/** Troféus do pool obtidos dentro da janela. Antes dela não vale. */
+function earnedInWindow(c: Challenge, progress: ProgressState) {
   const [from, to] = windowOf(c)
   return c.pool.filter(({ slug, trophyId }) => {
     const at = progress.games[slug]?.earned[trophyId]
     return at !== undefined && at >= from && at < to
-  }).length
+  })
+}
+
+/** O que os níveis medem: troféus obtidos ou, com `countBy: 'game'`, jogos distintos. */
+function countDone(c: Challenge, progress: ProgressState): number {
+  const earned = earnedInWindow(c, progress)
+  return c.countBy === 'game' ? new Set(earned.map((p) => p.slug)).size : earned.length
 }
 
 function levelReached(c: Challenge, done: number) {
@@ -235,11 +241,15 @@ function CurrentChallenge({
   // Fica o que conta (obtido na janela, de qualquer lista) e o que dá para buscar
   // (pendente de jogo ativo). Obtido antes do início não volta a valer, e
   // pendente de jogo no backlog não é indicado.
+  // Contando por jogo, o jogo que já valeu no mês não pede mais nada: só mostra o obtido.
+  const counted = new Set(
+    challenge.countBy === 'game' ? earnedInWindow(challenge, progress).map((p) => p.slug) : [],
+  )
   const groups = lists
     .map((list) => {
       const game = progress.games[list.game.slug] ?? EMPTY_GAME
       const ids = new Set(challenge.pool.filter((p) => p.slug === list.game.slug).map((p) => p.trophyId))
-      const benched = ids.size > 0 && onBacklog(list, game)
+      const benched = ids.size > 0 && (onBacklog(list, game) || counted.has(list.game.slug))
       const all = [...list.trophies, ...(list.dlc ?? []).flatMap((p) => p.trophies)]
       const trophies = all.filter((t) => {
         if (!ids.has(t.id)) return false

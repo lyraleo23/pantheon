@@ -44,9 +44,12 @@ A month holds 1 to 3 challenges running side by side. You write one of them, in 
   "start": "2026-12-01",
   "end": "2026-12-31",
   "levels": { "mortal": 3, "heroi": 7, "divino": 12 },
+  "countBy": "trophy",
   "pool": [{ "slug": "gta-iii-definitive", "trophyId": "GTA3DE-004" }]
 }
 ```
+
+`countBy` is optional and defaults to `"trophy"` (levels count trophies earned). Use `"game"` when the challenge is about variety ("one trophy in each of N different games"): the levels then count distinct games with at least one pool trophy earned, so size them against the number of games in the pool, not the trophies.
 
 `start` is the first day of the month and `end` the last. Write the file with exactly these keys; do not touch anything else in the repo.
 
