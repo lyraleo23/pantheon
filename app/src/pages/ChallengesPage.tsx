@@ -15,7 +15,7 @@ import {
 } from '../store/progress'
 import { platinumUnlocked } from '../lib/stats'
 import { TrophyRow } from '../components/TrophyRow'
-import { EyeIcon, EyeOffIcon } from '../components/icons'
+import { ArrowUpRightIcon, ChevronDownIcon, EyeIcon, EyeOffIcon } from '../components/icons'
 
 const LEVELS: { key: ChallengeLevel; label: string; icon: string }[] = [
   { key: 'mortal', label: 'Mortal', icon: '🗿' },
@@ -34,6 +34,35 @@ function loadPick(): string | undefined {
     return localStorage.getItem(PICK_KEY) ?? undefined
   } catch {
     return undefined
+  }
+}
+
+/**
+ * Jogos com a lista aberta, por desafio. Começa tudo recolhido para o desafio
+ * caber na tela como um índice de jogos; voltar de um jogo não pode fechar o
+ * que estava aberto. Também fica fora do backup.
+ */
+const OPEN_KEY = 'pantheon-challenge-open-v1'
+
+function readOpen(): Record<string, unknown> {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(OPEN_KEY) ?? '{}') as unknown
+    return parsed && typeof parsed === 'object' ? (parsed as Record<string, unknown>) : {}
+  } catch {
+    return {}
+  }
+}
+
+function loadOpen(challengeId: string): string[] {
+  const slugs = readOpen()[challengeId]
+  return Array.isArray(slugs) ? slugs.filter((s): s is string => typeof s === 'string') : []
+}
+
+function saveOpen(challengeId: string, slugs: string[]) {
+  try {
+    localStorage.setItem(OPEN_KEY, JSON.stringify({ ...readOpen(), [challengeId]: slugs }))
+  } catch {
+    // Modo privado do Safari e afins: vale só nesta sessão.
   }
 }
 
@@ -241,6 +270,12 @@ function CurrentChallenge({
   const daysLeft = Math.ceil((to - Date.now()) / 86_400_000)
   const [showIgnored, setShowIgnored] = useState(false)
   const ignored = new Set(progress.challenges?.[challenge.id]?.ignored)
+  const [expanded, setExpanded] = useState(() => loadOpen(challenge.id))
+
+  useEffect(() => saveOpen(challenge.id, expanded), [challenge.id, expanded])
+
+  const toggleGroup = (slug: string) =>
+    setExpanded((open) => (open.includes(slug) ? open.filter((s) => s !== slug) : [...open, slug]))
 
   // Agrupa o pool por jogo, na ordem do catálogo, para dar cara de "volte a este jogo".
   // Fica o que conta (obtido na janela, de qualquer lista) e o que dá para buscar
@@ -329,47 +364,88 @@ function CurrentChallenge({
           </div>
         ))}
 
-      {groups.map(({ list, game, rows }) => (
-        <div key={list.game.slug} className="trophy-list">
-          <h3 className="section-title">
-            <Link to={`/jogo/${list.game.slug}`}>{list.game.title}</Link>
-          </h3>
-          {rows.map(({ trophy: t, skipped: off }) => {
-            const reveal = game.revealSecrets ?? false
-            const name = t.secret && !reveal ? 'troféu oculto' : t.name
+      {groups.length > 0 && (
+        <div className="game-groups">
+          {groups.map(({ list, game, rows }) => {
+            const slug = list.game.slug
+            const isOpen = expanded.includes(slug)
+            const got = rows.filter((r) => game.earned[r.trophy.id] !== undefined).length
+            const pending = rows.filter((r) => !r.skipped && game.earned[r.trophy.id] === undefined).length
+            const left = rows.filter((r) => r.skipped).length
+            const rest = [
+              pending > 0 && `${pending} ${pending === 1 ? 'pendente' : 'pendentes'}`,
+              left > 0 && `${left} ${left === 1 ? 'ignorado' : 'ignorados'}`,
+            ].filter(Boolean)
             return (
-              <TrophyRow
-                key={t.id}
-                trophy={t}
-                earnedAt={game.earned[t.id]}
-                reveal={reveal}
-                muted={off}
-                subtitle={off ? 'Ignorado neste desafio' : undefined}
-                aside={
-                  // Só o que falta se ignora: obtido na janela já conta e fica.
-                  game.earned[t.id] === undefined && (
-                    <button
-                      type="button"
-                      className="trophy__aside"
-                      onClick={() => {
-                        toggleIgnored(challenge.id, trophyKey(list.game.slug, t.id))
-                        // Devolveu o último: o botão some, e o próximo ignorado
-                        // não pode reaparecer já à vista.
-                        if (off && skipped === 1) setShowIgnored(false)
-                      }}
-                      aria-label={off ? `Voltar a indicar ${name}` : `Ignorar ${name} neste desafio`}
-                      title={off ? 'Voltar a indicar' : 'Ignorar neste desafio'}
-                    >
-                      {off ? <EyeIcon /> : <EyeOffIcon />}
-                    </button>
-                  )
-                }
-                onToggle={() => toggleTrophy(list.game.slug, t.id)}
-              />
+              <div key={slug} className={isOpen ? 'game-group is-open' : 'game-group'}>
+                <div className="game-group__head">
+                  <button
+                    type="button"
+                    className="game-group__toggle"
+                    onClick={() => toggleGroup(slug)}
+                    aria-expanded={isOpen}
+                  >
+                    <ChevronDownIcon className="game-group__chevron" width={18} height={18} />
+                    <span className="game-group__title">{list.game.title}</span>
+                    <span className="game-group__count">
+                      {got > 0 && <b>✓ {got}</b>}
+                      {got > 0 && rest.length > 0 && ' · '}
+                      {rest.join(' · ')}
+                    </span>
+                  </button>
+                  <Link
+                    to={`/jogo/${slug}`}
+                    className="game-group__link"
+                    aria-label={`Abrir ${list.game.title}`}
+                    title="Abrir o jogo"
+                  >
+                    <ArrowUpRightIcon width={18} height={18} />
+                  </Link>
+                </div>
+
+                {isOpen && (
+                  <div className="trophy-list">
+                    {rows.map(({ trophy: t, skipped: off }) => {
+                      const reveal = game.revealSecrets ?? false
+                      const name = t.secret && !reveal ? 'troféu oculto' : t.name
+                      return (
+                        <TrophyRow
+                          key={t.id}
+                          trophy={t}
+                          earnedAt={game.earned[t.id]}
+                          reveal={reveal}
+                          muted={off}
+                          subtitle={off ? 'Ignorado neste desafio' : undefined}
+                          aside={
+                            // Só o que falta se ignora: obtido na janela já conta e fica.
+                            game.earned[t.id] === undefined && (
+                              <button
+                                type="button"
+                                className="trophy__aside"
+                                onClick={() => {
+                                  toggleIgnored(challenge.id, trophyKey(slug, t.id))
+                                  // Devolveu o último: o botão some, e o próximo ignorado
+                                  // não pode reaparecer já à vista.
+                                  if (off && skipped === 1) setShowIgnored(false)
+                                }}
+                                aria-label={off ? `Voltar a indicar ${name}` : `Ignorar ${name} neste desafio`}
+                                title={off ? 'Voltar a indicar' : 'Ignorar neste desafio'}
+                              >
+                                {off ? <EyeIcon /> : <EyeOffIcon />}
+                              </button>
+                            )
+                          }
+                          onToggle={() => toggleTrophy(slug, t.id)}
+                        />
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
             )
           })}
         </div>
-      ))}
+      )}
     </section>
   )
 }
