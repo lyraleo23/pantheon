@@ -82,6 +82,13 @@ export const ChevronDownIcon = (props: IconProps) => (
   </Icon>
 )
 
+/** Ir para outra página, quando o toque principal da linha já faz outra coisa. */
+export const ArrowUpRightIcon = (props: IconProps) => (
+  <Icon {...props}>
+    <path d="M7 17 17 7M8 7h9v9" />
+  </Icon>
+)
+
 export const EyeIcon = (props: IconProps) => (
   <Icon {...props}>
     <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" />

@@ -617,6 +617,109 @@ h3 {
   gap: 8px;
 }
 
+/* --- Jogos de um desafio --------------------------------------------- */
+
+/* Recolhido, cada jogo é uma linha: o desafio vira um índice de jogos. */
+.game-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.game-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.game-group.is-open {
+  margin-bottom: 10px;
+}
+
+.game-group__head {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.game-group__toggle {
+  flex: 1;
+  min-width: 0;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 4px 8px 10px;
+  border: none;
+  background: none;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.game-group__chevron {
+  flex: none;
+  color: var(--text-faint);
+  transform: rotate(-90deg);
+  transition: transform 0.15s ease;
+}
+
+.game-group.is-open .game-group__chevron {
+  transform: none;
+}
+
+.game-group__title {
+  flex: 1;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 650;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.game-group__count {
+  flex: none;
+  color: var(--text-faint);
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.game-group__count b {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.game-group__link {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  color: var(--text-faint);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.game-group__link:hover,
+.game-group__link:focus-visible {
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .game-group__chevron {
+    transition: none;
+  }
+}
+
 /* --- Estados --------------------------------------------------------- */
 
 .empty {
